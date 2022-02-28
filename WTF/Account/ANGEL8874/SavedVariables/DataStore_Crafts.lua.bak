@@ -1,0 +1,47 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["Professions"] = {
+					["Cocina"] = {
+						["isSecondary"] = true,
+					},
+					["Alquimia"] = {
+						["isPrimary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Pesca"] = {
+						["isSecondary"] = true,
+					},
+					["Herboristería"] = {
+						["isPrimary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Sacra Orden del Bosque"] = {
+				["Members"] = {
+					["Ijaa"] = {
+						["Professions"] = {
+							2259, -- [1]
+							13614, -- [2]
+							2550, -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1539810371,
+					},
+				},
+			},
+		},
+	},
+}

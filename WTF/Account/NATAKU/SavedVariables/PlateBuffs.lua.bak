@@ -1,0 +1,10 @@
+
+PB_DB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

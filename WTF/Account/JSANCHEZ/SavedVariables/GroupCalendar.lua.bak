@@ -1,0 +1,276 @@
+
+gGroupCalendar_Settings = {
+	["ShowEventsInLocalTime"] = false,
+	["StartOnMonday"] = false,
+	["Debug"] = false,
+	["TwentyFourHourTime"] = false,
+	["PlayerSettings"] = {
+		["WoWArg_Gilraenloss"] = {
+			["AutoSelectPriorityOrder"] = "Date",
+			["Channel"] = {
+				["Password"] = "mono",
+				["Name"] = "fenix",
+				["AutoConfig"] = false,
+				["GuildAdmin"] = false,
+			},
+			["UI"] = {
+				["LockWindow"] = false,
+			},
+			["SavedTemplates"] = {
+				{
+					["mTitle"] = "Prueba",
+					["mType"] = "Holiday",
+					["mGuild"] = "Orden Fenix",
+				}, -- [1]
+				{
+					["mTitle"] = "Prueva",
+					["mType"] = "Holiday",
+					["mGuild"] = "Orden Fenix",
+				}, -- [2]
+				{
+					["mDuration"] = 120,
+					["mTime"] = 1140,
+					["mLimits"] = {
+						["mClassLimits"] = {
+							["P"] = {
+								["mMax"] = 1,
+							},
+							["S"] = {
+								["mMax"] = 1,
+							},
+							["R"] = {
+								["mMax"] = 1,
+							},
+							["D"] = {
+								["mMax"] = 1,
+							},
+							["W"] = {
+								["mMax"] = 1,
+							},
+							["H"] = {
+								["mMax"] = 1,
+							},
+							["K"] = {
+								["mMax"] = 1,
+							},
+							["M"] = {
+								["mMax"] = 1,
+							},
+							["L"] = {
+								["mMax"] = 1,
+							},
+						},
+						["mRoleLimits"] = {
+							["MT"] = {
+								["mMax"] = 1,
+								["mMin"] = 1,
+							},
+							["MH"] = {
+								["mMax"] = 1,
+								["mMin"] = 1,
+							},
+							["MD"] = {
+								["mMax"] = 2,
+								["mMin"] = 1,
+							},
+							["RD"] = {
+								["mMax"] = 2,
+								["mMin"] = 1,
+							},
+						},
+						["mMaxAttendance"] = 5,
+					},
+					["mType"] = "AzjolNerub",
+					["mRoleConfirm"] = true,
+				}, -- [3]
+			},
+			["Security"] = {
+				["Player"] = {
+				},
+				["MinTrustedRank"] = 1,
+			},
+		},
+	},
+	["Format"] = 3,
+	["DebugSettings"] = {
+	},
+	["RealmSettings"] = {
+		["WoWArg"] = {
+			["GuildRanks"] = {
+				["Orden Fenix"] = {
+					"Consul", -- [1]
+					"Maestro", -- [2]
+					"Héroe", -- [3]
+					"Guardián", -- [4]
+					"Campeón", -- [5]
+					"Caballero", -- [6]
+					"Soldado", -- [7]
+					"Refuerzo", -- [8]
+					"Escudero", -- [9]
+					[0] = "Guild Master",
+				},
+			},
+		},
+	},
+}
+gGroupCalendar_Database = {
+	["Format"] = 19,
+	["Backups"] = {
+		["WoWArg_Gilraenloss"] = {
+			{
+				["Database"] = {
+					["PlayerClassCode"] = "H",
+					["Guild"] = "Orden Fenix",
+					["PlayerLevel"] = 80,
+					["IsPlayerOwned"] = true,
+					["UserName"] = "Gilraenloss",
+					["LocalUsers"] = {
+					},
+					["Events"] = {
+					},
+					["Faction"] = "Alliance",
+					["PlayerRaceCode"] = "N",
+					["Realm"] = "WoWArg",
+					["CurrentEventID"] = 0,
+				},
+				["DateTimeStamp"] = 357318755,
+			}, -- [1]
+		},
+	},
+	["Databases"] = {
+		["WoWArg_Gildo"] = {
+			["Guild"] = "Orden Fenix",
+			["AddonVersionUpdated"] = 357318180,
+			["RSVPs"] = {
+				["ID"] = 357329688,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = false,
+			["UserName"] = "Gildo",
+			["LocalUsers"] = {
+				["Gilraenloss"] = true,
+			},
+			["Events"] = {
+			},
+			["Faction"] = "Alliance",
+			["HighestKnownRSVPID"] = 357329688,
+			["AddonVersion"] = "4.6.1",
+			["CurrentEventID"] = 0,
+			["Realm"] = "WoWArg",
+		},
+		["WoWArg_Gilraenloss"] = {
+			["DefaultRole"] = "RD",
+			["PlayerClassCode"] = "H",
+			["Guild"] = "Orden Fenix",
+			["RSVPs"] = {
+				["ID"] = 357329567,
+				["Revision"] = 0,
+				["ChangeList"] = {
+				},
+				["AuthRevision"] = 0,
+			},
+			["PlayerLevel"] = 80,
+			["HighestKnownDatabaseID"] = 357329601,
+			["Changes"] = {
+				["ID"] = 357329601,
+				["Revision"] = 13,
+				["ChangeList"] = {
+					nil, -- [1]
+					{
+						"EVT:1/DEL", -- [1]
+					}, -- [2]
+					nil, -- [3]
+					nil, -- [4]
+					{
+						"EVT:2/DEL", -- [1]
+					}, -- [5]
+					{
+						"EVT:4/NEW:Holiday,4137,,,,", -- [1]
+						"EVT:4/TIT:Prueva", -- [2]
+						"EVT:4/GLD:Orden Fenix", -- [3]
+						"EVT:4/END", -- [4]
+					}, -- [6]
+					{
+						"EVT:4/TIT:Prueba", -- [1]
+					}, -- [7]
+					{
+						"EVT:4/UPD:,4137,1140,300,46,80", -- [1]
+						"EVT:4/DSC:Probando Probando.. Hola Moe!", -- [2]
+						"EVT:4/END", -- [3]
+					}, -- [8]
+					{
+						"EVT:4/ATT:Gilraenloss,4135,55374,Y,NH80,hola &cn;D,Orden Fenix,5,,,RD", -- [1]
+					}, -- [9]
+					{
+						"EVT:4/CNF:AUT/MAX:25", -- [1]
+					}, -- [10]
+					{
+						"EVT:4/ATT:Gilraenloss,4135,55473,C,NH80,,Orden Fenix,5,,,RD", -- [1]
+					}, -- [11]
+					{
+						"EVT:4/ATT:Gilraenloss,4135,55508,S,NH80,,Orden Fenix,5,,,RD", -- [1]
+					}, -- [12]
+					{
+						"EVT:4/TIT:Purupuru", -- [1]
+					}, -- [13]
+				},
+				["AuthRevision"] = 0,
+			},
+			["IsPlayerOwned"] = true,
+			["UserName"] = "Gilraenloss",
+			["LocalUsers"] = {
+				["Gilraenloss"] = true,
+			},
+			["Events"] = {
+				[4137] = {
+					{
+						["mDuration"] = 300,
+						["mMinLevel"] = 46,
+						["mTime"] = 1140,
+						["mDescription"] = "Probando Probando.. Hola Moe!",
+						["mAttendance"] = {
+							["Gilraenloss"] = "4135,55508,S,NH80,,Orden Fenix,5,,,RD",
+						},
+						["mAttendanceMode"] = "ROLE",
+						["mTitle"] = "Purupuru",
+						["mPrivate"] = false,
+						["mLimits"] = {
+							["mMaxAttendance"] = 25,
+							["mRoleLimits"] = {
+								["MT"] = {
+									["mMax"] = 3,
+									["mMin"] = 3,
+								},
+								["MH"] = {
+									["mMax"] = 7,
+									["mMin"] = 6,
+								},
+								["MD"] = {
+									["mMax"] = 10,
+									["mMin"] = 6,
+								},
+								["RD"] = {
+									["mMax"] = 10,
+									["mMin"] = 8,
+								},
+							},
+							["mPriorityOrder"] = "Date",
+						},
+						["mGuild"] = "Orden Fenix",
+						["mMaxLevel"] = 80,
+						["mDate"] = 4137,
+						["mID"] = 4,
+					}, -- [1]
+				},
+			},
+			["Faction"] = "Alliance",
+			["HighestKnownRSVPID"] = 357329567,
+			["PlayerRaceCode"] = "N",
+			["CurrentEventID"] = 4,
+			["Realm"] = "WoWArg",
+		},
+	},
+}

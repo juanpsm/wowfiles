@@ -1,0 +1,7 @@
+
+qcQuestHistory = {
+}
+qcQuest = {
+}
+qcOptions = {
+}

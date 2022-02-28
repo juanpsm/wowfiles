@@ -1,0 +1,2 @@
+
+ZHunterMod_Saved = nil

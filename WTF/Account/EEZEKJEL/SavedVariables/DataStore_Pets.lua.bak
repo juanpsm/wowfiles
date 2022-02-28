@@ -1,0 +1,33 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["lastUpdate"] = 1527103494,
+				["CRITTER"] = {
+					"7382|Atigrado naranja|10676|INV_Box_PetCarrier_01", -- [1]
+					"7381|Atigrado plateado|10678|INV_Box_PetCarrier_01", -- [2]
+					"7385|Gato bombay|10673|INV_Box_PetCarrier_01", -- [3]
+					"7387|Guacamayo rojo|10683|INV_Feather_12", -- [4]
+					"7384|Rex Cornualles|10674|INV_Box_PetCarrier_01", -- [5]
+					"23231|Willy|40613|inv_pet_sleepywilly", -- [6]
+				},
+				["MOUNT"] = {
+					"23588|Carnero de Fiesta de la cerveza|43899|Ability_Mount_MountainRam", -- [1]
+					"20846|Elekk gris|35710|Ability_Mount_RidingElekk_Grey", -- [2]
+					"20847|Elekk morado|35711|Ability_Mount_RidingElekk_Purple", -- [3]
+					"20848|Gran elekk azul|35713|Ability_Mount_RidingElekkElite_Blue", -- [4]
+					"20850|Gran elekk morado|35714|Ability_Mount_RidingElekkElite_Purple", -- [5]
+					"18406|Grifo azul presto|32242|Ability_Mount_Gryphon_01", -- [6]
+					"18357|Grifo de ébano|32239|ability_mount_ebongryphon", -- [7]
+					"18362|Grifo morado presto|32292|Ability_Mount_Gryphon_01", -- [8]
+					"18376|Grifo rojo presto|32289|Ability_Mount_Gryphon_01", -- [9]
+					"18375|Grifo verde presto|32290|Ability_Mount_Gryphon_01", -- [10]
+				},
+			},
+		},
+	},
+}

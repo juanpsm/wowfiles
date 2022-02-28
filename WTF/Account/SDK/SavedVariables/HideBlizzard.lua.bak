@@ -1,0 +1,27 @@
+
+HideBlizzardDB = {
+	["namespaces"] = {
+		["SpecialFrames"] = {
+		},
+		["Player"] = {
+		},
+		["Buttons"] = {
+		},
+		["Target"] = {
+		},
+		["Vehicle"] = {
+		},
+		["Pet"] = {
+		},
+		["ActionBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+	},
+	["profiles"] = {
+		["Eldorath - WoWArg"] = {
+			["Version"] = "1.0.58",
+		},
+	},
+}

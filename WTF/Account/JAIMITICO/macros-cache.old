@@ -1,0 +1,7 @@
+MACRO 2 "aspects" INV_Misc_QuestionMark
+/lanzar Aspecto de la víbora 
+/lanzar Aspecto del halcón(Rango 3)
+END
+MACRO 1 "macro" INV_Misc_QuestionMark
+/macro
+END

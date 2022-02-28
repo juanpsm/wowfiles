@@ -1,0 +1,34 @@
+
+SexyCooldownDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["dbVersion"] = 3,
+	},
+	["profiles"] = {
+		["Elchamaquito - WoWArg"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
+					["bar"] = {
+						["y"] = -541.534841479095,
+						["x"] = 447.9998695442927,
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999922682501,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.99999845365,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

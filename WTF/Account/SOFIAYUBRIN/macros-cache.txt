@@ -1,0 +1,16 @@
+MACRO 1 "Decursive" INV_Misc_QuestionMark
+/script Dcr:Println('No spell available')
+END
+MACRO 3 "Odio" Ability_Druid_Lacerate
+/escupir
+/risa
+/irse
+END
+MACRO 2 "Oso" Ability_Druid_FerociousBite
+/abrazar
+/besar
+/love
+END
+MACRO 4 "Risa" Ability_Hunter_Assassinate
+/risa
+END

@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: ViperNotify
+## Version: 1.3.9
+## Author: Angelnorn
+## Notes: Notifies hunters when they are in Aspect of the Viper
+## SavedVariables: ViperConfig
+ViperNotify.lua
+ViperNotify.xml

@@ -1,0 +1,13 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nightbull"] = {
+				["lastUpdate"] = 1522877162,
+			},
+		},
+	},
+}

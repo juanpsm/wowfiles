@@ -1,0 +1,44 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["Inventory"] = {
+					43455, -- [1]
+					51331, -- [2]
+					"|cff0070dd|Hitem:43457:3852:0:0:0:0:0:0:80|h[Sobrehombros de Tormentero]|h|r", -- [3]
+					nil, -- [4]
+					"|cff0070dd|Hitem:43453:3252:0:0:0:0:0:0:80|h[Camisote de Tormentero]|h|r", -- [5]
+					50015, -- [6]
+					50450, -- [7]
+					"|cff0070dd|Hitem:43451:3826:0:0:0:0:0:0:80|h[Apisonadoras de Tormentero]|h|r", -- [8]
+					"|cff0070dd|Hitem:43452:2332:0:0:0:0:0:0:80|h[Guardamuñecas de Tormentero]|h|r", -- [9]
+					"|cff0070dd|Hitem:43454:3246:0:0:0:0:0:0:80|h[Puños de Tormentero]|h|r", -- [10]
+					"|cff0070dd|Hitem:43498:0:3734:0:0:0:0:0:80|h[Sortija de titanio salvaje]|h|r", -- [11]
+					51336, -- [12]
+					37864, -- [13]
+					41588, -- [14]
+					"|cff1eff00|Hitem:36414:3825:0:0:0:0:-36:56:80|h[Capa de pelaje de mamut del hechicero]|h|r", -- [15]
+					44052, -- [16]
+					"|cffa335ee|Hitem:44313:1128:0:0:0:0:0:0:80|h[Baluarte resonante de Zom]|h|r", -- [17]
+					38361, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 197.6470588235294,
+				["lastUpdate"] = 1527103494,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Red Army"] = {
+				["Members"] = {
+					["Elchamaquito"] = {
+						["averageItemLvl"] = 197,
+					},
+				},
+			},
+		},
+	},
+}

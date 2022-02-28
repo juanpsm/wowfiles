@@ -1,0 +1,47 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Zelphar"] = {
+				["Professions"] = {
+					["Cocina"] = {
+						["isSecondary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+					["Pesca"] = {
+						["isSecondary"] = true,
+					},
+					["Herboristería"] = {
+						["isPrimary"] = true,
+					},
+					["Inscripción"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Shadowblades"] = {
+				["Members"] = {
+					["Zelphar"] = {
+						["Professions"] = {
+							13614, -- [1]
+							45357, -- [2]
+							2550, -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1530146402,
+					},
+				},
+			},
+		},
+	},
+}

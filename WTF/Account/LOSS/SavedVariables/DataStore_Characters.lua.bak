@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Sin'Dorei.Lossena"] = {
+				["XPMax"] = 0,
+				["played"] = 719,
+				["guildRankName"] = "GM A PRUEBA",
+				["zone"] = "GM Island",
+				["lastUpdate"] = 1635032254,
+				["englishClass"] = "PRIEST",
+				["race"] = "Undead",
+				["level"] = 80,
+				["XP"] = 0,
+				["RestXP"] = 0,
+				["money"] = 0,
+				["gender"] = 3,
+				["subZone"] = "",
+				["guildRankIndex"] = 4,
+				["name"] = "Lossena",
+				["faction"] = "Horde",
+				["englishRace"] = "Scourge",
+				["guildName"] = "Staff",
+				["lastLogoutTimestamp"] = 1635032254,
+				["class"] = "Priest",
+			},
+		},
+	},
+}

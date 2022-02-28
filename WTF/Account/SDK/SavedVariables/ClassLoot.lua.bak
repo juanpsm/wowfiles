@@ -1,0 +1,10 @@
+
+ClassLootDB = {
+	["profileKeys"] = {
+		["Snts - WoWArg"] = "profile",
+	},
+	["profiles"] = {
+		["profile"] = {
+		},
+	},
+}

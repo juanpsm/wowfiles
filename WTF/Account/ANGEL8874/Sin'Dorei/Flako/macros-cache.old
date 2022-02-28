@@ -1,0 +1,25 @@
+MACRO 16777221 "Backstab" Ability_Rogue_Ambush
+/equipslot 16 Talbuk Dirk
+/use Ambush(Rank 6)
+/equipslot  16 Shadowrend Longblade
+/targetlastenemy
+END
+MACRO 16777220 "FASO" Spell_Holy_SealOfSacrifice
+/TARGET IJAA
+/USE Heavy Netherweave Bandage
+/cleartarget 
+END
+MACRO 16777223 "Flako" INV_Misc_QuestionMark
+/target Flako
+/use Power Word: Shield
+/targetlastenemy
+/attack
+END
+MACRO 16777224 "hola" INV_Misc_QuestionMark
+/y theundertak
+END
+MACRO 16777222 "jaja" ABILITY_SEAL
+/target Flako
+/use Lesser Heal
+/targetlastenemy
+END

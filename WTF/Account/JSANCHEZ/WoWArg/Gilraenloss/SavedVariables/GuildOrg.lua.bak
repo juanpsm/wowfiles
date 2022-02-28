@@ -1,0 +1,19 @@
+
+go_HideButton = 0
+go_PublicToggle = "Note"
+go_PrivateToggle = "Last Online"
+go_ShowOfflineMembers = 0
+GuildOrgCP_CheckStates = {
+	["alt_click"] = 1,
+	["auto_officer"] = 0,
+	["shift_click"] = 1,
+	["auto_public"] = 0,
+	["two_column"] = 1,
+	["ctrl_click"] = 1,
+	["hide"] = 0,
+}
+GuildOrgToggle_Position = 128
+go_SortType = "Last Online"
+go_Skin = "Onyxia"
+go_Column = false
+go_NewSetMain = true

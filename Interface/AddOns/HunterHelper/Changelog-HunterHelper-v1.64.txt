@@ -1,0 +1,150 @@
+------------------------------------------------------------------------
+r41 | kieferskunk | 2010-07-29 00:07:27 +0000 (Thu, 29 Jul 2010) | 1 line
+Changed paths:
+   A /tags/v1.64 (from /trunk:40)
+
+Tagging as v1.64
+------------------------------------------------------------------------
+r40 | kieferskunk | 2010-07-29 00:06:43 +0000 (Thu, 29 Jul 2010) | 3 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+
+v1.64
+--------
+Fixed the false growl warnings once and for all.
+------------------------------------------------------------------------
+r38 | kieferskunk | 2010-07-21 04:46:47 +0000 (Wed, 21 Jul 2010) | 4 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+
+v1.63
+---------------
+- Pet happiness warning no longer fires when your pet is dead.
+- Updated German translation with a few fixes.
+------------------------------------------------------------------------
+r36 | kieferskunk | 2010-07-12 03:43:37 +0000 (Mon, 12 Jul 2010) | 3 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+
+v1.62
+----------
+Minor fix: HH was generating erroneous "Your pet is unhappy" warnings when signing in, mounting, dismounting, etc.
+------------------------------------------------------------------------
+r34 | kieferskunk | 2010-07-11 09:42:39 +0000 (Sun, 11 Jul 2010) | 6 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+
+v1.61
+-----------------------------
+Pet Happiness warning is now active when not in combat - helps protect against your pet getting unhappy when you're idling.  (You can still disable this warning.)
+Pet Aggressive warning now uses the Minimum Party Size option (set in the Party Growl group) when "Only in Party/Raid" is selected.
+Removed an extraneous debug message on initialization.
+Contains updates to the German localization provided by Freydis88.
+------------------------------------------------------------------------
+r32 | kieferskunk | 2010-07-09 21:07:27 +0000 (Fri, 09 Jul 2010) | 3 lines
+Changed paths:
+   M /trunk/Localization/deDE.lua
+   M /trunk/Localization/enUS.lua
+   M /trunk/Localization/esES.lua
+   M /trunk/Localization/esMX.lua
+
+v1.61a
+-----------------
+Automating localization files through the CurseForge localization program.
+------------------------------------------------------------------------
+r30 | kieferskunk | 2010-07-09 09:00:13 +0000 (Fri, 09 Jul 2010) | 6 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+   M /trunk/Localization/deDE.lua
+   M /trunk/Localization/enUS.lua
+   M /trunk/Localization/esES.lua
+   M /trunk/Localization/esMX.lua
+
+v1.6
+-------------------------
+Includes updates from v1.51, plus:
+- Added options to warn when your pet is Aggressive and Passive (separate options).
+  - Aggressive includes an option for "only in party/raid".
+- Updated Spanish localizations for the new options - German is on the way.
+------------------------------------------------------------------------
+r29 | kieferskunk | 2010-07-09 04:19:38 +0000 (Fri, 09 Jul 2010) | 4 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+   M /trunk/Localization/deDE.lua
+
+v1.51
+----------------
+- Attempting another fix to the false growl warnings - Lua seems to be kinda weird about how it handles boolean expressions with functions that return 1/nil.  Explicitly using "true" and "false" should fix the issue.
+- Berlinius submitted a fix to a phrase in the German localization.
+------------------------------------------------------------------------
+r27 | kieferskunk | 2010-07-07 02:40:55 +0000 (Wed, 07 Jul 2010) | 7 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+   A /trunk/Localization/deDE.lua
+   M /trunk/Localization/enUS.lua
+   M /trunk/Localization/esES.lua
+   M /trunk/Localization/esMX.lua
+   M /trunk/readme.txt
+
+v1.5
+-------------
+* Fixed the pet warnings upon dismount once and for all.
+* Fixed (hopefully) a bug where you'd get repeated "Your pet is growling/not growling" warnings when your pet gains a rank in Growl.
+* Removed the "Disable when Mounted" option, per user feedback.  You will receive no warnings at all when you're mounted, in a vehicle or on a taxi.
+* Added German (deDE) localization.  Thanks, Berlinius!
+* Made some more corrections to the esES and esMX localizations.
+------------------------------------------------------------------------
+r25 | kieferskunk | 2010-07-02 22:41:25 +0000 (Fri, 02 Jul 2010) | 5 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+   M /trunk/Localization/esES.lua
+   A /trunk/Localization/esMX.lua
+
+v1.4.4
+----------------
+Fixed an issue with HunterHelper not working correctly in other locales (had to install the esMX language pack to figure out what was going on).
+Significantly improved the quality of the esES translation.
+Added esMX translation (copy of esES until I receive corrections).
+------------------------------------------------------------------------
+r23 | kieferskunk | 2010-07-02 00:13:44 +0000 (Fri, 02 Jul 2010) | 3 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+
+v1.4.32
+-----------------
+Bug fix for a dumb typo.  Sorry about that.
+------------------------------------------------------------------------
+r21 | kieferskunk | 2010-07-01 17:49:25 +0000 (Thu, 01 Jul 2010) | 3 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+
+v1.4.31
+---------------------
+Fixed spurious "No pet!" warning when using "Heart of the Phoenix" to battle-rez pet.
+------------------------------------------------------------------------
+r19 | kieferskunk | 2010-06-29 03:17:04 +0000 (Tue, 29 Jun 2010) | 9 lines
+Changed paths:
+   M /trunk/HunterHelper.lua
+   M /trunk/HunterHelper.toc
+   M /trunk/Localization/esES.lua
+
+v1.4.3
+------------------------
+Suppressing pet-related warnings after dismount no longer suppresses other warnings (like No Aspect, Viper/Full Mana, etc.)
+
+Suppressing "No Pet" warning when casting Revive Pet.
+
+Removed some redundant/unneeded event-handling code.
+
+Removed some unused phrases from the Spanish localization file.
+------------------------------------------------------------------------

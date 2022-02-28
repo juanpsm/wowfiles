@@ -1,0 +1,642 @@
+<!-- edited with XMLSpy v2007 (http://www.altova.com) by Jett Peterson (Dragons of Resurgence) -->
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Script file="LoreSettings.lua"/>
+	<Frame name="LoreSettingsFrame" toplevel="true" frameStrata="DIALOG" movable="true" enableMouse="true" hidden="true" parent="UIParent">
+		<Size>
+			<AbsDimension x="384" y="512"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset>
+					<AbsDimension x="0" y="-104"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<scripts>
+			<OnLoad> 
+				tinsert(UISpecialFrames,"LoreSettingsFrame");
+			</OnLoad>
+			<OnShow>
+				LoreSettingsFrame_OnShow();
+				Lore_Text_Left:SetText('Leftclick:');
+				Lore_Text_Right:SetText('Rightclick:');
+				Lore_Text_Tabletpos:SetText('Tablet pos:');
+				Lore_Text_Style:SetText('Style:');
+				Lore_Text_Effect:SetText('Speech eff. :');
+				Lore_Text_To:SetText('Mass trans. :');
+				Lore_Text_SelfTest:SetText('Self-test: (not running)');
+				Lore_Text_SelfTest:SetTextColor(0.3, 0.3, 0.8);
+				Lore_Text_SelfTest:SetJustifyH("LEFT");
+				Lore_Text_Fluency:SetText("Fluency");
+				Lore_Text_Interpreter:SetText("Interpreter");
+			</OnShow>
+		</scripts>
+		<HitRectInsets>
+			<AbsInset left="0" right="30" top="0" bottom="70"/>
+		</HitRectInsets>
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="LoreGeneralIcon" file="Interface\Spellbook\Spellbook-Icon">
+					<Size>
+						<AbsDimension x="58" y="58"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-10"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="BORDER">
+				<Texture file="Interface\PaperDollInfoFrame\UI-Character-General-TopLeft">
+					<Size>
+						<AbsDimension x="256" y="256"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\PaperDollInfoFrame\UI-Character-General-TopRight">
+					<Size>
+						<AbsDimension x="128" y="256"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOPRIGHT"/>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\PaperDollInfoFrame\UI-Character-General-BottomLeft">
+					<Size>
+						<AbsDimension x="256" y="256"/>
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOMLEFT"/>
+					</Anchors>
+				</Texture>
+				<Texture file="Interface\PaperDollInfoFrame\UI-Character-General-BottomRight">
+					<Size>
+						<AbsDimension x="128" y="256"/>
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT"/>
+					</Anchors>
+				</Texture>
+				<FontString name="LoreHeaderVersion" inherits="GameFontNormal" text="Lore Settings">
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="6" y="233"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="LorePageText" inherits="GameFontNormal">
+					<Size>
+						<AbsDimension x="102" y="0"/>
+					</Size>
+					<Anchors>
+						<Anchor point="BOTTOM">
+							<Offset>
+								<AbsDimension x="-14" y="96"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="Lore_Text_Left" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="28" y="-200"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Right" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Left">
+							<Offset>
+								<AbsDimension x="160" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Tabletpos" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Left">
+							<Offset>
+								<AbsDimension x="0" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Style" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Right">
+							<Offset>
+								<AbsDimension x="0" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Effect" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Tabletpos">
+							<Offset>
+								<AbsDimension x="0" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Percent" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="242" y="-292"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_To" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Left">
+							<Offset>
+								<AbsDimension x="0" y="38"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_SelfTest" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="130" y="-400"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Version" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="CENTER" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="0" y="202"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Fluency" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Effect">
+							<Offset>
+								<AbsDimension x="0" y="-45"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Interpreter" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Fluency">
+							<Offset>
+								<AbsDimension x="0" y="-35"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_Skill" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="Lore_Text_Fluency">
+							<Offset>
+								<AbsDimension x="185" y="11"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="Lore_Text_SkillModifier" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent">
+							<Offset>
+								<AbsDimension x="245" y="-173"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="LoreSettingsCloseButton" inherits="UIPanelCloseButton">
+				<Anchors>
+					<Anchor point="CENTER" relativeTo="LoreSettingsFrame" relativePoint="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="-46" y="-24"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick> LoreSettingsFrame:Hide(); </OnClick>
+				</Scripts>
+			</Button>
+			<CheckButton name="$parentLoreCheckButtonLockTablet" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="25" y="-75"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> 
+						getglobal(this:GetName().."Text"):SetText("Lock lore button");
+					</OnLoad>
+					<OnClick> Lore_RotateButton("LockTablet", Lore_Locked ); </OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parentLoreCheckButtonTabletVisible" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="185" y="-75"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Hide Lore button"); </OnLoad>
+					<OnClick> Lore_RotateButton("HideLoreButton", 1 - Lore_Visible ); </OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parentLoreCheckButtonScreening" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreCheckButtonTabletVisible">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Channel Screening"); </OnLoad>
+					<OnClick> Lore_RotateButton("Screening", 1 - Lore_Screen ); </OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parentLoreCheckButtonSelfTranslate" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreCheckButtonLockTablet">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Translate to self"); </OnLoad>
+					<OnClick> Lore_RotateButton("SelfTranslate", 1 - Lore_Self ); </OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="$parentLoreCheckButtonAutoTranslate" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreCheckButtonSelfTranslate">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Receive auto-trans."); </OnLoad>
+					<OnClick> Lore_RotateButton("AutoTranslate", Lore_Autotrans ); </OnClick>
+				</Scripts>
+			</CheckButton>
+			<Button name="$parentLoreMassTranslation" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreCheckButtonSelfTranslate">
+						<Offset>
+							<AbsDimension x="70" y="-62"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("MassTranslate", Lore_To ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<CheckButton name="$parentLoreCheckButtonInform" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreCheckButtonTabletVisible">
+						<Offset>
+							<AbsDimension x="0" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Command Feedback"); </OnLoad>
+					<OnClick> Lore_RotateButton("CommandFeedback", 1 - Lore_Inform ); </OnClick>
+				</Scripts>
+			</CheckButton>
+			<Button name="$parentLoreLeftClickButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreMassTranslation">
+						<Offset>
+							<AbsDimension x="0" y="-38"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("Leftclick", Lore_Left ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentLoreRightClickButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreLeftClickButton">
+						<Offset>
+							<AbsDimension x="160" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("Rightclick", Lore_Right ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentLoreTextureButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="100" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreRightClickButton">
+						<Offset>
+							<AbsDimension x="-25" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("ButtonTexture", Lore_ButtonTexture ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentLoreTabletPosition" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreLeftClickButton">
+						<Offset>
+							<AbsDimension x="0" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("Tabletpos", Lore_Tabletposition ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Slider name="$parentLoreSliderStutter" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="140" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreTextureButton">
+						<Offset>
+							<AbsDimension x="-43" y="-45"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Stutter frequency");
+						getglobal(this:GetName().."High"):SetText("100%");
+						getglobal(this:GetName().."Low"):SetText("1%");
+						this:SetMinMaxValues(1,100);
+						this:SetValueStep(1);
+					</OnLoad>
+					<OnMouseUp>
+						Lore_RotateButton("StutterFreq", this:GetValue() );
+					</OnMouseUp>
+					<OnValueChanged> 
+						Lore_UpdateSliderValue("StutterFreq", this:GetValue() );
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<Button name="$parentLoreEffectButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreTabletPosition">
+						<Offset>
+							<AbsDimension x="0" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("Effect", Lore_Effect ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentLoreSelfTestButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="100" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="25" y="-400"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						Lore_RunSelfTest()
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentLoreJoinChannelButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="255" y="-355"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad> getglobal(this:GetName().."Text"):SetText("Join Channel"); </OnLoad>
+					<OnClick>
+						Lore_JoinChannel()
+					</OnClick>
+				</Scripts>
+			</Button>
+			<EditBox name="$parentLoreFluencyEditBox" letters="25" autoFocus="false" inherits="InputBoxTemplate">
+				<Size>
+					<AbsDimension x="100" y="35"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreEffectButton">
+						<Offset>
+							<AbsDimension x="-17" y="-39"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						this:SetText("");
+					</OnShow>
+					<OnTextChanged>
+						Lore_TypedFluency = this:GetText("");
+					</OnTextChanged>
+					<OnEnterPressed>	
+						this:ClearFocus();
+						this:SetText(Lore_RotateButton("Fluency", Lore_TypedFluency ))
+						this:SetText("");
+					</OnEnterPressed>
+					<OnEditFocusLost>
+						this:HighlightText(0, 0);
+					</OnEditFocusLost>
+					<OnEditFocusGained>
+						this:HighlightText();
+					</OnEditFocusGained>
+				</Scripts>
+				<FontString inherits="ChatFontNormal"/>
+			</EditBox>
+			<EditBox name="$parentLoreInterpreterEditBox" letters="25" autoFocus="false" inherits="InputBoxTemplate">
+				<Size>
+					<AbsDimension x="83" y="35"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreFluencyEditBox">
+						<Offset>
+							<AbsDimension x="17" y="-35"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnShow>
+						this:SetText("");
+					</OnShow>
+					<OnTextChanged>
+						Lore_TypedInterpreter = this:GetText("");
+					</OnTextChanged>
+					<OnEnterPressed>	
+						this:ClearFocus();
+						this:SetText(Lore_RotateButton("Interpreter", Lore_TypedInterpreter ))
+						this:SetText("");
+					</OnEnterPressed>
+					<OnEditFocusLost>
+						this:HighlightText(0, 0);
+					</OnEditFocusLost>
+					<OnEditFocusGained>
+						this:HighlightText();
+					</OnEditFocusGained>
+				</Scripts>
+				<FontString inherits="ChatFontNormal"/>
+			</EditBox>
+			<Button name="$parentLoreFluencyButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreFluencyEditBox">
+						<Offset>
+							<AbsDimension x="175" y="-6"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("Fluency", Lore_TypedFluency ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Button name="$parentLoreInterpreterButton" inherits="UIPanelButtonTemplate">
+				<Size>
+					<AbsDimension x="75" y="24"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreFluencyButton">
+						<Offset>
+							<AbsDimension x="-75" y="-35"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						this:SetText(Lore_RotateButton("Interpreter", Lore_TypedInterpreter ))
+					</OnClick>
+				</Scripts>
+			</Button>
+			<Slider name="$parentLoreSliderSkill" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="70" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreFluencyEditBox">
+						<Offset>
+							<AbsDimension x="100" y="-10"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Skill           ");
+						getglobal(this:GetName().."High"):SetText("100%");
+						getglobal(this:GetName().."Low"):SetText("0%");
+						this:SetMinMaxValues(0,100);
+						this:SetValueStep(5);
+					</OnLoad>
+					<OnMouseUp>
+						Lore_RotateButton("Skill", this:GetValue() );
+						Lore_SelectedSkill = this:GetValue();
+					</OnMouseUp>
+					<OnValueChanged> 
+						Lore_UpdateSliderValue("Skill", this:GetValue() );
+						Lore_SelectedSkill = this:GetValue();
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<Slider name="$parentLoreSliderSkillAdjust" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="140" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parentLoreCheckButtonInform">
+						<Offset>
+							<AbsDimension x="0" y="-45"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Speech Skill Modifier");
+						getglobal(this:GetName().."High"):SetText("+100%");
+						getglobal(this:GetName().."Low"):SetText("-100%");
+						this:SetMinMaxValues(-100,100);
+						this:SetValueStep(5);
+					</OnLoad>
+					<OnMouseUp>
+						Lore_RotateButton("SkillModifier", this:GetValue() );
+						Lore_SelectedSkillModifier = this:GetValue();
+					</OnMouseUp>
+					<OnValueChanged> 
+						Lore_UpdateSliderValue("SkillModifier", this:GetValue() );
+						Lore_SelectedSkillModifier = this:GetValue();
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+		</Frames>
+	</Frame>
+</Ui>

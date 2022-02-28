@@ -1,0 +1,6 @@
+
+AS_settings = {
+	["AS_ss_arenas_wins_only"] = false,
+	["AS_saved_mod_version"] = "3.2",
+	["AS_ss_arenas"] = false,
+}

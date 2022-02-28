@@ -1,0 +1,139 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["BagBar"] = {
+			["profiles"] = {
+				["Lossena - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.5001226039409,
+						["point"] = "CENTER",
+						["y"] = 1.500045335422669,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Lossena - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 53.50000649602578,
+						["point"] = "CENTER",
+						["y"] = 51.49999856403645,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["ActionBars"] = {
+			["profiles"] = {
+				["Lossena - Sin'Dorei"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999947348001,
+								["point"] = "CENTER",
+								["y"] = -227.4999526132007,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999947348001,
+								["point"] = "CENTER",
+								["y"] = -189.4999857087431,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999947348001,
+								["point"] = "CENTER",
+								["y"] = -151.4999575365046,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999947348001,
+								["point"] = "CENTER",
+								["y"] = -113.4999293642661,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999947348001,
+								["point"] = "CENTER",
+								["y"] = -75.49998871742866,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999947348001,
+								["point"] = "CENTER",
+								["y"] = -37.49999555535067,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Lossena - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.49995521161111,
+						["point"] = "CENTER",
+						["y"] = -14.99998946960011,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Lossena - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.4997600573182,
+						["point"] = "CENTER",
+						["y"] = 89.50000923119467,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Lossena - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -188.7999396081185,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.40000847370993,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["profiles"] = {
+		["Lossena - Sin'Dorei"] = {
+		},
+	},
+}

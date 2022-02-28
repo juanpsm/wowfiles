@@ -1,0 +1,52 @@
+
+FishingBuddy_Info = {
+	["FishTotals"] = {
+	},
+	["HiddenFishies"] = {
+	},
+	["FishingSkill"] = {
+	},
+	["DataFish"] = 0,
+	["FishingHoles"] = {
+	},
+	["enUS"] = {
+		["FishTotals"] = {
+		},
+		["FishingHoles"] = {
+		},
+		["SubZones"] = {
+			[5001] = "Gates of Ironforge",
+			[3000] = 2,
+			[3002] = "Aldor Rise",
+			[4000] = 5,
+			[4002] = "The Mystic Ward",
+			[4004] = "Ironforge",
+			[4005] = "The High Seat",
+			[1001] = "Unknown",
+			[2003] = "The Silver Enclave",
+			[3001] = "Terrace of Light",
+			[2000] = 4,
+			[2001] = "Runeweaver Square",
+			[1000] = 1,
+			[4001] = "Hall of Mysteries",
+			[2002] = "Dalaran",
+			[5000] = 1,
+			[2004] = "The Eventide",
+			[4003] = "The Great Forge",
+		},
+		["FishingSkill"] = {
+		},
+	},
+	["FishInfo2"] = 0,
+	["Version"] = 9802,
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+	},
+	["ZoneIndex"] = {
+		"Unknown", -- [1]
+		"Dalaran", -- [2]
+		"Shattrath City", -- [3]
+		"Ironforge", -- [4]
+		"Dun Morogh", -- [5]
+	},
+}

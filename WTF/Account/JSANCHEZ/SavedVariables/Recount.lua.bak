@@ -1,0 +1,33 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 223.9999356269846,
+					["x"] = 7.000007525086289,
+					["w"] = 287.9999880790712,
+					["h"] = 174.0000126659868,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["MainWindowWidth"] = 287.9999880790712,
+			["MainWindowVis"] = false,
+			["MainWindowHeight"] = 174.0000126659868,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

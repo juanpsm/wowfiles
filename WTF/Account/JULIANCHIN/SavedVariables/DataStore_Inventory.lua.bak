@@ -1,0 +1,44 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:47748:3820:3799:0:0:0:0:0:80|h[Caperuza de conquista de Khadgar]|h|r", -- [1]
+					51331, -- [2]
+					50449, -- [3]
+					2575, -- [4]
+					"|cffa335ee|Hitem:47749:1953:0:0:0:0:0:0:80|h[Toga de conquista de Khadgar]|h|r", -- [5]
+					47181, -- [6]
+					47750, -- [7]
+					"|cffa335ee|Hitem:49805:3826:0:0:0:0:0:0:80|h[Sandalias cubiertas de hielo]|h|r", -- [8]
+					"|cffa335ee|Hitem:51329:2326:0:0:0:0:0:0:80|h[Puños de dominancia de Gladiador colérico]|h|r", -- [9]
+					"|cffa335ee|Hitem:47752:3246:0:0:0:0:0:0:80|h[Guanteletes de conquista de Khadgar]|h|r", -- [10]
+					49967, -- [11]
+					39193, -- [12]
+					37835, -- [13]
+					47213, -- [14]
+					51330, -- [15]
+					49801, -- [16]
+					nil, -- [17]
+					50472, -- [18]
+					43157, -- [19]
+				},
+				["averageItemLvl"] = 234.375,
+				["lastUpdate"] = 1536978940,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Los Exiliados"] = {
+				["Members"] = {
+					["Rivothrill"] = {
+						["averageItemLvl"] = 234,
+					},
+				},
+			},
+		},
+	},
+}

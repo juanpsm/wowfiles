@@ -1,0 +1,2 @@
+
+LightHeadedDB = nil

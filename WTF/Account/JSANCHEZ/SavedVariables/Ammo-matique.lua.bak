@@ -1,0 +1,11 @@
+
+AmmomatiqueDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["feature_level"] = 2,
+		},
+	},
+}

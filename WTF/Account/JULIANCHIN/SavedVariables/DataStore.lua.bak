@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["guildName"] = "Los Exiliados",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Los Exiliados"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+	},
+}

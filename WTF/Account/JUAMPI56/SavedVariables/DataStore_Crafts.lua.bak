@@ -1,0 +1,23 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nightbull"] = {
+				["Professions"] = {
+					["Herrería"] = {
+						["isPrimary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Minería"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,22 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["lastUpdate"] = 1548730350,
+				["CRITTER"] = {
+					"23231|Willy|40613|inv_pet_sleepywilly", -- [1]
+				},
+				["MOUNT"] = {
+					"27707|Gran kodo de la Fiesta de la cerveza|49379|Ability_Mount_KotoBrewfest", -- [1]
+					"18360|Grifo dorado|32235|ability_mount_goldengryphon", -- [2]
+					"14559|Palomino presto|23227|Ability_Mount_RidingHorse", -- [3]
+					"307|Pinto|472|Ability_Mount_RidingHorse", -- [4]
+				},
+			},
+		},
+	},
+}

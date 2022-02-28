@@ -1,0 +1,12 @@
+MACRO 16777219 "Mark & Attack!" Spell_Arcane_PortalSilvermoon
+#showtooltip Hunter's Mark
+/castsequence [button:2] Hunter's Mark; reset=5 Serpent Sting, Hunter's Mark
+/stopmacro [button:2]
+/petattack
+/petdefensive
+END
+MACRO 16777218 "Melee" Ability_Warrior_Challange
+#showtooltip
+/castsequence reset=target/3 Wing Clip, Raptor Strike, Wing Clip
+/castrandom [target=target, exists] Mongoose Bite
+END

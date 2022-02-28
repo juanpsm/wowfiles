@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["profiles"] = {
+		["Turco - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Turco"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Turco"] = {
+		},
+	},
+}

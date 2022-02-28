@@ -1,0 +1,43 @@
+
+QuestHelper_Pref = {
+}
+QuestHelper_UID = "Kptd4SmeDEmFfvWLVhqg95O4fUCJJJYD"
+QuestHelper_SaveDate = 1511831446
+QuestHelper_Errors = {
+	["version"] = 1,
+}
+QuestHelper_Collector = {
+	["1.4.0 on 3.3.5/esES/1"] = {
+		["monster"] = {
+			[2] = {
+				"\000úvL\000¯B¸\000\000\n", -- [1]
+				["reaction_5"] = 1,
+				["name_Sten Brazorrecio"] = 1,
+			},
+		},
+		["warp"] = {
+		},
+		["flight_times"] = {
+		},
+		["modified"] = 1511831453,
+		["flight_master"] = {
+		},
+		["achievement"] = {
+		},
+		["fishing"] = {
+		},
+		["item"] = {
+		},
+		["realms"] = {
+			["WoWArg"] = 1,
+		},
+		["worldloot"] = {
+		},
+		["object"] = {
+		},
+		["quest"] = {
+		},
+		["version"] = 8,
+	},
+}
+QuestHelper_Collector_Version = 8

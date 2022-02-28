@@ -1,0 +1,139 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["BagBar"] = {
+			["profiles"] = {
+				["Nightbull - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.50000243003865,
+						["point"] = "CENTER",
+						["y"] = 1.499937606190088,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Nightbull - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 53.49987161866113,
+						["point"] = "CENTER",
+						["y"] = 51.50003658748369,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["ActionBars"] = {
+			["profiles"] = {
+				["Nightbull - WoWArg"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999968854434,
+								["point"] = "CENTER",
+								["y"] = -205.0000010267769,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999968854434,
+								["point"] = "CENTER",
+								["y"] = -189.5000353553514,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999968854434,
+								["point"] = "CENTER",
+								["y"] = -151.499936647865,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999968854434,
+								["point"] = "CENTER",
+								["y"] = -113.5000219387998,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999968854434,
+								["point"] = "CENTER",
+								["y"] = -75.50000208777971,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4999968854434,
+								["point"] = "CENTER",
+								["y"] = -37.5000172840779,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Nightbull - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -111.7499866690132,
+						["point"] = "CENTER",
+						["y"] = 14.24998553955862,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Nightbull - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.4999456835017,
+						["point"] = "CENTER",
+						["y"] = 89.50005643850386,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Nightbull - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -188.7999645387154,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.40001491863438,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["profiles"] = {
+		["Nightbull - WoWArg"] = {
+		},
+	},
+}

@@ -1,0 +1,52 @@
+
+EveryQuestDBPC = nil
+EQ2DBPC = {
+	["namespaces"] = {
+		["QuestGivers"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Alexistexas - Kel'Thuzad"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["zoneid"] = 3430,
+			["history"] = {
+				[3430] = {
+					[9359] = {
+						["status"] = 2,
+						["completed"] = 1619233566,
+					},
+					[8476] = {
+						["status"] = 0,
+					},
+					[8889] = {
+						["status"] = 2,
+						["completed"] = 1619234781,
+					},
+					[8891] = {
+						["status"] = 1,
+					},
+					[8477] = {
+						["status"] = 0,
+					},
+					[9394] = {
+						["status"] = 2,
+						["completed"] = 1619234883,
+					},
+					[8888] = {
+						["status"] = 2,
+						["completed"] = 1619233818,
+					},
+					[8890] = {
+						["status"] = 0,
+					},
+					[8894] = {
+						["status"] = 0,
+					},
+				},
+			},
+			["zonegroup"] = "Eastern Kingdoms",
+		},
+	},
+}

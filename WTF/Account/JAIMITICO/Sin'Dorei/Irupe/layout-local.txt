@@ -1,0 +1,8 @@
+Version: 1
+Frame: KoordinatorMiniWindowFrame
+FrameLevel: 8
+Anchor: TOPRIGHT
+X: -52
+Y: -181
+W: 46
+H: 24

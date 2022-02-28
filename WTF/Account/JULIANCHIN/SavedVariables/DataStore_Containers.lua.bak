@@ -1,0 +1,92 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["lastUpdate"] = 1536978940,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							6948, -- [1]
+							22463, -- [2]
+							17032, -- [3]
+							17031, -- [4]
+							22850, -- [5]
+							33447, -- [6]
+							17020, -- [7]
+							33312, -- [8]
+							37097, -- [9]
+							37093, -- [10]
+							nil, -- [11]
+							40476, -- [12]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							17, -- [3]
+							18, -- [4]
+							2, -- [5]
+							9, -- [6]
+							93, -- [7]
+						},
+						["freeslots"] = 9,
+					},
+					["Bag0"] = {
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["freeslots"] = 16,
+					},
+					["Bag1"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 20,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 20,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							25817, -- [1]
+							31742, -- [2]
+							35671, -- [3]
+							41058, -- [4]
+							41745, -- [5]
+							37909, -- [6]
+							41390, -- [7]
+							38699, -- [8]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["counts"] = {
+							[6] = 8,
+						},
+						["freeslots"] = 12,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							6893, -- [1]
+							9249, -- [2]
+							42482, -- [3]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 77,
+				["numBagSlots"] = 96,
+			},
+		},
+		["Version"] = 1,
+	},
+}

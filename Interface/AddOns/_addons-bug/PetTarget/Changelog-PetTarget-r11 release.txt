@@ -1,0 +1,8 @@
+2010-05-18  Aenott on Earthen Ring EU, Myrkraverk  <aenott@myrkraverk.com>
+
+[b4d36c6ee1d1] [r11 release]
+* PetTarget.lua, PetTarget.xml:
+
+Do not redundantly show the pet-target when in a vehicle.
+
+

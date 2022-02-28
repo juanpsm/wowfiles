@@ -1,0 +1,8 @@
+
+DataStore_AuctionsDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+	},
+}

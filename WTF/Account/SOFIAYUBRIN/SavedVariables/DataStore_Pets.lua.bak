@@ -1,0 +1,47 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Zelphar"] = {
+				["lastUpdate"] = 1530146388,
+				["CRITTER"] = {
+					"34694|Grunty|66030|INV_Egg_03", -- [1]
+					"28883|Carámbano|52615|INV_PET_FROSTWYRM", -- [2]
+					"36911|Monje pandaren|69541|INTERFACE\\ICONS\\inv_misc_pet_03", -- [3]
+					"23909|Calabacino siniestro|42609|INV_Misc_Food_59", -- [4]
+					"26119|Prole de fénix|46599|INV_Misc_PheonixPet_01", -- [5]
+					"25110|Cometa de dragón|45127|INV_Misc_DragonKite_02", -- [6]
+					"23266|Cacahuete|40634|INV_Belt_16", -- [7]
+					"20408|Vermizo de maná|35156|Spell_Nature_AbolishMagic", -- [8]
+					"16549|Mostachia la Rata|28740|inv_pet_ratcage", -- [9]
+					"16548|Don Cochinillo|28739|INV_Belt_25", -- [10]
+					"16069|Gurky|27241|inv_pet_pinkmurlocegg", -- [11]
+					"15358|Lurky|24988|INV_Egg_03", -- [12]
+					"15186|Murky|24696|INV_Egg_03", -- [13]
+					"11326|Mini Diablo|17708|INV_DiabloStone", -- [14]
+					"25109|Gallina cohete|45125|INV_Misc_EngGizmos_RocketChicken", -- [15]
+					"11327|Zergling|17709|Spell_Shadow_SummonFelHunter", -- [16]
+					"18381|Cría abisal|32298|INV_Netherwhelp", -- [17]
+					"17255|Prole de hipogrifo|30156|INV_Egg_02", -- [18]
+					"23234|Plátanos|40549|INV_Misc_Food_24", -- [19]
+					"29089|Mini Tyrael|53082|INV_Sword_07", -- [20]
+					"11325|Osito panda|17707|INV_Belt_05", -- [21]
+					"16547|Rapidín|28738|INV_Crate_03", -- [22]
+					"23258|Egbert|40614|inv_pet_egbert", -- [23]
+				},
+				["MOUNT"] = {
+					"31858|Gran mamut de hielo|61470|Ability_Mount_Mammoth_White_3seater", -- [1]
+					nil, -- [2]
+					"31855|Mamut de hielo|59799|Ability_Mount_Mammoth_White", -- [3]
+					"32335|Grifo nevado acorazado|61229|Ability_Mount_Gryphon_01", -- [4]
+					"35168|Sable del Alba rayado|66847|Ability_Mount_WhiteTiger", -- [5]
+					"14556|Sable de Hielo presto|23221|Ability_Mount_WhiteTiger", -- [6]
+					"31717|Montura de draco bronce|59569|Ability_Mount_Drake_Bronze", -- [7]
+				},
+			},
+		},
+	},
+}

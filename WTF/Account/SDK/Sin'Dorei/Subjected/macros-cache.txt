@@ -1,0 +1,91 @@
+MACRO 16777223 " Sinister" INV_Misc_QuestionMark
+#showtooltip 
+/startattack
+/cast Sinister Strike
+/use 10
+END
+MACRO 16777232 "ambush potente" INV_Misc_QuestionMark
+#showtooltip ambush
+/cast premeditation
+/cast ambush
+/startattack
+END
+MACRO 16777233 "cheap + 2cp" INV_Misc_QuestionMark
+#showtooltip cheap shot
+/cast premeditation
+/cast cheap shot
+END
+MACRO 16777235 "FoK valkyrs" INV_Misc_QuestionMark
+#showtooltip Fan of Knives
+/equipslot 16 Caída del Cielo, el kris de las mil mentiras
+/equipslot 17 Rompepulmones
+/cast Fan of Knives
+END
+MACRO 16777225 "hemorrage" INV_Misc_QuestionMark
+#showtooltip hemorrhage
+/cast hemorrhage
+/startattack
+END
+MACRO 16777238 "KS + guantes" INV_Misc_QuestionMark
+#show Killing Spree
+/cast Killing Spree
+/use 10
+END
+MACRO 16777217 "Pick Pocket+Ambu" INV_Misc_QuestionMark
+#showtooltip
+/script SetAutoLootDefault(1) 
+/cast Pick Pocket
+/in 1 /script SetAutoLootDefault(0)
+/cast [stealth] Ambush; Backstab
+END
+MACRO 16777218 "Pick Pocket+Chea" INV_Misc_QuestionMark
+/script SetAutoLootDefault(1) 
+/cast Pick Pocket
+/in 1 /script SetAutoLootDefault(0)
+/cast Cheap Shot
+END
+MACRO 16777220 "poison OH" INV_Misc_QuestionMark
+#showtooltip
+/use Deadly Poison IX
+/use 17
+END
+MACRO 16777219 "poisons MH" INV_Misc_QuestionMark
+#showtooltip
+/use Instant Poison IX
+/use 16
+END
+MACRO 16777221 "sap" INV_Misc_QuestionMark
+#showtooltip sap
+/targetenemyplayer [nodead] [harm]
+/cast sap
+/stopattack
+/cleartarget
+END
+MACRO 16777222 "sap vs rogue" INV_Misc_QuestionMark
+#showtooltip Sap
+/console targetNearestDistance 10.000000
+/targetenemy [noharm][dead]
+/console targetNearestDistance 41.000000
+/cast [harm,nodead] Sap
+END
+MACRO 16777226 "sigilo" INV_Misc_QuestionMark
+#showtooltip
+/stopattack
+/cast [combat, nostealth] vanish; stealth
+END
+MACRO 16777236 "SS valkyrs" INV_Misc_QuestionMark
+#showtooltip Sinister Strike(Rank 12)
+/equipslot 16 Hoja de veneno de sangre
+/equipslot 17 Hacha de guerra de vástagos de la Plaga
+END
+MACRO 16777231 "ST+kick foc" INV_Misc_QuestionMark
+#showtooltip
+/cast [@focus] Shadowstep
+/cast [@focus] kick
+END
+MACRO 16777234 "TOTT" INV_Misc_QuestionMark
+/cast [target=mouseover] Tricks of the Trade
+END
+MACRO 16777237 "tott focus" INV_Misc_QuestionMark
+/cast [target=focus] Tricks of the Trade
+END

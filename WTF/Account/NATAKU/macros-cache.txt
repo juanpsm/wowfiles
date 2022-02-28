@@ -1,0 +1,112 @@
+MACRO 103 "Blood + cleave" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast Cleave(Rank 8)
+/script UIErrorsFrame:Clear()
+END
+MACRO 102 "Blood + HS" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast Heroic Strike(Rank 13)
+/script UIErrorsFrame:Clear()
+END
+MACRO 37 "Camera" Spell_ChargeNegative
+/console cameradistancemaxfactor 100
+END
+MACRO 104 "follow" Ability_Creature_Cursed_01
+/follow target
+/follow focus
+END
+MACRO 94 "guantes" INV_Misc_QuestionMark
+#showtooltip Heroic Throw
+/cast Sweeping Strikes
+/cast Heroic Throw
+/use 10
+END
+MACRO 95 "Hamstring" INV_Misc_QuestionMark
+#showtooltip Hamstring
+/startattack
+/cast Battle Stance
+/cast Hamstring
+/cancelaura chaos bane
+END
+MACRO 111 "histeria" INV_Misc_QuestionMark
+/w Nairoby ESTOY PARA EL HISTERIKEO
+END
+MACRO 82 "interv" INV_Misc_QuestionMark
+#showtooltip Intervene
+/cast Defensive Stance
+/cast Intervene
+END
+MACRO 88 "kiss" Spell_BrokenHeart
+/kiss
+END
+MACRO 74 "MACRO" Spell_ChargePositive
+/macro
+END
+MACRO 110 "msbt" INV_Misc_QuestionMark
+/msbt
+END
+MACRO 93 "MULTItarget" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
+/cast Cleave(Rank 8)
+/script UIErrorsFrame:Clear()
+END
+MACRO 97 "ntk" INV_Misc_QuestionMark
+/ntk
+END
+MACRO 80 "power" INV_Misc_QuestionMark
+#showtooltip Death Wish
+/cast Death Wish
+/use 10
+END
+MACRO 87 "quartz" INV_Misc_QuestionMark
+/quartz
+END
+MACRO 78 "represalias" INV_Misc_QuestionMark
+#showtooltip Retaliation
+/castsequence Battle Stance, Retaliation
+END
+MACRO 76 "roll" INV_Misc_QuestionMark
+/roll
+END
+MACRO 89 "Slam" INV_Misc_QuestionMark
+#showtooltip 
+/startattack 
+/cast Slam(Rank 8)
+/cast Heroic Strike(Rank 13)
+END
+MACRO 86 "suf" INV_Misc_QuestionMark
+/suf
+END
+MACRO 112 "target" INV_Misc_QuestionMark
+/target Skul
+END
+MACRO 107 "TAUNT" INV_Misc_QuestionMark
+#showtooltip Taunt
+/cast Defensive Stance
+/cast Taunt
+END
+MACRO 85 "Tiptac" INV_Misc_QuestionMark
+/tiptac
+END
+MACRO 75 "tmw" INV_Misc_QuestionMark
+/tmw
+END
+MACRO 77 "trade" INV_Misc_QuestionMark
+/trade
+END
+MACRO 92 "UNItarget" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
+/cast Heroic Strike(Rank 13)
+/script UIErrorsFrame:Clear()
+END
+MACRO 106 "vida tank" INV_Misc_QuestionMark
+#show Last stand
+/cast Last stand
+/use Ick's Rotting Thumb
+END

@@ -1,0 +1,15 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Asasasdasda"] = {
+				["HistoryLastUpdate"] = 1511831476,
+				["HistoryBuild"] = "12340",
+				["lastUpdate"] = 1511831452,
+			},
+		},
+	},
+}

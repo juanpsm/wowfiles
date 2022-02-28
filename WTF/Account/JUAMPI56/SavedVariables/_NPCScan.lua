@@ -1,0 +1,2 @@
+
+_NPCScanOptions = nil

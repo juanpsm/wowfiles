@@ -1,0 +1,170 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["lastUpdate"] = 1548730353,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							47220, -- [1]
+							40428, -- [2]
+							42451, -- [3]
+							50191, -- [4]
+							50169, -- [5]
+							49835, -- [6]
+							39606, -- [7]
+							49074, -- [8]
+							39419, -- [9]
+							40261, -- [10]
+							42067, -- [11]
+							39277, -- [12]
+							39345, -- [13]
+							50207, -- [14]
+							42990, -- [15]
+							40701, -- [16]
+							49855, -- [17]
+							50447, -- [18]
+							40881, -- [19]
+							37872, -- [20]
+						},
+						["links"] = {
+							[10] = "|cffa335ee|Hitem:40261:3829:0:0:0:0:0:0:80|h[Mandiletes descoloridos rudimentarios]|h|r",
+							[7] = "|cffa335ee|Hitem:39606:3252:3371:3395:0:0:0:0:80|h[Placa de batalla acorator de Héroes]|h|r",
+							[2] = "|cffa335ee|Hitem:40428:3795:0:0:0:0:0:0:80|h[Pronóstico de titán]|h|r",
+							[11] = "|cffa335ee|Hitem:42067:3605:0:0:0:0:0:0:80|h[Capa de triunfo de Gladiador mortal]|h|r",
+							[19] = "|cffa335ee|Hitem:40881:0:3574:3528:0:0:0:0:80|h[Faja de triunfo de Gladiador furioso]|h|r",
+							[4] = "|cffa335ee|Hitem:50191:3731:0:0:0:0:0:0:80|h[Buenas noches]|h|r",
+							[14] = "|cffa335ee|Hitem:50207:1075:0:0:0:0:0:0:80|h[Escarpes de aguja negra]|h|r",
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							6948, -- [1]
+							51515, -- [2]
+							34722, -- [3]
+							2901, -- [4]
+							5956, -- [5]
+							8529, -- [6]
+							45795, -- [7]
+							35951, -- [8]
+							10498, -- [9]
+							6219, -- [10]
+							23821, -- [11]
+							34722, -- [12]
+							43428, -- [13]
+							34722, -- [14]
+							34722, -- [15]
+							43425, -- [16]
+						},
+						["links"] = {
+							[2] = "|cffa335ee|Hitem:51515:3731:3536:0:0:0:0:0:80|h[Sajadora de Gladiador colérico]|h|r",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							[16] = 2,
+							[6] = 11,
+							[14] = 20,
+							[15] = 20,
+							[13] = 2,
+							[3] = 14,
+							[8] = 20,
+							[12] = 20,
+						},
+					},
+					["Bag1"] = {
+						["ids"] = {
+							45792, -- [1]
+							43423, -- [2]
+							43426, -- [3]
+							20409, -- [4]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 16,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 20,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							nil, -- [1]
+							51533, -- [2]
+							39608, -- [3]
+							41383, -- [4]
+							42133, -- [5]
+							49783, -- [6]
+							44664, -- [7]
+							47222, -- [8]
+							49080, -- [9]
+							49791, -- [10]
+							50194, -- [11]
+							40384, -- [12]
+							51571, -- [13]
+							44660, -- [14]
+							39401, -- [15]
+							39141, -- [16]
+							46377, -- [17]
+							39139, -- [18]
+							37171, -- [19]
+							37645, -- [20]
+						},
+						["links"] = {
+							[19] = "|cffa335ee|Hitem:37171:3601:3395:3549:0:0:0:0:80|h[Faja de acero bañado en llamas]|h|r",
+							[12] = "|cffa335ee|Hitem:40384:3789:0:0:0:0:0:0:80|h[Traidor de humanidad]|h|r",
+							[7] = "|cffa335ee|Hitem:44664:0:3536:0:0:0:0:0:80|h[Favor de la reina de dragones]|h|r",
+							[20] = "|cffa335ee|Hitem:37645:3603:0:0:0:0:0:0:80|h[Guanteletes de punta de cuerno]|h|r",
+							[13] = "|cffa335ee|Hitem:51571:0:3525:0:0:0:0:0:80|h[Capa de victoria forjada por los titanes]|h|r",
+							[18] = "|cffa335ee|Hitem:39139:3826:0:0:0:0:0:0:80|h[Escarpes para saquear]|h|r",
+							[3] = "|cffa335ee|Hitem:39608:3793:3492:0:0:0:0:0:80|h[Hombreras de placas acorator de Héroes]|h|r",
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["counts"] = {
+							[17] = 6,
+						},
+						["freeslots"] = 1,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							15869, -- [1]
+							15870, -- [2]
+							6893, -- [3]
+							7146, -- [4]
+							9249, -- [5]
+							11078, -- [6]
+							18250, -- [7]
+							18249, -- [8]
+							12739, -- [9]
+							27808, -- [10]
+							29742, -- [11]
+							30623, -- [12]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+						["counts"] = {
+							12, -- [1]
+							9, -- [2]
+							[6] = 3,
+						},
+					},
+				},
+				["numFreeBagSlots"] = 37,
+				["numBagSlots"] = 96,
+			},
+		},
+		["Version"] = 1,
+	},
+}

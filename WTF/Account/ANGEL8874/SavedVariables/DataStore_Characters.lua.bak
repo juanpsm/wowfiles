@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["XPMax"] = 0,
+				["played"] = 7692946,
+				["guildRankName"] = "Novicio",
+				["isResting"] = 1,
+				["lastUpdate"] = 1539810431,
+				["class"] = "Pícaro",
+				["race"] = "Elfo de la noche",
+				["level"] = 80,
+				["XP"] = 885,
+				["RestXP"] = 0,
+				["money"] = 1199983957,
+				["gender"] = 2,
+				["subZone"] = "Dalaran",
+				["zone"] = "Dalaran",
+				["guildRankIndex"] = 7,
+				["name"] = "Ijaa",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["guildName"] = "Sacra Orden del Bosque",
+				["lastLogoutTimestamp"] = 1539810431,
+				["englishClass"] = "ROGUE",
+			},
+		},
+	},
+}

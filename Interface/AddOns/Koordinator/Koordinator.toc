@@ -1,0 +1,10 @@
+## Interface: 30300
+## Title: |cff0080FFKoordinator
+## Version: 3.32
+## Author: Kataris
+## eMail: kataris@netscene.net
+## URL: http://koordinator.netscene.net
+## Notes: Adds a coordinate system into the worldmap, the minimap, to the partymember portraits and into a separate, dragable mini-window.
+## Notes-deDE: Fuegt ein Koordinatensystem in die Weltkarte, Minikarte, in die Portraits der Gruppenmitglieder sowie in ein separates, verschiebbares Mini-Fenster ein.
+## SavedVariables: koordinatorSettings
+Koordinator.xml

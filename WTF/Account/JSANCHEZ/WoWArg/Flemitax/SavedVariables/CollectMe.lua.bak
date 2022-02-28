@@ -1,0 +1,14 @@
+
+CollectMeSavedVars = {
+	["Options"] = {
+	},
+	["RndCom"] = {
+		[35387] = 5,
+	},
+	["Filters"] = {
+	},
+	["IgnoredCompanionsTable"] = {
+	},
+	["IgnoredMountsTable"] = {
+	},
+}

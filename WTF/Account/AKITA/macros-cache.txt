@@ -1,0 +1,11 @@
+MACRO 1 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Purgar;  [target=mouseover,exists,mod:ctrl] Curar toxinas; [target=mouseover,exists,mod:shift] Maleficio
+END
+MACRO 3 "peque dispel" INV_Misc_QuestionMark
+/
+END
+MACRO 2 "weapon" INV_Misc_QuestionMark
+/cast [tarjet=Adiemus] Curar toxinas
+/cast [tarjet=Adiemus] Limpiar espíritu
+END

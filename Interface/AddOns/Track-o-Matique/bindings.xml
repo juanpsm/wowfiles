@@ -1,0 +1,13 @@
+<Bindings>
+  <Binding name="TRACK_O_MATIQUE_ON_OFF" description="Toggle automatic tracking on/off" header="TRACK_O_MATIQUE">
+    if ToM and ToM.db and ToM.db.profile then
+      ToM.db.profile.automatic = not ToM.db.profile.automatic
+      ToM:AnnounceState ()
+    end
+  </Binding>
+  <Binding name="TRACK_O_MATIQUE_COMBAT_ON_OFF" description="Toggle 'only in combat' option on/off">
+    if ToM and ToM.db and ToM.db.profile then
+      ToM.db.profile.combat = not ToM.db.profile.combat
+    end
+  </Binding>
+</Bindings>

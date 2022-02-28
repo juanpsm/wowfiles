@@ -1,0 +1,33 @@
+
+Nauticus3DB = {
+	["char"] = {
+		["Gilraenloss - WoWArg"] = {
+			["activeTransit"] = 6,
+		},
+	},
+	["global"] = {
+		["knownCycles"] = {
+			[3] = {
+				["swaps"] = 0,
+				["boots"] = 0,
+				["since"] = 65110.52986577453,
+			},
+		},
+		["timestamp"] = 1513755814,
+		["uptime"] = 65207.017,
+	},
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["filterChat"] = false,
+			["factionSpecific"] = false,
+			["worldIconSize"] = 1.65,
+			["miniIconSize"] = 1.6,
+			["minimap"] = {
+				["minimapPos"] = 149.8975606538002,
+			},
+		},
+	},
+}

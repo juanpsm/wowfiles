@@ -1,0 +1,36 @@
+
+PetInfoFuDB = {
+	["chars"] = {
+		["Gilraenloss - WoWArg"] = {
+			["showStableMapNotes"] = true,
+			["hasPlayedSoundOnSkillTrainable"] = false,
+			["hasPlayedSoundOnGainTP"] = false,
+			["trackPetHistory"] = true,
+			["playSoundHappinessLevelChange"] = true,
+			["hidden"] = {
+				["Stabled Pets"] = true,
+				["History of Pets"] = true,
+			},
+			["showMendPetFrame"] = true,
+			["trackPetHappiness"] = true,
+			["petHappinessFramePoint"] = {
+				["y"] = -123.0000327574877,
+				["x"] = 77.99996867864432,
+				["point"] = "TOPLEFT",
+			},
+			["showHappinessFrame"] = true,
+			["showStabledPets"] = true,
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["minimapPosition"] = 216.7592798282698,
+			["detachedTooltip"] = {
+				["offsety"] = -281.0000638052944,
+				["anchor"] = "TOPRIGHT",
+				["offsetx"] = -192.4998943075213,
+				["fontSizePercent"] = 1,
+			},
+		},
+	},
+}

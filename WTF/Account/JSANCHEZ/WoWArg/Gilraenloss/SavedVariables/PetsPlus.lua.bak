@@ -1,0 +1,121 @@
+
+PETSPLUS_Db = {
+	["Obsidian Hatchling"] = {
+		["RepPool"] = 13,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 17,
+	},
+	["Ancona Chicken"] = {
+		["RepPool"] = 19,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 11,
+	},
+	["Senegal"] = {
+		["RepPool"] = 13,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 17,
+	},
+	["Green Wing Macaw"] = {
+		["RepPool"] = 16,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 14,
+	},
+	["customResponse"] = {
+	},
+	["Tree Frog"] = {
+		["RepPool"] = 13,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 17,
+	},
+	["Cockroach"] = {
+		["RepPool"] = 19,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 11,
+	},
+	["White Moth"] = {
+		["RepPool"] = 13,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 17,
+	},
+	["Yellow Moth"] = {
+		["RepPool"] = 14,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 16,
+	},
+	["Calico Cat"] = {
+		["RepPool"] = 16,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 14,
+	},
+	["Great Horned Owl"] = {
+		["RepPool"] = 13,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 17,
+	},
+	["Mechanical Squirrel"] = {
+		["RepPool"] = 12,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 18,
+	},
+	["Cornish Rex Cat"] = {
+		["RepPool"] = 11,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 19,
+	},
+	["Red Moth"] = {
+		["RepPool"] = 10,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 20,
+	},
+	["Blue Dragonhawk Hatchling"] = {
+		["RepPool"] = 10,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 20,
+	},
+	["Hawk Owl"] = {
+		["RepPool"] = 12,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 18,
+	},
+	["Bombay Cat"] = {
+		["RepPool"] = 15,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 15,
+	},
+	["Crimson Snake"] = {
+		["RepPool"] = 17,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 13,
+	},
+	["Snowshoe Rabbit"] = {
+		["RepPool"] = 11,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 19,
+	},
+	["customSummon"] = {
+	},
+	["Albino Snake"] = {
+		["RepPool"] = 10,
+		["Day"] = 13,
+		["Month"] = 6,
+		["Reputation"] = 20,
+	},
+}

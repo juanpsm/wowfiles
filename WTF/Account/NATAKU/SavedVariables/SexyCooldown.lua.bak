@@ -1,0 +1,42 @@
+
+SexyCooldownDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["dbVersion"] = 3,
+	},
+	["profiles"] = {
+		["Turco - WoWArg"] = {
+			["bars"] = {
+				{
+					["events"] = {
+					},
+					["blacklist"] = {
+					},
+					["eventColors"] = {
+					},
+					["icon"] = {
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+					},
+					["bar"] = {
+						["y"] = 525.8064963708922,
+						["x"] = 17.56851507736917,
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999922682501,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.99999845365,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

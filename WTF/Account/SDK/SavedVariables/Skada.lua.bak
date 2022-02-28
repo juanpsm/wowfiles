@@ -1,0 +1,20 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["scale"] = 1,
+					["mode"] = "Dispels",
+					["point"] = "LEFT",
+					["x"] = 31.47217465233543,
+					["set"] = "total",
+					["y"] = 265.2253302153151,
+				}, -- [1]
+			},
+		},
+	},
+}

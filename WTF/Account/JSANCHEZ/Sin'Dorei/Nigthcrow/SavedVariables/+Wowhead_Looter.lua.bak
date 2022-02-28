@@ -1,0 +1,15 @@
+
+wlScans = {
+	["pets"] = {
+		["CRITTER"] = "10707,10683,10706",
+		["MOUNT"] = "",
+	},
+	["titles"] = "",
+	["recipes"] = {
+	},
+	["quests"] = {
+	},
+	["skills"] = "",
+}
+wlSetting = {
+}

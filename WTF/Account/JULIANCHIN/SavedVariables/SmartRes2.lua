@@ -1,0 +1,2 @@
+
+SmartRes2DB = nil

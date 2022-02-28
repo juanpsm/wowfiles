@@ -1,0 +1,44 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Zelphar"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:50108:3820:3626:3520:0:0:0:0:80|h[Casco tejeazote]|h|r", -- [1]
+					"|cffa335ee|Hitem:49975:0:3582:0:0:0:0:0:80|h[Amuleto de centinela osario]|h|r", -- [2]
+					"|cffa335ee|Hitem:50113:3809:3520:0:0:0:0:0:80|h[Espaldares tejeazote]|h|r", -- [3]
+					52019, -- [4]
+					"|cffa335ee|Hitem:51379:3832:3563:3520:3563:0:0:0:80|h[Vestiduras de alma de sangre]|h|r", -- [5]
+					"|cffa335ee|Hitem:50069:0:3563:3520:3531:0:0:0:80|h[Guardapolvo ensangrentado del profesor]|h|r", -- [6]
+					"|cffa335ee|Hitem:50109:0:3520:3563:0:0:0:0:80|h[Quijotes tejeazote]|h|r", -- [7]
+					"|cffa335ee|Hitem:50009:0:3563:3520:0:0:0:0:80|h[Botas de crecimiento antinatural]|h|r", -- [8]
+					"|cffa335ee|Hitem:50785:2332:3533:0:0:0:0:0:80|h[Brazales de bendiciones oscuras]|h|r", -- [9]
+					"|cffa335ee|Hitem:50107:0:3520:0:0:0:0:0:80|h[Guanteletes tejeazote]|h|r", -- [10]
+					"|cffa335ee|Hitem:50986:0:3520:0:0:0:0:0:80|h[Sello de putrefacción]|h|r", -- [11]
+					"|cffa335ee|Hitem:50400:0:3563:0:0:0:0:0:80|h[Sortija Cinérea de sabiduría infinita]|h|r", -- [12]
+					50358, -- [13]
+					50339, -- [14]
+					"|cffa335ee|Hitem:50014:3831:3545:0:0:0:0:0:80|h[Gran capa de campeón converso]|h|r", -- [15]
+					"|cffa335ee|Hitem:50028:3834:0:0:0:0:0:0:80|h[Trauma]|h|r", -- [16]
+					40699, -- [17]
+					50454, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 254.8823529411765,
+				["lastUpdate"] = 1530146389,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Shadowblades"] = {
+				["Members"] = {
+					["Zelphar"] = {
+						["averageItemLvl"] = 254,
+					},
+				},
+			},
+		},
+	},
+}

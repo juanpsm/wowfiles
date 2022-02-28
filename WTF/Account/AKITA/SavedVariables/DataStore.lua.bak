@@ -1,0 +1,14 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Guthrakk"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+	},
+}

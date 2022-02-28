@@ -1,0 +1,105 @@
+<!-- 
+## Interface: 30000
+##
+## Title: FarmIt
+## Notes: Custom loot tracker. By CHiLLZ [v1.7]
+## SavedVariablesPerCharacter: FI_Config
+## SavedVariables: FI_Saved
+##
+## Author: CHiLLZ <chillz@gmail.com>
+## License: Copyright 2006-2009, Chillz Media. All rights reserved.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+
+	<!-- Help Window -->
+	<Frame name="FI_Help" frameStrata="LOW" parent="UIParent" clickable="true" movable="true" hidden="true">
+		<Size>
+			<AbsDimension x="320" y="320"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="UIParent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<EdgeSize>
+				<AbsValue val="10"/>
+			</EdgeSize>
+			<TileSize>
+				<AbsValue val="5"/>
+			</TileSize>
+			<BackgroundInsets>
+				<AbsInset left="2" right="2" top="2" bottom="2"/>
+			</BackgroundInsets>
+		</Backdrop>
+		<Scripts>
+			<OnMouseDown>
+				if (arg1=="LeftButton") then
+					this:StartMoving();
+				end
+			</OnMouseDown>
+			<OnMouseUp>
+				this:StopMovingOrSizing();
+			</OnMouseUp>
+
+			<OnShow>
+				getglobal("FI_Help_Heading"):SetText("FarmIt - Help");
+
+				getglobal("FI_Help_Text"):SetText(
+					"\n"..
+					"Place any item from your inventory into one of the bar slots to keep track of how many you have.\n"..
+					"\n"..
+					"Right-click a slot to clear it.\n"..
+					"\n"..
+					"Left-click an occupied slot to select its contents and move them to another slot.\n"..
+					"\n"..
+					"Shift-click a slot to include your bank inventory in the item count. You do not need to be at the bank for this to work! Item count turns yellow when 'include bank' is enabled.\n"..
+					"\n"..
+					"Ctrl-click a slot to set an item quantity objective, similar to quest tracking. Item objectives will turn green when they have been met.\n"
+				);
+				getglobal("FI_Help_Text"):SetWidth(300);
+			</OnShow>
+		</Scripts>
+
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="$parent_Heading" inherits="GameFontNormal" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-10"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+
+				<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent_Heading" relativePoint="BOTTOMLEFT">
+							<Offset>
+								<AbsDimension x="0" y="-5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="1" b="1" a="1" />
+				</FontString>
+			</Layer>
+		</Layers>
+
+		<Frames>
+			<Button name="$parent_Close" inherits="UIPanelCloseButton">
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+		</Frames>
+	</Frame>
+</Ui>

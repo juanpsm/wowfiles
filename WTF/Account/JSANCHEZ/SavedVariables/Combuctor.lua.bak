@@ -1,0 +1,82 @@
+
+CombuctorDB2 = {
+	["global"] = {
+		["maxScale"] = 1.5,
+	},
+	["version"] = "2.2.2",
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["inventory"] = {
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Usable", -- [3]
+					"Quest", -- [4]
+					"Trade Goods", -- [5]
+					"Projectile", -- [6]
+					"Miscellaneous", -- [7]
+					"Soul Shard", -- [8]
+				},
+				["h"] = 675.6432716428003,
+				["exclude"] = {
+					["All"] = {
+						"All", -- [1]
+						"Shards", -- [2]
+					},
+				},
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					267.2760119242726, -- [4]
+					11.36934792288463, -- [5]
+				},
+				["showBags"] = true,
+				["bags"] = {
+					-2, -- [1]
+					0, -- [2]
+					1, -- [3]
+					2, -- [4]
+					3, -- [5]
+					4, -- [6]
+				},
+				["w"] = 710.0919177840401,
+				["leftSideFilter"] = true,
+			},
+			["bank"] = {
+				["h"] = 512,
+				["showBags"] = false,
+				["sets"] = {
+					"All", -- [1]
+					"Equipment", -- [2]
+					"Trade Goods", -- [3]
+					"Miscellaneous", -- [4]
+					"Projectile", -- [5]
+					"Soul Shard", -- [6]
+					"Usable", -- [7]
+					"Quest", -- [8]
+				},
+				["bags"] = {
+					-1, -- [1]
+					5, -- [2]
+					6, -- [3]
+					7, -- [4]
+					8, -- [5]
+					9, -- [6]
+					10, -- [7]
+					11, -- [8]
+				},
+				["w"] = 512,
+				["exclude"] = {
+					["All"] = {
+						"All", -- [1]
+						"Shards", -- [2]
+						"Ammo", -- [3]
+						"Keys", -- [4]
+					},
+				},
+			},
+		},
+	},
+}
+CombuctorVersion = nil

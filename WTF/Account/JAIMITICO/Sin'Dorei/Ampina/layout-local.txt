@@ -1,0 +1,15 @@
+Version: 1
+Frame: HealBot_Action
+FrameLevel: 23
+Anchor: LEFT
+X: 128
+Y: -104
+W: 136
+H: 64
+Frame: KoordinatorMiniWindowFrame
+FrameLevel: 21
+Anchor: RIGHT
+X: -32
+Y: 137
+W: 46
+H: 24

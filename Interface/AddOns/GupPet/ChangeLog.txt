@@ -1,0 +1,274 @@
+------------------------------------------------------------------------
+------- V 1.241
+------------------------------------------------------------------------
+- Added missing companions ( Mini Thor , Frigid Frostling )
+- Fixed the bug that if the same companion is selected twice in a row it will dismiss.
+
+------------------------------------------------------------------------
+------- V 1.240
+------------------------------------------------------------------------
+- Added "Pet of the day"
+- Changed some code there
+
+------------------------------------------------------------------------
+------- V 1.231
+------------------------------------------------------------------------
+- Fixed the broken collect tooltip in V1.230
+
+------------------------------------------------------------------------
+------- V 1.230
+------------------------------------------------------------------------
+- Added export function for www.warcraftpets.com
+- Added missing mounts ( Blazing Hippogryph , Relentless Gladiator's Frost Wyrm ,Furious Gladiator's Frost Wyrm ) 
+- Added missing companion ( Grunty )
+- Updated "Collect Me" with missing mounts ( Ancient Frostsaber , Black Ram , Frost Ram , Icy Blue Mechanostrider Mod A , Nightsaber , Palomino , White Mechanostrider Mod B , White Stallion , Arctic Wolf , Red Wolf ,Green Kodo , Teal Kodo , Ivory Raptor, Mottled Red Raptor )
+
+------------------------------------------------------------------------
+------- V 1.224
+------------------------------------------------------------------------
+- Added missing mounts ( Crusader's White Warhorse , Crusader's Black Warhorse , Invincible , Crimson Deathcharger )
+- Updated loads of Russian localization texts thanks to StingerSoft
+
+------------------------------------------------------------------------
+------- V 1.223
+------------------------------------------------------------------------
+- Added missing mount ( Mimiron's Head )
+
+------------------------------------------------------------------------
+------- V 1.222
+------------------------------------------------------------------------
+- Added missing mount ( X-53 Touring Rocket )
+- Updated "Collect Me" with a missing mount ( X-53 Touring Rocket )
+
+------------------------------------------------------------------------
+------- V 1.221
+------------------------------------------------------------------------
+- Updated "Collect Me" with a missing mount ( Celestial Steed )
+- Updated "Collect Me" with a missing companion ( Lil' XT )
+- Fixed a bug that showed the error message "You can't do that right now".
+- Added an option to hide the keybind text on the ingame buttons.
+
+------------------------------------------------------------------------
+------- V 1.220
+------------------------------------------------------------------------
+- Added missing mount ( Celestial Steed )
+
+------------------------------------------------------------------------
+------- V 1.219
+------------------------------------------------------------------------
+- Updated "Collect Me" with a missing mount ( Frosty Flying Carpet )
+- Updated "Collect Me" with a missing companion ( Blue Clockwork Rocket Bot )
+
+------------------------------------------------------------------------
+------- V 1.218
+------------------------------------------------------------------------
+- Updated "Collect Me" with new texts ( Gryphon Hatchling , Wind Rider Cub )
+
+------------------------------------------------------------------------
+------- V 1.217
+------------------------------------------------------------------------
+- Updated "Collect Me" with 2 missing mounts ( Big Love Rocket , Blue Drake )
+- Updated "Collect Me" with a missing companion ( Toxic Wasteling )
+
+------------------------------------------------------------------------
+------- V 1.216
+------------------------------------------------------------------------
+- Fixed a taint error when you leave a vehicle incombat.
+
+------------------------------------------------------------------------
+------- V 1.215
+------------------------------------------------------------------------
+- Added a function on the move buttons (for those who cant find the button in the optionmenu )
+- Added a new section on the ground tab for multimount types.
+- Updated the Slashcommands with the new mount category.
+- Updated the keybinds with the new mount category.
+
+------------------------------------------------------------------------
+------- V 1.210
+------------------------------------------------------------------------
+- Added an optionmenu to change the ingame button icons.
+- Updated "Collect Me" with 2 missing mounts ( Icebound Frostbrood Vanquisher , Bloodbathed Frostbrood Vanquisher )
+- Updated "Collect Me" with a missing companion ( Perky Pug )
+- Updated "Collect Me" texts from Leaping, Darting, Razormaw, and Ravasaur Hatchlings.
+
+------------------------------------------------------------------------
+------- V 1.209
+------------------------------------------------------------------------
+- Updated "Collect Me" with 3 new companions ( Core Hound Pup , Albino Snake , Calico Cat )
+
+------------------------------------------------------------------------
+------- V 1.208
+------------------------------------------------------------------------
+- Fixed a bug where invisibility got broken by a auto companion summon.
+
+------------------------------------------------------------------------
+------- V 1.207
+------------------------------------------------------------------------
+- Added the French localization thanks to "Morwen from Kirin Tor"
+
+------------------------------------------------------------------------
+------- V 1.205
+------------------------------------------------------------------------
+- Added option to toggle the auto recall to activate it only in a city/inn or overall
+- Updated "Collect Me" with new texts for the enabled pets
+
+------------------------------------------------------------------------
+------- V 1.204
+------------------------------------------------------------------------
+- Added option to enable the minimap button
+- Added recall function to auto call companion to recall a companion in a city with a custom delay
+- Updated "Collect Me" with a missing companion ( Mr. Chilly )
+	
+------------------------------------------------------------------------
+------- V 1.203
+------------------------------------------------------------------------
+- Added extra class support for DeathKnights and Shamans to cast a spell to walk over the water if the are swimming
+- Updated "Collect Me" with 2 missing mounts ( Swift Horde Wolf , Swift Alliance Steed )
+- Updated "Collect Me" with 2 missing companions ( Curious Wolvar Pup , Curious Oracle Hatchling )
+
+------------------------------------------------------------------------
+------- V 1.201
+------------------------------------------------------------------------
+- Added the missing mount ( Magic Rooster )
+- Updated "Collect Me" with the missing mount ( Magic Rooster )
+
+------------------------------------------------------------------------
+------- V 1.200
+------------------------------------------------------------------------
+- Added an function that add information to the tooltip when you mouseover a creature (NPC or mob) that would tell you what pets that creature drops/sells 
+- Upgraded the CollectMe database with the a DropTable
+- Some minor changes to the CollectMe filters
+
+------------------------------------------------------------------------
+------- V 1.199
+------------------------------------------------------------------------
+- Added ignore filter for "Collect Me"
+- Added color to the "Collect Me" texts 
+- Made the small button on the PetPaperDollFrame parent to the frame so it wont stick infront of other frames
+
+------------------------------------------------------------------------
+------- V 1.198
+------------------------------------------------------------------------
+- Updated "Collect Me" with the new mount ( Onyxian Drake )
+- Updated "Collect Me" with the new companions ( Pint-Sized Pink Elekk, Lil' K.T., Core Hound Pup, Gryphon Hatchling, Wind Rider Cub, Zipao Tiger, Pandaren Monk, Spectral Tiger Cub, Tuskarr Kite, Onyxian Whelpling, Plump Turkey)
+
+------------------------------------------------------------------------
+------- V 1.197
+------------------------------------------------------------------------
+- Fixed a bug that a companion would be summoned while looting
+
+------------------------------------------------------------------------
+------- V 1.196
+------------------------------------------------------------------------
+- Added quest item detection so it wont automaticly call a companion while on those quests and kill the quest function.
+- Updated the druid things again to fix the inconsistent behavior. But if some druids like the inconsistent way the still can by "/GupPet ToggleInconsistent"
+
+------------------------------------------------------------------------
+------- V 1.195
+------------------------------------------------------------------------
+- Added an option for the buttons to change the alignment to vertical.
+- Added an option for druids to use Cat form while indoors.
+- You can now enable/disable autocalling for party and raids independent.
+
+------------------------------------------------------------------------
+------- V 1.194
+------------------------------------------------------------------------
+- Added an option to hide the load text.
+- Tiny Snowman uses snowballs to.
+- Fixed a bug that a hunter in Feign Death would call a pet.
+- Fixed a bug for druids that the can leave a vehicle with the keybinds
+- Fixed a bug for mages that if the where in combat the "Slow Fall" spell is not on the button 
+	
+------------------------------------------------------------------------
+------- V 1.192
+------------------------------------------------------------------------ 
+- Fixed a bug that the addon try to call a flyer mount in wintergrasp while the battle is active. 
+
+------------------------------------------------------------------------
+------- V 1.191
+------------------------------------------------------------------------ 
+- Fixed you are not in a party bug
+
+------------------------------------------------------------------------
+------- V 1.190
+------------------------------------------------------------------------ 
+- Bliz finaly fixed there CanFly api so changed a bit of code there.
+- Updated collect me with the new mounts (Argent Charger, Argent Warhorse, Quel'dorei Steed,Striped Dawnsaber, Silver Covenant Hippogryph, Sunreaver Hawkstrider, Ochre Skeletal Warhorse, Sunreaver Dragonhawk, Venomhide Ravasaur )
+- Updated collect me with the new companions (Shimmering Wyrmling, Darting Hatchling, Deviate Hatchling, Gundrak Hatchling, Leaping Hatching, Obsidian Hatchling, Ravasaur Hatchling, Razormaw Hatchling, Razzashi Hatchling )
+  
+------------------------------------------------------------------------
+------- V 1.186
+------------------------------------------------------------------------ 
+- Changed the code that druids always have the travel form under the mountbutton while in combat.
+- Changed the code that shamans always have the ghostwolf under the mountbutton while in combat.
+- Added mount for 3.2 ( Venomhide Ravasaur )
+
+------------------------------------------------------------------------
+------- V 1.185
+------------------------------------------------------------------------ 
+- Fixed a bug for druids not casting travel form while running if the could fly in the area.
+
+------------------------------------------------------------------------
+------- V 1.18
+------------------------------------------------------------------------ 
+- Added the ButtonFacade addition to the package
+- Druids have a new option to put travel form under the mount button while moving.
+- Added missing mount Ironbound Proto-Drake (63956)
+- Added some mounts for 3.2 ( Silver Covenant Hippogryph, Sunreaver Dragonhawk, Quel'dorei Steed, Ochre Skeletal Warhorse, Striped Dawnsaber, Argent Charger, Sunreaver Hawkstrider, Argent Warhorse )
+	
+- Complete rebuild of Collect Me
+	- The global filter is done. ( Now only the family part ) 
+	- Shift-click on an icon will link the spell in chat. 
+	- Alt-click on an icon will link the spell in chat with the data where you can find it.
+	- Save the data from all your chars and display what your other chars have collected.
+
+------------------------------------------------------------------------
+------- V 1.17
+------------------------------------------------------------------------ 
+- Added missing mount Rusted Proto-Drake (63963)
+
+------------------------------------------------------------------------
+------- V 1.16
+------------------------------------------------------------------------ 
+- Added a shift-click handler to the option interface so that you can link your pets/mounts in chat. ( Not possible in expert mode duo the slider )
+- Added a slider for the preview screen to set the startposition of the mount/companion.
+- Button at the original petframe will now also close the GupPet menu if you click on it while the GupPet menu is showen.
+- Fixed a bug that the mounts from an instance where selected and not from the arena section if you where in an arena. 
+		
+------------------------------------------------------------------------
+------- V 1.15
+------------------------------------------------------------------------ 
+- Added an handler to the companion button that can dismiss companions.
+- Added an option for mages if the are falling that slow fall is under the button while not mounted.
+- Added an option to automatic dismiss your companion if your are on your mount.
+- Companion will now be automatic dismissed if you go into stealth ( with no delay ).
+	
+------------------------------------------------------------------------
+------- V 1.14
+------------------------------------------------------------------------ 
+- Added the "Collect Me" function to GupPet 
+
+------------------------------------------------------------------------
+------- V 1.03
+------------------------------------------------------------------------ 
+- Fixed a bug that if you are in a party and the other player would enter a vehicle that your buttons are gone.
+- Changed the button size in the orginal pet screen.
+- Added Riding Turtle to slow ground.
+- Added a slider to set the rotating speed in the preview screen.
+- Added Russian localization (Not the Categories yet cuz that could brake some parts in the addon. If you dont use it from a clean install).
+	
+------------------------------------------------------------------------
+------- V 1.02
+------------------------------------------------------------------------ 
+- Fixed a bug that the buttonspace was way to big 
+	
+------------------------------------------------------------------------
+------- V 1.01
+------------------------------------------------------------------------ 
+- Added keybind support for druids and shamans
+
+------------------------------------------------------------------------
+------- V 1.0
+------------------------------------------------------------------------ 
+Addon "Complete" rewritten
+ 

@@ -1,0 +1,13 @@
+# Ignore everything
+*
+
+# Except this directories:
+!.gitignore
+!Screenshots
+!Screenshots/**
+!WTF
+!WTF/**
+!Interface
+!Interface/**
+Interface/*.rar
+Interface/*.zip

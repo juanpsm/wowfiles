@@ -1,0 +1,14 @@
+## Interface: 30300
+## Title: GridIndicatorIconBar
+## Notes: Add a bar of icon indicators to Grid.
+## Author: Adirelle
+## Version: v1.3-beta
+## X-Date: @project-date@
+## Dependencies: Grid
+## X-Category: UnitFrame
+## X-Curse-Packaged-Version: v1.3-beta
+## X-Curse-Project-Name: GridIndicatorIconBar
+## X-Curse-Project-ID: gridindicatoriconbar
+## X-Curse-Repository-ID: wow/gridindicatoriconbar/mainline
+
+GridIndicatorIconBar.lua

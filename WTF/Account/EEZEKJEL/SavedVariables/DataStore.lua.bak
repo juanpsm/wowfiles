@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["guildName"] = "Red Army",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Red Army"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+	},
+}

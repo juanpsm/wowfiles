@@ -1,0 +1,8 @@
+Version: 1
+Frame: AltoholicFrame
+FrameLevel: 16
+Anchor: LEFT
+X: 26
+Y: 65
+W: 832
+H: 447

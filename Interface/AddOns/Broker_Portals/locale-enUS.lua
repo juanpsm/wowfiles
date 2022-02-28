@@ -1,0 +1,21 @@
+L = {}
+
+L["ANNOUNCE"] = "Announce cast of portals"
+L["ANNOUNCEMENT"] = "Casting"
+L["ATT_MINIMAP"] = "Attach to minimap"
+L["HEARTHSTONE"] = "Hearthstone"
+L["INN"] = "Inn:"
+L["MIN"] = "mins"
+L["N/A"] = "Not available"
+L["OPTIONS"] = "Options"
+L["P"] = "Portals"
+L["P_RUNE"] = "Rune of Portals"
+L["RCLICK"] = "Right-Click"
+L["READY"] = "Ready"
+L["SEC"] = "secs"
+L["SEE_SPELLS"] = "to see list of spells"
+L["SHOW_ITEM_COOLDOWNS"] = "Show items cooldowns"
+L["SHOW_ITEMS"] = "Show items"
+L["TP"] = "Teleports"
+L["TP_RUNE"] = "Rune of Teleportation"
+

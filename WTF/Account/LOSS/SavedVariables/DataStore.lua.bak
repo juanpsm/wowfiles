@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Sin'Dorei.Lossena"] = {
+				["guildName"] = "Staff",
+				["faction"] = "Horde",
+			},
+		},
+		["Guilds"] = {
+			["Default.Sin'Dorei.Staff"] = {
+				["faction"] = "Horde",
+			},
+		},
+		["Version"] = 1,
+	},
+}

@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r56 | bigredbrent | 2010-06-23 08:37:20 +0000 (Wed, 23 Jun 2010) | 1 line
+Changed paths:
+   A /tags/4.0.1 (from /trunk:55)
+
+Tagging as 4.0.1
+------------------------------------------------------------------------
+r55 | bigredbrent | 2010-06-23 08:36:55 +0000 (Wed, 23 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash.toc
+   M /trunk/Version History.txt
+
+updated toc and history files
+------------------------------------------------------------------------
+r54 | bigredbrent | 2010-05-11 04:00:34 +0000 (Tue, 11 May 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash.lua
+
+Now using lua to create OnUpdate and OnEvent frame.
+------------------------------------------------------------------------

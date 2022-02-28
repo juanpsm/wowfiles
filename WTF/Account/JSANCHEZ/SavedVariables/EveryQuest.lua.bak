@@ -1,0 +1,15 @@
+
+EveryQuestDB = nil
+EQ2DB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["track"] = false,
+			["locallist"] = false,
+			["querytime"] = 1403571395,
+			["savezone"] = false,
+		},
+	},
+}

@@ -1,0 +1,32 @@
+
+DataStore_SpellsDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Asasasdasda"] = {
+				["lastUpdate"] = 1511831452,
+				["Spells"] = {
+					["Combate"] = {
+						"1752|Rango 1", -- [1]
+					},
+					["Asesinato"] = {
+						"2098|Rango 1", -- [1]
+					},
+					["General"] = {
+						"6603|", -- [1]
+						"674|Pasivo", -- [2]
+						"2481|Racial", -- [3]
+						"20595|Pasivo racial", -- [4]
+						"59224|Pasivo racial", -- [5]
+						"81|Pasivo", -- [6]
+						"20594|Racial", -- [7]
+						"2764|", -- [8]
+						"20596|Pasivo racial", -- [9]
+					},
+				},
+			},
+		},
+	},
+}

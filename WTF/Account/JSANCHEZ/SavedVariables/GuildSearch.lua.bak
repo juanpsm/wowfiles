@@ -1,0 +1,10 @@
+
+GuildSearchDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

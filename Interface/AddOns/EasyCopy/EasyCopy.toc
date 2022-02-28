@@ -1,0 +1,7 @@
+## Interface: 30000
+## Title: EasyCopy
+## Notes: Clickable Timestamp to copy a message.
+## Author: bitbiter
+## Version: 2.5
+## SavedVariables: ECVars
+EasyCopy.xml

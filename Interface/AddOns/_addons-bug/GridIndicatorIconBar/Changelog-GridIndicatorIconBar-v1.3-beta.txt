@@ -1,0 +1,12 @@
+tag v1.3-beta
+181f14141e0234c93cf0833e43341d0c1e4605e1
+Adirelle <adirelle@tagada-team.net>
+2010-05-03 08:13:50 +0200
+
+Tagging as "v1.3-beta".
+
+
+--------------------
+
+Adirelle:
+	- Added an opacity option.

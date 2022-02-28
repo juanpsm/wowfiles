@@ -1,0 +1,18 @@
+MACRO 5 "fly" Ability_Hunter_Pet_Wasp
+.volar on
+END
+MACRO 2 "freeze" Spell_Deathknight_FrostPresence
+.freeze
+END
+MACRO 3 "mount" Ability_Mount_Dreadsteed
+.montar 32345
+END
+MACRO 7 "npc info" Ability_Hunter_SilentHunter
+.npc info
+END
+MACRO 6 "speed" Ability_Druid_Dash
+.velo 10
+END
+MACRO 1 "Spy" Ability_Hunter_AspectoftheViper
+/spy
+END

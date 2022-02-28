@@ -1,0 +1,23 @@
+MACRO 16777229 "buff solo" INV_Misc_QuestionMark
+/castsequence reset=5 Inner Fire(Rank 9), Vampiric Embrace, Power Word: Fortitude(Rank 8), Divine Spirit(Rank 6), Shadow Protection(Rank 5)
+END
+MACRO 16777226 "buffs" INV_Misc_QuestionMark
+/castsequence reset=5 Prayer of Fortitude(Rank 4), Prayer of Spirit(Rank 3), Prayer of Shadow Protection(Rank 3)
+END
+MACRO 16777224 "Mind Flaw" INV_Misc_QuestionMark
+#showtooltip Mind Flay(Rank 9)
+/cast [nochanneling:Mind Flay] Mind Flay
+END
+MACRO 16777225 "Mind Sear" INV_Misc_QuestionMark
+#showtooltip Mind Sear(Rank 2)
+/cast [nochanneling:Mind Sear(Rank 2)] Mind Sear(Rank 2)
+END
+MACRO 16777228 "Shackle Gargoyle" INV_Misc_QuestionMark
+#show Shackle Undead(Rank 3)
+/targetexact [exists,harm] Ebon Gargoyle
+/stopmacro [noexists]
+/cast [@target,harm] Shackle Undead();
+/cast [@arenapet1,exists] Shackle Undead();
+/cast [@arenapet2,exists] Shackle Undead();
+/targetlasttarget
+END

@@ -1,0 +1,22 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Asasasdasda"] = {
+				["Inventory"] = {
+					[16] = 2092,
+					[7] = 48,
+					[17] = 50055,
+					[18] = 25861,
+					[4] = 49,
+					[8] = 47,
+				},
+				["averageItemLvl"] = 1.8,
+				["lastUpdate"] = 1511831453,
+			},
+		},
+	},
+}

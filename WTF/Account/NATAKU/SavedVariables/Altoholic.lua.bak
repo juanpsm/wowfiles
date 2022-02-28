@@ -1,0 +1,55 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["Friends"] = {
+					"Agui", -- [1]
+					"Alu", -- [2]
+					"Alura", -- [3]
+					"Badboi", -- [4]
+					"Candas", -- [5]
+					"Derec", -- [6]
+					"Dysis", -- [7]
+					"Ehrin", -- [8]
+					"Eldarion", -- [9]
+					"Epyon", -- [10]
+					"Fatmike", -- [11]
+					"Gilraenloss", -- [12]
+					"Hanzo", -- [13]
+					"Heleatinna", -- [14]
+					"Heyfer", -- [15]
+					"Ithorak", -- [16]
+					"Izanagi", -- [17]
+					"Jergal", -- [18]
+					"Laam", -- [19]
+					"Lichnaya", -- [20]
+					"Lynd", -- [21]
+					"Manipuladora", -- [22]
+					"Moriacasan", -- [23]
+					"Nataku", -- [24]
+					"Natatuille", -- [25]
+					"Neruneya", -- [26]
+					"Pain", -- [27]
+					"Pasado", -- [28]
+					"Piton", -- [29]
+					"Ryonan", -- [30]
+					"Shino", -- [31]
+					"Shiraiya", -- [32]
+					"Siegfrid", -- [33]
+					"Spawm", -- [34]
+					"Srchota", -- [35]
+					"Tami", -- [36]
+					"Trast", -- [37]
+					"Tytanya", -- [38]
+					"Warlok", -- [39]
+					"Wista", -- [40]
+					"Yagub", -- [41]
+				},
+			},
+		},
+	},
+}

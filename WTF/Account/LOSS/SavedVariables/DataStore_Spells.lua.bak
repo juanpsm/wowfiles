@@ -1,0 +1,28 @@
+
+DataStore_SpellsDB = {
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Sin'Dorei.Lossena"] = {
+				["lastUpdate"] = 1635032250,
+				["Spells"] = {
+					["General"] = {
+						"6603|", -- [1]
+						"20577|Racial", -- [2]
+						"81|Passive", -- [3]
+						"20579|Racial Passive", -- [4]
+						"5019|", -- [5]
+						"5227|Racial Passive", -- [6]
+						"7744|Racial", -- [7]
+					},
+					["Holy"] = {
+						"2050|Rank 1", -- [1]
+						"585|Rank 1", -- [2]
+					},
+				},
+			},
+		},
+	},
+}

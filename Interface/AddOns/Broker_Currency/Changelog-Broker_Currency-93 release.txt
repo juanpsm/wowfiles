@@ -1,0 +1,15 @@
+------------------------------------------------------------------------
+r93 | torhal | 2010-06-14 09:30:47 +0000 (Mon, 14 Jun 2010) | 1 line
+Changed paths:
+   A /tags/93 release (from /trunk:92)
+
+Tagging as 93 release
+------------------------------------------------------------------------
+r92 | AZETHOTH | 2010-02-07 22:55:53 +0000 (Sun, 07 Feb 2010) | 3 lines
+Changed paths:
+   M /trunk/Broker_Currency.lua
+
+--Add love token
+--Rearrange emblem order
+--some icon changes
+------------------------------------------------------------------------

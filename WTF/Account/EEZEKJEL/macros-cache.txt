@@ -1,0 +1,49 @@
+MACRO 15 "/quartz" INV_Misc_QuestionMark
+END
+MACRO 3 "Camara" Ability_Creature_Cursed_04
+/console CameraDistanceMaxFactor 3
+END
+MACRO 4 "follow" Ability_Creature_Cursed_01
+/follow focus
+/follow target
+END
+MACRO 10 "inner" Spell_Nature_Lightning
+/gritar ALGUN INNER?
+END
+MACRO 13 "leave" INV_Misc_QuestionMark
+/run LeaveParty()
+END
+MACRO 6 "macro" INV_Misc_QuestionMark
+/macro
+END
+MACRO 12 "party" INV_Misc_QuestionMark
+/invite Fjaak
+/invite Skom
+END
+MACRO 14 "quartz" INV_Misc_QuestionMark
+/quartz
+END
+MACRO 9 "roll" INV_Misc_QuestionMark
+/roll
+END
+MACRO 5 "salva" INV_Misc_QuestionMark
+/showtooltip Nature's Swiftness
+/use Nature's Swiftness
+/cast /cast Healing Wave(Rank 14)
+END
+MACRO 18 "suf" INV_Misc_QuestionMark
+/suf
+END
+MACRO 16 "tiptac" INV_Misc_QuestionMark
+/tiptac
+c
+END
+MACRO 17 "tmw" INV_Misc_QuestionMark
+/tmw
+END
+MACRO 8 "trade" INV_Misc_QuestionMark
+/trade
+END
+MACRO 11 "valky" INV_Misc_QuestionMark
+/s CHAMI ACA
+END

@@ -1,0 +1,12 @@
+
+PetLeashDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["enable"] = false,
+			["waitTimer"] = 30,
+		},
+	},
+}

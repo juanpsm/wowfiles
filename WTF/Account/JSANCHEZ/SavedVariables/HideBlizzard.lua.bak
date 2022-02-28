@@ -1,0 +1,27 @@
+
+HideBlizzardDB = {
+	["namespaces"] = {
+		["SpecialFrames"] = {
+		},
+		["Player"] = {
+		},
+		["Buttons"] = {
+		},
+		["Target"] = {
+		},
+		["Vehicle"] = {
+		},
+		["Pet"] = {
+		},
+		["ActionBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Flemitax - WoWArg"] = "Flemitax - WoWArg",
+	},
+	["profiles"] = {
+		["Flemitax - WoWArg"] = {
+			["Version"] = "1.0.58",
+		},
+	},
+}

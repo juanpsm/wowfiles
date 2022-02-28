@@ -1,0 +1,3 @@
+
+angle = nil
+miniMap = nil

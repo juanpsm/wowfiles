@@ -1,0 +1,10 @@
+MACRO 1 " lol" Ability_Creature_Disease_05
+/lol
+END
+MACRO 3 "Camara" Ability_Creature_Cursed_04
+/console CameraDistanceMaxFactor 3
+END
+MACRO 2 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Purgar;  [target=mouseover,exists,mod:ctrl] Curar toxinas; [target=mouseover,exists,mod:shift] Purgar
+END

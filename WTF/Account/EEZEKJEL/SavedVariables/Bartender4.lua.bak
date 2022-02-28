@@ -1,0 +1,151 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -204.9999990426909,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -189.5000032138233,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -151.5000450619058,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -113.5000168896673,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -75.50005873774967,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -37.49999555535078,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -188.8000814286088,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.39990244255216,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["MultiCast"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -114.5000996285231,
+						["point"] = "CENTER",
+						["y"] = 19.49994167252561,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.50005258361989,
+						["point"] = "CENTER",
+						["y"] = 1.499957810021442,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 53.50004150618634,
+						["point"] = "CENTER",
+						["y"] = 51.49996355387589,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.500016479392,
+						["point"] = "CENTER",
+						["y"] = -15.00002447976067,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Elchamaquito - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.5000751487625,
+						["point"] = "CENTER",
+						["y"] = 89.49995671595389,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["profiles"] = {
+		["Elchamaquito - WoWArg"] = {
+		},
+	},
+}

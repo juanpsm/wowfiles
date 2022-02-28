@@ -1,0 +1,47 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Skombrow"] = {
+				["lastUpdate"] = 1499533178,
+				["Skills"] = {
+					["Profesiones"] = {
+						["Desollar"] = "375|375",
+						["Peletería"] = "277|375",
+					},
+					["Habilidades con armas"] = {
+						["Sin armas"] = "94|365",
+						["Armas de asta"] = "93|365",
+						["Mazas de dos manos"] = "85|365",
+						["Bastones"] = "202|365",
+						["Dagas"] = "39|365",
+						["Mazas"] = "54|365",
+						["Defensa"] = "365|365",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+						["Idioma: darnassiano"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
+						["Cuero"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Combate feral"] = "1|1",
+						["Equilibrio"] = "1|1",
+						["Restauración"] = "1|1",
+					},
+					["Habilidades secundarias"] = {
+						["Cocina"] = "307|375",
+						["Pesca"] = "16|75",
+						["Equitación"] = "300|300",
+						["Primeros auxilios"] = "375|375",
+					},
+				},
+			},
+		},
+	},
+}

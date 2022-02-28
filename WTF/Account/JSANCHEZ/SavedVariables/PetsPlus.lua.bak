@@ -1,0 +1,5 @@
+
+PETSPLUS_Settings = {
+	["bShown"] = true,
+	["bFirstLoad"] = false,
+}

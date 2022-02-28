@@ -1,0 +1,48 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["lastUpdate"] = 1527103493,
+				["Skills"] = {
+					["Profesiones"] = {
+						["Joyería"] = "431|455",
+						["Minería"] = "450|450",
+					},
+					["Habilidades con armas"] = {
+						["Hachas de dos manos"] = "1|400",
+						["Hachas"] = "395|400",
+						["Sin armas"] = "395|400",
+						["Mazas de dos manos"] = "177|400",
+						["Bastones"] = "1|400",
+						["Defensa"] = "400|400",
+						["Mazas"] = "400|400",
+						["Dagas"] = "142|400",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+						["Idioma: draenei"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Malla"] = "1|1",
+						["Cuero"] = "1|1",
+						["Tela"] = "1|1",
+						["Escudo"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Combate elemental"] = "1|1",
+						["Restauración"] = "1|1",
+						["Mejora"] = "1|1",
+					},
+					["Habilidades secundarias"] = {
+						["Equitación"] = "300|300",
+						["Primeros auxilios"] = "1|75",
+					},
+				},
+			},
+		},
+	},
+}

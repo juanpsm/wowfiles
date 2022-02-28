@@ -1,0 +1,320 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Algarrobo"] = {
+			["GUID"] = "0x000000000003241E",
+			["LastEventHealth"] = {
+				"3199 (100%)", -- [1]
+				"3199 (100%)", -- [2]
+				"3199 (100%)", -- [3]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+			},
+			["TimeWindows"] = {
+				["TimeDamage"] = {
+					3.5, -- [1]
+				},
+				["ActiveTime"] = {
+					3.5, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Algarrobo",
+			["level"] = 55,
+			["LastFightIn"] = 0,
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["TimeLast"] = {
+				["OVERALL"] = 1265502880,
+				["TimeDamage"] = 1265502880,
+				["ActiveTime"] = 1265502880,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 118791.562,
+			["NextEventNum"] = 4,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+			},
+			["LastEvents"] = {
+				"Darkdraenei Icy Touch Algarrobo Miss", -- [1]
+				"Darkdraenei Melee Algarrobo Miss", -- [2]
+				"Algarrobo Death Coil Darkdraenei Miss", -- [3]
+			},
+			["Name"] = "Algarrobo",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				true, -- [2]
+				false, -- [3]
+			},
+			["LastEventTimes"] = {
+				118738.375, -- [1]
+				118778.062, -- [2]
+				118791.562, -- [3]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["Attacks"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Darkdraenei"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Darkdraenei"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["Attacks"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Darkdraenei"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Darkdraenei"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["Attacks"] = {
+						["Death Coil"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["TimeDamaging"] = {
+						["Darkdraenei"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeSpent"] = {
+						["Darkdraenei"] = {
+							["Details"] = {
+								["Death Coil"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1265502827,
+			["LastActive"] = 1265502880,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			1265502827, -- [1]
+			1265502911, -- [2]
+			"21:33:47", -- [3]
+			"21:35:11", -- [4]
+			"Darkdraenei", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Darkdraenei 21:33:47-21:35:11", -- [1]
+	},
+}

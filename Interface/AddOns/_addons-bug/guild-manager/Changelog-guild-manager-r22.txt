@@ -1,0 +1,162 @@
+------------------------------------------------------------------------
+r22 | flyhard | 2010-09-24 10:16:44 +0000 (Fri, 24 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Starting to look at the GM functions
+------------------------------------------------------------------------
+r21 | flyhard | 2010-09-17 14:57:53 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Handling now also the 'move' transactions
+------------------------------------------------------------------------
+r20 | flyhard | 2010-09-17 06:43:14 +0000 (Fri, 17 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Reordered some procedures
+------------------------------------------------------------------------
+r19 | flyhard | 2010-09-16 23:26:55 +0000 (Thu, 16 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Added debugging Info
+------------------------------------------------------------------------
+r18 | flyhard | 2010-09-16 22:53:10 +0000 (Thu, 16 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/GuildManager.lua
+   M /trunk/embeds.xml
+   M /trunk/libs
+
+Some errorcorrection
+------------------------------------------------------------------------
+r17 | flyhard | 2010-09-16 14:05:40 +0000 (Thu, 16 Sep 2010) | 2 lines
+Changed paths:
+   M /trunk/GuildManager.lua
+   M /trunk/Locales/Locale-deDE.lua
+   M /trunk/Locales/Locale-enUS.lua
+
+Turned on debug mode for all alpha releases. Debug=false in Beta/release.
+
+------------------------------------------------------------------------
+r16 | flyhard | 2010-09-16 13:59:54 +0000 (Thu, 16 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Inserted the AceLocale loading and a test for event parameters
+------------------------------------------------------------------------
+r15 | flyhard | 2010-09-16 08:39:24 +0000 (Thu, 16 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+changed eventhandling
+------------------------------------------------------------------------
+r14 | flyhard | 2010-09-15 22:39:17 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+I think this should now work
+------------------------------------------------------------------------
+r13 | flyhard | 2010-09-15 22:14:54 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Trying to get AceEvent to work
+------------------------------------------------------------------------
+r12 | flyhard | 2010-09-15 16:38:44 +0000 (Wed, 15 Sep 2010) | 2 lines
+Changed paths:
+   M /trunk/GuildManager.lua
+   M /trunk/guild-manager.toc
+
+Added more Log  Saving
+
+------------------------------------------------------------------------
+r11 | flyhard | 2010-09-15 14:22:43 +0000 (Wed, 15 Sep 2010) | 2 lines
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Made things better :-)
+
+------------------------------------------------------------------------
+r10 | flyhard | 2010-09-15 14:16:07 +0000 (Wed, 15 Sep 2010) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/GuildManager.lua
+   M /trunk/embeds.xml
+   M /trunk/libs
+
+Added the first (not working) GuildLog funtions
+
+------------------------------------------------------------------------
+r9 | flyhard | 2010-09-15 13:18:30 +0000 (Wed, 15 Sep 2010) | 2 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/embeds.xml
+
+Added AceAddon-3.0
+
+------------------------------------------------------------------------
+r8 | flyhard | 2010-09-15 13:14:24 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildManager.lua
+
+Testcode
+------------------------------------------------------------------------
+r7 | flyhard | 2010-09-15 12:23:10 +0000 (Wed, 15 Sep 2010) | 2 lines
+Changed paths:
+   A /trunk/.project
+   M /trunk/embeds.xml
+   A /trunk/libs
+
+Added Eclipse stuff
+
+------------------------------------------------------------------------
+r6 | flyhard | 2010-09-15 10:16:18 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/embeds.xml
+
+Locales should be included correctly now
+------------------------------------------------------------------------
+r5 | flyhard | 2010-09-15 10:13:17 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/embeds.xml
+
+The localization should be ready for use now
+------------------------------------------------------------------------
+r4 | flyhard | 2010-09-15 10:02:03 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   A /trunk/embeds.xml
+   M /trunk/guild-manager.toc
+
+First try for Ace3 Locale includes
+------------------------------------------------------------------------
+r3 | flyhard | 2010-09-15 09:30:30 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   D /trunk/Guild-Manager.toc
+   A /trunk/GuildManager.lua
+   A /trunk/guild-manager.toc (from /trunk/Guild-Manager.toc:2)
+
+Added the main LUA
+------------------------------------------------------------------------
+r2 | flyhard | 2010-09-15 09:08:18 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/Guild-Manager.toc
+   A /trunk/Locales
+   A /trunk/Locales/Locale-deDE.lua
+   A /trunk/Locales/Locale-enUS.lua
+
+First test checkin
+------------------------------------------------------------------------
+r1 | root | 2010-09-15 08:50:24 +0000 (Wed, 15 Sep 2010) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"guild-manager/mainline: Initial Import"
+------------------------------------------------------------------------

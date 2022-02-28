@@ -1,0 +1,164 @@
+MACRO 19 "," Ability_Druid_EclipseOrange
+/s soy jonter no c bolber
+END
+MACRO 34 "Aimed + Silence" INV_Misc_QuestionMark
+/cast Aimed shot(Rank 9)
+/cast Silencing shot
+END
+MACRO 52 "arco" Ability_Creature_Cursed_02
+/equip Fal'inrush, Defender of Quel'thalas
+/run PickupInventoryItem(18)PutItemInBackpack()
+END
+MACRO 31 "Belt" INV_Misc_QuestionMark
+/use 6
+END
+MACRO 33 "Botis" INV_Misc_QuestionMark
+/use 8
+END
+MACRO 37 "BURST" Ability_Creature_Cursed_03
+/cast Rapid fire
+/cast Kill command
+/cast Call of the Wild
+/cast Rabid
+/use 10
+END
+MACRO 25 "Cape" Ability_Ensnare
+/use 15
+END
+MACRO 32 "DAILYS" Ability_Creature_Cursed_03
+/script SelectGossipAvailableQuest(1)
+/script CompleteQuest()
+/script GetQuestReward()
+END
+MACRO 51 "Decursive" INV_Misc_QuestionMark
+/script Dcr:Println('No spell available')
+END
+MACRO 23 "DELETE" Ability_Creature_Cursed_02
+/run for bag=0,4,1 do for slot=1,36,1 do local name=GetContainerItemLink(bag,slot);if (name and string.find(name,"Unadorned Seal of Ascension")) or (name and string.find(name,"Item2")) then PickupContainerItem(bag,slot);DeleteCursorItem();end;end;end
+END
+MACRO 15 "Fishing" Ability_Hunter_Pet_Worm
+#showtooltip Fishing
+/script UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE");
+/equip Arcanite Fishing Pole
+/equip Weather-Beaten Fishing Hat
+/script UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE");
+/use Fishing
+END
+MACRO 27 "FLEX" Ability_Warrior_StrengthOfArms
+/script local t={3,4,5,9,10,15,19}; for k,v in pairs(t) do PickupInventoryItem(v); PutItemInBag(20); end
+/flex
+END
+MACRO 13 "Focus" Ability_CheapShot
+/clearfocus
+END
+MACRO 14 "Follow" Ability_Creature_Cursed_01
+/follow 
+/target Elchamaquito
+END
+MACRO 17 "Macro" Spell_Shadow_GhostKey
+/macro
+END
+MACRO 53 "mount" Ability_Mount_NightmareHorse
+/cancelaura Aim of the Iron Dwarves
+/cancelaura Agility of the Vrykul
+/GP am
+END
+MACRO 10 "parrot" Ability_Creature_Poison_05
+/target Arañíntula
+/target Tedyoso
+/target Colrog
+/target Dracozard
+/target Jesper
+/target Pantanord
+/target Corlum
+/target Florafelí
+/target Justiciera
+/target Stganimrod
+/target Turco
+END
+MACRO 11 "RecountClear" Ability_DualWield
+/run CombatLogClearEntries()
+/recount reset
+/recount show
+END
+MACRO 55 "reset DBM" INV_Misc_QuestionMark
+/run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
+END
+MACRO 26 "Sapos" Ability_Hunter_Pet_Crab
+/use Warts-B-Gone Lip Balm
+/tar Lake Frog
+/kiss
+END
+MACRO 22 "tournament" Ability_Mount_Charger
+/cast Thrust
+/cast Shield-Breaker
+/cast Charge
+/cast Defend
+END
+MACRO 54 "tranq" INV_Misc_QuestionMark
+#show Tranquilizing Shot
+/cast [@mouseover] Tranquilizing Shot
+END
+MACRO 42 "way" INV_Misc_QuestionMark
+/way Teldrassil 57.0 53.0 Elder Bladeleaf
+/way Silithus 53.0 35.5 Elder Bladesing
+/way Mulgore 48.3 53.4 Elder Bloodhoof
+/way Winterspring 53.2 56.8 Elder Brightspear
+/way Tanaris 51.3 27.8 Elder Dreamseer
+/way Feralas 76.7 37.9 Elder Grimtotem
+END
+MACRO 43 "way2" INV_Misc_QuestionMark
+/way Northern Barrens 48.5 59.3 Elder Moonwarden
+/way Thousand Needles 77.1 75.6 Elder Morningdew
+/way Felwood 38.3 52.9 Elder Nightwind
+/way Silithus 30.8 13.3 Elder Primestone
+/way Tanaris 37.2 79.1 Elder Ragetotem
+/way Ashenvale 35.6 48.9 Elder Riverso
+END
+MACRO 44 "way3" INV_Misc_QuestionMark
+/way Durotar 53.2 43.6 Elder Runetotem
+/way Azshara 64.7 79.3 Elder Skygleam
+/way Thousand Needles 46.4 51.0 Elder Skyseer
+/way Darkshore 49.5 19.0 Elder Starweave
+/way Winterspring 60.1 49.9 Elder Stonespire
+/way Un'Goro Crater 50.4 76.1 Elder Thunderhor
+END
+MACRO 45 "way4" INV_Misc_QuestionMark
+/way Darnassus 39.1 31.9 Elder Bladeswift
+/way Orgrimmar 52.4 60.0 Elder Darkhorn
+/way Thunder Bluff 73.0 23.3 Elder Ezra Wheathoof
+/way Maraudon 51.5 93.7 Elder Splitrock
+/way Mount Hyjal 26.0 62.0 Elder Windsong
+/way Mount Hyjal 62.0 22.0 Elder Evershad
+END
+MACRO 46 "way5" INV_Misc_QuestionMark
+/way Uldum 65.0 18.0 Elder Menkhaf
+/way Uldum 32.0 63.0 Elder Sekhemi
+/way Blasted Lands 54.3 49.5 Elder Bellowrage
+/way Burning Steppes 53.6 24.5 Elder Dawnstrider
+/way Dun Morogh 53.9 49.9 Elder Goldwell
+/way Tirisfal Glades 61.9 53.9 Elder Graveborn
+END
+MACRO 47 "way6" INV_Misc_QuestionMark
+/way The Hinterlands 49.0 47.9 Elder Highpeak
+/way Searing Gorge 21.3 79.1 Elder Ironband
+/way Western Plaguelands 63.5 36.1 Elder Meadowrun
+/way Western Plaguelands 69.2 73.5 Elder Moonstrike
+/way Silverpine Forest 45.0 41.1 Elder Obsidian
+END
+MACRO 48 "way7" INV_Misc_QuestionMark
+/way Burning Steppes 70.1 45.4 Elder Rumblerock
+/way Loch Modan 33.0 46.0 Elder Silvervein
+/way Westfall 56.6 47.0 Elder Skychaser
+/way Eastern Plaguelands 75.0 54.0 Elder Snowcrown
+/way Northern Stranglethorn 71.0 34.3 Elder Starglade
+END
+MACRO 49 "way8" INV_Misc_QuestionMark
+/way Elwynn Forest 39.8 63.7 Elder Stormbrow
+/way Eastern Plaguelands 35.6 68.8 Elder Windrun
+/way The Cape of Stranglethorn 39.9 72.5 Elder Winterhoof
+/way Ironforge 29.0 16.0 Elder Bronzebeard
+/way Elwynn Forest 34.2 50.6 Elder Hammershout
+END
+MACRO 50 "way9" INV_Misc_QuestionMark
+END

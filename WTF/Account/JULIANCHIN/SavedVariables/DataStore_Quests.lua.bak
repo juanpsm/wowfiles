@@ -1,0 +1,84 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:13207:78|h[Las Cámaras de Piedra]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:24711:80|h[La Agonía de Escarcha]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:13186:80|h[Parar el asedio]|h|r", -- [6]
+					"|cffffff00|Hquest:13538:80|h[Sabotaje al sur]|h|r", -- [7]
+					"|cffffff00|Hquest:13181:80|h[Victoria en Conquista del Invierno]|h|r", -- [8]
+					nil, -- [9]
+					"|cff40c040|Hquest:50010:77|h[Buscando Raros]|h|r", -- [10]
+					nil, -- [11]
+					"|cff40c040|Hquest:13159:77|h[Contención]|h|r", -- [12]
+					nil, -- [13]
+					"|cffffff00|Hquest:26012:82|h[Problemas en Reposo del Dragón]|h|r", -- [14]
+					nil, -- [15]
+					"|cffffff00|Hquest:13245:80|h[Prueba de defunción: Ingvar el Devastador]|h|r", -- [16]
+					[19] = "|cffffff00|Hquest:12886:80|h[El Drakkensryd]|h|r",
+					[23] = "|cff808080|Hquest:3385:50|h[El Mercado Negro]|h|r",
+					[27] = "|cffffff00|Hquest:13633:80|h[¿El Caballero Negro de los Páramos de Poniente?]|h|r",
+					[24] = "|cff808080|Hquest:10832:70|h[Convertirse en sastre de fuego de hechizo]|h|r",
+					[21] = "|cffffff00|Hquest:13241:80|h[¡Tiemporeja ve rabiosos Ymirjar en tu futuro!]|h|r",
+					[18] = "|cffffff00|Hquest:12868:78|h[Sirana Alarido de Hielo]|h|r",
+					[29] = "|cff808080|Hquest:2861:46|h[La Tarea de Tabetha]|h|r",
+					[26] = "|cffffff00|Hquest:13672:80|h[A la altura del desafío]|h|r",
+				},
+				["lastUpdate"] = 1536978940,
+				["Rewards"] = {
+					[23] = "r|10462|1|1,r|10479|1|1",
+					[12] = "c|44342|1|0,c|44343|1|1,c|44344|1|0,c|44345|1|0",
+					[6] = "r|43228|10|1",
+					[7] = "r|43228|10|1",
+					[8] = "r|43228|10|1",
+					[24] = "s|26797",
+					[18] = "c|43185|1|1,c|43186|1|1,c|43188|1|0,c|43187|1|0",
+					[19] = "c|42841|1|1,c|42865|1|0,c|42887|1|0,c|42876|1|0,c|42863|1|0",
+					[2] = "c|44370|1|1,c|44371|1|0,c|44372|1|0,c|44373|1|0",
+					[21] = "c|43950|1|1,c|44711|1|1,c|44713|1|1,c|44710|1|1,c|49702|1|1,r|47241|3|1",
+					[10] = "r|47241|2|1",
+					[16] = "r|47241|4|1",
+				},
+				["Quests"] = {
+					"0|Cámaras de Piedra", -- [1]
+					"1|Mazmorra|0|272000|1", -- [2]
+					"0|Cámaras de Reflexión", -- [3]
+					"1|Mazmorra|0|33000|1", -- [4]
+					"0|Conquista del Invierno", -- [5]
+					"1|JcJ|0|132300|0", -- [6]
+					"1|JcJ|0|132300|0", -- [7]
+					"1|JcJ|0|132300|0", -- [8]
+					"0|Dalaran", -- [9]
+					"1|Evento del mundo|0|100000|0", -- [10]
+					"0|El Bastión Violeta", -- [11]
+					"1|Mazmorra|0|260000|0", -- [12]
+					"0|El Sagrario Rubí", -- [13]
+					"1|Banda|0|13500|1", -- [14]
+					"0|Fortaleza de Utgarde", -- [15]
+					"1|Heroica|0|264600|0", -- [16]
+					"0|Las Cumbres Tormentosas", -- [17]
+					"1|Élite|3|162000|0", -- [18]
+					"1||0|165300|0", -- [19]
+					"0|Pináculo de Utgarde", -- [20]
+					"1|Mazmorra|0|198600|0", -- [21]
+					"0|Sastrería", -- [22]
+					"1||0|4050|0", -- [23]
+					"1||0|5700|0", -- [24]
+					"0|Torneo", -- [25]
+					"1||0|13200|0", -- [26]
+					"1||0|132300|0", -- [27]
+					"0|Zul'Farrak", -- [28]
+					"1|Mazmorra|0|330|0", -- [29]
+				},
+			},
+		},
+	},
+}

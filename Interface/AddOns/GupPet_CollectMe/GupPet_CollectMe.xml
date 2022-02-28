@@ -1,0 +1,426 @@
+﻿<Ui xmlns="http://www.blizzard.com/wow/ui/"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xsi:schemaLocation="http://www.blizzard.com/wow/ui/"> 
+    <Script file="GupPet_CollectMe_Interface.lua"/> 
+	<Script file="GupPet_CollectMe_Data.lua"/>
+	<Script file="GupPet_CollectMe_GameTooltip.lua"/>
+	<Script file="GupPet_CollectMe.lua"/> 
+		
+
+	<Frame name="GupPet_CollectMeFrame" hidden="true">
+		<Scripts>
+            <OnLoad>
+				GupPet_CollectMe_OnLoad(self);
+			</OnLoad>
+			<OnEvent>
+				GupPet_CollectMe_OnEvent(self, event);
+			</OnEvent>
+ 		</Scripts>
+	</Frame>
+	
+	<Frame name="GupPet_CollectMe_FieldTemplate" inherits="GupPet_DataFieldTemplate"    virtual="true" >
+		<Frames>
+			<StatusBar name="$parentStatusBar" minValue="0" maxValue="100" defaultValue="0">
+				<Size><AbsDimension x="234" y="16" /></Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+							<Offset x="-5" y="16"/>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<FontString name="$parentText" inherits="GameFontHighlightSmall" text="Making Progress">
+							<Anchors><Anchor point="CENTER" /></Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+				<Frames>
+					<Button>
+						<Size><AbsDimension x="243" y="36" /></Size>
+						<Anchors>
+							<Anchor point="CENTER" />
+						</Anchors>
+						<NormalTexture file="Interface\PaperDollInfoFrame\UI-Character-Skills-BarBorder" />
+					</Button>
+				</Frames>
+				<BarTexture file="Interface\PaperDollInfoFrame\UI-Character-Skills-Bar" />
+				<BarColor r="0.25" g="0.25" b="0.75" />
+			</StatusBar>
+		</Frames>
+	</Frame>
+	
+	<Button name="GupPet_CollectMe_IconTemplate" enableMouse="true" virtual="true">
+		<Size>
+			<AbsDimension x="20" y="20"/>
+		</Size>
+		<HitRectInsets>
+			<AbsInset left="0" right="-140" top="0" bottom="0"/>
+		</HitRectInsets>
+ 
+		<Layers>
+			<Layer level="BACKGROUND">
+				<Texture name="$parentIcon"/>
+			</Layer>
+		 
+			<Layer level="OVERLAY">
+				<FontString name="$parentText" inherits="GupPet_FontText" justifyH="LEFT" text="">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="25" y="-4"/>
+						</Anchor>
+					</Anchors>
+					<Size>
+						<AbsDimension x="190" y="15"/>
+					</Size>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Button>	
+	
+	<!--    
+			 
+			-->
+	<Frame name="GupPet_CollectMe_Main" parent="GupPet_InterfaceOptionsFrame" inherits="GupPet_OptionsFrameTemplate" hidden="true">
+		<Size>
+			<AbsDimension x="680" y="460"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset>
+					<AbsDimension x="10" y="-50"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+
+
+		<Frames>
+				 
+			<Frame name="$parentText"  >
+				<Size>
+					<AbsDimension x="190" y="410"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="10" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Frame>					
+				 
+				 
+				 
+			<Frame name="$parentMain" inherits="GupPet_OptionsFrameTemplate">
+				<Size>
+					<AbsDimension x="470" y="410"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="200" y="-40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				
+				<Frames>
+			
+			
+					<!--  
+						For all the data
+					-->			
+					<Frame name="$parentData" hidden="false">
+						<Size>
+							<AbsDimension x="450" y="390"/>
+						</Size>
+						<Anchors>
+							<Anchor point="TOPLEFT">
+								<Offset>
+									<AbsDimension x="10" y="-10"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+					</Frame>
+					 
+								
+					<!--  
+						All The Tabs
+					-->
+					<Button name="$parentTabMount" inherits="OptionsFrameTabButtonTemplate" text="Ground" id="1">
+						<Anchors>
+							<Anchor point="BOTTOMLEFT"   relativePoint="TOPLEFT">
+								<Offset>
+									<AbsDimension x="00" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>
+								GupPet_Interface_SetSelected( self , "CollectMeTabs" ) ;
+								 
+								PlaySound("igCharacterInfoTab");
+								
+								GupPet_CollectMe_Interface();
+							</OnClick>
+							<OnLoad>
+								GupPet_Interface_SetSelected( self , "CollectMeTabs" ) ;
+								 
+								
+								self:SetText(GUPPET_L["MOUNTS"]) ;
+								
+							</OnLoad>
+						</Scripts>
+					</Button>
+					
+					
+					<Button name="$parentTabCompanion" inherits="OptionsFrameTabButtonTemplate" text="Companion" id="2">
+						<Anchors>
+							<Anchor point="LEFT" relativeTo="$parentTabMount" relativePoint="RIGHT">
+								<Offset>
+									<AbsDimension x="-10" y="0"/>
+								</Offset>
+							</Anchor>
+						</Anchors>
+						<Scripts>
+							<OnClick>
+ 								GupPet_Interface_SetSelected( self , "CollectMeTabs" ) ;
+								 
+								
+								PlaySound("igCharacterInfoTab");
+								GupPet_CollectMe_Interface();
+							</OnClick>
+							<OnLoad>
+								 
+							
+								self:SetText(GUPPET_L["COMPANIONS"]) ;
+								
+							</OnLoad>
+						</Scripts>
+					</Button>
+					
+				</Frames>
+			</Frame>
+			
+		</Frames>
+	</Frame>
+
+
+					
+		
+	
+	
+	<Button name="GupPet_CollectMe_MainTab3" parent="GupPet_InterfaceOptionsFrame"  inherits="OptionsFrameTabButtonTemplate" text="Collect Me" id="2">
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="GupPet_InterfaceOptionsFrameTab2" relativePoint="RIGHT">
+				<Offset>
+					<AbsDimension x="15" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			<OnClick>
+				PlaySound("igCharacterInfoTab");
+				GupPet_Interface_SetSelected( self , "MainTabs" ) ;
+				GupPet_Interface_Show( "MainTabs" ,"Show", GupPet_CollectMe_Main ) ;
+				
+				GupPet_CollectMe_Interface(); -- Only first time
+				
+				self:SetScript("OnClick", function (self) 
+					PlaySound("igCharacterInfoTab");
+					GupPet_Interface_SetSelected( self , "MainTabs" ) ;
+					GupPet_Interface_Show( "MainTabs" ,"Show", GupPet_CollectMe_Main ) ;
+				end);
+				
+			</OnClick>
+			<OnLoad>
+				self:SetText(GUPPET_L["COLLECTME"] ) ;
+				
+				GupPet_Interface_Show( "MainTabs" ,"Add", GupPet_CollectMe_Main ) ;
+			</OnLoad>
+		</Scripts>
+	</Button>	
+	
+	
+	
+	<Frame name="GupPet_CollectMe_Where" frameStrata="DIALOG" parent="GupPet_CollectMe_MainText" hidden="true" >
+		 <Size>
+			<AbsDimension x="190" y="100"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOP" relativeTo="GupPet_CollectMe_MainText" relativePoint="TOP"  >
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\AchievementFrame\UI-Achievement-AchievementBackground" edgeFile="Interface\Tooltips\UI-Tooltip-Border"  >
+			<BackgroundInsets>
+				<AbsInset left="3" right="3" top="3" bottom="3"/>
+			</BackgroundInsets>
+			<EdgeSize>
+				<AbsValue val="10"/>
+			</EdgeSize>
+		</Backdrop>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="$parentText" inherits="GameFontHighlightSmall" text="Info">
+					<Size><AbsDimension x="180" y="90" /></Size>
+					<Anchors>
+						<Anchor point="CENTER" relativePoint="CENTER">
+							<Offset><AbsDimension x="0" y="0" /></Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>	
+	
+	
+	<Frame name="GupPet_CollectMe_Known" frameStrata="DIALOG" parent="GupPet_CollectMe_MainText" hidden="true" >
+		 <Size>
+			<AbsDimension x="190" y="100"/>
+		</Size>
+		<Anchors>
+			<Anchor point="TOP" relativeTo="GupPet_CollectMe_MainText" relativePoint="TOP"  >
+				<Offset>
+					<AbsDimension x="0" y="-110"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		
+		<Scripts>
+			<OnShow>
+				
+				local KnownNames = {} ;
+				local UnknownNames = {} ;
+				local type = "Companions" ;
+				local Realm = GetRealmName() ;
+				
+				if GUPPET_CM_SAVEDDATA["Mounts"][ self:GetID() ] then   type = "Mounts" ;	end
+			
+				for i = 1 , #GUPPET_CM_SAVEDDATA.PlayerInfo do
+			
+					if GUPPET_CM_SAVEDDATA["PlayerInfo"][i]["Realm"] == Realm then
+						
+						if GUPPET_CM_SAVEDDATA[ type ][ self:GetID() ][i] then
+								
+							table.insert( KnownNames , { Name = GUPPET_CM_SAVEDDATA["PlayerInfo"][i]["Name"]   	} ) ;
+						else
+							table.insert( UnknownNames , { Name = GUPPET_CM_SAVEDDATA["PlayerInfo"][i]["Name"]  } );
+						end
+					end
+				end
+				
+				table.sort( KnownNames , GupPet_CollectMe_SortTableByName);
+				table.sort( UnknownNames , GupPet_CollectMe_SortTableByName);
+				
+				local String_KnownNames = GUPPET_L["KNOWNBY"] ;
+				local String_UnknownNames = GUPPET_L["UNKNOWNBY"] ;
+				
+				for i = 1 , #KnownNames do
+					if i == 1 then 
+						String_KnownNames = String_KnownNames .." ".. KnownNames[i]["Name"] ;
+					else
+						String_KnownNames = String_KnownNames ..", ".. KnownNames[i]["Name"] ;
+					end
+				end
+				
+				for i = 1 , #UnknownNames do
+					if i == 1 then 
+						String_UnknownNames = String_UnknownNames .." ".. UnknownNames[i]["Name"] ;
+					else
+						String_UnknownNames = String_UnknownNames ..", ".. UnknownNames[i]["Name"] ;
+					end
+				end
+				
+				GupPet_CollectMe_KnownTextK:SetFont('Fonts\\FRIZQT__.TTF', 9); 
+				GupPet_CollectMe_KnownTextK:SetText( String_KnownNames   );
+				GupPet_CollectMe_KnownTextU:SetFont('Fonts\\FRIZQT__.TTF', 9); 
+				GupPet_CollectMe_KnownTextU:SetText( String_UnknownNames );
+			</OnShow>
+		</Scripts>
+		
+		<Backdrop bgFile="Interface\AchievementFrame\UI-Achievement-AchievementBackground" edgeFile="Interface\Tooltips\UI-Tooltip-Border"  >
+			<BackgroundInsets>
+				<AbsInset left="3" right="3" top="3" bottom="3"/>
+			</BackgroundInsets>
+			<EdgeSize>
+				<AbsValue val="10"/>
+			</EdgeSize>
+		</Backdrop>
+		
+		<Frames>
+			<SimpleHTML name="$parentTextK" inherits="GameFontHighlightSmall" text="Infos" >
+				<Size><AbsDimension x="180" y="45" /></Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativePoint="TOPLEFT">
+						<Offset><AbsDimension x="5" y="-5" /></Offset>
+					</Anchor>
+				</Anchors>
+			</SimpleHTML>
+			
+			<SimpleHTML name="$parentTextU" inherits="GameFontHighlightSmall" text="Infos" >
+				<Size><AbsDimension x="180" y="45" /></Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativePoint="TOPLEFT">
+						<Offset><AbsDimension x="5" y="-50" /></Offset>
+					</Anchor>
+				</Anchors>
+			</SimpleHTML>
+		</Frames>
+		
+		 
+	</Frame>
+	
+	
+	
+	<Frame name="GupPet_CollectMe_Preview" frameStrata="DIALOG" parent="GupPet_CollectMe_MainText" inherits="GupPet_OptionsFrameTemplate"   hidden="true" >
+		 <Size>
+			<AbsDimension x="190" y="190"/>
+		</Size>
+		<Anchors>
+			<Anchor point="BOTTOM" relativeTo="GupPet_CollectMe_MainText" relativePoint="BOTTOM"  >
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\AchievementFrame\UI-Achievement-StatsBackground" edgeFile="Interface\Tooltips\UI-Tooltip-Border"  >
+			<BackgroundInsets>
+				<AbsInset left="3" right="3" top="3" bottom="3"/>
+			</BackgroundInsets>
+			<EdgeSize>
+				<AbsValue val="10"/>
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<PlayerModel name="$parentModel">
+				<Size>
+					<AbsDimension x="180" y="180"/>
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset x="0" y="0"/>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						self:SetCreature("22510") ;
+						self.TempRadians = 0 ;
+					</OnLoad>
+					<OnUpdate>
+						
+						self.TempRadians = self.TempRadians+( 1/ GetFramerate() * GUPPET_OPTIONS.PreviewFrameSpeed )
+						self:SetRotation(GUPPET_OPTIONS.PreviewFrameStartPos + self.TempRadians)
+					</OnUpdate>
+				</Scripts>
+			</PlayerModel>	
+		</Frames>
+		<Scripts>
+			<OnLoad>
+				self:SetBackdropColor(1, 1, 1, 1);
+			</OnLoad>
+		</Scripts>
+	</Frame>
+	
+	
+	
+	
+</Ui>

@@ -1,0 +1,24 @@
+
+wlScans = {
+	["pets"] = {
+		["CRITTER"] = "",
+		["MOUNT"] = "",
+	},
+	["timePlayedTotal"] = 2887,
+	["timePlayedWhen"] = 1270026010110,
+	["titles"] = "",
+	["timePlayerTotal"] = 0,
+	["recipes"] = {
+	},
+	["quests"] = {
+		[12636] = true,
+		[12619] = true,
+		[12641] = true,
+		[12848] = true,
+		[12593] = true,
+		[12842] = true,
+	},
+	["skills"] = "First Aid,270,300,Riding,150,150,Axes,270,270,Defense,270,270,Polearms,270,270,Swords,270,270,Two-Handed Axes,270,270,Two-Handed Swords,270,270,Unarmed,270,270",
+}
+wlSetting = {
+}

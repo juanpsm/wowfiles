@@ -1,0 +1,102 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nightbull"] = {
+				["lastUpdate"] = 1522877166,
+				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cffffffff|Hitem:828:0:0:0:0:0:0:0:14|h[Faltriquera azul pequeña]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Blue",
+						["size"] = 6,
+						["freeslots"] = 6,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							2901, -- [1]
+							118, -- [2]
+							159, -- [3]
+							1251, -- [4]
+							4561, -- [5]
+							3650, -- [6]
+							6948, -- [7]
+							5956, -- [8]
+							5119, -- [9]
+							5118, -- [10]
+							17056, -- [11]
+						},
+						["links"] = {
+							[5] = "|cff1eff00|Hitem:4561:0:0:0:0:0:15:0:14|h[Tomahawk arrancacabelleras de aguante]|h|r",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							[3] = 4,
+							[4] = 6,
+						},
+						["freeslots"] = 5,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							20497, -- [1]
+							6145, -- [2]
+							4703, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							16306, -- [6]
+							5062, -- [7]
+							5086, -- [8]
+						},
+						["link"] = "|cffffffff|Hitem:4498:0:0:0:0:0:0:0:14|h[Cartera de cuero marrón]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09",
+						["size"] = 8,
+						["counts"] = {
+							[7] = 5,
+						},
+						["freeslots"] = 2,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							[2] = 5469,
+							[5] = 2672,
+							[6] = 117,
+						},
+						["link"] = "|cffffffff|Hitem:4496:0:0:0:0:0:0:0:14|h[Faltriquera marrón pequeña]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09",
+						["size"] = 6,
+						["counts"] = {
+							[2] = 10,
+							[6] = 4,
+						},
+						["freeslots"] = 3,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							[2] = 2835,
+							[5] = 1210,
+							[6] = 2589,
+						},
+						["link"] = "|cffffffff|Hitem:4496:0:0:0:0:0:0:0:14|h[Faltriquera marrón pequeña]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09",
+						["size"] = 6,
+						["counts"] = {
+							[2] = 2,
+							[6] = 12,
+						},
+						["freeslots"] = 3,
+					},
+					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 19,
+				["numBagSlots"] = 42,
+			},
+		},
+		["Version"] = 1,
+	},
+}

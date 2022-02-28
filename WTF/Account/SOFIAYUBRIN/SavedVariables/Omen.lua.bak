@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["profiles"] = {
+		["Zelphar - WoWArg"] = {
+			["PositionY"] = 573.701259533538,
+			["PositionX"] = 770.6168605940205,
+		},
+	},
+}

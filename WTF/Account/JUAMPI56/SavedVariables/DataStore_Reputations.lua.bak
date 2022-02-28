@@ -1,0 +1,23 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nightbull"] = {
+				["lastUpdate"] = 1522877162,
+				["Factions"] = {
+					["Escoltas Grito de Guerra"] = "0|3000|0",
+					["Trols Lanza Negra"] = "3000|9000|3188",
+					["Cima del Trueno"] = "9000|21000|10695",
+					["Orgrimmar"] = "3000|9000|3735",
+					["Bahía del Botín"] = "0|3000|500",
+					["Ciudad de Lunargenta"] = "0|3000|400",
+					["Trinquete"] = "0|3000|575",
+					["Entrañas"] = "0|3000|500",
+				},
+			},
+		},
+	},
+}

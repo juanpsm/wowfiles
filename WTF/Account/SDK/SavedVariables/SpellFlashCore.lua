@@ -1,0 +1,2 @@
+
+SpellFlashCoreAddonConfig = nil

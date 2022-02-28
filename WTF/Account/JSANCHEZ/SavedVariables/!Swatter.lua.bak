@@ -1,0 +1,15 @@
+
+SwatterData = {
+	["enabled"] = true,
+	["autoshow"] = true,
+	["errors"] = {
+		{
+			["message"] = "Interface\\AddOns\\Recount\\GUI_Config.lua:8: attempt to call global 'FillLocalizedClassList' (a nil value)",
+			["count"] = 1,
+			["addons"] = "  Swatter, v3.1.13 (<%codename%>)\n  WowheadLooter, v30203\n  Altoholic, v3.1.003b\n  Atlas, v1.14.1\n  AtlasBattlegrounds, v1.14.1\n  AtlasDungeonLocs, v1.14.1\n  AtlasOutdoorRaids, v1.14.1\n  AtlasTransportation, v1.14.1\n  AtlasLoot, vv5.06.02\n  AtlasLootFu, vv5.06.02\n  Babylonian, v5.1.DEV.130\n  Configator, v5.1.DEV.190\n  DataStore, v3.2.001\n  DataStoreAchievements, v3.2.001\n  DataStoreAuctions, v3.2.001\n  DataStoreCharacters, v3.2.001\n  DataStoreContainers, v3.2.001\n  DataStoreCrafts, v3.2.001\n  DataStoreCurrencies, v3.2.001\n  DataStoreInventory, v3.2.001\n  DataStoreMails, v3.2.001\n  DataStorePets, v3.2.001\n  DataStoreQuests, v3.2.001\n  DataStoreReputations, v3.2.001\n  DataStoreSkills, v3.2.001\n  DataStoreSpells, v3.2.001\n  DataStoreStats, v3.2.001\n  DataStoreTalents, v3.2.001\n  Gatherer, v3.1.13\n  Koordinator, v3.29\n  QuestHelper, v1.1.6\n  RangeDisplay, v3.7.1\n  Recount, v\n  SlideBar, v3.1.13 (<%codename%>)\n  (ck=397)\n",
+			["timestamp"] = "2009-10-09 02:07:43",
+			["context"] = "Global",
+			["stack"] = "(tail call): ?\n[C]: in function `FillLocalizedClassList'\nInterface\\AddOns\\Recount\\GUI_Config.lua:8: in main chunk\n",
+		}, -- [1]
+	},
+}

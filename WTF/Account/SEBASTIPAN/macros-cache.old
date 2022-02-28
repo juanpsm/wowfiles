@@ -1,0 +1,27 @@
+MACRO 7 "," Ability_Mount_MechaStrider
+/use Swift White Steed
+END
+MACRO 2 "." Ability_Mount_Dreadsteed
+/target Jorgito
+/use Gift of the Naaru
+/targetlasttarget
+END
+MACRO 8 "." Ability_Mount_NightmareHorse
+/use Swift Brown Steed
+END
+MACRO 3 "." Ability_Mount_PolarBear_Brown
+/kiss
+END
+MACRO 4 "." Ability_Mount_CelestialHorse
+/who wsg 60-69
+END
+MACRO 5 "." Ability_Mount_BlackBattlestrider
+/use Seal of Righteousness
+/use Blessing of Might(Rank 3)
+END
+MACRO 1 "." Ability_Mount_PolarBear_Black
+/console cameradistancemaxfactor 100
+END
+MACRO 6 ":" Ability_Mount_CockatriceMountElite_Purple
+/who 60-69
+END

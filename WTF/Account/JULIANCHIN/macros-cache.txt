@@ -1,0 +1,69 @@
+MACRO 11 "camera" Spell_ChargeNegative
+/console cameraDistanceMaxFactor 40
+END
+MACRO 2 "dados" INV_Misc_QuestionMark
+/roll
+END
+MACRO 8 "dance" Spell_Nature_WispSplodeGreen
+/dance
+END
+MACRO 19 "folow" Ability_Creature_Cursed_01
+/follow target
+/follow focus
+END
+MACRO 7 "kiss" Spell_Nature_WispSplode
+/kiss
+END
+MACRO 20 "leave" INV_Misc_QuestionMark
+/run LeaveParty()
+END
+MACRO 1 "macro" Spell_ChargePositive
+/macro
+END
+MACRO 16 "mod" INV_Misc_QuestionMark
+/s .modrates on
+END
+MACRO 22 "mod off" INV_Misc_QuestionMark
+/s .modrates off
+END
+MACRO 24 "MSBT" Ability_Creature_Cursed_02
+/msbt
+END
+MACRO 17 "ntk" Ability_Creature_Cursed_02
+/ntk
+END
+MACRO 4 "powa" Ability_Spy
+/powa
+END
+MACRO 9 "QUARTZ" Ability_Creature_Cursed_02
+/quartz
+END
+MACRO 14 "SUF" Ability_Creature_Cursed_02
+/suf
+END
+MACRO 25 "targ" INV_Misc_QuestionMark
+/target colrum
+/target florafeli
+/target florafelí
+/target flotofly
+/target pantanord
+/target Tedyoso
+/target Arañíntula
+/target Colrog
+/target Dracozard
+END
+MACRO 23 "teleports" Ability_Creature_Cursed_04
+/tele
+END
+MACRO 15 "TIPTAC" Ability_Creature_Cursed_02
+/tiptac
+END
+MACRO 12 "TMW" Ability_Creature_Cursed_02
+/tmw
+END
+MACRO 3 "trade" INV_Misc_QuestionMark
+/trade
+END
+MACRO 26 "travel lechu" INV_Misc_QuestionMark
+/castsequence Travel Form(Shapeshift), Moonkin Form(Shapeshift)
+END

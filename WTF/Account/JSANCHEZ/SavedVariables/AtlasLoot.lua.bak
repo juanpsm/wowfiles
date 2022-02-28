@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "50602",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Gilraenloss"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Gilraenloss"] = {
+		},
+	},
+}

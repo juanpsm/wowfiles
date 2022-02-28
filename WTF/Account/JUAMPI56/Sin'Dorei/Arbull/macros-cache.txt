@@ -1,0 +1,4 @@
+MACRO 16777217 "asd" INV_Misc_QuestionMark
+/cast Nature's Swiftness
+/cast Healing Touch(Rank 12)
+END

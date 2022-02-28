@@ -1,0 +1,10 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["profiles"] = {
+		["Rivothrill - WoWArg"] = {
+		},
+	},
+}

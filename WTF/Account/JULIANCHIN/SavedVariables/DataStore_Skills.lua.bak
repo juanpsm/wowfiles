@@ -1,0 +1,44 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["lastUpdate"] = 1536978940,
+				["Skills"] = {
+					["Profesiones"] = {
+						["Encantamiento"] = "410|450",
+						["Sastrería"] = "441|450",
+					},
+					["Habilidades con armas"] = {
+						["Sin armas"] = "2|400",
+						["Espadas"] = "1|400",
+						["Bastones"] = "194|400",
+						["Defensa"] = "400|400",
+						["Varitas"] = "140|400",
+						["Dagas"] = "1|400",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Fuego"] = "1|1",
+						["Arcano"] = "1|1",
+						["Escarcha"] = "1|1",
+					},
+					["Habilidades secundarias"] = {
+						["Cocina"] = "40|75",
+						["Pesca"] = "25|75",
+						["Equitación"] = "225|225",
+						["Primeros auxilios"] = "28|75",
+					},
+				},
+			},
+		},
+	},
+}

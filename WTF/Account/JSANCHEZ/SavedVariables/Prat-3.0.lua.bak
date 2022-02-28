@@ -1,0 +1,80 @@
+
+Prat3DB = {
+	["namespaces"] = {
+		["Prat_ChatTabs"] = {
+		},
+		["Prat_AltNames"] = {
+		},
+		["Prat_PlayerNames"] = {
+		},
+		["Prat_Frames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["minchatwidthdefault"] = 296.0000050607818,
+					["initialized"] = true,
+					["minchatheightdefault"] = 74.99999824278412,
+					["maxchatwidthdefault"] = 608.000033738545,
+					["maxchatheightdefault"] = 399.9999786322549,
+				},
+			},
+		},
+		["Prat_ChannelColorMemory"] = {
+		},
+		["Prat_Fading"] = {
+		},
+		["Prat_Font"] = {
+			["profiles"] = {
+				["Default"] = {
+					["size"] = {
+						["ChatFrame3"] = 18,
+						["ChatFrame1"] = 18,
+					},
+				},
+			},
+		},
+		["Prat_Scroll"] = {
+		},
+		["Prat_Paragraph"] = {
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_Timestamps"] = {
+		},
+		["Prat_Sounds"] = {
+		},
+		["Prat_History"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_CopyChat"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_Buttons"] = {
+		},
+		["Prat_ServerNames"] = {
+		},
+		["Prat_ChannelNames"] = {
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["AltNames"] = 2,
+				["Paragraph"] = 2,
+				["Sounds"] = 2,
+				["Alias"] = 2,
+				["PopupMessage"] = 2,
+				["ChatTabs"] = 2,
+				["ChatLog"] = 2,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Default",
+	},
+}

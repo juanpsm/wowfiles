@@ -1,0 +1,20 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Skombrow"] = {
+				["Currencies"] = {
+					"0|Jugador contra Jugador", -- [1]
+					"1|Marca de Honor de la Garganta Grito de Guerra|0|20558", -- [2]
+					"1|Puntos de honor|1650|43308", -- [3]
+					"0|Miscelánea", -- [4]
+					"1|Distintivo de justicia|15|29434", -- [5]
+				},
+				["lastUpdate"] = 1499533178,
+			},
+		},
+	},
+}

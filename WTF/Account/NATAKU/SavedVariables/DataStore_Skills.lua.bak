@@ -1,0 +1,55 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["lastUpdate"] = 1548730350,
+				["Skills"] = {
+					["Profesiones"] = {
+						["Ingeniería"] = "407|450",
+						["Minería"] = "450|450",
+					},
+					["Habilidades con armas"] = {
+						["Sin armas"] = "258|400",
+						["Armas de asta"] = "189|400",
+						["Armas de fuego"] = "190|400",
+						["Ballestas"] = "91|400",
+						["Dagas"] = "400|400",
+						["Espadas de dos manos"] = "350|400",
+						["Hachas"] = "400|400",
+						["Hachas de dos manos"] = "400|400",
+						["Arcos"] = "36|400",
+						["Espadas"] = "339|400",
+						["Mazas de dos manos"] = "400|400",
+						["Bastones"] = "309|400",
+						["Defensa"] = "400|400",
+						["Mazas"] = "400|400",
+						["Armas arrojadizas"] = "337|400",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Malla de placas"] = "1|1",
+						["Escudo"] = "1|1",
+						["Malla"] = "1|1",
+						["Tela"] = "1|1",
+						["Cuero"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Protección"] = "1|1",
+						["Armas"] = "1|1",
+						["Furia"] = "1|1",
+					},
+					["Habilidades secundarias"] = {
+						["Equitación"] = "225|225",
+						["Primeros auxilios"] = "450|450",
+					},
+				},
+			},
+		},
+	},
+}

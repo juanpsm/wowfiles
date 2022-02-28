@@ -1,0 +1,5 @@
+
+qcNPC = {
+}
+qcUnknownQuests = {
+}

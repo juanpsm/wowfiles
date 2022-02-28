@@ -1,0 +1,27 @@
+
+DecursiveDB = {
+	["class"] = {
+		["HUNTER"] = {
+			["CureOrder"] = {
+				-12, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				-13, -- [4]
+				[32] = -16,
+				[16] = -15,
+				[8] = -14,
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["DebuffsFrame_y"] = -153.6000107963344,
+			["MainBarX"] = 861.4400968971012,
+			["MainBarY"] = -85.76003445830065,
+			["DebuffsFrame_x"] = 921.6000431853377,
+		},
+	},
+}

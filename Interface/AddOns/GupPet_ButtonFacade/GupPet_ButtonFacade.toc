@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: GupPet |cffff8000ButtonFacade
+## Notes: 
+## Author: Gup
+## Dependencies: ButtonFacade, GupPet
+## Version: 0.1
+## SavedVariables: BFGPSettingsDB
+
+GupPet_ButtonFacade.lua

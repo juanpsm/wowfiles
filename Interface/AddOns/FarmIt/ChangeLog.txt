@@ -1,0 +1,157 @@
+FarmIt v1.7
+By CHiLLZ <chillz@gmail.com>
+An interface addon for World of Warcraft.
+
+Version History
+----------------------------------------------------------------------------------------------------
+
+v1.7
+* Updated for 3.0 WoW content patch and the Wrath of the Lich King expansion. (WoW v3.0.3)
+
+* New Feature: The options panel now offers the ability to display progress messages 
+  that display an on-screen update notice each time you loot an item that is being tracked.
+
+----------------------------------------------------------------------------------------------------
+
+v1.61
+* Fixed bar anchor and tooltip offering an unavailable feature.
+
+* Cleaned up a display issue with having the help window and options panel open at the same time.
+
+----------------------------------------------------------------------------------------------------
+
+v1.6
+* Updated for 2.4.0 WoW patch.
+
+* New Feature: FarmIt now has an options panel for easier customization!
+
+* Due to the new options interface, the text commands have been simplified. 
+  To see the current list of commands, type: /farmit
+
+* Saved variable data structure and related functions have been significantly improved.
+
+* Minimum number of slots changed to zero.
+
+* New Option: Mod position may now be locked/unlocked to prevent accidentally moving it.
+
+* New Option: You can now adjust the scale of the item slots. (50-150%)
+
+* New Option: Spacing between the slots can now be adjusted.
+
+* New Option: Transparency of item slot elements are now adjustable.
+
+----------------------------------------------------------------------------------------------------
+
+v1.5
+* Updated for 2.3.0 WoW patch.
+
+* New Feature: You can now click on a slot to pickup an item and move it to another slot.
+  The entire slot will glow yellow when selected (picked up). Just click the destination slot to move it.
+  If the destination slot already has an item in it, they will trade places.
+
+* New Feature: When you reach your farming objective for a given slot, you will now receive an 
+  on-screen notification just like the Blizzard quest objective notification.
+
+* Moving an item into an already occupied slot will now cause the items to trade places
+  instead of overwriting the destination slot.
+
+* Moved help information from chat message to its own popup window.
+
+* Various fixes and optimizations from version 1.4 beta testing.
+
+v1.4 beta
+* Improved Feature: FarmIt is now able to include your bank inventory without needing to be at the bank!
+  Shift-click an item slot to toggle between local count (bags) and the combined total (bags + bank). 
+  This feature can be enabled/disabled individually for each item slot.
+  The item count will turn yellow to indicate when bank search is enabled for that item slot.
+
+* New Feature: You can now change the bar orientation! 
+  Ctrl-click the base of the bar to toggle between vertical and horizontal orientation.
+  When in horizontal mode, the item text labels are automatically hidden. 
+  Item text is automatically re-enabled when you switch back to vertical mode.
+  The alignment of which direction the slots grow out can be changed via the the same method used to 
+  set the alignment of the item text labels. (Shift-click the base of the bar)
+
+* New Feature: Set farming objectives for each item you are tracking.
+  Ctrl-click an item slot to enter a target quantity for that item. 
+  Current item counts are displayed in the top-left corner of each slot now, and your objective in the bottom-right corner.
+  The objective indicator turns green when your target quantity has been met.
+
+* Optimized item count method via Blizzard API.
+
+----------------------------------------------------------------------------------------------------
+
+v1.3
+* New Feature: FarmIt now searches the keyring. 
+* New Feature: FarmIt will now search your bank space if you are at the bank. 
+
+----------------------------------------------------------------------------------------------------
+
+v1.2
+* Bugfix: Mod was still failing to stay hidden after a player logs off/on.
+
+----------------------------------------------------------------------------------------------------
+
+v1.1
+* New Feature: You can now customize how many item slots there are. (Up to 12) 
+* Major XML changes-- now uses dynamic frame creation.
+* Item slots retain what item they were tracking, regardless of how many slots are visible. 
+* Many Lua code improvements.
+
+----------------------------------------------------------------------------------------------------
+
+v1.0
+* Fixed a bug where the mod was failing to stay hidden after a player logs off/on.
+
+----------------------------------------------------------------------------------------------------
+
+v0.9
+* New Feature: Slash command interface.
+  FarmIt now supports the following slash commands: 
+    /farmit help   --  Shows a help message.
+    /farmit reset  --  Resets the mod to default settings.
+    /farmit        --  Hide/Show the entire mod.
+
+* Mouse interactivity has been simplified due to the new slash commands.
+* Fixed a bug that was causing the new item slots not to update their counts.
+* Improved the mod "reset" function.
+* Fixed a minor xml issue.
+
+----------------------------------------------------------------------------------------------------
+
+v0.8
+* Updated for 2.1.0 WoW patch.
+* New Feature: Shift-Click now toggles display of item text.
+* New Feature: Ctrl-click now toggles item text alignment between the left/right side of the mod.
+* Alt-click now resets the mod.
+* By popular demand, increased the number of item slots.
+
+----------------------------------------------------------------------------------------------------
+
+v0.7
+* Got rid of the little drag anchor at the bottom and made the mod border draggable instead.
+
+----------------------------------------------------------------------------------------------------
+
+v0.6
+* First official release to the public!
+
+----------------------------------------------------------------------------------------------------
+
+v0.5 beta
+* New Feature: Now saves (per character) what items you were tracking.
+* Ctrl-click on the drag anchor area now resets the mod.
+* Improved itemID matching.
+* Sound feedback on click events.
+
+----------------------------------------------------------------------------------------------------
+
+v0.4 beta
+* Fixed a "partial match" bug in the search/count method.
+* Added manual "refresh" function to click-zone at bottom of mod.
+* Automatic re-count now triggers correctly when looting.
+
+----------------------------------------------------------------------------------------------------
+
+v0.4 alpha
+* First working version.

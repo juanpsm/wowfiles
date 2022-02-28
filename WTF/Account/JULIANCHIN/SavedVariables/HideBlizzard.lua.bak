@@ -1,0 +1,27 @@
+
+HideBlizzardDB = {
+	["namespaces"] = {
+		["SpecialFrames"] = {
+		},
+		["Player"] = {
+		},
+		["Buttons"] = {
+		},
+		["Target"] = {
+		},
+		["Vehicle"] = {
+		},
+		["Pet"] = {
+		},
+		["ActionBar"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["profiles"] = {
+		["Rivothrill - WoWArg"] = {
+			["Version"] = "1.0.58",
+		},
+	},
+}

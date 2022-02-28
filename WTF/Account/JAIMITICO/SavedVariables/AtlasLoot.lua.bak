@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["profiles"] = {
+		["Asasasdasda - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Asasasdasda"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Asasasdasda"] = {
+		},
+	},
+}

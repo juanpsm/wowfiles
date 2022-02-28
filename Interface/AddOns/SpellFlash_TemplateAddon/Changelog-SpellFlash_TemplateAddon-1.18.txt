@@ -1,0 +1,228 @@
+------------------------------------------------------------------------
+r33 | bigredbrent | 2010-04-29 13:47:46 +0000 (Thu, 29 Apr 2010) | 1 line
+Changed paths:
+   A /tags/1.18 (from /trunk:32)
+
+Tagging as 1.18
+------------------------------------------------------------------------
+r32 | bigredbrent | 2010-04-29 13:43:15 +0000 (Thu, 29 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Scripts.lua
+
+Set the local Castable function to be able to pass arguments to the called functions.
+------------------------------------------------------------------------
+r31 | bigredbrent | 2010-04-29 13:16:48 +0000 (Thu, 29 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Updated version number.
+------------------------------------------------------------------------
+r30 | bigredbrent | 2010-04-29 11:39:23 +0000 (Thu, 29 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Functions.lua
+
+Now using function SpellFlashAddon.CopyTable to copy tables.
+------------------------------------------------------------------------
+r28 | bigredbrent | 2010-04-21 06:14:26 +0000 (Wed, 21 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+version update
+------------------------------------------------------------------------
+r27 | bigredbrent | 2010-04-19 21:53:50 +0000 (Mon, 19 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+
+updates options slider updating code a little
+------------------------------------------------------------------------
+r26 | bigredbrent | 2010-04-19 21:41:00 +0000 (Mon, 19 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+
+updates options slider updating code a little
+------------------------------------------------------------------------
+r24 | bigredbrent | 2010-04-19 08:11:04 +0000 (Mon, 19 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+version update
+------------------------------------------------------------------------
+r23 | bigredbrent | 2010-04-19 08:08:02 +0000 (Mon, 19 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Scripts.lua
+
+Added local variable ItemCastable
+------------------------------------------------------------------------
+r22 | bigredbrent | 2010-04-19 07:59:55 +0000 (Mon, 19 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Localization/_Initialize.lua
+
+removed space with a tab
+------------------------------------------------------------------------
+r21 | bigredbrent | 2010-04-19 07:47:05 +0000 (Mon, 19 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Functions.lua
+   M /trunk/Scripts.lua
+   M /trunk/Version History.txt
+
+Now able to check if an item is castable.
+------------------------------------------------------------------------
+r20 | bigredbrent | 2010-04-19 05:08:23 +0000 (Mon, 19 Apr 2010) | 2 lines
+Changed paths:
+   M /trunk/Functions.lua
+   M /trunk/Localization/CN.lua
+   M /trunk/Localization/DE.lua
+   M /trunk/Localization/ES.lua
+   M /trunk/Localization/FR.lua
+   M /trunk/Localization/KR.lua
+   M /trunk/Localization/MX.lua
+   M /trunk/Localization/RU.lua
+   M /trunk/Localization/TW.lua
+   M /trunk/Localization/_Initialize.lua
+   M /trunk/Options.lua
+   M /trunk/Scripts.lua
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Renamed localization variable from LOCALIZATION to Table.Localize.
+Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+------------------------------------------------------------------------
+r18 | bigredbrent | 2010-04-16 07:58:01 +0000 (Fri, 16 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Removed case sensitivity of the addon name for the options menu.
+------------------------------------------------------------------------
+r17 | bigredbrent | 2010-04-16 05:15:21 +0000 (Fri, 16 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+
+Removed case sensitivity for the start of the addon name from the template.
+------------------------------------------------------------------------
+r15 | bigredbrent | 2010-04-10 04:10:21 +0000 (Sat, 10 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+   M /trunk/Version History.txt
+
+Reformatted title in the options menu.
+------------------------------------------------------------------------
+r14 | bigredbrent | 2010-04-10 03:38:23 +0000 (Sat, 10 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Reformatted title in the toc file.
+------------------------------------------------------------------------
+r12 | bigredbrent | 2010-04-10 02:06:23 +0000 (Sat, 10 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+   M /trunk/OptionsFrame.xml
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Options frame is now created from a template file to reduce the amount of required changes to convert SpellFlash_TemplateAddon into a functional module.
+------------------------------------------------------------------------
+r11 | bigredbrent | 2010-04-09 23:46:47 +0000 (Fri, 09 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+   M /trunk/OptionsFrame.xml
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Added guide numbers to spec selection slider bar.
+------------------------------------------------------------------------
+r9 | bigredbrent | 2010-04-09 03:00:25 +0000 (Fri, 09 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Options.lua
+   M /trunk/OptionsFrame.xml
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Hopefully removed harmless error message from popping up.
+------------------------------------------------------------------------
+r7 | bigredbrent | 2010-04-08 07:56:21 +0000 (Thu, 08 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Using incremental version numbers again.
+------------------------------------------------------------------------
+r6 | bigredbrent | 2010-04-08 03:41:22 +0000 (Thu, 08 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Scripts.lua
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Removed numbers from the description labels.
+------------------------------------------------------------------------
+r5 | bigredbrent | 2010-04-08 03:20:34 +0000 (Thu, 08 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Localization/CN.lua
+   M /trunk/Localization/DE.lua
+   M /trunk/Localization/ES.lua
+   M /trunk/Localization/FR.lua
+   M /trunk/Localization/KR.lua
+   M /trunk/Localization/MX.lua
+   M /trunk/Localization/RU.lua
+   M /trunk/Localization/TW.lua
+   M /trunk/Options.lua
+   M /trunk/OptionsFrame.xml
+   M /trunk/Scripts.lua
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Added optional description field to the selectable configurations.
+------------------------------------------------------------------------
+r4 | bigredbrent | 2010-04-07 23:21:37 +0000 (Wed, 07 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Functions.lua
+   M /trunk/Scripts.lua
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Renamed a few local functions to reduce the script size.
+------------------------------------------------------------------------
+r3 | bigredbrent | 2010-04-07 06:15:00 +0000 (Wed, 07 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Functions.lua
+   M /trunk/Scripts.lua
+   M /trunk/SpellFlash_TemplateAddon.toc
+   M /trunk/Version History.txt
+
+Added a few more local functions to reduce the script size.
+------------------------------------------------------------------------
+r2 | bigredbrent | 2010-04-07 05:45:37 +0000 (Wed, 07 Apr 2010) | 1 line
+Changed paths:
+   A /trunk/Functions.lua
+   A /trunk/HELP.txt
+   A /trunk/Load.xml
+   A /trunk/Localization
+   A /trunk/Localization/CN.lua
+   A /trunk/Localization/DE.lua
+   A /trunk/Localization/ES.lua
+   A /trunk/Localization/FR.lua
+   A /trunk/Localization/KR.lua
+   A /trunk/Localization/MX.lua
+   A /trunk/Localization/RU.lua
+   A /trunk/Localization/TW.lua
+   A /trunk/Localization/_Initialize.lua
+   A /trunk/Options.lua
+   A /trunk/OptionsFrame.xml
+   A /trunk/Scripts.lua
+   A /trunk/SpellFlash_TemplateAddon.toc
+   A /trunk/Version History.txt
+
+Now using repository revision numbers instead of incremental version numbers.
+------------------------------------------------------------------------
+r1 | root | 2010-04-07 04:02:34 +0000 (Wed, 07 Apr 2010) | 1 line
+Changed paths:
+   A /branches
+   A /tags
+   A /trunk
+
+"spellflash_templateaddon/mainline: Initial Import"
+------------------------------------------------------------------------

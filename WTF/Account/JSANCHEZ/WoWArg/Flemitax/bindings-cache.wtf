@@ -1,0 +1,51 @@
+BINDINGMODE 0
+bind A STRAFELEFT
+bind LEFT TURNLEFT
+bind D STRAFERIGHT
+bind RIGHT TURNRIGHT
+bind Q ACTIONBUTTON8
+bind E ACTIONBUTTON9
+bind Z TOGGLECHARACTER0
+bind R ACTIONBUTTON12
+bind SHIFT-R CLICK BT4Button24:LeftButton
+bind 6 NONE
+bind 7 NONE
+bind 8 NONE
+bind 9 NONE
+bind 0 NONE
+bind - ALLNAMEPLATES
+bind = NONE
+bind CTRL-1 CLICK BT4Button57:LeftButton
+bind CTRL-2 CLICK BT4Button58:LeftButton
+bind CTRL-3 CLICK BT4Button59:LeftButton
+bind CTRL-4 CLICK BT4Button60:LeftButton
+bind SHIFT-1 CLICK BT4Button13:LeftButton
+bind SHIFT-2 CLICK BT4Button14:LeftButton
+bind SHIFT-3 CLICK BT4Button15:LeftButton
+bind SHIFT-4 CLICK BT4Button16:LeftButton
+bind SHIFT-5 CLICK BT4Button17:LeftButton
+bind G CLICK BT4Button25:LeftButton
+bind F ACTIONBUTTON11
+bind V ACTIONBUTTON7
+bind SHIFT-V CLICK BT4Button19:LeftButton
+bind CTRL-V NONE
+bind T ACTIONBUTTON10
+bind SHIFT-T CLICK BT4Button22:LeftButton
+bind C ACTIONBUTTON6
+bind SHIFT-C CLICK BT4Button18:LeftButton
+bind M TOGGLEWORLDMAP
+bind SHIFT-G CLICK BT4Button37:LeftButton
+bind , NAMEPLATES
+bind . FRIENDNAMEPLATES
+bind º TOGGLEWORLDMAP
+bind SHIFT-Q CLICK BT4Button20:LeftButton
+bind SHIFT-E CLICK BT4Button21:LeftButton
+bind SHIFT-F CLICK BT4Button23:LeftButton
+bind ALT-1 CLICK BT4Button49:LeftButton
+bind ALT-2 CLICK BT4Button50:LeftButton
+bind ALT-3 CLICK BT4Button51:LeftButton
+bind ALT-4 CLICK BT4Button52:LeftButton
+bind ALT-Q CLICK BT4Button53:LeftButton
+bind ALT-E CLICK BT4Button54:LeftButton
+bind ALT-F CLICK BT4Button55:LeftButton
+bind ALT-R CLICK BT4Button56:LeftButton

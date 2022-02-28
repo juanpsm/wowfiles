@@ -1,0 +1,34 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["Inventory"] = {
+					29943, -- [1]
+					25993, -- [2]
+					25984, -- [3]
+					2576, -- [4]
+					28057, -- [5]
+					"|cff1eff00|Hitem:24822:0:0:0:0:0:-40:30:60|h[Netherstalker Belt of the Bandit]|h|r", -- [6]
+					"|cff0070dd|Hitem:24022:0:2971:2757:2697:0:0:0:60|h[Scale Leggings of the Skirmisher]|h|r", -- [7]
+					"|cff1eff00|Hitem:24831:0:0:0:0:0:-18:31:60|h[Nexus-Strider Greaves of Agility]|h|r", -- [8]
+					17714, -- [9]
+					11918, -- [10]
+					25785, -- [11]
+					20955, -- [12]
+					25786, -- [13]
+					10720, -- [14]
+					14665, -- [15]
+					24020, -- [16]
+					10823, -- [17]
+					"|cff0070dd|Hitem:17717:663:0:0:0:0:0:0:60|h[Megashot Rifle]|h|r", -- [18]
+				},
+				["averageItemLvl"] = 70.35294117647059,
+				["lastUpdate"] = 1252416337,
+			},
+		},
+	},
+}

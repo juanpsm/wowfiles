@@ -1,0 +1,610 @@
+<!-- 
+## Interface: 30000
+##
+## Title: FarmIt
+## Notes: Custom loot tracker. By CHiLLZ [v1.7]
+## SavedVariablesPerCharacter: FI_Config
+## SavedVariables: FI_Saved
+##
+## Author: CHiLLZ <chillz@gmail.com>
+## License: Copyright 2006-2009, Chillz Media. All rights reserved.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+
+	<!-- Options Panel -->
+	<Frame name="FI_Options" frameStrata="LOW" parent="UIParent" clickable="true" movable="true" hidden="true">
+		<Size>
+			<AbsDimension x="500" y="300"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER" relativeTo="UIParent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+			<EdgeSize>
+				<AbsValue val="10"/>
+			</EdgeSize>
+			<TileSize>
+				<AbsValue val="5"/>
+			</TileSize>
+			<BackgroundInsets>
+				<AbsInset left="2" right="2" top="2" bottom="2"/>
+			</BackgroundInsets>
+		</Backdrop>
+		<Scripts>
+			<OnMouseDown>
+				if (arg1=="LeftButton") then
+					this:StartMoving();
+				end
+			</OnMouseDown>
+			<OnMouseUp>
+				this:StopMovingOrSizing();
+			</OnMouseUp>
+
+			<OnShow>
+			</OnShow>
+		</Scripts>
+
+		<Layers>
+			<Layer level="OVERLAY">
+				<FontString name="$parent_Title" inherits="GameFontNormal" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="10" y="-10"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+
+				<FontString name="$parent_Credits" inherits="GameFontNormalSmall" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="BOTTOM">
+							<Offset>
+								<AbsDimension x="0" y="10"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r=".4" g=".6" b="1" a="1" />
+				</FontString>
+
+				<FontString name="$parent_COL1" inherits="GameFontNormal" justifyH="LEFT" text="General Options">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="1" b="1" a="1" />
+				</FontString>
+
+				<FontString name="$parent_COL2" inherits="GameFontNormal" justifyH="LEFT" text="Layout">
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="0" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="1" b="1" a="1" />
+				</FontString>
+
+				<FontString name="$parent_COL3" inherits="GameFontNormal" justifyH="LEFT" text="Opacity">
+					<Anchors>
+						<Anchor point="TOPRIGHT">
+							<Offset>
+								<AbsDimension x="-20" y="-40"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+					<Color r="1" g="1" b="1" a="1" />
+				</FontString>
+			</Layer>
+		</Layers>
+
+		<Frames>
+			<Button name="$parent_Close" inherits="UIPanelCloseButton">
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+			</Button>
+
+			<!-- COLUMN 1 -->
+
+			<CheckButton name="$parent_CB1" inherits="OptionsCheckButtonTemplate">
+				<Size>
+					<AbsDimension x="26" y="26"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_COL1" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						if ( this:GetChecked() ) then
+							FI_Config["Show"] = true;
+							FI:Show();
+							PlaySound("igMainMenuOptionCheckBoxOn");
+						else
+							FI_Config["Show"] = false;
+							FI:Hide();
+							PlaySound("igMainMenuOptionCheckBoxOff");
+						end
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+						GameTooltip.inherits = "GameFontNormalSmall";
+						GameTooltip:SetText("Toggles display of the entire addon.");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parent_Label" inherits="GameFontNormalSmall" text="Show">
+							<Anchors>
+								<Anchor point="LEFT" relativePoint="RIGHT">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</CheckButton>
+
+			<CheckButton name="$parent_CB2" inherits="OptionsCheckButtonTemplate">
+				<Size>
+					<AbsDimension x="26" y="26"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_CB1" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						if ( this:GetChecked() ) then
+							FI_Config["Locked"] = true;
+							PlaySound("igMainMenuOptionCheckBoxOn");
+						else
+							FI_Config["Locked"] = false;
+							PlaySound("igMainMenuOptionCheckBoxOff");
+						end
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+						GameTooltip.inherits = "GameFontNormalSmall";
+						GameTooltip:SetText("Locks the position of FarmIt so it cannot be moved.");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parent_Label" inherits="GameFontNormalSmall" text="Lock Position">
+							<Anchors>
+								<Anchor point="LEFT" relativePoint="RIGHT">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</CheckButton>
+
+			<CheckButton name="$parent_CB3" inherits="OptionsCheckButtonTemplate">
+				<Size>
+					<AbsDimension x="26" y="26"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_CB2" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						if ( this:GetChecked() ) then
+							FI_Config["Notify"]["Objective"] = true;
+							PlaySound("igMainMenuOptionCheckBoxOn");
+						else
+							FI_Config["Notify"]["Objective"] = false;
+							PlaySound("igMainMenuOptionCheckBoxOff");
+						end
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+						GameTooltip.inherits = "GameFontNormalSmall";
+						GameTooltip:SetText("Enables on-screen success message when objectives are met.");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parent_Label" inherits="GameFontNormalSmall" text="Objective Notification">
+							<Anchors>
+								<Anchor point="LEFT" relativePoint="RIGHT">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</CheckButton>
+
+			<CheckButton name="$parent_CB4" inherits="OptionsCheckButtonTemplate">
+				<Size>
+					<AbsDimension x="26" y="26"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_CB3" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						if ( this:GetChecked() ) then
+							FI_Config["Notify"]["Progress"] = true;
+							PlaySound("igMainMenuOptionCheckBoxOn");
+						else
+							FI_Config["Notify"]["Progress"] = false;
+							PlaySound("igMainMenuOptionCheckBoxOff");
+						end
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+						GameTooltip.inherits = "GameFontNormalSmall";
+						GameTooltip:SetText("Display a notice each time you loot a tracked item.");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parent_Label" inherits="GameFontNormalSmall" text="Track Progress">
+							<Anchors>
+								<Anchor point="LEFT" relativePoint="RIGHT">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</CheckButton>
+
+			<CheckButton name="$parent_CB5" inherits="OptionsCheckButtonTemplate">
+				<Size>
+					<AbsDimension x="26" y="26"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_CB4" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						if (FI_Config["Bars"]["FI_B1"]["Direction"] == 1) then
+							if ( this:GetChecked() ) then
+								FI_Config["Bars"]["FI_B1"]["Text"] = true;
+								PlaySound("igMainMenuOptionCheckBoxOn");
+							else
+								FI_Config["Bars"]["FI_B1"]["Text"] = false;
+								PlaySound("igMainMenuOptionCheckBoxOff");
+							end
+
+							FI_TextVis("FI_B1");
+						else
+							this:SetChecked(false);
+						end
+					</OnClick>
+					<OnEnter>
+						GameTooltip:SetOwner(this, "ANCHOR_RIGHT");
+						GameTooltip.inherits = "GameFontNormalSmall";
+						GameTooltip:SetText("Toggles display of item text labels. (Vertical mode only)");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<Layers>
+					<Layer level="BACKGROUND">
+						<FontString name="$parent_Label" inherits="GameFontNormalSmall" text="Display Item Text">
+							<Anchors>
+								<Anchor point="LEFT" relativePoint="RIGHT">
+									<Offset>
+										<AbsDimension x="5" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</CheckButton>
+
+			<!-- COLUMN 2 -->
+
+			<Slider name="$parent_SL1" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOP" relativeTo="$parent_COL2" relativePoint="BOTTOM">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Bar Direction");
+						getglobal(this:GetName().."Low"):SetText("Vertical");
+						getglobal(this:GetName().."High"):SetText("Horizontal");
+						this:SetMinMaxValues(1, 2);
+						this:SetValueStep(1);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Direction"] = this:GetValue();
+							FI_MoveSlots("FI_B1");
+							FI_TextVis("FI_B1");
+
+							-- update item text option
+							FI_Options_CB5:SetChecked( FI_Config["Bars"]["FI_B1"]["Text"] );
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL2" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL1" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Alignment");
+						getglobal(this:GetName().."Low"):SetText("Left");
+						getglobal(this:GetName().."High"):SetText("Right");
+						this:SetMinMaxValues(1, 2);
+						this:SetValueStep(1);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Align"] = this:GetValue();
+							FI_TextAlign("FI_B1");
+							FI_MoveSlots("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL3" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL2" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Scale");
+						getglobal(this:GetName().."Low"):SetText("50%");
+						getglobal(this:GetName().."High"):SetText("150%");
+						this:SetMinMaxValues(0.5, 1.5);
+						this:SetValueStep(0.1);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Scale"] = tonumber( string.format("%.1f", this:GetValue()) );
+							FI_SetScale("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL4" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL3" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Spacing");
+						getglobal(this:GetName().."Low"):SetText("6");
+						getglobal(this:GetName().."High"):SetText("48");
+						this:SetMinMaxValues(6, 48);
+						this:SetValueStep(2);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Spacing"] = this:GetValue();
+							FI_MoveSlots("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+			
+			<!-- COLUMN 3 -->
+
+			<Slider name="$parent_SL5" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="$parent_COL3" relativePoint="BOTTOMRIGHT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Background");
+						getglobal(this:GetName().."Low"):SetText("0%");
+						getglobal(this:GetName().."High"):SetText("100%");
+						this:SetMinMaxValues(0, 1);
+						this:SetValueStep(0.05);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Alpha_Background"] = this:GetValue();
+							FI_SetAlpha("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL6" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL5" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Item Icon");
+						getglobal(this:GetName().."Low"):SetText("0%");
+						getglobal(this:GetName().."High"):SetText("100%");
+						this:SetMinMaxValues(0, 1);
+						this:SetValueStep(0.05);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Alpha_Icon"] = this:GetValue();
+							FI_SetAlpha("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL7" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL6" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Border");
+						getglobal(this:GetName().."Low"):SetText("0%");
+						getglobal(this:GetName().."High"):SetText("100%");
+						this:SetMinMaxValues(0, 1);
+						this:SetValueStep(0.05);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Alpha_Border"] = this:GetValue();
+							FI_SetAlpha("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL8" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL7" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Numbers");
+						getglobal(this:GetName().."Low"):SetText("0%");
+						getglobal(this:GetName().."High"):SetText("100%");
+						this:SetMinMaxValues(0, 1);
+						this:SetValueStep(0.05);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Alpha_Numbers"] = this:GetValue();
+							FI_SetAlpha("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Slider name="$parent_SL9" inherits="OptionsSliderTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="$parent_SL8" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-20"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						getglobal(this:GetName().."Text"):SetText("Text");
+						getglobal(this:GetName().."Low"):SetText("0%");
+						getglobal(this:GetName().."High"):SetText("100%");
+						this:SetMinMaxValues(0, 1);
+						this:SetValueStep(0.05);
+					</OnLoad>
+					<OnValueChanged>
+						if (not FI_Loading) then
+							FI_Config["Bars"]["FI_B1"]["Alpha_Text"] = this:GetValue();
+							FI_SetAlpha("FI_B1");
+						end
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<!-- Other Buttons -->
+
+			<Button name="$parent_Reset" inherits="OptionsButtonTemplate" text="Defaults">
+				<Anchors>
+					<Anchor point="BOTTOMLEFT" relativeTo="$parent">
+						<Offset>
+							<AbsDimension x="20" y="40"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						FI_Reset();
+					</OnClick>
+				</Scripts>
+			</Button>
+
+		</Frames>
+	</Frame>
+</Ui>

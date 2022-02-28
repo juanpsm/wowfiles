@@ -1,0 +1,7 @@
+SET showTargetOfTarget "1"
+SET questFadingDisable "1"
+SET watchFrameState "1"
+SET cameraView "3"
+SET cameraDistanceMaxFactor "1"
+SET talentFrameShown "1"
+SET ShowAllSpellRanks "0"

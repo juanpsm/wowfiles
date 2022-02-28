@@ -1,0 +1,25 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["lastUpdate"] = 1252416337,
+				["CRITTER"] = {
+					"21056|Blue Dragonhawk Hatchling|36031|Ability_Hunter_Pet_DragonHawk", -- [1]
+					"7385|Bombay Cat|10673|INV_Box_PetCarrier_01", -- [2]
+					"7384|Cornish Rex Cat|10674|INV_Box_PetCarrier_01", -- [3]
+					"7567|Crimson Snake|10717|Spell_Nature_GuardianWard", -- [4]
+					"7387|Green Wing Macaw|10683|INV_Feather_12", -- [5]
+					"2671|Mechanical Squirrel|4055|INV_Crate_01", -- [6]
+					"7389|Senegal|10684|INV_Feather_11", -- [7]
+				},
+				["MOUNT"] = {
+					"7690|Striped Nightsaber|10793|Ability_Mount_BlackPanther", -- [1]
+				},
+			},
+		},
+	},
+}

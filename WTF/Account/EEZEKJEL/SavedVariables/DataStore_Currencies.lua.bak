@@ -1,0 +1,24 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["Currencies"] = {
+					"0|Jugador contra Jugador", -- [1]
+					"1|Fragmento de vigilante de piedra|170|43228", -- [2]
+					"1|Marca de Honor de Conquista del Invierno|10|43589", -- [3]
+					"1|Marca de Honor de la Garganta Grito de Guerra|0|20558", -- [4]
+					"1|Moneda de Ventura|14|37836", -- [5]
+					"1|Puntos de arena|0|43307", -- [6]
+					"1|Puntos de honor|47610|43308", -- [7]
+					"0|Miscelánea", -- [8]
+					"1|Muestra de joyero de Dalaran|11|41596", -- [9]
+				},
+				["lastUpdate"] = 1527103493,
+			},
+		},
+	},
+}

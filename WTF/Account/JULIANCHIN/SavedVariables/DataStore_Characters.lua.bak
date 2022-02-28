@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["XPMax"] = 0,
+				["played"] = 512066,
+				["guildRankName"] = "Pollera 80",
+				["isResting"] = 1,
+				["lastUpdate"] = 1536978957,
+				["class"] = "Maga",
+				["race"] = "Humana",
+				["level"] = 80,
+				["XP"] = 24979,
+				["RestXP"] = 0,
+				["money"] = 17708904,
+				["gender"] = 3,
+				["subZone"] = "Banco de Mercaderes de Dalaran",
+				["zone"] = "Dalaran",
+				["guildRankIndex"] = 5,
+				["name"] = "Rivothrill",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["guildName"] = "Los Exiliados",
+				["lastLogoutTimestamp"] = 1536978957,
+				["englishClass"] = "MAGE",
+			},
+		},
+	},
+}

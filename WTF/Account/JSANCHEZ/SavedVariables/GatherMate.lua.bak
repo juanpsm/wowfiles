@@ -1,0 +1,20 @@
+
+GatherMateDB = {
+	["profileKeys"] = {
+		["Finweloss - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+GatherMateHerbDB = {
+}
+GatherMateMineDB = {
+}
+GatherMateFishDB = {
+}
+GatherMateGasDB = {
+}
+GatherMateTreasureDB = {
+}

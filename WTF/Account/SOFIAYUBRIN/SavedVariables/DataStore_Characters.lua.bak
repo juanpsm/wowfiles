@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Zelphar"] = {
+				["XPMax"] = 0,
+				["played"] = 1438001,
+				["guildRankName"] = "La mas piola",
+				["isResting"] = 1,
+				["lastUpdate"] = 1530146416,
+				["class"] = "Druida",
+				["race"] = "Elfo de la noche",
+				["level"] = 80,
+				["XP"] = 33872,
+				["RestXP"] = 0,
+				["money"] = 3288148,
+				["gender"] = 2,
+				["guildRankIndex"] = 0,
+				["guildName"] = "Shadowblades",
+				["subZone"] = "Banco de Mercaderes de Dalaran",
+				["name"] = "Zelphar",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["zone"] = "Dalaran",
+				["lastLogoutTimestamp"] = 1530146416,
+				["englishClass"] = "DRUID",
+			},
+		},
+	},
+}

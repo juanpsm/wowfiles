@@ -1,0 +1,46 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Guthrakk"] = {
+				["lastUpdate"] = 1526619808,
+				["Skills"] = {
+					["Profesiones"] = {
+						["Herboristería"] = "450|450",
+						["Alquimia"] = "183|225",
+					},
+					["Habilidades con armas"] = {
+						["Hachas de dos manos"] = "1|400",
+						["Hachas"] = "1|400",
+						["Sin armas"] = "400|400",
+						["Bastones"] = "51|400",
+						["Defensa"] = "400|400",
+						["Mazas"] = "400|400",
+						["Dagas"] = "400|400",
+					},
+					["Idiomas"] = {
+						["Idioma: orco"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Malla"] = "1|1",
+						["Cuero"] = "1|1",
+						["Tela"] = "1|1",
+						["Escudo"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Combate elemental"] = "1|1",
+						["Restauración"] = "1|1",
+						["Mejora"] = "1|1",
+					},
+					["Habilidades secundarias"] = {
+						["Equitación"] = "225|225",
+						["Primeros auxilios"] = "1|75",
+					},
+				},
+			},
+		},
+	},
+}

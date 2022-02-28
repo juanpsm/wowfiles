@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["XPMax"] = 0,
+				["played"] = 2357122,
+				["guildRankName"] = "Teniente",
+				["isResting"] = 1,
+				["lastUpdate"] = 1527103568,
+				["class"] = "Chamán",
+				["race"] = "Draenei",
+				["level"] = 80,
+				["XP"] = 1746,
+				["RestXP"] = 0,
+				["money"] = 43156582,
+				["gender"] = 2,
+				["subZone"] = "Gadgetzan",
+				["zone"] = "Tanaris",
+				["guildRankIndex"] = 5,
+				["name"] = "Elchamaquito",
+				["faction"] = "Alliance",
+				["englishRace"] = "Draenei",
+				["guildName"] = "Red Army",
+				["lastLogoutTimestamp"] = 1527103568,
+				["englishClass"] = "SHAMAN",
+			},
+		},
+	},
+}

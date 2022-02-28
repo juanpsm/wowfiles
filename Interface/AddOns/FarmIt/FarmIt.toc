@@ -1,0 +1,17 @@
+## Interface: 30000
+##
+## Title: FarmIt
+## Notes: Custom loot tracker. By CHiLLZ [v1.7]
+## SavedVariablesPerCharacter: FI_Config
+## SavedVariables: FI_Saved
+##
+## Author: CHiLLZ <chillz@gmail.com>
+## License: Copyright 2006-2009, Chillz Media. All rights reserved.
+FarmIt.lua
+FarmIt.xml
+
+FarmIt_Slot.xml
+FarmIt_Bar.xml
+
+FarmIt_Options.xml
+FarmIt_Help.xml

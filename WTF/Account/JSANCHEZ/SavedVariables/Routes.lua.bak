@@ -1,0 +1,8 @@
+
+RoutesDB = {
+	["profileKeys"] = {
+		["Finweloss - WoWArg"] = "Finweloss - WoWArg",
+	},
+	["global"] = {
+	},
+}

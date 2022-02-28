@@ -1,0 +1,26 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["lastUpdate"] = 1536978940,
+				["CRITTER"] = {
+					"40703|Mini XT|75906|achievement_boss_xt002deconstructor_01", -- [1]
+				},
+				["MOUNT"] = {
+					"33029|Alfombra voladora|61451|ability_mount_flyingcarpet", -- [1]
+					"31699|Black Polar Bear Mount|59572|Ability_Mount_PolarBear_Black", -- [2]
+					"284|Caballo marrón|458|Ability_Mount_RidingHorse", -- [3]
+					"14561|Corcel marrón presto|23229|Ability_Mount_RidingHorse", -- [4]
+					"18359|Grifo nevado|32240|ability_mount_snowygryphon", -- [5]
+					"307|Pinto|472|Ability_Mount_RidingHorse", -- [6]
+					"308|Semental negro|470|Ability_Mount_RidingHorse", -- [7]
+					"4269|Yegua zaina|6648|Ability_Mount_RidingHorse", -- [8]
+				},
+			},
+		},
+	},
+}

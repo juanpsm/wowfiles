@@ -1,0 +1,11 @@
+﻿## Interface: 30300
+## Title: GupPet |cffff8000CollectMe
+## RequiredDeps: GupPet
+## LoadOnDemand: 0
+## DefaultState: enabled
+## Author: Gup
+## SavedVariablesPerCharacter: GUPPET_CM_OPTIONS
+## SavedVariables: GUPPET_CM_SAVEDDATA
+
+locales.xml
+GupPet_CollectMe.xml

@@ -1,0 +1,10 @@
+
+LightHeadedDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["profiles"] = {
+		["Asasasdasda - WoWArg"] = {
+		},
+	},
+}

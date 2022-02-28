@@ -1,0 +1,102 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["lastUpdate"] = 1527103494,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							[19] = 20815,
+							[20] = 20824,
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 18,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							35947, -- [1]
+							38380, -- [2]
+							25539, -- [3]
+							910, -- [4]
+							23199, -- [5]
+							nil, -- [6]
+							34125, -- [7]
+							nil, -- [8]
+							43456, -- [9]
+							43450, -- [10]
+							nil, -- [11]
+							38250, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							nil, -- [15]
+							37835, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							16, -- [1]
+							163, -- [2]
+							[7] = 12,
+						},
+						["freeslots"] = 6,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							37821, -- [1]
+							30746, -- [2]
+							43314, -- [3]
+							11315, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							6948, -- [7]
+							8623, -- [8]
+							[10] = 11116,
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["counts"] = {
+							[3] = 3,
+							[4] = 11,
+						},
+						["freeslots"] = 13,
+					},
+					["Bag2"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 20,
+					},
+					["Bag3"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["freeslots"] = 20,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							23801, -- [1]
+							27808, -- [2]
+							42482, -- [3]
+							9249, -- [4]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+						["counts"] = {
+							8, -- [1]
+						},
+					},
+				},
+				["numFreeBagSlots"] = 77,
+				["numBagSlots"] = 96,
+			},
+		},
+		["Version"] = 1,
+	},
+}
