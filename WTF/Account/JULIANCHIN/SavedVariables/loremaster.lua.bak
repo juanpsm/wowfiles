@@ -1,0 +1,14 @@
+
+LoremasterDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "char",
+	},
+	["char"] = {
+		["Rivothrill - WoWArg"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
+	},
+}

@@ -1,0 +1,33 @@
+MACRO 16777218 "asd" INV_Misc_QuestionMark
+#showtooltip Unstable Affliction(Rank 5)
+/cast Unstable Affliction(Rank 5)
+/petattack
+END
+MACRO 16777219 "asddas" INV_Misc_QuestionMark
+#showtooltip Haunt(Rank 4)
+/cast Haunt(Rank 4)
+/petattack
+END
+MACRO 16777220 "corrupcion" INV_Misc_QuestionMark
+#showtooltip Corruption
+/cast [target=mouseover] Corruption
+END
+MACRO 16777222 "corte" INV_Misc_QuestionMark
+#showtooltip Spell lock
+/cast Spell lock
+END
+MACRO 16777217 "inmo+pet" INV_Misc_QuestionMark
+#showtooltip Immolate(Rank 11)
+/cast Immolate(Rank 11)
+/petattack
+END
+MACRO 16777224 "pet atack" INV_Misc_QuestionMark
+/petattack
+END
+MACRO 16777223 "portal" INV_Misc_QuestionMark
+/castsequence Demonic Circle: Summon, Demonic Circle: Teleport
+END
+MACRO 16777221 "seduction" INV_Misc_QuestionMark
+#showtooltip Seduction
+/cast Seduction
+END

@@ -1,0 +1,16 @@
+## Interface: 30300
+## Version: 1.15
+## Title: SpellFlash: Hunter
+## Author: BigRedBrent
+## Notes: This addon is able to make suggestions of what spell you may want to cast next by flashing on top of the spell buttons.
+## URL: http://wow.curse.com/downloads/wow-addons/details/spellflash.aspx
+## Dependencies: SpellFlash
+## X-Curse-Packaged-Version: 1.15
+## X-Curse-Project-Name: SpellFlash: Hunter
+## X-Curse-Project-ID: spellflash_hunter
+## X-Curse-Repository-ID: wow/spellflash_hunter/mainline
+OptionsFrame.xml
+Load.xml
+
+## LoadOnDemand: 1
+## X-SpellFlashAddon-LoadWith: Hunter

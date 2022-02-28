@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: Lore
+## Version: 7.7.5
+## Notes: (v7.7.5) Create and use custom-defined languages.
+## OptionalDeps: myAddOns
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: Lore_Autotrans,Lore_Left,Lore_Right,Lore_Self,Lore_Visible,Lore_Inform,Lore_Users,Lore_Tabletposition,Lore_Locked
+## SavedVariablesPerCharacter: Lore_Interpreter,Lore_Skill,Lore_To,Lore_Stutterfrequency,Lore_Screen,Lore_Effect,Lore_ButtonTexture,Lore_TabletTextColor_R,Lore_TabletTextColor_G,Lore_TabletTextColor_B,Lore_SelectedSkillModifier,Lore_Cycle,Lore_Banlist,Lore_Punctuation
+Lore.xml
+LoreSettings.xml

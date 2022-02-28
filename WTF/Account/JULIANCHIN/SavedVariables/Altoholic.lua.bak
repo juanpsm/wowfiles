@@ -1,0 +1,38 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Rivothrill"] = {
+				["Friends"] = {
+					"Abismo", -- [1]
+					"Bufardoll", -- [2]
+					"Dlac", -- [3]
+					"Elchamaquito", -- [4]
+					"Elfhelm", -- [5]
+					"Elloderii", -- [6]
+					"Galilea", -- [7]
+					"Gilraenloss", -- [8]
+					"Laboulash", -- [9]
+					"Liomessi", -- [10]
+					"Mae", -- [11]
+					"Miela", -- [12]
+					"Missmoon", -- [13]
+					"Pick", -- [14]
+					"Sttriker", -- [15]
+					"Tenebron", -- [16]
+					"Tenebroza", -- [17]
+					"Tenebrys", -- [18]
+					"Tenebryta", -- [19]
+					"Wissmoon", -- [20]
+					"Yaandeel", -- [21]
+				},
+				["SavedInstance"] = {
+					["Naxxramas|11133"] = "437472|1536978941|1|0",
+				},
+			},
+		},
+	},
+}

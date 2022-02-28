@@ -1,0 +1,21 @@
+## Interface: 30300
+## Title: GupPet
+## Author: Gup
+## Version: 1.241
+## Notes: 
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariablesPerCharacter: GUPPET_SAVEDDATA, GUPPET_SAVEDLOCATIONS, GUPPET_OPTIONS,GUPPET_SAVEDZONEVARS 
+
+localization.lua
+
+GupPet_Interface_IngameButtons.xml
+GupPet_Interface.lua
+GupPet_Interface_IngameButtons.lua 
+
+GupPet_Data.lua
+
+GupPet_AutoCompanion.lua
+
+GupPet.lua
+GupPet.xml

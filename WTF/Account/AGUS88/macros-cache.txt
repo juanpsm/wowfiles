@@ -1,0 +1,17 @@
+MACRO 3 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Tranquilizing Shot;  [target=mouseover,exists,mod:ctrl] Tranquilizing Shot; [target=mouseover,exists,mod:shift] Tranquilizing Shot
+END
+MACRO 1 "modraes" INV_Misc_QuestionMark
+/decir .modrates on
+END
+MACRO 4 "sed de sangre, " INV_Misc_QuestionMark
+#show Sed de sagre
+/startattack
+/cast Sed de sangre
+/cast Rajar(Rnngo 8)
+END
+MACRO 2 "seguir" INV_Misc_QuestionMark
+/follow
+/seguir
+END

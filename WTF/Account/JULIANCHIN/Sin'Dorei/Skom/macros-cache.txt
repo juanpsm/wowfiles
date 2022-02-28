@@ -1,0 +1,10 @@
+MACRO 16777217 "leave" INV_Misc_QuestionMark
+/run LeaveParty()
+END
+MACRO 16777218 "party" INV_Misc_QuestionMark
+/invite Elchamaquito
+END
+MACRO 16777219 "salva" INV_Misc_QuestionMark
+/cast Nature's Swiftness
+/cast Healing Touch(Rank 15)
+END

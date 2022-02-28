@@ -1,0 +1,39 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Guthrakk"] = {
+				["Friends"] = {
+					"Adicctions", -- [1]
+					"Budincito", -- [2]
+					"Chotman", -- [3]
+					"Cruller", -- [4]
+					"Daffne", -- [5]
+					"Donatello", -- [6]
+					"Elfopuntero", -- [7]
+					"Faroth", -- [8]
+					"Garthas", -- [9]
+					"Gwen", -- [10]
+					"Hilldegan", -- [11]
+					"Lichkingss", -- [12]
+					"Mindra", -- [13]
+					"Pandis", -- [14]
+					"Pitylpa", -- [15]
+					"Qetsiyah", -- [16]
+					"Senior", -- [17]
+					"Senky", -- [18]
+					"Srbaacko", -- [19]
+					"Starling", -- [20]
+					"Stratocaster", -- [21]
+					"Verduguito", -- [22]
+					"Volcann", -- [23]
+					"Yayro", -- [24]
+					"Zedka", -- [25]
+				},
+			},
+		},
+	},
+}

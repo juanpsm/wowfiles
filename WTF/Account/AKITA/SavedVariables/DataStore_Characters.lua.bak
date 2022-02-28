@@ -1,0 +1,29 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Guthrakk"] = {
+				["XPMax"] = 0,
+				["played"] = 3138823,
+				["zone"] = "Tanaris",
+				["lastUpdate"] = 1526619936,
+				["class"] = "Chamán",
+				["race"] = "Orco",
+				["level"] = 80,
+				["XP"] = 2014,
+				["RestXP"] = 0,
+				["money"] = 27302061,
+				["gender"] = 2,
+				["name"] = "Guthrakk",
+				["faction"] = "Horde",
+				["englishRace"] = "Orc",
+				["subZone"] = "Gadgetzan",
+				["lastLogoutTimestamp"] = 1526619936,
+				["englishClass"] = "SHAMAN",
+			},
+		},
+	},
+}

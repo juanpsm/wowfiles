@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["profiles"] = {
+		["Rivothrill - WoWArg"] = {
+			["PositionY"] = 567.307686111483,
+			["PositionX"] = 763.141044859093,
+		},
+	},
+}

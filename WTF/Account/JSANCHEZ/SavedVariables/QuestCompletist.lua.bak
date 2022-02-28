@@ -1,0 +1,32 @@
+
+qcNPC = {
+	[105] = {
+		["npcQ"] = {
+		},
+		["npcL"] = {
+			["entryPlayersXMapPosition"] = 77.00650095939636,
+			["entryPlayersYMapPosition"] = 48.6258864402771,
+		},
+		["npcC"] = {
+			["npcC"] = "normal",
+			["npcL"] = 75,
+			["npcT"] = "Humanoid",
+			["npcS"] = 2,
+		},
+		["npcG"] = {
+			{
+				["npcT"] = "Welcome to the camp, hunter.",
+			}, -- [1]
+		},
+		["npcS"] = {
+			["npcP"] = 3561,
+			["npcH"] = 10635,
+		},
+		["npcI"] = {
+			["npcG"] = "0xF1300069030178ED",
+			["npcN"] = "Raegar Breakbrow",
+		},
+	},
+}
+qcUnknownQuests = {
+}

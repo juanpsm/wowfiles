@@ -1,0 +1,20 @@
+MACRO 16777222 "." Spell_BrokenHeart
+/kiss
+/Love
+END
+MACRO 16777220 "." Spell_Arcane_FocusedPower
+/dance
+END
+MACRO 16777226 "." Spell_Nature_Strength
+/flex
+END
+MACRO 16777223 "dsf" Spell_Magic_PolymorphRabbit
+END
+MACRO 16777221 "q" Spell_Arcane_ManaTap
+END
+MACRO 16777225 "sad" Spell_Misc_Drink
+/drink
+END
+MACRO 16777224 "sd" Spell_Misc_Food
+/hungry
+END

@@ -1,0 +1,14 @@
+enable-nolib-creation: no
+
+ignore:
+	- .pkgmeta
+	- .docmeta
+
+manual-changelog:
+	filename: Version_History.txt
+	markup-type: creole
+
+package-as: SpellFlash_DeathKnight
+
+required-dependencies:
+	- spellflash

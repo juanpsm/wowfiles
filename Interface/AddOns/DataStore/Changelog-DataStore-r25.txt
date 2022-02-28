@@ -1,0 +1,33 @@
+------------------------------------------------------------------------
+r25 | thaoky | 2010-03-17 11:50:20 +0000 (Wed, 17 Mar 2010) | 1 line
+Changed paths:
+   A /trunk/Export
+   A /trunk/Export/DataStore.xsl
+   A /trunk/Export/ExportToXML.lua
+
+Added an external script to export databases to XML.
+------------------------------------------------------------------------
+r24 | thaoky | 2010-03-09 10:20:08 +0000 (Tue, 09 Mar 2010) | 1 line
+Changed paths:
+   M /trunk/DataStore.lua
+   M /trunk/Options.lua
+
+Modified ImportData() to use a CopyTable instead of an assignation.
+------------------------------------------------------------------------
+r23 | pompachomp | 2010-02-19 18:44:07 +0000 (Fri, 19 Feb 2010) | 2 lines
+Changed paths:
+   M /trunk/DataStore.toc
+   A /trunk/Locales (from /trunk/Locals:22)
+   D /trunk/Locals
+   D /trunk/local.xml
+   A /trunk/locale.xml (from /trunk/local.xml:22)
+
+locals->locales directory
+local.xml->locale.xml
+------------------------------------------------------------------------
+r22 | thaoky | 2010-01-28 09:07:18 +0000 (Thu, 28 Jan 2010) | 1 line
+Changed paths:
+   M /trunk/DataStore.lua
+
+Clearing DB updaters after use.
+------------------------------------------------------------------------

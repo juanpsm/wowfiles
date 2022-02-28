@@ -1,0 +1,26 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Guthrakk"] = {
+				["Professions"] = {
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+					["Herboristería"] = {
+						["isPrimary"] = true,
+					},
+					["Alquimia"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+	},
+}

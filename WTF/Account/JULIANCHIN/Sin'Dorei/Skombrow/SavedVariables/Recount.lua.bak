@@ -1,0 +1,47 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Skombrow"] = {
+			["GUID"] = "0x0000000000021D2C",
+			["LastEventHealth"] = {
+				"8253 (100%)", -- [1]
+			},
+			["LastEventType"] = {
+				"HEAL", -- [1]
+			},
+			["enClass"] = "DRUID",
+			["unit"] = "Skombrow",
+			["level"] = 73,
+			["LastFightIn"] = 0,
+			["LastEventNum"] = {
+				50.40591300133285, -- [1]
+			},
+			["type"] = "Self",
+			["Owner"] = false,
+			["NextEventNum"] = 2,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+			},
+			["LastEvents"] = {
+				"Skombrow Toque de sanación Skombrow Hit +4160 (4160overheal (sobrecuración))", -- [1]
+			},
+			["Name"] = "Skombrow",
+			["LastEventIncoming"] = {
+				true, -- [1]
+			},
+			["LastEventTimes"] = {
+				2216.031, -- [1]
+			},
+			["Fights"] = {
+			},
+			["UnitLockout"] = 1499533872,
+			["LastActive"] = 1499533872,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

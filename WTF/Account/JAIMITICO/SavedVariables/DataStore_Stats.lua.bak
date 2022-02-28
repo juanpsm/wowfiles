@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Asasasdasda"] = {
+				["lastUpdate"] = 1511831452,
+				["Stats"] = {
+					["Ranged"] = "3-6|1.8000000854954|10|0|8.0494003295898",
+					["Spell"] = "0|0|0|0|0|0",
+					["Melee"] = "3-5|1.6000000759959|24|0|8.0494003295898|0",
+					["MaxPower"] = "3|100",
+					["PVP"] = "0|0|0|0",
+					["HealthMax"] = 85,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "23|19|24|19|19|40",
+					["Defense"] = "40|1|16.725963592529|0|0|0",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,111 @@
+------------------------------------------------------------------------
+r88 | thaoky | 2010-04-12 18:02:22 +0000 (Mon, 12 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Modules/Altoholic_Achievements/Achievements.lua
+
+Added missing raid achievements.
+------------------------------------------------------------------------
+r87 | thaoky | 2010-04-12 17:13:59 +0000 (Mon, 12 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Frames/Search.lua
+
+Fixed a Lua error when using the search feature.
+------------------------------------------------------------------------
+r86 | thaoky | 2010-04-12 17:02:29 +0000 (Mon, 12 Apr 2010) | 2 lines
+Changed paths:
+   M /trunk/Altoholic.lua
+   M /trunk/Frames/Mails.lua
+   M /trunk/Frames/Mails.xml
+   M /trunk/Frames/TabCharacters.lua
+   M /trunk/Locales/repoenUS.lua
+   M /trunk/Modules/Altoholic_Achievements/Achievements.lua
+
+- Fixed invalid achievement id in Reputations/BC
+- Slightly modified the expiries in the mail pane.
+------------------------------------------------------------------------
+r85 | thaoky | 2010-04-05 13:49:52 +0000 (Mon, 05 Apr 2010) | 1 line
+Changed paths:
+   M /trunk/Frames/Activity.lua
+   M /trunk/Frames/Calendar.lua
+   M /trunk/Frames/TabOptions.lua
+
+Fixed a few Lua errors.
+------------------------------------------------------------------------
+r84 | thaoky | 2010-03-28 14:51:21 +0000 (Sun, 28 Mar 2010) | 1 line
+Changed paths:
+   M /trunk/Frames/Activity.lua
+   M /trunk/Frames/GuildBank.lua
+   M /trunk/Frames/Skills.lua
+   M /trunk/Frames/TabCharacters.lua
+
+Fixed a few Lua errors.
+------------------------------------------------------------------------
+r83 | thaoky | 2010-03-09 10:32:14 +0000 (Tue, 09 Mar 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Altoholic.lua
+   M /trunk/Altoholic.toc
+   M /trunk/Altoholic.xml
+   M /trunk/AltoholicTemplates.xml
+   A /trunk/Characters.lua
+   M /trunk/Comm.lua
+   M /trunk/Core.lua
+   M /trunk/Frames/AccountSummary.lua
+   M /trunk/Frames/AccountSummary.xml
+   D /trunk/Frames/Achievements.lua
+   D /trunk/Frames/Achievements.xml
+   M /trunk/Frames/Activity.lua
+   M /trunk/Frames/Activity.xml
+   M /trunk/Frames/AuctionHouse.lua
+   M /trunk/Frames/BagUsage.lua
+   M /trunk/Frames/BagUsage.xml
+   M /trunk/Frames/Containers.lua
+   M /trunk/Frames/Currencies.lua
+   M /trunk/Frames/Equipment.lua
+   M /trunk/Frames/GuildBank.lua
+   M /trunk/Frames/GuildBankTabs.lua
+   M /trunk/Frames/GuildMembers.lua
+   M /trunk/Frames/GuildMembers.xml
+   M /trunk/Frames/GuildProfessions.lua
+   M /trunk/Frames/Mails.lua
+   M /trunk/Frames/Pets.lua
+   M /trunk/Frames/Pets.xml
+   M /trunk/Frames/Quests.lua
+   M /trunk/Frames/Quests.xml
+   M /trunk/Frames/Recipes.lua
+   M /trunk/Frames/Recipes.xml
+   M /trunk/Frames/Reputations.lua
+   M /trunk/Frames/Search.lua
+   M /trunk/Frames/Skills.lua
+   M /trunk/Frames/Skills.xml
+   D /trunk/Frames/TabAchievements.lua
+   D /trunk/Frames/TabAchievements.xml
+   M /trunk/Frames/TabCharacters.lua
+   M /trunk/Frames/TabGuildBank.lua
+   M /trunk/Frames/TabOptions.lua
+   M /trunk/Frames/TabOptions.xml
+   M /trunk/Frames/TabSearch.lua
+   M /trunk/Frames/TabSummary.lua
+   M /trunk/Frames/TabSummary.xml
+   M /trunk/Frames/Talents.lua
+   A /trunk/ItemFilters.lua
+   M /trunk/Loots.lua
+   A /trunk/Modules
+   A /trunk/Modules/Altoholic_Achievements
+   A /trunk/Modules/Altoholic_Achievements/Achievements.lua
+   A /trunk/Modules/Altoholic_Achievements/Achievements.xml
+   A /trunk/Modules/Altoholic_Achievements/Altoholic_Achievements.toc
+   A /trunk/Modules/Altoholic_Achievements/TabAchievements.lua
+   A /trunk/Modules/Altoholic_Achievements/TabAchievements.xml
+   M /trunk/Suggestions.lua
+   M /trunk/Suggestions_deDE.lua
+   M /trunk/Suggestions_frFR.lua
+   M /trunk/Suggestions_koKR.lua
+   M /trunk/Suggestions_ruRU.lua
+   M /trunk/Suggestions_zhCN.lua
+   M /trunk/Suggestions_zhTW.lua
+   M /trunk/Tooltip.lua
+   M /trunk/changelog.txt
+
+3.3.002 svn push, refer to changelog.txt for a list of changes.
+------------------------------------------------------------------------

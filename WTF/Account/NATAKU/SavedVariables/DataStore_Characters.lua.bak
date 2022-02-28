@@ -1,0 +1,30 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["XPMax"] = 0,
+				["played"] = 6668574,
+				["isResting"] = 1,
+				["lastUpdate"] = 1548730363,
+				["class"] = "Guerrero",
+				["race"] = "Humano",
+				["level"] = 80,
+				["XP"] = 525,
+				["RestXP"] = 0,
+				["money"] = 3998533,
+				["gender"] = 2,
+				["subZone"] = "Alto de Krasus",
+				["name"] = "Turco",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["zone"] = "Dalaran",
+				["lastLogoutTimestamp"] = 1548730363,
+				["englishClass"] = "WARRIOR",
+			},
+		},
+	},
+}

@@ -1,0 +1,176 @@
+<!-- 
+## Interface: 30000
+##
+## Title: FarmIt
+## Notes: Custom loot tracker. By CHiLLZ [v1.7]
+## SavedVariablesPerCharacter: FI_Config
+## SavedVariables: FI_Saved
+##
+## Author: CHiLLZ <chillz@gmail.com>
+## License: Copyright 2006-2009, Chillz Media. All rights reserved.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+
+	<!-- Slot Template -->
+	<Frame name="FI_TPL_SLOT" parent="FI" virtual="true" hidden="true">
+		<Size>
+			<AbsDimension x="36" y="36"/>
+		</Size>
+		<Anchors>
+		</Anchors>
+		<Scripts>
+			<OnEnter>
+				FI_Tooltip( this:GetName() );
+				GameTooltip:Show();
+			</OnEnter>
+			<OnLeave>
+				GameTooltip:Hide();
+			</OnLeave>
+			<OnMouseUp>
+				FI_Click( this:GetName() );
+				
+				if (IsShiftKeyDown()) then
+					FI_ToggleBank( this:GetName() );
+				end
+				
+				if (IsControlKeyDown()) then
+					FI_EditObjective( this:GetName() );
+				end
+			</OnMouseUp>
+		</Scripts>
+		<Layers>
+			<!-- Graphical Elements -->
+			<Layer level="BACKGROUND">
+				<Texture name="$parent_Background" file="Interface\PaperDoll\UI-Backpack-EmptySlot" hidden="false">
+					<Size>
+						<AbsDimension x="38" y="38"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="ARTWORK">
+				<Texture name="$parent_Icon" file="">
+					<Size>
+						<AbsDimension x="36" y="36"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="OVERLAY">
+				<Texture name="$parent_Border" file="Interface\Buttons\UI-Quickslot2">
+					<Size>
+						<AbsDimension x="66" y="66"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="OVERLAY">
+				<Texture name="$parent_Glow" file="" alphaMode="ADD" hidden="true">
+					<!-- Interface\Buttons\ButtonHilight-Square -->
+					<Color r="1" g="1" b="0" a=".5" />
+					<Size>
+						<AbsDimension x="33" y="33"/>
+					</Size>
+					<Anchors>
+						<Anchor point="CENTER">
+							<Offset>
+								<AbsDimension x="0" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<!-- Text Elements -->
+			<Layer level="OVERLAY">
+				<FontString name="$parent_Count" inherits="NumberFontNormal" text="0">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="3" y="-3"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="$parent_Objective" inherits="NumberFontNormal" text="0" hidden="true">
+					<Anchors>
+						<Anchor point="BOTTOMRIGHT">
+							<Offset>
+								<AbsDimension x="-3" y="3"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="$parent_Text" inherits="GameFontNormal" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="LEFT" relativeTo="$parent_Icon" relativePoint="RIGHT">
+							<Offset>
+								<AbsDimension x="10" y="0"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<!-- objective edit box -->
+		<Frames>
+			<EditBox name="$parent_Edit" letters="4" hidden="true">
+				<Size>
+					<AbsDimension x="30" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="BOTTOM" relativeTo="$parent" relativePoint="BOTTOM">
+						<Offset>
+							<AbsDimension x="0" y="2"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnEnter>
+						this:SetFocus();
+					</OnEnter>
+					<OnEnterPressed>
+						parentObject = this:GetParent();
+						FI_SetObjective( parentObject:GetName(), true );
+						this:Hide();
+					</OnEnterPressed>
+					<OnEscapePressed>
+						this:Hide();
+					</OnEscapePressed>
+				</Scripts>
+				<FontString inherits="NumberFontNormal" justifyH="RIGHT" />
+				<Layers>
+					<Layer level="BACKGROUND">
+						<Texture name="$parent_Background">
+							<Color r="0" g="0" b="0" a="1"/>
+						</Texture>
+					</Layer>
+				</Layers>
+			</EditBox>
+		</Frames>
+	</Frame>
+	
+</Ui>

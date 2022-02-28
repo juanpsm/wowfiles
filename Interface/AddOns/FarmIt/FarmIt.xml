@@ -1,0 +1,41 @@
+<!-- 
+## Interface: 30000
+##
+## Title: FarmIt
+## Notes: Custom loot tracker. By CHiLLZ [v1.7]
+## SavedVariablesPerCharacter: FI_Config
+## SavedVariables: FI_Saved
+##
+## Author: CHiLLZ <chillz@gmail.com>
+## License: Copyright 2006-2009, Chillz Media. All rights reserved.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+
+	<!-- Main Frame -->
+	<Frame name="FI" frameStrata="LOW" parent="UIParent" movable="true" hidden="false">
+		<Size>
+			<AbsDimension x="64" y="64"/>
+		</Size>
+		<Anchors>
+			<Anchor point="LEFT" relativeTo="UIParent">
+				<Offset>
+					<AbsDimension x="0" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Scripts>
+			<OnLoad>
+				FI_OnLoad();
+			</OnLoad>
+			<OnShow>
+				FI_OnShow();
+			</OnShow>
+			<OnEvent>
+				FI_OnEvent();
+			</OnEvent>
+		</Scripts>
+	</Frame>
+
+</Ui>

@@ -1,0 +1,9 @@
+
+CookingHelperDB = {
+	["WoWArg - Finweloss"] = {
+		["Cooking"] = 0,
+		["Name"] = "Finweloss",
+		["Realm"] = "WoWArg",
+	},
+}
+CookingHelperAltsOn = true

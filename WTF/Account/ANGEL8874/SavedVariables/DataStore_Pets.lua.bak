@@ -1,0 +1,38 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["lastUpdate"] = 1539810359,
+				["CRITTER"] = {
+					"7387|Guacamayo rojo|10683|INV_Feather_12", -- [1]
+					"7386|Gatito blanco|10679|INV_Box_PetCarrier_01", -- [2]
+					"20472|Conejo marrón|35239|INV_Crate_02", -- [3]
+					"7567|Culebra carmesí|10717|Spell_Nature_GuardianWard", -- [4]
+					"35399|Prole obsidiana|67417|Ability_Mount_Raptor", -- [5]
+					"7390|Carolina|10680|INV_Feather_08", -- [6]
+					"7553|Búho común|10707|Ability_EyeOfTheOwl", -- [7]
+					"7389|Senegal|10684|INV_Feather_11", -- [8]
+					"7549|Rana de árbol|10704|Spell_Shaman_Hex", -- [9]
+					"7555|Lechuza gavilana|10706|Ability_EyeOfTheOwl", -- [10]
+					"21056|Prole de dracohalcón azul|36031|Ability_Hunter_Pet_DragonHawk", -- [11]
+					"7395|Cucaracha|10688|inv_pet_cockroach", -- [12]
+					"21009|Polilla roja|35909|Ability_Hunter_Pet_Moth", -- [13]
+					"7380|Siamés|10677|INV_Box_PetCarrier_01", -- [14]
+				},
+				["MOUNT"] = {
+					"32203|Oso de Guerra negro|60118|Ability_Mount_PolarBear_Black", -- [1]
+					"32153|Protodraco Tiempo Perdido|60002|Ability_Mount_Drake_Proto", -- [2]
+					"7687|Sable de Hielo moteado|10789|Ability_Mount_WhiteTiger", -- [3]
+					"14602|Sable de la Tempestad presto|23338|Ability_Mount_BlackPanther", -- [4]
+					"6074|Sable de Hielo rayado|8394|Ability_Mount_WhiteTiger", -- [5]
+					"18376|Grifo rojo presto|32289|Ability_Mount_Gryphon_01", -- [6]
+					"23588|Carnero de Fiesta de la cerveza|43899|Ability_Mount_MountainRam", -- [7]
+				},
+			},
+		},
+	},
+}

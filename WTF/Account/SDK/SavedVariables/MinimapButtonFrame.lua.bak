@@ -1,0 +1,21 @@
+
+MBFDB = {
+	["profileKeys"] = {
+		["Snts - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["customChildren"] = {
+				"MinimapButtonFrameDragButton", -- [1]
+				"MiniMapMailFrameDisabled", -- [2]
+				"AltoholicMinimapButton", -- [3]
+				"AtlasButtonFrame", -- [4]
+				"LibDBIcon10_Bartender4", -- [5]
+				"DBMMinimapButton", -- [6]
+				"LibDBIcon10_SavedInstances", -- [7]
+				"LibDBIcon10_Grid", -- [8]
+				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [9]
+			},
+		},
+	},
+}

@@ -1,0 +1,54 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["lastUpdate"] = 1252416337,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "112|150",
+						["Riding"] = "75|75",
+						["First Aid"] = "362|375",
+						["Fishing"] = "122|150",
+					},
+					["Class Skills"] = {
+						["Marksmanship"] = "1|1",
+						["Beast Mastery"] = "1|1",
+						["Survival"] = "1|1",
+					},
+					["Professions"] = {
+						["Engineering"] = "305|375",
+						["Mining"] = "338|375",
+					},
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "287|300",
+						["Unarmed"] = "243|300",
+						["Daggers"] = "80|300",
+						["Two-Handed Swords"] = "135|300",
+						["Thrown"] = "1|300",
+						["Bows"] = "62|300",
+						["Staves"] = "152|300",
+						["Guns"] = "292|300",
+						["Swords"] = "273|300",
+						["Crossbows"] = "151|300",
+						["Axes"] = "214|300",
+						["Polearms"] = "1|300",
+						["Two-Handed Axes"] = "10|300",
+					},
+				},
+			},
+		},
+	},
+}

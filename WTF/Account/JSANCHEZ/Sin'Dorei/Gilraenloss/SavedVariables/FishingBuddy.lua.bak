@@ -1,0 +1,17 @@
+
+FishingBuddy_Player = {
+	["Settings"] = {
+		["TotalTimeFishing"] = 6461.671999999991,
+		["ResetWatcher"] = 1,
+		["GreatAndSmall"] = 0,
+		["WatcherLocation"] = {
+			["y"] = -488.999968610257,
+			["x"] = 14.99999911096589,
+		},
+		["FishingBuddy"] = 0,
+	},
+	["Outfit"] = {
+	},
+	["WasWearing"] = {
+	},
+}

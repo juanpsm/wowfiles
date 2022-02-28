@@ -1,0 +1,17 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["global"] = {
+		["Guilds"] = {
+			["Default.Sin'Dorei.Staff"] = {
+				["Members"] = {
+					["Lossena"] = {
+						["Version"] = 12340,
+					},
+				},
+			},
+		},
+	},
+}

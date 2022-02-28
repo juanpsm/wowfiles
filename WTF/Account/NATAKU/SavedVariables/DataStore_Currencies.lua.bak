@@ -1,0 +1,32 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["Currencies"] = {
+					"0|Jugador contra Jugador", -- [1]
+					"1|Fragmento de vigilante de piedra|401|43228", -- [2]
+					"1|Marca de Honor de Conquista del Invierno|29|43589", -- [3]
+					"1|Marca de Honor de la Cuenca de Arathi|8|20559", -- [4]
+					"1|Marca de Honor de la Garganta Grito de Guerra|0|20558", -- [5]
+					"1|Marca de Honor de la Playa de los Ancestros|0|42425", -- [6]
+					"1|Marca de Honor del Ojo de la Tormenta|0|29024", -- [7]
+					"1|Marca de Honor del Valle de Alterac|0|20560", -- [8]
+					"1|Puntos de arena|0|43307", -- [9]
+					"1|Puntos de honor|75000|43308", -- [10]
+					"0|Mazmorra y banda", -- [11]
+					"1|Emblema de escarcha|51|49426", -- [12]
+					"1|Emblema de heroísmo|50|40752", -- [13]
+					"1|Emblema de triunfo|91|47241", -- [14]
+					"1|Emblema de valor|4|40753", -- [15]
+					"0|Miscelánea", -- [16]
+					"1|Distintivo de justicia|6|29434", -- [17]
+				},
+				["lastUpdate"] = 1548730350,
+			},
+		},
+	},
+}

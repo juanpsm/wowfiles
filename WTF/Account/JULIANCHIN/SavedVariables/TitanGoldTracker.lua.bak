@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["Rivothrill_WoWArg::Alliance"] = 175454300,
+	["VIEWALL"] = true,
+	["INITIALIZED"] = true,
+}

@@ -1,0 +1,10 @@
+
+ARLDB2 = {
+	["profileKeys"] = {
+		["Skombrow - Bennu"] = "Skombrow - Bennu",
+	},
+	["profiles"] = {
+		["Skombrow - Bennu"] = {
+		},
+	},
+}

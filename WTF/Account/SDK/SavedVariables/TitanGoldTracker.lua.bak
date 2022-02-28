@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["INITIALIZED"] = true,
+	["VIEWALL"] = true,
+	["Eldorath_WoWArg::Alliance"] = 0,
+}

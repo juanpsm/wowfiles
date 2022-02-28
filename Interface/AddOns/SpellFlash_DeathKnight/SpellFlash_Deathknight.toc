@@ -1,0 +1,16 @@
+﻿## Interface: 40200
+## X-Compatible-With: 40200
+## Version: 1.06
+## Author: Develen
+## Title: SpellFlash: Death Knight
+## Notes: This addon is able to make suggestions of what spell you may want to cast next by flashing on top of the spell buttons.
+## URL: http://wow.curse.com/downloads/wow-addons/details/spellflash.aspx
+## Dependencies: SpellFlash
+## X-Curse-Packaged-Version: 2.39
+## X-Curse-Project-Name: SpellFlash: DeathKnight
+## X-Curse-Project-ID: spellflash_deathknight
+## X-Curse-Repository-ID: wow/Spellflash_DeathKnight/mainline
+
+Load.xml
+## LoadOnDemand: 1
+## X-SpellFlashAddon-LoadWith: Death Knight

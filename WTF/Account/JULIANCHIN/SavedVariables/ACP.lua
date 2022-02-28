@@ -1,0 +1,33 @@
+
+ACP_Data = {
+	["sorter"] = "Agrupar por nombre",
+	["NoRecurse"] = false,
+	["NoChildren"] = true,
+	["collapsed"] = {
+		["Bagnon"] = true,
+		["TidyPlates"] = true,
+		["Blizzard Addons"] = true,
+		["HandyNotes"] = true,
+		["Altoholic"] = true,
+		["GupPet"] = true,
+		["ComboPointsRedux"] = true,
+		["AtlasLoot"] = true,
+		["ShadowedUnitFrames"] = true,
+		["LightHeaded"] = true,
+		["EveryQuest"] = true,
+		["Libraries"] = true,
+		["Atlas"] = true,
+		["Talented"] = true,
+		["Scrap"] = true,
+		["Gatherer"] = true,
+		["DBM"] = true,
+		["OmniCC"] = true,
+		["DataStore"] = true,
+		["SpellFlash"] = true,
+		["XPerl"] = true,
+		["Overachiever"] = true,
+	},
+	["ProtectedAddons"] = {
+		["ACP"] = true,
+	},
+}

@@ -1,0 +1,188 @@
+<!-- 
+## Interface: 30000
+##
+## Title: FarmIt
+## Notes: Custom loot tracker. By CHiLLZ [v1.7]
+## SavedVariablesPerCharacter: FI_Config
+## SavedVariables: FI_Saved
+##
+## Author: CHiLLZ <chillz@gmail.com>
+## License: Copyright 2006-2009, Chillz Media. All rights reserved.
+-->
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\..\FrameXML\UI.xsd">
+
+	<!-- Bar Template -->
+	<Frame name="FI_TPL_BAR" parent="FI" virtual="true">
+		<Size>
+			<AbsDimension x="38" y="38"/>
+		</Size>
+		<Frames>
+			<!-- Bar Anchor -->
+			<Frame name="$parent_Anchor" toplevel="true" hidden="false">
+				<Size>
+					<AbsDimension x="42" y="20"/>
+				</Size>
+				<Anchors>
+					<Anchor point="BOTTOM">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\Tooltips\UI-Tooltip-Border" tile="true">
+					<EdgeSize>
+						<AbsValue val="10"/>
+					</EdgeSize>
+					<TileSize>
+						<AbsValue val="5"/>
+					</TileSize>
+					<BackgroundInsets>
+						<AbsInset left="2" right="2" top="2" bottom="2"/>
+					</BackgroundInsets>
+				</Backdrop>
+				<Scripts>
+					<OnMouseDown>
+						if (not FI_Config["Locked"] and arg1=="LeftButton") then
+							FI:StartMoving();
+						end
+					</OnMouseDown>
+					<OnMouseUp>
+						FI:StopMovingOrSizing();
+						
+						if (arg1=="RightButton") then
+							FI_GetOptions();
+							FI_Options:Show();
+							FI_Help:Hide();
+						end
+
+						if (IsShiftKeyDown()) then
+							FI_Help:Show();
+							FI_Options:Hide();
+						end
+
+						if (IsControlKeyDown()) then
+						end
+					</OnMouseUp>
+					<OnEnter>
+						GameTooltip:SetOwner(getglobal(this:GetName()), "ANCHOR_BOTTOMRIGHT");
+						GameTooltip.inherits = "GameFontNormalSmall";
+						GameTooltip:SetText(
+							"Left-click to drag.\n"..
+							"Right-click for options.\n"..
+							"Shift-click for help."
+						);
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+				</Scripts>
+				<Layers>
+					<Layer level="OVERLAY">
+						<FontString name="$parent_Title" inherits="GameFontNormalSmall" justifyH="CENTER">
+							<Anchors>
+								<Anchor point="CENTER">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
+					</Layer>
+				</Layers>
+			</Frame>
+			<!-- Minus Button -->
+			<Frame name="$parent_Minus" toplevel="true" hidden="false">
+				<Size>
+					<AbsDimension x="15" y="15"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parent_M" file="Interface\Buttons\UI-MinusButton-Up">
+							<Size>
+								<AbsDimension x="17" y="17"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPLEFT">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnEnter>
+						GameTooltip:SetOwner(getglobal(this:GetName()), "ANCHOR_TOPRIGHT");
+						GameTooltip:SetText("Less Slots");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+					<OnMouseDown>
+					</OnMouseDown>
+					<OnMouseUp>
+						if (arg1=="LeftButton") then
+							FI_ChangeBar("-");
+						end
+					</OnMouseUp>
+				</Scripts>
+			</Frame>
+			<!-- Plus Button -->
+			<Frame name="$parent_Plus" toplevel="true" hidden="false">
+				<Size>
+					<AbsDimension x="15" y="15"/>
+				</Size>
+				<Anchors>
+					<Anchor point="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="0" y="0"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Layers>
+					<Layer level="ARTWORK">
+						<Texture name="$parent_P" file="Interface\Buttons\UI-PlusButton-Up">
+							<Size>
+								<AbsDimension x="17" y="17"/>
+							</Size>
+							<Anchors>
+								<Anchor point="TOPRIGHT">
+									<Offset>
+										<AbsDimension x="0" y="0"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</Texture>
+					</Layer>
+				</Layers>
+				<Scripts>
+					<OnEnter>
+						GameTooltip:SetOwner(getglobal(this:GetName()), "ANCHOR_TOPLEFT");
+						GameTooltip:SetText("More Slots");
+					</OnEnter>
+					<OnLeave>
+						GameTooltip:Hide();
+					</OnLeave>
+					<OnMouseDown>
+					</OnMouseDown>
+					<OnMouseUp>
+						if (arg1=="LeftButton") then
+							FI_ChangeBar("+");
+						end
+					</OnMouseUp>
+				</Scripts>
+			</Frame>
+
+		</Frames>
+	</Frame>
+</Ui>

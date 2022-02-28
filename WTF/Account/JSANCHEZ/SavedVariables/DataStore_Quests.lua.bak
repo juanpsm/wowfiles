@@ -1,0 +1,93 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["lastUpdate"] = 1252416337,
+				["Rewards"] = {
+					[2] = "r|6743|1|1",
+				},
+				["Quests"] = {
+					"0|Blackfathom Deeps", -- [1]
+					"1|Dungeon|0|0|0", -- [2]
+					"0|Blackrock Depths", -- [3]
+					"1|Dungeon|0|0|0", -- [4]
+					"0|Dire Maul", -- [5]
+					"1|Dungeon|0|17000|0", -- [6]
+					"0|Eastern Plaguelands", -- [7]
+					"1||0|0|0", -- [8]
+					"0|Hellfire Citadel", -- [9]
+					"1|Dungeon|0|54000|0", -- [10]
+					"0|Hellfire Peninsula", -- [11]
+					"1||0|20000|0", -- [12]
+					"1||0|20000|0", -- [13]
+					"1||0|0|0", -- [14]
+					"1||0|0|0", -- [15]
+					"1||0|0|0", -- [16]
+					"1||0|0|0", -- [17]
+					"1||0|29000|0", -- [18]
+					"1||0|0|0", -- [19]
+					"1||0|29000|0", -- [20]
+					"1|Group|2|58000|0", -- [21]
+					"0|Ironforge", -- [22]
+					"1|Dungeon|0|0|0", -- [23]
+					"0|Magtheridon's Lair", -- [24]
+					"1|Raid|0|132000|0", -- [25]
+					"0|Maraudon", -- [26]
+					"1|Dungeon|0|0|0", -- [27]
+					"1|Dungeon|0|0|0", -- [28]
+					"0|Moonglade", -- [29]
+					"1|Dungeon|0|0|0", -- [30]
+					"0|Shattrath City", -- [31]
+					"1||0|0|0", -- [32]
+					"0|Terokkar Forest", -- [33]
+					"1||0|27000|0", -- [34]
+					"0|Winterspring", -- [35]
+					"1||0|0|0", -- [36]
+					"0|Zul'Farrak", -- [37]
+					"1|Dungeon|0|0|0", -- [38]
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff808080|Hquest:971:23|h[Knowledge in the Deeps]|h|r", -- [2]
+					nil, -- [3]
+					"|cffffff00|Hquest:4362:59|h[The Fate of the Kingdom]|h|r", -- [4]
+					nil, -- [5]
+					"|cff40c040|Hquest:7488:57|h[Lethtendris's Web]|h|r", -- [6]
+					nil, -- [7]
+					"|cffffff00|Hquest:9136:60|h[Savage Flora]|h|r", -- [8]
+					nil, -- [9]
+					"|cffffff00|Hquest:9575:62|h[Weaken the Ramparts]|h|r", -- [10]
+					nil, -- [11]
+					"|cffffff00|Hquest:10909:61|h[Fel Spirits]|h|r", -- [12]
+					"|cffffff00|Hquest:10078:61|h[Laying Waste to the Unwanted]|h|r", -- [13]
+					"|cffffff00|Hquest:9349:61|h[Ravager Egg Roundup]|h|r", -- [14]
+					"|cffffff00|Hquest:9563:62|h[Gaining Mirren's Trust]|h|r", -- [15]
+					"|cffffff00|Hquest:10163:62|h[Mission: The Abyssal Shelf]|h|r", -- [16]
+					"|cffffff00|Hquest:9426:62|h[The Pools of Aggonar]|h|r", -- [17]
+					"|cffff8040|Hquest:9399:63|h[Cruel Taskmasters]|h|r", -- [18]
+					"|cffff8040|Hquest:9424:63|h[Makuru's Vengeance]|h|r", -- [19]
+					"|cffff8040|Hquest:9385:63|h[Rampaging Ravagers]|h|r", -- [20]
+					"|cffff8040|Hquest:9490:63|h[The Rock Flayer Matriarch]|h|r", -- [21]
+					nil, -- [22]
+					"|cffffff00|Hquest:8906:60|h[An Earnest Proposition]|h|r", -- [23]
+					nil, -- [24]
+					"|cffff2020|Hquest:13430:70|h[Trial of the Naaru: Magtheridon]|h|r", -- [25]
+					nil, -- [26]
+					"|cff808080|Hquest:7028:47|h[Twisted Evils]|h|r", -- [27]
+					"|cff808080|Hquest:7065:51|h[Corruption of Earth and Seed]|h|r", -- [28]
+					nil, -- [29]
+					"|cffffff00|Hquest:5526:60|h[Shards of the Felvine]|h|r", -- [30]
+					nil, -- [31]
+					"|cffff2020|Hquest:11039:67|h[Report to Spymaster Thalodien]|h|r", -- [32]
+					[36] = "|cff40c040|Hquest:5087:57|h[Winterfall Runners]|h|r",
+					[38] = "|cff808080|Hquest:2861:46|h[Tabetha's Task]|h|r",
+					[34] = "|cffffff00|Hquest:10869:62|h[Thin the Flock]|h|r",
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,18 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["scale"] = 1,
+					["point"] = "LEFT",
+					["x"] = 72.85711656723743,
+					["y"] = 248.5714303169932,
+				}, -- [1]
+			},
+		},
+	},
+}

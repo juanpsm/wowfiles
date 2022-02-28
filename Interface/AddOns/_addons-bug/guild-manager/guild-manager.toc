@@ -1,0 +1,14 @@
+## Interface: 30300
+## X-Compatible-With: 40000
+## Title : Guild Manager
+## Notes: "Helps the guildleadership to manage the guild"
+## Version: 0.1
+## SavedVariables: guildBankLog
+## X-Curse-Packaged-Version: r22
+## X-Curse-Project-Name: Guild Manager
+## X-Curse-Project-ID: guild-manager
+## X-Curse-Repository-ID: wow/guild-manager/mainline
+
+embeds.xml
+
+GuildManager.lua

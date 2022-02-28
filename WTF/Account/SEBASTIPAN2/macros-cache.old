@@ -1,0 +1,40 @@
+MACRO 5 "/console CameraD" Spell_Ice_MagicDamage
+/console CameraDistanceMaxFactor 3
+END
+MACRO 3 "/dance" Ability_Rogue_Disguise
+/dance
+END
+MACRO 8 "/roll 10000 (100" Ability_Warrior_TitansGrip
+/roll 99 (99-99)
+END
+MACRO 2 "aja" INV_Misc_QuestionMark
+/use barkskin
+/use starfall
+END
+MACRO 12 "asd" INV_Misc_QuestionMark
+.die
+END
+MACRO 4 "ddedde" Ability_Rogue_WrongfullyAccused
+/invite 
+END
+MACRO 10 "Druida" INV_Misc_QuestionMark
+/console PlayerStatLeftDropDown Malee
+END
+MACRO 9 "druida" INV_Misc_QuestionMark
+/console PlayerStatLeftDropDown Malee
+END
+MACRO 7 "roll 1000" INV_Misc_QuestionMark
+/roll 1000 (1-1000)
+END
+MACRO 6 "rooll" INV_Misc_QuestionMark
+/roll
+END
+MACRO 1 "salvel" Ability_Mount_Drake_Red
+/roll 99 (1-100)
+END
+MACRO 13 "sd" INV_Misc_QuestionMark
+.die
+END
+MACRO 11 "traiin" INV_Misc_QuestionMark
+/train
+END

@@ -1,0 +1,40 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["Professions"] = {
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+					["Joyería"] = {
+						["isPrimary"] = true,
+					},
+					["Minería"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Red Army"] = {
+				["Members"] = {
+					["Elchamaquito"] = {
+						["Professions"] = {
+							25229, -- [1]
+							2575, -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1527103502,
+					},
+				},
+			},
+		},
+	},
+}

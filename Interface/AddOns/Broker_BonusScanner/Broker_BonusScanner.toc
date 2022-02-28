@@ -1,0 +1,20 @@
+## Interface: 30100
+## Title: Broker [BonusScanner]
+## Author: Tristanian
+## Notes: Load-On-Demand LDB data feed to display item bonuses, based on BonusScanner addon.
+## Dependencies: BonusScanner
+## LoadOnDemand: 1
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## X-Category: Inventory
+## X-Email: tristanian@live.com
+## SavedVariables: BonusScannerBrokerConfig
+## Version: 1.2
+## X-Child-Of: BonusScanner
+
+embeds.xml
+locale\locale-enUS.lua
+locale\locale-esES.lua
+locale\locale-zhCN.lua
+locale\locale-zhTW.lua
+Broker_BonusScanner.lua

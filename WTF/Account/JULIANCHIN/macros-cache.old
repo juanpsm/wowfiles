@@ -1,0 +1,9 @@
+MACRO 2 "dados" INV_Misc_QuestionMark
+/roll
+END
+MACRO 1 "macro" INV_Misc_QuestionMark
+/macro
+END
+MACRO 3 "trade" INV_Misc_QuestionMark
+/trade
+END

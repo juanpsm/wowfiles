@@ -1,0 +1,17 @@
+
+BunnyHunterDB = {
+	["times"] = {
+	},
+	["opts"] = {
+		["frameRef"] = "CENTER",
+		["frameH"] = 32,
+		["frameX"] = 348.7869136366959,
+		["frameY"] = 3.071426865792812e-005,
+		["frameW"] = 150.0000151819672,
+		["curItem"] = "8494",
+	},
+	["kills_by_id"] = {
+	},
+	["loots"] = {
+	},
+}

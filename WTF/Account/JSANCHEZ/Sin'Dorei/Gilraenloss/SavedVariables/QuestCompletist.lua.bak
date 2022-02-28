@@ -1,0 +1,15 @@
+
+qcQuestHistory = {
+	[12138] = true,
+	[12129] = true,
+	[12185] = true,
+	[12130] = true,
+	[12183] = true,
+	[12131] = true,
+	[12128] = true,
+	[12184] = true,
+}
+qcQuest = {
+}
+qcOptions = {
+}

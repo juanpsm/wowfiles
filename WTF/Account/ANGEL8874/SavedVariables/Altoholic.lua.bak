@@ -1,0 +1,57 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["Friends"] = {
+					"Arvven", -- [1]
+					"Ceesar", -- [2]
+					"Citru", -- [3]
+					"Eldarion", -- [4]
+					"Epyon", -- [5]
+					"Flashin", -- [6]
+					"Futuro", -- [7]
+					"Gaara", -- [8]
+					"Gilraenloss", -- [9]
+					"Glolck", -- [10]
+					"Gringax", -- [11]
+					"Heyfer", -- [12]
+					"Josflea", -- [13]
+					"Juanche", -- [14]
+					"Kiyoshi", -- [15]
+					"Lichnaya", -- [16]
+					"Manipuladora", -- [17]
+					"Meteora", -- [18]
+					"Mincest", -- [19]
+					"Misumi", -- [20]
+					"Nataku", -- [21]
+					"Neruneya", -- [22]
+					"Nicoresaka", -- [23]
+					"Nyson", -- [24]
+					"Palache", -- [25]
+					"Pasado", -- [26]
+					"Peta", -- [27]
+					"Phx", -- [28]
+					"Reico", -- [29]
+					"Revenant", -- [30]
+					"Ryonan", -- [31]
+					"Saishuu", -- [32]
+					"Samueel", -- [33]
+					"Shino", -- [34]
+					"Shinomori", -- [35]
+					"Shiraiya", -- [36]
+					"Sjluanmkix", -- [37]
+					"Skombrow", -- [38]
+					"Terpsicore", -- [39]
+					"Turco", -- [40]
+					"Uzomaki", -- [41]
+					"Warlok", -- [42]
+					"Wazzo", -- [43]
+				},
+			},
+		},
+	},
+}

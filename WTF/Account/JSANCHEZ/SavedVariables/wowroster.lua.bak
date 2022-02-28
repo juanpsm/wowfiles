@@ -1,0 +1,84 @@
+
+wowrpref = {
+	["enabled"] = true,
+	["debug"] = false,
+	["questsfull"] = false,
+	["reagentfull"] = true,
+	["verbose"] = false,
+	["scan"] = {
+		["inventory"] = true,
+		["talents"] = true,
+		["glyphs"] = true,
+		["dstalents"] = true,
+		["currency"] = true,
+		["bank"] = true,
+		["honor"] = true,
+		["reputation"] = true,
+		["spells"] = true,
+		["pet"] = true,
+		["equipment"] = true,
+		["dsglyphs"] = true,
+		["dsspells"] = true,
+		["mail"] = true,
+		["professions"] = true,
+		["quests"] = true,
+		["companions"] = true,
+	},
+	["ver"] = 31000,
+	["talentsfull"] = true,
+	["guild"] = {
+		["vault"] = true,
+		["title"] = true,
+		["compact"] = true,
+		["trades"] = true,
+		["vault_money"] = true,
+		["vault_log"] = true,
+	},
+}
+cpProfile = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["WoWArg"] = {
+		["Character"] = {
+			["Gilraenloss"] = {
+				["ClassEn"] = "HUNTER",
+				["HasRelicSlot"] = false,
+				["Class"] = "Hunter",
+				["Locale"] = "enUS",
+				["CPprovider"] = "wowr",
+				["Server"] = "WoWArg",
+				["DBversion"] = "3.1",
+				["Cached"] = {
+				},
+				["FactionEn"] = "Alliance",
+				["timestamp"] = {
+					["init"] = {
+						["datakey"] = ":3.3.5:12340",
+						["TimeStamp"] = 1335704669,
+						["Date"] = "2012-04-29 10:04:29",
+						["ServerTime"] = "-1:-1",
+						["DateUTC"] = "2012-04-29 13:04:29",
+					},
+				},
+				["Sex"] = "Female",
+				["Faction"] = "Alliance",
+				["Name"] = "Gilraenloss",
+				["CPversion"] = "1.0.0",
+				["ClassId"] = 3,
+				["RaceEn"] = "NightElf",
+				["SexId"] = 1,
+				["Race"] = "Night Elf",
+			},
+		},
+	},
+}
+cpminimap = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

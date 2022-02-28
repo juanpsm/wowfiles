@@ -1,0 +1,19 @@
+
+ACP_Data = {
+	["sorter"] = "Group By Name",
+	["NoRecurse"] = false,
+	["NoChildren"] = true,
+	["collapsed"] = {
+		["SpellFlash"] = true,
+		["Libraries"] = true,
+		["Atlas"] = true,
+		["AtlasLoot"] = true,
+		["TidyPlates"] = true,
+		["Blizzard Addons"] = true,
+		["XPerl"] = true,
+		["Wowhead"] = true,
+	},
+	["ProtectedAddons"] = {
+		["ACP"] = true,
+	},
+}

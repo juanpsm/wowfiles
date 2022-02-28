@@ -1,0 +1,25 @@
+
+SpellFlashAddonConfig = {
+	["LastVersion"] = 44,
+	["SERVER"] = {
+		["190.224.162.69"] = {
+			["ImmuneIgnore"] = {
+			},
+			["REALM"] = {
+				["WoWArg"] = {
+					["PLAYER"] = {
+						["Gilraenloss"] = {
+							["selected_class_module"] = "SpellFlash_Hunter",
+						},
+					},
+					["debuff_owner_checking"] = true,
+					["debuff_owner_found"] = true,
+				},
+			},
+			["Immune"] = {
+				["HUNTER"] = {
+				},
+			},
+		},
+	},
+}

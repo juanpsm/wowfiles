@@ -1,0 +1,102 @@
+MACRO 20 "  " Spell_Frost_WindWalkOn
+/cast [pet=target] attack
+END
+MACRO 33 "32" Spell_unused2
+/target focus
+/seguir
+END
+MACRO 34 "32-2" Spell_unused2
+/console gxColorBits 32
+END
+MACRO 35 "32-3" Spell_unused2
+/console gxRestart
+END
+MACRO 30 "a" Ability_Creature_Poison_03
+/cast Bash Spirit Wolf
+END
+MACRO 39 "bye" Ability_Creature_Cursed_04
+/logout
+END
+MACRO 15 "Cure Disease" Spell_Nature_NullifyDisease
+/cast Gift of the Naaru
+/use Battlemastery's 
+END
+MACRO 14 "Cure Poison" Spell_Nature_NullifyPoison
+/target Shino
+/use Cure Poison
+/targetlastenemy
+END
+MACRO 27 "Decursive" INV_Misc_QuestionMark
+/script Dcr:Println('No spell available')
+END
+MACRO 10 "Draenei" Ability_Druid_HealingInstincts
+/cast Gift of the Naaru
+/use Fel Healthstone
+/use Darkmoon Card: Illusion
+END
+MACRO 37 "Focus" Ability_Ambush
+/Focus
+END
+MACRO 42 "follo" INV_Misc_QuestionMark
+/follow
+END
+MACRO 41 "follow" Ability_Creature_Cursed_01
+/run SetCVar("autoLootDefault", "1")
+/use Findle's Loot-A-Rang
+/run C_Timer.After(2,function() SetCVar("autoLootDefault","0") end)?
+END
+MACRO 40 "Good bye" Ability_Creature_Cursed_04
+/quit
+END
+MACRO 31 "He" Ability_Creature_Cursed_04
+/cast Heroism
+/cast Elemental Mastery
+END
+MACRO 12 "Healing Mi" Spell_Nature_HealingWaveLesser
+/target Shino
+/use Lesser Healing Wave
+/use Ola de sanaci?n inferior
+/targetlastenemy
+/use attack
+END
+MACRO 29 "hero" Ability_Rogue_MasterOfSubtlety
+/5 yo DPS cast/heler busco hero
+END
+MACRO 13 "Horda" Ability_Mount_NetherDrakeElite
+/y horda
+END
+MACRO 21 "jaja" Spell_Holy_HolyProtection
+/target natsuki
+/use Gift of the Naaru(Racial)
+/targetlastenemy
+END
+MACRO 24 "kiss" INV_Misc_QuestionMark
+/focus
+END
+MACRO 36 "M" INV_Misc_QuestionMark
+.modrates on
+END
+MACRO 25 "Roll" Ability_Druid_EclipseOrange
+/roll
+END
+MACRO 26 "sebas" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Wind Shear
+END
+MACRO 23 "shino" Ability_Ambush
+/seguir focus
+END
+MACRO 28 "Silence" Spell_Nature_Cyclone
+#showtooltip
+/stopcasting
+/cast Wind Shear
+END
+MACRO 5 "TargEnem" Ability_CheapShot
+/target Citru
+END
+MACRO 38 "TargetYo" Ability_CheapShot
+/target Spawm
+END
+MACRO 32 "warlok" Ability_Creature_Disease_04
+/cast [target=warlok] Gift of the Naaru
+END

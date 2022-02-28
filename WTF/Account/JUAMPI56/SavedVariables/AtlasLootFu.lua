@@ -1,0 +1,2 @@
+
+AtlasLootFuDB = nil

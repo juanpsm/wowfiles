@@ -1,0 +1,26 @@
+------------------------------------------------------------------------
+r238 | Cladhaire-15704 | 2010-03-28 17:44:23 +0000 (Sun, 28 Mar 2010) | 2 lines
+Changed paths:
+   A /tags/r237-release (from /trunk:237)
+
+Tagging r237-release
+
+------------------------------------------------------------------------
+r237 | Cladhaire-15704 | 2010-03-28 17:41:42 +0000 (Sun, 28 Mar 2010) | 8 lines
+Changed paths:
+   A /trunk/Media
+   A /trunk/Media/PingLicense.txt
+   A /trunk/Media/ping.mp3
+   M /trunk/TomTom.lua
+   M /trunk/TomTom_Config.lua
+   M /trunk/TomTom_POIIntegration.lua
+
+A number of enhancements and minor bug fixes
+
+  * Added a 'ping' sound that can be played when you've arrived at your destination.  The sound will be played when you're within the 'arrival distance', as set under the "Waypoint Arrow" configuration.  This is also where the option can be found.
+  * Enabled dual positioning for world map coordinates, hopefully the placement now works properly.
+  * Added a function TomTom:WaypointExists(c, z, x, y, desc) which returns true or false
+  * Fixed POI integration (from what I tested)
+  * Added an 'automatic objectives waypoint' setting that will automatically set waypoints to your closest quest objective.  I'm not sure how useful this will be, it's disabled by default.
+
+------------------------------------------------------------------------

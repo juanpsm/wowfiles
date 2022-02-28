@@ -1,0 +1,18 @@
+MACRO 16777219 " " Ability_BullRush
+/use Falsa arremetida
+/use Abrumar
+END
+MACRO 16777218 "def 2" Ability_BullRush
+/use Revancha
+/usa Golpe heroico
+END
+MACRO 16777220 "PDS" Ability_Creature_Cursed_05
+/abs restore DPS
+END
+MACRO 16777221 "Tank" Ability_Warrior_DefensiveStance
+/abs restore tank
+END
+MACRO 16777217 "use" Ability_BackStab
+/use Ataque de la victoria
+/use Golpe heroico
+END

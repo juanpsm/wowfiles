@@ -1,0 +1,44 @@
+local L = LibStub("AceLocale-3.0"):NewLocale("Broker_BonusScanner","enUS",true)
+
+L["(Updating...)"] = true
+L["LDB data feed to display item bonuses, based on BonusScanner addon."] = true
+L["Author"] = true
+L["Show minimap button"] = true
+L["Enables the minimap button, for users lacking a proper LDB display. This option will nullify button/block functionality."] = true
+L["About"] = true
+L["Version"] = true
+L["Author"] = true
+L["Category"] = true
+L["Email"] = true
+L["Not available"] = true
+L["General"] = true
+L["Button"] = true
+L["Tooltip"] = true
+L["Configure 'watched' bonus categories and general button/block look and feel."] = true
+L["Item Bonuses List"] = true
+L["Enables you to select the bonus(es) you want 'watched' on the plugin's button."] = true
+L["Add Bonus"] = true
+L["Adds selected bonus type to the 'watched' bonuses on the plugin's button. You may only have 4 bonuses 'watched' at any time."] = true
+L["Watched Bonuses List"] = true
+L["Enables you to select the bonus(es) you want to remove from the 'watched' list on the plugin's button."] = true
+L["Remove Bonus"] = true
+L["Removes selected bonus type from the 'watched' bonuses on the plugin's button."] = true
+L["Remove All"] = true
+L["Removes all the selected bonuses from the 'watched' bonuses on the plugin's button."] = true
+L["Convert combat ratings to percentages"] = true
+L["Enabling this option will automatically convert combat rating bonuses to percentages, on the button/block."] = true
+L["Use short labels for bonus titles"] = true
+L["This option will enable short labels (bonus ID's) on the button/block instead of full names."] = true
+L["Configure bonuses shown and general tooltip look and feel. Click on the various bonus category tabs, to configure specific elements of the tooltip."] = true
+L["Display average item level"] = true
+L["Enabling this option will add a line to the tooltip, containing the average item level of your equipped items (shirt and tabard are excluded from the calculation)."] = true
+L["Append percentages to combat ratings"] = true
+L["Enabling this option will append the equivalent percentages next to combat ratings, on the tooltip."] = true
+L["Display gem count summary"] = true
+L["Enabling this option will add a summary of gem colors and type(s) to the tooltip, for your equipped items."] = true
+L["Toggle to show or hide bonuses on the tooltip."] = true
+L["Nothing Watched"] = true
+
+-- 1.1 locale
+L["Hide watched bonuses"] = true
+L["This option hides all bonus text from the button, leaving the icon as the only visual element."] = true

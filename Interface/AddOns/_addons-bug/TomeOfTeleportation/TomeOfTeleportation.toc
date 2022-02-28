@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title : Tome of Teleportation
+## Notes: An interface for managing teleportation spells and items.
+## Author: Remeen
+## SavedVariablesPerCharacter: 
+## X-Curse-Packaged-Version: 1.1
+## X-Curse-Project-Name: Tome of Teleportation
+## X-Curse-Project-ID: tome-teleportation
+## X-Curse-Repository-ID: wow/tome-teleportation/mainline
+TomeOfTeleportation.lua
+TomeOfTeleportation.xml
+

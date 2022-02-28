@@ -1,0 +1,14 @@
+## Interface: 30300
+## Title: Pet Target
+## Notes: Shows your pet's target.
+## Notes-frFR: Montrer la cible du votre familier.
+## Author: Aenott at Earthen Ring EU also known as Myrkraverk.
+## Version: 11
+## X-AuthorEmail: <aenott@myrkraverk.com>
+## X-License: CDDL 1.0
+## X-Curse-Packaged-Version: r11 release
+## X-Curse-Project-Name: PetTarget
+## X-Curse-Project-ID: pettarget
+## X-Curse-Repository-ID: wow/pettarget/mainline
+PetTarget.xml
+

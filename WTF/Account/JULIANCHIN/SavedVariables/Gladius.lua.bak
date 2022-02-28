@@ -1,0 +1,10 @@
+
+GladiusDB = {
+	["profileKeys"] = {
+		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
+	},
+	["profiles"] = {
+		["Julianchin - Queldorei PVP- PVE"] = {
+		},
+	},
+}

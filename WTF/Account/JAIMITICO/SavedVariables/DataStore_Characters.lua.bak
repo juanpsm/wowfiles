@@ -1,0 +1,29 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Asasasdasda"] = {
+				["XPMax"] = 400,
+				["played"] = 1,
+				["zone"] = "Dun Morogh",
+				["lastUpdate"] = 1511831477,
+				["class"] = "Pícara",
+				["race"] = "Enana",
+				["level"] = 1,
+				["XP"] = 0,
+				["RestXP"] = 0,
+				["money"] = 0,
+				["gender"] = 3,
+				["name"] = "Asasasdasda",
+				["faction"] = "Alliance",
+				["englishRace"] = "Dwarf",
+				["subZone"] = "Valle de Crestanevada",
+				["lastLogoutTimestamp"] = 1511831477,
+				["englishClass"] = "ROGUE",
+			},
+		},
+	},
+}

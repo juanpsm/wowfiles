@@ -1,0 +1,423 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<Script file="Koordinator.lua"/>
+	<Script file="Localization.lua"/>
+	<GameTooltip name="KoordinatorTooltip" inherits="GameTooltipTemplate"/>
+	<Frame alpha="0.9" name="KoordinatorOptionsFrame" toplevel="true" parent="UIParent" frameStrata="DIALOG" hidden="true" enableMouse="true" movable="true">
+		<Size>
+			<AbsDimension x="220" y="400"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="10" right="10" top="10" bottom="10"/>
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32"/>
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32"/>
+			</EdgeSize>
+		</Backdrop>
+		<Layers>
+			<Layer level="ARTWORK">
+				<Texture file="Interface\DialogFrame\UI-DialogBox-Header">
+					<Size>
+						<AbsDimension x="340" y="64"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+						<Offset>
+							<AbsDimension x="0" y="12.5"/>
+						</Offset>
+						</Anchor>
+					</Anchors>
+				</Texture>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="KoordinatorOptionsFrameTitle" inherits="GameFontNormal">
+					<Anchors>
+						<Anchor point="TOP"/>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="KoordinatorOptionsFrameText" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-36"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="KoordinatorOptionsFrameText2" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-187"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+			<Layer level="OVERLAY">
+				<FontString name="KoordinatorOptionsFrameText3" inherits="GameFontNormalSmall">
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset>
+								<AbsDimension x="20" y="-245"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Frames>
+			<Button name="KoordinatorOptionsFrameCloseButton" inherits="OptionsButtonTemplate">
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="-176"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>
+						Koordinator_OnSlash(arg1);
+					</OnClick>
+				</Scripts>
+			</Button>
+			
+			<CheckButton name="KoordinatorMiniWindowButton" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-52"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorMiniWindowButton_OnLoad();
+					</OnLoad>
+					<OnClick>
+						KoordinatorOptionsFrame_OnClick();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="KoordinatorMiniMapButton" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-82"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorMiniMapButton_OnLoad();
+					</OnLoad>
+					<OnClick>
+						KoordinatorOptionsFrame_OnClick();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="KoordinatorWorldMapButton" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-112"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorWorldMapButton_OnLoad();
+					</OnLoad>
+					<OnClick>
+						KoordinatorOptionsFrame_OnClick();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="KoordinatorPartyButton" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-142"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorPartyButton_OnLoad();
+					</OnLoad>
+					<OnClick>
+						KoordinatorOptionsFrame_OnClick();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="KoordinatorDividerButton" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-200"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorDividerButton_OnLoad();
+					</OnLoad>
+					<OnClick>
+						KoordinatorOptionsFrame_OnClick();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			<CheckButton name="KoordinatorAutoReplyButton" inherits="OptionsCheckButtonTemplate">
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset>
+							<AbsDimension x="20" y="-258"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorAutoReplyButton_OnLoad();
+					</OnLoad>
+					<OnClick>
+						KoordinatorOptionsFrame_OnClick();
+					</OnClick>
+				</Scripts>
+			</CheckButton>
+			
+			<Slider name="KoordinatorSlider" inherits="OptionsSliderTemplate">
+				<Size>
+					<AbsDimension x="120" y="16"/>
+				</Size>
+				<Anchors>
+					<Anchor point="CENTER">
+						<Offset>
+							<AbsDimension x="0" y="-130"/>
+						</Offset>
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnLoad>
+						KoordinatorSlider_OnLoad();
+					</OnLoad>
+					<OnValueChanged>
+						KoordinatorOptionsFrame_OnClick();
+					</OnValueChanged>
+				</Scripts>
+			</Slider>
+		</Frames>
+		<Scripts>
+			<OnShow>
+				KoordinatorOptionsFrame_OnShow();
+				PlaySound("igMainMenuOpen");
+			</OnShow>
+			<OnHide>
+				PlaySound("igMainMenuQuit");
+			</OnHide>
+			<OnLoad>
+				KoordinatorOptionsFrame_OnLoad();
+			</OnLoad>
+			<OnDragStart>
+				KoordinatorOptionsFrame_OnDragStart();
+			</OnDragStart>
+			<OnDragStop>
+				KoordinatorOptionsFrame_OnDragStop();
+			</OnDragStop>
+			<OnMouseUp>
+				KoordinatorOptionsFrame_OnDragStop();
+			</OnMouseUp>
+		</Scripts>
+	</Frame>
+
+	<Frame name="KoordinatorPartyFrame" frameStrata="MEDIUM" parent="UIParent">
+		<Layers>
+			<Layer level="BACKGROUND">
+				<FontString name="KoordinatorPartyMember1Text" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Anchors>
+						<Anchor point="BOTTOM" relativeTo="PartyMemberFrame1" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="-50" y="-5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="KoordinatorPartyMember2Text" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Anchors>
+						<Anchor point="BOTTOM" relativeTo="PartyMemberFrame2" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="-50" y="-5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="KoordinatorPartyMember3Text" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Anchors>
+						<Anchor point="BOTTOM" relativeTo="PartyMemberFrame3" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="-50" y="-5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="KoordinatorPartyMember4Text" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Anchors>
+						<Anchor point="BOTTOM" relativeTo="PartyMemberFrame4" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="-50" y="-5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	
+	<Frame name="KoordinatorMiniWindowFrame" frameStrata="MEDIUM" toplevel="true" enableMouse="true" movable="true" parent="UIParent">
+		<Size>
+			<AbsDimension x="46" y="24"/>
+		</Size>
+		<Anchors>
+			<Anchor point="CENTER"/>
+		</Anchors>
+		<Backdrop bgFile="Interface\TutorialFrame\TutorialFrameBackground" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<EdgeSize>
+				<AbsValue val="16"/>
+			</EdgeSize>
+			<TileSize>
+				<AbsValue val="32"/>
+			</TileSize>
+			<BackgroundInsets>
+				<AbsInset left="5" right="5" top="5" bottom="5"/>
+			</BackgroundInsets>
+		</Backdrop>
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="MiniWindowTextX" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Size>
+						<AbsDimension x="40" y="32"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="-19.3" y="4.1"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="MiniWindowTextY" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Size>
+						<AbsDimension x="40" y="32"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="-1.8" y="4.1"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="MiniWindowTextDivider" inherits="NumberFontNormalYellow">
+					<Size>
+						<AbsDimension x="40" y="32"/>
+					</Size>
+					<Anchors>
+						<Anchor point="TOP">
+							<Offset>
+								<AbsDimension x="0.1" y="5.1"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>
+				KoordinatorMiniWindow_OnLoad();
+			</OnLoad>
+			<OnDragStart>
+				KoordinatorMiniWindow_OnDragStart();
+			</OnDragStart>
+			<OnDragStop>
+				KoordinatorMiniWindow_OnDragStop();
+			</OnDragStop>
+			<OnMouseUp>
+				KoordinatorMiniWindow_OnDragStop();
+				KoordinatorMiniWindowLeftClick(arg1);
+				KoordinatorMiniWindowRightClick(arg1);
+			</OnMouseUp>
+			<OnEnter>
+				KoordinatorMiniWindow_OnEnter();
+			</OnEnter>
+			<OnLeave>
+				KoordinatorMiniWindow_OnLeave();
+			</OnLeave>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="KoordinatorMiniMapFrame">
+		<Scripts>
+			<OnLoad>
+				KoordinatorMiniMap_OnLoad();
+			</OnLoad>
+			<OnEvent>
+				KoordinatorMiniMap_OnEvent();
+			</OnEvent>
+			<OnUpdate>
+				KoordinatorMiniMap_OnUpdate(arg1);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+	
+	<Frame name="KoordinatorWorldMapFrame" parent="WorldMapFrame">
+		<Layers>
+			<Layer level="ARTWORK">
+				<FontString name="KoordinatorWorldMapPlayer" inherits="NumberFontNormalYellow" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="LEFT" relativeTo="WorldMapFrame" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="-500" y="16.5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="KoordinatorWorldMapCursor" inherits="NumberFontNormalYellow" justifyH="LEFT">
+					<Anchors>
+						<Anchor point="LEFT" relativeTo="WorldMapFrame" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="-270" y="16.5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="KoordinatorWorldMapInfo" inherits="NumberFontNormalYellow" justifyH="RIGHT">
+					<Anchors>
+						<Anchor point="RIGHT" relativeTo="WorldMapFrame" relativePoint="BOTTOM">
+							<Offset>
+								<AbsDimension x="500" y="16.5"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>
+				KoordinatorWorldMap_OnLoad();
+			</OnLoad>
+			<OnUpdate>
+				KoordinatorWorldMap_OnUpdate(arg1);
+			</OnUpdate>
+		</Scripts>
+	</Frame>
+</Ui>

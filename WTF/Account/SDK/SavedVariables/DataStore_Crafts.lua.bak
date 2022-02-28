@@ -1,0 +1,47 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Skombrow"] = {
+				["Professions"] = {
+					["Cocina"] = {
+						["isSecondary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Peletería"] = {
+						["isPrimary"] = true,
+					},
+					["Pesca"] = {
+						["isSecondary"] = true,
+					},
+					["Desollar"] = {
+						["isPrimary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Orden Fenix"] = {
+				["Members"] = {
+					["Skombrow"] = {
+						["Professions"] = {
+							2108, -- [1]
+							0, -- [2]
+							2550, -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1499533186,
+					},
+				},
+			},
+		},
+	},
+}

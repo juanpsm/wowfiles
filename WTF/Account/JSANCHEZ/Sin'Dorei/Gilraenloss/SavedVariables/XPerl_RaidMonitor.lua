@@ -1,0 +1,27 @@
+
+XPerlRaidMonConfig = {
+	["enabled"] = false,
+	["BackgroundAlpha"] = 1,
+	["UnitWidth"] = 150,
+	["TargetWidth"] = 150,
+	["HighMana"] = 80,
+	["LowMana"] = 10,
+	["Tooltips"] = 1,
+	["classes"] = {
+		["HUNTER"] = true,
+		["WARRIOR"] = true,
+		["SHAMAN"] = true,
+		["MAGE"] = true,
+		["PRIEST"] = true,
+		["WARLOCK"] = true,
+		["DEATHKNIGHT"] = true,
+		["DRUID"] = true,
+		["ROGUE"] = true,
+		["PALADIN"] = true,
+	},
+	["Totals"] = true,
+	["Scale"] = 1,
+	["UnitHeight"] = 20,
+	["Alpha"] = 1,
+	["Pinned"] = true,
+}

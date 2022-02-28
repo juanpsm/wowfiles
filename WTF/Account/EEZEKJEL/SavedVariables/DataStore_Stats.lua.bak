@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["lastUpdate"] = 1527103494,
+				["Stats"] = {
+					["Ranged"] = "10-12|1.9090000906726|69|12|0",
+					["Spell"] = "1453|1453|12|23.505558013916|156|298",
+					["Melee"] = "150-339|2.4480001162738|348|12|15.05655670166|0",
+					["MaxPower"] = "0|16911",
+					["PVP"] = "3154|0|0|47610",
+					["HealthMax"] = 19299,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "129|79|1254|853|153|14968",
+					["Defense"] = "14968|400|3.428453207016|0|5|482",
+				},
+			},
+		},
+	},
+}

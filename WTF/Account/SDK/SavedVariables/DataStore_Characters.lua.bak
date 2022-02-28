@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Skombrow"] = {
+				["XPMax"] = 1571800,
+				["played"] = 1967306,
+				["guildRankName"] = "Consul",
+				["zone"] = "Tormenta Abisal",
+				["lastUpdate"] = 1499535516,
+				["class"] = "Druida",
+				["race"] = "Elfo de la noche",
+				["level"] = 73,
+				["XP"] = 1508860,
+				["RestXP"] = 1509666,
+				["money"] = 17659520,
+				["gender"] = 2,
+				["guildRankIndex"] = 1,
+				["guildName"] = "Orden Fenix",
+				["name"] = "Skombrow",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["subZone"] = "El Castillo de la Tempestad",
+				["lastLogoutTimestamp"] = 1499535516,
+				["englishClass"] = "DRUID",
+			},
+		},
+	},
+}

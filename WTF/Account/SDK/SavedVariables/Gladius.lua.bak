@@ -1,0 +1,11 @@
+
+GladiusDB = {
+	["profileKeys"] = {
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
+	},
+	["profiles"] = {
+		["Subjected - WoWArg"] = {
+			["locked"] = true,
+		},
+	},
+}

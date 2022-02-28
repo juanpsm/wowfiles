@@ -1,0 +1,7 @@
+ActionBarSaver: disabled
+Broker_Portals: disabled
+Broker_BonusScanner: disabled
+BonusScanner: disabled
+NugComboBar: disabled
+ShadowedUF_Options: disabled
+ShadowedUnitFrames: disabled

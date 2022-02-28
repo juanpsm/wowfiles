@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+	},
+	["profiles"] = {
+		["Eldorath - WoWArg"] = {
+			["PositionY"] = 567.307686111483,
+			["PositionX"] = 763.141044859093,
+		},
+	},
+}

@@ -1,0 +1,31 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["XPMax"] = 494000,
+				["played"] = 1680616,
+				["guildRankName"] = "Fuerza Elite",
+				["zone"] = "Hellfire Peninsula",
+				["lastUpdate"] = 1252416522,
+				["englishClass"] = "HUNTER",
+				["race"] = "Night Elf",
+				["level"] = 60,
+				["XP"] = 424903,
+				["RestXP"] = 333662,
+				["money"] = 653790,
+				["gender"] = 3,
+				["subZone"] = "Expedition Armory",
+				["name"] = "Gilraenloss",
+				["faction"] = "Alliance",
+				["guildRankIndex"] = 5,
+				["class"] = "Hunter",
+				["lastLogoutTimestamp"] = 1252416522,
+				["guildName"] = "Orden Fenix",
+			},
+		},
+	},
+}

@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Ampina - WoWArg"] = "Ampina - WoWArg",
+	},
+	["profiles"] = {
+		["Ampina - WoWArg"] = {
+			["PositionY"] = 567.307686111483,
+			["PositionX"] = 763.141044859093,
+		},
+	},
+}

@@ -1,0 +1,34 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Sin'Dorei.Lossena"] = {
+				["lastUpdate"] = 1635032250,
+				["Skills"] = {
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+						["Language: Gutterspeak"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Staves"] = "1|400",
+						["Unarmed"] = "1|400",
+						["Maces"] = "1|400",
+						["Wands"] = "1|400",
+						["Defense"] = "1|400",
+					},
+					["Class Skills"] = {
+						["Shadow Magic"] = "1|1",
+						["Discipline"] = "1|1",
+						["Holy"] = "1|1",
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,13 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Sin'Dorei.Lossena"] = {
+				["lastUpdate"] = 1635032250,
+			},
+		},
+	},
+}

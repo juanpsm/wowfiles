@@ -1,0 +1,40 @@
+MACRO 16777218 " " Ability_Racial_BearForm
+/equipslot 9 Glyphed Bracers
+/equipslot 10 Wolf Rider's Gloves of the Monkey
+/equipslot 11 Truesilver Commander's Ring
+/equipslot 12 Golden Ring of Power
+/equipslot 15 Nocturnal Cloak of the Monkey
+/equipslot 16 Ironshod Bludgeon
+END
+MACRO 16777217 " " Ability_Racial_BearForm
+/equipslot 1 Dokebi Hat
+/equipslot 2 Heavy Golden Necklace of Battle
+/equipslot 3 Fleshhide Shoulders
+/equipslot 5 Warden's Wraps
+/equipslot 6 Warden's Waistband
+/equipslot 7 Triprunner Dungarees
+/equipslot 8 Imperial Leather Boots
+END
+MACRO 16777220 "charge" Ability_Druid_Swipe
+/cast Battle Stance
+/equip Smite's Mighty Hammer
+/cast Charge
+END
+MACRO 16777222 "cortacast" Ability_Hunter_AspectMastery
+/equip Cruel Barb
+/equip Redbeard Crest
+/cast Shield Bash
+END
+MACRO 16777221 "defensive" Ability_Druid_Typhoon
+/cast Defensive stance
+/equip Cruel Barb
+/equip Redbeard Crest
+END
+MACRO 16777219 "Equip" Spell_Shadow_ImpPhaseShift
+/cast Defensive Stance
+/Equip Redbear Crest
+END
+MACRO 16777223 "overPowa" Ability_Kick
+/equip  Smite's Mighty Hammer
+/cast Overpower
+END

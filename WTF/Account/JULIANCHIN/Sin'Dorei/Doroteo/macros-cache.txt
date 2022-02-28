@@ -1,0 +1,85 @@
+MACRO 16777237 "arma lady" INV_Misc_QuestionMark
+/equip Njorndar Bone Bow
+/run PickupInventoryItem(18)PutItemInBackpack()
+END
+MACRO 16777217 "aspectos" INV_Misc_QuestionMark
+/cast Aspect of the Dragonhawk(Rank 2)
+/cast Aspect of the Viper
+END
+MACRO 16777229 "BURST" INV_Misc_QuestionMark
+/cast Rapid fire
+/cast Kill command
+/cast Call of the wild
+/cast Rabid
+/use 10
+END
+MACRO 16777244 "comidita cangrej" INV_Misc_QuestionMark
+/cast Feed Pet
+/use Sweet Potato Bread
+END
+MACRO 16777219 "comidita perro" INV_Misc_QuestionMark
+/cast Feed Pet
+/use Mead Basted Caribou
+/use Savory Snowplum
+END
+MACRO 16777240 "intervenir" INV_Misc_QuestionMark
+/cast [target=Doroteo] Intervene
+END
+MACRO 16777248 "kill shot mo" INV_Misc_QuestionMark
+#show 
+/cast [target=mouseover] Kill Shot(Rank 3)
+END
+MACRO 16777231 "Melee" INV_Misc_QuestionMark
+#show
+/castsequence reset=3 Wing Clip, Mongoose Bite(Rank 6),  Raptor Strike(Rank 11)
+END
+MACRO 16777243 "pet back" INV_Misc_QuestionMark
+/petfollow
+/cast cower
+/cast master's call
+/cast mend pet
+END
+MACRO 16777218 "picadura y ataqu" Ability_Hunter_Quickshot
+#showtooltip serpent sting
+/cast Serpent Sting(Rank 12)
+/petattack
+/script UIErrorsFrame:Clear()
+/cast !auto shoot
+/startattack
+END
+MACRO 16777232 "Quimera" INV_Misc_QuestionMark
+#showtooltip  Chimera Shot(Rank 1)
+/startattack
+/cast Chimera Shot(Rank 1)
+/script UIErrorsFrame:Clear()
+/cast !auto shoot
+/use 10
+END
+MACRO 16777247 "redi pet" INV_Misc_QuestionMark
+/cast [target=pet] Misdirection
+END
+MACRO 16777224 "Redirección" INV_Misc_QuestionMark
+#showtooltip Misdirection
+/cast [target=focus] Misdirection
+END
+MACRO 16777241 "RoS" INV_Misc_QuestionMark
+/cast [target=Doroteo] Roar of Sacrifice
+END
+MACRO 16777238 "separacion" INV_Misc_QuestionMark
+#showtooltip Disengage
+/cast Disengage
+/use Wrathful Gladiator's Cloak of Triumph
+/use Wrathful Gladiator's Cloak of Victory
+END
+MACRO 16777234 "Steady" INV_Misc_QuestionMark
+#showtooltip  Steady Shot(Rank 4)
+/cast Steady Shot(Rank 4)
+/script UIErrorsFrame:Clear()
+/cast !auto shoot
+END
+MACRO 16777245 "taunt pet" INV_Misc_QuestionMark
+/cast Taunt
+END
+MACRO 16777246 "thunder" INV_Misc_QuestionMark
+/cast Thunderstomp
+END

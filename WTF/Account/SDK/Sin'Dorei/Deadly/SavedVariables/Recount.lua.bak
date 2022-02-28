@@ -1,0 +1,2909 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Miratros"] = {
+			["GUID"] = "0x00000000000CD889",
+			["LastEventHealth"] = {
+				"1039 (100%)", -- [1]
+				"1039 (100%)", -- [2]
+				"1039 (100%)", -- [3]
+				"1039 (100%)", -- [4]
+				"1039 (100%)", -- [5]
+				"1039 (100%)", -- [6]
+				"1039 (100%)", -- [7]
+				"1039 (100%)", -- [8]
+				"1039 (100%)", -- [9]
+				"1039 (100%)", -- [10]
+				"1039 (100%)", -- [11]
+				"1039 (100%)", -- [12]
+				"1039 (100%)", -- [13]
+				"1039 (100%)", -- [14]
+				"1039 (100%)", -- [15]
+				"1039 (100%)", -- [16]
+				"1039 (100%)", -- [17]
+				"1039 (100%)", -- [18]
+				"1039 (100%)", -- [19]
+				"1039 (100%)", -- [20]
+				"1039 (100%)", -- [21]
+				"1039 (100%)", -- [22]
+				"1039 (100%)", -- [23]
+				"1039 (100%)", -- [24]
+				"1039 (100%)", -- [25]
+				"1039 (100%)", -- [26]
+				"1039 (100%)", -- [27]
+				"1039 (100%)", -- [28]
+				"1039 (100%)", -- [29]
+				"1039 (100%)", -- [30]
+				"1039 (100%)", -- [31]
+				"1039 (100%)", -- [32]
+				"1039 (100%)", -- [33]
+				"1039 (100%)", -- [34]
+				"1039 (100%)", -- [35]
+				"1039 (100%)", -- [36]
+				"1039 (100%)", -- [37]
+				"1039 (100%)", -- [38]
+				"1039 (100%)", -- [39]
+				"1039 (100%)", -- [40]
+				"1039 (100%)", -- [41]
+				"1039 (100%)", -- [42]
+				"1039 (100%)", -- [43]
+				"1039 (100%)", -- [44]
+				"1039 (100%)", -- [45]
+				"1039 (100%)", -- [46]
+				"1039 (100%)", -- [47]
+				"1039 (100%)", -- [48]
+				"1039 (100%)", -- [49]
+				"1039 (100%)", -- [50]
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"HEAL", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"HEAL", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"HEAL", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"HEAL", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"HEAL", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"HEAL", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"HEAL", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"HEAL", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"HEAL", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["Overhealing"] = {
+					322, -- [1]
+				},
+				["ActiveTime"] = {
+					62.35999999999999, -- [1]
+				},
+				["TimeDamage"] = {
+					62.35999999999999, -- [1]
+				},
+				["DOT_Time"] = {
+					140, -- [1]
+				},
+				["Damage"] = {
+					2559, -- [1]
+				},
+			},
+			["enClass"] = "WARLOCK",
+			["unit"] = "Miratros",
+			["level"] = 30,
+			["LastFightIn"] = 1,
+			["LastEventNum"] = {
+				[12] = 1.828681424446583,
+				[6] = 1.828681424446583,
+				[3] = 1.828681424446583,
+				[31] = 1.828681424446583,
+				[24] = 1.828681424446583,
+				[18] = 1.828681424446583,
+				[37] = 1.828681424446583,
+				[43] = 1.828681424446583,
+				[46] = 1.828681424446583,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 2,
+			["TimeLast"] = {
+				["Overhealing"] = 1510879320,
+				["ActiveTime"] = 1510879320,
+				["TimeDamage"] = 1510879320,
+				["OVERALL"] = 1510879320,
+				["DOT_Time"] = 1510879320,
+				["Damage"] = 1510879320,
+			},
+			["LastAbility"] = 31706.606,
+			["Owner"] = false,
+			["Pet"] = {
+				"Konthang <Miratros>", -- [1]
+			},
+			["NextEventNum"] = 44,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Miratros Disparar Yeti de cuevas Hit -33 (Fire)", -- [1]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [2]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [3]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [4]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [5]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [6]
+				"Miratros Dolor abrasador Yeti de cuevas Miss (Fire)", -- [7]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [8]
+				"Miratros Inmolar Yeti de cuevas Hit -52 (Fire)", -- [9]
+				"Miratros Inmolar (DoT) Yeti de cuevas Tick -18 (Fire)", -- [10]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [11]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [12]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -11 (2resistido) (Shadow)", -- [13]
+				"Miratros Inmolar (DoT) Yeti de cuevas Tick -18 (Fire)", -- [14]
+				"Miratros Disparar Yeti de cuevas Hit -34 (8resistido) (Fire)", -- [15]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -13 (Shadow)", -- [16]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [17]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [18]
+				"Miratros Disparar Yeti de cuevas Hit -31 (Fire)", -- [19]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -13 (Shadow)", -- [20]
+				"Miratros Inmolar (DoT) Yeti de cuevas Tick -17 (1resistido) (Fire)", -- [21]
+				"Miratros Disparar Yeti de cuevas Hit -29 (Fire)", -- [22]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [23]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [24]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -13 (Shadow)", -- [25]
+				"Miratros Disparar Yeti de cuevas Hit -33 (Fire)", -- [26]
+				"Miratros Inmolar (DoT) Yeti de cuevas Tick -18 (Fire)", -- [27]
+				"Miratros Disparar Yeti de cuevas Hit -31 (Fire)", -- [28]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [29]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [30]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [31]
+				"Miratros Disparar Yeti de cuevas Hit -42 (4resistido) (Fire)", -- [32]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [33]
+				"Miratros Inmolar (DoT) Yeti de cuevas Tick -18 (Fire)", -- [34]
+				"Miratros Disparar Yeti de cuevas Hit -35 (Fire)", -- [35]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [36]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [37]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -22 (5resistido) (Shadow)", -- [38]
+				"Miratros Disparar Yeti de cuevas Hit -35 (Fire)", -- [39]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [40]
+				"Miratros Disparar Yeti de cuevas Hit -42 (Fire)", -- [41]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [42]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [43]
+				"Miratros Disparar Yeti de cuevas Hit -29 (Fire)", -- [44]
+				"Miratros Corrupción (DoT) Yeti de cuevas Tick -42 (Shadow)", -- [45]
+				"Miratros Succionar vida Miratros Hit +19 (19overheal (sobrecuración))", -- [46]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [47]
+				"Miratros Disparar Yeti de cuevas Hit -30 (Fire)", -- [48]
+				"Miratros Inmolar (DoT) Yeti de cuevas Tick -18 (Fire)", -- [49]
+				"Miratros Maldición de agonía (DoT) Yeti de cuevas Tick -27 (Shadow)", -- [50]
+			},
+			["Name"] = "Miratros",
+			["LastEventTimes"] = {
+				31633.033, -- [1]
+				31633.033, -- [2]
+				31633.033, -- [3]
+				31634.953, -- [4]
+				31636.01, -- [5]
+				31636.011, -- [6]
+				31636.31, -- [7]
+				31637.002, -- [8]
+				31687.748, -- [9]
+				31690.63, -- [10]
+				31691.632, -- [11]
+				31691.633, -- [12]
+				31692.202, -- [13]
+				31693.674, -- [14]
+				31693.876, -- [15]
+				31694.245, -- [16]
+				31694.615, -- [17]
+				31694.616, -- [18]
+				31695.417, -- [19]
+				31696.222, -- [20]
+				31696.654, -- [21]
+				31697.053, -- [22]
+				31697.559, -- [23]
+				31697.559, -- [24]
+				31698.266, -- [25]
+				31698.564, -- [26]
+				31699.773, -- [27]
+				31700.075, -- [28]
+				31700.242, -- [29]
+				31700.542, -- [30]
+				31700.576, -- [31]
+				31701.614, -- [32]
+				31702.248, -- [33]
+				31702.686, -- [34]
+				31703.188, -- [35]
+				31703.591, -- [36]
+				31703.591, -- [37]
+				31704.262, -- [38]
+				31704.795, -- [39]
+				31706.202, -- [40]
+				31706.303, -- [41]
+				31706.606, -- [42]
+				31706.607, -- [43]
+				31629.979, -- [44]
+				31629.98, -- [45]
+				31629.98, -- [46]
+				31631.022, -- [47]
+				31631.615, -- [48]
+				31632.828, -- [49]
+				31632.943, -- [50]
+			},
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				true, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["DOTs"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 33,
+								},
+							},
+							["amount"] = 33,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+					},
+					["OverHeals"] = {
+						["Succionar vida"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 18,
+									["count"] = 11,
+									["amount"] = 208,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 208,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 4,
+						["Fire"] = 4,
+					},
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 12.67,
+								},
+								["Descarga de las Sombras"] = {
+									["count"] = 2.97,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 12.48,
+								},
+								["Dolor abrasador"] = {
+									["count"] = 0.3,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 1.94,
+								},
+								["Inmolar"] = {
+									["count"] = 5.5,
+								},
+								["Disparar"] = {
+									["count"] = 4.15,
+								},
+							},
+							["amount"] = 40.01,
+						},
+					},
+					["Overhealing"] = 208,
+					["ActiveTime"] = 40.01,
+					["ElementDone"] = {
+						["Shadow"] = 1200,
+						["Fire"] = 501,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 25,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 9,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 266,
+								},
+								["Descarga de las Sombras"] = {
+									["count"] = 476,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 185,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 458,
+								},
+								["Inmolar"] = {
+									["count"] = 104,
+								},
+								["Disparar"] = {
+									["count"] = 212,
+								},
+							},
+							["amount"] = 1701,
+						},
+					},
+					["TimeDamage"] = 40.01,
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 12.67,
+								},
+								["Descarga de las Sombras"] = {
+									["count"] = 2.97,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 12.48,
+								},
+								["Dolor abrasador"] = {
+									["count"] = 0.3,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 1.94,
+								},
+								["Inmolar"] = {
+									["count"] = 5.5,
+								},
+								["Disparar"] = {
+									["count"] = 4.15,
+								},
+							},
+							["amount"] = 40.01,
+						},
+					},
+					["Attacks"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 27,
+									["min"] = 13,
+									["count"] = 14,
+									["amount"] = 266,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 266,
+						},
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 162,
+									["min"] = 152,
+									["count"] = 3,
+									["amount"] = 476,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 476,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 27,
+									["min"] = 27,
+									["count"] = 1,
+									["amount"] = 27,
+								},
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 15,
+									["count"] = 9,
+									["amount"] = 158,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 185,
+						},
+						["Dolor abrasador"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 42,
+									["min"] = 38,
+									["count"] = 11,
+									["amount"] = 458,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 458,
+						},
+						["Inmolar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 52,
+									["min"] = 52,
+									["count"] = 2,
+									["amount"] = 104,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 104,
+						},
+						["Disparar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 29,
+									["count"] = 6,
+									["amount"] = 212,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 212,
+						},
+					},
+					["DOT_Time"] = 91,
+					["Damage"] = 1701,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 13,
+						["Shadow"] = 7,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 49,
+					["Damage"] = 858,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 405,
+						["Fire"] = 453,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 153,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 89,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 252,
+								},
+								["Inmolar"] = {
+									["count"] = 52,
+								},
+								["Disparar"] = {
+									["count"] = 312,
+								},
+							},
+							["amount"] = 858,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Succionar vida"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 19,
+									["count"] = 6,
+									["amount"] = 114,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 114,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 114,
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 5.34,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 6.43,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Inmolar"] = {
+									["count"] = 3.5,
+								},
+								["Disparar"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 22.35000000000001,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 22.35000000000001,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 27,
+									["min"] = 11,
+									["count"] = 8,
+									["amount"] = 153,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 153,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 17,
+									["count"] = 5,
+									["amount"] = 89,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 89,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 6,
+									["amount"] = 252,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 252,
+						},
+						["Inmolar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 52,
+									["min"] = 52,
+									["count"] = 1,
+									["amount"] = 52,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 52,
+						},
+						["Disparar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 29,
+									["count"] = 9,
+									["amount"] = 312,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 312,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 22.35000000000001,
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 5.34,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 6.43,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Inmolar"] = {
+									["count"] = 3.5,
+								},
+								["Disparar"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 22.35000000000001,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 16,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Fire"] = 13,
+						["Shadow"] = 7,
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 49,
+					["Damage"] = 858,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Shadow"] = 405,
+						["Fire"] = 453,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 153,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 89,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 252,
+								},
+								["Inmolar"] = {
+									["count"] = 52,
+								},
+								["Disparar"] = {
+									["count"] = 312,
+								},
+							},
+							["amount"] = 858,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Succionar vida"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 19,
+									["count"] = 6,
+									["amount"] = 114,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 114,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 114,
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 5.34,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 6.43,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Inmolar"] = {
+									["count"] = 3.5,
+								},
+								["Disparar"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 22.35000000000001,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 22.35000000000001,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 27,
+									["min"] = 11,
+									["count"] = 8,
+									["amount"] = 153,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 153,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 17,
+									["count"] = 5,
+									["amount"] = 89,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 89,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 6,
+									["amount"] = 252,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 252,
+						},
+						["Inmolar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 52,
+									["min"] = 52,
+									["count"] = 1,
+									["amount"] = 52,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 52,
+						},
+						["Disparar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 29,
+									["count"] = 9,
+									["amount"] = 312,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 312,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 22.35000000000001,
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 5.34,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 6.43,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 2.88,
+								},
+								["Inmolar"] = {
+									["count"] = 3.5,
+								},
+								["Disparar"] = {
+									["count"] = 4.2,
+								},
+							},
+							["amount"] = 22.35000000000001,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 44,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 51,
+								},
+							},
+							["amount"] = 51,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Yeti de cuevas"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 45,
+						},
+					},
+					["OverHeals"] = {
+						["Succionar vida"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 18,
+									["count"] = 17,
+									["amount"] = 322,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 322,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Shadow"] = 11,
+						["Fire"] = 17,
+					},
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 18.01,
+								},
+								["Descarga de las Sombras"] = {
+									["count"] = 2.97,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 18.91,
+								},
+								["Dolor abrasador"] = {
+									["count"] = 0.3,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 4.82,
+								},
+								["Inmolar"] = {
+									["count"] = 9,
+								},
+								["Disparar"] = {
+									["count"] = 8.35,
+								},
+							},
+							["amount"] = 62.35999999999999,
+						},
+					},
+					["Overhealing"] = 322,
+					["ActiveTime"] = 62.35999999999999,
+					["ElementDone"] = {
+						["Shadow"] = 1605,
+						["Fire"] = 954,
+					},
+					["ElementHitsDone"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+								["Tick"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 42,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 14,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 34,
+						},
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 419,
+								},
+								["Descarga de las Sombras"] = {
+									["count"] = 476,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 274,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 710,
+								},
+								["Inmolar"] = {
+									["count"] = 156,
+								},
+								["Disparar"] = {
+									["count"] = 524,
+								},
+							},
+							["amount"] = 2559,
+						},
+					},
+					["TimeDamage"] = 62.35999999999999,
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Maldición de agonía (DoT)"] = {
+									["count"] = 18.01,
+								},
+								["Descarga de las Sombras"] = {
+									["count"] = 2.97,
+								},
+								["Inmolar (DoT)"] = {
+									["count"] = 18.91,
+								},
+								["Dolor abrasador"] = {
+									["count"] = 0.3,
+								},
+								["Corrupción (DoT)"] = {
+									["count"] = 4.82,
+								},
+								["Inmolar"] = {
+									["count"] = 9,
+								},
+								["Disparar"] = {
+									["count"] = 8.35,
+								},
+							},
+							["amount"] = 62.35999999999999,
+						},
+					},
+					["Attacks"] = {
+						["Maldición de agonía (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 27,
+									["min"] = 11,
+									["count"] = 22,
+									["amount"] = 419,
+								},
+							},
+							["count"] = 22,
+							["amount"] = 419,
+						},
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 162,
+									["min"] = 152,
+									["count"] = 3,
+									["amount"] = 476,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 476,
+						},
+						["Inmolar (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 27,
+									["min"] = 27,
+									["count"] = 1,
+									["amount"] = 27,
+								},
+								["Tick"] = {
+									["max"] = 18,
+									["min"] = 15,
+									["count"] = 14,
+									["amount"] = 247,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 274,
+						},
+						["Dolor abrasador"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Corrupción (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 42,
+									["min"] = 38,
+									["count"] = 17,
+									["amount"] = 710,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 710,
+						},
+						["Inmolar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 52,
+									["min"] = 52,
+									["count"] = 3,
+									["amount"] = 156,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 156,
+						},
+						["Disparar"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 29,
+									["count"] = 15,
+									["amount"] = 524,
+								},
+							},
+							["count"] = 15,
+							["amount"] = 524,
+						},
+					},
+					["DOT_Time"] = 140,
+					["Damage"] = 2559,
+				},
+			},
+			["UnitLockout"] = 1510879214,
+			["LastActive"] = 1510879320,
+		},
+		["Konthang <Miratros>"] = {
+			["GUID"] = "0xF1402E7AC4001033",
+			["LastEventHealth"] = {
+				"1244 (65%)", -- [1]
+				"1244 (65%)", -- [2]
+				"1244 (65%)", -- [3]
+				"1244 (65%)", -- [4]
+				"1214 (63%)", -- [5]
+				"1214 (63%)", -- [6]
+				"1180 (61%)", -- [7]
+				"1180 (61%)", -- [8]
+				"1180 (61%)", -- [9]
+				"1180 (61%)", -- [10]
+				"1180 (61%)", -- [11]
+				"1180 (61%)", -- [12]
+				"1180 (61%)", -- [13]
+				"1153 (60%)", -- [14]
+				"1153 (60%)", -- [15]
+				"1119 (58%)", -- [16]
+				"1119 (58%)", -- [17]
+				"1091 (57%)", -- [18]
+				"1091 (57%)", -- [19]
+				"1307 (68%)", -- [20]
+				"1509 (79%)", -- [21]
+				"1711 (89%)", -- [22]
+				"1397 (73%)", -- [23]
+				"1397 (73%)", -- [24]
+				"1364 (71%)", -- [25]
+				"1334 (69%)", -- [26]
+				"1334 (69%)", -- [27]
+				"1304 (68%)", -- [28]
+				"1304 (68%)", -- [29]
+				"1304 (68%)", -- [30]
+				"1274 (66%)", -- [31]
+				"1274 (66%)", -- [32]
+				"1238 (64%)", -- [33]
+				"1238 (64%)", -- [34]
+				"1205 (63%)", -- [35]
+				"1205 (63%)", -- [36]
+				"1145 (60%)", -- [37]
+				"1145 (60%)", -- [38]
+				"1115 (58%)", -- [39]
+				"1115 (58%)", -- [40]
+				"1079 (56%)", -- [41]
+				"1079 (56%)", -- [42]
+				"1050 (55%)", -- [43]
+				"1050 (55%)", -- [44]
+				"1050 (55%)", -- [45]
+				"1050 (55%)", -- [46]
+				"1015 (53%)", -- [47]
+				"1015 (53%)", -- [48]
+				"1261 (66%)", -- [49]
+				"1261 (66%)", -- [50]
+			},
+			["LastAttackedBy"] = "Yeti de cuevas",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"HEAL", -- [20]
+				"HEAL", -- [21]
+				"HEAL", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					818, -- [1]
+				},
+				["TimeDamage"] = {
+					65.27999999999999, -- [1]
+				},
+				["DamageTaken"] = {
+					1127, -- [1]
+				},
+				["ActiveTime"] = {
+					65.27999999999999, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Konthang",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 1,
+			["LastEventNum"] = {
+				nil, -- [1]
+				nil, -- [2]
+				nil, -- [3]
+				1.572327044025157, -- [4]
+				nil, -- [5]
+				1.781970649895178, -- [6]
+				nil, -- [7]
+				nil, -- [8]
+				nil, -- [9]
+				nil, -- [10]
+				nil, -- [11]
+				1.415094339622641, -- [12]
+				nil, -- [13]
+				1.781970649895178, -- [14]
+				nil, -- [15]
+				1.467505241090147, -- [16]
+				nil, -- [17]
+				1.781970649895178, -- [18]
+				nil, -- [19]
+				9.958071278825996, -- [20]
+				9.958071278825996, -- [21]
+				9.958071278825996, -- [22]
+				nil, -- [23]
+				1.729559748427673, -- [24]
+				1.572327044025157, -- [25]
+				[27] = 1.572327044025157,
+				[29] = 1.572327044025157,
+				[31] = 1.886792452830189,
+				[35] = 3.144654088050315,
+				[50] = 0.8909853249475891,
+				[37] = 1.572327044025157,
+				[45] = 1.834381551362684,
+				[39] = 1.886792452830189,
+				[47] = 1.572327044025157,
+				[41] = 1.519916142557652,
+				[33] = 1.729559748427673,
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 2,
+			["LastAbility"] = 31704.498,
+			["LastDamageTaken"] = 34,
+			["Owner"] = "Miratros",
+			["TimeLast"] = {
+				["ActiveTime"] = 1510879318,
+				["TimeDamage"] = 1510879318,
+				["OVERALL"] = 1510879318,
+				["DamageTaken"] = 1510879318,
+				["Damage"] = 1510879318,
+			},
+			["NextEventNum"] = 23,
+			["LastEventHealthNum"] = {
+				65.19916142557652, -- [1]
+				65.19916142557652, -- [2]
+				65.19916142557652, -- [3]
+				65.19916142557652, -- [4]
+				63.62683438155136, -- [5]
+				63.62683438155136, -- [6]
+				61.84486373165618, -- [7]
+				61.84486373165618, -- [8]
+				61.84486373165618, -- [9]
+				61.84486373165618, -- [10]
+				61.84486373165618, -- [11]
+				61.84486373165618, -- [12]
+				61.84486373165618, -- [13]
+				60.42976939203354, -- [14]
+				60.42976939203354, -- [15]
+				58.64779874213836, -- [16]
+				58.64779874213836, -- [17]
+				57.18029350104822, -- [18]
+				57.18029350104822, -- [19]
+				68.50104821802935, -- [20]
+				79.08805031446541, -- [21]
+				89.67505241090147, -- [22]
+				73.21802935010483, -- [23]
+				73.21802935010483, -- [24]
+				71.48846960167715, -- [25]
+				69.916142557652, -- [26]
+				69.916142557652, -- [27]
+				68.34381551362684, -- [28]
+				68.34381551362684, -- [29]
+				68.34381551362684, -- [30]
+				66.77148846960168, -- [31]
+				66.77148846960168, -- [32]
+				64.88469601677149, -- [33]
+				64.88469601677149, -- [34]
+				63.15513626834382, -- [35]
+				63.15513626834382, -- [36]
+				60.0104821802935, -- [37]
+				60.0104821802935, -- [38]
+				58.43815513626834, -- [39]
+				58.43815513626834, -- [40]
+				56.55136268343816, -- [41]
+				56.55136268343816, -- [42]
+				55.0314465408805, -- [43]
+				55.0314465408805, -- [44]
+				55.0314465408805, -- [45]
+				55.0314465408805, -- [46]
+				53.19706498951782, -- [47]
+				53.19706498951782, -- [48]
+				66.09014675052411, -- [49]
+				66.09014675052411, -- [50]
+			},
+			["LastEvents"] = {
+				"Konthang <Miratros> Melee Yeti de cuevas Glancing -25 (Physical)", -- [1]
+				"Yeti de cuevas Melee Konthang <Miratros> Dodge", -- [2]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -33 (Physical)", -- [3]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -30 (Physical)", -- [4]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -34 (Physical)", -- [5]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -34 (Physical)", -- [6]
+				"Yeti de cuevas Melee Konthang <Miratros> Dodge", -- [7]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -25 (Physical)", -- [8]
+				"Yeti de cuevas Melee Konthang <Miratros> Dodge", -- [9]
+				"Konthang <Miratros> Melee Yeti de cuevas Glancing -29 (Physical)", -- [10]
+				"Konthang <Miratros> Tormento Yeti de cuevas Miss (Shadow)", -- [11]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -27 (Physical)", -- [12]
+				"Konthang <Miratros> Melee Yeti de cuevas Glancing -24 (Physical)", -- [13]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -34 (Physical)", -- [14]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -25 (Physical)", -- [15]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -28 (Physical)", -- [16]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -34 (Physical)", -- [17]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -34 (Physical)", -- [18]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -31 (Physical)", -- [19]
+				"Konthang <Miratros> Consumir Sombras Konthang <Miratros> Tick +190", -- [20]
+				"Konthang <Miratros> Consumir Sombras Konthang <Miratros> Tick +190", -- [21]
+				"Konthang <Miratros> Consumir Sombras Konthang <Miratros> Tick +190", -- [22]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -33 (Physical)", -- [23]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -33 (Physical)", -- [24]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -30 (Physical)", -- [25]
+				"Konthang <Miratros> Melee Yeti de cuevas Glancing -30 (Physical)", -- [26]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -30 (Physical)", -- [27]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -27 (Physical)", -- [28]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -30 (Physical)", -- [29]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -28 (Physical)", -- [30]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -36 (Physical)", -- [31]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -31 (Physical)", -- [32]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -33 (Physical)", -- [33]
+				"Konthang <Miratros> Melee Yeti de cuevas Miss", -- [34]
+				"Yeti de cuevas Melee Konthang <Miratros> Crit -60 (Physical)", -- [35]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -35 (Physical)", -- [36]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -30 (Physical)", -- [37]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -30 (Physical)", -- [38]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -36 (Physical)", -- [39]
+				"Konthang <Miratros> Melee Yeti de cuevas Dodge", -- [40]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -29 (Physical)", -- [41]
+				"Konthang <Miratros> Melee Yeti de cuevas Crit -52 (Physical)", -- [42]
+				"Yeti de cuevas Melee Konthang <Miratros> Miss", -- [43]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -29 (Physical)", -- [44]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -35 (Physical)", -- [45]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -34 (Physical)", -- [46]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -30 (Physical)", -- [47]
+				"Konthang <Miratros> Melee Yeti de cuevas Crit -62 (Physical)", -- [48]
+				"Konthang <Miratros> Melee Yeti de cuevas Hit -25 (Physical)", -- [49]
+				"Yeti de cuevas Melee Konthang <Miratros> Hit -17 (Physical)", -- [50]
+			},
+			["Name"] = "Konthang",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				true, -- [6]
+				true, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				true, -- [12]
+				false, -- [13]
+				true, -- [14]
+				false, -- [15]
+				true, -- [16]
+				false, -- [17]
+				true, -- [18]
+				false, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				true, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				true, -- [35]
+				false, -- [36]
+				true, -- [37]
+				false, -- [38]
+				true, -- [39]
+				false, -- [40]
+				true, -- [41]
+				false, -- [42]
+				true, -- [43]
+				false, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				31687.981, -- [1]
+				31688.116, -- [2]
+				31690.09, -- [3]
+				31690.194, -- [4]
+				31692.102, -- [5]
+				31692.202, -- [6]
+				31694.245, -- [7]
+				31694.245, -- [8]
+				31696.349, -- [9]
+				31696.349, -- [10]
+				31696.458, -- [11]
+				31698.363, -- [12]
+				31698.363, -- [13]
+				31700.445, -- [14]
+				31700.445, -- [15]
+				31702.483, -- [16]
+				31702.483, -- [17]
+				31704.498, -- [18]
+				31704.498, -- [19]
+				31716.759, -- [20]
+				31718.79, -- [21]
+				31720.758, -- [22]
+				31612.977, -- [23]
+				31614.218, -- [24]
+				31615.859, -- [25]
+				31615.859, -- [26]
+				31616.933, -- [27]
+				31617.166, -- [28]
+				31619.711, -- [29]
+				31619.711, -- [30]
+				31621.756, -- [31]
+				31621.756, -- [32]
+				31623.89, -- [33]
+				31623.891, -- [34]
+				31625.887, -- [35]
+				31625.888, -- [36]
+				31627.896, -- [37]
+				31627.897, -- [38]
+				31629.98, -- [39]
+				31629.98, -- [40]
+				31632.068, -- [41]
+				31632.068, -- [42]
+				31634.136, -- [43]
+				31634.136, -- [44]
+				31636.311, -- [45]
+				31636.312, -- [46]
+				31638.299, -- [47]
+				31638.3, -- [48]
+				31685.973, -- [49]
+				31686.04, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 506,
+								},
+							},
+							["amount"] = 506,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 506,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 30,
+									["min"] = 27,
+									["count"] = 2,
+									["amount"] = 57,
+								},
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 335,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 62,
+									["min"] = 52,
+									["count"] = 2,
+									["amount"] = 114,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 506,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 23,
+								},
+							},
+							["amount"] = 27,
+						},
+					},
+					["DamageTaken"] = 887,
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 39.76999999999999,
+								},
+							},
+							["amount"] = 39.76999999999999,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+					},
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 39.76999999999999,
+								},
+							},
+							["amount"] = 39.76999999999999,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 27,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 27,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 39.76999999999999,
+					["WhoDamaged"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 887,
+								},
+							},
+							["amount"] = 887,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 887,
+					},
+					["TimeDamage"] = 39.76999999999999,
+					["Damage"] = 506,
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 187,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 187,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 260,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 260,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 260,
+								},
+							},
+							["amount"] = 260,
+						},
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Bloqueado"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 187,
+								},
+							},
+							["amount"] = 187,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.4,
+								},
+								["Tormento"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 18.51,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 18.51,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 29,
+									["min"] = 24,
+									["count"] = 3,
+									["amount"] = 78,
+								},
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 182,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 260,
+						},
+						["Tormento"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 18.51,
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.4,
+								},
+								["Tormento"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 18.51,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 187,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 187,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 260,
+					["ElementTakenBlock"] = {
+						["Melee"] = 0,
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 260,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 260,
+								},
+							},
+							["amount"] = 260,
+						},
+					},
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Bloqueado"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 187,
+								},
+							},
+							["amount"] = 187,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 9,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.4,
+								},
+								["Tormento"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 18.51,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 18.51,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 29,
+									["min"] = 24,
+									["count"] = 3,
+									["amount"] = 78,
+								},
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 6,
+									["amount"] = 182,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 260,
+						},
+						["Tormento"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 18.51,
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18.4,
+								},
+								["Tormento"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 18.51,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Bloqueado"] = {
+									["max"] = 17,
+									["min"] = 17,
+									["count"] = 1,
+									["amount"] = 17,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 17,
+						},
+					},
+					["TimeSpent"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 65.16999999999999,
+								},
+								["Tormento"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 65.27999999999999,
+						},
+					},
+					["DamageTaken"] = 1127,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 38,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 38,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 38,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 38,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 65.27999999999999,
+					["ElementTaken"] = {
+						["Melee"] = 1127,
+					},
+					["Damage"] = 818,
+					["ElementTakenBlock"] = {
+						["Melee"] = 17,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["max"] = 30,
+									["min"] = 24,
+									["count"] = 5,
+									["amount"] = 135,
+								},
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 25,
+									["count"] = 19,
+									["amount"] = 569,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 62,
+									["min"] = 52,
+									["count"] = 2,
+									["amount"] = 114,
+								},
+								["Parry"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 30,
+							["amount"] = 818,
+						},
+						["Tormento"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Glancing"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 19,
+								},
+								["Dodge"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Parry"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 818,
+								},
+							},
+							["amount"] = 818,
+						},
+					},
+					["TimeDamage"] = 65.27999999999999,
+					["WhoDamaged"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 1127,
+								},
+							},
+							["amount"] = 1127,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 818,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Dodge"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 31,
+								},
+							},
+							["amount"] = 38,
+						},
+					},
+					["TimeDamaging"] = {
+						["Yeti de cuevas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 65.16999999999999,
+								},
+								["Tormento"] = {
+									["count"] = 0.11,
+								},
+							},
+							["amount"] = 65.27999999999999,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1510879212,
+			["LastActive"] = 1510879334,
+		},
+	},
+	["FightNum"] = 2,
+	["CombatTimes"] = {
+		{
+			1510879214, -- [1]
+			1510879253, -- [2]
+			"22:40:15", -- [3]
+			"22:40:53", -- [4]
+			"Yeti de cuevas", -- [5]
+		}, -- [1]
+		{
+			1510879301, -- [1]
+			1510879321, -- [2]
+			"22:41:42", -- [3]
+			"22:42:01", -- [4]
+			"Yeti de cuevas", -- [5]
+		}, -- [2]
+	},
+	["FoughtWho"] = {
+		"Yeti de cuevas 22:41:42-22:42:01", -- [1]
+		"Yeti de cuevas 22:40:15-22:40:53", -- [2]
+	},
+}

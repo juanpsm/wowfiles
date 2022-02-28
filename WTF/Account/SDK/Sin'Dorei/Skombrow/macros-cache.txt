@@ -1,0 +1,82 @@
+MACRO 16777229 "alivio" INV_Misc_QuestionMark
+#showtooltip Swiftmend
+/cast [target=mouseover,exists] Swiftmend
+END
+MACRO 16777245 "alivio + bouble" INV_Misc_QuestionMark
+#showtooltip
+/cast Swiftmend
+/use Bauble of True Blood
+END
+MACRO 16777218 "Crecimiento salv" INV_Misc_QuestionMark
+#showtooltip Wild Growth(Rank 4)
+/cast [target=mouseover,exists] Wild Growth(Rank 4)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777219 "Dispel" INV_Misc_QuestionMark
+#showtooltip Remove Curse
+/cast [target=mouseover,exists] Remove Curse
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777221 "Flor de vida" INV_Misc_QuestionMark
+#showtooltip Lifebloom(Rank 3)
+/cast [target=mouseover,exists] Lifebloom(Rank 3)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777243 "furia gato" INV_Misc_QuestionMark
+#showtooltip Savage Roar(Rank 1)
+/cast Savage Roar(Rank 1)
+/cast Tiger's Fury(Rank 6)
+END
+MACRO 16777220 "Inner" INV_Misc_QuestionMark
+#showtooltip Innervate
+/cast [target=mouseover, exists] Innervate
+END
+MACRO 16777248 "lacerate" INV_Misc_QuestionMark
+#showtooltip
+/use Lacerate
+/startattack
+END
+MACRO 16777247 "mangle" INV_Misc_QuestionMark
+#showtooltip
+/use Mangle (Bear)
+/use !Maul
+/startattack
+END
+MACRO 16777223 "Nutrir" INV_Misc_QuestionMark
+#showtooltip Nourish(Rank 1)
+/cast [target=mouseover,exists] Nourish(Rank 1)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777235 "piel y raices" INV_Misc_QuestionMark
+/use Barkskin
+/use Nature's Grasp(Rank 8)
+END
+MACRO 16777224 "Recrecimiento" INV_Misc_QuestionMark
+#showtooltip Regrowth(Rank 12)
+/cast [target=mouseover,exists] Regrowth(Rank 12)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777233 "Reju sin error" INV_Misc_QuestionMark
+#showtooltip Rejuvenation(Rank 15)
+/cast [target=mouseover,exists] Rejuvenation(Rank 15)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777226 "Renacer" INV_Misc_QuestionMark
+#showtooltip
+/s REVIVIENDO A %t
+/cast Rebirth(Rank 7)
+END
+MACRO 16777231 "Salva" Spell_Nature_HealingTouch
+#showtooltip Nature's Swiftness
+/use Nature's Swiftness
+/cast [target=mouseover,exists] Healing Touch(Rank 15)
+END
+MACRO 16777228 "Supr veneno" INV_Misc_QuestionMark
+#showtooltip Abolish Poison
+/cast [target=mouseover,exists] Abolish Poison
+END
+MACRO 16777249 "swipe" INV_Misc_QuestionMark
+#showtooltip
+/use Swipe (Bear)
+/startattack
+END

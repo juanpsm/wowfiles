@@ -1,0 +1,10 @@
+
+ARLDB2 = {
+	["profileKeys"] = {
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+	},
+	["profiles"] = {
+		["Rivothrill - WoWArg"] = {
+		},
+	},
+}

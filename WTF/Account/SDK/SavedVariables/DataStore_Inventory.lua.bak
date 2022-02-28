@@ -1,0 +1,44 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Skombrow"] = {
+				["Inventory"] = {
+					25570, -- [1]
+					30377, -- [2]
+					"|cff0070dd|Hitem:44672:0:0:0:0:0:-36:81:73|h[Bufas de piel de foca del hechicero]|h|r", -- [3]
+					nil, -- [4]
+					"|cff0070dd|Hitem:31282:1843:0:0:0:0:0:0:73|h[Embozo de pureza espiritual]|h|r", -- [5]
+					31461, -- [6]
+					"|cff0070dd|Hitem:37755:1843:0:0:0:0:0:0:73|h[Leotardos del corazón helado]|h|r", -- [7]
+					"|cff0070dd|Hitem:44673:1843:0:0:0:0:-42:81:73|h[Botas de montar mamut del hierofante]|h|r", -- [8]
+					"|cff0070dd|Hitem:44674:0:0:0:0:0:-36:60:73|h[Envoltura manchada de icor del hechicero]|h|r", -- [9]
+					"|cff0070dd|Hitem:25791:1843:0:0:0:0:0:0:73|h[Guantes de preservación]|h|r", -- [10]
+					"|cffa335ee|Hitem:34625:0:2959:0:0:0:0:0:73|h[Anillo de fe de Kharmaa]|h|r", -- [11]
+					31258, -- [12]
+					24390, -- [13]
+					25634, -- [14]
+					27519, -- [15]
+					"|cff0070dd|Hitem:34797:0:2959:2965:2965:0:0:0:73|h[Bastón de foco imbuido con sol]|h|r", -- [16]
+					nil, -- [17]
+					25643, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 120.75,
+				["lastUpdate"] = 1499533178,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Orden Fenix"] = {
+				["Members"] = {
+					["Skombrow"] = {
+						["averageItemLvl"] = 120,
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,26 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Turco - WoWArg"] = "Turco - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Turco"] = {
+				["Professions"] = {
+					["Ingeniería"] = {
+						["isPrimary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+					["Minería"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+	},
+}

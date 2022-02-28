@@ -1,0 +1,29 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nightbull"] = {
+				["XPMax"] = 12300,
+				["played"] = 84364,
+				["zone"] = "Los Baldíos",
+				["lastUpdate"] = 1522877199,
+				["class"] = "Guerrero",
+				["race"] = "Tauren",
+				["level"] = 14,
+				["XP"] = 1716,
+				["RestXP"] = 18450,
+				["money"] = 832,
+				["gender"] = 2,
+				["name"] = "Nightbull",
+				["faction"] = "Horde",
+				["englishRace"] = "Tauren",
+				["subZone"] = "Baldíos del Sur",
+				["lastLogoutTimestamp"] = 1522877199,
+				["englishClass"] = "WARRIOR",
+			},
+		},
+	},
+}

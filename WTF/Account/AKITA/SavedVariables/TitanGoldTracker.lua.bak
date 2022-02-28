@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["Rochallor_WoWArg::Alliance"] = 505000,
+	["VIEWALL"] = true,
+	["INITIALIZED"] = true,
+}

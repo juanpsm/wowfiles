@@ -1,0 +1,34 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Asasasdasda"] = {
+				["lastUpdate"] = 1511831452,
+				["Skills"] = {
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+						["Idioma: enánico"] = "300|300",
+					},
+					["Habilidades de clase"] = {
+						["Combate"] = "1|1",
+						["Asesinato"] = "1|1",
+						["Sutileza"] = "1|1",
+					},
+					["Habilidades con armas"] = {
+						["Sin armas"] = "1|5",
+						["Dagas"] = "1|5",
+						["Defensa"] = "1|5",
+						["Armas arrojadizas"] = "1|5",
+					},
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
+						["Cuero"] = "1|1",
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,8 @@
+Version: 1
+Frame: TipTac
+FrameLevel: 9
+Anchor: BOTTOMRIGHT
+X: -207
+Y: 167
+W: 114
+H: 24

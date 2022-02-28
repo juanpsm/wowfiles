@@ -1,0 +1,188 @@
+
+DominosDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Hunter",
+	},
+	["profiles"] = {
+		["Hunter"] = {
+			["frames"] = {
+				{
+					["point"] = "BOTTOMLEFT",
+					["padW"] = 2,
+					["x"] = 0,
+					["anchor"] = "6BL",
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 0,
+					["pages"] = {
+						["HUNTER"] = {
+							["[bar:6]"] = 5,
+							["[bar:5]"] = 4,
+							["[bar:3]"] = 2,
+							["[bar:4]"] = 3,
+							["[bar:2]"] = 1,
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [1]
+				{
+					["point"] = "BOTTOMRIGHT",
+					["hidden"] = true,
+					["padW"] = 2,
+					["x"] = 0,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 230.0002088546293,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [2]
+				{
+					["point"] = "BOTTOMRIGHT",
+					["columns"] = 1,
+					["padW"] = 2,
+					["x"] = -25.9999136953038,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 104.0000049238812,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [3]
+				{
+					["point"] = "BOTTOMRIGHT",
+					["columns"] = 1,
+					["numButtons"] = 12,
+					["padW"] = 2,
+					["x"] = -83.99992586823237,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 94.00000041032344,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+				}, -- [4]
+				{
+					["point"] = "BOTTOMRIGHT",
+					["padW"] = 2,
+					["x"] = -342.0003084264499,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 45.99998399738597,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [5]
+				{
+					["point"] = "BOTTOMLEFT",
+					["padW"] = 2,
+					["x"] = 29.99993913535688,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = 43.0000710543418,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [6]
+				{
+					["point"] = "TOPRIGHT",
+					["padW"] = 2,
+					["x"] = -473.0000244142445,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = -309.9999998632255,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [7]
+				{
+					["point"] = "TOPLEFT",
+					["padW"] = 2,
+					["x"] = 452.9998053015293,
+					["anchor"] = "9BL",
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = -279.9999513082854,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [8]
+				{
+					["point"] = "TOPLEFT",
+					["padW"] = 2,
+					["x"] = 452.9998053015293,
+					["anchor"] = "10BC",
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = -239.9999682683208,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [9]
+				{
+					["point"] = "TOPLEFT",
+					["padW"] = 2,
+					["x"] = 452.9998403157958,
+					["spacing"] = 4,
+					["padH"] = 2,
+					["y"] = -199.9999502140896,
+					["pages"] = {
+						["HUNTER"] = {
+						},
+					},
+					["numButtons"] = 12,
+				}, -- [10]
+				["menu"] = {
+					["y"] = 0,
+					["x"] = 589.0000487601018,
+					["point"] = "BOTTOMLEFT",
+				},
+				["xp"] = {
+					["y"] = -32,
+					["x"] = 0,
+					["point"] = "TOP",
+					["height"] = 14,
+					["texture"] = "blizzard",
+					["alwaysShowText"] = true,
+					["width"] = 0.75,
+				},
+				["bags"] = {
+					["y"] = 15.99998358706253,
+					["x"] = -342.0003084264499,
+					["point"] = "BOTTOMRIGHT",
+					["spacing"] = 2,
+					["anchor"] = "5BR",
+					["numButtons"] = 6,
+				},
+				["pet"] = {
+					["y"] = 98.0001090092597,
+					["x"] = 192.9999330488926,
+					["point"] = "BOTTOMLEFT",
+					["spacing"] = 6,
+				},
+				["vehicle"] = {
+					["y"] = -286.0000660620733,
+					["x"] = 373.000014292933,
+					["point"] = "TOPLEFT",
+					["numButtons"] = 3,
+				},
+			},
+		},
+	},
+}
+DominosVersion = "1.18.2"

@@ -1,0 +1,57 @@
+MACRO 16777227 "BS+RS" INV_Misc_QuestionMark
+#showtooltip Blood Strike
+/cast Blood Strike
+/cast !Rune Strike
+/script UIErrorsFrame:Clear(); UIErrorsFrame:Show()
+END
+MACRO 16777217 "DC" INV_Misc_QuestionMark
+#showtooltip
+/cast [Mod:shift,@pet] Death Coil
+/cast [nomod] Death Coil
+END
+MACRO 16777224 "Group SS" INV_Misc_QuestionMark
+#showtooltip
+#show
+/castsequence reset=target Icy Touch, Plague Strike, Pestilence, Scourge Strike, Blood Boil, Death Coil, Scourge Strike, Scourge Strike, Blood Boil, Blood Boil, Death Coil
+END
+MACRO 16777223 "I W2 SS" INV_Misc_QuestionMark
+#showtooltip
+#show
+/castsequence reset=target Icy Touch, Plague Strike, Blood Strike, Scourge Strike, Blood Strike, Death Coil, Scourge Strike, Scourge Strike, Blood Strike, Blood Strike, Death Coil
+END
+MACRO 16777220 "I WIN SS" INV_Misc_QuestionMark
+#showtooltip
+#show
+/castsequence reset=target Icy Touch, Plague Strike, Blood Strike, Scourge Strike, Death Coil, Blood Strike, Rune Strike
+END
+MACRO 16777218 "IT PS" INV_Misc_QuestionMark
+#showtooltip
+#show
+/castsequence reset=target Icy Touch, Plague Strike
+END
+MACRO 16777225 "Lich Heal" Ability_Warrior_ImprovedDisciplines
+/cast Lichborne
+/cast [target=player] Death coil
+END
+MACRO 16777226 "Mouse Taunt" INV_Misc_QuestionMark
+#showtooltip Dark Command
+/cast [modifier:shift, @mouseover][nomod, @target] Dark Command
+END
+MACRO 16777221 "PANIC" INV_Misc_QuestionMark
+#showtooltip
+#show
+/castsequence Horn of Winter, Bone Shield, Empower Rune Weapon, Icebound Fortitude, Anti-Magic Shell, Raise Dead, Death Pact
+END
+MACRO 16777228 "PANIC NO BONE" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Horn of Winter, Empower Rune Weapon, Icebound Fortitude, Anti-Magic Shell, Raise Dead, Death Pact
+END
+MACRO 16777222 "Silence" INV_Misc_QuestionMark
+#showtooltip
+#show
+/castsequence [modifier:shift, target=focus][nomod, @target] reset=15 Mind Freeze, Strangulate, Arcane Torrent, Mind Freeze
+END
+MACRO 16777219 "TAUNT" INV_Misc_QuestionMark
+#showtooltip
+/cast [modifier:shift, @mouseover][nomod, @target] Death Grip
+END

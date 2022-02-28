@@ -1,0 +1,16 @@
+------------------------------------------------------------------------
+r87 | anyia3 | 2010-09-02 14:56:48 +0000 (Thu, 02 Sep 2010) | 1 line
+Changed paths:
+   A /tags/3.4.7 (from /trunk:86)
+
+Tagging as 3.4.7
+------------------------------------------------------------------------
+r86 | Anyia3 | 2010-09-02 14:55:12 +0000 (Thu, 02 Sep 2010) | 4 lines
+Changed paths:
+   M /trunk/Track-o-Matique.lua
+
+* Stopped unnecessary tracking update when leaving combat.
+  Now only re-tracks if there's a need for switching tracking back.
+
+
+------------------------------------------------------------------------

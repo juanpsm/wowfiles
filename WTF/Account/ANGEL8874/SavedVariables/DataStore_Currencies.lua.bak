@@ -1,0 +1,31 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["Currencies"] = {
+					"0|Jugador contra Jugador", -- [1]
+					"1|Fragmento de vigilante de piedra|290|43228", -- [2]
+					"1|Marca de Honor de la Cuenca de Arathi|35|20559", -- [3]
+					"1|Marca de Honor de la Garganta Grito de Guerra|0|20558", -- [4]
+					"1|Marca de Honor de la Playa de los Ancestros|10|42425", -- [5]
+					"1|Marca de Honor del Ojo de la Tormenta|0|29024", -- [6]
+					"1|Marca de Honor del Valle de Alterac|0|20560", -- [7]
+					"1|Moneda de Ventura|20|37836", -- [8]
+					"1|Puntos de arena|0|43307", -- [9]
+					"1|Puntos de honor|41929|43308", -- [10]
+					"0|Mazmorra y banda", -- [11]
+					"1|Emblema de heroísmo|11|40752", -- [12]
+					"1|Emblema de valor|18|40753", -- [13]
+					"0|Miscelánea", -- [14]
+					"1|Distintivo de justicia|26|29434", -- [15]
+					"1|Sello de Campeón|12|44990", -- [16]
+				},
+				["lastUpdate"] = 1539810358,
+			},
+		},
+	},
+}

@@ -1,0 +1,52 @@
+
+RangeDisplayDB3 = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+			["profileKeys"] = {
+				["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+			},
+			["char"] = {
+				["Gilraenloss - WoWArg"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["locked"] = true,
+			["units"] = {
+				["playertarget"] = {
+					["fontSize"] = 25,
+					["point"] = "TOP",
+					["relPoint"] = "TOP",
+					["font"] = "Skurri",
+					["y"] = -4.999999925494195,
+					["x"] = 167.9999898672105,
+				},
+				["mouseover"] = {
+					["mouseAnchor"] = false,
+					["y"] = -97.0000443309539,
+					["x"] = -179.0000888854252,
+					["point"] = "TOPRIGHT",
+					["relPoint"] = "TOPRIGHT",
+				},
+				["pet"] = {
+					["point"] = "TOPRIGHT",
+					["relPoint"] = "TOPRIGHT",
+					["y"] = -49.99999925494196,
+					["x"] = -191.0001344829778,
+					["enabled"] = true,
+				},
+				["focus"] = {
+					["point"] = "LEFT",
+					["relPoint"] = "LEFT",
+					["y"] = -66.0000981986508,
+					["x"] = -0,
+				},
+			},
+		},
+	},
+}

@@ -1,0 +1,8 @@
+Version: 1
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: TOP
+X: -34
+Y: -2
+W: 450
+H: 33

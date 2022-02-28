@@ -1,0 +1,20 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["PositionW"] = 200.0000027354896,
+			["PositionH"] = 82.00000724904739,
+			["PositionY"] = 344.0549455907703,
+			["PositionX"] = 847.2420297578866,
+			["MinimapIcon"] = {
+				["minimapPos"] = 194.7435764504751,
+			},
+			["ShowWith"] = {
+				["Alone"] = true,
+			},
+		},
+	},
+}

@@ -1,0 +1,98 @@
+MACRO 16777229 "AH+AV" INV_Misc_QuestionMark
+#showtooltip
+/cast [mod:alt] !Aspect of the Pack;
+/stopmacro [mod:alt]
+/cast [mod:shift] !Trueshot Aura
+/castsequence !Aspect of the Dragonhawk, !Aspect of the Viper
+END
+MACRO 16777248 "Arcane + gloves" INV_Misc_QuestionMark
+#show Arcane Shot
+/cast Arcane Shot
+/use 10
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777236 "CdtW" INV_Misc_QuestionMark
+#show
+/cast Call of the Wild
+END
+MACRO 16777247 "Chimera+gloves" Ability_Hunter_ChimeraShot2
+#show Chimera Shot
+/use 10
+/cast Chimera Shot
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777239 "Cower" INV_Misc_QuestionMark
+#show
+/cast Cower
+END
+MACRO 16777245 "Dis+parachute" INV_Misc_QuestionMark
+/cast Disengage
+/use 15
+END
+MACRO 16777220 "Freez Trap" Spell_Frost_ChainsOfIce
+#showtooltip
+/stopcasting
+/stopattack
+/petfollow
+/cast Freezing Trap
+/stopmacro [nogroup]
+END
+MACRO 16777233 "Growl" INV_Misc_QuestionMark
+#show
+/cast Growl(Rank 9)
+END
+MACRO 16777234 "Hide" INV_Misc_QuestionMark
+#show
+/cast Shadowmeld(Racial)
+/cast Prowl(Rank 3)
+END
+MACRO 16777235 "HoF" INV_Misc_QuestionMark
+#show
+/cast Heart of the Phoenix
+END
+MACRO 16777237 "LyW" INV_Misc_QuestionMark
+#show
+/cast Lick Your Wounds
+END
+MACRO 16777219 "Mark & Attack!" INV_Misc_QuestionMark
+#show
+/castsequence [mod] Hunter's Mark; reset=5  Serpent Sting, Hunter's Mark
+/stopmacro [button:2]
+/petattack [nomod
+/petdefensive
+END
+MACRO 16777218 "Melee" INV_Misc_QuestionMark
+#show
+/castsequence reset=3 Wing Clip, Raptor Strike, Wing Clip
+/castrandom [target=target, exists] Mongoose Bite
+END
+MACRO 16777223 "No Tgt misdire" Ability_Creature_Cursed_04
+#show
+/focus [help]
+/stopmacro [help]
+/cast [@focus, exists] Misdirection; [@pet, exists] Misdirection
+END
+MACRO 16777231 "Pet HoF" INV_Misc_QuestionMark
+#show
+/cast [nopet] Call Pet
+/cast [@pet,dead][mod:shift] Revive Pet
+/cast [pet,nomod,button:1] Mend Pet
+/cast [pet,nomod,button:2] Dismiss Pet
+/cast [pet,mod:alt] Feed Pet
+/use [pet,mod:alt] Sweet Potato Bread
+END
+MACRO 16777240 "Prowl" INV_Misc_QuestionMark
+#show
+/cast Prowl(Rank 3)
+END
+MACRO 16777241 "Rabid" INV_Misc_QuestionMark
+#show
+/cast Rabid
+END
+MACRO 16777244 "safe pet" Ability_Tracking
+/cast [mod:shift] Dismiss Pet
+/cast [mod:alt] Dash
+/petpassive
+/petfollow
+/script UIErrorsFrame:Clear()
+END

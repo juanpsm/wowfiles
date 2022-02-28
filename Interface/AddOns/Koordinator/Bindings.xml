@@ -1,0 +1,10 @@
+<Bindings>
+	<Binding name="KOO_CHATCOORDS" description="KoodrinatorDescription" header="KOO_HEADER">
+		keybindings = 1;
+		KoordinatorMiniWindowLeftClick(arg1, keybindings);
+	</Binding>
+	<Binding name="KOO_OPTIONS" description="KoodrinatorDescription" header="KOO_HEADER">
+		keybindings = 1;
+		KoordinatorMiniWindowRightClick(arg1, keybindings);
+	</Binding>
+</Bindings>

@@ -1,0 +1,5 @@
+
+AtlasLootCharDB = {
+}
+AtlasLootFilterDB = {
+}

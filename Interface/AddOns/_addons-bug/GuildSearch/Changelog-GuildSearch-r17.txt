@@ -1,0 +1,26 @@
+------------------------------------------------------------------------
+r17 | talryn1 | 2010-10-06 23:10:52 +0000 (Wed, 06 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/GuildSearch.lua
+
+Fixing issues with setFilter
+------------------------------------------------------------------------
+r16 | talryn1 | 2010-10-06 21:30:03 +0000 (Wed, 06 Oct 2010) | 1 line
+Changed paths:
+   M /trunk/GuildSearch.lua
+   M /trunk/Locale/enUS.lua
+
+Cleaned up code.  Added right click for options.
+------------------------------------------------------------------------
+r15 | talryn1 | 2010-09-07 20:30:12 +0000 (Tue, 07 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/GuildSearch.toc
+
+Adding X-Compatible-With to TOC
+------------------------------------------------------------------------
+r14 | talryn1 | 2010-09-07 06:41:52 +0000 (Tue, 07 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/embeds.xml
+
+Removing old library reference
+------------------------------------------------------------------------

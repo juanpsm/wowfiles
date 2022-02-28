@@ -1,0 +1,45 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Elchamaquito"] = {
+				["Friends"] = {
+					"Candas", -- [1]
+					"Citru", -- [2]
+					"Crotta", -- [3]
+					"Eldarion", -- [4]
+					"Epyon", -- [5]
+					"Gilraenloss", -- [6]
+					"Gringax", -- [7]
+					"Hanzo", -- [8]
+					"Hasseo", -- [9]
+					"Heyfer", -- [10]
+					"Ijaa", -- [11]
+					"Izanagi", -- [12]
+					"Josflea", -- [13]
+					"Manipuladora", -- [14]
+					"Mentalista", -- [15]
+					"Mincest", -- [16]
+					"Nataku", -- [17]
+					"Neruneya", -- [18]
+					"Pasado", -- [19]
+					"Raimondo", -- [20]
+					"Regy", -- [21]
+					"Ryazi", -- [22]
+					"Ryonan", -- [23]
+					"Searinoxs", -- [24]
+					"Senarion", -- [25]
+					"Shadowsongs", -- [26]
+					"Shiraiya", -- [27]
+					"Skombrow", -- [28]
+					"Spawm", -- [29]
+					"Turco", -- [30]
+					"Warlok", -- [31]
+				},
+			},
+		},
+	},
+}

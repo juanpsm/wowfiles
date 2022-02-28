@@ -1,0 +1,15 @@
+
+GFW_FeedOMatic_DB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "jsanchez",
+	},
+	["profiles"] = {
+		["jsanchez"] = {
+		},
+		["Gilraenloss - WoWArg"] = {
+			["IconWarning"] = true,
+		},
+	},
+}
+FOM_CookingRecipes = {
+}

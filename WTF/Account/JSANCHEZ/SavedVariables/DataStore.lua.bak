@@ -1,0 +1,9 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Default.WoWArg.Gilraenloss"] = true,
+	},
+}

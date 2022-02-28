@@ -1,0 +1,14 @@
+
+Nauticus3DB = {
+	["global"] = {
+		["timestamp"] = 1615834038,
+		["uptime"] = 76265.749,
+	},
+	["profileKeys"] = {
+		["Skom - WoWArg"] = "Skom - WoWArg",
+	},
+	["profiles"] = {
+		["Skom - WoWArg"] = {
+		},
+	},
+}

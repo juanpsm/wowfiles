@@ -1,0 +1,9 @@
+## Interface: 30200
+## Title: Leatrix Gfx
+## Notes: Version 2.14.  Run Wow in turbo mode.
+## Dependencies:
+## Author: Leatrix
+## DefaultState: Enabled
+## SavedVariables: LeaGfxDB
+Leatrix_Gfx_User.lua
+Leatrix_Gfx.lua

@@ -1,0 +1,158 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["lastUpdate"] = 1252416337,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							[10] = 28060,
+							[6] = 28060,
+							[7] = 28060,
+							[9] = 28060,
+							[11] = 28060,
+							[8] = 28060,
+							[12] = 11630,
+						},
+						["link"] = "|cff1eff00|Hitem:3604:0:0:0:0:0:0:0:60|h[Bandolier of the Night Watch]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Blue",
+						["bagtype"] = 2,
+						["size"] = 12,
+						["counts"] = {
+							[10] = 200,
+							[6] = 200,
+							[7] = 200,
+							[9] = 200,
+							[11] = 200,
+							[8] = 200,
+							[12] = 200,
+						},
+						["freeslots"] = 5,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							14047, -- [1]
+							[10] = 25350,
+							[6] = 24595,
+							[7] = 25417,
+							[9] = 25342,
+							[11] = 25403,
+							[16] = 25404,
+							[4] = 8766,
+							[12] = 25338,
+						},
+						["links"] = {
+							[6] = "|cff1eff00|Hitem:24595:0:0:0:0:0:-37:29:60|h[Fireheart Shoulderpads of the Physician]|h|r",
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							3, -- [1]
+							[7] = 10,
+						},
+						["freeslots"] = 7,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							15993, -- [1]
+							22728, -- [2]
+							28102, -- [3]
+							10592, -- [4]
+							22829, -- [5]
+							13446, -- [6]
+							13446, -- [7]
+							11950, -- [8]
+							8529, -- [9]
+							22832, -- [10]
+							1708, -- [11]
+							nil, -- [12]
+							27854, -- [13]
+							9224, -- [14]
+							9144, -- [15]
+							2595, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:4500:0:0:0:0:0:0:0:60|h[Traveler's Backpack]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
+						["size"] = 16,
+						["counts"] = {
+							3, -- [1]
+							[16] = 2,
+							[7] = 5,
+							[9] = 3,
+							[11] = 15,
+							[13] = 14,
+							[8] = 12,
+							[14] = 3,
+						},
+						["freeslots"] = 1,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							21990, -- [1]
+							14530, -- [2]
+							13444, -- [3]
+							26002, -- [4]
+							21877, -- [5]
+							31772, -- [6]
+							23589, -- [7]
+							24069, -- [8]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:60|h[Netherweave Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+						["counts"] = {
+							12, -- [1]
+							13, -- [2]
+							5, -- [3]
+							[5] = 7,
+						},
+						["freeslots"] = 8,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							6948, -- [1]
+							4470, -- [2]
+							4471, -- [3]
+							18662, -- [4]
+							2820, -- [5]
+							10721, -- [6]
+							10726, -- [7]
+							4396, -- [8]
+							6219, -- [9]
+							1893, -- [10]
+							5956, -- [11]
+							6365, -- [12]
+							15778, -- [13]
+							10455, -- [14]
+							11905, -- [15]
+							14271, -- [16]
+						},
+						["links"] = {
+							[16] = "|cff1eff00|Hitem:14271:0:0:0:0:0:877:0:60|h[Gaea's Circlet of the Eagle]|h|r",
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:60|h[Netherweave Bag]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+						["counts"] = {
+							[2] = 9,
+						},
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							9249, -- [1]
+							6893, -- [2]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 21,
+				["numBagSlots"] = 76,
+			},
+		},
+	},
+}

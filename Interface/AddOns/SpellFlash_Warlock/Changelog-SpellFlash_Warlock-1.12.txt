@@ -1,0 +1,20 @@
+------------------------------------------------------------------------
+r28 | bigredbrent | 2010-06-23 08:37:45 +0000 (Wed, 23 Jun 2010) | 1 line
+Changed paths:
+   A /tags/1.12 (from /trunk:27)
+
+Tagging as 1.12
+------------------------------------------------------------------------
+r27 | bigredbrent | 2010-06-23 08:36:47 +0000 (Wed, 23 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/SpellFlash_Warlock.toc
+   M /trunk/Version History.txt
+
+updated toc and history files
+------------------------------------------------------------------------
+r26 | bigredbrent | 2010-05-11 02:56:00 +0000 (Tue, 11 May 2010) | 1 line
+Changed paths:
+   M /trunk/Functions.lua
+
+updated timer code
+------------------------------------------------------------------------

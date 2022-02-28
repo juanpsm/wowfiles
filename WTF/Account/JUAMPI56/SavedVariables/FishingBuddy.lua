@@ -1,0 +1,2 @@
+
+FishingBuddy_Info = nil

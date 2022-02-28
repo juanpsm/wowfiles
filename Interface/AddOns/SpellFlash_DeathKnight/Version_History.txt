@@ -1,0 +1,54 @@
+==Version 1.06
+Removed Presence Flash from Frost and Unholy Spec as requested by posters.  Made minor changes to Dark Simulacrum so that it should flash on spells now properly.  Updated Blood DK usage of Blood Strike, IF and other
+spells to allow better handling of flash.
+Changed Interface to 40200 
+
+==Version 1.05
+Incorporated changes which Fenix mentioned in his post on the curse website for frost based builds.  Began tweaking for blood spec DK's and will have this completed for 1.06+
+Changed Interface to 40100
+
+
+==Version 1.04
+* Fixed a bug with dual-wielding frost spec that caused errors to occur when Presence check was performed.
+* Fixed issue with Blood spec cooldowns
+* Fixed Unholy Spec issue where Summon Ghoul would flash when mounted.
+* Modified Frost rotation to account for more IT and PS in an attempt to keep runes from being on cooldown too for Obliterates.  Only further testing and time will tell if this was set up correctly.
+
+
+
+==Version 1.03
+*Changed preference of presence based on weapon in hand.  Frost spec'd DKs in two-hander mode will now have Unholy presence flash instead of frost presence.  When dual-wielding however, frost presence will flash.  Minor update only.
+
+
+
+==Version 1.02
+*Fixed issue with Death and Decay and added to the list of usable spells.
+*Fixed problem where Raise Dead was not glowing when ghoul wasn't out.  Spell will now flash green in Unholy Spec when the pet is not active and not flash if pet is active.
+*Resolved some discretionary conditions keeping certain spells from flashing when health was dropping.
+*Changed conditions on spells to take advantage of runic power now.
+
+
+==Version 1.01d
+
+*Fixed Blood Spec good enough to generate threat for pre-raid dungeons.  Still needs work
+*Fixed a bug from a mistype in Icebound Fortitude conditions.
+
+
+==Version 1.01c
+
+* Further enhancements to scripts and added diseases as their own function for upcoming changes
+
+
+== Version 1.01b
+
+* Changed Functions up and reconfigured scripts - Bug repairs
+
+
+== Version 1.0
+
+* First release for all DK Specs.
+
+*This does not take into account AOE based spells in Unholy as it was written mainly for single target based attacks.
+*The Blood spec is still a work in progress.  If you have suggestions, please send me a message or post a comment.
+
+

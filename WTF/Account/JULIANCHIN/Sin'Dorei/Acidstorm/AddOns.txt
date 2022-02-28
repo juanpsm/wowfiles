@@ -1,0 +1,3 @@
+NugComboBar: enabled
+Gatherer_HUD: disabled
+Gatherer: disabled

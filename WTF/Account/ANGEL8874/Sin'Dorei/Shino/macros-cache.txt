@@ -1,0 +1,29 @@
+MACRO 16777229 "b" INV_Misc_QuestionMark
+/targent lois
+END
+MACRO 16777221 "Backstab" Ability_Rogue_Ambush
+/equipslot 16 Talbuk Dirk
+/use Ambush(Rank 6)
+/equipslot  16 Shadowrend Longblade
+/targetlastenemy
+/use attack
+END
+MACRO 16777220 "FASO" Spell_Holy_SealOfSacrifice
+/TARGET IJAA
+/USE Heavy Netherweave Bandage
+/cleartarget 
+END
+MACRO 16777227 "for" Ability_CheapShot
+/forfeit
+END
+MACRO 16777225 "Healing focus" Ability_Creature_Poison_03
+/target focus
+/use Lesser Healing Wave
+/targerlastenemy
+END
+MACRO 16777230 "Purge" Spell_unused2
+/use [target=targettarget] purge
+END
+MACRO 16777228 "Shino" Ability_Ambush
+/who warsong gulch-l-30-39
+END

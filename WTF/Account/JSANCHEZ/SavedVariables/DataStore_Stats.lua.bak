@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Gilraenloss"] = {
+				["lastUpdate"] = 1252416337,
+				["Stats"] = {
+					["Ranged"] = "187-225|1.4210000674939|372|27|14.034199714661",
+					["Spell"] = "13|13|27|8.7667999267578|0|33",
+					["Melee"] = "233-319|2.6000001234934|415|27|8.2741994857788|0",
+					["MaxPower"] = "0|3420",
+					["PVP"] = "65|0|0|391",
+					["HealthMax"] = 3723,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "53|262|240|132|72|2886",
+					["Defense"] = "2886|287|6.7279205322266|4.5599999427795|0|0",
+				},
+			},
+		},
+	},
+}

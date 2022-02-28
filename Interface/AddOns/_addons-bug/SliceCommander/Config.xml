@@ -1,0 +1,830 @@
+﻿<Ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.blizzard.com/wow/ui/">
+	<Script file="Config.lua" />
+	<Frame name="SliceCmdr_Config_RupFrame" hidden="true" parent="UIParent">
+		<Size x="263" y="256" />
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="533" y="-534" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<CheckButton name="SliceCmdr_Config_ShowRupBar" inherits="UICheckButtonTemplate">
+				<Size x="25" y="25" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-41" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<CheckButton name="SliceCmdr_Config_ShowMineRup" inherits="UICheckButtonTemplate">
+				<Size x="25" y="25" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-61" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+		</Frames>
+		<Layers>
+			<Layer>
+				<FontString name="FontString11" inherits="" font="GameFontNormalLarge" text="Blood Settings" justifyH="LEFT">
+					<Size x="234" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-15" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString14" inherits="GameFontWhite" text="Show Bar" justifyH="LEFT">
+					<Size x="81" y="22" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="42" y="-41" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString114" inherits="GameFontWhite" text="Show Only My Rupture" justifyH="LEFT">
+					<Size x="160" y="22" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="42" y="-61" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config_DPFrame" hidden="true" parent="UIParent">
+		<Size x="256" y="256" />
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="271" y="-534" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<CheckButton name="SliceCmdr_Config_ShowDPBar" inherits="UICheckButtonTemplate">
+				<Size x="25" y="25" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="18" y="-41" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+		</Frames>
+		<Layers>
+			<Layer>
+				<FontString name="FontString10" inherits="" font="GameFontNormalLarge" text="Deadly Poison Settings" justifyH="LEFT">
+					<Size x="223" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="18" y="-15" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString12" inherits="GameFontWhite" text="Show Bar" justifyH="LEFT">
+					<Size x="160" y="22" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="49" y="-41" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config_EAFrame" hidden="true" parent="UIParent">
+		<Size x="256" y="256" />
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="271" y="-534" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<CheckButton name="SliceCmdr_Config_ShowEABar" inherits="UICheckButtonTemplate">
+				<Size x="25" y="25" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-41" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+		</Frames>
+		<Layers>
+			<Layer>
+				<FontString name="FontString111" inherits="" font="GameFontNormalLarge" text="Expose Armor Settings" justifyH="LEFT">
+					<Size x="223" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="18" y="-15" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString112" inherits="GameFontWhite" text="Show Bar" justifyH="LEFT">
+					<Size x="160" y="22" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="42" y="-41" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config_CPFrame" hidden="true" parent="UIParent">
+		<Size x="256" y="256" />
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="9" y="-534" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<CheckButton name="SliceCmdr_Config_ShowCPBar" inherits="UICheckButtonTemplate">
+				<Size x="25" y="25" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-41" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+		</Frames>
+		<Layers>
+			<Layer>
+				<FontString name="FontString6" inherits="" font="GameFontNormalLarge" text="Combo Point Settings" justifyH="LEFT">
+					<Size x="226" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-15" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString13" inherits="GameFontWhite" text="Show Bar" justifyH="LEFT">
+					<Size x="160" y="22" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="46" y="-41" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config_EnergyFrame" hidden="true" parent="UIParent" toplevel="true">
+		<Size x="386" y="273" />
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="3" y="-255" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<Slider name="SliceCmdr_Config_Energy1" inherits="OptionsSliderTemplate" setAllPoints="true" minValue="0" maxValue="120" defaultValue="25" valueStep="1">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="14" y="-85" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>if (SliceCmdr_Config_Energy1V) then	SliceCmdr_Config_Energy1V:SetText(this:GetValue());end</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<EditBox name="SliceCmdr_Config_Energy1V" protected="true" font="GameFontNormal" letters="3" blinkSpeed="20" numeric="true" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="147" y="-73" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>SliceCmdr_Config_Energy1:SetValue(this:GetText());</OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<Slider name="SliceCmdr_Config_Energy2" inherits="OptionsSliderTemplate" minValue="0" maxValue="120" defaultValue="40" valueStep="1">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="200" y="-85" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>SliceCmdr_Config_Energy2_OnValueChanged();</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<EditBox name="SliceCmdr_Config_Energy2V" font="GameFontNormal" letters="3" blinkSpeed="20" numeric="true" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="334" y="-73" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>SliceCmdr_Config_Energy2V_OnTextChanged();</OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<CheckButton name="SliceCmdr_Config_HideE" inherits="UICheckButtonTemplate" parent="SliceCmdr_Config_EnergyFrame" text="Don't Show">
+				<Size x="18" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="17" y="-40" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<CheckButton name="SliceCmdr_Config_HideCombo" inherits="UICheckButtonTemplate">
+				<Size x="18" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="193" y="-40" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<EditBox name="SliceCmdr_Config_TransFullV" font="GameFontNormal" blinkSpeed="20" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPRIGHT" relativeTo="SliceCmdr_Config_TransFullStr">
+						<Offset x="36" y="1" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>SliceCmdr_Config_TransFullV_OnTextChanged();</OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<Slider name="SliceCmdr_Config_TransFull" inherits="OptionsSliderTemplate" minValue="0" maxValue="100" valueStep="1">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="SliceCmdr_Config_TransFullStr">
+						<Offset x="0" y="-19" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>SliceCmdr_Config_TransFull_OnValueChanged();</OnValueChanged>
+				</Scripts>
+			</Slider>
+		</Frames>
+		<Layers>
+			<Layer>
+				<FontString name="FontString9" inherits="GameFontWhite" text="Hide Combo Points" justifyH="LEFT">
+					<Size x="145" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="217" y="-40" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString4" inherits="GameFontNormal" text="Energy Marker II">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="200" y="-66" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString3" inherits="GameFontNormal" text="Energy Marker I">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="14" y="-66" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString7" inherits="GameFontWhite" text="Hide Energy Bar" justifyH="LEFT" maxLines="1">
+					<Size x="146" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="">
+							<Offset x="38" y="-40" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_TransFullStr" inherits="GameFontNormal" text="Transparency (Full)">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-135" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_EnergyFrame_Caption" inherits="GameFontNormalLarge" setAllPoints="true" text="Energy Settings" nonspacewrap="true" justifyH="LEFT">
+					<Size x="227" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent">
+							<Offset x="14" y="-14" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config3" hidden="true">
+		<Size>
+			<AbsDimension x="395" y="245" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="401" y="-3" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Layers>
+			<Layer>
+				<FontString name="SliceCmdr_Config_HfB_Refresh2Str" inherits="GameFontNormalSmall" text="2 Second Refresh" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-94" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_HfB_Refresh3Str" inherits="GameFontNormalSmall" text="3 Second+ Refresh" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-51" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_HfB_Refresh1Str" inherits="GameFontNormalSmall" text="1 Second Refresh" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-138" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_HfB_ExpireStr" inherits="GameFontNormalSmall" text="Expired" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-182" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_HfB_FailureStr" inherits="GameFontNormalSmall" text="Failure" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-138" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_HfB_AppliedStr" inherits="GameFontNormalSmall" text="Applied" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-182" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_HfB_AlertStr" inherits="GameFontNormalSmall" text="Alert" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-51" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config3_Caption" inherits="GameFontNormalLarge" setAllPoints="true" text="Hunger For Blood Settings" nonspacewrap="true" justifyH="LEFT">
+					<Size x="366" y="27" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent" relativePoint="TOPLEFT">
+							<Offset x="14" y="-10" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config2" hidden="true" parent="UIParent">
+		<Size>
+			<AbsDimension x="395" y="274" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="401" y="-254" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Layers>
+			<Layer>
+				<FontString name="SliceCmdr_Config_ExpireStr" inherits="GameFontNormalSmall" text="Expired" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-224" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_FailStr" inherits="GameFontNormalSmall" text="Failure" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-181" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_Tick2Str" inherits="GameFontNormalSmall" text="-" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-93" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_AppliedStr" inherits="GameFontNormalSmall" text="Applied" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-182" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_Applied3Str" inherits="GameFontNormalSmall" text="3 Second Refresh" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-51" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_Applied2Str" inherits="GameFontNormalSmall" text="2 Second Refresh" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-94" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_Applied1Str" inherits="GameFontNormalSmall" text="1 Second Refresh" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="201" y="-138" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_Tick1Str" inherits="GameFontNormalSmall" text="-" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-137" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_Tick3Str" inherits="GameFontNormalSmall" text="Alert" justifyH="LEFT">
+					<Size x="142" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="SliceCmdr_Config2" relativePoint="TOPLEFT">
+							<Offset x="15" y="-50" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config2_Caption" inherits="GameFontNormalLarge" text="Slice and Dice Settings" justifyH="LEFT">
+					<Size x="366" y="32" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="$parent">
+							<Offset x="15" y="-12" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+	</Frame>
+	<Frame name="SliceCmdr_Config" hidden="true" parent="UIParent" toplevel="true">
+		<Size>
+			<AbsDimension x="395" y="248" />
+		</Size>
+		<Anchors>
+			<Anchor point="TOPLEFT">
+				<Offset x="0" y="0" />
+			</Anchor>
+		</Anchors>
+		<Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" edgeFile="Interface\DialogFrame\UI-DialogBox-Border" tile="true">
+			<BackgroundInsets>
+				<AbsInset left="11" right="12" top="12" bottom="11" />
+			</BackgroundInsets>
+			<TileSize>
+				<AbsValue val="32" />
+			</TileSize>
+			<EdgeSize>
+				<AbsValue val="32" />
+			</EdgeSize>
+		</Backdrop>
+		<Frames>
+			<EditBox name="SliceCmdr_Config_WidthV" font="GameFontNormal" letters="3" blinkSpeed="20" numeric="true" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="332" y="-141" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>local adjust = floor(this:GetText() + 0.5); if ( adjust &gt; 0) then SliceCmdr_Config_Width:SetValue( adjust ); SliceCmdr_SetWidth( adjust ); end</OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<EditBox name="SliceCmdr_Config_TimerHeightV" font="GameFontNormal" letters="3" blinkSpeed="20" numeric="true" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="332" y="-200" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>local adjust = floor(this:GetText() + 0.5); if ( adjust &gt; 0) then SliceCmdr_Config_TimerHeight:SetValue( adjust ); SliceCmdr_SetWidth( adjust ); end</OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<CheckButton name="SliceCmdr_Config_Lock" inherits="UICheckButtonTemplate" parent="SliceCmdr_Config" text="Lock Placement">
+				<Size x="18" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-51" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<Slider name="SliceCmdr_Config_Scale" inherits="OptionsSliderTemplate" minValue="50" maxValue="200" defaultValue="100" valueStep="10">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-159" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>if (SliceCmdr_Config_ScaleV) then	SliceCmdr_Config_ScaleV:SetText(this:GetValue()); end</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<Slider name="SliceCmdr_Config_EnergyHeight" inherits="OptionsSliderTemplate" minValue="1" maxValue="50" defaultValue="20" valueStep="1">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-218" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>if (SliceCmdr_Config_EnergyHeightV) then	SliceCmdr_Config_EnergyHeightV:SetText(this:GetValue()); end</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<Button name="SliceCmdr_ResetPos" inherits="UIPanelButtonTemplate" text="Reset Position">
+				<Size x="109" y="20" />
+				<Anchors>
+					<Anchor point="BOTTOMRIGHT">
+						<Offset x="-20" y="20" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnClick>SliceCmdr:ClearAllPoints(); SliceCmdr:SetPoint("TOPLEFT", 100, -150); gw_print('test');</OnClick>
+				</Scripts>
+			</Button>
+			<CheckButton name="SliceCmdr_Config_PadLatency" inherits="UICheckButtonTemplate" parent="SliceCmdr_Config">
+				<Size x="18" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-77" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<CheckButton name="SliceCmdr_Config_SpellText" inherits="UICheckButtonTemplate" parent="SliceCmdr_Config">
+				<Size x="18" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="15" y="-103" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<CheckButton name="SliceCmdr_Config_SoundCombat" inherits="UICheckButtonTemplate" parent="SliceCmdr_Config">
+				<Size x="18" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="183" y="-103" />
+					</Anchor>
+				</Anchors>
+			</CheckButton>
+			<EditBox name="SliceCmdr_Config_BarMargin" font="GameFontNormal" letters="3" numeric="true">
+				<Size x="34" y="24" />
+				<Anchors>
+					<Anchor point="TOPLEFT">
+						<Offset x="300" y="-77" />
+					</Anchor>
+				</Anchors>
+			</EditBox>
+			<EditBox name="SliceCmdr_Config_EnergyHeightV" font="GameFontNormal" letters="3" blinkSpeed="20" numeric="true" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="SliceCmdr_EnnergyBarHeight" relativePoint="TOPRIGHT">
+						<Offset x="0" y="0" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>local adjust = floor(this:GetText() + 0.5); if ( adjust &gt; 0) then SliceCmdr_Config_EnergyHeight:SetValue( adjust ); SliceCmdr_SetScale( adjust ); end </OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<EditBox name="SliceCmdr_Config_ScaleV" font="GameFontNormal" letters="3" blinkSpeed="20" numeric="true" autoFocus="false">
+				<Size x="36" y="20" />
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="SliceCmdr_FontScaleStr" relativePoint="TOPRIGHT">
+						<Offset x="0" y="0" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnTextChanged>local adjust = floor(this:GetText() + 0.5); if ( adjust &gt; 0) then SliceCmdr_Config_Scale:SetValue( adjust ); SliceCmdr_SetScale( adjust ); end </OnTextChanged>
+				</Scripts>
+			</EditBox>
+			<Slider name="SliceCmdr_Config_Width" inherits="OptionsSliderTemplate" minValue="25" maxValue="300" valueStep="5">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="SliceCmdr_FontWidthStr" relativePoint="BOTTOMLEFT">
+						<Offset x="0" y="1" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>if (SliceCmdr_Config_WidthV) then	SliceCmdr_Config_WidthV:SetText(this:GetValue()); end</OnValueChanged>
+				</Scripts>
+			</Slider>
+			<Slider name="SliceCmdr_Config_TimerHeight" inherits="OptionsSliderTemplate" minValue="1" maxValue="50" defaultValue="20" valueStep="1">
+				<Size x="130" y="10" />
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="SliceCmdr_TimerBarHeight" relativePoint="BOTTOMLEFT">
+						<Offset x="0" y="1" />
+					</Anchor>
+				</Anchors>
+				<Scripts>
+					<OnValueChanged>if (SliceCmdr_Config_TimerHeightV) then	SliceCmdr_Config_TimerHeightV:SetText(this:GetValue()); end</OnValueChanged>
+				</Scripts>
+			</Slider>
+		</Frames>
+		<Layers>
+			<Layer>
+				<FontString name="SliceCmdr_TimerBarHeight" inherits="GameFontNormal" text="TimerBar Height">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="202" y="-200" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_FontWidthStr" inherits="GameFontNormal" text="Bar Width">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="202" y="-141" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_FontScaleStr" inherits="GameFontNormal" text="AddOn Scale">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-141" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_EnnergyBarHeight" inherits="GameFontNormal" text="EnergyBar Height">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-200" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString1" inherits="GameFontNormalLarge" text="Slice Commander" justifyH="LEFT">
+					<Size x="366" y="32" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="14" y="-13" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString8" inherits="GameTooltipTextSmall" text="Click the + next to 'SliceCommander' in the list to the left for more options." justifyV="BOTTOM">
+					<Size x="356" y="31" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="15" y="-103" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString5" inherits="GameFontWhite" text="Pad Alerts with Latency" justifyH="LEFT" maxLines="1">
+					<Size x="183" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="34" y="-77" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString105" inherits="GameFontWhite" text="Enable spell text on bars" justifyH="LEFT" maxLines="1">
+					<Size x="183" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="34" y="-103" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_BarTextureStr" inherits="GameFontWhite" text="Bar Texture" justifyH="LEFT">
+					<Size x="130" y="24" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="202" y="-51" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="SliceCmdr_Config_SoundCombatStr" inherits="GameFontWhite" text="Disabl sounds out of combat" justifyH="LEFT">
+					<Size x="130" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="202" y="-103" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString15" inherits="GameFontWhite" text="Bar Margin" justifyH="LEFT"  maxLines="1">
+					<Size x="100" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT">
+							<Offset x="202" y="-77" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+				<FontString name="FontString2" inherits="GameFontWhite" text="Disable Right Click to Move" justifyH="LEFT">
+					<Size x="231" y="20" />
+					<Anchors>
+						<Anchor point="TOPLEFT" relativeTo="SliceCmdr_Config">
+							<Offset x="34" y="-51" />
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnLoad>SliceCmdr_Config_OnLoad(self);</OnLoad>
+			<OnEvent>SliceCmdr_Config_OnEvent(self, event, ...);</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

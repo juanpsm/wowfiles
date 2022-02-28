@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["Trolly_WoWArg::Horde"] = 0,
+	["VIEWALL"] = true,
+	["INITIALIZED"] = true,
+}

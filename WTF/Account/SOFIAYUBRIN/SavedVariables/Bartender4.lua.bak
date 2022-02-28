@@ -1,0 +1,139 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["BagBar"] = {
+			["profiles"] = {
+				["Zelphar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.50005258361989,
+						["point"] = "CENTER",
+						["y"] = 1.499957810021442,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Zelphar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 53.50004150618634,
+						["point"] = "CENTER",
+						["y"] = 51.49996355387589,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["ActionBars"] = {
+			["profiles"] = {
+				["Zelphar - WoWArg"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -204.9999990426909,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -189.5000032138233,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -151.5000450619058,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -113.5000168896673,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -75.50005873774967,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+								["y"] = -37.49999555535078,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Zelphar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -231.7500110432441,
+						["point"] = "CENTER",
+						["y"] = 14.25001931712956,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Zelphar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.5000751487625,
+						["point"] = "CENTER",
+						["y"] = 89.49995671595389,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Zelphar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -188.8000814286088,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.39990244255216,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["profiles"] = {
+		["Zelphar - WoWArg"] = {
+		},
+	},
+}

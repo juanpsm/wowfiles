@@ -1,0 +1,31 @@
+
+FIZ_Data = {
+	["ShowInstances"] = true,
+	["ExtendDetails"] = 1,
+	["SSO"] = {
+		["WoWArg"] = {
+			["phase4c"] = 2,
+			["phase3b"] = 2,
+			["phase"] = 4,
+			["phase2b"] = 2,
+			["phase4b"] = 2,
+		},
+	},
+	["ChatFrame"] = 1,
+	["ShowMobs"] = true,
+	["ShowQuests"] = true,
+	["ShowMissing"] = 1,
+	["Version"] = 201031,
+	["ShowItems"] = true,
+	["WriteChatMessage"] = 1,
+	["ShowPreviewRep"] = 1,
+	["OriginalCollapsed"] = {
+	},
+	["needsTip"] = {
+		["FIZ_OptionsButton"] = true,
+		["FIZ_SupressNoneFactionButton"] = true,
+		["FIZ_ChatFrameSlider"] = true,
+		["FIZ_OrderByStandingCheckBox"] = true,
+		["FIZ_SupressNoneGlobalButton"] = true,
+	},
+}

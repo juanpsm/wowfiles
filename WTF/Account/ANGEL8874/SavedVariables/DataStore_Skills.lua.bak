@@ -1,0 +1,51 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["lastUpdate"] = 1539810358,
+				["Skills"] = {
+					["Profesiones"] = {
+						["Herboristería"] = "450|450",
+						["Alquimia"] = "450|450",
+					},
+					["Habilidades con armas"] = {
+						["Sin armas"] = "400|400",
+						["Hachas"] = "246|400",
+						["Armas de fuego"] = "241|400",
+						["Ballestas"] = "188|400",
+						["Dagas"] = "400|400",
+						["Arcos"] = "196|400",
+						["Espadas"] = "348|400",
+						["Defensa"] = "400|400",
+						["Mazas"] = "400|400",
+						["Armas arrojadizas"] = "394|400",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+						["Idioma: darnassiano"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
+						["Cuero"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Combate"] = "1|1",
+						["Asesinato"] = "1|1",
+						["Sutileza"] = "1|1",
+						["Ganzúa"] = "400|400",
+					},
+					["Habilidades secundarias"] = {
+						["Cocina"] = "275|375",
+						["Pesca"] = "287|375",
+						["Equitación"] = "300|300",
+						["Primeros auxilios"] = "450|450",
+					},
+				},
+			},
+		},
+	},
+}

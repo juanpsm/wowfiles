@@ -1,0 +1,29 @@
+------------------------------------------------------------------------
+r149 | drool | 2009-08-05 18:14:16 +0000 (Wed, 05 Aug 2009) | 1 line
+Changed paths:
+   A /tags/3.2.0 (from /trunk:148)
+
+Tagging as 3.2.0
+------------------------------------------------------------------------
+r148 | drool | 2009-08-05 18:13:12 +0000 (Wed, 05 Aug 2009) | 4 lines
+Changed paths:
+   M /trunk/Locales/locale.deDE.lua
+   M /trunk/Locales/locale.ruRU.lua
+   M /trunk/NautCore.lua
+   M /trunk/Nauticus.toc
+   M /trunk/data.lua
+
+- bump TOC, internal version num
+- remove some legacy saved var handling
+- take out conditional build check for new route
+- update deDE and ruRU
+------------------------------------------------------------------------
+r147 | drool | 2009-07-01 16:53:40 +0000 (Wed, 01 Jul 2009) | 2 lines
+Changed paths:
+   M /trunk/Locales/locale.enUS.lua
+   M /trunk/NautCore.lua
+   M /trunk/data.lua
+
+- don't trigger coords when in vehicle
+- add new zeppelin route - The Zephyr for patch 3.2
+------------------------------------------------------------------------

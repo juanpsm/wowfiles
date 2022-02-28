@@ -1,0 +1,13 @@
+------------------------------------------------------------------------
+r21 | thaoky | 2010-03-09 10:22:10 +0000 (Tue, 09 Mar 2010) | 1 line
+Changed paths:
+   M /trunk/DataStore_Containers.lua
+
+Added GetGuildBankTabIcon()
+------------------------------------------------------------------------
+r20 | thaoky | 2010-01-28 09:19:50 +0000 (Thu, 28 Jan 2010) | 1 line
+Changed paths:
+   M /trunk/DataStore_Containers.lua
+
+Reset guild bank money after db conversion.
+------------------------------------------------------------------------

@@ -1,0 +1,32 @@
+## Interface: 30300
+## Title: Track-o-Matique
+## Notes: Automatic tracking of the current target's creature type. For the discerning PvE hunter.
+## Notes-ruRU: Автоматическая смена выслеживания, по типу текущей цели. Для ПвЕ охотников.
+## Notes-zhTW: 讓獵人自動切換追蹤目標種類
+## Notes-zhCN: 让猎人自动追踪目标种类
+## Version: 3.4.7
+## LoadManagers: AddonLoader
+## X-LoadOn-Class: Hunter
+## X-Category: Hunter
+## X-Date: Jan, 2010
+## X-Build: 86
+## Author: Anyia of HordeYakka (Jubei'Thos)
+## SavedVariables: Track_o_MatiqueDB
+## X-Curse-Packaged-Version: 3.4.7
+## X-Curse-Project-Name: Track-o-Matique
+## X-Curse-Project-ID: track-o-matique
+## X-Curse-Repository-ID: wow/track-o-matique/mainline
+
+embeds.xml
+bindings.xml
+locale.lua
+locale.enUS.lua
+locale.deDE.lua
+locale.frFR.lua
+locale.ruRU.lua
+locale.esES.lua
+locale.zhTW.lua
+locale.zhCN.lua
+locale.koKR.lua
+Track-o-Matique.lua
+

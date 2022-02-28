@@ -1,0 +1,27 @@
+
+TalentedDB = {
+	["global"] = {
+		["templates"] = {
+			["Copy of Pet Talents"] = "t132D3110b2",
+			["MM PVP"] = "35ZAw5aamBopdtn5ap0AAaA",
+			["Solo"] = "35Am1vvcDnmwbuZw00F",
+			["MM PVE"] = "3tAZ3Pr0cm1opdtmrat00A",
+		},
+	},
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["profiles"] = {
+		["Gilraenloss - WoWArg"] = {
+			["last_template"] = "Copy of Pet Talents",
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = -83.44311149356295,
+					["x"] = -123.0313617725316,
+					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
+				},
+			},
+		},
+	},
+}

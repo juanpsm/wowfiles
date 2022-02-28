@@ -1,0 +1,64 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nightbull"] = {
+				["HistoryLastUpdate"] = 1522877166,
+				["History"] = {
+					[886] = true,
+					[766] = true,
+					[833] = true,
+					[780] = true,
+					[3091] = true,
+					[861] = true,
+					[743] = true,
+					[745] = true,
+					[747] = true,
+					[749] = true,
+					[751] = true,
+					[753] = true,
+					[755] = true,
+					[757] = true,
+					[759] = true,
+					[761] = true,
+					[763] = true,
+					[767] = true,
+					[771] = true,
+					[6362] = true,
+					[844] = true,
+					[1492] = true,
+					[6363] = true,
+					[854] = true,
+					[6364] = true,
+					[860] = true,
+					[6365] = true,
+					[760] = true,
+					[3376] = true,
+					[748] = true,
+					[750] = true,
+					[752] = true,
+					[754] = true,
+					[756] = true,
+					[758] = true,
+					[6361] = true,
+				},
+				["QuestLinks"] = {
+					[2] = "|cffff8040|Hquest:896:18|h[La fortuna de un minero]|h|r",
+				},
+				["HistoryBuild"] = "12340",
+				["lastUpdate"] = 1522877162,
+				["Rewards"] = {
+					[2] = "r|5335|1|1",
+				},
+				["Quests"] = {
+					"0|Los Baldíos", -- [1]
+					"1||0|0|0", -- [2]
+				},
+				["HistorySize"] = 36,
+			},
+		},
+	},
+}

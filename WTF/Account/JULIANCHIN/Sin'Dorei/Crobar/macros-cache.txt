@@ -1,0 +1,37 @@
+MACRO 16777224 "blink" INV_Misc_QuestionMark
+#showtooltip  Blink
+/stopcasting
+/cast Blink
+END
+MACRO 16777217 "Copias-Comb-Icy" INV_Misc_QuestionMark
+/cast Mirror Image
+/cast Combustion
+END
+MACRO 16777222 "dispel" INV_Misc_QuestionMark
+#showtooltip Remove Curse
+/cast [target=player] Remove Curse
+END
+MACRO 16777227 "focus sergio" INV_Misc_QuestionMark
+/cast [target=Informes] Focus Magic
+END
+MACRO 16777225 "ice block" INV_Misc_QuestionMark
+#showtooltip Ice Block
+/stopcasting
+/cast Ice Block
+/cancelaura Ice block
+END
+MACRO 16777228 "lanza mo" INV_Misc_QuestionMark
+#showtooltip
+/cast [@mouseover] Ice Lance(Rank 3)
+END
+MACRO 16777226 "pet frost" INV_Misc_QuestionMark
+/cast [nopet] Summon Water Elemental
+/click PetActionButton5
+/petfollow
+/petpassive
+/petattack
+END
+MACRO 16777223 "UseTeleportDalaran" INV_Misc_QuestionMark
+#showtooltip Teleport: Dalaran
+/cast Teleport: Dalaran
+END

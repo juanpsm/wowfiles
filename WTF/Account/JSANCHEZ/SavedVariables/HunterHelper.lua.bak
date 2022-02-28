@@ -1,0 +1,11 @@
+
+HHConfig = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+		["HighMana"] = {
+			["Threshold"] = 83,
+		},
+	},
+}

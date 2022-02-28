@@ -1,0 +1,44 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Ijaa"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:39561:0:3621:3539:0:0:0:0:80|h[Casco Segahuesos de Héroes]|h|r", -- [1]
+					39421, -- [2]
+					40437, -- [3]
+					2577, -- [4]
+					"|cffa335ee|Hitem:40319:3252:0:0:0:0:0:0:80|h[Pechera de sospecha]|h|r", -- [5]
+					"|cffa335ee|Hitem:41831:0:3539:3521:0:0:0:0:80|h[Cinturón de triunfo de Gladiador mortal]|h|r", -- [6]
+					"|cff0070dd|Hitem:41645:3326:3449:3395:0:0:0:0:80|h[Musleras de cuero de Gladiador indómito]|h|r", -- [7]
+					"|cff0070dd|Hitem:43312:0:3375:0:0:0:0:0:80|h[Bocerguíes embarrados górloc]|h|r", -- [8]
+					43435, -- [9]
+					40541, -- [10]
+					42115, -- [11]
+					45809, -- [12]
+					42123, -- [13]
+					44324, -- [14]
+					42067, -- [15]
+					"|cffa335ee|Hitem:42435:1606:0:0:0:0:0:0:80|h[Faca de acero de titanes]|h|r", -- [16]
+					"|cffa335ee|Hitem:45077:3833:0:0:0:0:0:0:80|h[Daga de la luna naciente]|h|r", -- [17]
+					40716, -- [18]
+					20132, -- [19]
+				},
+				["averageItemLvl"] = 205.3529411764706,
+				["lastUpdate"] = 1539810362,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Sacra Orden del Bosque"] = {
+				["Members"] = {
+					["Ijaa"] = {
+						["averageItemLvl"] = 205,
+					},
+				},
+			},
+		},
+	},
+}

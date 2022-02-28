@@ -1,0 +1,126 @@
+
+
+
+-----------------------------------
+Version 1.18
+
+Now using function SpellFlashAddon.CopyTable to copy tables.
+
+
+-----------------------------------
+Version 1.17
+
+Refined options slider updating code a little.
+
+
+-----------------------------------
+Version 1.16
+
+Now able to check if an item is castable.
+Renamed localization variable from LOCALIZATION to Table.Localize.
+Castable functions created from within a module are no longer global and will only work within the addon it was created for.
+
+
+-----------------------------------
+Version 1.15
+
+Removed case sensitivity of the addon name for the options menu.
+
+
+-----------------------------------
+Version 1.14
+
+Reformatted title in the toc file.
+Reformatted title in the options menu.
+
+
+-----------------------------------
+Version 1.13
+
+Added guide numbers to spec selection slider bar.
+Options frame is now created from a template file to reduce the amount of required changes to convert SpellFlash_TemplateAddon into a functional module.
+
+
+-----------------------------------
+Version 1.12
+
+Hopefully removed harmless error message from popping up.
+
+
+-----------------------------------
+Version 1.11
+
+Added optional description field to the selectable configurations.
+Renamed a few local functions to reduce the script size.
+Added a few more local functions to reduce the script size.
+Using incremental version numbers again.
+
+
+-----------------------------------
+Version 1.10
+
+Replaced the z.DebuffName and z.BuffName variables in the Castable functions with more specific variables.
+The new z.Debuff, z.MyDebuff, z.Buff and z.MyBuff variables are now able to take either a single name or a table of names.
+
+
+-----------------------------------
+Version 1.09
+
+Completely reformatted localization functionality.
+Significantly reconfigured file and variable names to reduce the amount of required changes to convert SpellFlash_TemplateAddon into a functional module.
+
+
+-----------------------------------
+Version 1.08
+
+Added the ability to add multiple selectable scripts per module addon.
+
+
+-----------------------------------
+Version 1.07
+
+Will no longer try to load SpellFlash_TemplateAddon.
+
+
+-----------------------------------
+Version 1.06
+
+Replaced X-SpellFlashAddon-LoadWithClass and X-SpellFlashAddon-LoadWithRace in the toc file with X-SpellFlashAddon-LoadWith.
+
+
+-----------------------------------
+Version 1.05
+
+Added more local functions to reduce the script size.
+
+
+-----------------------------------
+Version 1.04
+
+Added more local functions to reduce the script size, including the SetColor function for selecting a different color if conditions are met.
+
+
+-----------------------------------
+Version 1.03
+
+Added the ability to not load an addon at all unless you log on with a specified class or race.
+Added option to disable flashing for each addon without requiring to log out of the game to disable them.
+
+
+-----------------------------------
+Version 1.02
+
+Added a child options frame.
+
+
+-----------------------------------
+Version 1.01
+
+Incorporated improvements of the SpellFlashAddon.MeleeDistance function by adding a reference to the SpellFlashAddon.OutsideMeleeSpells variable.
+
+
+-----------------------------------
+Version 1.00
+
+Separated functionality into a separate addon.
+

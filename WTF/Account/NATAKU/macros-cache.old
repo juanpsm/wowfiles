@@ -1,0 +1,169 @@
+MACRO 52 "BeaconFocus" INV_Misc_QuestionMark
+#showtooltip Hand of Sacrifice
+/cast [target=Rapunsel] Hand of Sacrifice
+/cast [target=Zakia] Hand of Sacrifice
+/cast [target=Manipuladora] Hand of Sacrifice
+/cast [target=heyling] Hand of Sacrifice
+/cast [target=Spawm] Hand of Sacrifice
+END
+MACRO 39 "BeaconTanque" INV_Misc_QuestionMark
+#showtooltip Beacon of Light
+/cast [target=Focus] Beacon of Light
+END
+MACRO 48 "burbuja" INV_Misc_QuestionMark
+#showtooltip Hand of Protection
+/cast [target=pasado] Hand of Protection
+/cast [target=Spawm] Hand of Protection
+/cast [target=Heyling] Hand of Protection
+/cast [target=Manipuladora] Hand of Protection
+END
+MACRO 37 "Camera" Ability_Creature_Cursed_01
+/console cameradistancemaxfactor 100
+END
+MACRO 34 "chickens" INV_Misc_QuestionMark
+#showtooltip Blessing of Kings
+/cast [target=Hanzo] Blessing of Kings
+END
+MACRO 5 "CuraDevil" Spell_Holy_FlashHeal
+/cast [target=Hanzo] Flash of Light
+END
+MACRO 41 "Decursive" INV_Misc_QuestionMark
+#showtooltip Hand of Protection
+/cast [target=Spawm] Hand of Protection
+/cast [target=Heyling] Hand of Protection
+/cast [target=Manipuladora] Hand of Protection
+END
+MACRO 45 "dispell" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [target=Spawm] Hand of sacrifice, divine sacrifice
+END
+MACRO 6 "DormirEnem" Spell_Holy_PrayerOfHealing
+#showtooltip
+/clearfocus[target=focus, dead]
+/clearfocus[mod: alt]
+/stopmacro[mod: alt]
+/stopmacro[target=focus, dead]
+/tarjet focus
+/focus
+/cast Repentance
+/targetlasttarget
+END
+MACRO 69 "FocusAvenger" INV_Misc_QuestionMark
+#showtooltip Avenger's Shield
+/cast [target=Focus] Avenger's Shield
+END
+MACRO 47 "freedom" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=pasado] Sacred Shield
+/cast [target=Rapunsel] Sacred Shield
+/cast [target=Spawm] Sacred Shield
+END
+MACRO 42 "Help" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Divine Favor, Holy Shock
+END
+MACRO 7 "LeaveParty" Ability_Druid_EarthandSky
+/cast [target=Focus] intercept
+END
+MACRO 26 "Reve" Ability_Druid_LunarGuidance
+/cancelaura Hand of Protection
+END
+MACRO 11 "roll" Ability_Hunter_BeastCall
+/logout
+END
+MACRO 66 "RyonanC" INV_Misc_QuestionMark
+#showtooltip Nighttime
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Defensive Stance
+/cast Spell Reflection
+END
+MACRO 67 "RyonanF" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Ryonan] Flash of Light
+END
+MACRO 65 "RyonanF" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Ryonan] Hand of Freedom
+END
+MACRO 70 "RyonanHS" INV_Misc_QuestionMark
+#showtooltip Holy Shock
+/cast [target=Ryonan] Holy Shock
+END
+MACRO 68 "RyonanSS" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Ryonan] Sacred Shield
+END
+MACRO 43 "Salva" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Nataku] Hand of Salvation
+END
+MACRO 50 "ShatteringThrow" INV_Misc_QuestionMark
+#showtooltip Shattering Throw
+/cancelaura Bladestorm
+/cast Battle Stance
+/cast Shattering Throw
+END
+MACRO 49 "TanqueSacred" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Focus] Sacred Shield
+END
+MACRO 51 "Trinket+Enraged" INV_Misc_QuestionMark
+#showtooltip Battlemaster's Rage
+/castsequence Commanding Shout, Last Stand, Shield Wall, Enraged Regeneration
+/use Battlemaster's Rage
+END
+MACRO 54 "zcharge" INV_Misc_QuestionMark
+#showtooltip Charge
+/equip Relentless Gladiator's Decapitator
+/cast Battle stance
+/cast [target=Focus] Charge
+END
+MACRO 53 "zInterceptFocus" INV_Misc_QuestionMark
+#showtooltip Intercept
+#showtooltip Charge
+/equip Relentless Gladiator's Decapitator
+/cast Berserker Stance
+/cast [Target=focus] Intercept
+END
+MACRO 60 "zzCucuruchoc" INV_Misc_QuestionMark
+#showtooltip Cleanse
+/cast [target=Spawm] Cleanse
+END
+MACRO 61 "zzCucuruchof" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Ayudin] Hand of Freedom
+END
+MACRO 62 "zzCucuruchof" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Ayudin] Flash of Light
+END
+MACRO 64 "zzCucuruchos" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Ayudin] Sacred Shield
+END
+MACRO 63 "zzCucuruchos" INV_Misc_QuestionMark
+#showtooltip Holy Shock
+/cast [target=Ayudin] Holy Shock
+END
+MACRO 55 "zzRapunselc" Ability_Ambush
+/equipWrathful Gladiator's Shield Wall
+/cast defensive stance
+END
+MACRO 56 "zzRapunself" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Morpheos] Hand of Freedom
+END
+MACRO 57 "zzRapunself" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Morpheos] Flash of Light
+END
+MACRO 59 "zzRapunsels" INV_Misc_QuestionMark
+#showtooltip Holy Shock
+/cast [target=Morpheos] Holy Shock
+END
+MACRO 58 "zzRapunsels" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Morpheos] Sacred Shield
+/cast [target=Spawm] Sacred Shield
+END

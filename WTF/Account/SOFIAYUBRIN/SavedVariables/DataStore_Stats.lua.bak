@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Zelphar - WoWArg"] = "Zelphar - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Zelphar"] = {
+				["lastUpdate"] = 1530146389,
+				["Stats"] = {
+					["Ranged"] = "13-15|1.6660000791308|88|0|0",
+					["Spell"] = "3009|3176|0|16.172760009766|657|750",
+					["Melee"] = "135-382|1.4280000678264|174|0|0|0",
+					["MaxPower"] = "0|23226",
+					["PVP"] = "98|0|50|19005",
+					["HealthMax"] = 19567,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "97|98|1233|1334|1119|10525",
+					["Defense"] = "10525|400|7.6610541343689|0|0|0",
+				},
+			},
+		},
+	},
+}

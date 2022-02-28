@@ -1,0 +1,8 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "Gilraenloss - WoWArg",
+	},
+	["global"] = {
+	},
+}

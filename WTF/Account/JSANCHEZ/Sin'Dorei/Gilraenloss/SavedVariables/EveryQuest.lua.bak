@@ -1,0 +1,11 @@
+
+EveryQuestDBPC = nil
+EQ2DBPC = {
+	["profileKeys"] = {
+		["Gilraenloss - WoWArg"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+		},
+	},
+}

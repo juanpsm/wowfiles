@@ -1,0 +1,14 @@
+## Interface: 30300
+## Title: Loremaster
+## Notes: Records whether or not a completed quest counts toward the Loremaster Achievements, and displays it in the quest description.
+## Version: v2.033 20100226
+## SavedVariables: LoremasterDB
+## X-Curse-Packaged-Version: v2.033 20100226
+## X-Curse-Project-Name: Loremaster
+## X-Curse-Project-ID: loremaster
+## X-Curse-Repository-ID: wow/loremaster/mainline
+
+embeds.xml
+Core.lua
+Data.lua
+
