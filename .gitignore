@@ -15,5 +15,8 @@ Interface/*.rar
 Interface/*.zip
 
 # Also save this
-!Data/enUS/realmlist*
-!Data/esES/realmlist*
+!Data/
+Data/**
+!Data/*/
+Data/*/**
+!Data/*/realmlist.*
