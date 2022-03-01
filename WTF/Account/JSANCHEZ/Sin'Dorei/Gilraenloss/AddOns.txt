@@ -2,7 +2,7 @@ XPerl_Options: enabled
 XPerl_TeamSpeak: disabled
 XPerl: enabled
 XPerl_RaidMonitor: enabled
-Altoholic: disabled
+Altoholic: enabled
 DataStore: enabled
 DataStore_Achievements: enabled
 DataStore_Auctions: enabled
@@ -76,7 +76,7 @@ EasyCopy: enabled
 GuildRosterDump: disabled
 GuildOrg: disabled
 Chatmanager: disabled
-Altoholic_Achievements: disabled
+Altoholic_Achievements: enabled
 DrDamage: disabled
 GatherMate: disabled
 GatherMate_Data: disabled

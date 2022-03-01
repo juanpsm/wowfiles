@@ -48,9 +48,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowX"] = 0,
-			["EnableSync"] = false,
 			["MainWindowHeight"] = 126.0657856520973,
 			["BarTextColorSwap"] = false,
+			["EnableSync"] = false,
 			["LastInstanceName"] = "The Violet Hold",
 			["FrameStrata"] = "2-LOW",
 			["RealtimeWindows"] = {
@@ -152,10 +152,10 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["y"] = 107.3851492048855,
-					["h"] = 158.2296108403622,
-					["w"] = 262.4221592162987,
-					["x"] = 513.3074677292584,
+					["y"] = -290.3685555149687,
+					["h"] = 157.9999439290399,
+					["w"] = 262.0000588061289,
+					["x"] = 760.2634897498867,
 				},
 			},
 			["ConfirmDeleteInstance"] = false,
@@ -176,9 +176,9 @@ RecountDB = {
 			["DetailWindowX"] = 0,
 			["AutoDelete"] = false,
 			["GraphWindowX"] = 0,
-			["LastInstanceName"] = "Zul'Gurub",
+			["LastInstanceName"] = "Icecrown Citadel",
 			["ConfirmDeleteRaid"] = false,
-			["CurDataSet"] = "LastFightData",
+			["CurDataSet"] = "CurrentFightData",
 			["MainWindowWidth"] = 262.4221592162987,
 		},
 		["Acrux - WoWArg"] = {

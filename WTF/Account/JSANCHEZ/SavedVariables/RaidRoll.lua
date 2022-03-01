@@ -15494,11 +15494,100 @@ RaidRoll_DB = {
 			["TOTAL ITEMS"] = 1,
 			["LOOTER NAME"] = "Gilraenloss",
 		}, -- [494]
+		{
+			["ITEM_1"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50763:0:0:0:0:0:0:0:80|h[Marrowgar's Scratching Choker]|h|r",
+				["LOOTNAME"] = "Marrowgar's Scratching Choker",
+				["ICON"] = "Interface\\Icons\\inv_jewelry_necklace_52",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 251,
+			},
+			["TOTAL ITEMS"] = 2,
+			["LOOTER NAME"] = "Gilraenloss",
+			["MOB NAME"] = "Lord Marrowgar",
+			["ITEM_2"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50771:0:0:0:0:0:0:0:80|h[Frost Needle]|h|r",
+				["LOOTNAME"] = "Frost Needle",
+				["ICON"] = "Interface\\Icons\\inv_sword_152",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 251,
+			},
+		}, -- [495]
+		{
+			["ITEM_1"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:37254:0:0:0:0:0:0:0:80|h[Super Simian Sphere]|h|r",
+				["LOOTNAME"] = "Super Simian Sphere",
+				["ICON"] = "Interface\\Icons\\INV_Misc_Orb_03",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 200,
+			},
+			["MOB NAME"] = "Deathspeaker High Priest",
+			["TOTAL ITEMS"] = 1,
+			["LOOTER NAME"] = "Gilraenloss",
+		}, -- [496]
+		{
+			["ITEM_1"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50780:0:0:0:0:0:0:0:80|h[Chestguard of the Frigid Noose]|h|r",
+				["LOOTNAME"] = "Chestguard of the Frigid Noose",
+				["ICON"] = "Interface\\Icons\\inv_chest_leather_22",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 251,
+			},
+			["TOTAL ITEMS"] = 2,
+			["LOOTER NAME"] = "Gilraenloss",
+			["MOB NAME"] = "Lady Deathwhisper",
+			["ITEM_2"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50776:0:0:0:0:0:0:0:80|h[Njorndar Bone Bow]|h|r",
+				["LOOTNAME"] = "Njorndar Bone Bow",
+				["ICON"] = "Interface\\Icons\\inv_weapon_bow_56",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 251,
+			},
+		}, -- [497]
+		{
+			["ITEM_1"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50806:0:0:0:0:0:0:0:80|h[Leggings of Unrelenting Blood]|h|r",
+				["LOOTNAME"] = "Leggings of Unrelenting Blood",
+				["ICON"] = "Interface\\Icons\\inv_pants_leather_35",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 251,
+			},
+			["TOTAL ITEMS"] = 2,
+			["LOOTER NAME"] = "Gilraenloss",
+			["MOB NAME"] = "Unknown",
+			["ITEM_2"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50800:0:0:0:0:0:0:0:80|h[Hauberk of a Thousand Cuts]|h|r",
+				["LOOTNAME"] = "Hauberk of a Thousand Cuts",
+				["ICON"] = "Interface\\Icons\\inv_chest_mail_07",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 251,
+			},
+		}, -- [498]
+		{
+			["ITEM_1"] = {
+				["ITEMLINK"] = "|cffa335ee|Hitem:50447:0:0:0:0:0:0:0:80|h[Harbinger's Bone Band]|h|r",
+				["LOOTNAME"] = "Harbinger's Bone Band",
+				["ICON"] = "Interface\\Icons\\inv_jewelry_ring_84",
+				["WINNER"] = "-",
+				["RECEIVED"] = "-",
+				["ITEMLEVEL"] = 264,
+			},
+			["MOB NAME"] = "Vengeful Fleshreaper",
+			["TOTAL ITEMS"] = 1,
+			["LOOTER NAME"] = "Gilraenloss",
+		}, -- [499]
 		[0] = {
 			["TOTAL ITEMS"] = 0,
 		},
-		["TOTAL WINDOWS"] = 494,
-		["CURRENT WINDOW"] = 494,
+		["TOTAL WINDOWS"] = 499,
+		["CURRENT WINDOW"] = 499,
 	},
 	["Rank Priority"] = {
 		10, -- [1]
@@ -15561,9 +15650,9 @@ RaidRoll_DBPC = {
 		["RR_AutoOpenLootWindow"] = true,
 		["Time_Offset"] = 0,
 		["RR_Roll_Tracking_Enabled"] = true,
-		["RR_Accept_All_Rolls"] = false,
+		["RR_RollCheckBox_Num_Not_Req"] = false,
 		["Raid_Roll_SetMsg1_EditBox"] = "Roll [Item] Main Spec",
-		["Raid_Roll_SetMsg2_EditBox"] = "Roll [Item] Off Spec",
+		["RR_Accept_All_Rolls"] = false,
 		["RR_Frame_WotLK_Dung_Only"] = false,
 		["RR_RollCheckBox_GuildAnnounce"] = false,
 		["RR_PlayerIcon"] = {
@@ -15848,6 +15937,10 @@ RaidRoll_DBPC = {
 			},
 			["exnus"] = {
 			},
+			["rheley"] = {
+			},
+			["piter"] = {
+			},
 			["dwalinn"] = {
 			},
 			["goodguy"] = {
@@ -15862,65 +15955,71 @@ RaidRoll_DBPC = {
 			},
 			["thekingfrost"] = {
 			},
+			["jerdor"] = {
+			},
 			["garkadhin"] = {
+			},
+			["cecile"] = {
+			},
+			["dragondark"] = {
 			},
 			["signos"] = {
 			},
-			["rheley"] = {
+			["dishonorr"] = {
 			},
 			["moyca"] = {
 			},
-			["piter"] = {
+			["shinamashyro"] = {
 			},
 			["malheva"] = {
 			},
 			["tremendohdp"] = {
 			},
-			["ellisif"] = {
-			},
 			["aguilucho"] = {
 			},
-			["dragondark"] = {
+			["casidi"] = {
 			},
-			["dishonorr"] = {
+			["anko"] = {
+			},
+			["purasangre"] = {
 			},
 			["fazzinia"] = {
 			},
-			["shinamashyro"] = {
+			["adriada"] = {
 			},
-			["anko"] = {
+			["ryukeen"] = {
 			},
 			["ssucubo"] = {
 			},
 			["hadawey"] = {
 			},
-			["casidi"] = {
-			},
-			["adriada"] = {
-			},
-			["purasangre"] = {
-			},
-			["bruhun"] = {
-			},
-			["saladdays"] = {
-			},
-			["jhempira"] = {
-			},
-			["jebriel"] = {
-			},
 			["franka"] = {
-			},
-			["ilsbel"] = {
-			},
-			["laune"] = {
 			},
 			["ehmir"] = {
 			},
 			["starosta"] = {
 			},
-			["fishburn"] = {
+			["bruhun"] = {
+			},
+			["saladdays"] = {
+			},
+			["akrisae"] = {
+			},
+			["nyszwa"] = {
+			},
+			["lukarion"] = {
+			},
+			["ilsbel"] = {
+			},
+			["laune"] = {
+			},
+			["trinchorius"] = {
 			},
 			["fogen"] = {
+			},
+			["fishburn"] = {
+			},
+			["gustavodka"] = {
 			},
 			["phitax"] = {
 			},
@@ -15928,21 +16027,21 @@ RaidRoll_DBPC = {
 			},
 			["bernkastell"] = {
 			},
-			["fjaak"] = {
+			["frustex"] = {
 			},
-			["lukarion"] = {
+			["skism"] = {
 			},
 			["sairenji"] = {
 			},
-			["trinchorius"] = {
+			["armiss"] = {
 			},
 			["cho"] = {
 			},
-			["ururk"] = {
+			["chechaman"] = {
 			},
 			["yourselfcant"] = {
 			},
-			["gustavodka"] = {
+			["niennah"] = {
 			},
 			["buenhombre"] = {
 			},
@@ -15952,55 +16051,55 @@ RaidRoll_DBPC = {
 			},
 			["tepart"] = {
 			},
-			["frustex"] = {
-			},
-			["chechaman"] = {
-			},
-			["niennah"] = {
-			},
-			["psycosocial"] = {
-			},
-			["desmembrador"] = {
-			},
-			["jiinx"] = {
-			},
 			["zatras"] = {
-			},
-			["nyha"] = {
-			},
-			["burning"] = {
 			},
 			["bral"] = {
 			},
-			["wichii"] = {
+			["nyha"] = {
 			},
-			["ingeniero"] = {
+			["desmembrador"] = {
 			},
-			["yahvanna"] = {
+			["raistar"] = {
 			},
-			["shaamancita"] = {
+			["jiinx"] = {
 			},
-			["dopee"] = {
-			},
-			["lichkai"] = {
-			},
-			["yooseeliin"] = {
-			},
-			["shiranui"] = {
+			["psycosocial"] = {
 			},
 			["palitoduro"] = {
 			},
+			["burning"] = {
+			},
 			["blackdruida"] = {
+			},
+			["heartbeat"] = {
+			},
+			["ingeniero"] = {
+			},
+			["tytanya"] = {
+			},
+			["shaamancita"] = {
+			},
+			["herkkarox"] = {
+			},
+			["katzlin"] = {
+			},
+			["lichkai"] = {
+			},
+			["shiranui"] = {
+			},
+			["perthroy"] = {
+			},
+			["lovelessay"] = {
 			},
 			["juancruzz"] = {
 			},
-			["heartbeat"] = {
+			["galak"] = {
 			},
 			["finneddard"] = {
 			},
 			["noobfromarg"] = {
 			},
-			["tytanya"] = {
+			["correomail"] = {
 			},
 			["toners"] = {
 			},
@@ -16010,7 +16109,7 @@ RaidRoll_DBPC = {
 			},
 			["tenet"] = {
 			},
-			["katzlin"] = {
+			["karuxin"] = {
 			},
 			["walorey"] = {
 			},
@@ -16018,7 +16117,7 @@ RaidRoll_DBPC = {
 			},
 			["ritchy"] = {
 			},
-			["karuxin"] = {
+			["relim"] = {
 			},
 			["lgantee"] = {
 			},
@@ -16026,11 +16125,11 @@ RaidRoll_DBPC = {
 			},
 			["nerak"] = {
 			},
-			["lovelessay"] = {
-			},
 			["dector"] = {
 			},
-			["correomail"] = {
+			["kryne"] = {
+			},
+			["elme"] = {
 			},
 			["sadrox"] = {
 			},
@@ -16042,15 +16141,15 @@ RaidRoll_DBPC = {
 			},
 			["dakhla"] = {
 			},
-			["relim"] = {
+			["chio"] = {
+			},
+			["bayek"] = {
 			},
 			["sementall"] = {
 			},
-			["newlifeqn"] = {
+			["bzweigg"] = {
 			},
-			["kryne"] = {
-			},
-			["elme"] = {
+			["jhordin"] = {
 			},
 			["abysmal"] = {
 			},
@@ -16060,9 +16159,9 @@ RaidRoll_DBPC = {
 			},
 			["vindicta"] = {
 			},
-			["chio"] = {
+			["kiiraa"] = {
 			},
-			["bayek"] = {
+			["estatica"] = {
 			},
 			["vanesita"] = {
 			},
@@ -16070,45 +16169,45 @@ RaidRoll_DBPC = {
 			},
 			["thefive"] = {
 			},
-			["skism"] = {
-			},
-			["jhordin"] = {
-			},
-			["luketty"] = {
-			},
-			["kiiraa"] = {
-			},
-			["thyrio"] = {
-			},
-			["patterson"] = {
+			["zerstoren"] = {
 			},
 			["valkyrian"] = {
 			},
 			["kirajuraluz"] = {
 			},
-			["picarodios"] = {
+			["muerteuno"] = {
 			},
-			["yhetelow"] = {
+			["thyrio"] = {
 			},
 			["burris"] = {
 			},
-			["nightdeath"] = {
-			},
 			["afflictive"] = {
 			},
-			["katrhine"] = {
+			["obliz"] = {
+			},
+			["matabolitas"] = {
 			},
 			["caferico"] = {
 			},
+			["indioz"] = {
+			},
+			["nightdeath"] = {
+			},
+			["andruid"] = {
+			},
+			["ogriimm"] = {
+			},
+			["dulzura"] = {
+			},
 			["rakq"] = {
 			},
-			["xposed"] = {
-			},
-			["qaer"] = {
-			},
-			["matroshca"] = {
+			["solace"] = {
 			},
 			["askor"] = {
+			},
+			["camilitha"] = {
+			},
+			["boyhunter"] = {
 			},
 			["ignota"] = {
 			},
@@ -16122,51 +16221,51 @@ RaidRoll_DBPC = {
 			},
 			["pubera"] = {
 			},
-			["ogriimm"] = {
+			["linox"] = {
 			},
-			["camilitha"] = {
+			["xposed"] = {
+			},
+			["matroshca"] = {
 			},
 			["priestyff"] = {
 			},
-			["solace"] = {
+			["qaer"] = {
 			},
-			["linox"] = {
-			},
-			["obliz"] = {
-			},
-			["tv"] = {
-			},
-			["zelphyk"] = {
-			},
-			["yxillidanxy"] = {
-			},
-			["relworth"] = {
-			},
-			["enfurecido"] = {
+			["katrhine"] = {
 			},
 			["cleffy"] = {
 			},
 			["whiscola"] = {
 			},
-			["styfleerr"] = {
+			["exemaster"] = {
+			},
+			["tv"] = {
+			},
+			["enfurecido"] = {
+			},
+			["zelphyk"] = {
+			},
+			["yxillidanxy"] = {
+			},
+			["eldred"] = {
 			},
 			["deadwish"] = {
 			},
 			["yhete"] = {
 			},
-			["exemaster"] = {
+			["styfleerr"] = {
 			},
-			["eldred"] = {
+			["pipoelmacho"] = {
 			},
 			["damaasesina"] = {
 			},
-			["sombranax"] = {
+			["ozhim"] = {
 			},
-			["lurdes"] = {
+			["experiment"] = {
 			},
 			["senki"] = {
 			},
-			["mdmaguita"] = {
+			["aaminah"] = {
 			},
 			["soya"] = {
 			},
@@ -16176,35 +16275,35 @@ RaidRoll_DBPC = {
 			},
 			["palzyok"] = {
 			},
-			["experiment"] = {
+			["mdmaguita"] = {
 			},
-			["draelio"] = {
+			["gegi"] = {
 			},
 			["arbolitopp"] = {
 			},
 			["melir"] = {
 			},
-			["jaciinto"] = {
-			},
-			["gegi"] = {
+			["lurdes"] = {
 			},
 			["hoshine"] = {
+			},
+			["jaciinto"] = {
 			},
 			["plumifero"] = {
 			},
 			["droopyx"] = {
 			},
-			["ozhim"] = {
+			["draelio"] = {
 			},
-			["pipoelmacho"] = {
+			["moonprincess"] = {
 			},
 			["suavesita"] = {
 			},
-			["aaminah"] = {
+			["sombranax"] = {
 			},
 			["yakov"] = {
 			},
-			["moonprincess"] = {
+			["relworth"] = {
 			},
 			["feniix"] = {
 			},
@@ -16222,25 +16321,25 @@ RaidRoll_DBPC = {
 			},
 			["mitwerdgorma"] = {
 			},
-			["andruid"] = {
-			},
-			["boyhunter"] = {
-			},
-			["indioz"] = {
-			},
-			["matabolitas"] = {
-			},
-			["dulzura"] = {
-			},
 			["infernox"] = {
 			},
 			["cui"] = {
+			},
+			["yhetelow"] = {
+			},
+			["picarodios"] = {
+			},
+			["panserbjorne"] = {
+			},
+			["nefhalex"] = {
+			},
+			["patterson"] = {
 			},
 			["silverhawk"] = {
 			},
 			["athatriel"] = {
 			},
-			["panserbjorne"] = {
+			["luketty"] = {
 			},
 			["notkdox"] = {
 			},
@@ -16248,31 +16347,31 @@ RaidRoll_DBPC = {
 			},
 			["yasnel"] = {
 			},
-			["muerteuno"] = {
+			["zerion"] = {
 			},
 			["irinakarma"] = {
 			},
-			["nefhalex"] = {
-			},
-			["zerstoren"] = {
-			},
-			["estatica"] = {
-			},
-			["zerion"] = {
-			},
-			["xiskiller"] = {
-			},
 			["dantesdead"] = {
 			},
-			["bzweigg"] = {
+			["sicareli"] = {
 			},
-			["anaksanamo"] = {
+			["newlifeqn"] = {
 			},
 			["kambala"] = {
 			},
-			["dpsan"] = {
+			["xiskiller"] = {
+			},
+			["rhina"] = {
 			},
 			["latopadora"] = {
+			},
+			["anaksanamo"] = {
+			},
+			["dopee"] = {
+			},
+			["dpsan"] = {
+			},
+			["wrathion"] = {
 			},
 			["mahiuu"] = {
 			},
@@ -16280,13 +16379,13 @@ RaidRoll_DBPC = {
 			},
 			["legolazs"] = {
 			},
-			["wrathion"] = {
+			["yooseeliin"] = {
 			},
-			["galak"] = {
+			["wichii"] = {
 			},
 			["bustter"] = {
 			},
-			["perthroy"] = {
+			["yahvanna"] = {
 			},
 			["arteezysama"] = {
 			},
@@ -16302,7 +16401,7 @@ RaidRoll_DBPC = {
 			},
 			["kasu"] = {
 			},
-			["raistar"] = {
+			["bisfon"] = {
 			},
 			["pentosky"] = {
 			},
@@ -16310,11 +16409,11 @@ RaidRoll_DBPC = {
 			},
 			["nimida"] = {
 			},
-			["armiss"] = {
+			["ururk"] = {
 			},
 			["ipo"] = {
 			},
-			["bisfon"] = {
+			["fjaak"] = {
 			},
 			["ragnir"] = {
 			},
@@ -16322,11 +16421,11 @@ RaidRoll_DBPC = {
 			},
 			["ragoratkol"] = {
 			},
-			["nyszwa"] = {
-			},
-			["akrisae"] = {
-			},
 			["virion"] = {
+			},
+			["jebriel"] = {
+			},
+			["jhempira"] = {
 			},
 			["leuthor"] = {
 			},
@@ -16340,19 +16439,19 @@ RaidRoll_DBPC = {
 			},
 			["jireen"] = {
 			},
-			["ryukeen"] = {
+			["hierbavil"] = {
 			},
 			["falcoy"] = {
 			},
-			["hierbavil"] = {
+			["ellisif"] = {
 			},
 			["galga"] = {
 			},
 			["srcroto"] = {
 			},
-			["cecile"] = {
+			["pachuds"] = {
 			},
-			["jerdor"] = {
+			["bloodymaryy"] = {
 			},
 		},
 		["RR_Track_Unannounced_Rolls"] = false,
@@ -16368,7 +16467,7 @@ RaidRoll_DBPC = {
 		["RR_RollCheckBox_Enable_Alt_Mode"] = false,
 		["RR_RollCheckBox_Track_EPGPSays"] = false,
 		["RR_AllowExtraRolls"] = false,
-		["RR_RollCheckBox_Num_Not_Req"] = false,
+		["Raid_Roll_SetMsg2_EditBox"] = "Roll [Item] Off Spec",
 		["RR_ShowGroupNumber"] = false,
 		["RR_EPGP_Priority"] = false,
 		["RR_ExtraWidth"] = 0,

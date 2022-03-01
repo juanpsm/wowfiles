@@ -112,8 +112,8 @@ Postal3DB = {
 			["BlackBook"] = {
 				["recent"] = {
 					"Finweloss", -- [1]
-					"Draenoric", -- [2]
-					"Acrux", -- [3]
+					"Acrux", -- [2]
+					"Draenoric", -- [3]
 					"Athari", -- [4]
 					"Crobar", -- [5]
 				},

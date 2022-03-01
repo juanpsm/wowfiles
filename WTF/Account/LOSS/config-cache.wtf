@@ -1,6 +1,7 @@
 SET autoLootDefault "1"
 SET flaggedTutorials "v##A##B##,##4##Y##Q##7##E##3##8##*##.##/##K##_"
 SET profanityFilter "0"
+SET guildShowOffline "0"
 SET cameraView "5"
 SET cameraDistanceMaxFactor "2"
 SET talentFrameShown "1"

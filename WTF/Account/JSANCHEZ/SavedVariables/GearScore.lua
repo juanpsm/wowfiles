@@ -7,11 +7,11 @@ GS_Data = {
 	["Sin'dorei(WoWArg)"] = {
 		["Players"] = {
 			["Gilraenloss"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Orden Fenix",
 				["Location"] = "DAL",
 				["Date"] = 202104231243,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5915,
@@ -40,14 +40,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Turco"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Faction"] = "A",
 				["Date"] = 202104221435,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6513,
@@ -76,10 +76,10 @@ GS_Data = {
 					"50603:3789", -- [17]
 					"47659:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Nieblaazul"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "kill dragon",
 				["Equip"] = {
 					"48214:0", -- [1]
@@ -102,7 +102,7 @@ GS_Data = {
 					"0:0", -- [18]
 				},
 				["Date"] = 202104230048,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 198,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3449,
@@ -112,10 +112,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 1,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Diurna"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"48604:3817", -- [1]
@@ -138,7 +138,7 @@ GS_Data = {
 					"42853:0", -- [18]
 				},
 				["Date"] = 202104230206,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 227,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4774,
@@ -148,14 +148,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Tiofacho"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Location"] = "DAL",
 				["Date"] = 202104221504,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 267,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6193,
@@ -184,14 +184,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Elchamaquito"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Facheritos",
 				["Faction"] = "A",
 				["Date"] = 202104221414,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6103,
@@ -220,14 +220,14 @@ GS_Data = {
 					"49976:1128", -- [17]
 					"47665:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Underclub"] = {
-				["Spec"] = 1,
-				["Guild"] = "Orden Fenix",
-				["Class"] = "WK",
-				["Date"] = 202104221628,
 				["PVP"] = 1,
+				["Guild"] = "Orden Fenix",
+				["Spec"] = 1,
+				["Date"] = 202104221628,
+				["Class"] = "WK",
 				["Average"] = 262,
 				["Scanned"] = "Underclub",
 				["GearScore"] = 6062,
@@ -259,7 +259,7 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Maximoff"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Equip"] = {
 					"51227:3817", -- [1]
@@ -282,7 +282,7 @@ GS_Data = {
 					"51940:0", -- [18]
 				},
 				["Date"] = 202104222112,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 271,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6508,
@@ -292,14 +292,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Perthroy"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Location"] = "DAL",
 				["Date"] = 202104221517,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 270,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6633,
@@ -328,10 +328,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Relworth"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Numenor",
 				["Equip"] = {
 					"49986:3818", -- [1]
@@ -354,7 +354,7 @@ GS_Data = {
 					"47661:0", -- [18]
 				},
 				["Date"] = 202104222126,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5844,
@@ -364,10 +364,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Panicshow"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "El CARTEL de Pistolero",
 				["Equip"] = {
 					"51162:3817", -- [1]
@@ -390,7 +390,7 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Date"] = 202104222158,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5910,
@@ -400,10 +400,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Cleffy"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "los champions",
 				["Equip"] = {
 					"48073:0", -- [1]
@@ -426,7 +426,7 @@ GS_Data = {
 					"47658:0", -- [18]
 				},
 				["Date"] = 202104230041,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 232,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4988,
@@ -436,10 +436,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Chulya"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"50826:3815", -- [1]
@@ -462,7 +462,7 @@ GS_Data = {
 					"47668:0", -- [18]
 				},
 				["Date"] = 202104230208,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5693,
@@ -472,10 +472,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Huroo"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "kill dragon",
 				["Equip"] = {
 					"51896:3820", -- [1]
@@ -498,7 +498,7 @@ GS_Data = {
 					"47671:0", -- [18]
 				},
 				["Date"] = 202104230104,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 255,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5794,
@@ -508,14 +508,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 1,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Soya"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "Exiled Horde",
 				["Location"] = "DAL",
 				["Date"] = 202104221504,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6078,
@@ -544,14 +544,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Desactivate"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Sunshine",
 				["Location"] = "DAL",
 				["Date"] = 202104231237,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 229,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4526,
@@ -580,14 +580,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Wuxia"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Atlas",
 				["Faction"] = "A",
 				["Date"] = 202104221432,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 266,
 				["Level"] = 80,
 				["GearScore"] = 6114,
@@ -616,14 +616,14 @@ GS_Data = {
 					"51812:1128", -- [17]
 					"50464:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Nhikka"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Mada Mada Dane",
 				["Location"] = "DAL",
 				["Date"] = 202104221504,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 249,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5516,
@@ -652,7 +652,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Diabolosita"] = {
 				["Faction"] = "A",
@@ -678,7 +678,7 @@ GS_Data = {
 					"50472:0", -- [18]
 				},
 				["Date"] = 202104221434,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 255,
 				["Level"] = 80,
 				["GearScore"] = 5714,
@@ -687,8 +687,8 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "WK",
+				["Spec"] = 1,
 			},
 			["Skombrow"] = {
 				["Faction"] = "A",
@@ -714,7 +714,7 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Date"] = 202104221433,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6480,
@@ -723,8 +723,8 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 		},
 		["CurrentPlayer"] = {
@@ -734,32 +734,32 @@ GS_Data = {
 		["Players"] = {
 			["Gilraenloss"] = {
 				["Equip"] = {
-					"41158:3795", -- [1]
-					"51353:0", -- [2]
-					"41218:3793", -- [3]
+					"33820:0", -- [1]
+					"50421:0", -- [2]
+					"51288:3808", -- [3]
 					nil, -- [4]
-					"41088:3252", -- [5]
-					"51350:0", -- [6]
-					"49988:0", -- [7]
-					"51351:3606", -- [8]
-					"51352:1600", -- [9]
-					"41144:0", -- [10]
-					"51560:0", -- [11]
+					"51289:3832", -- [5]
+					"50688:0", -- [6]
+					"49901:3823", -- [7]
+					"49897:3606", -- [8]
+					"50655:3845", -- [9]
+					"51285:0", -- [10]
+					"50618:0", -- [11]
 					"50402:0", -- [12]
-					"51377:0", -- [13]
-					"50342:0", -- [14]
-					"51356:3605", -- [15]
-					"51022:3827", -- [16]
+					"50342:0", -- [13]
+					"50363:0", -- [14]
+					"50470:3605", -- [15]
+					"19970:3269", -- [16]
 					"0:0", -- [17]
 					"49981:3608", -- [18]
 				},
 				["Guild"] = "Orden Fenix",
 				["Scanned"] = "Gilraenloss",
-				["Date"] = 202201091906,
+				["Date"] = 202203010049,
 				["PVP"] = 1,
-				["Average"] = 260,
+				["Average"] = 246,
 				["Spec"] = 1,
-				["GearScore"] = 5907,
+				["GearScore"] = 5586,
 				["Race"] = "NE",
 				["Name"] = "Gilraenloss",
 				["Faction"] = "A",
@@ -769,7 +769,7 @@ GS_Data = {
 				["Sex"] = 3,
 			},
 			["Paranoiid"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Crissaegrim",
 				["Equip"] = {
 					"51218:3818", -- [1]
@@ -792,7 +792,7 @@ GS_Data = {
 					"50444:0", -- [18]
 				},
 				["Date"] = 202105230022,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 265,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5590,
@@ -802,14 +802,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Tersteggen"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Sex"] = 2,
 				["Date"] = 202105041553,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6237,
@@ -838,14 +838,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Phfrost"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Duck Commander",
 				["Sex"] = 3,
 				["Date"] = 202107180004,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 266,
 				["Level"] = 80,
 				["GearScore"] = 6087,
@@ -874,14 +874,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Izanagi"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Elite Knight",
 				["Location"] = "STV",
 				["Date"] = 202105060038,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 234,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4964,
@@ -910,14 +910,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Rinok"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202105060148,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 266,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6130,
@@ -946,14 +946,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Vindicta"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Drugs Patrol",
 				["Faction"] = "A",
 				["Date"] = 202109042123,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 271,
 				["Level"] = 80,
 				["GearScore"] = 6660,
@@ -982,14 +982,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50455:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ragoratkol"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "Legionarios del Abismo",
 				["Faction"] = "A",
 				["Date"] = 202109042341,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 272,
 				["Level"] = 80,
 				["GearScore"] = 6356,
@@ -1018,14 +1018,50 @@ GS_Data = {
 					"50635:0", -- [17]
 					"50454:0", -- [18]
 				},
+				["PVP"] = 1,
+			},
+			["Limonex"] = {
+				["PVP"] = 1,
+				["Guild"] = "The Lost Dinasty",
+				["Faction"] = "A",
+				["Date"] = 202202282307,
 				["Spec"] = 1,
+				["Average"] = 271,
+				["Level"] = 80,
+				["GearScore"] = 6345,
+				["Race"] = "HU",
+				["Name"] = "Limonex",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51252:3817", -- [1]
+					"50633:0", -- [2]
+					"51254:3808", -- [3]
+					nil, -- [4]
+					"51250:3832", -- [5]
+					"50707:0", -- [6]
+					"51253:3328", -- [7]
+					"50607:1597", -- [8]
+					"50670:3756", -- [9]
+					"50675:1603", -- [10]
+					"50402:0", -- [11]
+					"50618:0", -- [12]
+					"50363:0", -- [13]
+					"47214:0", -- [14]
+					"50470:1099", -- [15]
+					"50672:3789", -- [16]
+					"50654:3789", -- [17]
+					"51927:0", -- [18]
+				},
+				["Class"] = "RO",
 			},
 			["Torton"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Warrior OF The World",
 				["Faction"] = "A",
 				["Date"] = 202105030149,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 277,
 				["Level"] = 80,
 				["GearScore"] = 6532,
@@ -1054,14 +1090,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50733:3608", -- [18]
 				},
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Geiheit"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202105060234,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 268,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6578,
@@ -1090,14 +1126,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Hamma"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202109050004,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 113,
 				["Level"] = 80,
 				["GearScore"] = 1966,
@@ -1126,7 +1162,7 @@ GS_Data = {
 					"0:0", -- [17]
 					"50462:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Kimic"] = {
 				["Faction"] = "A",
@@ -1152,7 +1188,7 @@ GS_Data = {
 					"50458:0", -- [18]
 				},
 				["Date"] = 202105030129,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 268,
 				["Level"] = 80,
 				["GearScore"] = 6203,
@@ -1161,11 +1197,11 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "XXX",
 				["Scanned"] = "Skombrow",
-				["Class"] = "SH",
 				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Kemira"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "DarkShadows",
 				["Equip"] = {
 					"51302:3820", -- [1]
@@ -1188,7 +1224,7 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Date"] = 202105230022,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6384,
@@ -1198,14 +1234,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 1,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Desdinouvx"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Sex"] = 3,
 				["Date"] = 202105041541,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 261,
 				["Level"] = 80,
 				["GearScore"] = 5942,
@@ -1234,14 +1270,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Liberman"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "XXX",
 				["Date"] = 202104242140,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 243,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5273,
@@ -1270,10 +1306,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Mynhe"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "Falling Reverse",
 				["Equip"] = {
 					"41019:3796", -- [1]
@@ -1296,7 +1332,7 @@ GS_Data = {
 					"42603:0", -- [18]
 				},
 				["Date"] = 202105052104,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 236,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5074,
@@ -1306,14 +1342,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Virion"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Unleashed",
 				["Location"] = "XXX",
 				["Date"] = 202104242333,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 265,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6153,
@@ -1342,14 +1378,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Ardaline"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Hells Angels",
 				["Location"] = "XXX",
 				["Date"] = 202105060148,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 252,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5641,
@@ -1378,14 +1414,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ragnet"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Location"] = "XXX",
 				["Date"] = 202105060221,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5999,
@@ -1414,14 +1450,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Moyca"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "XXX",
 				["Date"] = 202105012156,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 264,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6093,
@@ -1450,14 +1486,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Izreh"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "XXX",
 				["Date"] = 202104250152,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5738,
@@ -1486,14 +1522,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Justiciera"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "XXX",
 				["Date"] = 202105060100,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5833,
@@ -1522,14 +1558,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Iret"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202109042123,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 278,
 				["Level"] = 80,
 				["GearScore"] = 6533,
@@ -1558,14 +1594,14 @@ GS_Data = {
 					"50719:0", -- [17]
 					"50631:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Sasikre"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "La Hermandad De Sangre",
 				["Faction"] = "A",
 				["Date"] = 202105090218,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6115,
@@ -1594,14 +1630,14 @@ GS_Data = {
 					"51447:3731", -- [17]
 					"51535:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Locato"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202105060132,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 255,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5748,
@@ -1630,14 +1666,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Relim"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Location"] = "XXX",
 				["Date"] = 202104242135,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6005,
@@ -1666,10 +1702,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Bigmenu"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "The Lost Dinasty",
 				["Equip"] = {
 					"50640:3818", -- [1]
@@ -1692,7 +1728,7 @@ GS_Data = {
 					"47661:0", -- [18]
 				},
 				["Date"] = 202105230022,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6087,
@@ -1702,14 +1738,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Draenoric"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Die Verbannten",
 				["Faction"] = "A",
 				["Date"] = 202107032221,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 264,
 				["Level"] = 80,
 				["GearScore"] = 6051,
@@ -1738,14 +1774,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50455:0", -- [18]
 				},
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Maschenny"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Sex"] = 3,
 				["Date"] = 202107172310,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6248,
@@ -1774,14 +1810,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Dalarkan"] = {
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Guild"] = "Reclap",
 				["Sex"] = 2,
 				["Date"] = 202108212255,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 261,
 				["Level"] = 80,
 				["GearScore"] = 5987,
@@ -1810,7 +1846,7 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "WK",
+				["Spec"] = 1,
 			},
 			["Kakakshi"] = {
 				["Faction"] = "A",
@@ -1836,7 +1872,7 @@ GS_Data = {
 					"47661:0", -- [18]
 				},
 				["Date"] = 202105030156,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 253,
 				["Level"] = 80,
 				["GearScore"] = 5691,
@@ -1845,11 +1881,11 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["Class"] = "PA",
 				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Snts"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "The Knights Of The Death",
 				["Equip"] = {
 					"48472:0", -- [1]
@@ -1872,7 +1908,7 @@ GS_Data = {
 					"47673:0", -- [18]
 				},
 				["Date"] = 202104250317,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 236,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5077,
@@ -1882,14 +1918,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Bustter"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202105082325,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 256,
 				["Level"] = 80,
 				["GearScore"] = 5847,
@@ -1918,10 +1954,46 @@ GS_Data = {
 					"50173:0", -- [17]
 					"47670:0", -- [18]
 				},
+				["PVP"] = 1,
+			},
+			["Rhina"] = {
+				["PVP"] = 1,
+				["Guild"] = "Ala Sangrienta",
+				["Faction"] = "A",
+				["Date"] = 202202282209,
 				["Spec"] = 1,
+				["Average"] = 254,
+				["Level"] = 80,
+				["GearScore"] = 5689,
+				["Race"] = "DR",
+				["Name"] = "Rhina",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"47677:0", -- [1]
+					"50763:0", -- [2]
+					"51215:0", -- [3]
+					nil, -- [4]
+					"51219:0", -- [5]
+					"51564:0", -- [6]
+					"51216:0", -- [7]
+					"47952:0", -- [8]
+					"47570:0", -- [9]
+					"48449:0", -- [10]
+					"52572:0", -- [11]
+					"50447:0", -- [12]
+					"49487:0", -- [13]
+					"50356:0", -- [14]
+					"50859:0", -- [15]
+					"50760:0", -- [16]
+					"50794:0", -- [17]
+					"51561:0", -- [18]
+				},
+				["Class"] = "WA",
 			},
 			["Piter"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "La Orden De Hierro",
 				["Equip"] = {
 					"51192:3820", -- [1]
@@ -1944,7 +2016,7 @@ GS_Data = {
 					"50464:0", -- [18]
 				},
 				["Date"] = 202106130007,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6009,
@@ -1954,14 +2026,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Ilsbel"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Sunshine",
 				["Faction"] = "A",
 				["Date"] = 202104270213,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6234,
@@ -1990,14 +2062,14 @@ GS_Data = {
 					"51525:3833", -- [17]
 					"49981:3608", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Newlifeqn"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Location"] = "XXX",
 				["Date"] = 202104242226,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5919,
@@ -2026,14 +2098,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Thertionn"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Resilence FOR THE WIN",
 				["Faction"] = "A",
 				["Date"] = 202104270129,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6110,
@@ -2062,10 +2134,10 @@ GS_Data = {
 					"51407:0", -- [17]
 					"51451:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Zyxxz"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Daddys Bank",
 				["Equip"] = {
 					"51261:3820", -- [1]
@@ -2088,7 +2160,7 @@ GS_Data = {
 					"50631:0", -- [18]
 				},
 				["Date"] = 202105230022,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 276,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6484,
@@ -2098,14 +2170,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Sprungus"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Sex"] = 3,
 				["Date"] = 202104242357,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 249,
 				["Level"] = 80,
 				["GearScore"] = 5551,
@@ -2134,14 +2206,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Lurdes"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202105292249,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 268,
 				["Level"] = 80,
 				["GearScore"] = 6191,
@@ -2170,14 +2242,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Sunblind"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "*",
 				["Sex"] = 2,
 				["Date"] = 202108212221,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 279,
 				["Level"] = 80,
 				["GearScore"] = 6585,
@@ -2206,10 +2278,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Chechonabb"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Queens Elite",
 				["Equip"] = {
 					"51277:3817", -- [1]
@@ -2232,7 +2304,7 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Date"] = 202105082153,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6416,
@@ -2242,14 +2314,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Ditract"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202109042250,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 275,
 				["Level"] = 80,
 				["GearScore"] = 6461,
@@ -2278,14 +2350,14 @@ GS_Data = {
 					"50729:1952", -- [17]
 					"50444:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Aguilucho"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "Shadowmourne",
 				["Sex"] = 2,
 				["Date"] = 202108212304,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Level"] = 80,
 				["GearScore"] = 6353,
@@ -2314,10 +2386,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Duosion"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "the guardians of azeroth",
 				["Equip"] = {
 					"50115:3329", -- [1]
@@ -2340,7 +2412,7 @@ GS_Data = {
 					"50262:0", -- [18]
 				},
 				["Date"] = 202104250025,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 244,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5331,
@@ -2350,14 +2422,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Grimmask"] = {
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Guild"] = "JUST DO IT",
 				["Faction"] = "A",
 				["Date"] = 202107032209,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6492,
@@ -2386,14 +2458,14 @@ GS_Data = {
 					"50719:0", -- [17]
 					"50684:0", -- [18]
 				},
-				["Class"] = "MA",
+				["Spec"] = 1,
 			},
 			["Lheitan"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "More PewPew Less QQ",
 				["Sex"] = 2,
 				["Date"] = 202108212245,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 274,
 				["Level"] = 80,
 				["GearScore"] = 6467,
@@ -2422,10 +2494,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Wickedplay"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"51127:3817", -- [1]
@@ -2448,7 +2520,7 @@ GS_Data = {
 					"47673:0", -- [18]
 				},
 				["Date"] = 202105082147,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 269,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6612,
@@ -2458,14 +2530,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Cerve"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Onlyfans",
 				["Location"] = "XXX",
 				["Date"] = 202105060124,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5924,
@@ -2494,14 +2566,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Rakq"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "La Mesa LOCA",
 				["Faction"] = "A",
 				["Date"] = 202109042342,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6262,
@@ -2530,14 +2602,14 @@ GS_Data = {
 					"50719:0", -- [17]
 					"50457:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ilgynoth"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "Unleashed",
 				["Faction"] = "A",
 				["Date"] = 202105030050,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6848,
@@ -2566,14 +2638,50 @@ GS_Data = {
 					"0:0", -- [17]
 					"50459:0", -- [18]
 				},
-				["Class"] = "DK",
+				["Spec"] = 1,
+			},
+			["Herkkarox"] = {
+				["PVP"] = 1,
+				["Guild"] = "Warriors Of The World",
+				["Faction"] = "A",
+				["Date"] = 202202282208,
+				["Spec"] = 1,
+				["Average"] = 276,
+				["Level"] = 80,
+				["GearScore"] = 6656,
+				["Race"] = "HU",
+				["Name"] = "Herkkarox",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51227:3817", -- [1]
+					"50647:0", -- [2]
+					"51229:3808", -- [3]
+					nil, -- [4]
+					"51225:3832", -- [5]
+					"50620:0", -- [6]
+					"51228:3823", -- [7]
+					"49983:3826", -- [8]
+					"50670:3845", -- [9]
+					"50675:1603", -- [10]
+					"50693:0", -- [11]
+					"50402:0", -- [12]
+					"54569:0", -- [13]
+					"50363:0", -- [14]
+					"50470:3730", -- [15]
+					"49623:3789", -- [16]
+					"50730:3789", -- [17]
+					"50733:0", -- [18]
+				},
+				["Class"] = "WA",
 			},
 			["Livan"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Faction"] = "A",
 				["Date"] = 202109042204,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6622,
@@ -2602,14 +2710,14 @@ GS_Data = {
 					"50603:3789", -- [17]
 					"50733:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Nosoyasa"] = {
-				["Spec"] = 1,
-				["Guild"] = "Comando",
-				["Class"] = "RO",
-				["Date"] = 202105060115,
 				["PVP"] = 1,
+				["Guild"] = "Comando",
+				["Spec"] = 1,
+				["Date"] = 202105060115,
+				["Class"] = "RO",
 				["Average"] = 258,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 5862,
@@ -2641,11 +2749,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Fogen"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "Boreal Alyph",
 				["Location"] = "XXX",
 				["Date"] = 202105222146,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5789,
@@ -2674,14 +2782,50 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "SH",
+				["Spec"] = 1,
+			},
+			["Elviejoese"] = {
+				["PVP"] = 1,
+				["Guild"] = "Dark assassins",
+				["Faction"] = "A",
+				["Date"] = 202202282208,
+				["Spec"] = 1,
+				["Average"] = 250,
+				["Level"] = 80,
+				["GearScore"] = 5562,
+				["Race"] = "HU",
+				["Name"] = "Elviejoese",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"50765:3819", -- [1]
+					"50211:0", -- [2]
+					"50449:0", -- [3]
+					nil, -- [4]
+					"50768:3832", -- [5]
+					"50773:0", -- [6]
+					"50990:0", -- [7]
+					"49231:1147", -- [8]
+					"49809:2332", -- [9]
+					"51005:3246", -- [10]
+					"50400:0", -- [11]
+					"47732:0", -- [12]
+					"50339:0", -- [13]
+					"50358:0", -- [14]
+					"42079:3831", -- [15]
+					"51803:3834", -- [16]
+					"50781:0", -- [17]
+					"51553:0", -- [18]
+				},
+				["Class"] = "PR",
 			},
 			["Cleffy"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "los champions",
 				["Sex"] = 3,
 				["Date"] = 202105041326,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 240,
 				["Level"] = 80,
 				["GearScore"] = 5285,
@@ -2710,14 +2854,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Kcio"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202104270145,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5825,
@@ -2746,14 +2890,14 @@ GS_Data = {
 					"50412:3790", -- [17]
 					"47659:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Werarda"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Faction"] = "A",
 				["Date"] = 202104270224,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 267,
 				["Level"] = 80,
 				["GearScore"] = 6150,
@@ -2782,14 +2926,14 @@ GS_Data = {
 					"51455:3229", -- [17]
 					"51472:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Medium"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Faction"] = "A",
 				["Date"] = 202104270215,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 197,
 				["Level"] = 80,
 				["GearScore"] = 3516,
@@ -2818,10 +2962,10 @@ GS_Data = {
 					"0:0", -- [17]
 					"45254:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Haiden"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Unleashed",
 				["Equip"] = {
 					"51543:3795", -- [1]
@@ -2844,7 +2988,7 @@ GS_Data = {
 					"50733:3608", -- [18]
 				},
 				["Date"] = 202105052050,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6709,
@@ -2854,14 +2998,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Tanktocdru"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202109042307,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 261,
 				["Level"] = 80,
 				["GearScore"] = 5888,
@@ -2890,14 +3034,14 @@ GS_Data = {
 					"40699:0", -- [17]
 					"50454:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Hoshine"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Hybrid Theory",
 				["Location"] = "XXX",
 				["Date"] = 202104242242,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6021,
@@ -2926,14 +3070,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Lagerrta"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Faction"] = "A",
 				["Date"] = 202104270119,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6241,
@@ -2962,10 +3106,10 @@ GS_Data = {
 					"51407:0", -- [17]
 					"51451:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Jayden"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Equip"] = {
 					"47943:3817", -- [1]
@@ -2988,7 +3132,7 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Date"] = 202107032016,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 247,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5543,
@@ -2998,14 +3142,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Tidetowin"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "Unleashed",
 				["Location"] = "XXX",
 				["Date"] = 202105012210,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6409,
@@ -3034,14 +3178,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Yakov"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Faction"] = "A",
 				["Date"] = 202105082325,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5813,
@@ -3070,230 +3214,86 @@ GS_Data = {
 					"50173:0", -- [17]
 					"50033:0", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Vendechurros"] = {
-				["Equip"] = {
-					"41158:3795", -- [1]
-					"50452:0", -- [2]
-					"41218:3793", -- [3]
-					nil, -- [4]
-					"41088:0", -- [5]
-					"51350:3601", -- [6]
-					"51461:3823", -- [7]
-					"49897:3606", -- [8]
-					"51352:0", -- [9]
-					"51154:3604", -- [10]
-					"51358:0", -- [11]
-					"50402:0", -- [12]
-					"50362:0", -- [13]
-					"51377:0", -- [14]
-					"50470:1099", -- [15]
-					"51857:3827", -- [16]
-					"0:0", -- [17]
-					"51927:3608", -- [18]
-				},
-				["Guild"] = "*",
-				["Scanned"] = "Gilraenloss",
-				["Date"] = 202201091724,
 				["PVP"] = 1,
-				["Average"] = 263,
-				["Spec"] = 1,
-				["GearScore"] = 5985,
-				["Race"] = "NE",
-				["Name"] = "Vendechurros",
-				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Class"] = "HU",
-				["Sex"] = 2,
 			},
-			["Jerdor"] = {
+			["Bloodymaryy"] = {
+				["PVP"] = 1,
+				["Guild"] = "PainKiller",
 				["Faction"] = "A",
-				["Guild"] = "*",
-				["Equip"] = {
-					"51312:3817", -- [1]
-					"50728:0", -- [2]
-					"51314:3808", -- [3]
-					nil, -- [4]
-					"51310:0", -- [5]
-					"50987:0", -- [6]
-					"51313:0", -- [7]
-					"53125:3606", -- [8]
-					"50659:3845", -- [9]
-					"50690:0", -- [10]
-					"52572:0", -- [11]
-					"50693:0", -- [12]
-					"50363:0", -- [13]
-					"54569:0", -- [14]
-					"50677:3730", -- [15]
-					"49623:3368", -- [16]
-					"0:0", -- [17]
-					"50459:0", -- [18]
-				},
-				["Date"] = 202109050026,
-				["Class"] = "DK",
-				["Average"] = 275,
+				["Date"] = 202202282257,
+				["Spec"] = 1,
+				["Average"] = 252,
 				["Level"] = 80,
-				["GearScore"] = 6810,
-				["Race"] = "HU",
-				["Name"] = "Jerdor",
+				["GearScore"] = 5552,
+				["Race"] = "NE",
+				["Name"] = "Bloodymaryy",
 				["Sex"] = 1,
 				["Location"] = "XXX",
-				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
-				["PVP"] = 1,
-			},
-			["Malenapichot"] = {
-				["Class"] = "WA",
-				["Guild"] = "orden de los olvidados",
-				["Faction"] = "A",
-				["Date"] = 202105090125,
-				["PVP"] = 1,
-				["Average"] = 227,
-				["Level"] = 80,
-				["GearScore"] = 4738,
-				["Race"] = "GN",
-				["Name"] = "Malenapichot",
-				["Sex"] = 3,
-				["Location"] = "XXX",
 				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"47220:0", -- [1]
-					"35610:0", -- [2]
-					"50792:0", -- [3]
+					"51585:3820", -- [1]
+					"50182:0", -- [2]
+					"50449:3810", -- [3]
 					nil, -- [4]
-					"48372:0", -- [5]
-					"43587:0", -- [6]
-					"49817:0", -- [7]
-					"49906:0", -- [8]
-					"49797:0", -- [9]
-					"48375:0", -- [10]
-					"52569:0", -- [11]
-					"50453:0", -- [12]
-					"47214:0", -- [13]
-					"50198:0", -- [14]
-					"49792:0", -- [15]
-					"50267:0", -- [16]
-					"50267:0", -- [17]
-					"50262:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Nicolaxxs"] = {
-				["Spec"] = 1,
-				["Guild"] = "Numenor",
-				["Faction"] = "A",
-				["Date"] = 202105052209,
-				["Class"] = "PA",
-				["Average"] = 261,
-				["Level"] = 80,
-				["GearScore"] = 5972,
-				["Race"] = "DW",
-				["Name"] = "Nicolaxxs",
-				["Sex"] = 2,
-				["Location"] = "DAL",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"40831:3817", -- [1]
-					"51355:0", -- [2]
-					"50674:3808", -- [3]
-					nil, -- [4]
-					"40792:0", -- [5]
-					"51362:0", -- [6]
-					"40852:3823", -- [7]
-					"51363:1597", -- [8]
-					"51364:3845", -- [9]
-					"40812:1603", -- [10]
-					"51358:0", -- [11]
-					"52572:0", -- [12]
-					"51377:0", -- [13]
-					"50343:0", -- [14]
-					"51356:0", -- [15]
-					"50070:3789", -- [16]
+					"48159:0", -- [5]
+					"50069:0", -- [6]
+					"49891:3719", -- [7]
+					"49890:1147", -- [8]
+					"49994:2332", -- [9]
+					"50822:3246", -- [10]
+					"47732:0", -- [11]
+					"50397:0", -- [12]
+					"40682:0", -- [13]
+					"48722:0", -- [14]
+					"50469:0", -- [15]
+					"42364:3854", -- [16]
 					"0:0", -- [17]
-					"42615:0", -- [18]
+					"50457:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
-			["Chotasaurio"] = {
-				["Class"] = "PA",
-				["Guild"] = "Los Mata Gordas",
-				["Faction"] = "A",
-				["Date"] = 202109050005,
+			["Hoffmanhaze"] = {
 				["PVP"] = 1,
-				["Average"] = 276,
+				["Guild"] = "*",
+				["Faction"] = "A",
+				["Date"] = 202202282257,
+				["Spec"] = 1,
+				["Average"] = 259,
 				["Level"] = 80,
-				["GearScore"] = 6850,
-				["Race"] = "DW",
-				["Name"] = "Chotasaurio",
+				["GearScore"] = 3570,
+				["Race"] = "NE",
+				["Name"] = "Hoffmanhaze",
 				["Sex"] = 2,
 				["Location"] = "XXX",
 				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"51277:3817", -- [1]
-					"50647:0", -- [2]
-					"51279:3808", -- [3]
+					"0:0", -- [1]
+					"51890:0", -- [2]
+					"0:0", -- [3]
 					nil, -- [4]
-					"51275:3832", -- [5]
-					"50707:0", -- [6]
-					"51278:3823", -- [7]
-					"54577:3606", -- [8]
-					"54580:3845", -- [9]
-					"50690:3604", -- [10]
-					"50604:0", -- [11]
-					"52572:0", -- [12]
-					"50706:0", -- [13]
-					"50343:0", -- [14]
-					"50653:3730", -- [15]
-					"49623:3789", -- [16]
+					"50656:3297", -- [5]
+					"0:0", -- [6]
+					"0:0", -- [7]
+					"0:0", -- [8]
+					"51783:3850", -- [9]
+					"0:0", -- [10]
+					"50025:0", -- [11]
+					"51913:0", -- [12]
+					"47216:0", -- [13]
+					"50356:0", -- [14]
+					"51933:1099", -- [15]
+					"50695:3827", -- [16]
 					"0:0", -- [17]
-					"47661:0", -- [18]
+					"50456:0", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Akamme"] = {
-				["Class"] = "SH",
-				["Guild"] = "JUST DO IT",
-				["Sex"] = 3,
-				["Date"] = 202105041505,
-				["PVP"] = 1,
-				["Average"] = 276,
-				["Level"] = 80,
-				["GearScore"] = 6489,
-				["Race"] = "DR",
-				["Name"] = "Akamme",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51237:3820", -- [1]
-					"50658:0", -- [2]
-					"51235:3810", -- [3]
-					nil, -- [4]
-					"51239:3832", -- [5]
-					"50613:0", -- [6]
-					"51236:3721", -- [7]
-					"50699:3826", -- [8]
-					"50687:3758", -- [9]
-					"50663:3246", -- [10]
-					"50714:0", -- [11]
-					"50398:0", -- [12]
-					"50365:0", -- [13]
-					"50348:0", -- [14]
-					"50628:3831", -- [15]
-					"50608:3834", -- [16]
-					"50616:1128", -- [17]
-					"50458:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "DAL",
-				["Spec"] = 1,
+				["Class"] = "DR",
 			},
 			["Sliim"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "Warbringers",
 				["Location"] = "XXX",
 				["Date"] = 202105060136,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5812,
@@ -3322,7 +3322,43 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Chotasaurio"] = {
 				["Spec"] = 1,
+				["Guild"] = "Los Mata Gordas",
+				["Faction"] = "A",
+				["Date"] = 202109050005,
+				["Class"] = "PA",
+				["Average"] = 276,
+				["Level"] = 80,
+				["GearScore"] = 6850,
+				["Race"] = "DW",
+				["Name"] = "Chotasaurio",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51277:3817", -- [1]
+					"50647:0", -- [2]
+					"51279:3808", -- [3]
+					nil, -- [4]
+					"51275:3832", -- [5]
+					"50707:0", -- [6]
+					"51278:3823", -- [7]
+					"54577:3606", -- [8]
+					"54580:3845", -- [9]
+					"50690:3604", -- [10]
+					"50604:0", -- [11]
+					"52572:0", -- [12]
+					"50706:0", -- [13]
+					"50343:0", -- [14]
+					"50653:3730", -- [15]
+					"49623:3789", -- [16]
+					"0:0", -- [17]
+					"47661:0", -- [18]
+				},
+				["PVP"] = 1,
 			},
 			["Sementall"] = {
 				["Faction"] = "A",
@@ -3348,7 +3384,7 @@ GS_Data = {
 					"50457:0", -- [18]
 				},
 				["Date"] = 202109042357,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 271,
 				["Level"] = 80,
 				["GearScore"] = 6310,
@@ -3357,87 +3393,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "XXX",
 				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
 				["PVP"] = 1,
-			},
-			["Shinamashyro"] = {
-				["Class"] = "PA",
-				["Guild"] = "Boreal Alyph",
-				["Faction"] = "A",
-				["Date"] = 202109042204,
-				["PVP"] = 1,
-				["Average"] = 273,
-				["Level"] = 80,
-				["GearScore"] = 6424,
-				["Race"] = "DR",
-				["Name"] = "Shinamashyro",
-				["Sex"] = 3,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51277:3817", -- [1]
-					"50647:0", -- [2]
-					"51279:3808", -- [3]
-					nil, -- [4]
-					"51275:3832", -- [5]
-					"50688:0", -- [6]
-					"51278:3823", -- [7]
-					"49906:3606", -- [8]
-					"50655:3845", -- [9]
-					"50690:3604", -- [10]
-					"50402:0", -- [11]
-					"50604:0", -- [12]
-					"50363:0", -- [13]
-					"50706:0", -- [14]
-					"50019:3831", -- [15]
-					"50709:3789", -- [16]
-					"0:0", -- [17]
-					"47661:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Viximon"] = {
-				["Class"] = "RO",
-				["Guild"] = "*",
-				["Sex"] = 3,
-				["Date"] = 202105041359,
-				["PVP"] = 1,
-				["Average"] = 244,
-				["Level"] = 80,
-				["GearScore"] = 5344,
-				["Race"] = "HU",
-				["Name"] = "Viximon",
-				["Faction"] = "A",
-				["Equip"] = {
-					"47689:3817", -- [1]
-					"50452:0", -- [2]
-					"47708:3808", -- [3]
-					nil, -- [4]
-					"41650:3245", -- [5]
-					"41833:0", -- [6]
-					"49899:3823", -- [7]
-					"49895:0", -- [8]
-					"51370:0", -- [9]
-					"41767:1603", -- [10]
-					"50387:0", -- [11]
-					"50803:0", -- [12]
-					"44914:0", -- [13]
-					"42131:0", -- [14]
-					"51356:3730", -- [15]
-					"42276:3789", -- [16]
-					"45958:3789", -- [17]
-					"42451:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Spec"] = 1,
+				["Class"] = "DR",
 			},
 			["Jazmincita"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "Bad Milk",
 				["Sex"] = 3,
 				["Date"] = 202105041458,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 264,
 				["Level"] = 80,
 				["GearScore"] = 6134,
@@ -3466,14 +3430,86 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
+				["PVP"] = 1,
+			},
+			["Malenapichot"] = {
 				["Spec"] = 1,
+				["Guild"] = "orden de los olvidados",
+				["Faction"] = "A",
+				["Date"] = 202105090125,
+				["Class"] = "WA",
+				["Average"] = 227,
+				["Level"] = 80,
+				["GearScore"] = 4738,
+				["Race"] = "GN",
+				["Name"] = "Malenapichot",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"47220:0", -- [1]
+					"35610:0", -- [2]
+					"50792:0", -- [3]
+					nil, -- [4]
+					"48372:0", -- [5]
+					"43587:0", -- [6]
+					"49817:0", -- [7]
+					"49906:0", -- [8]
+					"49797:0", -- [9]
+					"48375:0", -- [10]
+					"52569:0", -- [11]
+					"50453:0", -- [12]
+					"47214:0", -- [13]
+					"50198:0", -- [14]
+					"49792:0", -- [15]
+					"50267:0", -- [16]
+					"50267:0", -- [17]
+					"50262:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Nicolaxxs"] = {
+				["PVP"] = 1,
+				["Guild"] = "Numenor",
+				["Faction"] = "A",
+				["Date"] = 202105052209,
+				["Spec"] = 1,
+				["Average"] = 261,
+				["Level"] = 80,
+				["GearScore"] = 5972,
+				["Race"] = "DW",
+				["Name"] = "Nicolaxxs",
+				["Sex"] = 2,
+				["Location"] = "DAL",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"40831:3817", -- [1]
+					"51355:0", -- [2]
+					"50674:3808", -- [3]
+					nil, -- [4]
+					"40792:0", -- [5]
+					"51362:0", -- [6]
+					"40852:3823", -- [7]
+					"51363:1597", -- [8]
+					"51364:3845", -- [9]
+					"40812:1603", -- [10]
+					"51358:0", -- [11]
+					"52572:0", -- [12]
+					"51377:0", -- [13]
+					"50343:0", -- [14]
+					"51356:0", -- [15]
+					"50070:3789", -- [16]
+					"0:0", -- [17]
+					"42615:0", -- [18]
+				},
+				["Class"] = "PA",
 			},
 			["Palazius"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "El mata hordas",
 				["Sex"] = 2,
 				["Date"] = 202105041327,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5836,
@@ -3502,158 +3538,122 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
-			["Ignota"] = {
+			["Akamme"] = {
 				["Spec"] = 1,
-				["Guild"] = "Azote de Rasganorte",
-				["Location"] = "XXX",
-				["Date"] = 202104242149,
-				["Class"] = "WA",
-				["Average"] = 246,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5467,
-				["Race"] = "HU",
-				["Name"] = "Ignota",
+				["Guild"] = "JUST DO IT",
 				["Sex"] = 3,
-				["Equip"] = {
-					"50080:3817", -- [1]
-					"50452:0", -- [2]
-					"50082:3808", -- [3]
-					nil, -- [4]
-					"50078:0", -- [5]
-					"51000:0", -- [6]
-					"51211:0", -- [7]
-					"49906:0", -- [8]
-					"50230:0", -- [9]
-					"48375:0", -- [10]
-					"51001:0", -- [11]
-					"52570:0", -- [12]
-					"40684:0", -- [13]
-					"50198:0", -- [14]
-					"42075:1099", -- [15]
-					"51562:3789", -- [16]
-					"50761:0", -- [17]
-					"50999:0", -- [18]
-				},
+				["Date"] = 202105041505,
+				["Class"] = "SH",
+				["Average"] = 276,
 				["Level"] = 80,
-				["Faction"] = "A",
-				["PVP"] = 1,
-			},
-			["Kelooke"] = {
-				["Class"] = "WK",
-				["Guild"] = "Boreal Alyph",
-				["Sex"] = 2,
-				["Date"] = 202105292328,
-				["PVP"] = 1,
-				["Average"] = 266,
-				["Level"] = 80,
-				["GearScore"] = 6161,
-				["Race"] = "HU",
-				["Name"] = "Kelooke",
+				["GearScore"] = 6489,
+				["Race"] = "DR",
+				["Name"] = "Akamme",
 				["Faction"] = "A",
 				["Equip"] = {
-					"51231:3820", -- [1]
+					"51237:3820", -- [1]
 					"50658:0", -- [2]
-					"47781:0", -- [3]
+					"51235:3810", -- [3]
 					nil, -- [4]
-					"51233:3832", -- [5]
+					"51239:3832", -- [5]
 					"50613:0", -- [6]
-					"50056:3872", -- [7]
-					"50062:3606", -- [8]
-					"47208:0", -- [9]
-					"51230:3604", -- [10]
-					"50664:0", -- [11]
+					"51236:3721", -- [7]
+					"50699:3826", -- [8]
+					"50687:3758", -- [9]
+					"50663:3246", -- [10]
+					"50714:0", -- [11]
 					"50398:0", -- [12]
-					"47213:0", -- [13]
-					"54572:0", -- [14]
-					"53489:3722", -- [15]
-					"51943:3790", -- [16]
-					"0:0", -- [17]
-					"50631:0", -- [18]
+					"50365:0", -- [13]
+					"50348:0", -- [14]
+					"50628:3831", -- [15]
+					"50608:3834", -- [16]
+					"50616:1128", -- [17]
+					"50458:0", -- [18]
 				},
 				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Spec"] = 1,
-			},
-			["Risintt"] = {
+				["Location"] = "DAL",
 				["PVP"] = 1,
-				["Guild"] = "Wipeare Lo Necesario",
-				["Sex"] = 2,
-				["Date"] = 202105070257,
-				["Spec"] = 1,
-				["Average"] = 258,
-				["Level"] = 80,
-				["GearScore"] = 5780,
-				["Race"] = "NE",
-				["Name"] = "Risintt",
-				["Faction"] = "A",
-				["Equip"] = {
-					"40830:3795", -- [1]
-					"51355:0", -- [2]
-					"50098:3793", -- [3]
-					nil, -- [4]
-					"40791:0", -- [5]
-					"51362:3601", -- [6]
-					"40851:0", -- [7]
-					"51363:3606", -- [8]
-					"51364:0", -- [9]
-					"40811:3603", -- [10]
-					"50453:0", -- [11]
-					"51358:0", -- [12]
-					"47734:0", -- [13]
-					"51377:0", -- [14]
-					"51356:3605", -- [15]
-					"50048:3368", -- [16]
-					"0:0", -- [17]
-					"50459:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Class"] = "DK",
 			},
-			["Ngink"] = {
-				["Class"] = "DR",
-				["Guild"] = "Warbringers",
-				["Location"] = "XXX",
-				["Date"] = 202105060115,
-				["PVP"] = 1,
-				["Average"] = 243,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5280,
-				["Race"] = "NE",
-				["Name"] = "Ngink",
-				["Sex"] = 2,
-				["Equip"] = {
-					"48102:3820", -- [1]
-					"50211:0", -- [2]
-					"48131:3809", -- [3]
-					nil, -- [4]
-					"48129:0", -- [5]
-					"50069:0", -- [6]
-					"48130:0", -- [7]
-					"51341:0", -- [8]
-					"51342:0", -- [9]
-					"48132:0", -- [10]
-					"47732:0", -- [11]
-					"47733:0", -- [12]
-					"48724:0", -- [13]
-					"37835:0", -- [14]
-					"51332:0", -- [15]
-					"44423:0", -- [16]
-					"0:0", -- [17]
-					"50454:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
+			["Shinamashyro"] = {
 				["Spec"] = 1,
+				["Guild"] = "Boreal Alyph",
+				["Faction"] = "A",
+				["Date"] = 202109042204,
+				["Class"] = "PA",
+				["Average"] = 273,
+				["Level"] = 80,
+				["GearScore"] = 6424,
+				["Race"] = "DR",
+				["Name"] = "Shinamashyro",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51277:3817", -- [1]
+					"50647:0", -- [2]
+					"51279:3808", -- [3]
+					nil, -- [4]
+					"51275:3832", -- [5]
+					"50688:0", -- [6]
+					"51278:3823", -- [7]
+					"49906:3606", -- [8]
+					"50655:3845", -- [9]
+					"50690:3604", -- [10]
+					"50402:0", -- [11]
+					"50604:0", -- [12]
+					"50363:0", -- [13]
+					"50706:0", -- [14]
+					"50019:3831", -- [15]
+					"50709:3789", -- [16]
+					"0:0", -- [17]
+					"47661:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Saintx"] = {
+				["Spec"] = 1,
+				["Guild"] = "Shadowmourne",
+				["Faction"] = "A",
+				["Date"] = 202109042204,
+				["Class"] = "WA",
+				["Average"] = 267,
+				["Level"] = 80,
+				["GearScore"] = 6167,
+				["Race"] = "HU",
+				["Name"] = "Saintx",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51212:3817", -- [1]
+					"53132:0", -- [2]
+					"51210:3808", -- [3]
+					nil, -- [4]
+					"51214:3832", -- [5]
+					"50995:0", -- [6]
+					"51228:3823", -- [7]
+					"50639:3826", -- [8]
+					"50670:3845", -- [9]
+					"51904:1603", -- [10]
+					"52572:0", -- [11]
+					"50618:0", -- [12]
+					"50363:0", -- [13]
+					"47214:0", -- [14]
+					"50467:3730", -- [15]
+					"50603:3789", -- [16]
+					"51946:3789", -- [17]
+					"49981:0", -- [18]
+				},
+				["PVP"] = 1,
 			},
 			["Virizion"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "Unleashed",
 				["Location"] = "XXX",
 				["Date"] = 202105012157,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6481,
@@ -3682,86 +3682,230 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
-			["Amywinehouse"] = {
-				["PVP"] = 1,
-				["Guild"] = "Yamakasi Dinasty",
+			["Viximon"] = {
+				["Spec"] = 1,
+				["Guild"] = "*",
+				["Sex"] = 3,
+				["Date"] = 202105041359,
+				["Class"] = "RO",
+				["Average"] = 244,
+				["Level"] = 80,
+				["GearScore"] = 5344,
+				["Race"] = "HU",
+				["Name"] = "Viximon",
+				["Faction"] = "A",
 				["Equip"] = {
-					"50807:3820", -- [1]
-					"51016:0", -- [2]
-					"50449:3810", -- [3]
+					"47689:3817", -- [1]
+					"50452:0", -- [2]
+					"47708:3808", -- [3]
 					nil, -- [4]
-					"51790:3832", -- [5]
-					"50263:0", -- [6]
-					"49891:3719", -- [7]
-					"49890:3606", -- [8]
-					"49994:2332", -- [9]
-					"51209:3604", -- [10]
-					"47732:0", -- [11]
+					"41650:3245", -- [5]
+					"41833:0", -- [6]
+					"49899:3823", -- [7]
+					"49895:0", -- [8]
+					"51370:0", -- [9]
+					"41767:1603", -- [10]
+					"50387:0", -- [11]
+					"50803:0", -- [12]
+					"44914:0", -- [13]
+					"42131:0", -- [14]
+					"51356:3730", -- [15]
+					"42276:3789", -- [16]
+					"45958:3789", -- [17]
+					"42451:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
+			["Piipols"] = {
+				["PVP"] = 1,
+				["Guild"] = "*",
+				["Faction"] = "A",
+				["Date"] = 202202282134,
+				["Spec"] = 1,
+				["Average"] = 262,
+				["Level"] = 80,
+				["GearScore"] = 5997,
+				["Race"] = "NE",
+				["Name"] = "Piipols",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51153:3817", -- [1]
+					"51779:0", -- [2]
+					"51151:3808", -- [3]
+					nil, -- [4]
+					"51150:3832", -- [5]
+					"50413:0", -- [6]
+					"49988:3823", -- [7]
+					"49897:1597", -- [8]
+					"50000:3845", -- [9]
+					"51154:1603", -- [10]
+					"50402:0", -- [11]
+					"51900:0", -- [12]
+					"50198:0", -- [13]
+					"50362:0", -- [14]
+					"50470:1099", -- [15]
+					"51857:3827", -- [16]
+					"0:0", -- [17]
+					"51927:3608", -- [18]
+				},
+				["Class"] = "HU",
+			},
+			["Kelooke"] = {
+				["Spec"] = 1,
+				["Guild"] = "Boreal Alyph",
+				["Sex"] = 2,
+				["Date"] = 202105292328,
+				["Class"] = "WK",
+				["Average"] = 266,
+				["Level"] = 80,
+				["GearScore"] = 6161,
+				["Race"] = "HU",
+				["Name"] = "Kelooke",
+				["Faction"] = "A",
+				["Equip"] = {
+					"51231:3820", -- [1]
+					"50658:0", -- [2]
+					"47781:0", -- [3]
+					nil, -- [4]
+					"51233:3832", -- [5]
+					"50613:0", -- [6]
+					"50056:3872", -- [7]
+					"50062:3606", -- [8]
+					"47208:0", -- [9]
+					"51230:3604", -- [10]
+					"50664:0", -- [11]
 					"50398:0", -- [12]
 					"47213:0", -- [13]
-					"40682:0", -- [14]
-					"51332:3722", -- [15]
-					"50047:3834", -- [16]
-					"50173:0", -- [17]
-					"47658:0", -- [18]
+					"54572:0", -- [14]
+					"53489:3722", -- [15]
+					"51943:3790", -- [16]
+					"0:0", -- [17]
+					"50631:0", -- [18]
 				},
-				["Date"] = 202107312126,
-				["Spec"] = 1,
-				["Average"] = 250,
 				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5615,
-				["Race"] = "HU",
-				["Name"] = "Amywinehouse",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Class"] = "WK",
-			},
-			["Irinakarma"] = {
-				["Class"] = "HU",
-				["Guild"] = "The Oblivion New",
-				["Faction"] = "A",
-				["Date"] = 202105090222,
+				["Location"] = "XXX",
 				["PVP"] = 1,
-				["Average"] = 239,
+			},
+			["Ignota"] = {
+				["PVP"] = 1,
+				["Guild"] = "Azote de Rasganorte",
+				["Location"] = "XXX",
+				["Date"] = 202104242149,
+				["Spec"] = 1,
+				["Average"] = 246,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5467,
+				["Race"] = "HU",
+				["Name"] = "Ignota",
+				["Sex"] = 3,
+				["Equip"] = {
+					"50080:3817", -- [1]
+					"50452:0", -- [2]
+					"50082:3808", -- [3]
+					nil, -- [4]
+					"50078:0", -- [5]
+					"51000:0", -- [6]
+					"51211:0", -- [7]
+					"49906:0", -- [8]
+					"50230:0", -- [9]
+					"48375:0", -- [10]
+					"51001:0", -- [11]
+					"52570:0", -- [12]
+					"40684:0", -- [13]
+					"50198:0", -- [14]
+					"42075:1099", -- [15]
+					"51562:3789", -- [16]
+					"50761:0", -- [17]
+					"50999:0", -- [18]
+				},
 				["Level"] = 80,
-				["GearScore"] = 5117,
-				["Race"] = "NE",
-				["Name"] = "Irinakarma",
+				["Faction"] = "A",
+				["Class"] = "WA",
+			},
+			["Cecile"] = {
+				["Spec"] = 1,
+				["Guild"] = "*",
+				["Faction"] = "A",
+				["Date"] = 202109050050,
+				["Class"] = "SH",
+				["Average"] = 266,
+				["Level"] = 80,
+				["GearScore"] = 6129,
+				["Race"] = "DR",
+				["Name"] = "Cecile",
 				["Sex"] = 3,
 				["Location"] = "XXX",
 				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"41157:3795", -- [1]
-					"51353:0", -- [2]
-					"41217:3793", -- [3]
+					"51192:3819", -- [1]
+					"51008:0", -- [2]
+					"51194:3809", -- [3]
 					nil, -- [4]
-					"41087:3245", -- [5]
-					"41235:0", -- [6]
-					"41205:3823", -- [7]
-					"41231:0", -- [8]
-					"51352:0", -- [9]
-					"41143:1603", -- [10]
-					"50387:0", -- [11]
-					"49000:0", -- [12]
-					"42124:0", -- [13]
-					"50198:0", -- [14]
-					"51354:0", -- [15]
-					"42209:3833", -- [16]
-					"42209:3731", -- [17]
-					"42486:3608", -- [18]
+					"51190:3832", -- [5]
+					"50671:0", -- [6]
+					"51193:0", -- [7]
+					"51873:3826", -- [8]
+					"50687:2332", -- [9]
+					"51827:3246", -- [10]
+					"53490:0", -- [11]
+					"50610:0", -- [12]
+					"50358:0", -- [13]
+					"50339:0", -- [14]
+					"50628:3831", -- [15]
+					"50428:3834", -- [16]
+					"49976:1128", -- [17]
+					"50464:0", -- [18]
 				},
+				["PVP"] = 1,
+			},
+			["Risintt"] = {
+				["Class"] = "DK",
+				["Guild"] = "Wipeare Lo Necesario",
+				["Sex"] = 2,
+				["Date"] = 202105070257,
+				["PVP"] = 1,
+				["Average"] = 258,
+				["Level"] = 80,
+				["GearScore"] = 5780,
+				["Race"] = "NE",
+				["Name"] = "Risintt",
+				["Faction"] = "A",
+				["Equip"] = {
+					"40830:3795", -- [1]
+					"51355:0", -- [2]
+					"50098:3793", -- [3]
+					nil, -- [4]
+					"40791:0", -- [5]
+					"51362:3601", -- [6]
+					"40851:0", -- [7]
+					"51363:3606", -- [8]
+					"51364:0", -- [9]
+					"40811:3603", -- [10]
+					"50453:0", -- [11]
+					"51358:0", -- [12]
+					"47734:0", -- [13]
+					"51377:0", -- [14]
+					"51356:3605", -- [15]
+					"50048:3368", -- [16]
+					"0:0", -- [17]
+					"50459:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
 				["Spec"] = 1,
 			},
 			["Anko"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "Boreal Alyph",
 				["Sex"] = 3,
 				["Date"] = 202108212247,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6181,
@@ -3790,14 +3934,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Lgantee"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Sex"] = 3,
 				["Date"] = 202107172257,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 274,
 				["Level"] = 80,
 				["GearScore"] = 6388,
@@ -3826,14 +3970,86 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
+			["Baneado"] = {
 				["Spec"] = 1,
+				["Guild"] = "Azote de Rasganorte",
+				["Sex"] = 3,
+				["Date"] = 202105292123,
+				["Class"] = "MA",
+				["Average"] = 270,
+				["Level"] = 80,
+				["GearScore"] = 6301,
+				["Race"] = "HU",
+				["Name"] = "Baneado",
+				["Faction"] = "A",
+				["Equip"] = {
+					"51281:3820", -- [1]
+					"50724:0", -- [2]
+					"51284:3810", -- [3]
+					nil, -- [4]
+					"51283:3832", -- [5]
+					"50613:0", -- [6]
+					"51282:3872", -- [7]
+					"49890:3606", -- [8]
+					"50686:2332", -- [9]
+					"51159:3604", -- [10]
+					"50614:0", -- [11]
+					"50398:0", -- [12]
+					"40682:0", -- [13]
+					"50348:0", -- [14]
+					"50469:3722", -- [15]
+					"50608:3834", -- [16]
+					"50719:0", -- [17]
+					"50684:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
+			["Irinakarma"] = {
+				["Spec"] = 1,
+				["Guild"] = "The Oblivion New",
+				["Faction"] = "A",
+				["Date"] = 202105090222,
+				["Class"] = "HU",
+				["Average"] = 239,
+				["Level"] = 80,
+				["GearScore"] = 5117,
+				["Race"] = "NE",
+				["Name"] = "Irinakarma",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"41157:3795", -- [1]
+					"51353:0", -- [2]
+					"41217:3793", -- [3]
+					nil, -- [4]
+					"41087:3245", -- [5]
+					"41235:0", -- [6]
+					"41205:3823", -- [7]
+					"41231:0", -- [8]
+					"51352:0", -- [9]
+					"41143:1603", -- [10]
+					"50387:0", -- [11]
+					"49000:0", -- [12]
+					"42124:0", -- [13]
+					"50198:0", -- [14]
+					"51354:0", -- [15]
+					"42209:3833", -- [16]
+					"42209:3731", -- [17]
+					"42486:3608", -- [18]
+				},
+				["PVP"] = 1,
 			},
 			["Sputnyk"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202106262126,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6137,
@@ -3862,10 +4078,82 @@ GS_Data = {
 					"49888:3789", -- [17]
 					"48711:0", -- [18]
 				},
+				["Class"] = "WA",
+			},
+			["Sicareli"] = {
+				["PVP"] = 1,
+				["Guild"] = "Alianza WoWArg",
+				["Faction"] = "A",
+				["Date"] = 202202282227,
+				["Spec"] = 1,
+				["Average"] = 248,
+				["Level"] = 80,
+				["GearScore"] = 5421,
+				["Race"] = "NE",
+				["Name"] = "Sicareli",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"47685:3795", -- [1]
+					"50452:0", -- [2]
+					"50117:3793", -- [3]
+					nil, -- [4]
+					"50118:0", -- [5]
+					"50762:0", -- [6]
+					"48252:1843", -- [7]
+					"41231:3824", -- [8]
+					"47610:0", -- [9]
+					"50114:1843", -- [10]
+					"51358:0", -- [11]
+					"52571:0", -- [12]
+					"42136:0", -- [13]
+					"42136:0", -- [14]
+					"51354:983", -- [15]
+					"50296:3828", -- [16]
+					"0:0", -- [17]
+					"50262:0", -- [18]
+				},
+				["Class"] = "HU",
+			},
+			["Bindrg"] = {
+				["Spec"] = 1,
+				["Guild"] = "Hybrid Theory",
+				["Equip"] = {
+					"48429:3818", -- [1]
+					"51934:0", -- [2]
+					"51215:3811", -- [3]
+					nil, -- [4]
+					"51917:3832", -- [5]
+					"51564:0", -- [6]
+					"49904:3822", -- [7]
+					"50207:3232", -- [8]
+					"40734:3850", -- [9]
+					"48449:3253", -- [10]
+					"51913:0", -- [11]
+					"50404:0", -- [12]
+					"50356:0", -- [13]
+					"54571:0", -- [14]
+					"50859:1099", -- [15]
+					"51937:3870", -- [16]
+					"50065:3849", -- [17]
+					"50444:0", -- [18]
+				},
+				["Date"] = 202105230022,
+				["Class"] = "WA",
+				["Average"] = 255,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5721,
+				["Race"] = "HU",
+				["Name"] = "Bindrg",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 2,
 				["PVP"] = 1,
 			},
 			["Womanizer"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "No soy Manco tengo Lag",
 				["Equip"] = {
 					"49986:3818", -- [1]
@@ -3888,7 +4176,7 @@ GS_Data = {
 					"50462:0", -- [18]
 				},
 				["Date"] = 202104250019,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5760,
@@ -3898,14 +4186,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Xiskiller"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202109050005,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6307,
@@ -3934,14 +4222,14 @@ GS_Data = {
 					"50654:3789", -- [17]
 					"47659:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Gavinrad"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Los Socios del Desierto",
 				["Location"] = "XXX",
 				["Date"] = 202105060159,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 265,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6141,
@@ -3970,194 +4258,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Cryvolt"] = {
-				["Spec"] = 1,
-				["Guild"] = "Azote de Rasganorte",
-				["Location"] = "XXX",
-				["Date"] = 202107172201,
-				["Class"] = "WA",
-				["Average"] = 262,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6011,
-				["Race"] = "HU",
-				["Name"] = "Cryvolt",
-				["Sex"] = 2,
-				["Equip"] = {
-					"51212:3817", -- [1]
-					"50728:0", -- [2]
-					"51210:3808", -- [3]
-					nil, -- [4]
-					"51214:3252", -- [5]
-					"50187:0", -- [6]
-					"51211:3823", -- [7]
-					"51915:1597", -- [8]
-					"50670:3845", -- [9]
-					"50977:1603", -- [10]
-					"50453:0", -- [11]
-					"52572:0", -- [12]
-					"50363:0", -- [13]
-					"47214:0", -- [14]
-					"50470:3730", -- [15]
-					"49888:3789", -- [16]
-					"49919:3789", -- [17]
-					"47659:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
 				["PVP"] = 1,
-			},
-			["Bindrg"] = {
-				["Class"] = "WA",
-				["Guild"] = "Hybrid Theory",
-				["Equip"] = {
-					"48429:3818", -- [1]
-					"51934:0", -- [2]
-					"51215:3811", -- [3]
-					nil, -- [4]
-					"51917:3832", -- [5]
-					"51564:0", -- [6]
-					"49904:3822", -- [7]
-					"50207:3232", -- [8]
-					"40734:3850", -- [9]
-					"48449:3253", -- [10]
-					"51913:0", -- [11]
-					"50404:0", -- [12]
-					"50356:0", -- [13]
-					"54571:0", -- [14]
-					"50859:1099", -- [15]
-					"51937:3870", -- [16]
-					"50065:3849", -- [17]
-					"50444:0", -- [18]
-				},
-				["Date"] = 202105230022,
-				["PVP"] = 1,
-				["Average"] = 255,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5721,
-				["Race"] = "HU",
-				["Name"] = "Bindrg",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 2,
-				["Spec"] = 1,
-			},
-			["Wargese"] = {
-				["Class"] = "WA",
-				["Guild"] = "Onlyfans",
-				["Location"] = "XXX",
-				["Date"] = 202105060105,
-				["PVP"] = 1,
-				["Average"] = 241,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5074,
-				["Race"] = "HU",
-				["Name"] = "Wargese",
-				["Sex"] = 2,
-				["Equip"] = {
-					"40826:0", -- [1]
-					"51357:0", -- [2]
-					"40866:0", -- [3]
-					nil, -- [4]
-					"40789:0", -- [5]
-					"45824:0", -- [6]
-					"40847:0", -- [7]
-					"51363:0", -- [8]
-					"51364:0", -- [9]
-					"40807:0", -- [10]
-					"50453:0", -- [11]
-					"51358:0", -- [12]
-					"40684:0", -- [13]
-					"42133:0", -- [14]
-					"40722:0", -- [15]
-					"42324:0", -- [16]
-					"0:0", -- [17]
-					"0:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Rheley"] = {
-				["PVP"] = 1,
-				["Guild"] = "More PewPew Less QQ",
-				["Equip"] = {
-					"18817:3820", -- [1]
-					"34679:0", -- [2]
-					"13132:3810", -- [3]
-					nil, -- [4]
-					"710073:3832", -- [5]
-					"23510:3601", -- [6]
-					"23512:3872", -- [7]
-					"33471:3606", -- [8]
-					"50651:2332", -- [9]
-					"4083:3604", -- [10]
-					"18821:0", -- [11]
-					"18821:0", -- [12]
-					"18815:0", -- [13]
-					"19339:0", -- [14]
-					"50628:3722", -- [15]
-					"1728:3834", -- [16]
-					"45314:0", -- [17]
-					"17077:0", -- [18]
-				},
-				["Date"] = 202106122328,
-				["Spec"] = 1,
-				["Average"] = 124,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 2230,
-				["Race"] = "HU",
-				["Name"] = "Rheley",
-				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Class"] = "MA",
-			},
-			["Starosta"] = {
-				["Class"] = "WA",
-				["Guild"] = "Los Socios del Desierto",
-				["Location"] = "XXX",
-				["Date"] = 202105060206,
-				["PVP"] = 1,
-				["Average"] = 272,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6701,
-				["Race"] = "HU",
-				["Name"] = "Starosta",
-				["Sex"] = 2,
-				["Equip"] = {
-					"51543:3795", -- [1]
-					"51353:0", -- [2]
-					"51545:3793", -- [3]
-					nil, -- [4]
-					"51541:3245", -- [5]
-					"50620:0", -- [6]
-					"51544:3853", -- [7]
-					"50639:3232", -- [8]
-					"50670:0", -- [9]
-					"51542:3234", -- [10]
-					"50402:0", -- [11]
-					"50618:0", -- [12]
-					"50343:0", -- [13]
-					"54569:0", -- [14]
-					"51356:3730", -- [15]
-					"49623:3789", -- [16]
-					"0:0", -- [17]
-					"51880:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Spec"] = 1,
 			},
 			["Jivus"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Azote de Rasganorte",
 				["Faction"] = "A",
 				["Date"] = 202105030052,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 202,
 				["Level"] = 80,
 				["GearScore"] = 3583,
@@ -4186,86 +4294,158 @@ GS_Data = {
 					"0:0", -- [17]
 					"32336:3608", -- [18]
 				},
+				["Spec"] = 1,
+			},
+			["Plets"] = {
+				["Spec"] = 1,
+				["Guild"] = "The Lost Dinasty",
+				["Location"] = "XXX",
+				["Date"] = 202105060207,
 				["Class"] = "HU",
+				["Average"] = 259,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5859,
+				["Race"] = "NE",
+				["Name"] = "Plets",
+				["Sex"] = 2,
+				["Equip"] = {
+					"41158:3795", -- [1]
+					"51355:0", -- [2]
+					"41218:3793", -- [3]
+					nil, -- [4]
+					"41088:3245", -- [5]
+					"51350:3601", -- [6]
+					"41206:3823", -- [7]
+					"51351:3606", -- [8]
+					"51352:3845", -- [9]
+					"41144:3603", -- [10]
+					"50402:0", -- [11]
+					"51358:0", -- [12]
+					"50342:0", -- [13]
+					"51377:0", -- [14]
+					"50470:3605", -- [15]
+					"51022:3731", -- [16]
+					"0:0", -- [17]
+					"50034:3608", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
 			},
-			["Bortt"] = {
+			["Starosta"] = {
+				["Spec"] = 1,
+				["Guild"] = "Los Socios del Desierto",
+				["Location"] = "XXX",
+				["Date"] = 202105060206,
+				["Class"] = "WA",
+				["Average"] = 272,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6701,
+				["Race"] = "HU",
+				["Name"] = "Starosta",
+				["Sex"] = 2,
+				["Equip"] = {
+					"51543:3795", -- [1]
+					"51353:0", -- [2]
+					"51545:3793", -- [3]
+					nil, -- [4]
+					"51541:3245", -- [5]
+					"50620:0", -- [6]
+					"51544:3853", -- [7]
+					"50639:3232", -- [8]
+					"50670:0", -- [9]
+					"51542:3234", -- [10]
+					"50402:0", -- [11]
+					"50618:0", -- [12]
+					"50343:0", -- [13]
+					"54569:0", -- [14]
+					"51356:3730", -- [15]
+					"49623:3789", -- [16]
+					"0:0", -- [17]
+					"51880:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Rheley"] = {
 				["Class"] = "MA",
-				["Guild"] = "Falling Reverse",
+				["Guild"] = "More PewPew Less QQ",
 				["Equip"] = {
-					"42553:0", -- [1]
-					"36988:0", -- [2]
-					"50449:0", -- [3]
+					"18817:3820", -- [1]
+					"34679:0", -- [2]
+					"13132:3810", -- [3]
 					nil, -- [4]
-					"47749:0", -- [5]
-					"50263:0", -- [6]
-					"49891:0", -- [7]
-					"49890:3606", -- [8]
-					"49994:0", -- [9]
-					"47752:3604", -- [10]
-					"47732:0", -- [11]
-					"43253:0", -- [12]
-					"42395:0", -- [13]
-					"50259:0", -- [14]
-					"50469:0", -- [15]
-					"50210:0", -- [16]
-					"38322:0", -- [17]
-					"50472:0", -- [18]
+					"710073:3832", -- [5]
+					"23510:3601", -- [6]
+					"23512:3872", -- [7]
+					"33471:3606", -- [8]
+					"50651:2332", -- [9]
+					"4083:3604", -- [10]
+					"18821:0", -- [11]
+					"18821:0", -- [12]
+					"18815:0", -- [13]
+					"19339:0", -- [14]
+					"50628:3722", -- [15]
+					"1728:3834", -- [16]
+					"45314:0", -- [17]
+					"17077:0", -- [18]
 				},
-				["Date"] = 202105230019,
+				["Date"] = 202106122328,
 				["PVP"] = 1,
-				["Average"] = 233,
+				["Average"] = 124,
 				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 4869,
+				["GearScore"] = 2230,
 				["Race"] = "HU",
-				["Name"] = "Bortt",
+				["Name"] = "Rheley",
 				["Faction"] = "A",
-				["Location"] = "DAL",
+				["Location"] = "XXX",
 				["Level"] = 80,
-				["Sex"] = 2,
+				["Sex"] = 3,
 				["Spec"] = 1,
 			},
-			["Sefertaros"] = {
-				["Class"] = "PR",
-				["Guild"] = "*",
-				["Equip"] = {
-					"50392:3820", -- [1]
-					"51008:0", -- [2]
-					"50396:3810", -- [3]
-					nil, -- [4]
-					"51180:0", -- [5]
-					"49978:0", -- [6]
-					"51777:0", -- [7]
-					"50804:0", -- [8]
-					"51007:0", -- [9]
-					"50391:3246", -- [10]
-					"50398:0", -- [11]
-					"51381:0", -- [12]
-					"50340:0", -- [13]
-					"40682:0", -- [14]
-					"50014:0", -- [15]
-					"49968:3834", -- [16]
-					"50173:0", -- [17]
-					"51326:0", -- [18]
-				},
-				["Date"] = 202105230022,
-				["PVP"] = 1,
-				["Average"] = 253,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5714,
-				["Race"] = "HU",
-				["Name"] = "Sefertaros",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 2,
+			["Wargese"] = {
 				["Spec"] = 1,
+				["Guild"] = "Onlyfans",
+				["Location"] = "XXX",
+				["Date"] = 202105060105,
+				["Class"] = "WA",
+				["Average"] = 241,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5074,
+				["Race"] = "HU",
+				["Name"] = "Wargese",
+				["Sex"] = 2,
+				["Equip"] = {
+					"40826:0", -- [1]
+					"51357:0", -- [2]
+					"40866:0", -- [3]
+					nil, -- [4]
+					"40789:0", -- [5]
+					"45824:0", -- [6]
+					"40847:0", -- [7]
+					"51363:0", -- [8]
+					"51364:0", -- [9]
+					"40807:0", -- [10]
+					"50453:0", -- [11]
+					"51358:0", -- [12]
+					"40684:0", -- [13]
+					"42133:0", -- [14]
+					"40722:0", -- [15]
+					"42324:0", -- [16]
+					"0:0", -- [17]
+					"0:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
 			},
 			["Wrathion"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Hybrid Theory",
 				["Sex"] = 2,
 				["Date"] = 202105012341,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 275,
 				["Level"] = 80,
 				["GearScore"] = 6428,
@@ -4294,50 +4474,50 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
-			["Treecko"] = {
-				["Class"] = "HU",
-				["Guild"] = "Angels And Demons",
-				["Faction"] = "A",
-				["Date"] = 202105090154,
-				["PVP"] = 1,
-				["Average"] = 240,
-				["Level"] = 80,
-				["GearScore"] = 5260,
-				["Race"] = "NE",
-				["Name"] = "Treecko",
-				["Sex"] = 2,
-				["Location"] = "DAL",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"47685:0", -- [1]
-					"51779:0", -- [2]
-					"50233:0", -- [3]
-					nil, -- [4]
-					"50038:0", -- [5]
-					"49810:0", -- [6]
-					"48252:0", -- [7]
-					"51785:0", -- [8]
-					"50264:0", -- [9]
-					"50777:0", -- [10]
-					"50401:0", -- [11]
-					"49803:0", -- [12]
-					"50198:0", -- [13]
-					"47214:0", -- [14]
-					"54802:0", -- [15]
-					"51797:0", -- [16]
-					"0:0", -- [17]
-					"51385:0", -- [18]
-				},
+			["Sefertaros"] = {
 				["Spec"] = 1,
+				["Guild"] = "*",
+				["Equip"] = {
+					"50392:3820", -- [1]
+					"51008:0", -- [2]
+					"50396:3810", -- [3]
+					nil, -- [4]
+					"51180:0", -- [5]
+					"49978:0", -- [6]
+					"51777:0", -- [7]
+					"50804:0", -- [8]
+					"51007:0", -- [9]
+					"50391:3246", -- [10]
+					"50398:0", -- [11]
+					"51381:0", -- [12]
+					"50340:0", -- [13]
+					"40682:0", -- [14]
+					"50014:0", -- [15]
+					"49968:3834", -- [16]
+					"50173:0", -- [17]
+					"51326:0", -- [18]
+				},
+				["Date"] = 202105230022,
+				["Class"] = "PR",
+				["Average"] = 253,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5714,
+				["Race"] = "HU",
+				["Name"] = "Sefertaros",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 2,
+				["PVP"] = 1,
 			},
 			["Patinho"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202109042123,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 267,
 				["Level"] = 80,
 				["GearScore"] = 6207,
@@ -4366,86 +4546,14 @@ GS_Data = {
 					"49888:3789", -- [17]
 					"47659:0", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Crobar"] = {
-				["Class"] = "MA",
-				["Guild"] = "Die Verbannten",
-				["Equip"] = {
-					"51281:3820", -- [1]
-					"50182:0", -- [2]
-					"51284:3810", -- [3]
-					nil, -- [4]
-					"51283:3832", -- [5]
-					"49978:0", -- [6]
-					"51157:3872", -- [7]
-					"50699:3826", -- [8]
-					"50651:2332", -- [9]
-					"51159:3246", -- [10]
-					"50614:3840", -- [11]
-					"50398:3840", -- [12]
-					"54572:0", -- [13]
-					"50365:0", -- [14]
-					"50628:3722", -- [15]
-					"50732:3834", -- [16]
-					"50719:0", -- [17]
-					"50684:0", -- [18]
-				},
-				["Date"] = 202107032013,
 				["PVP"] = 1,
-				["Average"] = 274,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6399,
-				["Race"] = "HU",
-				["Name"] = "Crobar",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Spec"] = 1,
-			},
-			["Palalolo"] = {
-				["Class"] = "PA",
-				["Guild"] = "Meta cumbia meta joda",
-				["Faction"] = "A",
-				["Date"] = 202104270222,
-				["PVP"] = 1,
-				["Average"] = 271,
-				["Level"] = 80,
-				["GearScore"] = 6308,
-				["Race"] = "HU",
-				["Name"] = "Palalolo",
-				["Sex"] = 2,
-				["Location"] = "DAL",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51476:3795", -- [1]
-					"50647:0", -- [2]
-					"50674:3793", -- [3]
-					nil, -- [4]
-					"51474:3245", -- [5]
-					"51362:3601", -- [6]
-					"51477:3823", -- [7]
-					"53125:3606", -- [8]
-					"50659:3845", -- [9]
-					"51475:3603", -- [10]
-					"49999:0", -- [11]
-					"50402:0", -- [12]
-					"50343:0", -- [13]
-					"47131:0", -- [14]
-					"50653:3730", -- [15]
-					"50709:3789", -- [16]
-					"0:0", -- [17]
-					"51472:0", -- [18]
-				},
-				["Spec"] = 1,
 			},
 			["Jimotep"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202105090232,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 253,
 				["Level"] = 80,
 				["GearScore"] = 5653,
@@ -4474,230 +4582,86 @@ GS_Data = {
 					"42209:3833", -- [17]
 					"42487:3608", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Subjected"] = {
-				["Class"] = "RO",
-				["Guild"] = "Die Verbannten",
-				["Sex"] = 3,
-				["Date"] = 202105041505,
 				["PVP"] = 1,
-				["Average"] = 239,
-				["Level"] = 80,
-				["GearScore"] = 5147,
-				["Race"] = "NE",
-				["Name"] = "Subjected",
+			},
+			["Treecko"] = {
+				["Spec"] = 1,
+				["Guild"] = "Angels And Demons",
 				["Faction"] = "A",
-				["Equip"] = {
-					"41672:3795", -- [1]
-					"50421:0", -- [2]
-					"41683:3793", -- [3]
-					nil, -- [4]
-					"41650:3245", -- [5]
-					"50995:0", -- [6]
-					"41655:3823", -- [7]
-					"41836:1597", -- [8]
-					"41840:3845", -- [9]
-					"41767:1603", -- [10]
-					"50402:0", -- [11]
-					"51358:0", -- [12]
-					"42124:0", -- [13]
-					"42131:0", -- [14]
-					"42075:1099", -- [15]
-					"45958:3789", -- [16]
-					"45962:3731", -- [17]
-					"47659:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
+				["Date"] = 202105090154,
+				["Class"] = "HU",
+				["Average"] = 240,
+				["Level"] = 80,
+				["GearScore"] = 5260,
+				["Race"] = "NE",
+				["Name"] = "Treecko",
+				["Sex"] = 2,
 				["Location"] = "DAL",
-				["Spec"] = 1,
-			},
-			["Eleganteqlk"] = {
-				["Class"] = "PA",
-				["Guild"] = "Warrior OF The World",
-				["Faction"] = "A",
-				["Date"] = 202105090222,
-				["PVP"] = 1,
-				["Average"] = 249,
-				["Level"] = 80,
-				["GearScore"] = 5479,
-				["Race"] = "DR",
-				["Name"] = "Eleganteqlk",
-				["Sex"] = 2,
-				["Location"] = "XXX",
 				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"40934:0", -- [1]
-					"51331:0", -- [2]
-					"40963:0", -- [3]
+					"47685:0", -- [1]
+					"51779:0", -- [2]
+					"50233:0", -- [3]
 					nil, -- [4]
-					"40907:0", -- [5]
-					"51359:0", -- [6]
-					"40939:0", -- [7]
-					"40979:3606", -- [8]
-					"51361:0", -- [9]
-					"40928:3604", -- [10]
-					"51336:0", -- [11]
-					"42118:0", -- [12]
-					"42137:0", -- [13]
-					"42137:0", -- [14]
-					"51330:0", -- [15]
-					"42354:0", -- [16]
-					"42566:0", -- [17]
-					"42615:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Thecuca"] = {
-				["Class"] = "DR",
-				["Guild"] = "Fashionista",
-				["Location"] = "XXX",
-				["Date"] = 202105060221,
-				["PVP"] = 1,
-				["Average"] = 250,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5491,
-				["Race"] = "NE",
-				["Name"] = "Thecuca",
-				["Sex"] = 3,
-				["Equip"] = {
-					"41678:0", -- [1]
-					"50452:0", -- [2]
-					"51576:3835", -- [3]
-					nil, -- [4]
-					"41661:0", -- [5]
-					"51368:0", -- [6]
-					"41667:3326", -- [7]
-					"51369:0", -- [8]
-					"51370:0", -- [9]
-					"41773:0", -- [10]
-					"51358:0", -- [11]
-					"42119:0", -- [12]
-					"51377:0", -- [13]
-					"42133:0", -- [14]
-					"51354:0", -- [15]
-					"42392:0", -- [16]
+					"50038:0", -- [5]
+					"49810:0", -- [6]
+					"48252:0", -- [7]
+					"51785:0", -- [8]
+					"50264:0", -- [9]
+					"50777:0", -- [10]
+					"50401:0", -- [11]
+					"49803:0", -- [12]
+					"50198:0", -- [13]
+					"47214:0", -- [14]
+					"54802:0", -- [15]
+					"51797:0", -- [16]
 					"0:0", -- [17]
-					"47668:0", -- [18]
+					"51385:0", -- [18]
 				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Ephobuur"] = {
-				["Class"] = "WK",
-				["Guild"] = "Hybrid Theory",
-				["Faction"] = "A",
-				["Date"] = 202105082319,
 				["PVP"] = 1,
-				["Average"] = 266,
-				["Level"] = 80,
-				["GearScore"] = 6135,
-				["Race"] = "HU",
-				["Name"] = "Ephobuur",
-				["Sex"] = 2,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51231:3820", -- [1]
-					"50658:0", -- [2]
-					"51205:3810", -- [3]
-					nil, -- [4]
-					"51206:3832", -- [5]
-					"50702:0", -- [6]
-					"51207:3721", -- [7]
-					"47092:1147", -- [8]
-					"49994:2332", -- [9]
-					"50663:3246", -- [10]
-					"50644:0", -- [11]
-					"50398:0", -- [12]
-					"40682:0", -- [13]
-					"42137:0", -- [14]
-					"50668:0", -- [15]
-					"50704:3834", -- [16]
-					"50719:0", -- [17]
-					"50631:0", -- [18]
-				},
-				["Spec"] = 1,
 			},
-			["Deathkiur"] = {
-				["PVP"] = 1,
-				["Guild"] = "Warrior OF The World",
-				["Faction"] = "A",
-				["Date"] = 202105030323,
+			["Pipazina"] = {
 				["Spec"] = 1,
-				["Average"] = 256,
+				["Guild"] = "The Lost Dinasty",
+				["Faction"] = "A",
+				["Date"] = 202104270208,
+				["Class"] = "PA",
+				["Average"] = 243,
 				["Level"] = 80,
-				["GearScore"] = 5744,
+				["GearScore"] = 5339,
 				["Race"] = "DR",
-				["Name"] = "Deathkiur",
+				["Name"] = "Pipazina",
 				["Sex"] = 3,
 				["Location"] = "XXX",
 				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"40830:3795", -- [1]
-					"51355:0", -- [2]
-					"50020:3793", -- [3]
+					"48609:0", -- [1]
+					"47105:0", -- [2]
+					"48611:0", -- [3]
 					nil, -- [4]
-					"40791:3245", -- [5]
-					"51362:3601", -- [6]
-					"40851:3853", -- [7]
-					"51363:3606", -- [8]
-					"51364:1600", -- [9]
-					"40811:3603", -- [10]
-					"50453:0", -- [11]
-					"52571:0", -- [12]
-					"47734:0", -- [13]
-					"51377:0", -- [14]
-					"51354:3730", -- [15]
-					"42334:3368", -- [16]
+					"48607:0", -- [5]
+					"46999:0", -- [6]
+					"48610:0", -- [7]
+					"47150:0", -- [8]
+					"51563:0", -- [9]
+					"48608:0", -- [10]
+					"46959:0", -- [11]
+					"52570:0", -- [12]
+					"47214:0", -- [13]
+					"47734:0", -- [14]
+					"47183:0", -- [15]
+					"47069:0", -- [16]
 					"0:0", -- [17]
-					"45254:0", -- [18]
+					"47661:0", -- [18]
 				},
-				["Class"] = "DK",
-			},
-			["Rockfer"] = {
-				["Class"] = "PA",
-				["Guild"] = "*",
-				["Sex"] = 2,
-				["Date"] = 202105041401,
 				["PVP"] = 1,
-				["Average"] = 250,
-				["Level"] = 80,
-				["GearScore"] = 5531,
-				["Race"] = "HU",
-				["Name"] = "Rockfer",
-				["Faction"] = "A",
-				["Equip"] = {
-					"50867:3820", -- [1]
-					"51804:0", -- [2]
-					"50865:3809", -- [3]
-					nil, -- [4]
-					"48566:0", -- [5]
-					"50451:3601", -- [6]
-					"50866:0", -- [7]
-					"51360:3606", -- [8]
-					"50175:2332", -- [9]
-					"50868:3603", -- [10]
-					"47732:0", -- [11]
-					"47733:0", -- [12]
-					"50260:0", -- [13]
-					"48724:0", -- [14]
-					"51330:3859", -- [15]
-					"42354:0", -- [16]
-					"42572:1128", -- [17]
-					"50460:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Spec"] = 1,
 			},
 			["Epidermis"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "Overwatch",
 				["Sex"] = 3,
 				["Date"] = 202105041335,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 230,
 				["Level"] = 80,
 				["GearScore"] = 4869,
@@ -4726,86 +4690,302 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
-			},
-			["Coldtrane"] = {
-				["Class"] = "MA",
-				["Guild"] = "La Mesa LOCA",
-				["Location"] = "XXX",
-				["Date"] = 202105060147,
 				["PVP"] = 1,
-				["Average"] = 259,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5860,
-				["Race"] = "HU",
-				["Name"] = "Coldtrane",
-				["Sex"] = 2,
-				["Equip"] = {
-					"41947:3797", -- [1]
-					"51335:0", -- [2]
-					"51572:3794", -- [3]
-					nil, -- [4]
-					"41954:3245", -- [5]
-					"51337:0", -- [6]
-					"51466:3873", -- [7]
-					"51338:3232", -- [8]
-					"51339:2332", -- [9]
-					"51464:3246", -- [10]
-					"50398:3840", -- [11]
-					"51336:3840", -- [12]
-					"50358:0", -- [13]
-					"42135:0", -- [14]
-					"51332:3243", -- [15]
-					"49189:3834", -- [16]
-					"49187:0", -- [17]
-					"49185:0", -- [18]
-				},
-				["Level"] = 80,
+			},
+			["Palalolo"] = {
+				["Spec"] = 1,
+				["Guild"] = "Meta cumbia meta joda",
 				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Holapipi"] = {
+				["Date"] = 202104270222,
 				["Class"] = "PA",
-				["Guild"] = "Onlyfans",
-				["Location"] = "XXX",
-				["Date"] = 202105060233,
-				["PVP"] = 1,
-				["Average"] = 262,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6042,
+				["Average"] = 271,
+				["Level"] = 80,
+				["GearScore"] = 6308,
 				["Race"] = "HU",
-				["Name"] = "Holapipi",
-				["Sex"] = 3,
+				["Name"] = "Palalolo",
+				["Sex"] = 2,
+				["Location"] = "DAL",
+				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"40831:3795", -- [1]
-					"51357:0", -- [2]
-					"40872:3808", -- [3]
+					"51476:3795", -- [1]
+					"50647:0", -- [2]
+					"50674:3793", -- [3]
 					nil, -- [4]
-					"40792:3245", -- [5]
-					"51362:0", -- [6]
-					"51477:3853", -- [7]
-					"51363:1597", -- [8]
-					"51364:3845", -- [9]
-					"51475:1603", -- [10]
-					"50453:3839", -- [11]
-					"51358:3839", -- [12]
-					"50362:0", -- [13]
-					"50343:0", -- [14]
-					"51356:3730", -- [15]
+					"51474:3245", -- [5]
+					"51362:3601", -- [6]
+					"51477:3823", -- [7]
+					"53125:3606", -- [8]
+					"50659:3845", -- [9]
+					"51475:3603", -- [10]
+					"49999:0", -- [11]
+					"50402:0", -- [12]
+					"50343:0", -- [13]
+					"47131:0", -- [14]
+					"50653:3730", -- [15]
 					"50709:3789", -- [16]
 					"0:0", -- [17]
-					"42616:0", -- [18]
+					"51472:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Crobar"] = {
+				["Spec"] = 1,
+				["Guild"] = "Die Verbannten",
+				["Equip"] = {
+					"51281:3820", -- [1]
+					"50182:0", -- [2]
+					"51284:3810", -- [3]
+					nil, -- [4]
+					"51283:3832", -- [5]
+					"49978:0", -- [6]
+					"51157:3872", -- [7]
+					"50699:3826", -- [8]
+					"50651:2332", -- [9]
+					"51159:3246", -- [10]
+					"50614:3840", -- [11]
+					"50398:3840", -- [12]
+					"54572:0", -- [13]
+					"50365:0", -- [14]
+					"50628:3722", -- [15]
+					"50732:3834", -- [16]
+					"50719:0", -- [17]
+					"50684:0", -- [18]
+				},
+				["Date"] = 202107032013,
+				["Class"] = "MA",
+				["Average"] = 274,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6399,
+				["Race"] = "HU",
+				["Name"] = "Crobar",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["PVP"] = 1,
+			},
+			["Subjected"] = {
+				["Spec"] = 1,
+				["Guild"] = "Die Verbannten",
+				["Sex"] = 3,
+				["Date"] = 202105041505,
+				["Class"] = "RO",
+				["Average"] = 239,
+				["Level"] = 80,
+				["GearScore"] = 5147,
+				["Race"] = "NE",
+				["Name"] = "Subjected",
+				["Faction"] = "A",
+				["Equip"] = {
+					"41672:3795", -- [1]
+					"50421:0", -- [2]
+					"41683:3793", -- [3]
+					nil, -- [4]
+					"41650:3245", -- [5]
+					"50995:0", -- [6]
+					"41655:3823", -- [7]
+					"41836:1597", -- [8]
+					"41840:3845", -- [9]
+					"41767:1603", -- [10]
+					"50402:0", -- [11]
+					"51358:0", -- [12]
+					"42124:0", -- [13]
+					"42131:0", -- [14]
+					"42075:1099", -- [15]
+					"45958:3789", -- [16]
+					"45962:3731", -- [17]
+					"47659:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "DAL",
+				["PVP"] = 1,
+			},
+			["Eleganteqlk"] = {
+				["Spec"] = 1,
+				["Guild"] = "Warrior OF The World",
+				["Faction"] = "A",
+				["Date"] = 202105090222,
+				["Class"] = "PA",
+				["Average"] = 249,
+				["Level"] = 80,
+				["GearScore"] = 5479,
+				["Race"] = "DR",
+				["Name"] = "Eleganteqlk",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"40934:0", -- [1]
+					"51331:0", -- [2]
+					"40963:0", -- [3]
+					nil, -- [4]
+					"40907:0", -- [5]
+					"51359:0", -- [6]
+					"40939:0", -- [7]
+					"40979:3606", -- [8]
+					"51361:0", -- [9]
+					"40928:3604", -- [10]
+					"51336:0", -- [11]
+					"42118:0", -- [12]
+					"42137:0", -- [13]
+					"42137:0", -- [14]
+					"51330:0", -- [15]
+					"42354:0", -- [16]
+					"42566:0", -- [17]
+					"42615:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Thecuca"] = {
+				["Spec"] = 1,
+				["Guild"] = "Fashionista",
+				["Location"] = "XXX",
+				["Date"] = 202105060221,
+				["Class"] = "DR",
+				["Average"] = 250,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5491,
+				["Race"] = "NE",
+				["Name"] = "Thecuca",
+				["Sex"] = 3,
+				["Equip"] = {
+					"41678:0", -- [1]
+					"50452:0", -- [2]
+					"51576:3835", -- [3]
+					nil, -- [4]
+					"41661:0", -- [5]
+					"51368:0", -- [6]
+					"41667:3326", -- [7]
+					"51369:0", -- [8]
+					"51370:0", -- [9]
+					"41773:0", -- [10]
+					"51358:0", -- [11]
+					"42119:0", -- [12]
+					"51377:0", -- [13]
+					"42133:0", -- [14]
+					"51354:0", -- [15]
+					"42392:0", -- [16]
+					"0:0", -- [17]
+					"47668:0", -- [18]
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Ephobuur"] = {
+				["Spec"] = 1,
+				["Guild"] = "Hybrid Theory",
+				["Faction"] = "A",
+				["Date"] = 202105082319,
+				["Class"] = "WK",
+				["Average"] = 266,
+				["Level"] = 80,
+				["GearScore"] = 6135,
+				["Race"] = "HU",
+				["Name"] = "Ephobuur",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51231:3820", -- [1]
+					"50658:0", -- [2]
+					"51205:3810", -- [3]
+					nil, -- [4]
+					"51206:3832", -- [5]
+					"50702:0", -- [6]
+					"51207:3721", -- [7]
+					"47092:1147", -- [8]
+					"49994:2332", -- [9]
+					"50663:3246", -- [10]
+					"50644:0", -- [11]
+					"50398:0", -- [12]
+					"40682:0", -- [13]
+					"42137:0", -- [14]
+					"50668:0", -- [15]
+					"50704:3834", -- [16]
+					"50719:0", -- [17]
+					"50631:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Deathkiur"] = {
+				["Class"] = "DK",
+				["Guild"] = "Warrior OF The World",
+				["Faction"] = "A",
+				["Date"] = 202105030323,
+				["PVP"] = 1,
+				["Average"] = 256,
+				["Level"] = 80,
+				["GearScore"] = 5744,
+				["Race"] = "DR",
+				["Name"] = "Deathkiur",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"40830:3795", -- [1]
+					"51355:0", -- [2]
+					"50020:3793", -- [3]
+					nil, -- [4]
+					"40791:3245", -- [5]
+					"51362:3601", -- [6]
+					"40851:3853", -- [7]
+					"51363:3606", -- [8]
+					"51364:1600", -- [9]
+					"40811:3603", -- [10]
+					"50453:0", -- [11]
+					"52571:0", -- [12]
+					"47734:0", -- [13]
+					"51377:0", -- [14]
+					"51354:3730", -- [15]
+					"42334:3368", -- [16]
+					"0:0", -- [17]
+					"45254:0", -- [18]
+				},
 				["Spec"] = 1,
 			},
+			["Rockfer"] = {
+				["Spec"] = 1,
+				["Guild"] = "*",
+				["Sex"] = 2,
+				["Date"] = 202105041401,
+				["Class"] = "PA",
+				["Average"] = 250,
+				["Level"] = 80,
+				["GearScore"] = 5531,
+				["Race"] = "HU",
+				["Name"] = "Rockfer",
+				["Faction"] = "A",
+				["Equip"] = {
+					"50867:3820", -- [1]
+					"51804:0", -- [2]
+					"50865:3809", -- [3]
+					nil, -- [4]
+					"48566:0", -- [5]
+					"50451:3601", -- [6]
+					"50866:0", -- [7]
+					"51360:3606", -- [8]
+					"50175:2332", -- [9]
+					"50868:3603", -- [10]
+					"47732:0", -- [11]
+					"47733:0", -- [12]
+					"50260:0", -- [13]
+					"48724:0", -- [14]
+					"51330:3859", -- [15]
+					"42354:0", -- [16]
+					"42572:1128", -- [17]
+					"50460:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
 			["Turco"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Faction"] = "A",
 				["Date"] = 202109050105,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 268,
 				["Level"] = 80,
 				["GearScore"] = 6621,
@@ -4834,950 +5014,50 @@ GS_Data = {
 					"0:0", -- [17]
 					"51535:0", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Mysta"] = {
-				["PVP"] = 1,
-				["Guild"] = "*",
-				["Equip"] = {
-					"41855:3797", -- [1]
-					"51347:0", -- [2]
-					"51573:3794", -- [3]
-					nil, -- [4]
-					"41860:3245", -- [5]
-					"51365:0", -- [6]
-					"41865:3853", -- [7]
-					"51366:3232", -- [8]
-					"51367:2332", -- [9]
-					"41875:3234", -- [10]
-					"50398:0", -- [11]
-					"50610:0", -- [12]
-					"50726:0", -- [13]
-					"44255:0", -- [14]
-					"51346:3243", -- [15]
-					"42354:3834", -- [16]
-					"49187:0", -- [17]
-					"42521:0", -- [18]
-				},
-				["Date"] = 202105052051,
-				["Spec"] = 1,
-				["Average"] = 256,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5732,
-				["Race"] = "HU",
-				["Name"] = "Mysta",
-				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Class"] = "PR",
-			},
-			["Tomatitoloco"] = {
-				["Class"] = "PA",
-				["Guild"] = "More PewPew Less QQ",
-				["Equip"] = {
-					"50779:0", -- [1]
-					"51808:0", -- [2]
-					"50324:0", -- [3]
-					nil, -- [4]
-					"50328:0", -- [5]
-					"40883:0", -- [6]
-					"50325:0", -- [7]
-					"50788:0", -- [8]
-					"51364:0", -- [9]
-					"50327:0", -- [10]
-					"52570:0", -- [11]
-					"50453:0", -- [12]
-					"49074:0", -- [13]
-					"47734:0", -- [14]
-					"49832:0", -- [15]
-					"50761:0", -- [16]
-					"0:0", -- [17]
-					"47661:0", -- [18]
-				},
-				["Date"] = 202105230022,
-				["PVP"] = 1,
-				["Average"] = 245,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5446,
-				["Race"] = "DW",
-				["Name"] = "Tomatitoloco",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 2,
-				["Spec"] = 1,
-			},
-			["Lukarion"] = {
-				["Class"] = "DR",
-				["Guild"] = "Boreal Alyph",
-				["Faction"] = "A",
-				["Date"] = 202105082344,
-				["PVP"] = 1,
-				["Average"] = 270,
-				["Level"] = 80,
-				["GearScore"] = 6256,
-				["Race"] = "NE",
-				["Name"] = "Lukarion",
-				["Sex"] = 2,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51137:3819", -- [1]
-					"50609:0", -- [2]
-					"51135:3809", -- [3]
-					nil, -- [4]
-					"50717:3832", -- [5]
-					"50705:0", -- [6]
-					"51136:3872", -- [7]
-					"50665:3606", -- [8]
-					"53134:2332", -- [9]
-					"51138:3246", -- [10]
-					"50636:0", -- [11]
-					"51884:0", -- [12]
-					"50366:0", -- [13]
-					"50346:0", -- [14]
-					"50014:3722", -- [15]
-					"50429:3854", -- [16]
-					"0:0", -- [17]
-					"50454:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Darlena"] = {
-				["Faction"] = "A",
-				["Guild"] = "Meta cumbia meta joda",
-				["Equip"] = {
-					"51484:3797", -- [1]
-					"50609:0", -- [2]
-					"51572:3794", -- [3]
-					nil, -- [4]
-					"51482:3245", -- [5]
-					"50613:0", -- [6]
-					"51485:3719", -- [7]
-					"51338:3232", -- [8]
-					"51339:2332", -- [9]
-					"51483:3246", -- [10]
-					"50398:0", -- [11]
-					"50714:0", -- [12]
-					"50348:0", -- [13]
-					"50365:0", -- [14]
-					"51332:3243", -- [15]
-					"50734:3834", -- [16]
-					"51407:0", -- [17]
-					"51531:0", -- [18]
-				},
-				["Date"] = 202105030120,
-				["PVP"] = 1,
-				["Average"] = 271,
-				["Level"] = 80,
-				["GearScore"] = 6290,
-				["Race"] = "HU",
-				["Name"] = "Darlena",
-				["Sex"] = 1,
-				["Location"] = "XXX",
-				["Scanned"] = "Skombrow",
-				["Class"] = "PR",
-				["Spec"] = 1,
-			},
-			["Tilza"] = {
-				["Spec"] = 1,
-				["Guild"] = "Shadowmourne",
-				["Faction"] = "A",
-				["Date"] = 202105052209,
-				["Class"] = "DR",
-				["Average"] = 263,
-				["Level"] = 80,
-				["GearScore"] = 6037,
-				["Race"] = "NE",
-				["Name"] = "Tilza",
-				["Sex"] = 3,
-				["Location"] = "DAL",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51149:3820", -- [1]
-					"50724:0", -- [2]
-					"51147:3810", -- [3]
-					nil, -- [4]
-					"51145:3832", -- [5]
-					"50795:0", -- [6]
-					"51146:3721", -- [7]
-					"51920:3826", -- [8]
-					"51885:2332", -- [9]
-					"51148:3234", -- [10]
-					"50644:0", -- [11]
-					"50398:0", -- [12]
-					"50360:0", -- [13]
-					"40682:0", -- [14]
-					"50668:3722", -- [15]
-					"49968:3834", -- [16]
-					"50719:0", -- [17]
-					"50457:0", -- [18]
-				},
 				["PVP"] = 1,
 			},
-			["Iceforce"] = {
-				["Class"] = "PR",
-				["Guild"] = "orden de los olvidados",
-				["Faction"] = "A",
-				["Date"] = 202105090025,
-				["PVP"] = 1,
-				["Average"] = 227,
-				["Level"] = 80,
-				["GearScore"] = 4726,
-				["Race"] = "DR",
-				["Name"] = "Iceforce",
-				["Sex"] = 3,
-				["Location"] = "COI",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"47914:0", -- [1]
-					"45822:0", -- [2]
-					"50449:0", -- [3]
-					nil, -- [4]
-					"47936:3832", -- [5]
-					"44309:0", -- [6]
-					"47980:0", -- [7]
-					"40751:3232", -- [8]
-					"40741:41", -- [9]
-					"47982:0", -- [10]
-					"47733:0", -- [11]
-					"47732:0", -- [12]
-					"48724:0", -- [13]
-					"40685:0", -- [14]
-					"40724:3296", -- [15]
-					"48663:0", -- [16]
-					"40699:0", -- [17]
-					"47658:0", -- [18]
-				},
+			["Holapipi"] = {
 				["Spec"] = 1,
-			},
-			["Chalaxy"] = {
-				["Class"] = "SH",
-				["Guild"] = "orden de los olvidados",
-				["Equip"] = {
-					"50797:0", -- [1]
-					"51008:0", -- [2]
-					"50839:0", -- [3]
-					nil, -- [4]
-					"50835:0", -- [5]
-					"50015:0", -- [6]
-					"50450:0", -- [7]
-					"51006:0", -- [8]
-					"50774:0", -- [9]
-					"51583:0", -- [10]
-					"50400:0", -- [11]
-					"47733:0", -- [12]
-					"50358:0", -- [13]
-					"47215:0", -- [14]
-					"49823:0", -- [15]
-					"51004:0", -- [16]
-					"40700:0", -- [17]
-					"47665:0", -- [18]
-				},
-				["Date"] = 202105230022,
-				["PVP"] = 1,
-				["Average"] = 246,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5426,
-				["Race"] = "DR",
-				["Name"] = "Chalaxy",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Spec"] = 1,
-			},
-			["Hijadelsol"] = {
-				["PVP"] = 1,
-				["Guild"] = "orden de los olvidados",
-				["Equip"] = {
-					"41152:3795", -- [1]
-					"51357:0", -- [2]
-					"41212:3852", -- [3]
-					nil, -- [4]
-					"50038:3832", -- [5]
-					"51350:0", -- [6]
-					"41200:0", -- [7]
-					"51351:1597", -- [8]
-					"51352:3845", -- [9]
-					"41138:1603", -- [10]
-					"51358:0", -- [11]
-					"42119:0", -- [12]
-					"51377:0", -- [13]
-					"42136:0", -- [14]
-					"51354:3294", -- [15]
-					"42262:1606", -- [16]
-					"42267:1606", -- [17]
-					"47667:0", -- [18]
-				},
-				["Date"] = 202104250025,
-				["Spec"] = 1,
-				["Average"] = 255,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5733,
-				["Race"] = "DR",
-				["Name"] = "Hijadelsol",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Class"] = "SH",
-			},
-			["Doohnibor"] = {
-				["Class"] = "HU",
-				["Guild"] = "Azote de Rasganorte",
-				["Location"] = "DAL",
-				["Date"] = 202104250141,
-				["PVP"] = 1,
-				["Average"] = 238,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5166,
-				["Race"] = "NE",
-				["Name"] = "Doohnibor",
-				["Sex"] = 2,
-				["Equip"] = {
-					"50115:0", -- [1]
-					"51807:0", -- [2]
-					"50117:3835", -- [3]
-					nil, -- [4]
-					"50038:0", -- [5]
-					"49810:0", -- [6]
-					"48252:0", -- [7]
-					"50295:0", -- [8]
-					"51352:0", -- [9]
-					"50114:0", -- [10]
-					"49803:0", -- [11]
-					"47730:0", -- [12]
-					"49074:0", -- [13]
-					"50198:0", -- [14]
-					"51356:0", -- [15]
-					"50191:0", -- [16]
-					"50191:0", -- [17]
-					"50262:3843", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Helenah"] = {
-				["Class"] = "PA",
-				["Guild"] = "orden de los olvidados",
-				["Faction"] = "A",
-				["Date"] = 202105090125,
-				["PVP"] = 1,
-				["Average"] = 222,
-				["Level"] = 80,
-				["GearScore"] = 4522,
-				["Race"] = "HU",
-				["Name"] = "Helenah",
-				["Sex"] = 3,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"40828:0", -- [1]
-					"36432:0", -- [2]
-					"40869:0", -- [3]
-					nil, -- [4]
-					"48632:0", -- [5]
-					"49853:0", -- [6]
-					"40849:0", -- [7]
-					"37150:0", -- [8]
-					"49797:0", -- [9]
-					"49855:0", -- [10]
-					"50453:0", -- [11]
-					"50447:0", -- [12]
-					"42990:0", -- [13]
-					"42989:0", -- [14]
-					"51356:0", -- [15]
-					"44311:0", -- [16]
-					"49821:0", -- [17]
-					"47664:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Deadhorse"] = {
-				["Class"] = "HU",
-				["Guild"] = "Crissaegrim",
-				["Equip"] = {
-					"51153:3817", -- [1]
-					"51779:0", -- [2]
-					"51151:3808", -- [3]
-					nil, -- [4]
-					"51150:3832", -- [5]
-					"50995:0", -- [6]
-					"49988:3823", -- [7]
-					"49897:1597", -- [8]
-					"50333:3845", -- [9]
-					"51154:1603", -- [10]
-					"51900:0", -- [11]
-					"50402:0", -- [12]
-					"40684:0", -- [13]
-					"50362:0", -- [14]
-					"50470:1099", -- [15]
-					"50425:3827", -- [16]
-					"0:0", -- [17]
-					"51802:3608", -- [18]
-				},
-				["Date"] = 202105230023,
-				["PVP"] = 1,
-				["Average"] = 260,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5926,
-				["Race"] = "NE",
-				["Name"] = "Deadhorse",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 2,
-				["Spec"] = 1,
-			},
-			["Skombrow"] = {
-				["Class"] = "DR",
-				["Guild"] = "Orden Fenix",
-				["Faction"] = "A",
-				["Date"] = 202109050137,
-				["PVP"] = 1,
-				["Average"] = 276,
-				["Level"] = 80,
-				["GearScore"] = 6480,
-				["Race"] = "NE",
-				["Name"] = "Skombrow",
-				["Sex"] = 2,
-				["Location"] = "DAL",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51302:3820", -- [1]
-					"50609:0", -- [2]
-					"51304:3810", -- [3]
-					nil, -- [4]
-					"50717:3832", -- [5]
-					"50705:0", -- [6]
-					"51303:3719", -- [7]
-					"50665:1147", -- [8]
-					"50630:3758", -- [9]
-					"51301:3246", -- [10]
-					"50610:0", -- [11]
-					"50636:0", -- [12]
-					"50366:0", -- [13]
-					"54573:0", -- [14]
-					"50668:3831", -- [15]
-					"50685:3834", -- [16]
-					"50635:0", -- [17]
-					"50454:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Brunayanka"] = {
-				["PVP"] = 1,
-				["Guild"] = "*",
-				["Location"] = "XXX",
-				["Date"] = 202105222127,
-				["Spec"] = 1,
-				["Average"] = 274,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6813,
-				["Race"] = "HU",
-				["Name"] = "Brunayanka",
-				["Sex"] = 3,
-				["Equip"] = {
-					"51277:3817", -- [1]
-					"50647:0", -- [2]
-					"51279:3808", -- [3]
-					nil, -- [4]
-					"51275:3832", -- [5]
-					"50620:0", -- [6]
-					"51278:3823", -- [7]
-					"50639:3606", -- [8]
-					"50659:3845", -- [9]
-					"50690:3604", -- [10]
-					"52572:0", -- [11]
-					"50657:0", -- [12]
-					"47131:0", -- [13]
-					"50706:0", -- [14]
-					"50677:3605", -- [15]
-					"49623:3789", -- [16]
-					"0:0", -- [17]
-					"47661:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Class"] = "PA",
-			},
-			["Boyce"] = {
-				["PVP"] = 1,
-				["Guild"] = "Warrior OF The World",
-				["Equip"] = {
-					"41679:3795", -- [1]
-					"50452:0", -- [2]
-					"41716:3793", -- [3]
-					nil, -- [4]
-					"41662:3832", -- [5]
-					"51368:0", -- [6]
-					"41668:0", -- [7]
-					"51369:1597", -- [8]
-					"51370:0", -- [9]
-					"41774:0", -- [10]
-					"42119:0", -- [11]
-					"50402:0", -- [12]
-					"51377:0", -- [13]
-					"42136:0", -- [14]
-					"51356:3730", -- [15]
-					"50040:2673", -- [16]
-					"0:0", -- [17]
-					"47668:0", -- [18]
-				},
-				["Date"] = 202105052107,
-				["Spec"] = 1,
-				["Average"] = 257,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5826,
-				["Race"] = "NE",
-				["Name"] = "Boyce",
-				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 2,
-				["Class"] = "DR",
-			},
-			["Pipazin"] = {
-				["Class"] = "RO",
-				["Guild"] = "The Lost Dinasty",
-				["Faction"] = "A",
-				["Date"] = 202104270214,
-				["PVP"] = 1,
-				["Average"] = 262,
-				["Level"] = 80,
-				["GearScore"] = 5949,
-				["Race"] = "GN",
-				["Name"] = "Pipazin",
-				["Sex"] = 2,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"50073:0", -- [1]
-					"50452:0", -- [2]
-					"48227:3875", -- [3]
-					nil, -- [4]
-					"50001:0", -- [5]
-					"50778:0", -- [6]
-					"50858:0", -- [7]
-					"51369:0", -- [8]
-					"51370:0", -- [9]
-					"50021:3604", -- [10]
-					"51358:0", -- [11]
-					"50402:0", -- [12]
-					"51377:0", -- [13]
-					"50355:0", -- [14]
-					"51354:0", -- [15]
-					"51800:3789", -- [16]
-					"50183:3789", -- [17]
-					"50474:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Experiment"] = {
-				["Class"] = "PR",
-				["Guild"] = "Shadowmourne",
-				["Sex"] = 3,
-				["Date"] = 202105041457,
-				["PVP"] = 1,
-				["Average"] = 258,
-				["Level"] = 80,
-				["GearScore"] = 5841,
-				["Race"] = "HU",
-				["Name"] = "Experiment",
-				["Faction"] = "A",
-				["Equip"] = {
-					"41855:0", -- [1]
-					"51333:0", -- [2]
-					"41870:3794", -- [3]
-					nil, -- [4]
-					"41860:3245", -- [5]
-					"51337:0", -- [6]
-					"41865:3719", -- [7]
-					"51338:0", -- [8]
-					"51339:0", -- [9]
-					"41875:3246", -- [10]
-					"50398:0", -- [11]
-					"51336:0", -- [12]
-					"50353:0", -- [13]
-					"50354:0", -- [14]
-					"51332:3722", -- [15]
-					"50734:3834", -- [16]
-					"42526:0", -- [17]
-					"42520:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "DAL",
-				["Spec"] = 1,
-			},
-			["Ururk"] = {
-				["PVP"] = 1,
-				["Guild"] = "orden de los olvidados",
-				["Faction"] = "A",
-				["Date"] = 202105230105,
-				["Spec"] = 1,
-				["Average"] = 251,
-				["Level"] = 80,
-				["GearScore"] = 5614,
-				["Race"] = "NE",
-				["Name"] = "Ururk",
-				["Sex"] = 2,
-				["Location"] = "DAL",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51002:0", -- [1]
-					"50852:0", -- [2]
-					"50117:0", -- [3]
-					nil, -- [4]
-					"50038:3329", -- [5]
-					"51325:0", -- [6]
-					"51566:0", -- [7]
-					"51351:3606", -- [8]
-					"50789:0", -- [9]
-					"48254:3603", -- [10]
-					"50453:0", -- [11]
-					"50401:0", -- [12]
-					"42124:0", -- [13]
-					"50198:0", -- [14]
-					"51356:3605", -- [15]
-					"50787:0", -- [16]
-					"50759:0", -- [17]
-					"50776:0", -- [18]
-				},
-				["Class"] = "HU",
-			},
-			["Ryukeen"] = {
-				["Class"] = "SH",
-				["Guild"] = "*",
-				["Sex"] = 2,
-				["Date"] = 202105292322,
-				["PVP"] = 1,
-				["Average"] = 266,
-				["Level"] = 80,
-				["GearScore"] = 6129,
-				["Race"] = "DR",
-				["Name"] = "Ryukeen",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51192:3819", -- [1]
-					"51008:0", -- [2]
-					"51194:3809", -- [3]
-					nil, -- [4]
-					"51190:3832", -- [5]
-					"50671:0", -- [6]
-					"51193:3721", -- [7]
-					"50699:3606", -- [8]
-					"53134:2332", -- [9]
-					"50064:3604", -- [10]
-					"51884:0", -- [11]
-					"49967:0", -- [12]
-					"50358:0", -- [13]
-					"54572:0", -- [14]
-					"51848:3831", -- [15]
-					"51939:3834", -- [16]
-					"51812:1128", -- [17]
-					"50458:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Spec"] = 1,
-			},
-			["Warimpotente"] = {
-				["Class"] = "WA",
-				["Guild"] = "Sunshine",
-				["Sex"] = 2,
-				["Date"] = 202105041329,
-				["PVP"] = 1,
-				["Average"] = 205,
-				["Level"] = 80,
-				["GearScore"] = 3735,
-				["Race"] = "HU",
-				["Name"] = "Warimpotente",
-				["Faction"] = "A",
-				["Equip"] = {
-					"48371:0", -- [1]
-					"50452:0", -- [2]
-					"50020:0", -- [3]
-					nil, -- [4]
-					"43279:0", -- [5]
-					"49808:0", -- [6]
-					"48373:0", -- [7]
-					"30027:0", -- [8]
-					"40890:0", -- [9]
-					"8091:0", -- [10]
-					"49812:0", -- [11]
-					"50453:0", -- [12]
-					"40684:0", -- [13]
-					"0:0", -- [14]
-					"36413:0", -- [15]
-					"49802:0", -- [16]
-					"0:0", -- [17]
-					"0:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Spec"] = 1,
-			},
-			["Demonwar"] = {
-				["Class"] = "WA",
-				["Guild"] = "Unleashed",
-				["Sex"] = 3,
-				["Date"] = 202105041458,
-				["PVP"] = 1,
-				["Average"] = 252,
-				["Level"] = 80,
-				["GearScore"] = 5685,
-				["Race"] = "HU",
-				["Name"] = "Demonwar",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51212:0", -- [1]
-					"50452:0", -- [2]
-					"50082:3808", -- [3]
-					nil, -- [4]
-					"51214:0", -- [5]
-					"50187:0", -- [6]
-					"50081:3823", -- [7]
-					"49906:1597", -- [8]
-					"50264:1600", -- [9]
-					"50799:1603", -- [10]
-					"50453:0", -- [11]
-					"50402:0", -- [12]
-					"40684:0", -- [13]
-					"47214:0", -- [14]
-					"50467:0", -- [15]
-					"49888:3789", -- [16]
-					"51796:3789", -- [17]
-					"47659:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "DAL",
-				["Spec"] = 1,
-			},
-			["Akrisae"] = {
-				["Class"] = "PA",
-				["Guild"] = "Drugs Patrol",
-				["Faction"] = "A",
-				["Date"] = 202109050005,
-				["PVP"] = 1,
-				["Average"] = 267,
-				["Level"] = 80,
-				["GearScore"] = 6199,
-				["Race"] = "DR",
-				["Name"] = "Akrisae",
-				["Sex"] = 3,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51167:3820", -- [1]
-					"51016:0", -- [2]
-					"51166:3810", -- [3]
-					nil, -- [4]
-					"50027:3233", -- [5]
-					"50671:0", -- [6]
-					"50694:3721", -- [7]
-					"53487:3826", -- [8]
-					"50721:2332", -- [9]
-					"50650:3246", -- [10]
-					"50400:3840", -- [11]
-					"51849:3840", -- [12]
-					"48724:0", -- [13]
-					"50358:0", -- [14]
-					"53489:3831", -- [15]
-					"50734:3834", -- [16]
-					"49976:1128", -- [17]
-					"47662:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Zoejane"] = {
-				["Class"] = "DK",
-				["Guild"] = "Orden Fenix",
-				["Equip"] = {
-					"50779:3817", -- [1]
-					"44664:0", -- [2]
-					"51014:3808", -- [3]
-					nil, -- [4]
-					"47589:3252", -- [5]
-					"47925:0", -- [6]
-					"47970:3823", -- [7]
-					"45330:1597", -- [8]
-					"47935:3845", -- [9]
-					"50811:1603", -- [10]
-					"51024:0", -- [11]
-					"50453:0", -- [12]
-					"45286:0", -- [13]
-					"47214:0", -- [14]
-					"50791:3831", -- [15]
-					"50761:3368", -- [16]
-					"0:0", -- [17]
-					"47673:0", -- [18]
-				},
-				["Date"] = 202105230022,
-				["PVP"] = 1,
-				["Average"] = 241,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5309,
-				["Race"] = "DR",
-				["Name"] = "Zoejane",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Spec"] = 1,
-			},
-			["Worgese"] = {
-				["Class"] = "HU",
 				["Guild"] = "Onlyfans",
 				["Location"] = "XXX",
-				["Date"] = 202105060241,
-				["PVP"] = 1,
-				["Average"] = 257,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5733,
-				["Race"] = "DW",
-				["Name"] = "Worgese",
-				["Sex"] = 2,
-				["Equip"] = {
-					"41158:0", -- [1]
-					"51353:0", -- [2]
-					"41218:0", -- [3]
-					nil, -- [4]
-					"41088:0", -- [5]
-					"51350:0", -- [6]
-					"41206:0", -- [7]
-					"51351:0", -- [8]
-					"51352:0", -- [9]
-					"41144:0", -- [10]
-					"51358:0", -- [11]
-					"50401:0", -- [12]
-					"51377:0", -- [13]
-					"47734:0", -- [14]
-					"51354:0", -- [15]
-					"47233:0", -- [16]
-					"0:0", -- [17]
-					"46994:3608", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Fjaak"] = {
-				["Class"] = "WA",
-				["Guild"] = "Mare Magnum",
-				["Sex"] = 2,
-				["Date"] = 202105041402,
-				["PVP"] = 1,
-				["Average"] = 237,
-				["Level"] = 80,
-				["GearScore"] = 5057,
-				["Race"] = "DW",
-				["Name"] = "Fjaak",
-				["Faction"] = "A",
-				["Equip"] = {
-					"48429:0", -- [1]
-					"51806:0", -- [2]
-					"50234:0", -- [3]
-					nil, -- [4]
-					"48436:0", -- [5]
-					"51564:0", -- [6]
-					"49903:3823", -- [7]
-					"49906:1597", -- [8]
-					"45283:0", -- [9]
-					"51217:0", -- [10]
-					"37257:0", -- [11]
-					"50447:0", -- [12]
-					"50235:0", -- [13]
-					"40684:0", -- [14]
-					"50764:1099", -- [15]
-					"50191:0", -- [16]
-					"43085:0", -- [17]
-					"50444:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
-				["Spec"] = 1,
-			},
-			["Nikoruchiha"] = {
+				["Date"] = 202105060233,
 				["Class"] = "PA",
-				["Guild"] = "*",
-				["Faction"] = "A",
-				["Date"] = 202106270034,
-				["PVP"] = 1,
 				["Average"] = 262,
-				["Level"] = 80,
-				["GearScore"] = 6009,
-				["Race"] = "HU",
-				["Name"] = "Nikoruchiha",
-				["Sex"] = 2,
-				["Location"] = "DAL",
 				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6042,
+				["Race"] = "HU",
+				["Name"] = "Holapipi",
+				["Sex"] = 3,
 				["Equip"] = {
-					"51476:3795", -- [1]
+					"40831:3795", -- [1]
 					"51357:0", -- [2]
-					"40872:3793", -- [3]
+					"40872:3808", -- [3]
 					nil, -- [4]
-					"51474:3832", -- [5]
+					"40792:3245", -- [5]
 					"51362:0", -- [6]
-					"51477:3823", -- [7]
+					"51477:3853", -- [7]
 					"51363:1597", -- [8]
 					"51364:3845", -- [9]
 					"51475:1603", -- [10]
-					"52572:0", -- [11]
-					"51855:0", -- [12]
-					"42987:0", -- [13]
+					"50453:3839", -- [11]
+					"51358:3839", -- [12]
+					"50362:0", -- [13]
 					"50343:0", -- [14]
 					"51356:3730", -- [15]
-					"50415:3789", -- [16]
+					"50709:3789", -- [16]
 					"0:0", -- [17]
-					"51478:0", -- [18]
+					"42616:0", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Ghanir"] = {
-				["Spec"] = 1,
-				["Guild"] = "Boreal Alyph",
-				["Equip"] = {
-					"51137:3819", -- [1]
-					"50609:0", -- [2]
-					"51304:3809", -- [3]
-					nil, -- [4]
-					"50717:3832", -- [5]
-					"50705:0", -- [6]
-					"51303:3719", -- [7]
-					"50665:1147", -- [8]
-					"50630:2332", -- [9]
-					"51301:3246", -- [10]
-					"50400:3840", -- [11]
-					"50610:3840", -- [12]
-					"54573:0", -- [13]
-					"50366:0", -- [14]
-					"50668:3722", -- [15]
-					"50685:3834", -- [16]
-					"50309:0", -- [17]
-					"50454:0", -- [18]
-				},
-				["Date"] = 202105082204,
-				["Class"] = "DR",
-				["Average"] = 272,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6314,
-				["Race"] = "NE",
-				["Name"] = "Ghanir",
-				["Faction"] = "A",
-				["Location"] = "XXX",
 				["Level"] = 80,
-				["Sex"] = 3,
+				["Faction"] = "A",
 				["PVP"] = 1,
 			},
 			["Rusher"] = {
-				["Class"] = "HU",
-				["Guild"] = "Orden Fenix",
-				["PVP"] = 1,
-				["Date"] = 202105012139,
 				["Spec"] = 1,
+				["Guild"] = "Orden Fenix",
+				["Class"] = "HU",
+				["Date"] = 202105012139,
+				["PVP"] = 1,
 				["Average"] = 265,
 				["Scanned"] = "Rusher",
 				["GearScore"] = 6083,
@@ -5808,48 +5088,984 @@ GS_Data = {
 				},
 				["Faction"] = "A",
 			},
-			["Demonologia"] = {
-				["PVP"] = 1,
-				["Guild"] = "*",
-				["Equip"] = {
-					"51231:3820", -- [1]
-					"50724:0", -- [2]
-					"51234:3810", -- [3]
-					nil, -- [4]
-					"51233:3832", -- [5]
-					"50997:0", -- [6]
-					"50694:3872", -- [7]
-					"50699:3826", -- [8]
-					"50651:2332", -- [9]
-					"51230:3246", -- [10]
-					"50664:0", -- [11]
-					"50398:0", -- [12]
-					"50365:0", -- [13]
-					"50348:0", -- [14]
-					"50668:3722", -- [15]
-					"50731:3854", -- [16]
-					"0:0", -- [17]
-					"50684:0", -- [18]
-				},
-				["Date"] = 202104250037,
+			["Helenah"] = {
 				["Spec"] = 1,
-				["Average"] = 277,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6514,
+				["Guild"] = "orden de los olvidados",
+				["Faction"] = "A",
+				["Date"] = 202105090125,
+				["Class"] = "PA",
+				["Average"] = 222,
+				["Level"] = 80,
+				["GearScore"] = 4522,
 				["Race"] = "HU",
-				["Name"] = "Demonologia",
+				["Name"] = "Helenah",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"40828:0", -- [1]
+					"36432:0", -- [2]
+					"40869:0", -- [3]
+					nil, -- [4]
+					"48632:0", -- [5]
+					"49853:0", -- [6]
+					"40849:0", -- [7]
+					"37150:0", -- [8]
+					"49797:0", -- [9]
+					"49855:0", -- [10]
+					"50453:0", -- [11]
+					"50447:0", -- [12]
+					"42990:0", -- [13]
+					"42989:0", -- [14]
+					"51356:0", -- [15]
+					"44311:0", -- [16]
+					"49821:0", -- [17]
+					"47664:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Skombrow"] = {
+				["Spec"] = 1,
+				["Guild"] = "Orden Fenix",
+				["Faction"] = "A",
+				["Date"] = 202109050137,
+				["Class"] = "DR",
+				["Average"] = 276,
+				["Level"] = 80,
+				["GearScore"] = 6480,
+				["Race"] = "NE",
+				["Name"] = "Skombrow",
+				["Sex"] = 2,
+				["Location"] = "DAL",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51302:3820", -- [1]
+					"50609:0", -- [2]
+					"51304:3810", -- [3]
+					nil, -- [4]
+					"50717:3832", -- [5]
+					"50705:0", -- [6]
+					"51303:3719", -- [7]
+					"50665:1147", -- [8]
+					"50630:3758", -- [9]
+					"51301:3246", -- [10]
+					"50610:0", -- [11]
+					"50636:0", -- [12]
+					"50366:0", -- [13]
+					"54573:0", -- [14]
+					"50668:3831", -- [15]
+					"50685:3834", -- [16]
+					"50635:0", -- [17]
+					"50454:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Tomatitoloco"] = {
+				["Spec"] = 1,
+				["Guild"] = "More PewPew Less QQ",
+				["Equip"] = {
+					"50779:0", -- [1]
+					"51808:0", -- [2]
+					"50324:0", -- [3]
+					nil, -- [4]
+					"50328:0", -- [5]
+					"40883:0", -- [6]
+					"50325:0", -- [7]
+					"50788:0", -- [8]
+					"51364:0", -- [9]
+					"50327:0", -- [10]
+					"52570:0", -- [11]
+					"50453:0", -- [12]
+					"49074:0", -- [13]
+					"47734:0", -- [14]
+					"49832:0", -- [15]
+					"50761:0", -- [16]
+					"0:0", -- [17]
+					"47661:0", -- [18]
+				},
+				["Date"] = 202105230022,
+				["Class"] = "PA",
+				["Average"] = 245,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5446,
+				["Race"] = "DW",
+				["Name"] = "Tomatitoloco",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 2,
+				["PVP"] = 1,
+			},
+			["Lukarion"] = {
+				["Spec"] = 1,
+				["Guild"] = "Boreal Alyph",
+				["Faction"] = "A",
+				["Date"] = 202105082344,
+				["Class"] = "DR",
+				["Average"] = 270,
+				["Level"] = 80,
+				["GearScore"] = 6256,
+				["Race"] = "NE",
+				["Name"] = "Lukarion",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51137:3819", -- [1]
+					"50609:0", -- [2]
+					"51135:3809", -- [3]
+					nil, -- [4]
+					"50717:3832", -- [5]
+					"50705:0", -- [6]
+					"51136:3872", -- [7]
+					"50665:3606", -- [8]
+					"53134:2332", -- [9]
+					"51138:3246", -- [10]
+					"50636:0", -- [11]
+					"51884:0", -- [12]
+					"50366:0", -- [13]
+					"50346:0", -- [14]
+					"50014:3722", -- [15]
+					"50429:3854", -- [16]
+					"0:0", -- [17]
+					"50454:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Fjaak"] = {
+				["Spec"] = 1,
+				["Guild"] = "Mare Magnum",
+				["Sex"] = 2,
+				["Date"] = 202105041402,
+				["Class"] = "WA",
+				["Average"] = 237,
+				["Level"] = 80,
+				["GearScore"] = 5057,
+				["Race"] = "DW",
+				["Name"] = "Fjaak",
+				["Faction"] = "A",
+				["Equip"] = {
+					"48429:0", -- [1]
+					"51806:0", -- [2]
+					"50234:0", -- [3]
+					nil, -- [4]
+					"48436:0", -- [5]
+					"51564:0", -- [6]
+					"49903:3823", -- [7]
+					"49906:1597", -- [8]
+					"45283:0", -- [9]
+					"51217:0", -- [10]
+					"37257:0", -- [11]
+					"50447:0", -- [12]
+					"50235:0", -- [13]
+					"40684:0", -- [14]
+					"50764:1099", -- [15]
+					"50191:0", -- [16]
+					"43085:0", -- [17]
+					"50444:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
+			["Tilza"] = {
+				["PVP"] = 1,
+				["Guild"] = "Shadowmourne",
+				["Faction"] = "A",
+				["Date"] = 202105052209,
+				["Spec"] = 1,
+				["Average"] = 263,
+				["Level"] = 80,
+				["GearScore"] = 6037,
+				["Race"] = "NE",
+				["Name"] = "Tilza",
+				["Sex"] = 3,
+				["Location"] = "DAL",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51149:3820", -- [1]
+					"50724:0", -- [2]
+					"51147:3810", -- [3]
+					nil, -- [4]
+					"51145:3832", -- [5]
+					"50795:0", -- [6]
+					"51146:3721", -- [7]
+					"51920:3826", -- [8]
+					"51885:2332", -- [9]
+					"51148:3234", -- [10]
+					"50644:0", -- [11]
+					"50398:0", -- [12]
+					"50360:0", -- [13]
+					"40682:0", -- [14]
+					"50668:3722", -- [15]
+					"49968:3834", -- [16]
+					"50719:0", -- [17]
+					"50457:0", -- [18]
+				},
+				["Class"] = "DR",
+			},
+			["Zoejane"] = {
+				["Spec"] = 1,
+				["Guild"] = "Orden Fenix",
+				["Equip"] = {
+					"50779:3817", -- [1]
+					"44664:0", -- [2]
+					"51014:3808", -- [3]
+					nil, -- [4]
+					"47589:3252", -- [5]
+					"47925:0", -- [6]
+					"47970:3823", -- [7]
+					"45330:1597", -- [8]
+					"47935:3845", -- [9]
+					"50811:1603", -- [10]
+					"51024:0", -- [11]
+					"50453:0", -- [12]
+					"45286:0", -- [13]
+					"47214:0", -- [14]
+					"50791:3831", -- [15]
+					"50761:3368", -- [16]
+					"0:0", -- [17]
+					"47673:0", -- [18]
+				},
+				["Date"] = 202105230022,
+				["Class"] = "DK",
+				["Average"] = 241,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5309,
+				["Race"] = "DR",
+				["Name"] = "Zoejane",
 				["Faction"] = "A",
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Class"] = "WK",
+				["PVP"] = 1,
+			},
+			["Darlena"] = {
+				["Faction"] = "A",
+				["Guild"] = "Meta cumbia meta joda",
+				["Equip"] = {
+					"51484:3797", -- [1]
+					"50609:0", -- [2]
+					"51572:3794", -- [3]
+					nil, -- [4]
+					"51482:3245", -- [5]
+					"50613:0", -- [6]
+					"51485:3719", -- [7]
+					"51338:3232", -- [8]
+					"51339:2332", -- [9]
+					"51483:3246", -- [10]
+					"50398:0", -- [11]
+					"50714:0", -- [12]
+					"50348:0", -- [13]
+					"50365:0", -- [14]
+					"51332:3243", -- [15]
+					"50734:3834", -- [16]
+					"51407:0", -- [17]
+					"51531:0", -- [18]
+				},
+				["Date"] = 202105030120,
+				["Class"] = "PR",
+				["Average"] = 271,
+				["Level"] = 80,
+				["GearScore"] = 6290,
+				["Race"] = "HU",
+				["Name"] = "Darlena",
+				["Sex"] = 1,
+				["Location"] = "XXX",
+				["Scanned"] = "Skombrow",
+				["Spec"] = 1,
+				["PVP"] = 1,
+			},
+			["Iceforce"] = {
+				["Spec"] = 1,
+				["Guild"] = "orden de los olvidados",
+				["Faction"] = "A",
+				["Date"] = 202105090025,
+				["Class"] = "PR",
+				["Average"] = 227,
+				["Level"] = 80,
+				["GearScore"] = 4726,
+				["Race"] = "DR",
+				["Name"] = "Iceforce",
+				["Sex"] = 3,
+				["Location"] = "COI",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"47914:0", -- [1]
+					"45822:0", -- [2]
+					"50449:0", -- [3]
+					nil, -- [4]
+					"47936:3832", -- [5]
+					"44309:0", -- [6]
+					"47980:0", -- [7]
+					"40751:3232", -- [8]
+					"40741:41", -- [9]
+					"47982:0", -- [10]
+					"47733:0", -- [11]
+					"47732:0", -- [12]
+					"48724:0", -- [13]
+					"40685:0", -- [14]
+					"40724:3296", -- [15]
+					"48663:0", -- [16]
+					"40699:0", -- [17]
+					"47658:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Doohnibor"] = {
+				["Spec"] = 1,
+				["Guild"] = "Azote de Rasganorte",
+				["Location"] = "DAL",
+				["Date"] = 202104250141,
+				["Class"] = "HU",
+				["Average"] = 238,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5166,
+				["Race"] = "NE",
+				["Name"] = "Doohnibor",
+				["Sex"] = 2,
+				["Equip"] = {
+					"50115:0", -- [1]
+					"51807:0", -- [2]
+					"50117:3835", -- [3]
+					nil, -- [4]
+					"50038:0", -- [5]
+					"49810:0", -- [6]
+					"48252:0", -- [7]
+					"50295:0", -- [8]
+					"51352:0", -- [9]
+					"50114:0", -- [10]
+					"49803:0", -- [11]
+					"47730:0", -- [12]
+					"49074:0", -- [13]
+					"50198:0", -- [14]
+					"51356:0", -- [15]
+					"50191:0", -- [16]
+					"50191:0", -- [17]
+					"50262:3843", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Demonwar"] = {
+				["Spec"] = 1,
+				["Guild"] = "Unleashed",
+				["Sex"] = 3,
+				["Date"] = 202105041458,
+				["Class"] = "WA",
+				["Average"] = 252,
+				["Level"] = 80,
+				["GearScore"] = 5685,
+				["Race"] = "HU",
+				["Name"] = "Demonwar",
+				["Faction"] = "A",
+				["Equip"] = {
+					"51212:0", -- [1]
+					"50452:0", -- [2]
+					"50082:3808", -- [3]
+					nil, -- [4]
+					"51214:0", -- [5]
+					"50187:0", -- [6]
+					"50081:3823", -- [7]
+					"49906:1597", -- [8]
+					"50264:1600", -- [9]
+					"50799:1603", -- [10]
+					"50453:0", -- [11]
+					"50402:0", -- [12]
+					"40684:0", -- [13]
+					"47214:0", -- [14]
+					"50467:0", -- [15]
+					"49888:3789", -- [16]
+					"51796:3789", -- [17]
+					"47659:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "DAL",
+				["PVP"] = 1,
+			},
+			["Deadhorse"] = {
+				["Spec"] = 1,
+				["Guild"] = "Crissaegrim",
+				["Equip"] = {
+					"51153:3817", -- [1]
+					"51779:0", -- [2]
+					"51151:3808", -- [3]
+					nil, -- [4]
+					"51150:3832", -- [5]
+					"50995:0", -- [6]
+					"49988:3823", -- [7]
+					"49897:1597", -- [8]
+					"50333:3845", -- [9]
+					"51154:1603", -- [10]
+					"51900:0", -- [11]
+					"50402:0", -- [12]
+					"40684:0", -- [13]
+					"50362:0", -- [14]
+					"50470:1099", -- [15]
+					"50425:3827", -- [16]
+					"0:0", -- [17]
+					"51802:3608", -- [18]
+				},
+				["Date"] = 202105230023,
+				["Class"] = "HU",
+				["Average"] = 260,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5926,
+				["Race"] = "NE",
+				["Name"] = "Deadhorse",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 2,
+				["PVP"] = 1,
+			},
+			["Boyce"] = {
+				["Class"] = "DR",
+				["Guild"] = "Warrior OF The World",
+				["Equip"] = {
+					"41679:3795", -- [1]
+					"50452:0", -- [2]
+					"41716:3793", -- [3]
+					nil, -- [4]
+					"41662:3832", -- [5]
+					"51368:0", -- [6]
+					"41668:0", -- [7]
+					"51369:1597", -- [8]
+					"51370:0", -- [9]
+					"41774:0", -- [10]
+					"42119:0", -- [11]
+					"50402:0", -- [12]
+					"51377:0", -- [13]
+					"42136:0", -- [14]
+					"51356:3730", -- [15]
+					"50040:2673", -- [16]
+					"0:0", -- [17]
+					"47668:0", -- [18]
+				},
+				["Date"] = 202105052107,
+				["PVP"] = 1,
+				["Average"] = 257,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5826,
+				["Race"] = "NE",
+				["Name"] = "Boyce",
+				["Faction"] = "A",
+				["Location"] = "XXX",
+				["Level"] = 80,
+				["Sex"] = 2,
+				["Spec"] = 1,
+			},
+			["Experiment"] = {
+				["Spec"] = 1,
+				["Guild"] = "Shadowmourne",
+				["Sex"] = 3,
+				["Date"] = 202105041457,
+				["Class"] = "PR",
+				["Average"] = 258,
+				["Level"] = 80,
+				["GearScore"] = 5841,
+				["Race"] = "HU",
+				["Name"] = "Experiment",
+				["Faction"] = "A",
+				["Equip"] = {
+					"41855:0", -- [1]
+					"51333:0", -- [2]
+					"41870:3794", -- [3]
+					nil, -- [4]
+					"41860:3245", -- [5]
+					"51337:0", -- [6]
+					"41865:3719", -- [7]
+					"51338:0", -- [8]
+					"51339:0", -- [9]
+					"41875:3246", -- [10]
+					"50398:0", -- [11]
+					"51336:0", -- [12]
+					"50353:0", -- [13]
+					"50354:0", -- [14]
+					"51332:3722", -- [15]
+					"50734:3834", -- [16]
+					"42526:0", -- [17]
+					"42520:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "DAL",
+				["PVP"] = 1,
+			},
+			["Pipazin"] = {
+				["Spec"] = 1,
+				["Guild"] = "The Lost Dinasty",
+				["Faction"] = "A",
+				["Date"] = 202104270214,
+				["Class"] = "RO",
+				["Average"] = 262,
+				["Level"] = 80,
+				["GearScore"] = 5949,
+				["Race"] = "GN",
+				["Name"] = "Pipazin",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"50073:0", -- [1]
+					"50452:0", -- [2]
+					"48227:3875", -- [3]
+					nil, -- [4]
+					"50001:0", -- [5]
+					"50778:0", -- [6]
+					"50858:0", -- [7]
+					"51369:0", -- [8]
+					"51370:0", -- [9]
+					"50021:3604", -- [10]
+					"51358:0", -- [11]
+					"50402:0", -- [12]
+					"51377:0", -- [13]
+					"50355:0", -- [14]
+					"51354:0", -- [15]
+					"51800:3789", -- [16]
+					"50183:3789", -- [17]
+					"50474:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Ururk"] = {
+				["Class"] = "HU",
+				["Guild"] = "orden de los olvidados",
+				["Faction"] = "A",
+				["Date"] = 202105230105,
+				["PVP"] = 1,
+				["Average"] = 251,
+				["Level"] = 80,
+				["GearScore"] = 5614,
+				["Race"] = "NE",
+				["Name"] = "Ururk",
+				["Sex"] = 2,
+				["Location"] = "DAL",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51002:0", -- [1]
+					"50852:0", -- [2]
+					"50117:0", -- [3]
+					nil, -- [4]
+					"50038:3329", -- [5]
+					"51325:0", -- [6]
+					"51566:0", -- [7]
+					"51351:3606", -- [8]
+					"50789:0", -- [9]
+					"48254:3603", -- [10]
+					"50453:0", -- [11]
+					"50401:0", -- [12]
+					"42124:0", -- [13]
+					"50198:0", -- [14]
+					"51356:3605", -- [15]
+					"50787:0", -- [16]
+					"50759:0", -- [17]
+					"50776:0", -- [18]
+				},
+				["Spec"] = 1,
+			},
+			["Brunayanka"] = {
+				["Class"] = "PA",
+				["Guild"] = "*",
+				["Location"] = "XXX",
+				["Date"] = 202105222127,
+				["PVP"] = 1,
+				["Average"] = 274,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6813,
+				["Race"] = "HU",
+				["Name"] = "Brunayanka",
+				["Sex"] = 3,
+				["Equip"] = {
+					"51277:3817", -- [1]
+					"50647:0", -- [2]
+					"51279:3808", -- [3]
+					nil, -- [4]
+					"51275:3832", -- [5]
+					"50620:0", -- [6]
+					"51278:3823", -- [7]
+					"50639:3606", -- [8]
+					"50659:3845", -- [9]
+					"50690:3604", -- [10]
+					"52572:0", -- [11]
+					"50657:0", -- [12]
+					"47131:0", -- [13]
+					"50706:0", -- [14]
+					"50677:3605", -- [15]
+					"49623:3789", -- [16]
+					"0:0", -- [17]
+					"47661:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["Spec"] = 1,
+			},
+			["Warimpotente"] = {
+				["Spec"] = 1,
+				["Guild"] = "Sunshine",
+				["Sex"] = 2,
+				["Date"] = 202105041329,
+				["Class"] = "WA",
+				["Average"] = 205,
+				["Level"] = 80,
+				["GearScore"] = 3735,
+				["Race"] = "HU",
+				["Name"] = "Warimpotente",
+				["Faction"] = "A",
+				["Equip"] = {
+					"48371:0", -- [1]
+					"50452:0", -- [2]
+					"50020:0", -- [3]
+					nil, -- [4]
+					"43279:0", -- [5]
+					"49808:0", -- [6]
+					"48373:0", -- [7]
+					"30027:0", -- [8]
+					"40890:0", -- [9]
+					"8091:0", -- [10]
+					"49812:0", -- [11]
+					"50453:0", -- [12]
+					"40684:0", -- [13]
+					"0:0", -- [14]
+					"36413:0", -- [15]
+					"49802:0", -- [16]
+					"0:0", -- [17]
+					"0:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
+			["Ryukeen"] = {
+				["Spec"] = 1,
+				["Guild"] = "*",
+				["Sex"] = 2,
+				["Date"] = 202105292322,
+				["Class"] = "SH",
+				["Average"] = 266,
+				["Level"] = 80,
+				["GearScore"] = 6129,
+				["Race"] = "DR",
+				["Name"] = "Ryukeen",
+				["Faction"] = "A",
+				["Equip"] = {
+					"51192:3819", -- [1]
+					"51008:0", -- [2]
+					"51194:3809", -- [3]
+					nil, -- [4]
+					"51190:3832", -- [5]
+					"50671:0", -- [6]
+					"51193:3721", -- [7]
+					"50699:3606", -- [8]
+					"53134:2332", -- [9]
+					"50064:3604", -- [10]
+					"51884:0", -- [11]
+					"49967:0", -- [12]
+					"50358:0", -- [13]
+					"54572:0", -- [14]
+					"51848:3831", -- [15]
+					"51939:3834", -- [16]
+					"51812:1128", -- [17]
+					"50458:0", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["PVP"] = 1,
+			},
+			["Hijadelsol"] = {
+				["Class"] = "SH",
+				["Guild"] = "orden de los olvidados",
+				["Equip"] = {
+					"41152:3795", -- [1]
+					"51357:0", -- [2]
+					"41212:3852", -- [3]
+					nil, -- [4]
+					"50038:3832", -- [5]
+					"51350:0", -- [6]
+					"41200:0", -- [7]
+					"51351:1597", -- [8]
+					"51352:3845", -- [9]
+					"41138:1603", -- [10]
+					"51358:0", -- [11]
+					"42119:0", -- [12]
+					"51377:0", -- [13]
+					"42136:0", -- [14]
+					"51354:3294", -- [15]
+					"42262:1606", -- [16]
+					"42267:1606", -- [17]
+					"47667:0", -- [18]
+				},
+				["Date"] = 202104250025,
+				["PVP"] = 1,
+				["Average"] = 255,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5733,
+				["Race"] = "DR",
+				["Name"] = "Hijadelsol",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Spec"] = 1,
+			},
+			["Chalaxy"] = {
+				["Spec"] = 1,
+				["Guild"] = "orden de los olvidados",
+				["Equip"] = {
+					"50797:0", -- [1]
+					"51008:0", -- [2]
+					"50839:0", -- [3]
+					nil, -- [4]
+					"50835:0", -- [5]
+					"50015:0", -- [6]
+					"50450:0", -- [7]
+					"51006:0", -- [8]
+					"50774:0", -- [9]
+					"51583:0", -- [10]
+					"50400:0", -- [11]
+					"47733:0", -- [12]
+					"50358:0", -- [13]
+					"47215:0", -- [14]
+					"49823:0", -- [15]
+					"51004:0", -- [16]
+					"40700:0", -- [17]
+					"47665:0", -- [18]
+				},
+				["Date"] = 202105230022,
+				["Class"] = "SH",
+				["Average"] = 246,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5426,
+				["Race"] = "DR",
+				["Name"] = "Chalaxy",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["PVP"] = 1,
+			},
+			["Akrisae"] = {
+				["Spec"] = 1,
+				["Guild"] = "Drugs Patrol",
+				["Faction"] = "A",
+				["Date"] = 202109050005,
+				["Class"] = "PA",
+				["Average"] = 267,
+				["Level"] = 80,
+				["GearScore"] = 6199,
+				["Race"] = "DR",
+				["Name"] = "Akrisae",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51167:3820", -- [1]
+					"51016:0", -- [2]
+					"51166:3810", -- [3]
+					nil, -- [4]
+					"50027:3233", -- [5]
+					"50671:0", -- [6]
+					"50694:3721", -- [7]
+					"53487:3826", -- [8]
+					"50721:2332", -- [9]
+					"50650:3246", -- [10]
+					"50400:3840", -- [11]
+					"51849:3840", -- [12]
+					"48724:0", -- [13]
+					"50358:0", -- [14]
+					"53489:3831", -- [15]
+					"50734:3834", -- [16]
+					"49976:1128", -- [17]
+					"47662:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Mysta"] = {
+				["Class"] = "PR",
+				["Guild"] = "*",
+				["Equip"] = {
+					"41855:3797", -- [1]
+					"51347:0", -- [2]
+					"51573:3794", -- [3]
+					nil, -- [4]
+					"41860:3245", -- [5]
+					"51365:0", -- [6]
+					"41865:3853", -- [7]
+					"51366:3232", -- [8]
+					"51367:2332", -- [9]
+					"41875:3234", -- [10]
+					"50398:0", -- [11]
+					"50610:0", -- [12]
+					"50726:0", -- [13]
+					"44255:0", -- [14]
+					"51346:3243", -- [15]
+					"42354:3834", -- [16]
+					"49187:0", -- [17]
+					"42521:0", -- [18]
+				},
+				["Date"] = 202105052051,
+				["PVP"] = 1,
+				["Average"] = 256,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5732,
+				["Race"] = "HU",
+				["Name"] = "Mysta",
+				["Faction"] = "A",
+				["Location"] = "XXX",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Spec"] = 1,
+			},
+			["Worgese"] = {
+				["Spec"] = 1,
+				["Guild"] = "Onlyfans",
+				["Location"] = "XXX",
+				["Date"] = 202105060241,
+				["Class"] = "HU",
+				["Average"] = 257,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5733,
+				["Race"] = "DW",
+				["Name"] = "Worgese",
+				["Sex"] = 2,
+				["Equip"] = {
+					"41158:0", -- [1]
+					"51353:0", -- [2]
+					"41218:0", -- [3]
+					nil, -- [4]
+					"41088:0", -- [5]
+					"51350:0", -- [6]
+					"41206:0", -- [7]
+					"51351:0", -- [8]
+					"51352:0", -- [9]
+					"41144:0", -- [10]
+					"51358:0", -- [11]
+					"50401:0", -- [12]
+					"51377:0", -- [13]
+					"47734:0", -- [14]
+					"51354:0", -- [15]
+					"47233:0", -- [16]
+					"0:0", -- [17]
+					"46994:3608", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Coldtrane"] = {
+				["Spec"] = 1,
+				["Guild"] = "La Mesa LOCA",
+				["Location"] = "XXX",
+				["Date"] = 202105060147,
+				["Class"] = "MA",
+				["Average"] = 259,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5860,
+				["Race"] = "HU",
+				["Name"] = "Coldtrane",
+				["Sex"] = 2,
+				["Equip"] = {
+					"41947:3797", -- [1]
+					"51335:0", -- [2]
+					"51572:3794", -- [3]
+					nil, -- [4]
+					"41954:3245", -- [5]
+					"51337:0", -- [6]
+					"51466:3873", -- [7]
+					"51338:3232", -- [8]
+					"51339:2332", -- [9]
+					"51464:3246", -- [10]
+					"50398:3840", -- [11]
+					"51336:3840", -- [12]
+					"50358:0", -- [13]
+					"42135:0", -- [14]
+					"51332:3243", -- [15]
+					"49189:3834", -- [16]
+					"49187:0", -- [17]
+					"49185:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Nikoruchiha"] = {
+				["Spec"] = 1,
+				["Guild"] = "*",
+				["Faction"] = "A",
+				["Date"] = 202106270034,
+				["Class"] = "PA",
+				["Average"] = 262,
+				["Level"] = 80,
+				["GearScore"] = 6009,
+				["Race"] = "HU",
+				["Name"] = "Nikoruchiha",
+				["Sex"] = 2,
+				["Location"] = "DAL",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51476:3795", -- [1]
+					"51357:0", -- [2]
+					"40872:3793", -- [3]
+					nil, -- [4]
+					"51474:3832", -- [5]
+					"51362:0", -- [6]
+					"51477:3823", -- [7]
+					"51363:1597", -- [8]
+					"51364:3845", -- [9]
+					"51475:1603", -- [10]
+					"52572:0", -- [11]
+					"51855:0", -- [12]
+					"42987:0", -- [13]
+					"50343:0", -- [14]
+					"51356:3730", -- [15]
+					"50415:3789", -- [16]
+					"0:0", -- [17]
+					"51478:0", -- [18]
+				},
+				["PVP"] = 1,
+			},
+			["Ghanir"] = {
+				["PVP"] = 1,
+				["Guild"] = "Boreal Alyph",
+				["Equip"] = {
+					"51137:3819", -- [1]
+					"50609:0", -- [2]
+					"51304:3809", -- [3]
+					nil, -- [4]
+					"50717:3832", -- [5]
+					"50705:0", -- [6]
+					"51303:3719", -- [7]
+					"50665:1147", -- [8]
+					"50630:2332", -- [9]
+					"51301:3246", -- [10]
+					"50400:3840", -- [11]
+					"50610:3840", -- [12]
+					"54573:0", -- [13]
+					"50366:0", -- [14]
+					"50668:3722", -- [15]
+					"50685:3834", -- [16]
+					"50309:0", -- [17]
+					"50454:0", -- [18]
+				},
+				["Date"] = 202105082204,
+				["Spec"] = 1,
+				["Average"] = 272,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6314,
+				["Race"] = "NE",
+				["Name"] = "Ghanir",
+				["Faction"] = "A",
+				["Location"] = "XXX",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Class"] = "DR",
 			},
 			["Ehmir"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Atlas",
 				["Location"] = "XXX",
 				["Date"] = 202104242157,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6013,
@@ -5878,14 +6094,86 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
+				["Class"] = "SH",
+			},
+			["Demonologia"] = {
+				["Class"] = "WK",
+				["Guild"] = "*",
+				["Equip"] = {
+					"51231:3820", -- [1]
+					"50724:0", -- [2]
+					"51234:3810", -- [3]
+					nil, -- [4]
+					"51233:3832", -- [5]
+					"50997:0", -- [6]
+					"50694:3872", -- [7]
+					"50699:3826", -- [8]
+					"50651:2332", -- [9]
+					"51230:3246", -- [10]
+					"50664:0", -- [11]
+					"50398:0", -- [12]
+					"50365:0", -- [13]
+					"50348:0", -- [14]
+					"50668:3722", -- [15]
+					"50731:3854", -- [16]
+					"0:0", -- [17]
+					"50684:0", -- [18]
+				},
+				["Date"] = 202104250037,
 				["PVP"] = 1,
+				["Average"] = 277,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6514,
+				["Race"] = "HU",
+				["Name"] = "Demonologia",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Spec"] = 1,
+			},
+			["Zhu"] = {
+				["Class"] = "WA",
+				["Guild"] = "Azote de Rasganorte",
+				["Equip"] = {
+					"51227:3817", -- [1]
+					"50728:0", -- [2]
+					"51229:3835", -- [3]
+					nil, -- [4]
+					"51225:3832", -- [5]
+					"50620:0", -- [6]
+					"51228:3823", -- [7]
+					"50639:1597", -- [8]
+					"50670:3845", -- [9]
+					"50675:1603", -- [10]
+					"50618:0", -- [11]
+					"50402:0", -- [12]
+					"50363:0", -- [13]
+					"54569:0", -- [14]
+					"50653:3730", -- [15]
+					"49623:3789", -- [16]
+					"50603:3789", -- [17]
+					"50733:0", -- [18]
+				},
+				["Date"] = 202104250037,
+				["PVP"] = 1,
+				["Average"] = 277,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6683,
+				["Race"] = "HU",
+				["Name"] = "Zhu",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Spec"] = 1,
 			},
 			["Hypnotoad"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Azote de Rasganorte",
 				["Faction"] = "A",
 				["Date"] = 202105082332,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6260,
@@ -5914,158 +6202,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"51852:0", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Zhu"] = {
 				["PVP"] = 1,
-				["Guild"] = "Azote de Rasganorte",
-				["Equip"] = {
-					"51227:3817", -- [1]
-					"50728:0", -- [2]
-					"51229:3835", -- [3]
-					nil, -- [4]
-					"51225:3832", -- [5]
-					"50620:0", -- [6]
-					"51228:3823", -- [7]
-					"50639:1597", -- [8]
-					"50670:3845", -- [9]
-					"50675:1603", -- [10]
-					"50618:0", -- [11]
-					"50402:0", -- [12]
-					"50363:0", -- [13]
-					"54569:0", -- [14]
-					"50653:3730", -- [15]
-					"49623:3789", -- [16]
-					"50603:3789", -- [17]
-					"50733:0", -- [18]
-				},
-				["Date"] = 202104250037,
-				["Spec"] = 1,
-				["Average"] = 277,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6683,
-				["Race"] = "HU",
-				["Name"] = "Zhu",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 3,
-				["Class"] = "WA",
-			},
-			["Pipazina"] = {
-				["Class"] = "PA",
-				["Guild"] = "The Lost Dinasty",
-				["Faction"] = "A",
-				["Date"] = 202104270208,
-				["PVP"] = 1,
-				["Average"] = 243,
-				["Level"] = 80,
-				["GearScore"] = 5339,
-				["Race"] = "DR",
-				["Name"] = "Pipazina",
-				["Sex"] = 3,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"48609:0", -- [1]
-					"47105:0", -- [2]
-					"48611:0", -- [3]
-					nil, -- [4]
-					"48607:0", -- [5]
-					"46999:0", -- [6]
-					"48610:0", -- [7]
-					"47150:0", -- [8]
-					"51563:0", -- [9]
-					"48608:0", -- [10]
-					"46959:0", -- [11]
-					"52570:0", -- [12]
-					"47214:0", -- [13]
-					"47734:0", -- [14]
-					"47183:0", -- [15]
-					"47069:0", -- [16]
-					"0:0", -- [17]
-					"47661:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Cataclismo"] = {
-				["Class"] = "DR",
-				["Guild"] = "Azote de Rasganorte",
-				["Location"] = "XXX",
-				["Date"] = 202104250152,
-				["PVP"] = 1,
-				["Average"] = 254,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5734,
-				["Race"] = "NE",
-				["Name"] = "Cataclismo",
-				["Sex"] = 2,
-				["Equip"] = {
-					"50073:3817", -- [1]
-					"50452:0", -- [2]
-					"50824:3808", -- [3]
-					nil, -- [4]
-					"50001:3330", -- [5]
-					"50995:0", -- [6]
-					"49899:3822", -- [7]
-					"49895:3232", -- [8]
-					"41841:3850", -- [9]
-					"50021:3330", -- [10]
-					"50025:0", -- [11]
-					"50404:0", -- [12]
-					"47216:0", -- [13]
-					"47948:0", -- [14]
-					"50470:3294", -- [15]
-					"48710:3828", -- [16]
-					"0:0", -- [17]
-					"45509:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
-				["Spec"] = 1,
-			},
-			["Underclub"] = {
-				["Faction"] = "A",
-				["Guild"] = "Orden Fenix",
-				["Equip"] = {
-					"41994:3797", -- [1]
-					"51333:0", -- [2]
-					"49991:3794", -- [3]
-					nil, -- [4]
-					"41999:3245", -- [5]
-					"41898:0", -- [6]
-					"51539:3872", -- [7]
-					"41903:3232", -- [8]
-					"51339:2326", -- [9]
-					"42018:3246", -- [10]
-					"50714:3840", -- [11]
-					"50398:3840", -- [12]
-					"47213:0", -- [13]
-					"50360:0", -- [14]
-					"51334:3243", -- [15]
-					"50725:3854", -- [16]
-					"0:0", -- [17]
-					"51852:0", -- [18]
-				},
-				["Date"] = 202105052227,
-				["Spec"] = 1,
-				["Average"] = 256,
-				["Level"] = 80,
-				["GearScore"] = 5815,
-				["Race"] = "HU",
-				["Name"] = "Underclub",
-				["Sex"] = 1,
-				["Location"] = "ASV",
-				["Scanned"] = "Underclub",
-				["PVP"] = 1,
-				["Class"] = "WK",
 			},
 			["Yisrabbit"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202104270124,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 266,
 				["Level"] = 80,
 				["GearScore"] = 6106,
@@ -6094,46 +6238,118 @@ GS_Data = {
 					"0:0", -- [17]
 					"51394:3608", -- [18]
 				},
-				["Spec"] = 1,
-			},
-			["Plets"] = {
-				["Class"] = "HU",
-				["Guild"] = "The Lost Dinasty",
-				["Location"] = "XXX",
-				["Date"] = 202105060207,
 				["PVP"] = 1,
-				["Average"] = 259,
+			},
+			["Bortt"] = {
+				["Spec"] = 1,
+				["Guild"] = "Falling Reverse",
+				["Equip"] = {
+					"42553:0", -- [1]
+					"36988:0", -- [2]
+					"50449:0", -- [3]
+					nil, -- [4]
+					"47749:0", -- [5]
+					"50263:0", -- [6]
+					"49891:0", -- [7]
+					"49890:3606", -- [8]
+					"49994:0", -- [9]
+					"47752:3604", -- [10]
+					"47732:0", -- [11]
+					"43253:0", -- [12]
+					"42395:0", -- [13]
+					"50259:0", -- [14]
+					"50469:0", -- [15]
+					"50210:0", -- [16]
+					"38322:0", -- [17]
+					"50472:0", -- [18]
+				},
+				["Date"] = 202105230019,
+				["Class"] = "MA",
+				["Average"] = 233,
 				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 5859,
+				["GearScore"] = 4869,
+				["Race"] = "HU",
+				["Name"] = "Bortt",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 2,
+				["PVP"] = 1,
+			},
+			["Cataclismo"] = {
+				["Spec"] = 1,
+				["Guild"] = "Azote de Rasganorte",
+				["Location"] = "XXX",
+				["Date"] = 202104250152,
+				["Class"] = "DR",
+				["Average"] = 254,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5734,
 				["Race"] = "NE",
-				["Name"] = "Plets",
+				["Name"] = "Cataclismo",
 				["Sex"] = 2,
 				["Equip"] = {
-					"41158:3795", -- [1]
-					"51355:0", -- [2]
-					"41218:3793", -- [3]
+					"50073:3817", -- [1]
+					"50452:0", -- [2]
+					"50824:3808", -- [3]
 					nil, -- [4]
-					"41088:3245", -- [5]
-					"51350:3601", -- [6]
-					"41206:3823", -- [7]
-					"51351:3606", -- [8]
-					"51352:3845", -- [9]
-					"41144:3603", -- [10]
-					"50402:0", -- [11]
-					"51358:0", -- [12]
-					"50342:0", -- [13]
-					"51377:0", -- [14]
-					"50470:3605", -- [15]
-					"51022:3731", -- [16]
+					"50001:3330", -- [5]
+					"50995:0", -- [6]
+					"49899:3822", -- [7]
+					"49895:3232", -- [8]
+					"41841:3850", -- [9]
+					"50021:3330", -- [10]
+					"50025:0", -- [11]
+					"50404:0", -- [12]
+					"47216:0", -- [13]
+					"47948:0", -- [14]
+					"50470:3294", -- [15]
+					"48710:3828", -- [16]
 					"0:0", -- [17]
-					"50034:3608", -- [18]
+					"45509:0", -- [18]
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
+				["PVP"] = 1,
+			},
+			["Underclub"] = {
+				["Faction"] = "A",
+				["Guild"] = "Orden Fenix",
+				["Equip"] = {
+					"41994:3797", -- [1]
+					"51333:0", -- [2]
+					"49991:3794", -- [3]
+					nil, -- [4]
+					"41999:3245", -- [5]
+					"41898:0", -- [6]
+					"51539:3872", -- [7]
+					"41903:3232", -- [8]
+					"51339:2326", -- [9]
+					"42018:3246", -- [10]
+					"50714:3840", -- [11]
+					"50398:3840", -- [12]
+					"47213:0", -- [13]
+					"50360:0", -- [14]
+					"51334:3243", -- [15]
+					"50725:3854", -- [16]
+					"0:0", -- [17]
+					"51852:0", -- [18]
+				},
+				["Date"] = 202105052227,
+				["PVP"] = 1,
+				["Average"] = 256,
+				["Level"] = 80,
+				["GearScore"] = 5815,
+				["Race"] = "HU",
+				["Name"] = "Underclub",
+				["Sex"] = 1,
+				["Location"] = "ASV",
+				["Scanned"] = "Underclub",
+				["Class"] = "WK",
 				["Spec"] = 1,
 			},
 			["Icefury"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "*",
 				["Equip"] = {
 					"48429:0", -- [1]
@@ -6156,7 +6372,7 @@ GS_Data = {
 					"47659:0", -- [18]
 				},
 				["Date"] = 202104250036,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 260,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5580,
@@ -6166,86 +6382,50 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
+				["Spec"] = 1,
+			},
+			["Cryvolt"] = {
+				["PVP"] = 1,
+				["Guild"] = "Azote de Rasganorte",
+				["Location"] = "XXX",
+				["Date"] = 202107172201,
+				["Spec"] = 1,
+				["Average"] = 262,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6011,
+				["Race"] = "HU",
+				["Name"] = "Cryvolt",
+				["Sex"] = 2,
+				["Equip"] = {
+					"51212:3817", -- [1]
+					"50728:0", -- [2]
+					"51210:3808", -- [3]
+					nil, -- [4]
+					"51214:3252", -- [5]
+					"50187:0", -- [6]
+					"51211:3823", -- [7]
+					"51915:1597", -- [8]
+					"50670:3845", -- [9]
+					"50977:1603", -- [10]
+					"50453:0", -- [11]
+					"52572:0", -- [12]
+					"50363:0", -- [13]
+					"47214:0", -- [14]
+					"50470:3730", -- [15]
+					"49888:3789", -- [16]
+					"49919:3789", -- [17]
+					"47659:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
 				["Class"] = "WA",
 			},
-			["Nys"] = {
-				["PVP"] = 1,
-				["Guild"] = "Shadowmourne",
-				["Faction"] = "A",
-				["Date"] = 202107032330,
-				["Spec"] = 1,
-				["Average"] = 271,
-				["Level"] = 80,
-				["GearScore"] = 6322,
-				["Race"] = "DR",
-				["Name"] = "Nys",
-				["Sex"] = 3,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51133:3818", -- [1]
-					"50627:0", -- [2]
-					"51130:3811", -- [3]
-					nil, -- [4]
-					"51134:1953", -- [5]
-					"50691:0", -- [6]
-					"50612:3822", -- [7]
-					"50625:3232", -- [8]
-					"50611:3850", -- [9]
-					"51132:3253", -- [10]
-					"50642:0", -- [11]
-					"50404:0", -- [12]
-					"50364:0", -- [13]
-					"50356:0", -- [14]
-					"50718:3294", -- [15]
-					"50603:3847", -- [16]
-					"0:0", -- [17]
-					"47673:0", -- [18]
-				},
-				["Class"] = "DK",
-			},
-			["Sodimejo"] = {
-				["Class"] = "PA",
-				["Guild"] = "The Lost Dinasty",
-				["Equip"] = {
-					"51167:0", -- [1]
-					"51008:0", -- [2]
-					"51166:3810", -- [3]
-					nil, -- [4]
-					"50723:3233", -- [5]
-					"50451:0", -- [6]
-					"50623:0", -- [7]
-					"50416:3244", -- [8]
-					"50721:2332", -- [9]
-					"50650:3246", -- [10]
-					"49967:0", -- [11]
-					"50398:0", -- [12]
-					"50358:0", -- [13]
-					"50346:0", -- [14]
-					"54804:3831", -- [15]
-					"51875:3830", -- [16]
-					"49976:1128", -- [17]
-					"50460:0", -- [18]
-				},
-				["Date"] = 202105230022,
-				["PVP"] = 1,
-				["Average"] = 265,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6121,
-				["Race"] = "HU",
-				["Name"] = "Sodimejo",
-				["Faction"] = "A",
-				["Location"] = "DAL",
-				["Level"] = 80,
-				["Sex"] = 2,
-				["Spec"] = 1,
-			},
 			["Idonthavedmg"] = {
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202107032127,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6114,
@@ -6274,50 +6454,158 @@ GS_Data = {
 					"50719:0", -- [17]
 					"50684:0", -- [18]
 				},
-				["Class"] = "MA",
-			},
-			["Baneado"] = {
-				["Class"] = "MA",
-				["Guild"] = "Azote de Rasganorte",
-				["Sex"] = 3,
-				["Date"] = 202105292123,
-				["PVP"] = 1,
-				["Average"] = 270,
-				["Level"] = 80,
-				["GearScore"] = 6301,
-				["Race"] = "HU",
-				["Name"] = "Baneado",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51281:3820", -- [1]
-					"50724:0", -- [2]
-					"51284:3810", -- [3]
-					nil, -- [4]
-					"51283:3832", -- [5]
-					"50613:0", -- [6]
-					"51282:3872", -- [7]
-					"49890:3606", -- [8]
-					"50686:2332", -- [9]
-					"51159:3604", -- [10]
-					"50614:0", -- [11]
-					"50398:0", -- [12]
-					"40682:0", -- [13]
-					"50348:0", -- [14]
-					"50469:3722", -- [15]
-					"50608:3834", -- [16]
-					"50719:0", -- [17]
-					"50684:0", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
 				["Spec"] = 1,
+			},
+			["Nys"] = {
+				["Class"] = "DK",
+				["Guild"] = "Shadowmourne",
+				["Faction"] = "A",
+				["Date"] = 202107032330,
+				["PVP"] = 1,
+				["Average"] = 271,
+				["Level"] = 80,
+				["GearScore"] = 6322,
+				["Race"] = "DR",
+				["Name"] = "Nys",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Gilraenloss",
+				["Equip"] = {
+					"51133:3818", -- [1]
+					"50627:0", -- [2]
+					"51130:3811", -- [3]
+					nil, -- [4]
+					"51134:1953", -- [5]
+					"50691:0", -- [6]
+					"50612:3822", -- [7]
+					"50625:3232", -- [8]
+					"50611:3850", -- [9]
+					"51132:3253", -- [10]
+					"50642:0", -- [11]
+					"50404:0", -- [12]
+					"50364:0", -- [13]
+					"50356:0", -- [14]
+					"50718:3294", -- [15]
+					"50603:3847", -- [16]
+					"0:0", -- [17]
+					"47673:0", -- [18]
+				},
+				["Spec"] = 1,
+			},
+			["Sodimejo"] = {
+				["Spec"] = 1,
+				["Guild"] = "The Lost Dinasty",
+				["Equip"] = {
+					"51167:0", -- [1]
+					"51008:0", -- [2]
+					"51166:3810", -- [3]
+					nil, -- [4]
+					"50723:3233", -- [5]
+					"50451:0", -- [6]
+					"50623:0", -- [7]
+					"50416:3244", -- [8]
+					"50721:2332", -- [9]
+					"50650:3246", -- [10]
+					"49967:0", -- [11]
+					"50398:0", -- [12]
+					"50358:0", -- [13]
+					"50346:0", -- [14]
+					"54804:3831", -- [15]
+					"51875:3830", -- [16]
+					"49976:1128", -- [17]
+					"50460:0", -- [18]
+				},
+				["Date"] = 202105230022,
+				["Class"] = "PA",
+				["Average"] = 265,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6121,
+				["Race"] = "HU",
+				["Name"] = "Sodimejo",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 2,
+				["PVP"] = 1,
+			},
+			["Amywinehouse"] = {
+				["Class"] = "WK",
+				["Guild"] = "Yamakasi Dinasty",
+				["Equip"] = {
+					"50807:3820", -- [1]
+					"51016:0", -- [2]
+					"50449:3810", -- [3]
+					nil, -- [4]
+					"51790:3832", -- [5]
+					"50263:0", -- [6]
+					"49891:3719", -- [7]
+					"49890:3606", -- [8]
+					"49994:2332", -- [9]
+					"51209:3604", -- [10]
+					"47732:0", -- [11]
+					"50398:0", -- [12]
+					"47213:0", -- [13]
+					"40682:0", -- [14]
+					"51332:3722", -- [15]
+					"50047:3834", -- [16]
+					"50173:0", -- [17]
+					"47658:0", -- [18]
+				},
+				["Date"] = 202107312126,
+				["PVP"] = 1,
+				["Average"] = 250,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5615,
+				["Race"] = "HU",
+				["Name"] = "Amywinehouse",
+				["Faction"] = "A",
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Sex"] = 3,
+				["Spec"] = 1,
+			},
+			["Ngink"] = {
+				["Spec"] = 1,
+				["Guild"] = "Warbringers",
+				["Location"] = "XXX",
+				["Date"] = 202105060115,
+				["Class"] = "DR",
+				["Average"] = 243,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5280,
+				["Race"] = "NE",
+				["Name"] = "Ngink",
+				["Sex"] = 2,
+				["Equip"] = {
+					"48102:3820", -- [1]
+					"50211:0", -- [2]
+					"48131:3809", -- [3]
+					nil, -- [4]
+					"48129:0", -- [5]
+					"50069:0", -- [6]
+					"48130:0", -- [7]
+					"51341:0", -- [8]
+					"51342:0", -- [9]
+					"48132:0", -- [10]
+					"47732:0", -- [11]
+					"47733:0", -- [12]
+					"48724:0", -- [13]
+					"37835:0", -- [14]
+					"51332:0", -- [15]
+					"44423:0", -- [16]
+					"0:0", -- [17]
+					"50454:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["PVP"] = 1,
 			},
 			["Mabelita"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Location"] = "XXX",
 				["Date"] = 202107172127,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6351,
@@ -6346,14 +6634,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Relworth"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Numenor",
 				["Faction"] = "A",
 				["Date"] = 202104270155,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 237,
 				["Level"] = 80,
 				["GearScore"] = 5193,
@@ -6382,14 +6670,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50455:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Adriada"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "La Mesa LOCA",
 				["Faction"] = "A",
 				["Date"] = 202109042205,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 274,
 				["Level"] = 80,
 				["GearScore"] = 6396,
@@ -6418,14 +6706,14 @@ GS_Data = {
 					"50719:0", -- [17]
 					"50684:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Bisfon"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Sex"] = 2,
 				["Date"] = 202105041446,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6213,
@@ -6454,122 +6742,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "WTG",
-				["Spec"] = 1,
-			},
-			["Cecile"] = {
-				["Class"] = "SH",
-				["Guild"] = "*",
-				["Faction"] = "A",
-				["Date"] = 202109050050,
 				["PVP"] = 1,
-				["Average"] = 266,
-				["Level"] = 80,
-				["GearScore"] = 6129,
-				["Race"] = "DR",
-				["Name"] = "Cecile",
-				["Sex"] = 3,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51192:3819", -- [1]
-					"51008:0", -- [2]
-					"51194:3809", -- [3]
-					nil, -- [4]
-					"51190:3832", -- [5]
-					"50671:0", -- [6]
-					"51193:0", -- [7]
-					"51873:3826", -- [8]
-					"50687:2332", -- [9]
-					"51827:3246", -- [10]
-					"53490:0", -- [11]
-					"50610:0", -- [12]
-					"50358:0", -- [13]
-					"50339:0", -- [14]
-					"50628:3831", -- [15]
-					"50428:3834", -- [16]
-					"49976:1128", -- [17]
-					"50464:0", -- [18]
-				},
-				["Spec"] = 1,
-			},
-			["Deadlyshoot"] = {
-				["PVP"] = 1,
-				["Guild"] = "*",
-				["Equip"] = {
-					"51460:3795", -- [1]
-					"51353:0", -- [2]
-					"51577:3793", -- [3]
-					nil, -- [4]
-					"51458:3245", -- [5]
-					"50993:3601", -- [6]
-					"51461:3823", -- [7]
-					"50071:3606", -- [8]
-					"50000:3845", -- [9]
-					"51459:3603", -- [10]
-					"50186:0", -- [11]
-					"50402:0", -- [12]
-					"50362:0", -- [13]
-					"51377:0", -- [14]
-					"51354:3605", -- [15]
-					"51515:3833", -- [16]
-					"51525:3731", -- [17]
-					"51927:3608", -- [18]
-				},
-				["Date"] = 202105052057,
-				["Spec"] = 1,
-				["Average"] = 265,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6106,
-				["Race"] = "NE",
-				["Name"] = "Deadlyshoot",
-				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 2,
-				["Class"] = "HU",
-			},
-			["Hierbavil"] = {
-				["PVP"] = 1,
-				["Guild"] = "*",
-				["Faction"] = "A",
-				["Date"] = 202107040012,
-				["Spec"] = 1,
-				["Average"] = 266,
-				["Level"] = 80,
-				["GearScore"] = 6137,
-				["Race"] = "NE",
-				["Name"] = "Hierbavil",
-				["Sex"] = 1,
-				["Location"] = "XXX",
-				["Scanned"] = "Gilraenloss",
-				["Equip"] = {
-					"51137:3820", -- [1]
-					"49975:0", -- [2]
-					"51135:3836", -- [3]
-					nil, -- [4]
-					"50717:0", -- [5]
-					"50069:0", -- [6]
-					"51136:3719", -- [7]
-					"50665:1147", -- [8]
-					"50417:2332", -- [9]
-					"51138:3246", -- [10]
-					"50636:0", -- [11]
-					"49967:0", -- [12]
-					"50359:0", -- [13]
-					"50358:0", -- [14]
-					"50014:3831", -- [15]
-					"51898:3854", -- [16]
-					"0:0", -- [17]
-					"50454:0", -- [18]
-				},
-				["Class"] = "DR",
 			},
 			["Lucemia"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "Dont Nerf Druids",
 				["Faction"] = "A",
 				["Date"] = 202109042123,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 272,
 				["Level"] = 80,
 				["GearScore"] = 6364,
@@ -6598,46 +6778,154 @@ GS_Data = {
 					"50635:0", -- [17]
 					"50454:0", -- [18]
 				},
+				["PVP"] = 1,
+			},
+			["Deadlyshoot"] = {
+				["Class"] = "HU",
+				["Guild"] = "*",
+				["Equip"] = {
+					"51460:3795", -- [1]
+					"51353:0", -- [2]
+					"51577:3793", -- [3]
+					nil, -- [4]
+					"51458:3245", -- [5]
+					"50993:3601", -- [6]
+					"51461:3823", -- [7]
+					"50071:3606", -- [8]
+					"50000:3845", -- [9]
+					"51459:3603", -- [10]
+					"50186:0", -- [11]
+					"50402:0", -- [12]
+					"50362:0", -- [13]
+					"51377:0", -- [14]
+					"51354:3605", -- [15]
+					"51515:3833", -- [16]
+					"51525:3731", -- [17]
+					"51927:3608", -- [18]
+				},
+				["Date"] = 202105052057,
+				["PVP"] = 1,
+				["Average"] = 265,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6106,
+				["Race"] = "NE",
+				["Name"] = "Deadlyshoot",
+				["Faction"] = "A",
+				["Location"] = "XXX",
+				["Level"] = 80,
+				["Sex"] = 2,
 				["Spec"] = 1,
 			},
-			["Saintx"] = {
-				["Class"] = "WA",
-				["Guild"] = "Shadowmourne",
+			["Hierbavil"] = {
+				["Class"] = "DR",
+				["Guild"] = "*",
 				["Faction"] = "A",
-				["Date"] = 202109042204,
+				["Date"] = 202107040012,
 				["PVP"] = 1,
-				["Average"] = 267,
+				["Average"] = 266,
 				["Level"] = 80,
-				["GearScore"] = 6167,
-				["Race"] = "HU",
-				["Name"] = "Saintx",
-				["Sex"] = 2,
+				["GearScore"] = 6137,
+				["Race"] = "NE",
+				["Name"] = "Hierbavil",
+				["Sex"] = 1,
 				["Location"] = "XXX",
 				["Scanned"] = "Gilraenloss",
 				["Equip"] = {
-					"51212:3817", -- [1]
-					"53132:0", -- [2]
-					"51210:3808", -- [3]
+					"51137:3820", -- [1]
+					"49975:0", -- [2]
+					"51135:3836", -- [3]
 					nil, -- [4]
-					"51214:3832", -- [5]
-					"50995:0", -- [6]
-					"51228:3823", -- [7]
-					"50639:3826", -- [8]
-					"50670:3845", -- [9]
-					"51904:1603", -- [10]
-					"52572:0", -- [11]
-					"50618:0", -- [12]
-					"50363:0", -- [13]
-					"47214:0", -- [14]
-					"50467:3730", -- [15]
-					"50603:3789", -- [16]
-					"51946:3789", -- [17]
-					"49981:0", -- [18]
+					"50717:0", -- [5]
+					"50069:0", -- [6]
+					"51136:3719", -- [7]
+					"50665:1147", -- [8]
+					"50417:2332", -- [9]
+					"51138:3246", -- [10]
+					"50636:0", -- [11]
+					"49967:0", -- [12]
+					"50359:0", -- [13]
+					"50358:0", -- [14]
+					"50014:3831", -- [15]
+					"51898:3854", -- [16]
+					"0:0", -- [17]
+					"50454:0", -- [18]
 				},
 				["Spec"] = 1,
 			},
-			["Jansenson"] = {
+			["Vendechurros"] = {
+				["Class"] = "HU",
+				["Guild"] = "*",
+				["Equip"] = {
+					"41158:3795", -- [1]
+					"50452:0", -- [2]
+					"41218:3793", -- [3]
+					nil, -- [4]
+					"41088:0", -- [5]
+					"51350:3601", -- [6]
+					"51461:3823", -- [7]
+					"49897:3606", -- [8]
+					"51352:0", -- [9]
+					"51154:3604", -- [10]
+					"51358:0", -- [11]
+					"50402:0", -- [12]
+					"50362:0", -- [13]
+					"51377:0", -- [14]
+					"50470:1099", -- [15]
+					"51857:3827", -- [16]
+					"0:0", -- [17]
+					"51927:3608", -- [18]
+				},
+				["Date"] = 202201091724,
+				["PVP"] = 1,
+				["Average"] = 263,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 5985,
+				["Race"] = "NE",
+				["Name"] = "Vendechurros",
+				["Faction"] = "A",
+				["Location"] = "XXX",
+				["Level"] = 80,
+				["Sex"] = 2,
 				["Spec"] = 1,
+			},
+			["Jerdor"] = {
+				["Faction"] = "A",
+				["Guild"] = "*",
+				["Equip"] = {
+					"51312:3817", -- [1]
+					"50728:0", -- [2]
+					"51314:3808", -- [3]
+					nil, -- [4]
+					"51310:0", -- [5]
+					"50987:0", -- [6]
+					"51313:0", -- [7]
+					"53125:3606", -- [8]
+					"50659:3845", -- [9]
+					"50690:0", -- [10]
+					"52572:0", -- [11]
+					"50693:0", -- [12]
+					"50363:0", -- [13]
+					"54569:0", -- [14]
+					"50677:3730", -- [15]
+					"49623:3368", -- [16]
+					"0:0", -- [17]
+					"50459:0", -- [18]
+				},
+				["Date"] = 202109050026,
+				["Spec"] = 1,
+				["Average"] = 275,
+				["Level"] = 80,
+				["GearScore"] = 6810,
+				["Race"] = "HU",
+				["Name"] = "Jerdor",
+				["Sex"] = 1,
+				["Location"] = "XXX",
+				["Scanned"] = "Skombrow",
+				["PVP"] = 1,
+				["Class"] = "DK",
+			},
+			["Jansenson"] = {
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"41993:3796", -- [1]
@@ -6660,7 +6948,7 @@ GS_Data = {
 					"42503:0", -- [18]
 				},
 				["Date"] = 202105082105,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 232,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4941,
@@ -6670,14 +6958,14 @@ GS_Data = {
 				["Location"] = "WTG",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Slayerz"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Azote de Rasganorte",
 				["Faction"] = "A",
 				["Date"] = 202104270129,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 272,
 				["Level"] = 80,
 				["GearScore"] = 6708,
@@ -6706,10 +6994,10 @@ GS_Data = {
 					"0:0", -- [17]
 					"51927:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Arkman"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "*",
 				["Equip"] = {
 					"40830:3795", -- [1]
@@ -6732,7 +7020,7 @@ GS_Data = {
 					"47673:0", -- [18]
 				},
 				["Date"] = 202105052041,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5727,
@@ -6742,7 +7030,7 @@ GS_Data = {
 				["Location"] = "WTG",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 		},
 		["CurrentPlayer"] = {
@@ -6753,11 +7041,11 @@ GS_Data = {
 	["WoWArg"] = {
 		["Players"] = {
 			["Gilraenloss"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Orden Fenix",
 				["Location"] = "WTG",
 				["Date"] = 202104190355,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 260,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5896,
@@ -6786,14 +7074,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Akaya"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Faction"] = "A",
 				["Date"] = 202103051705,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 263,
 				["Level"] = 80,
 				["GearScore"] = 5983,
@@ -6822,14 +7110,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50034:3608", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Papif"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103302224,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 236,
 				["Level"] = 80,
 				["GearScore"] = 5024,
@@ -6858,14 +7146,14 @@ GS_Data = {
 					"42526:0", -- [17]
 					"42520:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Shamancaa"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Hybrid Theory",
 				["Location"] = "XXX",
 				["Date"] = 202104102153,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 270,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6308,
@@ -6894,14 +7182,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Cryvolt"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Sex"] = 2,
 				["Date"] = 202104102314,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 243,
 				["Level"] = 80,
 				["GearScore"] = 5313,
@@ -6930,14 +7218,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Pietrina"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Faction"] = "A",
 				["Date"] = 202103031801,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 254,
 				["Level"] = 80,
 				["GearScore"] = 5657,
@@ -6966,14 +7254,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50033:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Lizpluss"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "ThunderBluff",
 				["Faction"] = "A",
 				["Date"] = 202104130403,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 261,
 				["Level"] = 80,
 				["GearScore"] = 5962,
@@ -7002,14 +7290,14 @@ GS_Data = {
 					"50616:1128", -- [17]
 					"50464:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Galga"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Sex"] = 3,
 				["Date"] = 202104110047,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 259,
 				["Level"] = 80,
 				["GearScore"] = 5913,
@@ -7038,10 +7326,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Fakelol"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"41854:0", -- [1]
@@ -7064,7 +7352,7 @@ GS_Data = {
 					"47658:0", -- [18]
 				},
 				["Date"] = 202103040115,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 226,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4302,
@@ -7074,14 +7362,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Hilen"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "ThunderBluff",
 				["Sex"] = 3,
 				["Date"] = 202104120253,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 264,
 				["Level"] = 80,
 				["GearScore"] = 6497,
@@ -7110,14 +7398,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Lavirusa"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103042117,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 228,
 				["Level"] = 80,
 				["GearScore"] = 4944,
@@ -7146,14 +7434,14 @@ GS_Data = {
 					"47079:1128", -- [17]
 					"45169:0", -- [18]
 				},
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Senkki"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "Ala Sangrienta",
 				["Faction"] = "A",
 				["Date"] = 202103042050,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 171,
 				["Level"] = 80,
 				["GearScore"] = 3100,
@@ -7182,14 +7470,14 @@ GS_Data = {
 					"50781:0", -- [17]
 					"50472:0", -- [18]
 				},
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Tarssan"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Dragon Storm",
 				["Sex"] = 2,
 				["Date"] = 202104120043,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 246,
 				["Level"] = 80,
 				["GearScore"] = 5384,
@@ -7218,14 +7506,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Weissbier"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Ala Sangrienta",
 				["Location"] = "XXX",
 				["Date"] = 202104172201,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 166,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3221,
@@ -7254,10 +7542,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Atabaque"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Equip"] = {
 					"51208:3820", -- [1]
@@ -7280,7 +7568,7 @@ GS_Data = {
 					"51326:0", -- [18]
 				},
 				["Date"] = 202104080207,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 258,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5851,
@@ -7290,14 +7578,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Pingludo"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "XXX",
 				["Date"] = 202103102102,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 246,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5436,
@@ -7326,14 +7614,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Dhelarion"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 2,
 				["Date"] = 202103202222,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 228,
 				["Level"] = 80,
 				["GearScore"] = 4807,
@@ -7362,14 +7650,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Patinho"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Location"] = "XXX",
 				["Date"] = 202104102200,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5813,
@@ -7398,14 +7686,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Fakiill"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Sunshine",
 				["Location"] = "XXX",
 				["Date"] = 202104181958,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5970,
@@ -7434,14 +7722,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Broncichisp"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202103112341,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6426,
@@ -7470,14 +7758,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Argan"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Insieme",
 				["Location"] = "WTG",
 				["Date"] = 202104190101,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 250,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5520,
@@ -7506,14 +7794,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Nilssine"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Hells Angels",
 				["Faction"] = "A",
 				["Date"] = 202103042031,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 87,
 				["Level"] = 80,
 				["GearScore"] = 937,
@@ -7542,14 +7830,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"47661:0", -- [18]
 				},
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Taquete"] = {
-				["Class"] = "PR",
-				["Guild"] = "More PewPew Less QQ",
-				["PVP"] = 1,
-				["Date"] = 202104112104,
 				["Spec"] = 1,
+				["Guild"] = "More PewPew Less QQ",
+				["Class"] = "PR",
+				["Date"] = 202104112104,
+				["PVP"] = 1,
 				["Average"] = 272,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6314,
@@ -7581,11 +7869,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Laburando"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 1,
 				["Date"] = 202104112317,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 250,
 				["Level"] = 80,
 				["GearScore"] = 5612,
@@ -7614,14 +7902,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Kakakshi"] = {
 				["Sex"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "DAL",
 				["Date"] = 202104162148,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 250,
 				["Level"] = 80,
 				["GearScore"] = 5523,
@@ -7649,15 +7937,15 @@ GS_Data = {
 					"47661:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Darion"] = {
 				["Sex"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Location"] = "XXX",
 				["Date"] = 202104161901,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 188,
 				["Level"] = 80,
 				["GearScore"] = 3011,
@@ -7685,15 +7973,15 @@ GS_Data = {
 					"47673:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["PVP"] = 1,
 				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Naciophelear"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Sex"] = 3,
 				["Date"] = 202104120238,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 234,
 				["Level"] = 80,
 				["GearScore"] = 5024,
@@ -7722,14 +8010,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Zaris"] = {
-				["PVP"] = 1,
-				["Guild"] = "Sunshine",
-				["Spec"] = 1,
-				["Date"] = 202104102049,
 				["Class"] = "DK",
+				["Guild"] = "Sunshine",
+				["PVP"] = 1,
+				["Date"] = 202104102049,
+				["Spec"] = 1,
 				["Average"] = 153,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 2532,
@@ -7761,11 +8049,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Azia"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Numenor",
 				["Location"] = "DAL",
 				["Date"] = 202104111922,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 265,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6085,
@@ -7794,14 +8082,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Sviri"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Reclap",
 				["Faction"] = "A",
 				["Date"] = 202104111807,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 251,
 				["Level"] = 80,
 				["GearScore"] = 5581,
@@ -7830,14 +8118,14 @@ GS_Data = {
 					"50781:0", -- [17]
 					"50472:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Taris"] = {
 				["Sex"] = 1,
 				["Guild"] = "The Lost Dinasty",
 				["Location"] = "DAL",
 				["Date"] = 202104142339,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5849,
@@ -7865,11 +8153,11 @@ GS_Data = {
 					"47668:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Class"] = "DR",
 				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Blindage"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"30488:3795", -- [1]
@@ -7892,7 +8180,7 @@ GS_Data = {
 					"51880:0", -- [18]
 				},
 				["Date"] = 202103040102,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 160,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 2275,
@@ -7902,14 +8190,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Sandstxrm"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Sex"] = 3,
 				["Date"] = 202103120033,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 236,
 				["Level"] = 80,
 				["GearScore"] = 5062,
@@ -7938,14 +8226,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Sandobal"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Sex"] = 2,
 				["Date"] = 202103202209,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 126,
 				["Level"] = 80,
 				["GearScore"] = 1490,
@@ -7974,14 +8262,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Chatoman"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "Insieme",
 				["Faction"] = "A",
 				["Date"] = 202103112033,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 227,
 				["Level"] = 80,
 				["GearScore"] = 4808,
@@ -8010,10 +8298,10 @@ GS_Data = {
 					"45962:3731", -- [17]
 					"37191:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Khaala"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Equip"] = {
 					"16921:3797", -- [1]
@@ -8036,7 +8324,7 @@ GS_Data = {
 					"51531:0", -- [18]
 				},
 				["Date"] = 202103041747,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 207,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4267,
@@ -8046,14 +8334,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Homunculox"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202104102015,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 276,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6464,
@@ -8082,14 +8370,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Diosoti"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Game of ThronesS",
 				["Location"] = "XXX",
 				["Date"] = 202104111944,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 265,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6087,
@@ -8118,14 +8406,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Thesatos"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "DarkGuild",
 				["Location"] = "XXX",
 				["Date"] = 202104101924,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5718,
@@ -8154,10 +8442,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Agosu"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Agosu",
 				["Equip"] = {
 					"49715:3820", -- [1]
@@ -8180,7 +8468,7 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Date"] = 202103040242,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 206,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4632,
@@ -8190,14 +8478,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 1,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Garithoz"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Exiled Horde",
 				["Location"] = "XXX",
 				["Date"] = 202104181940,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 251,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5634,
@@ -8226,7 +8514,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Azself"] = {
 				["Faction"] = "A",
@@ -8252,7 +8540,7 @@ GS_Data = {
 					"50684:0", -- [18]
 				},
 				["Date"] = 202103310027,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6465,
@@ -8261,15 +8549,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "MA",
+				["Spec"] = 1,
 			},
 			["Sylpha"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Insieme",
 				["Location"] = "XXX",
 				["Date"] = 202103101544,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 252,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5598,
@@ -8298,14 +8586,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Beocca"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202103120152,
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Average"] = 273,
 				["Level"] = 80,
 				["GearScore"] = 6376,
@@ -8334,14 +8622,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "RO",
 			},
 			["Tocxi"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Faction"] = "A",
 				["Date"] = 202104161539,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 273,
 				["Level"] = 80,
 				["GearScore"] = 6374,
@@ -8370,14 +8658,14 @@ GS_Data = {
 					"50654:3731", -- [17]
 					"51880:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Macewinduu"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Sunshine",
 				["Sex"] = 2,
 				["Date"] = 202103202208,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6289,
@@ -8406,14 +8694,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Eqw"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202104120048,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 260,
 				["Level"] = 80,
 				["GearScore"] = 5883,
@@ -8442,10 +8730,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Janos"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Monster",
 				["Equip"] = {
 					"48634:0", -- [1]
@@ -8468,7 +8756,7 @@ GS_Data = {
 					"50461:0", -- [18]
 				},
 				["Date"] = 202103210345,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 247,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5350,
@@ -8478,10 +8766,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Estenano"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Hijos Del x Tres",
 				["Equip"] = {
 					"41386:0", -- [1]
@@ -8504,7 +8792,7 @@ GS_Data = {
 					"50444:0", -- [18]
 				},
 				["Date"] = 202103202337,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 213,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3953,
@@ -8514,14 +8802,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ergolas"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "DarkShadows",
 				["Sex"] = 2,
 				["Date"] = 202104142336,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 268,
 				["Level"] = 80,
 				["GearScore"] = 6156,
@@ -8550,14 +8838,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Neoxus"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202104190301,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 246,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5412,
@@ -8586,14 +8874,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Kahdggar"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Alliance Ultra Instinc",
 				["Sex"] = 2,
 				["Date"] = 202104110039,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 157,
 				["Level"] = 80,
 				["GearScore"] = 2246,
@@ -8622,14 +8910,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "WTG",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Atlhon"] = {
-				["Spec"] = 1,
-				["Guild"] = "Queens Elite",
-				["Class"] = "MA",
-				["Date"] = 202103202231,
 				["PVP"] = 1,
+				["Guild"] = "Queens Elite",
+				["Spec"] = 1,
+				["Date"] = 202103202231,
+				["Class"] = "MA",
 				["Average"] = 270,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6254,
@@ -8661,7 +8949,7 @@ GS_Data = {
 				["Sex"] = 1,
 			},
 			["Scorpen"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"41158:0", -- [1]
@@ -8684,7 +8972,7 @@ GS_Data = {
 					"46995:0", -- [18]
 				},
 				["Date"] = 202103041759,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 255,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5736,
@@ -8694,14 +8982,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Guachaso"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "DAL",
 				["Date"] = 202104111922,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5873,
@@ -8730,14 +9018,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Warrobug"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Ala Sangrienta",
 				["Faction"] = "A",
 				["Date"] = 202103302135,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 255,
 				["Level"] = 80,
 				["GearScore"] = 5790,
@@ -8766,14 +9054,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"42483:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Karken"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202104072041,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6004,
@@ -8802,14 +9090,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Srchicharron"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "XXX",
 				["Date"] = 202104190209,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 236,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5039,
@@ -8838,14 +9126,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Aegwhynn"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202104101403,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6505,
@@ -8874,14 +9162,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50684:0", -- [18]
 				},
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Forkasen"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Sex"] = 2,
 				["Date"] = 202104120048,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 268,
 				["Level"] = 80,
 				["GearScore"] = 6170,
@@ -8910,10 +9198,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Puntita"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Ramitas con Quezo",
 				["Equip"] = {
 					"41158:3817", -- [1]
@@ -8936,7 +9224,7 @@ GS_Data = {
 					"49981:3608", -- [18]
 				},
 				["Date"] = 202103041804,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5948,
@@ -8946,10 +9234,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Lanimi"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Sleeping Knight",
 				["Equip"] = {
 					"48257:3817", -- [1]
@@ -8972,7 +9260,7 @@ GS_Data = {
 					"51802:3608", -- [18]
 				},
 				["Date"] = 202103210341,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 249,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5539,
@@ -8982,10 +9270,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Saeky"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Sunshine",
 				["Equip"] = {
 					"50741:3818", -- [1]
@@ -9008,7 +9296,7 @@ GS_Data = {
 					"47661:0", -- [18]
 				},
 				["Date"] = 202103031559,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 178,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3412,
@@ -9018,14 +9306,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Kahizer"] = {
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Guild"] = "DarkShadows",
 				["Location"] = "DAL",
 				["Date"] = 202104111922,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 258,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5871,
@@ -9054,7 +9342,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WK",
+				["Spec"] = 1,
 			},
 			["Bajan"] = {
 				["Faction"] = "A",
@@ -9080,7 +9368,7 @@ GS_Data = {
 					"47661:0", -- [18]
 				},
 				["Date"] = 202103111822,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 275,
 				["Level"] = 80,
 				["GearScore"] = 6840,
@@ -9089,15 +9377,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Nicolaxxs"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "DAL",
 				["Date"] = 202103142011,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 264,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6094,
@@ -9126,14 +9414,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ainai"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Legionarios del Abismo",
 				["Faction"] = "A",
 				["Date"] = 202103111611,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 237,
 				["Level"] = 80,
 				["GearScore"] = 5021,
@@ -9162,14 +9450,14 @@ GS_Data = {
 					"49802:0", -- [17]
 					"50444:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Valduin"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Warrior OF The World",
 				["Sex"] = 2,
 				["Date"] = 202104142302,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 190,
 				["Level"] = 80,
 				["GearScore"] = 3261,
@@ -9198,14 +9486,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Crosman"] = {
 				["Sex"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Location"] = "DAL",
 				["Date"] = 202104162145,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 267,
 				["Level"] = 80,
 				["GearScore"] = 6184,
@@ -9233,15 +9521,15 @@ GS_Data = {
 					"51927:3608", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Meolns"] = {
 				["Sex"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "DAL",
 				["Date"] = 202103202143,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 259,
 				["Level"] = 80,
 				["GearScore"] = 5870,
@@ -9269,15 +9557,15 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Thrench"] = {
-				["PVP"] = 1,
-				["Guild"] = "JUST DO IT",
-				["Spec"] = 1,
-				["Date"] = 202104102128,
 				["Class"] = "WA",
+				["Guild"] = "JUST DO IT",
+				["PVP"] = 1,
+				["Date"] = 202104102128,
+				["Spec"] = 1,
 				["Average"] = 276,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6637,
@@ -9309,11 +9597,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Rhaedrion"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "Numenor",
 				["Sex"] = 2,
 				["Date"] = 202104142213,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 271,
 				["Level"] = 80,
 				["GearScore"] = 6311,
@@ -9342,14 +9630,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Tiofacho"] = {
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Guild"] = "Shadowmourne",
 				["Location"] = "DAL",
 				["Date"] = 202104072154,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 267,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6193,
@@ -9378,14 +9666,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "MA",
+				["Spec"] = 1,
 			},
 			["Priscillah"] = {
-				["Class"] = "PA",
-				["Guild"] = "More PewPew Less QQ",
-				["PVP"] = 1,
-				["Date"] = 202104112109,
 				["Spec"] = 1,
+				["Guild"] = "More PewPew Less QQ",
+				["Class"] = "PA",
+				["Date"] = 202104112109,
+				["PVP"] = 1,
 				["Average"] = 270,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6224,
@@ -9417,11 +9705,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Effiee"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202104120137,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6266,
@@ -9450,14 +9738,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Eldestromode"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202104120208,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 213,
 				["Level"] = 80,
 				["GearScore"] = 3975,
@@ -9486,14 +9774,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Togucci"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Location"] = "DAL",
 				["Date"] = 202103032056,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6701,
@@ -9522,14 +9810,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Chechox"] = {
-				["Spec"] = 1,
-				["Guild"] = "Numenor",
-				["Class"] = "WA",
-				["Date"] = 202103142055,
 				["PVP"] = 1,
+				["Guild"] = "Numenor",
+				["Spec"] = 1,
+				["Date"] = 202103142055,
+				["Class"] = "WA",
 				["Average"] = 264,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6066,
@@ -9561,11 +9849,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Rheley"] = {
-				["Class"] = "MA",
-				["Guild"] = "JUST DO IT",
-				["PVP"] = 1,
-				["Date"] = 202103031613,
 				["Spec"] = 1,
+				["Guild"] = "JUST DO IT",
+				["Class"] = "MA",
+				["Date"] = 202103031613,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6464,
@@ -9597,11 +9885,11 @@ GS_Data = {
 				["Sex"] = 1,
 			},
 			["Starosta"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Los Socios del Desierto",
 				["Location"] = "XXX",
 				["Date"] = 202104190149,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 278,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6696,
@@ -9630,14 +9918,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Mardy"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202104072050,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 257,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5565,
@@ -9666,14 +9954,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Anexa"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "DAL",
 				["Date"] = 202103112341,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6376,
@@ -9702,14 +9990,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Voshurk"] = {
-				["Class"] = "DK",
-				["Guild"] = "Sang bleu",
-				["PVP"] = 1,
-				["Date"] = 202103201355,
 				["Spec"] = 1,
+				["Guild"] = "Sang bleu",
+				["Class"] = "DK",
+				["Date"] = 202103201355,
+				["PVP"] = 1,
 				["Average"] = 265,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6550,
@@ -9741,11 +10029,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Crazyfear"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Die Verbannten",
 				["Location"] = "XXX",
 				["Date"] = 202104072134,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 278,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6723,
@@ -9774,14 +10062,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Subjected"] = {
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Guild"] = "Die Verbannten",
 				["Location"] = "XXX",
 				["Date"] = 202104172239,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 189,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3520,
@@ -9810,10 +10098,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "RO",
+				["Spec"] = 1,
 			},
 			["Crobar"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Equip"] = {
 					"41947:3797", -- [1]
@@ -9836,7 +10124,7 @@ GS_Data = {
 					"50684:0", -- [18]
 				},
 				["Date"] = 202104151444,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 268,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6146,
@@ -9846,10 +10134,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Ishanah"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"49804:0", -- [1]
@@ -9872,7 +10160,7 @@ GS_Data = {
 					"47665:0", -- [18]
 				},
 				["Date"] = 202103202345,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 214,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4292,
@@ -9882,14 +10170,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Neoclass"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Sex"] = 3,
 				["Date"] = 202104120147,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 273,
 				["Level"] = 80,
 				["GearScore"] = 6350,
@@ -9918,14 +10206,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Nagui"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103042109,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 234,
 				["Level"] = 80,
 				["GearScore"] = 4976,
@@ -9954,14 +10242,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50262:0", -- [18]
 				},
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Johnnydags"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 2,
 				["Date"] = 202104161913,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Level"] = 80,
 				["GearScore"] = 5973,
@@ -9990,14 +10278,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Rink"] = {
-				["Class"] = "DR",
-				["Guild"] = "Azote de Rasganorte",
-				["PVP"] = 1,
-				["Date"] = 202104112103,
 				["Spec"] = 1,
+				["Guild"] = "Azote de Rasganorte",
+				["Class"] = "DR",
+				["Date"] = 202104112103,
+				["PVP"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 5993,
@@ -10029,11 +10317,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Estarozza"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202104111930,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6020,
@@ -10062,14 +10350,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Natlli"] = {
-				["Spec"] = 1,
-				["Guild"] = "watch os",
-				["Class"] = "WA",
-				["Date"] = 202103032152,
 				["PVP"] = 1,
+				["Guild"] = "watch os",
+				["Spec"] = 1,
+				["Date"] = 202103032152,
+				["Class"] = "WA",
 				["Average"] = 267,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6131,
@@ -10101,7 +10389,7 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Veerloren"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Equip"] = {
 					"51208:3820", -- [1]
@@ -10124,7 +10412,7 @@ GS_Data = {
 					"51553:0", -- [18]
 				},
 				["Date"] = 202104080207,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 257,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5872,
@@ -10134,14 +10422,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Fjaak"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Mare Magnum",
 				["Sex"] = 2,
 				["Date"] = 202104142212,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 241,
 				["Level"] = 80,
 				["GearScore"] = 5280,
@@ -10170,10 +10458,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Shimaria"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Equip"] = {
 					"41993:3796", -- [1]
@@ -10196,7 +10484,7 @@ GS_Data = {
 					"42503:0", -- [18]
 				},
 				["Date"] = 202104151503,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 246,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5272,
@@ -10206,14 +10494,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Dolanaar"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103041627,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5891,
@@ -10242,14 +10530,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Lionsama"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202104101403,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 253,
 				["Level"] = 80,
 				["GearScore"] = 5629,
@@ -10278,14 +10566,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"42616:0", -- [18]
 				},
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Deadly"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Location"] = "XXX",
 				["Date"] = 202103172003,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 1760,
@@ -10314,7 +10602,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Bartraz"] = {
 				["Faction"] = "A",
@@ -10340,7 +10628,7 @@ GS_Data = {
 					"50684:0", -- [18]
 				},
 				["Date"] = 202103310153,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 274,
 				["Level"] = 80,
 				["GearScore"] = 6399,
@@ -10349,8 +10637,8 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Devanado"] = {
 				["Faction"] = "A",
@@ -10376,7 +10664,7 @@ GS_Data = {
 					"50733:3608", -- [18]
 				},
 				["Date"] = 202103310114,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 277,
 				["Level"] = 80,
 				["GearScore"] = 6521,
@@ -10385,11 +10673,11 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Jhempira"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Equip"] = {
 					"51137:3820", -- [1]
@@ -10412,7 +10700,7 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Date"] = 202104170127,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 267,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6143,
@@ -10422,14 +10710,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Feralyhete"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Meta cumbia meta joda",
 				["Faction"] = "A",
 				["Date"] = 202104181530,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 263,
 				["Level"] = 80,
 				["GearScore"] = 5999,
@@ -10458,14 +10746,14 @@ GS_Data = {
 					"49187:0", -- [17]
 					"50454:0", -- [18]
 				},
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Brunayanka"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202104120157,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6653,
@@ -10494,14 +10782,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Peora"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "DAL",
 				["Date"] = 202104101443,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5731,
@@ -10530,14 +10818,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Nieblaazul"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "kill dragon",
 				["Sex"] = 1,
 				["Date"] = 202104120206,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 145,
 				["Level"] = 80,
 				["GearScore"] = 1592,
@@ -10566,14 +10854,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Vhrall"] = {
-				["Class"] = "SH",
-				["Guild"] = "Broken",
-				["PVP"] = 1,
-				["Date"] = 202104072158,
 				["Spec"] = 1,
+				["Guild"] = "Broken",
+				["Class"] = "SH",
+				["Date"] = 202104072158,
+				["PVP"] = 1,
 				["Average"] = 275,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6459,
@@ -10605,11 +10893,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Elchamaquito"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "Facheritos",
 				["Location"] = "XXX",
 				["Date"] = 202104072127,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 265,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6103,
@@ -10638,14 +10926,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Underclub"] = {
 				["Sex"] = 1,
 				["Guild"] = "Orden Fenix",
 				["Location"] = "DAL",
 				["Date"] = 202104162143,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Level"] = 80,
 				["GearScore"] = 6062,
@@ -10673,15 +10961,15 @@ GS_Data = {
 					"51852:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Foortunio"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "The Lost Dinasty",
 				["Location"] = "XXX",
 				["Date"] = 202104190224,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 274,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6569,
@@ -10710,14 +10998,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Nys"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202104172215,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 260,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5961,
@@ -10746,14 +11034,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Zennrakkan"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103041637,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5794,
@@ -10782,14 +11070,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Bisfon"] = {
-				["Class"] = "WA",
-				["Guild"] = "More PewPew Less QQ",
-				["PVP"] = 1,
-				["Date"] = 202104112103,
 				["Spec"] = 1,
+				["Guild"] = "More PewPew Less QQ",
+				["Class"] = "WA",
+				["Date"] = 202104112103,
+				["PVP"] = 1,
 				["Average"] = 272,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6543,
@@ -10821,7 +11109,7 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Maydo"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "Joyeria Fina",
 				["Equip"] = {
 					"50837:3819", -- [1]
@@ -10844,7 +11132,7 @@ GS_Data = {
 					"47665:0", -- [18]
 				},
 				["Date"] = 202103120355,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 233,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4977,
@@ -10854,10 +11142,10 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Sliim"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Aftermath Entertainment",
 				["Equip"] = {
 					"40830:3795", -- [1]
@@ -10880,7 +11168,7 @@ GS_Data = {
 					"47673:0", -- [18]
 				},
 				["Date"] = 202103040122,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5812,
@@ -10890,7 +11178,7 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Marmara"] = {
 				["Faction"] = "A",
@@ -10916,7 +11204,7 @@ GS_Data = {
 					"50458:0", -- [18]
 				},
 				["Date"] = 202103310113,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 268,
 				["Level"] = 80,
 				["GearScore"] = 6232,
@@ -10925,15 +11213,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Thyrene"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "NGD",
 				["Date"] = 202104101859,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 264,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6495,
@@ -10962,14 +11250,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Auroras"] = {
-				["Class"] = "PA",
-				["Guild"] = "*",
-				["PVP"] = 1,
-				["Date"] = 202103031543,
 				["Spec"] = 1,
+				["Guild"] = "*",
+				["Class"] = "PA",
+				["Date"] = 202103031543,
+				["PVP"] = 1,
 				["Average"] = 199,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 3745,
@@ -11001,11 +11289,11 @@ GS_Data = {
 				["Sex"] = 1,
 			},
 			["Asuri"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "Onlyfans",
 				["Location"] = "XXX",
 				["Date"] = 202103101544,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 257,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5273,
@@ -11034,14 +11322,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Izanagi"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Elite Knight",
 				["Faction"] = "A",
 				["Date"] = 202103111959,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 234,
 				["Level"] = 80,
 				["GearScore"] = 4964,
@@ -11070,14 +11358,14 @@ GS_Data = {
 					"44210:0", -- [17]
 					"37824:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Zarada"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Ala Sangrienta",
 				["Sex"] = 3,
 				["Date"] = 202103120033,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 259,
 				["Level"] = 80,
 				["GearScore"] = 5881,
@@ -11106,14 +11394,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Ailisha"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Chevaliers de la nuit",
 				["Faction"] = "A",
 				["Date"] = 202103042109,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 255,
 				["Level"] = 80,
 				["GearScore"] = 5688,
@@ -11142,14 +11430,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50457:0", -- [18]
 				},
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Ihllidan"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Tenzera Army",
 				["Sex"] = 2,
 				["Date"] = 202103120139,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 264,
 				["Level"] = 80,
 				["GearScore"] = 6028,
@@ -11178,14 +11466,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Yourselfcant"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Sex"] = 2,
 				["Date"] = 202104102216,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 259,
 				["Level"] = 80,
 				["GearScore"] = 5923,
@@ -11214,14 +11502,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Nattinatasha"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "Numenor",
 				["Location"] = "ULD",
 				["Date"] = 202104112215,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 266,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6115,
@@ -11250,14 +11538,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Kyutzu"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Faction"] = "A",
 				["Date"] = 202104161529,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6242,
@@ -11286,14 +11574,14 @@ GS_Data = {
 					"49888:3789", -- [17]
 					"51927:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Alphaburst"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 2,
 				["Date"] = 202103120211,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 263,
 				["Level"] = 80,
 				["GearScore"] = 6008,
@@ -11322,14 +11610,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Atru"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Sleeping Knight",
 				["Faction"] = "A",
 				["Date"] = 202103031809,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 253,
 				["Level"] = 80,
 				["GearScore"] = 5661,
@@ -11358,14 +11646,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"47661:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Cvb"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "DAL",
 				["Date"] = 202103051854,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6032,
@@ -11394,14 +11682,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Littlejavo"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Fidawis VDH",
 				["Faction"] = "A",
 				["Date"] = 202103031808,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5785,
@@ -11430,14 +11718,14 @@ GS_Data = {
 					"40701:1952", -- [17]
 					"47661:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Pijicorti"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Numenor",
 				["Faction"] = "A",
 				["Date"] = 202103051737,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 255,
 				["Level"] = 80,
 				["GearScore"] = 5759,
@@ -11466,14 +11754,14 @@ GS_Data = {
 					"50798:3789", -- [17]
 					"47659:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Aiioros"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Location"] = "DAL",
 				["Date"] = 202104101825,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 275,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6818,
@@ -11502,14 +11790,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Uee"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Sex"] = 2,
 				["Date"] = 202103120031,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6635,
@@ -11538,10 +11826,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Ragnet"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Equip"] = {
 					"51277:3817", -- [1]
@@ -11564,7 +11852,7 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Date"] = 202103120346,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 266,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6144,
@@ -11574,14 +11862,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Diablaa"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "FRL",
 				["Date"] = 202104112016,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 161,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 1989,
@@ -11610,14 +11898,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Rise"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "DAL",
 				["Date"] = 202104170119,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 253,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5657,
@@ -11646,10 +11934,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Grootz"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "Sunshine",
 				["Equip"] = {
 					"50843:3820", -- [1]
@@ -11672,7 +11960,7 @@ GS_Data = {
 					"47666:0", -- [18]
 				},
 				["Date"] = 202104080201,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 246,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5448,
@@ -11682,14 +11970,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Leanblanco"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "orden de los olvidados",
 				["Sex"] = 2,
 				["Date"] = 202104142348,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 255,
 				["Level"] = 80,
 				["GearScore"] = 5681,
@@ -11718,14 +12006,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "WTG",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Snts"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "The Knights Of The Death",
 				["Sex"] = 2,
 				["Date"] = 202103120208,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 238,
 				["Level"] = 80,
 				["GearScore"] = 5058,
@@ -11754,14 +12042,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Bustter"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Boreal Alyph",
 				["Location"] = "XXX",
 				["Date"] = 202104172245,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 255,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5819,
@@ -11790,7 +12078,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Lagazo"] = {
 				["Faction"] = "A",
@@ -11816,7 +12104,7 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Date"] = 202103042046,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6083,
@@ -11825,15 +12113,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["Class"] = "DR",
 				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Denuchy"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Living Legend",
 				["Faction"] = "A",
 				["Date"] = 202103192058,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 266,
 				["Level"] = 80,
 				["GearScore"] = 6204,
@@ -11862,7 +12150,7 @@ GS_Data = {
 					"50729:1952", -- [17]
 					"47664:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Isslisa"] = {
 				["Faction"] = "A",
@@ -11888,7 +12176,7 @@ GS_Data = {
 					"51451:0", -- [18]
 				},
 				["Date"] = 202103302350,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6289,
@@ -11897,15 +12185,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Almiirante"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202104182000,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 257,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5761,
@@ -11934,14 +12222,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Luzmiel"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103302204,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 228,
 				["Level"] = 80,
 				["GearScore"] = 4762,
@@ -11970,14 +12258,14 @@ GS_Data = {
 					"40701:0", -- [17]
 					"45145:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Azuril"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "Infamus Insanity",
 				["Location"] = "DAL",
 				["Date"] = 202104072154,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 250,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5610,
@@ -12006,14 +12294,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Nilmandry"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Azotes Creed",
 				["Faction"] = "A",
 				["Date"] = 202103042227,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 227,
 				["Level"] = 80,
 				["GearScore"] = 4793,
@@ -12042,14 +12330,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"42853:0", -- [18]
 				},
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Skombrow"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Orden Fenix",
 				["Faction"] = "A",
 				["Date"] = 202104181505,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6501,
@@ -12078,14 +12366,14 @@ GS_Data = {
 					"50719:0", -- [17]
 					"50457:0", -- [18]
 				},
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Wymon"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Faction"] = "A",
 				["Date"] = 202104161511,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 251,
 				["Level"] = 80,
 				["GearScore"] = 5483,
@@ -12114,14 +12402,14 @@ GS_Data = {
 					"42571:1128", -- [17]
 					"50460:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Enono"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202103041452,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 244,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5316,
@@ -12150,14 +12438,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Maredith"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103042026,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 247,
 				["Level"] = 80,
 				["GearScore"] = 5434,
@@ -12186,14 +12474,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"47658:0", -- [18]
 				},
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Mafyluz"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Insieme",
 				["Sex"] = 3,
 				["Date"] = 202103120031,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Level"] = 80,
 				["GearScore"] = 5763,
@@ -12222,10 +12510,10 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Sihareena"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Sleeping Knight",
 				["Equip"] = {
 					"50862:3815", -- [1]
@@ -12248,7 +12536,7 @@ GS_Data = {
 					"50461:0", -- [18]
 				},
 				["Date"] = 202103040249,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5739,
@@ -12258,14 +12546,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Ortazote"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103041508,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 248,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5482,
@@ -12294,14 +12582,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Rouwis"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202103032258,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 233,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4963,
@@ -12330,14 +12618,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Benigno"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Faction"] = "A",
 				["Date"] = 202104130358,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 235,
 				["Level"] = 80,
 				["GearScore"] = 5063,
@@ -12366,14 +12654,14 @@ GS_Data = {
 					"50319:0", -- [17]
 					"50262:3843", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Symphorine"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202104110039,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 179,
 				["Level"] = 80,
 				["GearScore"] = 3580,
@@ -12402,14 +12690,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "WTG",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Sulkun"] = {
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Guild"] = "Insieme",
 				["Location"] = "XXX",
 				["Date"] = 202103032318,
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Average"] = 220,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4810,
@@ -12438,14 +12726,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Mezmeriize"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "WTG",
 				["Date"] = 202104190059,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 228,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4839,
@@ -12474,14 +12762,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Boborges"] = {
-				["PVP"] = 1,
-				["Guild"] = "orden de los olvidados",
-				["Spec"] = 1,
-				["Date"] = 202104102128,
 				["Class"] = "PA",
+				["Guild"] = "orden de los olvidados",
+				["PVP"] = 1,
+				["Date"] = 202104102128,
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6002,
@@ -12513,11 +12801,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Patiience"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "XXX",
 				["Date"] = 202104102033,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 153,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 2695,
@@ -12546,14 +12834,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Camyzama"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "OPIO EN LAS NUBES",
 				["Location"] = "SMV",
 				["Date"] = 202104102031,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5968,
@@ -12582,14 +12870,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Thanna"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "NGD",
 				["Date"] = 202104101859,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 268,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6599,
@@ -12618,14 +12906,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Lamusfel"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "DAL",
 				["Date"] = 202104190248,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 250,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5591,
@@ -12654,14 +12942,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Andruid"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103102057,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 268,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6188,
@@ -12690,14 +12978,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Ryonan"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Fallen Knights of Bhaal",
 				["Location"] = "XXX",
 				["Date"] = 202104112027,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 242,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5296,
@@ -12726,14 +13014,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Silenced"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202104190242,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 249,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5605,
@@ -12762,14 +13050,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Terrwyn"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "DAL",
 				["Date"] = 202103051846,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 229,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4873,
@@ -12798,14 +13086,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Rhadagast"] = {
-				["PVP"] = 1,
-				["Guild"] = "Insieme",
-				["Spec"] = 1,
-				["Date"] = 202104102128,
 				["Class"] = "MA",
+				["Guild"] = "Insieme",
+				["PVP"] = 1,
+				["Date"] = 202104102128,
+				["Spec"] = 1,
 				["Average"] = 266,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6120,
@@ -12837,11 +13125,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Franka"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Unleashed",
 				["Location"] = "XXX",
 				["Date"] = 202104190159,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 274,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6390,
@@ -12870,14 +13158,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Terriblepala"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Equipo Singapur",
 				["Location"] = "WTG",
 				["Date"] = 202104190153,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 253,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5777,
@@ -12906,14 +13194,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Elizabethnnt"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "XXX",
 				["Date"] = 202104190029,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 275,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6469,
@@ -12942,14 +13230,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Cataclismo"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "DAL",
 				["Date"] = 202104190248,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 236,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5046,
@@ -12978,14 +13266,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Holapipi"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Onlyfans",
 				["Location"] = "WTG",
 				["Date"] = 202104190101,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 264,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6091,
@@ -13014,14 +13302,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Dragonheart"] = {
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103042025,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 198,
 				["Level"] = 80,
 				["GearScore"] = 3979,
@@ -13050,7 +13338,7 @@ GS_Data = {
 					"23456:3789", -- [17]
 					"47659:0", -- [18]
 				},
-				["Class"] = "RO",
+				["Spec"] = 1,
 			},
 			["Jebriel"] = {
 				["Faction"] = "A",
@@ -13076,7 +13364,7 @@ GS_Data = {
 					"50457:0", -- [18]
 				},
 				["Date"] = 202103112038,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 272,
 				["Level"] = 80,
 				["GearScore"] = 6305,
@@ -13085,15 +13373,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Jottaa"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "WTG",
 				["Date"] = 202104190059,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5968,
@@ -13122,10 +13410,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Soyfranewe"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Insieme",
 				["Equip"] = {
 					"47693:0", -- [1]
@@ -13148,7 +13436,7 @@ GS_Data = {
 					"47658:0", -- [18]
 				},
 				["Date"] = 202103210137,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 251,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5493,
@@ -13158,14 +13446,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Cerve"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Exiled Horde",
 				["Location"] = "WTG",
 				["Date"] = 202104190347,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5924,
@@ -13194,14 +13482,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Terecoxi"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Anses",
 				["Location"] = "DAL",
 				["Date"] = 202103032108,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5659,
@@ -13230,14 +13518,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Juvara"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "DAL",
 				["Date"] = 202104190052,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6021,
@@ -13266,14 +13554,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Ztok"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202104072041,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 269,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5717,
@@ -13302,14 +13590,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Bautigarra"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Faction"] = "A",
 				["Date"] = 202103192056,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 236,
 				["Level"] = 80,
 				["GearScore"] = 5053,
@@ -13338,14 +13626,14 @@ GS_Data = {
 					"42209:3731", -- [17]
 					"42486:3608", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ragoratkol"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Legionarios del Abismo",
 				["Location"] = "XXX",
 				["Date"] = 202104172212,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 253,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5653,
@@ -13374,10 +13662,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Glossaryck"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Equip"] = {
 					"51158:3820", -- [1]
@@ -13400,7 +13688,7 @@ GS_Data = {
 					"50033:0", -- [18]
 				},
 				["Date"] = 202104170127,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 259,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5912,
@@ -13410,14 +13698,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Soniawins"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202103041639,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 225,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4652,
@@ -13446,14 +13734,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Soya"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Exiled Horde",
 				["Location"] = "XXX",
 				["Date"] = 202104190239,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6078,
@@ -13482,14 +13770,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Charger"] = {
 				["Sex"] = 1,
 				["Guild"] = "The Dark Allys",
 				["Location"] = "DAL",
 				["Date"] = 202104162148,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 267,
 				["Level"] = 80,
 				["GearScore"] = 6212,
@@ -13517,8 +13805,8 @@ GS_Data = {
 					"51472:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Euphule"] = {
 				["Faction"] = "A",
@@ -13544,7 +13832,7 @@ GS_Data = {
 					"50631:0", -- [18]
 				},
 				["Date"] = 202103310153,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 272,
 				["Level"] = 80,
 				["GearScore"] = 6296,
@@ -13553,15 +13841,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "MA",
+				["Spec"] = 1,
 			},
 			["Haiden"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Unleashed",
 				["Faction"] = "A",
 				["Date"] = 202103042119,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 277,
 				["Level"] = 80,
 				["GearScore"] = 6675,
@@ -13590,14 +13878,14 @@ GS_Data = {
 					"50730:3789", -- [17]
 					"50733:3608", -- [18]
 				},
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Ramezes"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Sex"] = 2,
 				["Date"] = 202104161909,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 274,
 				["Level"] = 80,
 				["GearScore"] = 6370,
@@ -13626,14 +13914,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Themagician"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Faction"] = "A",
 				["Date"] = 202103192045,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 243,
 				["Level"] = 80,
 				["GearScore"] = 5315,
@@ -13662,14 +13950,14 @@ GS_Data = {
 					"50309:0", -- [17]
 					"47658:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Kixya"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Hybrid Theory",
 				["Location"] = "XXX",
 				["Date"] = 202104102039,
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Average"] = 184,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3756,
@@ -13698,14 +13986,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "RO",
 			},
 			["Theevileye"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Cumunidad SupreMacia",
 				["Faction"] = "A",
 				["Date"] = 202103140014,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 263,
 				["Level"] = 80,
 				["GearScore"] = 6021,
@@ -13734,14 +14022,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50462:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Blueshiro"] = {
 				["Sex"] = 1,
 				["Guild"] = "kill dragon",
 				["Location"] = "ULD",
 				["Date"] = 202104112302,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 240,
 				["Level"] = 80,
 				["GearScore"] = 5203,
@@ -13769,15 +14057,15 @@ GS_Data = {
 					"42853:0", -- [18]
 				},
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Heartdead"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "DAL",
 				["Date"] = 202103041433,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 240,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5042,
@@ -13806,14 +14094,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Seliah"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Unleashed",
 				["Location"] = "XXX",
 				["Date"] = 202104190226,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 215,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4356,
@@ -13842,14 +14130,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Nizugan"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "WTG",
 				["Date"] = 202104190059,
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Average"] = 260,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5915,
@@ -13878,14 +14166,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "MA",
 			},
 			["Paladynamo"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "La Mesa LOCA",
 				["Location"] = "DAL",
 				["Date"] = 202104072154,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 268,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6264,
@@ -13914,14 +14202,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Biscuits"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Living Legend",
 				["Faction"] = "A",
 				["Date"] = 202104130400,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 266,
 				["Level"] = 80,
 				["GearScore"] = 6179,
@@ -13950,10 +14238,10 @@ GS_Data = {
 					"0:0", -- [17]
 					"50033:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Veronyca"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Hijos Del x Tres",
 				["Equip"] = {
 					"51212:3817", -- [1]
@@ -13976,7 +14264,7 @@ GS_Data = {
 					"47659:0", -- [18]
 				},
 				["Date"] = 202103202332,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5821,
@@ -13986,14 +14274,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Nikirii"] = {
 				["Sex"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Location"] = "DAL",
 				["Date"] = 202104162148,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 269,
 				["Level"] = 80,
 				["GearScore"] = 6609,
@@ -14021,15 +14309,15 @@ GS_Data = {
 					"42483:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Hellmanss"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Insieme",
 				["Faction"] = "A",
 				["Date"] = 202104161635,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 258,
 				["Level"] = 80,
 				["GearScore"] = 5889,
@@ -14058,14 +14346,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50472:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Yakov"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Sex"] = 2,
 				["Date"] = 202104102334,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 242,
 				["Level"] = 80,
 				["GearScore"] = 5296,
@@ -14094,14 +14382,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Brielarson"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Waidmanns Heil",
 				["Sex"] = 3,
 				["Date"] = 202104112258,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 278,
 				["Level"] = 80,
 				["GearScore"] = 6529,
@@ -14130,14 +14418,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Umina"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "La Mesa LOCA",
 				["Faction"] = "A",
 				["Date"] = 202103192058,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 264,
 				["Level"] = 80,
 				["GearScore"] = 6091,
@@ -14166,14 +14454,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50454:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Chaozz"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103041639,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 244,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5322,
@@ -14202,14 +14490,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Cainw"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202104161510,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 243,
 				["Level"] = 80,
 				["GearScore"] = 5288,
@@ -14238,14 +14526,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50776:3608", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Tomasphy"] = {
 				["Sex"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "XXX",
 				["Date"] = 202104161854,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 258,
 				["Level"] = 80,
 				["GearScore"] = 5882,
@@ -14273,15 +14561,15 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["PVP"] = 1,
 				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Gripletal"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202103120211,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 244,
 				["Level"] = 80,
 				["GearScore"] = 5260,
@@ -14310,14 +14598,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Hamma"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Sex"] = 3,
 				["Date"] = 202104172353,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 262,
 				["Level"] = 80,
 				["GearScore"] = 5967,
@@ -14346,14 +14634,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Miuhra"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Mada Mada Dane",
 				["Faction"] = "A",
 				["Date"] = 202103051612,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Level"] = 80,
 				["GearScore"] = 5784,
@@ -14382,10 +14670,10 @@ GS_Data = {
 					"45868:3828", -- [17]
 					"47659:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Skom"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Mare Magnum",
 				["Equip"] = {
 					"51137:3820", -- [1]
@@ -14408,7 +14696,7 @@ GS_Data = {
 					"47671:0", -- [18]
 				},
 				["Date"] = 202104170127,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 250,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5522,
@@ -14418,14 +14706,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Lunitary"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "kill dragon",
 				["Sex"] = 3,
 				["Date"] = 202104142304,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 242,
 				["Level"] = 80,
 				["GearScore"] = 5307,
@@ -14454,7 +14742,7 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Galgadot"] = {
 				["Faction"] = "A",
@@ -14480,7 +14768,7 @@ GS_Data = {
 					"51834:0", -- [18]
 				},
 				["Date"] = 202103310153,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6463,
@@ -14489,15 +14777,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Cablepelado"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "XXX",
 				["Date"] = 202104190029,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 237,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5103,
@@ -14526,14 +14814,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Zenitz"] = {
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103042143,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Level"] = 80,
 				["GearScore"] = 5766,
@@ -14562,14 +14850,14 @@ GS_Data = {
 					"42526:0", -- [17]
 					"50472:0", -- [18]
 				},
-				["Class"] = "MA",
+				["Spec"] = 1,
 			},
 			["Lutisty"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "The Lost Dinasty",
 				["Location"] = "XXX",
 				["Date"] = 202103101552,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 247,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 3846,
@@ -14598,14 +14886,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Brisyelinmon"] = {
-				["PVP"] = 1,
-				["Guild"] = "Azeroth Fighters",
-				["Spec"] = 1,
-				["Date"] = 202104102128,
 				["Class"] = "PA",
+				["Guild"] = "Azeroth Fighters",
+				["PVP"] = 1,
+				["Date"] = 202104102128,
+				["Spec"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6376,
@@ -14637,11 +14925,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Beauwu"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "The New Alliance",
 				["Faction"] = "A",
 				["Date"] = 202103101422,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 182,
 				["Level"] = 80,
 				["GearScore"] = 2786,
@@ -14670,7 +14958,7 @@ GS_Data = {
 					"39827:0", -- [17]
 					"0:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Xyskiller"] = {
 				["Faction"] = "A",
@@ -14696,7 +14984,7 @@ GS_Data = {
 					"51845:3608", -- [18]
 				},
 				["Date"] = 202103112037,
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Average"] = 278,
 				["Level"] = 80,
 				["GearScore"] = 6553,
@@ -14705,15 +14993,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "RO",
 			},
 			["Fabriz"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "XXX",
 				["Date"] = 202104101916,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 269,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6251,
@@ -14742,14 +15030,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Turbioman"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202103032108,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 236,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5142,
@@ -14778,14 +15066,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Ortazz"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Sex"] = 2,
 				["Date"] = 202104161858,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 274,
 				["Level"] = 80,
 				["GearScore"] = 6454,
@@ -14814,14 +15102,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Nataku"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Land Of The Fire",
 				["Sex"] = 2,
 				["Date"] = 202103120245,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 251,
 				["Level"] = 80,
 				["GearScore"] = 5684,
@@ -14850,14 +15138,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "BRM",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Soujiro"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "Die Verbannten",
 				["Location"] = "DAL",
 				["Date"] = 202103112341,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 274,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6415,
@@ -14886,14 +15174,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Yisrabbit"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Location"] = "DAL",
 				["Date"] = 202103032245,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 268,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5995,
@@ -14922,14 +15210,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Irinakarma"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "The Oblivion New",
 				["Location"] = "XXX",
 				["Date"] = 202104190232,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 244,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5317,
@@ -14958,14 +15246,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Sasikre"] = {
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Guild"] = "La Hermandad De Sangre",
 				["Location"] = "XXX",
 				["Date"] = 202103032348,
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5529,
@@ -14994,14 +15282,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Xiskiller"] = {
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "XXX",
 				["Date"] = 202104172227,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5756,
@@ -15030,10 +15318,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "RO",
+				["Spec"] = 1,
 			},
 			["Leutop"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "*",
 				["Equip"] = {
 					"48564:3820", -- [1]
@@ -15056,7 +15344,7 @@ GS_Data = {
 					"47662:0", -- [18]
 				},
 				["Date"] = 202103031551,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 236,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5075,
@@ -15066,14 +15354,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Shyrana"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Sex"] = 3,
 				["Date"] = 202104161800,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 248,
 				["Level"] = 80,
 				["GearScore"] = 5458,
@@ -15102,14 +15390,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Pdfilipino"] = {
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "XXX",
 				["Date"] = 202103041615,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5784,
@@ -15138,14 +15426,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Gavinrad"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Los Socios del Desierto",
 				["Sex"] = 2,
 				["Date"] = 202104120132,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 265,
 				["Level"] = 80,
 				["GearScore"] = 6141,
@@ -15174,14 +15462,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Sementall"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "JUST DO IT",
 				["Faction"] = "A",
 				["Date"] = 202103112025,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 232,
 				["Level"] = 80,
 				["GearScore"] = 4929,
@@ -15210,14 +15498,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"42579:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Pumpkinhead"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Faction"] = "A",
 				["Date"] = 202104111806,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 256,
 				["Level"] = 80,
 				["GearScore"] = 5822,
@@ -15246,14 +15534,14 @@ GS_Data = {
 					"49919:3789", -- [17]
 					"47659:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Brujanegra"] = {
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "DAL",
 				["Date"] = 202103041631,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 260,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5893,
@@ -15282,14 +15570,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WK",
+				["Spec"] = 1,
 			},
 			["Danfer"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Sex"] = 2,
 				["Date"] = 202104120050,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6293,
@@ -15318,14 +15606,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Chuuki"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "WTG",
 				["Date"] = 202104190124,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5740,
@@ -15354,14 +15642,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Morinohogo"] = {
 				["Sex"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Location"] = "DAL",
 				["Date"] = 202104142339,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 205,
 				["Level"] = 80,
 				["GearScore"] = 4106,
@@ -15389,51 +15677,51 @@ GS_Data = {
 					"50457:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["Class"] = "DR",
 				["Spec"] = 1,
-			},
-			["Johanson"] = {
-				["Spec"] = 1,
-				["Guild"] = "Warrior OF The World",
-				["Sex"] = 3,
-				["Date"] = 202104120138,
-				["Class"] = "HU",
-				["Average"] = 272,
-				["Level"] = 80,
-				["GearScore"] = 6334,
-				["Race"] = "NE",
-				["Name"] = "Johanson",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51286:3817", -- [1]
-					"50633:0", -- [2]
-					"51288:3835", -- [3]
-					nil, -- [4]
-					"51289:3832", -- [5]
-					"50688:0", -- [6]
-					"50645:3823", -- [7]
-					"50607:3606", -- [8]
-					"50670:3845", -- [9]
-					"51154:3604", -- [10]
-					"50618:0", -- [11]
-					"50402:0", -- [12]
-					"51377:0", -- [13]
-					"50343:0", -- [14]
-					"50470:3256", -- [15]
-					"51022:3827", -- [16]
-					"0:0", -- [17]
-					"49981:3608", -- [18]
-				},
-				["Scanned"] = "Gilraenloss",
-				["Location"] = "XXX",
 				["PVP"] = 1,
 			},
-			["Delatierra"] = {
+			["Dolche"] = {
+				["Faction"] = "A",
+				["Guild"] = "Unleashed",
+				["Equip"] = {
+					"51247:3819", -- [1]
+					"50700:0", -- [2]
+					"51245:3810", -- [3]
+					nil, -- [4]
+					"51249:3832", -- [5]
+					"50671:0", -- [6]
+					"51246:3873", -- [7]
+					"50652:3826", -- [8]
+					"50687:2332", -- [9]
+					"50703:3246", -- [10]
+					"50400:0", -- [11]
+					"50610:0", -- [12]
+					"54573:0", -- [13]
+					"50366:0", -- [14]
+					"50628:3728", -- [15]
+					"50685:3834", -- [16]
+					"50616:1128", -- [17]
+					"50464:0", -- [18]
+				},
+				["Date"] = 202103310113,
+				["PVP"] = 1,
+				["Average"] = 276,
+				["Level"] = 80,
+				["GearScore"] = 6480,
+				["Race"] = "DR",
+				["Name"] = "Dolche",
+				["Sex"] = 1,
+				["Location"] = "DAL",
+				["Scanned"] = "Skombrow",
+				["Class"] = "SH",
 				["Spec"] = 1,
+			},
+			["Delatierra"] = {
+				["PVP"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "XXX",
 				["Date"] = 202103102049,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 248,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5539,
@@ -15462,50 +15750,50 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
-			["Dolche"] = {
-				["Faction"] = "A",
-				["Guild"] = "Unleashed",
-				["Equip"] = {
-					"51247:3819", -- [1]
-					"50700:0", -- [2]
-					"51245:3810", -- [3]
-					nil, -- [4]
-					"51249:3832", -- [5]
-					"50671:0", -- [6]
-					"51246:3873", -- [7]
-					"50652:3826", -- [8]
-					"50687:2332", -- [9]
-					"50703:3246", -- [10]
-					"50400:0", -- [11]
-					"50610:0", -- [12]
-					"54573:0", -- [13]
-					"50366:0", -- [14]
-					"50628:3728", -- [15]
-					"50685:3834", -- [16]
-					"50616:1128", -- [17]
-					"50464:0", -- [18]
-				},
-				["Date"] = 202103310113,
-				["Spec"] = 1,
-				["Average"] = 276,
-				["Level"] = 80,
-				["GearScore"] = 6480,
-				["Race"] = "DR",
-				["Name"] = "Dolche",
-				["Sex"] = 1,
-				["Location"] = "DAL",
-				["Scanned"] = "Skombrow",
+			["Buzludzha"] = {
 				["PVP"] = 1,
-				["Class"] = "SH",
+				["Guild"] = "*",
+				["Location"] = "WTG",
+				["Date"] = 202104190059,
+				["Spec"] = 1,
+				["Average"] = 266,
+				["Scanned"] = "Gilraenloss",
+				["GearScore"] = 6092,
+				["Race"] = "NE",
+				["Name"] = "Buzludzha",
+				["Sex"] = 3,
+				["Equip"] = {
+					"51137:3819", -- [1]
+					"51894:0", -- [2]
+					"51135:3809", -- [3]
+					nil, -- [4]
+					"49996:3832", -- [5]
+					"50069:0", -- [6]
+					"51136:3872", -- [7]
+					"49894:1147", -- [8]
+					"51918:2332", -- [9]
+					"51138:3246", -- [10]
+					"50400:0", -- [11]
+					"49967:0", -- [12]
+					"50346:0", -- [13]
+					"50358:0", -- [14]
+					"50668:3722", -- [15]
+					"51898:3854", -- [16]
+					"0:0", -- [17]
+					"50454:0", -- [18]
+				},
+				["Level"] = 80,
+				["Faction"] = "A",
+				["Class"] = "DR",
 			},
 			["Boyce"] = {
 				["Sex"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202104161842,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 256,
 				["Level"] = 80,
 				["GearScore"] = 5742,
@@ -15533,15 +15821,15 @@ GS_Data = {
 					"50454:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["PVP"] = 1,
 				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Xu"] = {
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "WTG",
 				["Date"] = 202103041632,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 208,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4211,
@@ -15570,14 +15858,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "PR",
+				["Spec"] = 1,
 			},
 			["Naavidad"] = {
-				["PVP"] = 1,
-				["Guild"] = "Queens Elite",
-				["Spec"] = 1,
-				["Date"] = 202104102128,
 				["Class"] = "RO",
+				["Guild"] = "Queens Elite",
+				["PVP"] = 1,
+				["Date"] = 202104102128,
+				["Spec"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6397,
@@ -15613,7 +15901,7 @@ GS_Data = {
 				["Guild"] = "Waidmanns Heil",
 				["Location"] = "DAL",
 				["Date"] = 202104161923,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 277,
 				["Level"] = 80,
 				["GearScore"] = 6881,
@@ -15641,15 +15929,15 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["PVP"] = 1,
 				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Asrmrogue"] = {
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103041627,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 251,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5595,
@@ -15678,10 +15966,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "RO",
+				["Spec"] = 1,
 			},
 			["Kulte"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Sleeping Knight",
 				["Equip"] = {
 					"50026:3819", -- [1]
@@ -15704,7 +15992,7 @@ GS_Data = {
 					"50457:0", -- [18]
 				},
 				["Date"] = 202103100356,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 264,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6051,
@@ -15714,14 +16002,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Kobrakai"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "Numenor",
 				["Location"] = "XXX",
 				["Date"] = 202103041649,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5722,
@@ -15750,7 +16038,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Oveer"] = {
 				["Faction"] = "A",
@@ -15776,7 +16064,7 @@ GS_Data = {
 					"47662:0", -- [18]
 				},
 				["Date"] = 202103112059,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 263,
 				["Level"] = 80,
 				["GearScore"] = 6011,
@@ -15785,15 +16073,15 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "XXX",
 				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Andrea"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Sunshine",
 				["Location"] = "WTG",
 				["Date"] = 202104190110,
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Average"] = 258,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5869,
@@ -15822,14 +16110,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PR",
 			},
 			["Kasu"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "OwO",
 				["Faction"] = "A",
 				["Date"] = 202104111807,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 245,
 				["Level"] = 80,
 				["GearScore"] = 5340,
@@ -15858,14 +16146,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"47671:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Rockfer"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202103302217,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 250,
 				["Level"] = 80,
 				["GearScore"] = 5531,
@@ -15894,14 +16182,14 @@ GS_Data = {
 					"42572:1128", -- [17]
 					"50460:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Rosquita"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "The New Alliance",
 				["Location"] = "DAL",
 				["Date"] = 202103041452,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6034,
@@ -15930,14 +16218,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Debly"] = {
-				["PVP"] = 1,
+				["Class"] = "RO",
 				["Guild"] = "*",
 				["Location"] = "DAL",
 				["Date"] = 202104072154,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 263,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5994,
@@ -15966,14 +16254,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "RO",
+				["Spec"] = 1,
 			},
 			["Dudrom"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Azote de Rasganorte",
 				["Location"] = "DAL",
 				["Date"] = 202104072154,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5930,
@@ -16002,14 +16290,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Unar"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Insieme",
 				["Location"] = "XXX",
 				["Date"] = 202104190030,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5678,
@@ -16038,14 +16326,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Yurta"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Insieme",
 				["Location"] = "XXX",
 				["Date"] = 202103032259,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 232,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4926,
@@ -16074,14 +16362,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Gjallarhorn"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Shadowmourne",
 				["Sex"] = 2,
 				["Date"] = 202104120050,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 272,
 				["Level"] = 80,
 				["GearScore"] = 6374,
@@ -16110,14 +16398,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "ULD",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Silenciado"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202104190230,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 266,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6175,
@@ -16146,10 +16434,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Blackdom"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"51543:3795", -- [1]
@@ -16172,7 +16460,7 @@ GS_Data = {
 					"51880:0", -- [18]
 				},
 				["Date"] = 202103041742,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6728,
@@ -16182,10 +16470,10 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Tilza"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "Shadowmourne",
 				["Equip"] = {
 					"51143:3817", -- [1]
@@ -16208,7 +16496,7 @@ GS_Data = {
 					"50456:0", -- [18]
 				},
 				["Date"] = 202103031616,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5455,
@@ -16218,14 +16506,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Amenent"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Faction"] = "A",
 				["Date"] = 202104111807,
-				["Class"] = "RO",
+				["Spec"] = 1,
 				["Average"] = 277,
 				["Level"] = 80,
 				["GearScore"] = 6495,
@@ -16254,10 +16542,10 @@ GS_Data = {
 					"50654:3789", -- [17]
 					"51940:3608", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "RO",
 			},
 			["Lyord"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"41157:3795", -- [1]
@@ -16280,7 +16568,7 @@ GS_Data = {
 					"51802:3608", -- [18]
 				},
 				["Date"] = 202103040121,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 254,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5636,
@@ -16290,14 +16578,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Hijadelsol"] = {
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Guild"] = "orden de los olvidados",
 				["Sex"] = 3,
 				["Date"] = 202104142212,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 213,
 				["Level"] = 80,
 				["GearScore"] = 4343,
@@ -16326,14 +16614,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["Class"] = "SH",
+				["Spec"] = 1,
 			},
 			["Sprungus"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Sex"] = 3,
 				["Date"] = 202104102216,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 249,
 				["Level"] = 80,
 				["GearScore"] = 5551,
@@ -16362,46 +16650,46 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["Spec"] = 1,
-			},
-			["Buzludzha"] = {
-				["Spec"] = 1,
-				["Guild"] = "*",
-				["Location"] = "WTG",
-				["Date"] = 202104190059,
-				["Class"] = "DR",
-				["Average"] = 266,
-				["Scanned"] = "Gilraenloss",
-				["GearScore"] = 6092,
-				["Race"] = "NE",
-				["Name"] = "Buzludzha",
-				["Sex"] = 3,
-				["Equip"] = {
-					"51137:3819", -- [1]
-					"51894:0", -- [2]
-					"51135:3809", -- [3]
-					nil, -- [4]
-					"49996:3832", -- [5]
-					"50069:0", -- [6]
-					"51136:3872", -- [7]
-					"49894:1147", -- [8]
-					"51918:2332", -- [9]
-					"51138:3246", -- [10]
-					"50400:0", -- [11]
-					"49967:0", -- [12]
-					"50346:0", -- [13]
-					"50358:0", -- [14]
-					"50668:3722", -- [15]
-					"51898:3854", -- [16]
-					"0:0", -- [17]
-					"50454:0", -- [18]
-				},
-				["Level"] = 80,
-				["Faction"] = "A",
 				["PVP"] = 1,
 			},
+			["Johanson"] = {
+				["PVP"] = 1,
+				["Guild"] = "Warrior OF The World",
+				["Sex"] = 3,
+				["Date"] = 202104120138,
+				["Spec"] = 1,
+				["Average"] = 272,
+				["Level"] = 80,
+				["GearScore"] = 6334,
+				["Race"] = "NE",
+				["Name"] = "Johanson",
+				["Faction"] = "A",
+				["Equip"] = {
+					"51286:3817", -- [1]
+					"50633:0", -- [2]
+					"51288:3835", -- [3]
+					nil, -- [4]
+					"51289:3832", -- [5]
+					"50688:0", -- [6]
+					"50645:3823", -- [7]
+					"50607:3606", -- [8]
+					"50670:3845", -- [9]
+					"51154:3604", -- [10]
+					"50618:0", -- [11]
+					"50402:0", -- [12]
+					"51377:0", -- [13]
+					"50343:0", -- [14]
+					"50470:3256", -- [15]
+					"51022:3827", -- [16]
+					"0:0", -- [17]
+					"49981:3608", -- [18]
+				},
+				["Scanned"] = "Gilraenloss",
+				["Location"] = "XXX",
+				["Class"] = "HU",
+			},
 			["Blerp"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "orden de los olvidados",
 				["Equip"] = {
 					"42549:0", -- [1]
@@ -16424,7 +16712,7 @@ GS_Data = {
 					"50444:0", -- [18]
 				},
 				["Date"] = 202104080214,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 224,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4548,
@@ -16434,14 +16722,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Lilianaa"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "More PewPew Less QQ",
 				["Location"] = "DAL",
 				["Date"] = 202104072154,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 264,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6052,
@@ -16470,10 +16758,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Varitecc"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "More PewPew Less QQ",
 				["Equip"] = {
 					"51543:3795", -- [1]
@@ -16496,7 +16784,7 @@ GS_Data = {
 					"51880:0", -- [18]
 				},
 				["Date"] = 202104080209,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6719,
@@ -16506,14 +16794,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Medranino"] = {
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "XXX",
 				["Date"] = 202104072041,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 273,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6733,
@@ -16542,14 +16830,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Ururk"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Insieme",
 				["Location"] = "DAL",
 				["Date"] = 202104190245,
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Average"] = 251,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5594,
@@ -16578,10 +16866,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "HU",
 			},
 			["Vital"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Insieme",
 				["Equip"] = {
 					"50080:3817", -- [1]
@@ -16604,7 +16892,7 @@ GS_Data = {
 					"50474:0", -- [18]
 				},
 				["Date"] = 202103210347,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 255,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5750,
@@ -16614,14 +16902,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Berska"] = {
-				["PVP"] = 1,
-				["Guild"] = "Queens Elite",
-				["Spec"] = 1,
-				["Date"] = 202104102129,
 				["Class"] = "WA",
+				["Guild"] = "Queens Elite",
+				["PVP"] = 1,
+				["Date"] = 202104102129,
+				["Spec"] = 1,
 				["Average"] = 269,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6242,
@@ -16653,11 +16941,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Stelyx"] = {
-				["Spec"] = 1,
-				["Guild"] = "*",
-				["Class"] = "PA",
-				["Date"] = 202103142120,
 				["PVP"] = 1,
+				["Guild"] = "*",
+				["Spec"] = 1,
+				["Date"] = 202103142120,
+				["Class"] = "PA",
 				["Average"] = 272,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6347,
@@ -16689,7 +16977,7 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Doroteo"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Equip"] = {
 					"51153:3817", -- [1]
@@ -16712,7 +17000,7 @@ GS_Data = {
 					"51927:3608", -- [18]
 				},
 				["Date"] = 202104080212,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 266,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6117,
@@ -16722,14 +17010,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Isagarra"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "orden de los olvidados",
 				["Location"] = "XXX",
 				["Date"] = 202103041643,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 247,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5392,
@@ -16758,14 +17046,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Zylith"] = {
-				["Class"] = "HU",
+				["Spec"] = 1,
 				["Guild"] = "Sunshine",
 				["Location"] = "DAL",
 				["Date"] = 202103032056,
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Average"] = 244,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5360,
@@ -16794,14 +17082,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Agnemni"] = {
-				["PVP"] = 1,
-				["Guild"] = "JUST DO IT",
-				["Spec"] = 1,
-				["Date"] = 202104102128,
 				["Class"] = "DR",
+				["Guild"] = "JUST DO IT",
+				["PVP"] = 1,
+				["Date"] = 202104102128,
+				["Spec"] = 1,
 				["Average"] = 272,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 6319,
@@ -16833,7 +17121,7 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Osojudio"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Equip"] = {
 					"51543:3795", -- [1]
@@ -16856,7 +17144,7 @@ GS_Data = {
 					"51535:0", -- [18]
 				},
 				["Date"] = 202103041808,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 266,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6136,
@@ -16866,14 +17154,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Rakc"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "The Lost Dinasty",
 				["Location"] = "DAL",
 				["Date"] = 202103032056,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6011,
@@ -16902,14 +17190,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Turco"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "Die Verbannten",
 				["Sex"] = 2,
 				["Date"] = 202104162153,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 270,
 				["Level"] = 80,
 				["GearScore"] = 6513,
@@ -16938,14 +17226,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "FRL",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Rustless"] = {
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Faction"] = "A",
 				["Date"] = 202103192035,
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Average"] = 262,
 				["Level"] = 80,
 				["GearScore"] = 6061,
@@ -16974,14 +17262,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"51326:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Liomessi"] = {
-				["PVP"] = 1,
+				["Class"] = "DK",
 				["Guild"] = "Die Verbannten",
 				["Location"] = "DAL",
 				["Date"] = 202103041433,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 276,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6512,
@@ -17010,14 +17298,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DK",
+				["Spec"] = 1,
 			},
 			["Jarbawarrior"] = {
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Guild"] = "La Mesa LOCA",
 				["Sex"] = 2,
 				["Date"] = 202104110011,
-				["PVP"] = 1,
+				["Class"] = "WA",
 				["Average"] = 260,
 				["Level"] = 80,
 				["GearScore"] = 5971,
@@ -17046,14 +17334,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Parlanchami"] = {
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Guild"] = "Sunshine",
 				["Location"] = "DAL",
 				["Date"] = 202103032108,
-				["PVP"] = 1,
+				["Class"] = "SH",
 				["Average"] = 261,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5965,
@@ -17082,10 +17370,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Elescanor"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Equip"] = {
 					"40828:3795", -- [1]
@@ -17108,7 +17396,7 @@ GS_Data = {
 					"42853:0", -- [18]
 				},
 				["Date"] = 202103040122,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 231,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4891,
@@ -17118,14 +17406,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Disita"] = {
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Guild"] = "orden de los olvidados",
 				["Sex"] = 3,
 				["Date"] = 202104142259,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 253,
 				["Level"] = 80,
 				["GearScore"] = 5628,
@@ -17154,14 +17442,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "BRT",
-				["Class"] = "MA",
+				["Spec"] = 1,
 			},
 			["Sabritomba"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "The Lost Dinasty",
 				["Faction"] = "A",
 				["Date"] = 202103302134,
-				["Class"] = "WK",
+				["Spec"] = 1,
 				["Average"] = 261,
 				["Level"] = 80,
 				["GearScore"] = 5945,
@@ -17190,14 +17478,14 @@ GS_Data = {
 					"51407:0", -- [17]
 					"49185:0", -- [18]
 				},
-				["PVP"] = 1,
+				["Class"] = "WK",
 			},
 			["Follarin"] = {
 				["Sex"] = 1,
 				["Guild"] = "The Power Of Gnomes",
 				["Location"] = "XXX",
 				["Date"] = 202104161849,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 252,
 				["Level"] = 80,
 				["GearScore"] = 5651,
@@ -17225,15 +17513,15 @@ GS_Data = {
 					"51940:0", -- [18]
 				},
 				["Scanned"] = "Underclub",
-				["PVP"] = 1,
 				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Garraloca"] = {
-				["Class"] = "HU",
-				["Guild"] = "orden de los olvidados",
-				["PVP"] = 1,
-				["Date"] = 202103031634,
 				["Spec"] = 1,
+				["Guild"] = "orden de los olvidados",
+				["Class"] = "HU",
+				["Date"] = 202103031634,
+				["PVP"] = 1,
 				["Average"] = 259,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 5848,
@@ -17265,11 +17553,11 @@ GS_Data = {
 				["Sex"] = 1,
 			},
 			["Namiira"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Hells Angels",
 				["Sex"] = 3,
 				["Date"] = 202104120159,
-				["Class"] = "SH",
+				["Spec"] = 1,
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5785,
@@ -17298,14 +17586,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "SH",
 			},
 			["Gatasalvaje"] = {
-				["PVP"] = 1,
+				["Class"] = "HU",
 				["Guild"] = "La Taberna de MOE",
 				["Faction"] = "A",
 				["Date"] = 202104101403,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 253,
 				["Level"] = 80,
 				["GearScore"] = 5650,
@@ -17334,10 +17622,10 @@ GS_Data = {
 					"0:0", -- [17]
 					"50444:32", -- [18]
 				},
-				["Class"] = "HU",
+				["Spec"] = 1,
 			},
 			["Popotter"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Unleashed",
 				["Equip"] = {
 					"51281:3820", -- [1]
@@ -17360,7 +17648,7 @@ GS_Data = {
 					"50684:0", -- [18]
 				},
 				["Date"] = 202104080209,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 269,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6271,
@@ -17370,14 +17658,14 @@ GS_Data = {
 				["Location"] = "DAL",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Linox"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Steins Gate",
 				["Location"] = "WTG",
 				["Date"] = 202104190101,
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Average"] = 252,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5701,
@@ -17406,7 +17694,7 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["PVP"] = 1,
+				["Class"] = "PA",
 			},
 			["Whiiz"] = {
 				["Faction"] = "A",
@@ -17432,7 +17720,7 @@ GS_Data = {
 					"51940:3608", -- [18]
 				},
 				["Date"] = 202103111923,
-				["Class"] = "WA",
+				["Spec"] = 1,
 				["Average"] = 276,
 				["Level"] = 80,
 				["GearScore"] = 6644,
@@ -17441,11 +17729,11 @@ GS_Data = {
 				["Sex"] = 1,
 				["Location"] = "DAL",
 				["Scanned"] = "Skombrow",
-				["Spec"] = 1,
 				["PVP"] = 1,
+				["Class"] = "WA",
 			},
 			["Hexaler"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Maruja",
 				["Equip"] = {
 					"49819:3815", -- [1]
@@ -17468,7 +17756,7 @@ GS_Data = {
 					"47672:0", -- [18]
 				},
 				["Date"] = 202104151426,
-				["Class"] = "DK",
+				["Spec"] = 1,
 				["Average"] = 239,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5098,
@@ -17478,14 +17766,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 2,
-				["PVP"] = 1,
+				["Class"] = "DK",
 			},
 			["Nexthuman"] = {
 				["Sex"] = 1,
 				["Guild"] = "Numenor",
 				["Location"] = "DAL",
 				["Date"] = 202104120059,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 254,
 				["Level"] = 80,
 				["GearScore"] = 5738,
@@ -17513,15 +17801,15 @@ GS_Data = {
 					"47659:0", -- [18]
 				},
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Begingcf"] = {
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Guild"] = "The Lost Dinasty",
 				["Location"] = "XXX",
 				["Date"] = 202103041638,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 271,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6274,
@@ -17550,14 +17838,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "DR",
+				["Spec"] = 1,
 			},
 			["Relim"] = {
-				["PVP"] = 1,
+				["Class"] = "WK",
 				["Guild"] = "Boreal Alyph",
 				["Location"] = "XXX",
 				["Date"] = 202104172247,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 262,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 6005,
@@ -17586,10 +17874,10 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Class"] = "WK",
+				["Spec"] = 1,
 			},
 			["Ninah"] = {
-				["Class"] = "PR",
+				["Spec"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Equip"] = {
 					"47914:3820", -- [1]
@@ -17612,7 +17900,7 @@ GS_Data = {
 					"42520:0", -- [18]
 				},
 				["Date"] = 202103210345,
-				["PVP"] = 1,
+				["Class"] = "PR",
 				["Average"] = 249,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 5502,
@@ -17622,14 +17910,14 @@ GS_Data = {
 				["Location"] = "XXX",
 				["Level"] = 80,
 				["Sex"] = 3,
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Palatank"] = {
-				["Class"] = "PA",
+				["Spec"] = 1,
 				["Guild"] = "Numenor",
 				["Faction"] = "A",
 				["Date"] = 202104161458,
-				["PVP"] = 1,
+				["Class"] = "PA",
 				["Average"] = 195,
 				["Level"] = 80,
 				["GearScore"] = 3563,
@@ -17658,14 +17946,14 @@ GS_Data = {
 					"43843:0", -- [17]
 					"28065:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Fearnord"] = {
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Guild"] = "*",
 				["Location"] = "XXX",
 				["Date"] = 202103032303,
-				["PVP"] = 1,
+				["Class"] = "DR",
 				["Average"] = 233,
 				["Scanned"] = "Gilraenloss",
 				["GearScore"] = 4973,
@@ -17694,14 +17982,14 @@ GS_Data = {
 				},
 				["Level"] = 80,
 				["Faction"] = "A",
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Bindrage"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Hybrid Theory",
 				["Sex"] = 1,
 				["Date"] = 202104172352,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 277,
 				["Level"] = 80,
 				["GearScore"] = 6509,
@@ -17730,14 +18018,14 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 			["Chavito"] = {
-				["Class"] = "PA",
-				["Guild"] = "Die Verbannten",
-				["PVP"] = 1,
-				["Date"] = 202104072155,
 				["Spec"] = 1,
+				["Guild"] = "Die Verbannten",
+				["Class"] = "PA",
+				["Date"] = 202104072155,
+				["PVP"] = 1,
 				["Average"] = 185,
 				["Scanned"] = "Skombrow",
 				["GearScore"] = 4025,
@@ -17769,11 +18057,11 @@ GS_Data = {
 				["Faction"] = "A",
 			},
 			["Newlifeqn"] = {
-				["Class"] = "MA",
+				["Spec"] = 1,
 				["Guild"] = "Boreal Alyph",
 				["Faction"] = "A",
 				["Date"] = 202104172124,
-				["PVP"] = 1,
+				["Class"] = "MA",
 				["Average"] = 258,
 				["Level"] = 80,
 				["GearScore"] = 5854,
@@ -17802,14 +18090,14 @@ GS_Data = {
 					"0:0", -- [17]
 					"50033:0", -- [18]
 				},
-				["Spec"] = 1,
+				["PVP"] = 1,
 			},
 			["Adamantia"] = {
 				["Sex"] = 1,
 				["Guild"] = "Warrior OF The World",
 				["Location"] = "ULD",
 				["Date"] = 202104120000,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 186,
 				["Level"] = 80,
 				["GearScore"] = 3364,
@@ -17837,15 +18125,15 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Zagazama"] = {
 				["Sex"] = 1,
 				["Guild"] = "OPIO EN LAS NUBES",
 				["Location"] = "DAL",
 				["Date"] = 202104120059,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 252,
 				["Level"] = 80,
 				["GearScore"] = 5633,
@@ -17873,15 +18161,15 @@ GS_Data = {
 					"50444:3608", -- [18]
 				},
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "WA",
+				["Spec"] = 1,
 			},
 			["Rakj"] = {
 				["Sex"] = 1,
 				["Guild"] = "La Mesa LOCA",
 				["Location"] = "DAL",
 				["Date"] = 202104180008,
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Average"] = 260,
 				["Level"] = 80,
 				["GearScore"] = 5987,
@@ -17909,15 +18197,15 @@ GS_Data = {
 					"50455:0", -- [18]
 				},
 				["Scanned"] = "Skombrow",
-				["PVP"] = 1,
 				["Class"] = "PA",
+				["Spec"] = 1,
 			},
 			["Jelcurious"] = {
-				["Spec"] = 1,
+				["PVP"] = 1,
 				["Guild"] = "Ala Sangrienta",
 				["Sex"] = 2,
 				["Date"] = 202104180016,
-				["Class"] = "DR",
+				["Spec"] = 1,
 				["Average"] = 252,
 				["Level"] = 80,
 				["GearScore"] = 5686,
@@ -17946,7 +18234,7 @@ GS_Data = {
 				},
 				["Scanned"] = "Gilraenloss",
 				["Location"] = "DAL",
-				["PVP"] = 1,
+				["Class"] = "DR",
 			},
 		},
 		["CurrentPlayer"] = {
@@ -17986,14 +18274,14 @@ GS_Settings = {
 	["Crusade"] = 4100,
 	["HEmalon"] = 3750,
 	["HMaly"] = 3800,
-	["HSarth"] = 3450,
+	["MinLevel"] = 80,
 	["ShowHelp"] = -1,
 	["CHAT"] = -1,
 	["HArchavon"] = 3350,
 	["Player"] = 1,
-	["Compare"] = -1,
+	["HSarth"] = 3450,
 	["Date2"] = 1,
-	["MinLevel"] = 80,
+	["Compare"] = -1,
 	["Heroics"] = 2600,
 	["ML"] = -1,
 	["Slider"] = 10,

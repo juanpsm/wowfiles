@@ -20,22 +20,6 @@ RangeDisplayDB3 = {
 		["Gilraenloss - WoWArg"] = {
 			["locked"] = true,
 			["units"] = {
-				["mouseover"] = {
-					["fontSize"] = 15,
-					["point"] = "BOTTOMRIGHT",
-					["frameHeight"] = 47,
-					["y"] = 107.4320683221348,
-					["x"] = -6.074313267309101,
-					["oorSection"] = {
-						["range"] = 35,
-						["useText"] = true,
-					},
-					["fontOutline"] = "OUTLINE",
-					["mouseAnchor"] = false,
-					["font"] = "Skurri",
-					["frameWidth"] = 63,
-					["relPoint"] = "BOTTOMRIGHT",
-				},
 				["pet"] = {
 					["enabled"] = true,
 					["point"] = "BOTTOMLEFT",
@@ -95,6 +79,22 @@ RangeDisplayDB3 = {
 					["crSection"] = {
 						["useText"] = true,
 					},
+				},
+				["mouseover"] = {
+					["fontSize"] = 15,
+					["point"] = "BOTTOMRIGHT",
+					["frameHeight"] = 47,
+					["y"] = 107.4320683221348,
+					["x"] = -6.074313267309101,
+					["oorSection"] = {
+						["range"] = 35,
+						["useText"] = true,
+					},
+					["fontOutline"] = "OUTLINE",
+					["mouseAnchor"] = false,
+					["font"] = "Skurri",
+					["frameWidth"] = 63,
+					["relPoint"] = "BOTTOMRIGHT",
 				},
 				["focus"] = {
 					["y"] = 223.2510163882497,
@@ -116,29 +116,6 @@ RangeDisplayDB3 = {
 		["Gilraenloss - Sin'Dorei"] = {
 			["locked"] = true,
 			["units"] = {
-				["pet"] = {
-					["font"] = "Skurri",
-					["point"] = "BOTTOMLEFT",
-					["relPoint"] = "BOTTOMLEFT",
-					["overLimitSuffix"] = " Call!",
-					["maxRangeOnly"] = true,
-					["oorSection"] = {
-						["text"] = "far",
-						["range"] = 45,
-						["useText"] = false,
-					},
-					["suffix"] = " Mend",
-					["srSection"] = {
-						["text"] = "Mend Pet",
-						["range"] = 15,
-						["useText"] = false,
-					},
-					["enabled"] = true,
-					["overLimitDisplay"] = true,
-					["y"] = 78.8449504674644,
-					["x"] = 235.2967469352772,
-					["rangeLimit"] = 45,
-				},
 				["playertarget"] = {
 					["relPoint"] = "BOTTOM",
 					["fontSize"] = 21,
@@ -191,6 +168,29 @@ RangeDisplayDB3 = {
 					["frameHeight"] = 47,
 					["font"] = "Skurri",
 					["relPoint"] = "BOTTOMRIGHT",
+				},
+				["pet"] = {
+					["x"] = 235.2967469352772,
+					["point"] = "BOTTOMLEFT",
+					["font"] = "Skurri",
+					["overLimitSuffix"] = " Call!",
+					["maxRangeOnly"] = true,
+					["oorSection"] = {
+						["text"] = "far",
+						["range"] = 45,
+						["useText"] = false,
+					},
+					["suffix"] = " Mend",
+					["srSection"] = {
+						["text"] = "Mend Pet",
+						["range"] = 15,
+						["useText"] = false,
+					},
+					["enabled"] = true,
+					["overLimitDisplay"] = true,
+					["y"] = 78.8449504674644,
+					["relPoint"] = "BOTTOMLEFT",
+					["rangeLimit"] = 45,
 				},
 				["focus"] = {
 					["x"] = 270.3105583537715,

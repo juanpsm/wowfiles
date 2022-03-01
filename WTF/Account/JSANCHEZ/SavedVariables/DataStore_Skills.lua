@@ -54,9 +54,9 @@ DataStore_SkillsDB = {
 						["Defense"] = "58|60",
 						["Swords"] = "45|60",
 						["Unarmed"] = "1|60",
-						["Axes"] = "1|60",
 						["Daggers"] = "26|60",
 						["Bows"] = "60|60",
+						["Axes"] = "1|60",
 						["Two-Handed Axes"] = "16|60",
 					},
 				},
@@ -64,12 +64,17 @@ DataStore_SkillsDB = {
 			["Default.Kel'Thuzad.Korigami"] = {
 				["lastUpdate"] = 1619223380,
 				["Skills"] = {
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Class Skills"] = {
+						["Demonology"] = "1|1",
+						["Affliction"] = "1|1",
+						["Destruction"] = "1|1",
+					},
 					["Languages"] = {
 						["Language: Gutterspeak"] = "300|300",
 						["Language: Orcish"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
 						["Staves"] = "1|5",
@@ -78,21 +83,21 @@ DataStore_SkillsDB = {
 						["Defense"] = "1|5",
 						["Wands"] = "1|5",
 					},
-					["Class Skills"] = {
-						["Demonology"] = "1|1",
-						["Affliction"] = "1|1",
-						["Destruction"] = "1|1",
-					},
 				},
 			},
 			["Default.Sin'Dorei.Athari"] = {
 				["lastUpdate"] = 1624765086,
 				["Skills"] = {
-					["Languages"] = {
-						["Language: Common"] = "300|300",
-					},
 					["Armor Proficiencies"] = {
 						["Cloth"] = "1|1",
+					},
+					["Class Skills"] = {
+						["Demonology"] = "1|1",
+						["Affliction"] = "1|1",
+						["Destruction"] = "1|1",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
 					},
 					["Weapon Skills"] = {
 						["Staves"] = "1|5",
@@ -101,11 +106,6 @@ DataStore_SkillsDB = {
 						["Wands"] = "1|5",
 						["Unarmed"] = "1|5",
 						["Daggers"] = "1|5",
-					},
-					["Class Skills"] = {
-						["Demonology"] = "1|1",
-						["Affliction"] = "1|1",
-						["Destruction"] = "1|1",
 					},
 				},
 			},
@@ -152,87 +152,87 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Finweloss"] = {
-				["lastUpdate"] = 1639389061,
+				["lastUpdate"] = 1646103424,
 				["Skills"] = {
-					["Profesiones"] = {
-						["Alquimia"] = "1|75",
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
 					},
-					["Habilidades con armas"] = {
-						["Sin armas"] = "1|50",
-						["Dagas"] = "49|50",
-						["Defensa"] = "46|50",
-						["Armas arrojadizas"] = "43|50",
+					["Class Skills"] = {
+						["Combat"] = "1|1",
+						["Subtlety"] = "1|1",
+						["Assassination"] = "1|1",
 					},
-					["Idiomas"] = {
-						["Idioma: común"] = "300|300",
-						["Idioma: darnassiano"] = "300|300",
+					["Professions"] = {
+						["Alchemy"] = "1|75",
 					},
-					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
-						["Cuero"] = "1|1",
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
 					},
-					["Habilidades de clase"] = {
-						["Combate"] = "1|1",
-						["Asesinato"] = "1|1",
-						["Sutileza"] = "1|1",
+					["Secondary Skills"] = {
+						["First Aid"] = "1|75",
 					},
-					["Habilidades secundarias"] = {
-						["Primeros auxilios"] = "1|75",
+					["Weapon Skills"] = {
+						["Thrown"] = "43|50",
+						["Daggers"] = "49|50",
+						["Defense"] = "46|50",
+						["Unarmed"] = "1|50",
 					},
 				},
 			},
 			["Default.Sin'Dorei.Gilraenloss"] = {
-				["lastUpdate"] = 1639011500,
+				["lastUpdate"] = 1646106711,
 				["Skills"] = {
-					["Profesiones"] = {
-						["Ingeniería"] = "450|450",
-						["Minería"] = "450|450",
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
 					},
-					["Habilidades con armas"] = {
-						["Sin armas"] = "400|400",
-						["Armas de asta"] = "400|400",
-						["Armas de fuego"] = "400|400",
-						["Ballestas"] = "400|400",
-						["Dagas"] = "281|400",
-						["Espadas de dos manos"] = "400|400",
-						["Hachas de dos manos"] = "103|400",
-						["Arcos"] = "400|400",
-						["Espadas"] = "300|400",
-						["Bastones"] = "400|400",
-						["Defensa"] = "400|400",
-						["Armas arrojadizas"] = "4|400",
-						["Hachas"] = "214|400",
+					["Class Skills"] = {
+						["Marksmanship"] = "1|1",
+						["Beast Mastery"] = "1|1",
+						["Survival"] = "1|1",
 					},
-					["Idiomas"] = {
-						["Idioma: común"] = "300|300",
-						["Idioma: darnassiano"] = "300|300",
+					["Professions"] = {
+						["Engineering"] = "450|450",
+						["Mining"] = "450|450",
 					},
-					["Armaduras disponibles"] = {
-						["Malla"] = "1|1",
-						["Cuero"] = "1|1",
-						["Tela"] = "1|1",
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
 					},
-					["Habilidades de clase"] = {
-						["Supervivencia"] = "1|1",
-						["Dominio de bestias"] = "1|1",
-						["Puntería"] = "1|1",
+					["Secondary Skills"] = {
+						["Cooking"] = "450|450",
+						["Riding"] = "300|300",
+						["First Aid"] = "450|450",
+						["Fishing"] = "450|450",
 					},
-					["Habilidades secundarias"] = {
-						["Cocina"] = "450|450",
-						["Pesca"] = "450|450",
-						["Equitación"] = "300|300",
-						["Primeros auxilios"] = "450|450",
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Unarmed"] = "400|400",
+						["Daggers"] = "281|400",
+						["Two-Handed Swords"] = "400|400",
+						["Thrown"] = "4|400",
+						["Bows"] = "400|400",
+						["Staves"] = "400|400",
+						["Guns"] = "400|400",
+						["Swords"] = "300|400",
+						["Crossbows"] = "400|400",
+						["Axes"] = "214|400",
+						["Polearms"] = "400|400",
+						["Two-Handed Axes"] = "103|400",
 					},
 				},
 			},
 			["Default.Sin'Dorei.Nigthcrow"] = {
-				["lastUpdate"] = 1624765100,
+				["lastUpdate"] = 1646101980,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "1|75",
+						["Fishing"] = "10|75",
 						["Riding"] = "75|75",
 						["First Aid"] = "22|75",
-						["Fishing"] = "10|75",
 					},
 					["Class Skills"] = {
 						["Balance"] = "1|1",
@@ -256,13 +256,13 @@ DataStore_SkillsDB = {
 						["Defense"] = "160|160",
 						["Unarmed"] = "2|160",
 						["Maces"] = "1|160",
-						["Staves"] = "46|160",
 						["Daggers"] = "40|160",
+						["Staves"] = "46|160",
 					},
 				},
 			},
 			["Default.Sin'Dorei.Acrux"] = {
-				["lastUpdate"] = 1624765053,
+				["lastUpdate"] = 1646103693,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "9|75",

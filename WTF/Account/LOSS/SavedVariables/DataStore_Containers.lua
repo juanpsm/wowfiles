@@ -29,7 +29,7 @@ DataStore_ContainersDB = {
 				["numBagSlots"] = 16,
 			},
 			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 				["Containers"] = {
 					["Bag4"] = {
 						["link"] = "|cffffffff|Hitem:23162:0:0:0:0:0:0:0:80|h[Foror's Crate of Endless Resist Gear Storage]|h|r",
@@ -45,7 +45,7 @@ DataStore_ContainersDB = {
 							33447, -- [4]
 							33448, -- [5]
 							40211, -- [6]
-							nil, -- [7]
+							6256, -- [7]
 							22823, -- [8]
 							7096, -- [9]
 							7097, -- [10]
@@ -54,7 +54,7 @@ DataStore_ContainersDB = {
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["counts"] = {
 							nil, -- [1]
-							124, -- [2]
+							120, -- [2]
 							5, -- [3]
 							5, -- [4]
 							5, -- [5]
@@ -62,7 +62,7 @@ DataStore_ContainersDB = {
 							nil, -- [7]
 							19, -- [8]
 						},
-						["freeslots"] = 7,
+						["freeslots"] = 6,
 					},
 					["Bag1"] = {
 						["link"] = "|cffffffff|Hitem:23162:0:0:0:0:0:0:0:80|h[Foror's Crate of Endless Resist Gear Storage]|h|r",
@@ -87,7 +87,7 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 				},
-				["numFreeBagSlots"] = 151,
+				["numFreeBagSlots"] = 150,
 				["numBagSlots"] = 160,
 			},
 		},

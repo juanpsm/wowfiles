@@ -6,8 +6,8 @@ BagnonFrameSettings = {
 			["scale"] = 1.15,
 			["itemFrameColumns"] = 9,
 			["dataBrokerObject"] = "Altoholic",
-			["y"] = -150.4053841611111,
-			["x"] = -122.5630464882077,
+			["y"] = -150.4054272303482,
+			["x"] = -122.5629202329355,
 			["itemFrameSpacing"] = 0,
 		},
 		["guildbank"] = {

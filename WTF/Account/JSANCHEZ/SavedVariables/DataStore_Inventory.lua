@@ -117,31 +117,31 @@ DataStore_InventoryDB = {
 					25861, -- [18]
 				},
 				["averageItemLvl"] = 12.2,
-				["lastUpdate"] = 1639389100,
+				["lastUpdate"] = 1646103669,
 			},
 			["Default.Sin'Dorei.Gilraenloss"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:41158:3795:3628:3525:0:0:0:0:80|h[Yelmo de anillas de Gladiador incansable]|h|r", -- [1]
-					51353, -- [2]
-					"|cffa335ee|Hitem:41218:3793:3556:0:0:0:0:0:80|h[Bufas de anillas de Gladiador incansable]|h|r", -- [3]
+					33820, -- [1]
+					"|cffa335ee|Hitem:50421:0:3525:0:0:0:0:0:80|h[Sindragosa's Cruel Claw]|h|r", -- [2]
+					"|cffa335ee|Hitem:51288:3808:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Spaulders]|h|r", -- [3]
 					52019, -- [4]
-					"|cffa335ee|Hitem:41088:3252:3519:3529:0:0:0:0:80|h[Armadura de anillas de Gladiador incansable]|h|r", -- [5]
-					"|cffa335ee|Hitem:51350:0:3535:0:0:0:0:0:80|h[Guardarrenes de triunfo de Gladiador colérico]|h|r", -- [6]
-					"|cffa335ee|Hitem:49988:0:3530:3530:3530:0:0:0:80|h[Leotardos de aurora boreal]|h|r", -- [7]
-					"|cffa335ee|Hitem:51351:3606:3530:0:0:0:0:0:80|h[Escarpes de triunfo de Gladiador colérico]|h|r", -- [8]
-					51352, -- [9]
-					"|cffa335ee|Hitem:41144:0:3535:0:0:0:0:0:80|h[Guanteletes de anillas de Gladiador incansable]|h|r", -- [10]
-					51560, -- [11]
-					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Sortija Cinérea de venganza infinita]|h|r", -- [12]
-					51377, -- [13]
-					50342, -- [14]
-					"|cffa335ee|Hitem:51356:3605:0:0:0:0:0:0:80|h[Capa de victoria de Gladiador colérico]|h|r", -- [15]
-					"|cffa335ee|Hitem:51022:3827:3525:3525:0:0:0:0:80|h[Gran lanza de Hersir]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:49981:3608:0:0:0:0:0:0:80|h[Fal'inrush, defensora de Quel'thalas]|h|r",
+					"|cffa335ee|Hitem:51289:3832:3525:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50688:0:3525:3525:3525:0:0:0:80|h[Nerub'ar Stalker's Cord]|h|r", -- [6]
+					"|cffa335ee|Hitem:49901:3823:3525:3525:3525:0:0:0:80|h[Draconic Bonesplinter Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:49897:3606:3525:3525:0:0:0:0:80|h[Rock-Steady Treads]|h|r", -- [8]
+					"|cffa335ee|Hitem:50655:3845:3525:0:0:0:0:0:80|h[Scourge Hunter's Vambraces]|h|r", -- [9]
+					"|cffa335ee|Hitem:51285:0:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:50618:0:3525:0:0:0:0:0:80|h[Frostbrood Sapphire Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
+					50342, -- [13]
+					50363, -- [14]
+					"|cffa335ee|Hitem:50470:3605:3879:0:0:0:0:0:80|h[Recovered Scarlet Onslaught Cape]|h|r", -- [15]
+					"|cff0070dd|Hitem:19970:3269:0:0:0:0:0:0:80|h[Arcanite Fishing Pole]|h|r", -- [16]
+					[18] = "|cffa335ee|Hitem:49981:3608:0:0:0:0:0:0:80|h[Fal'inrush, Defender of Quel'thalas]|h|r",
 					[19] = 28788,
 				},
-				["averageItemLvl"] = 259.5625,
-				["lastUpdate"] = 1639011500,
+				["averageItemLvl"] = 245.5625,
+				["lastUpdate"] = 1646106988,
 			},
 			["Default.Sin'Dorei.Nigthcrow"] = {
 				["Inventory"] = {
@@ -163,7 +163,7 @@ DataStore_InventoryDB = {
 					3203, -- [16]
 				},
 				["averageItemLvl"] = 24.5,
-				["lastUpdate"] = 1624765100,
+				["lastUpdate"] = 1646101980,
 			},
 			["Default.Sin'Dorei.Acrux"] = {
 				["Inventory"] = {
@@ -182,7 +182,7 @@ DataStore_InventoryDB = {
 					[16] = 4563,
 				},
 				["averageItemLvl"] = 8.199999999999999,
-				["lastUpdate"] = 1624765067,
+				["lastUpdate"] = 1646103708,
 			},
 		},
 		["Guilds"] = {
@@ -278,7 +278,7 @@ DataStore_InventoryDB = {
 			["Default.Sin'Dorei.Orden Fenix"] = {
 				["Members"] = {
 					["Gilraenloss"] = {
-						["averageItemLvl"] = 259,
+						["averageItemLvl"] = 252,
 					},
 					["Finweloss"] = {
 						["averageItemLvl"] = 12,

@@ -3,7 +3,10 @@ MACRO 15 "appear" Ability_Vanish
 END
 MACRO 19 "Decursive" INV_Misc_QuestionMark
 /stopcasting
-/cast [target=mouseover,nomod,exists] Disparo tranquilizante;  [target=mouseover,exists,mod:ctrl] Disparo tranquilizante; [target=mouseover,exists,mod:shift] Disparo tranquilizante
+/cast [target=mouseover,nomod,exists] Tranquilizing Shot;  [target=mouseover,exists,mod:ctrl] Tranquilizing Shot; [target=mouseover,exists,mod:shift] Tranquilizing Shot
+END
+MACRO 20 "draco azul" Ability_Mount_Drake_Azure
+.montar 24176
 END
 MACRO 11 "fenix" Spell_Shadow_ShadowWordPain
 .montar 17890
@@ -18,8 +21,14 @@ END
 MACRO 2 "freeze" Spell_Deathknight_FrostPresence
 .freeze
 END
+MACRO 21 "gitante thrym" Ability_Paladin_BeaconofLight
+.morph 25254
+END
 MACRO 14 "gmis" Ability_TownWatch
 .tel gmis
+END
+MACRO 22 "KRAKEN" Spell_Shaman_ImprovedEarthShield
+.morph 29487
 END
 MACRO 16 "macro" Spell_Shadow_GhostKey
 /macro

@@ -42,10 +42,21 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 				["Class"] = "HUNTER",
 				["TalentTrees"] = {
-					["Supervivencia|1"] = {
+					["Marksmanship|1"] = {
+						[3] = 5,
+						[6] = 5,
+						[9] = 1,
+					},
+					["Beast Mastery|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						2, -- [3]
+						[6] = 2,
+					},
+					["Survival|1"] = {
 						nil, -- [1]
 						3, -- [2]
 						2, -- [3]
@@ -74,17 +85,6 @@ DataStore_TalentsDB = {
 						3, -- [26]
 						1, -- [27]
 						1, -- [28]
-					},
-					["Puntería|1"] = {
-						[3] = 5,
-						[6] = 5,
-						[9] = 1,
-					},
-					["Bestias|1"] = {
-						nil, -- [1]
-						5, -- [2]
-						2, -- [3]
-						[6] = 2,
 					},
 				},
 				["PointsSpent"] = "9,11,51,0,0,0",

@@ -5,6 +5,15 @@ DataStore_CraftsDB = {
 		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
 	},
 	["global"] = {
+		["Characters"] = {
+			["Default.Sin'Dorei.Lossana"] = {
+				["Professions"] = {
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
 		["Guilds"] = {
 			["Default.Sin'Dorei.Staff"] = {
 				["Members"] = {

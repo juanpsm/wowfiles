@@ -10,10 +10,10 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1635032250,
 			},
 			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 				["Currencies"] = {
-					"0|Jugador contra Jugador", -- [1]
-					"1|Puntos de honor|62|43308", -- [2]
+					"0|Player vs. Player", -- [1]
+					"1|Honor Points|62|43308", -- [2]
 				},
 			},
 		},

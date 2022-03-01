@@ -21,7 +21,7 @@ DataStore_QuestsDB = {
 					[6063] = true,
 					[6101] = true,
 				},
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 			},
 		},
 	},

@@ -1,9 +1,9 @@
 
 TipTac_Config = {
-	["colSameGuild"] = "|cff198e05",
+	["classification_rareelite"] = "+%s|r (Rare) ",
 	["colorNameByClass"] = true,
 	["classification_rare"] = "%s|r (Rare) ",
-	["colRace"] = "|cffffffff",
+	["colSameGuild"] = "|cff198e05",
 	["classification_elite"] = "+%s ",
 	["anchorWorldUnitType"] = "normal",
 	["targetYouText"] = "<<YOU>>",
@@ -15,5 +15,5 @@ TipTac_Config = {
 	["classification_worldboss"] = "%s|r (Boss) ",
 	["classColoredBorder"] = true,
 	["left"] = 1727.378002191264,
-	["classification_rareelite"] = "+%s|r (Rare) ",
+	["colRace"] = "|cffffffff",
 }

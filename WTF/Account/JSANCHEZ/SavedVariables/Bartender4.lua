@@ -1896,14 +1896,6 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Acrux - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 188.2962740375163,
-						["x"] = -357.5988840843814,
-						["point"] = "BOTTOM",
-					},
-				},
 				["jsanchez"] = {
 					["version"] = 3,
 					["position"] = {
@@ -1918,6 +1910,14 @@ Bartender4DB = {
 						["y"] = 19.49997028574433,
 						["x"] = -114.499978150277,
 						["point"] = "CENTER",
+					},
+				},
+				["Acrux - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 188.2962740375163,
+						["x"] = -357.5988840843814,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -2581,11 +2581,11 @@ Bartender4DB = {
 					},
 				},
 				["Nigthcrow - WoWArg"] = {
+					["version"] = 3,
 					["hidehotkey"] = false,
 					["visibility"] = {
 						["nopet"] = false,
 					},
-					["version"] = 3,
 					["position"] = {
 						["y"] = 196.0000079329198,
 						["x"] = -105.6002969647487,
@@ -2658,11 +2658,11 @@ Bartender4DB = {
 					},
 				},
 				["Finweloss - WoWArg"] = {
-					["version"] = 3,
-					["hidehotkey"] = false,
 					["visibility"] = {
 						["nopet"] = false,
 					},
+					["version"] = 3,
+					["hidehotkey"] = false,
 					["position"] = {
 						["y"] = 196.0000079329198,
 						["x"] = -105.6002969647487,
@@ -2714,11 +2714,11 @@ Bartender4DB = {
 					},
 				},
 				["Athari - WoWArg"] = {
+					["version"] = 3,
 					["visibility"] = {
 						["nopet"] = false,
 					},
 					["hidehotkey"] = false,
-					["version"] = 3,
 					["position"] = {
 						["y"] = 196.0000079329198,
 						["x"] = -105.6002969647487,
@@ -2734,11 +2734,11 @@ Bartender4DB = {
 					},
 				},
 				["flemit"] = {
+					["hidehotkey"] = false,
 					["version"] = 3,
 					["visibility"] = {
 						["nopet"] = false,
 					},
-					["hidehotkey"] = false,
 					["position"] = {
 						["y"] = 195.9999904257865,
 						["x"] = -86.00358226037747,
@@ -2891,7 +2891,7 @@ Bartender4DB = {
 		},
 		["jsanchez"] = {
 			["minimapIcon"] = {
-				["minimapPos"] = 255.5871321252602,
+				["minimapPos"] = 221.084484752394,
 				["hide"] = false,
 			},
 			["buttonlock"] = true,

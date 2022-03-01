@@ -34,12 +34,12 @@ DataStore_MailsDB = {
 				["lastVisitDate"] = "2021/06/27 00:38",
 			},
 			["Default.Sin'Dorei.Nigthcrow"] = {
-				["lastUpdate"] = 1624765102,
-				["lastVisitDate"] = "2021/06/27 00:38",
+				["lastUpdate"] = 1646101985,
+				["lastVisitDate"] = "2022/02/28 23:33",
 			},
 			["Default.Sin'Dorei.Gilraenloss"] = {
-				["lastUpdate"] = 1639008894,
-				["lastVisitDate"] = "2021/12/08 21:14",
+				["lastUpdate"] = 1646102565,
+				["lastVisitDate"] = "2022/02/28 23:42",
 			},
 			["Default.WoWArg.Rosquita"] = {
 				["MailCache"] = {
@@ -63,8 +63,8 @@ DataStore_MailsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Finweloss"] = {
-				["lastUpdate"] = 1639389109,
-				["lastVisitDate"] = "2021/12/13 06:51",
+				["lastUpdate"] = 1646103671,
+				["lastVisitDate"] = "2022/03/01 00:01",
 			},
 			["Default.WoWArg.Skombrow"] = {
 				["MailCache"] = {
@@ -87,8 +87,8 @@ DataStore_MailsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Acrux"] = {
-				["lastUpdate"] = 1624765071,
-				["lastVisitDate"] = "2021/06/27 00:37",
+				["lastUpdate"] = 1646103709,
+				["lastVisitDate"] = "2022/03/01 00:01",
 			},
 		},
 		["Options"] = {

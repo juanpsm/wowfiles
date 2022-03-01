@@ -181,24 +181,24 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Finweloss"] = {
-				["lastUpdate"] = 1639389061,
+				["lastUpdate"] = 1646103424,
 				["Spells"] = {
 					["Sutileza"] = {
 						"921|", -- [1]
 						"1784|", -- [2]
 					},
 					["General"] = {
-						"2259|Aprendiz", -- [1]
+						"2259|Apprentice", -- [1]
 						"6603|", -- [2]
-						"674|Pasivo", -- [3]
-						"21009|Pasivo racial", -- [4]
-						"20585|Pasivo racial", -- [5]
-						"81|Pasivo", -- [6]
-						"58984|Racial", -- [7]
-						"2764|", -- [8]
-						"20582|Pasivo racial", -- [9]
-						"3273|Aprendiz", -- [10]
-						"20583|Pasivo racial", -- [11]
+						"81|Passive", -- [3]
+						"674|Passive", -- [4]
+						"21009|Racial Passive", -- [5]
+						"3273|Apprentice", -- [6]
+						"20583|Racial Passive", -- [7]
+						"20582|Racial Passive", -- [8]
+						"58984|Racial", -- [9]
+						"2764|", -- [10]
+						"20585|Racial Passive", -- [11]
 					},
 					["Assassination"] = {
 						"6760|Rank 2", -- [1]
@@ -225,7 +225,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Gilraenloss"] = {
-				["lastUpdate"] = 1639011500,
+				["lastUpdate"] = 1646106711,
 				["Spells"] = {
 					["Supervivencia"] = {
 						"2974|", -- [1]
@@ -325,40 +325,40 @@ DataStore_SpellsDB = {
 						"1515|", -- [43]
 					},
 					["General"] = {
-						"5149|", -- [1]
-						"6603|", -- [2]
-						"14923|Rango 1", -- [3]
-						"14923|Rango 2", -- [4]
-						"14923|Rango 3", -- [5]
-						"2580|", -- [6]
-						"43308|", -- [7]
-						"51296|Gran maestro", -- [8]
-						"53040|Rango 6", -- [9]
-						"3018|", -- [10]
-						"674|Pasivo", -- [11]
-						"21009|Pasivo racial", -- [12]
-						"20585|Pasivo racial", -- [13]
-						"81|Pasivo", -- [14]
-						"2656|", -- [15]
-						"58984|Racial", -- [16]
-						"818|", -- [17]
-						"51306|Gran maestro", -- [18]
-						"20219|", -- [19]
-						"2764|", -- [20]
-						"50310|Gran maestro", -- [21]
-						"17254|Rango 1", -- [22]
-						"3127|Pasivo", -- [23]
-						"51294|Gran maestro", -- [24]
-						"20582|Pasivo racial", -- [25]
-						"45542|Gran maestro", -- [26]
-						"20583|Pasivo racial", -- [27]
-						"54197|Pasivo", -- [28]
-						"2976|Rango 1", -- [29]
-						"2976|Rango 2", -- [30]
-						"2976|Rango 3", -- [31]
-						"2976|Rango 4", -- [32]
-						"2976|Rango 5", -- [33]
-						"2976|Rango 6", -- [34]
+						"6603|", -- [1]
+						"818|", -- [2]
+						"5149|", -- [3]
+						"17254|Rank 1", -- [4]
+						"2976|Rank 1", -- [5]
+						"2976|Rank 2", -- [6]
+						"2976|Rank 3", -- [7]
+						"2976|Rank 4", -- [8]
+						"2976|Rank 5", -- [9]
+						"2976|Rank 6", -- [10]
+						"54197|Passive", -- [11]
+						"51296|Grand Master", -- [12]
+						"81|Passive", -- [13]
+						"674|Passive", -- [14]
+						"21009|Racial Passive", -- [15]
+						"51306|Grand Master", -- [16]
+						"43308|", -- [17]
+						"2580|", -- [18]
+						"45542|Grand Master", -- [19]
+						"51294|Grand Master", -- [20]
+						"20219|", -- [21]
+						"14923|Rank 1", -- [22]
+						"14923|Rank 2", -- [23]
+						"14923|Rank 3", -- [24]
+						"50310|Grand Master", -- [25]
+						"20583|Racial Passive", -- [26]
+						"3127|Passive", -- [27]
+						"20582|Racial Passive", -- [28]
+						"58984|Racial", -- [29]
+						"3018|", -- [30]
+						"2656|", -- [31]
+						"2764|", -- [32]
+						"53040|Rank 6", -- [33]
+						"20585|Racial Passive", -- [34]
 					},
 					["Survival"] = {
 						"19263|", -- [1]
@@ -604,7 +604,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Nigthcrow"] = {
-				["lastUpdate"] = 1624765100,
+				["lastUpdate"] = 1646101980,
 				["Spells"] = {
 					["Restoration"] = {
 						"2893|", -- [1]
@@ -706,7 +706,7 @@ DataStore_SpellsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Acrux"] = {
-				["lastUpdate"] = 1624765053,
+				["lastUpdate"] = 1646103693,
 				["Spells"] = {
 					["Enhancement"] = {
 						"8024|Rank 1", -- [1]

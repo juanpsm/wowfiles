@@ -31,30 +31,33 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 				["Skills"] = {
-					["Idiomas"] = {
-						["Idioma: común"] = "300|300",
-						["Idioma: darnassiano"] = "300|300",
+					["Secondary Skills"] = {
+						["Fishing"] = "1|75",
 					},
-					["Habilidades de clase"] = {
-						["Supervivencia"] = "1|1",
-						["Dominio de bestias"] = "1|1",
-						["Puntería"] = "1|1",
+					["Class Skills"] = {
+						["Marksmanship"] = "1|1",
+						["Beast Mastery"] = "1|1",
+						["Survival"] = "1|1",
 					},
-					["Habilidades con armas"] = {
-						["Hachas de dos manos"] = "400|400",
-						["Arcos"] = "400|400",
-						["Espadas"] = "400|400",
-						["Sin armas"] = "400|400",
-						["Dagas"] = "400|400",
-						["Hachas"] = "400|400",
-						["Defensa"] = "400|400",
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
 					},
-					["Armaduras disponibles"] = {
-						["Malla"] = "1|1",
-						["Cuero"] = "1|1",
-						["Tela"] = "1|1",
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Unarmed"] = "400|400",
+						["Swords"] = "400|400",
+						["Daggers"] = "400|400",
+						["Bows"] = "400|400",
+						["Axes"] = "400|400",
+						["Two-Handed Axes"] = "400|400",
 					},
 				},
 			},

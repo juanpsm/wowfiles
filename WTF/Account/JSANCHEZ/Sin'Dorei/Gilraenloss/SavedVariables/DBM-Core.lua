@@ -57,18 +57,18 @@ DBM_SavedOptions = {
 		["X"] = -2.30646250522564,
 		["Point"] = "TOP",
 	},
-	["RangeFrameSound1"] = "none",
-	["Enabled"] = true,
-	["HelpMessageShown"] = true,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
+	["Enabled"] = true,
+	["HelpMessageShown"] = true,
+	["RangeFrameLocked"] = false,
 	["HealthFrameWidth"] = 200,
 	["DontSendBossWhispers"] = false,
 	["WarningIconLeft"] = true,
-	["RangeFrameLocked"] = false,
+	["RangeFrameSound1"] = "none",
 	["HPFrameY"] = -203.1096954485287,
 	["FixCLEUOnCombatStart"] = false,
 	["HPFramePoint"] = "CENTER",

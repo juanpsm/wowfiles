@@ -53,45 +53,45 @@ DataStore_CurrenciesDB = {
 				["lastUpdate"] = 1620364537,
 			},
 			["Default.Sin'Dorei.Finweloss"] = {
-				["lastUpdate"] = 1639389061,
+				["lastUpdate"] = 1646103424,
 			},
 			["Default.Sin'Dorei.Gilraenloss"] = {
 				["Currencies"] = {
-					"0|Jugador contra Jugador", -- [1]
-					"1|Fragmento de vigilante de piedra|675|43228", -- [2]
-					"1|Marca de Honor de Conquista del Invierno|47|43589", -- [3]
-					"1|Marca de Honor de la Cuenca de Arathi|56|20559", -- [4]
-					"1|Marca de Honor de la Garganta Grito de Guerra|1|20558", -- [5]
-					"1|Marca de Honor de la Isla de la Conquista|5|47395", -- [6]
-					"1|Marca de Honor de la Playa de los Ancestros|4|42425", -- [7]
-					"1|Marca de Honor del Ojo de la Tormenta|0|29024", -- [8]
-					"1|Marca de Honor del Valle de Alterac|0|20560", -- [9]
-					"1|Moneda de Ventura|104|37836", -- [10]
-					"1|Puntos de arena|0|43307", -- [11]
-					"1|Puntos de honor|5309|43308", -- [12]
-					"0|Mazmorra y banda", -- [13]
-					"1|Emblema de conquista|2|45624", -- [14]
-					"1|Emblema de escarcha|567|49426", -- [15]
-					"1|Emblema de heroísmo|13|40752", -- [16]
-					"1|Emblema de triunfo|553|47241", -- [17]
-					"1|Emblema de valor|4|40753", -- [18]
-					"0|Miscelánea", -- [19]
-					"1|Distintivo de justicia|446|29434", -- [20]
-					"1|Muestra de joyero de Dalaran|3|41596", -- [21]
-					"1|Premio de cocina de Dalaran|96|43016", -- [22]
-					"1|Sello de Campeón|10|44990", -- [23]
+					"0|Dungeon and Raid", -- [1]
+					"1|Emblem of Conquest|2|45624", -- [2]
+					"1|Emblem of Frost|575|49426", -- [3]
+					"1|Emblem of Heroism|13|40752", -- [4]
+					"1|Emblem of Triumph|553|47241", -- [5]
+					"1|Emblem of Valor|4|40753", -- [6]
+					"0|Miscellaneous", -- [7]
+					"1|Badge of Justice|446|29434", -- [8]
+					"1|Champion's Seal|10|44990", -- [9]
+					"1|Dalaran Cooking Award|3|43016", -- [10]
+					"1|Dalaran Jewelcrafter's Token|3|41596", -- [11]
+					"0|Player vs. Player", -- [12]
+					"1|Alterac Valley Mark of Honor|0|20560", -- [13]
+					"1|Arathi Basin Mark of Honor|56|20559", -- [14]
+					"1|Arena Points|0|43307", -- [15]
+					"1|Eye of the Storm Mark of Honor|0|29024", -- [16]
+					"1|Honor Points|5309|43308", -- [17]
+					"1|Isle of Conquest Mark of Honor|5|47395", -- [18]
+					"1|Stone Keeper's Shard|675|43228", -- [19]
+					"1|Strand of the Ancients Mark of Honor|4|42425", -- [20]
+					"1|Venture Coin|104|37836", -- [21]
+					"1|Warsong Gulch Mark of Honor|1|20558", -- [22]
+					"1|Wintergrasp Mark of Honor|47|43589", -- [23]
 				},
-				["lastUpdate"] = 1639011499,
+				["lastUpdate"] = 1646106710,
 			},
 			["Default.Sin'Dorei.Nigthcrow"] = {
 				["Currencies"] = {
 					"0|Player vs. Player", -- [1]
 					"1|Honor Points|30|43308", -- [2]
 				},
-				["lastUpdate"] = 1624765100,
+				["lastUpdate"] = 1646101980,
 			},
 			["Default.Sin'Dorei.Acrux"] = {
-				["lastUpdate"] = 1624765053,
+				["lastUpdate"] = 1646103693,
 			},
 		},
 	},

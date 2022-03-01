@@ -21,7 +21,7 @@ DataStore_StatsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 				["Stats"] = {
 					["Ranged"] = "69-75|1.9990000949474|374|0|9.1560001373291",
 					["Spell"] = "0|0|0|4.1599998474121|0|15",

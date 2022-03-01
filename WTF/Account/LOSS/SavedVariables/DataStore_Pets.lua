@@ -10,7 +10,7 @@ DataStore_PetsDB = {
 				["lastUpdate"] = 1635032250,
 			},
 			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646083640,
+				["lastUpdate"] = 1646109283,
 			},
 		},
 	},

@@ -7,6 +7,6 @@ MoveAnything_CharacterSettings = {
 }
 MoveAnything_UseCharacterSettings = nil
 MADB = {
-	["frameListRows"] = 18,
 	["collapsed"] = true,
+	["frameListRows"] = 18,
 }
