@@ -9,5 +9,11 @@
 !WTF/**
 !Interface
 !Interface/**
+
+# But ignore this archives
 Interface/*.rar
 Interface/*.zip
+
+# Also save this
+!Data/enUS/realmlist*
+!Data/esES/realmlist*
