@@ -1,8 +1,8 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
 	HUD Plugin Module
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: Plugin.lua 854 2009-04-16 06:13:47Z Esamynn $
+	Version: 3.1.11 (<%codename%>)
+	Revision: $Id: Plugin.lua 820 2009-03-15 08:54:17Z loial $
 
 	License:
 	This program is free software; you can redistribute it and/or
@@ -35,37 +35,41 @@ local _trC = Gatherer.Locale.TrClient
 local _trL = Gatherer.Locale.TrLocale
 
 local function getDefault(setting)
-	if (setting == "plugin.gatherer_hud.radius")        then return 500     end
-	if (setting == "plugin.gatherer_hud.iconsize")      then return 40      end
-	if (setting == "plugin.gatherer_hud.offset.horizontal") then return 0   end
-	if (setting == "plugin.gatherer_hud.offset.vertical") then return -200  end
-	if (setting == "plugin.gatherer_hud.alpha")         then return 70      end
-	if (setting == "plugin.gatherer_hud.strata")        then return 1       end
-	if (setting == "plugin.gatherer_hud.yards")         then return 1200    end
-	if (setting == "plugin.gatherer_hud.fade")          then return 45      end
-	if (setting == "plugin.gatherer_hud.aspect")        then return 40      end
-	if (setting == "plugin.gatherer_hud.reduce")        then return 60      end
-	if (setting == "plugin.gatherer_hud.heat.enable")   then return true    end
-	if (setting == "plugin.gatherer_hud.heat.cooldown") then return 600     end
-	if (setting == "plugin.gatherer_hud.heat.size")     then return 120     end
-	if (setting == "plugin.gatherer_hud.heat.alpha")    then return 25      end
-	if (setting == "plugin.gatherer_hud.base.enable")   then return false   end
-	if (setting == "plugin.gatherer_hud.base.alpha")    then return 50      end
-	if (setting == "plugin.gatherer_hud.hide.combat")   then return true    end
-	if (setting == "plugin.gatherer_hud.hide.target")   then return true    end
-	if (setting == "plugin.gatherer_hud.hide.flying")   then return false   end
-	if (setting == "plugin.gatherer_hud.hide.inside")   then return true    end
-	if (setting == "plugin.gatherer_hud.hide.mounted")  then return false   end
-	if (setting == "plugin.gatherer_hud.hide.walking")  then return false   end
-	if (setting == "plugin.gatherer_hud.hide.resting")  then return true    end
-	if (setting == "plugin.gatherer_hud.hide.stealth")  then return true    end
-	if (setting == "plugin.gatherer_hud.hide.swimming") then return false   end
-	if (setting == "plugin.gatherer_hud.base.color")    then return "0,0,0,0.5" end
-	if (setting == "plugin.gatherer_hud.center.color")  then return "1,1,1,0.4" end
-	if (setting == "plugin.gatherer_hud.heat.color")    then return "1,0.3,0,0.7" end
-	if (setting == "plugin.gatherer_hud.base.enable")   then return false   end
-	if (setting == "plugin.gatherer_hud.center.enable") then return true    end
-	if (setting == "plugin.gatherer_hud.min_fullframerate") then return 100 end
+	if (setting == "plugin.gatherer_hud.radius")            then return 500                  end
+	if (setting == "plugin.gatherer_hud.iconsize")          then return 40                   end
+	if (setting == "plugin.gatherer_hud.offset.horizontal") then return 0                    end
+	if (setting == "plugin.gatherer_hud.offset.vertical")   then return -200                 end
+	if (setting == "plugin.gatherer_hud.alpha")             then return 70                   end
+	if (setting == "plugin.gatherer_hud.strata")            then return 1                    end
+	if (setting == "plugin.gatherer_hud.yards")             then return 1200                 end
+	if (setting == "plugin.gatherer_hud.fade")              then return 45                   end
+	if (setting == "plugin.gatherer_hud.angle")             then return 40                   end
+	if (setting == "plugin.gatherer_hud.perspective")       then return 600                  end
+	if (setting == "plugin.gatherer_hud.heat.enable")       then return true                 end
+	if (setting == "plugin.gatherer_hud.heat.cooldown")     then return 600                  end
+	if (setting == "plugin.gatherer_hud.heat.size")         then return 120                  end
+	if (setting == "plugin.gatherer_hud.heat.alpha")        then return 25                   end
+	if (setting == "plugin.gatherer_hud.base.enable")       then return false                end
+	if (setting == "plugin.gatherer_hud.base.alpha")        then return 50                   end
+	if (setting == "plugin.gatherer_hud.hide.combat")       then return true                 end
+	if (setting == "plugin.gatherer_hud.hide.target")       then return true                 end
+	if (setting == "plugin.gatherer_hud.hide.flying")       then return false                end
+	if (setting == "plugin.gatherer_hud.hide.inside")       then return true                 end
+	if (setting == "plugin.gatherer_hud.hide.mounted")      then return false                end
+	if (setting == "plugin.gatherer_hud.hide.walking")      then return false                end
+	if (setting == "plugin.gatherer_hud.hide.resting")      then return true                 end
+	if (setting == "plugin.gatherer_hud.hide.stealth")      then return true                 end
+	if (setting == "plugin.gatherer_hud.hide.swimming")     then return false                end
+	if (setting == "plugin.gatherer_hud.base.color")        then return "0.0, 0.0, 0.0, 0.5" end
+	if (setting == "plugin.gatherer_hud.center.color")      then return "1.0, 1.0, 1.0, 0.4" end
+	if (setting == "plugin.gatherer_hud.heat.color")        then return "1.0, 0.3, 0.0, 0.7" end
+	if (setting == "plugin.gatherer_hud.party.color")       then return "0.2, 0.2, 1.0, 0.7" end
+	if (setting == "plugin.gatherer_hud.party.enable")      then return false                end
+	if (setting == "plugin.gatherer_hud.party.size")        then return 40                   end
+	if (setting == "plugin.gatherer_hud.base.enable")       then return false                end
+	if (setting == "plugin.gatherer_hud.center.enable")     then return true                 end
+	if (setting == "plugin.gatherer_hud.min_fullframerate") then return 100                  end
+
 end
 
 local function makeConfigTab( gui )
@@ -88,8 +92,8 @@ local function makeConfigTab( gui )
 	}, "plugin.gatherer_hud.strata", _trL("HUD strata"))
 	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.yards", 100, 2000, 100, _trL("Notes range: %d yards"))
 	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.fade", 1, 100, 1, _trL("Notes fade out at: %d%% of radius"))
-	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.aspect", 1, 100, 1, _trL("Vertical ratio: %d%%"))
-	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.reduce", 0, 100, 1, _trL("Forward/Backward reduction: %d%%"))
+	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.angle", 1, 90, 1, _trL("Viewing Angle: %d degrees"))
+	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.perspective", 2, 10, 0.1, _trL("perspective level: %0.1f"))
 	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.min_fullframerate", 0, 100, 1, _trL("minimum framerate to draw every frame: %dfps"))
 	gui:AddControl(id, "Subhead",    0,    _trL("HUD hiding options"))
 	gui:AddControl(id, "Checkbox",   0, 1, "plugin.gatherer_hud.hide.combat", _trL("Hide HUD while in combat"))
@@ -108,6 +112,9 @@ local function makeConfigTab( gui )
 	gui:AddControl(id, "ColorSelectAlpha", 0, 3, "plugin.gatherer_hud.center.color", _trL("Center color"))
 	gui:AddControl(id, "Checkbox",   0, 2, "plugin.gatherer_hud.heat.enable", _trL("Show travel tracking (heat)"))
 	gui:AddControl(id, "ColorSelectAlpha", 0, 3, "plugin.gatherer_hud.heat.color", _trL("Heat color"))
+	gui:AddControl(id, "Checkbox",   0, 2, "plugin.gatherer_hud.party.enable", _trL("Show other party members"))
+	gui:AddControl(id, "ColorSelectAlpha", 0, 3, "plugin.gatherer_hud.party.color", _trL("Party member color"))
+	gui:AddControl(id, "WideSlider", 0, 2, "plugin.gatherer_hud.party.size", 5, 80, 1, _trL("Pary icon size: %d pixels"))
 	gui:AddControl(id, "Subhead",    0,    _trL("HUD heat tracking mode"))
 	gui:AddControl(id, "WideSlider", 0, 3, "plugin.gatherer_hud.heat.cooldown", 10, 4800, 10, _trL("Tracking cooldown: %d seconds"))
 	gui:AddControl(id, "Checkbox",   0, 1, "plugin.gatherer_hud.heat.nevercooldown", _trL("Never cooldown"))

@@ -1,0 +1,10 @@
+
+HandyNotes_QuestGiversDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["profiles"] = {
+		["Delatierra - WoWArg"] = {
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+PB_DB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

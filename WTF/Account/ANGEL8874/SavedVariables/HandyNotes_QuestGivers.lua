@@ -1,10 +1,13 @@
 
 HandyNotes_QuestGiversDB = {
 	["profileKeys"] = {
-		["Ijaa - Sin'Dorei"] = "Ijaa - Sin'Dorei",
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+		["Spawm - Sin'dorei(WoWArg)"] = "Spawm - Sin'dorei(WoWArg)",
 	},
 	["profiles"] = {
-		["Ijaa - Sin'Dorei"] = {
+		["Ijaa - WoWArg"] = {
+		},
+		["Spawm - Sin'dorei(WoWArg)"] = {
 		},
 	},
 }

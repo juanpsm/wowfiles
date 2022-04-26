@@ -1,0 +1,14 @@
+
+LoremasterDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "char",
+	},
+	["char"] = {
+		["Nataku - WoWArg"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
+	},
+}

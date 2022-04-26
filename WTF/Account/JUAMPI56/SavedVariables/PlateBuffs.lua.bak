@@ -1,7 +1,7 @@
 
 PB_DB = {
 	["profileKeys"] = {
-		["Trolly - WoWArg"] = "Default",
+		["Eldorath - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

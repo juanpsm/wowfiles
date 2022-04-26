@@ -1,12 +1,12 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["profiles"] = {
-		["Lossana - Sin'Dorei"] = {
-			["PositionY"] = 587.0000345681558,
-			["PositionX"] = 794.16662576672,
+		["Lossana - WoWArg"] = {
+			["PositionY"] = 631.521719574914,
+			["PositionX"] = 777.9348408886705,
 		},
 	},
 }

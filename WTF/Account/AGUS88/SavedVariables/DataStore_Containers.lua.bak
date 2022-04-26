@@ -1,0 +1,121 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["lastUpdate"] = 1553378846,
+				["Containers"] = {
+					["Bag4"] = {
+						["ids"] = {
+							17759, -- [1]
+							nil, -- [2]
+							12846, -- [3]
+							19269, -- [4]
+							30721, -- [5]
+							[7] = 25402,
+							[10] = 43513,
+						},
+						["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:72|h[Bolsa marrón pesada]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["size"] = 10,
+						["counts"] = {
+							[10] = 5,
+						},
+						["freeslots"] = 4,
+					},
+					["Bag0"] = {
+						["ids"] = {
+							33444, -- [1]
+							33444, -- [2]
+							31310, -- [3]
+							31115, -- [4]
+							24508, -- [5]
+							30814, -- [6]
+							30094, -- [7]
+							33444, -- [8]
+							22829, -- [9]
+							33444, -- [10]
+							39532, -- [11]
+							22577, -- [12]
+							21877, -- [13]
+							43852, -- [14]
+							36888, -- [15]
+							27860, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							20, -- [1]
+							20, -- [2]
+							[10] = 20,
+							[11] = 3,
+							[13] = 3,
+						},
+					},
+					["Bag1"] = {
+						["ids"] = {
+							32834, -- [1]
+							nil, -- [2]
+							22147, -- [3]
+							30614, -- [4]
+							28664, -- [5]
+						},
+						["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:72|h[Bolsa marrón pesada]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["size"] = 10,
+						["counts"] = {
+							[3] = 18,
+						},
+						["freeslots"] = 6,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							6948, -- [1]
+						},
+						["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:72|h[Bolsa marrón pesada]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+						["size"] = 10,
+						["freeslots"] = 9,
+					},
+					["Bag3"] = {
+						["ids"] = {
+							12841, -- [1]
+							12840, -- [2]
+							[5] = 30809,
+							[6] = 30810,
+							[11] = 15883,
+							[13] = 7442,
+							[12] = 21100,
+						},
+						["link"] = "|cffffffff|Hitem:9587:0:0:0:0:0:0:0:72|h[Saco de pelambre descongelada]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_17",
+						["size"] = 14,
+						["counts"] = {
+							4, -- [1]
+							15, -- [2]
+							[5] = 3,
+							[6] = 2,
+							[12] = 14,
+						},
+						["freeslots"] = 7,
+					},
+					["Bag-2"] = {
+						["ids"] = {
+							7146, -- [1]
+							6893, -- [2]
+							9249, -- [3]
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
+					},
+				},
+				["numFreeBagSlots"] = 26,
+				["numBagSlots"] = 60,
+			},
+		},
+		["Version"] = 1,
+	},
+}

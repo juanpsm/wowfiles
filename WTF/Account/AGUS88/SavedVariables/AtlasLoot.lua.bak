@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["profiles"] = {
+		["Delatierra - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Delatierra"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Delatierra"] = {
+		},
+	},
+}

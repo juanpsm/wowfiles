@@ -8,48 +8,106 @@ Bartender4DB = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -205.0000428053915,
-								["x"] = -231.5000472500408,
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [1]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.4999857087431,
-								["x"] = -231.5000472500408,
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [2]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -151.500062566986,
-								["x"] = -231.5000472500408,
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [3]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -113.5000518998277,
-								["x"] = -231.5000472500408,
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -75.50002372758917,
-								["x"] = -231.5000472500408,
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.50006557567161,
-								["x"] = -231.5000472500408,
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Crobar - Sin'dorei(WoWArg)"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [6]
@@ -547,6 +605,122 @@ Bartender4DB = {
 						},
 					},
 				},
+				["Eldorath - WoWArg"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999444368337,
+								["x"] = -231.5000403105324,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.499978315956,
+								["x"] = -231.5000403105324,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999762072969,
+								["x"] = -231.5000403105324,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999740986379,
+								["x"] = -231.5000403105324,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000403105324,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49998787521042,
+								["x"] = -231.5000403105324,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Skom - Sin'dorei(WoWArg)"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
 				["Crobar - WoWArg"] = {
 					["actionbars"] = {
 						{
@@ -608,64 +782,6 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Eldorath - WoWArg"] = {
-					["actionbars"] = {
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.4999444368337,
-								["x"] = -231.5000403105324,
-								["point"] = "CENTER",
-							},
-						}, -- [1]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -189.499978315956,
-								["x"] = -231.5000403105324,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -151.4999762072969,
-								["x"] = -231.5000403105324,
-								["point"] = "CENTER",
-							},
-						}, -- [3]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -113.4999740986379,
-								["x"] = -231.5000403105324,
-								["point"] = "CENTER",
-							},
-						}, -- [4]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -75.50000797776011,
-								["x"] = -231.5000403105324,
-								["point"] = "CENTER",
-							},
-						}, -- [5]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = -37.49998787521042,
-								["x"] = -231.5000403105324,
-								["point"] = "CENTER",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						[9] = {
-						},
-						[10] = {
-						},
-					},
-				},
 				["Skom - WoWArg"] = {
 					["actionbars"] = {
 						{
@@ -689,8 +805,8 @@ Bartender4DB = {
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 177.6850718453623,
-								["x"] = -41.99986898541511,
+								["y"] = 106.97206047831,
+								["x"] = -42.00018795181109,
 								["point"] = "RIGHT",
 							},
 						}, -- [3]
@@ -698,8 +814,8 @@ Bartender4DB = {
 							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 177.6850718453623,
-								["x"] = -81.99967752359999,
+								["y"] = 106.97206047831,
+								["x"] = -82.00003106757686,
 								["point"] = "RIGHT",
 							},
 						}, -- [4]
@@ -732,48 +848,48 @@ Bartender4DB = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -227.5000239013402,
-								["x"] = -231.4998698932768,
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [1]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -189.499976987694,
-								["x"] = -231.4998698932768,
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [2]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -151.499973841881,
-								["x"] = -231.4998698932768,
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [3]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -113.499970696068,
-								["x"] = -231.4998698932768,
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -75.50000256452154,
-								["x"] = -231.4998698932768,
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
-								["y"] = -37.49998191157522,
-								["x"] = -231.4998698932768,
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [6]
@@ -792,8 +908,17 @@ Bartender4DB = {
 				["Skom - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.39995838053306,
-						["x"] = -188.800053559707,
+						["y"] = 42.39995634872992,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Crobar - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.39995634872992,
+						["x"] = -188.7998795571683,
 						["point"] = "CENTER",
 						["scale"] = 0.800000011920929,
 					},
@@ -810,10 +935,10 @@ Bartender4DB = {
 				["Julianchin - Queldorei PVP- PVE"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.39995634872992,
+						["scale"] = 0.800000011920929,
 						["x"] = -188.7998795571683,
 						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
+						["y"] = 42.39995634872992,
 					},
 				},
 				["Pamflin - WoWArg"] = {
@@ -855,10 +980,10 @@ Bartender4DB = {
 				["Diputado - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.40002844624667,
+						["scale"] = 0.800000011920929,
 						["x"] = -188.800138474072,
 						["point"] = "CENTER",
-						["scale"] = 0.800000011920929,
+						["y"] = 42.40002844624667,
 					},
 				},
 				["Skombrow - Queldorei PVP- PVE"] = {
@@ -870,15 +995,6 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
-				["Crobar - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 32.39999072673489,
-						["x"] = -205.200261024343,
-						["point"] = "BOTTOMRIGHT",
-						["scale"] = 0.800000011920929,
-					},
-				},
 				["Eldorath - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -886,6 +1002,24 @@ Bartender4DB = {
 						["x"] = -188.800138474072,
 						["point"] = "CENTER",
 						["y"] = 42.40002844624667,
+					},
+				},
+				["Skom - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["y"] = 42.39995634872992,
+					},
+				},
+				["Crobar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 32.39999072673489,
+						["x"] = -205.200261024343,
+						["point"] = "BOTTOMRIGHT",
+						["scale"] = 0.800000011920929,
 					},
 				},
 				["Skom - WoWArg"] = {
@@ -901,9 +1035,9 @@ Bartender4DB = {
 					["version"] = 3,
 					["position"] = {
 						["scale"] = 0.800000011920929,
-						["x"] = -188.799813776508,
+						["x"] = -188.7998795571683,
 						["point"] = "CENTER",
-						["y"] = 42.40005831434417,
+						["y"] = 42.39995634872992,
 					},
 				},
 			},
@@ -927,8 +1061,16 @@ Bartender4DB = {
 				["Skom - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 1.499957810021499,
-						["x"] = 58.50001757345945,
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
+						["point"] = "CENTER",
+					},
+				},
+				["Crobar - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
 						["point"] = "CENTER",
 					},
 				},
@@ -996,20 +1138,28 @@ Bartender4DB = {
 						["point"] = "BOTTOMRIGHT",
 					},
 				},
-				["Crobar - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 69.28919169545397,
-						["x"] = -163.9999181840285,
-						["point"] = "BOTTOMRIGHT",
-					},
-				},
 				["Eldorath - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 1.49998871867399,
 						["x"] = 58.49997388777194,
 						["point"] = "CENTER",
+					},
+				},
+				["Skom - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
+						["point"] = "CENTER",
+					},
+				},
+				["Crobar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 69.28919169545397,
+						["x"] = -163.9999181840285,
+						["point"] = "BOTTOMRIGHT",
 					},
 				},
 				["Skom - WoWArg"] = {
@@ -1024,117 +1174,8 @@ Bartender4DB = {
 				["Crobar - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 1.500063702713533,
-						["x"] = 58.50008592856648,
-						["point"] = "CENTER",
-					},
-				},
-			},
-		},
-		["StanceBar"] = {
-			["profiles"] = {
-				["Skom - Sin'Dorei"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.24998430696911,
-						["x"] = -231.7500985686452,
-						["point"] = "CENTER",
-					},
-				},
-				["Rivothrill - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00002447976067,
-						["x"] = -82.500016479392,
-						["point"] = "CENTER",
-					},
-				},
-				["Julianchin - Queldorei PVP- PVE"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.24997379991112,
-						["x"] = -111.7499692662942,
-						["point"] = "CENTER",
-					},
-				},
-				["Pamflin - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99999815180155,
-						["x"] = -82.50002050131207,
-						["point"] = "CENTER",
-					},
-				},
-				["Anetha - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99997116625355,
-						["x"] = -82.50001784414019,
-						["point"] = "CENTER",
-					},
-				},
-				["Perruco - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99995916230284,
-						["x"] = -82.50000031629895,
-						["point"] = "CENTER",
-					},
-				},
-				["Subjected - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99995916230284,
-						["x"] = -82.50000031629895,
-						["point"] = "CENTER",
-					},
-				},
-				["Diputado - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25009076020035,
-						["x"] = -111.7499152846223,
-						["point"] = "CENTER",
-					},
-				},
-				["Skombrow - Queldorei PVP- PVE"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -15.00002214092012,
-						["x"] = -82.49997332546298,
-						["point"] = "CENTER",
-					},
-				},
-				["Crobar - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99995916230284,
-						["x"] = -82.50000031629895,
-						["point"] = "CENTER",
-					},
-				},
-				["Eldorath - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25009076020035,
-						["x"] = -111.7499152846223,
-						["point"] = "CENTER",
-					},
-				},
-				["Skom - WoWArg"] = {
-					["position"] = {
-						["y"] = 162.6000035511939,
-						["x"] = -295.3743189217724,
-						["point"] = "BOTTOM",
-						["scale"] = 1.200000047683716,
-					},
-					["version"] = 3,
-				},
-				["Crobar - Sin'Dorei"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99998926320347,
-						["x"] = -82.49994970118542,
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
 						["point"] = "CENTER",
 					},
 				},
@@ -1145,8 +1186,16 @@ Bartender4DB = {
 				["Skom - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 51.49994604879572,
-						["x"] = 53.50007651634678,
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
+						["point"] = "CENTER",
+					},
+				},
+				["Crobar - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
 						["point"] = "CENTER",
 					},
 				},
@@ -1214,7 +1263,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Crobar - WoWArg"] = {
+				["Eldorath - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 51.49999054617854,
@@ -1222,12 +1271,20 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Eldorath - WoWArg"] = {
+				["Skom - Sin'dorei(WoWArg)"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 51.49999054617854,
-						["x"] = 53.49983155328539,
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
 						["point"] = "CENTER",
+					},
+				},
+				["Crobar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 165.9999751178231,
+						["x"] = 141.5469974768488,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Skom - WoWArg"] = {
@@ -1241,8 +1298,133 @@ Bartender4DB = {
 				["Crobar - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 51.50005125623591,
-						["x"] = 53.50025874312053,
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Skom - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997379991112,
+						["x"] = -231.7499574578034,
+						["point"] = "CENTER",
+					},
+				},
+				["Crobar - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00002214092012,
+						["x"] = -82.49997332546298,
+						["point"] = "CENTER",
+					},
+				},
+				["Rivothrill - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00002447976067,
+						["x"] = -82.500016479392,
+						["point"] = "CENTER",
+					},
+				},
+				["Julianchin - Queldorei PVP- PVE"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997379991112,
+						["x"] = -111.7499692662942,
+						["point"] = "CENTER",
+					},
+				},
+				["Pamflin - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99999815180155,
+						["x"] = -82.50002050131207,
+						["point"] = "CENTER",
+					},
+				},
+				["Anetha - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99997116625355,
+						["x"] = -82.50001784414019,
+						["point"] = "CENTER",
+					},
+				},
+				["Perruco - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99995916230284,
+						["x"] = -82.50000031629895,
+						["point"] = "CENTER",
+					},
+				},
+				["Subjected - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99995916230284,
+						["x"] = -82.50000031629895,
+						["point"] = "CENTER",
+					},
+				},
+				["Diputado - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25009076020035,
+						["x"] = -111.7499152846223,
+						["point"] = "CENTER",
+					},
+				},
+				["Skombrow - Queldorei PVP- PVE"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00002214092012,
+						["x"] = -82.49997332546298,
+						["point"] = "CENTER",
+					},
+				},
+				["Eldorath - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25009076020035,
+						["x"] = -111.7499152846223,
+						["point"] = "CENTER",
+					},
+				},
+				["Skom - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997379991112,
+						["x"] = -231.7499574578034,
+						["point"] = "CENTER",
+					},
+				},
+				["Crobar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99995916230284,
+						["x"] = -82.50000031629895,
+						["point"] = "CENTER",
+					},
+				},
+				["Skom - WoWArg"] = {
+					["position"] = {
+						["y"] = 162.6000035511939,
+						["x"] = -295.3743189217724,
+						["point"] = "BOTTOM",
+						["scale"] = 1.200000047683716,
+					},
+					["version"] = 3,
+				},
+				["Crobar - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00002214092012,
+						["x"] = -82.49997332546298,
 						["point"] = "CENTER",
 					},
 				},
@@ -1253,8 +1435,16 @@ Bartender4DB = {
 				["Skom - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.50002673627483,
-						["x"] = -163.5000051284414,
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
+						["point"] = "CENTER",
+					},
+				},
+				["Crobar - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
 						["point"] = "CENTER",
 					},
 				},
@@ -1323,7 +1513,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Crobar - WoWArg"] = {
+				["Eldorath - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.49992067927508,
@@ -1331,12 +1521,20 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Eldorath - WoWArg"] = {
+				["Skom - Sin'dorei(WoWArg)"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.49992067927508,
+						["y"] = 89.49999265483768,
 						["x"] = -163.500047901705,
 						["point"] = "CENTER",
+					},
+				},
+				["Crobar - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 160.5124142733445,
+						["x"] = -184.3782152745499,
+						["point"] = "BOTTOM",
 					},
 				},
 				["Skom - WoWArg"] = {
@@ -1350,8 +1548,8 @@ Bartender4DB = {
 				["Crobar - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 89.49993185211577,
-						["x"] = -163.4998882210571,
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
 						["point"] = "CENTER",
 					},
 				},
@@ -1372,6 +1570,7 @@ Bartender4DB = {
 	},
 	["profileKeys"] = {
 		["Skom - Sin'Dorei"] = "Skom - WoWArg",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - WoWArg",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
@@ -1380,13 +1579,16 @@ Bartender4DB = {
 		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
-		["Crobar - WoWArg"] = "Crobar - WoWArg",
 		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom - WoWArg",
+		["Crobar - WoWArg"] = "Crobar - WoWArg",
 		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Crobar - Sin'Dorei"] = "Crobar - WoWArg",
 	},
 	["profiles"] = {
 		["Skom - Sin'Dorei"] = {
+		},
+		["Crobar - Sin'dorei(WoWArg)"] = {
 		},
 		["Rivothrill - WoWArg"] = {
 			["minimapIcon"] = {
@@ -1408,9 +1610,11 @@ Bartender4DB = {
 		},
 		["Skombrow - Queldorei PVP- PVE"] = {
 		},
-		["Crobar - WoWArg"] = {
-		},
 		["Eldorath - WoWArg"] = {
+		},
+		["Skom - Sin'dorei(WoWArg)"] = {
+		},
+		["Crobar - WoWArg"] = {
 		},
 		["Skom - WoWArg"] = {
 			["minimapIcon"] = {

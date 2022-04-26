@@ -4,8 +4,10 @@ AtlasLootDB = {
 	["profileKeys"] = {
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Kraftwork - WoWArg"] = "Kraftwork - WoWArg",
-		["Demetriuz - WoWArg"] = "Demetriuz - WoWArg",
 		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+		["Guthrakk - Sin'dorei(WoWArg)"] = "Guthrakk - Sin'dorei(WoWArg)",
+		["Guthrakk - Sin'Dorei"] = "Guthrakk - Sin'Dorei",
+		["Demetriuz - WoWArg"] = "Demetriuz - WoWArg",
 	},
 	["profiles"] = {
 		["Rochallor - WoWArg"] = {
@@ -16,17 +18,23 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
-		["Demetriuz - WoWArg"] = {
+		["Guthrakk - WoWArg"] = {
+			["EquipCompare"] = true,
+			["AllLinks"] = false,
+			["ItemIDs"] = 1,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Guthrakk - Sin'dorei(WoWArg)"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Guthrakk - Sin'Dorei"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
-		["Guthrakk - WoWArg"] = {
-			["ItemIDs"] = 1,
-			["EquipCompare"] = true,
-			["AllLinks"] = false,
-			["Bigraid"] = true,
+		["Demetriuz - WoWArg"] = {
 			["AtlasLootVersion"] = "51102",
-			["LastBoss"] = "ICCLordMarrowgar",
+			["AllLinks"] = false,
 		},
 	},
 }

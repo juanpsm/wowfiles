@@ -1,0 +1,8 @@
+SET mapQuestDifficulty "1"
+SET questLogCollapseFilter "-1"
+SET trackedQuests "v#G0#%C#G3"
+SET trackedAchievements "v"
+SET cameraSavedDistance "15.000000"
+SET cameraSavedPitch "15.599993"
+SET playerStatLeftDropdown "PLAYERSTAT_BASE_STATS"
+SET playerStatRightDropdown "PLAYERSTAT_SPELL_COMBAT"

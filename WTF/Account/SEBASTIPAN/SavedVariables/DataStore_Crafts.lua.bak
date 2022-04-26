@@ -1,0 +1,26 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Shamyy - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Shamyy"] = {
+				["Professions"] = {
+					["Herbalism"] = {
+						["isPrimary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["Alchemy"] = {
+						["isPrimary"] = true,
+					},
+				},
+			},
+		},
+	},
+}

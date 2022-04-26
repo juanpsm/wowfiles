@@ -2,8 +2,8 @@
 angle = nil
 miniMap = {
 	["radius"] = 80,
-	["dragable"] = true,
+	["rounding"] = 10,
 	["angle"] = 231.1518229123527,
 	["Hidden"] = false,
-	["rounding"] = 10,
+	["dragable"] = true,
 }

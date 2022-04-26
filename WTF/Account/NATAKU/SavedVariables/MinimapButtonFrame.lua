@@ -1,10 +1,15 @@
 
 MBFDB = {
 	["profileKeys"] = {
-		["Turco - WoWArg"] = "Default",
+		["Epyon - WoWArg"] = "Default",
+		["Turco - Sin'dorei(WoWArg)"] = "Default",
 		["Neruneya - WoWArg"] = "Default",
 		["Misumi - WoWArg"] = "Default",
-		["Epyon - WoWArg"] = "Default",
+		["Epyon - Sin'Dorei"] = "Default",
+		["Neruneya - Sin'dorei(WoWArg)"] = "Default",
+		["Epyon - Sin'dorei(WoWArg)"] = "Default",
+		["Turco - WoWArg"] = "Default",
+		["Turco - Sin'Dorei"] = "Default",
 		["Gaara - WoWArg"] = "Default",
 	},
 	["profiles"] = {
@@ -36,6 +41,9 @@ MBFDB = {
 				"LibDBIcon10_Omen", -- [17]
 				"LibDBIcon10_Skada", -- [18]
 				"FishingBuddyMinimapFrame", -- [19]
+				"Gatherer_MinimapOptionsButton", -- [20]
+				"HealBot_ButtonFrame", -- [21]
+				"GMGenie_Minimap", -- [22]
 			},
 			["padding"] = 0,
 		},

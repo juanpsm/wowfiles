@@ -1,0 +1,58 @@
+MACRO 16777230 "BL" INV_Misc_QuestionMark
+/cast Bloodlust
+/y CARINIO PODERRRRRRRRRRRRR
+END
+MACRO 16777231 "bye" Ability_Creature_Cursed_02
+/logout
+END
+MACRO 16777221 "CortCast" Ability_Creature_Disease_02
+#showtooltip
+/stopcasting
+/cast [target=focus] wind shear
+END
+MACRO 16777218 "Exit Game" Ability_GolemStormBolt
+/Exit Game
+END
+MACRO 16777224 "HF" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Hex
+END
+MACRO 16777222 "muaja" Ability_Creature_Disease_03
+/use Far Sight
+END
+MACRO 16777217 "ponela" Ability_Warrior_ImprovedDisciplines
+/Script LeaveParty()
+/invite jcdpatu
+END
+MACRO 16777229 "Purgue" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Purge(Rank 2)
+END
+MACRO 16777226 "SAD" INV_Misc_QuestionMark
+#showtooltip
+/castsequence Nature's Swiftness, Tidal Force, Healing Wave
+END
+MACRO 16777219 "Salv" INV_Misc_QuestionMark
+#showtooltip
+/cast Presteza de la Naturaleza
+/cast Fuerza de las mareas
+/cast Ola de sanación(Rango 14)
+/cast Sangre de vida(Rango 2)
+END
+MACRO 16777225 "T" Ability_Ambush
+/target Guthrakk
+END
+MACRO 16777227 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777228 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Gut[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777220 "WS+F" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Arma Viento Furioso(Rango 8)
+END
+MACRO 16777223 "WSF" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Wind Shear
+END

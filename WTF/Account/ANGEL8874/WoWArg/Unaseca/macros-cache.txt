@@ -1,0 +1,8 @@
+MACRO 16777218 "angel" Ability_CheapShot
+/script RetrieveCorpse()
+END
+MACRO 16777217 "heal istan" Spell_Holy_AvengersShield
+/use Presteza de la Naturaleza
+/use Fuerza de las mareas
+/use Ola de sanación
+END

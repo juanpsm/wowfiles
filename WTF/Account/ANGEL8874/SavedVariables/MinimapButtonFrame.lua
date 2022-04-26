@@ -7,9 +7,12 @@ MBFDB = {
 		["Shino - WoWArg"] = "Default",
 		["Morenasso - WoWArg"] = "Default",
 		["Flako - WoWArg"] = "Default",
-		["Unaseca - WoWArg"] = "Default",
-		["Gringax - WoWArg"] = "Default",
+		["Spawm - Sin'dorei(WoWArg)"] = "Default",
+		["Gringax - Sin'dorei(WoWArg)"] = "Default",
 		["Morenita - WoWArg"] = "Default",
+		["Gringax - WoWArg"] = "Default",
+		["Unaseca - WoWArg"] = "Default",
+		["Ijaa - Sin'dorei(WoWArg)"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -30,6 +33,12 @@ MBFDB = {
 				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [8]
 				"LibDBIcon10_Bartender4", -- [9]
 				"HealBot_ButtonFrame", -- [10]
+				"LibDBIcon10_Skada", -- [11]
+				"MageNug_MinimapFrame", -- [12]
+				"LibDBIcon10_Grid", -- [13]
+				"LibDBIcon10_Omen", -- [14]
+				"Gatherer_MinimapOptionsButton", -- [15]
+				"FishingBuddyMinimapFrame", -- [16]
 			},
 		},
 	},

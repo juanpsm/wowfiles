@@ -1,0 +1,95 @@
+MACRO 16777248 "ARMAS" INV_Misc_QuestionMark
+/equip Shadowmourne
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+END
+MACRO 16777253 "BLOOD + SWEEP" INV_Misc_QuestionMark
+#showtooltip Bloodrage
+/cast Bloodrage
+/cast Sweeping Strikes
+END
+MACRO 16777245 "BS + MS" INV_Misc_QuestionMark
+#showtooltip Mortal Strike(Rank 8)
+/equip Shadowmourne
+/cast Battle Stance
+/cast Mortal Strike(Rank 8)
+END
+MACRO 16777236 "BS+R+DS" INV_Misc_QuestionMark
+#showtooltip Retaliation
+/castsequence Battle Stance, Retaliation, 
+/cast Defensive Stance
+END
+MACRO 16777249 "CHARGE" INV_Misc_QuestionMark
+#showtooltip Charge(Rank 3)
+/equip Shadowmourne
+/cast Battle Stance
+/cast Charge(Rank 3)
+END
+MACRO 16777252 "DISARM" INV_Misc_QuestionMark
+#showtooltip Disarm
+/cast Defensive Stance
+/cast Disarm
+END
+MACRO 16777237 "Heal PVP" INV_Misc_QuestionMark
+#showtooltip Enraged Regeneration
+/castsequence Battlemaster's Rage, Enraged Regeneration
+END
+MACRO 16777220 "INTERCEPT" INV_Misc_QuestionMark
+#showtooltip Intercept
+/cast Berserker Stance
+/cast Intercept
+END
+MACRO 16777250 "INTERV + SHIELD" INV_Misc_QuestionMark
+#showtooltip Intervene
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Defensive Stance
+/cast Intervene
+END
+MACRO 16777229 "PUMMEL" INV_Misc_QuestionMark
+#showtooltip Pummel
+/cast Berserker Stance
+/cast Pummel
+END
+MACRO 16777247 "REND" INV_Misc_QuestionMark
+#showtooltip Rend
+/startattack
+/equip Shadowmourne
+/cast Battle Stance
+/cast Rend
+/cancelaura chaos bane
+END
+MACRO 16777219 "SHIELD BASH" INV_Misc_QuestionMark
+#showtooltip Shield Bash
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Shield Bash
+/cast shield slam
+END
+MACRO 16777251 "SHIELD BLOCK" INV_Misc_QuestionMark
+#showtooltip Shield Block
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Defensive Stance
+/cast Shield Block
+END
+MACRO 16777227 "SHIELD WALL" INV_Misc_QuestionMark
+#showtooltip Shield Wall
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Defensive Stance
+/cast Shield WalL
+/cast Commanding Shout(Rank 3)
+END
+MACRO 16777221 "SPELL REFLECT" INV_Misc_QuestionMark
+#showtooltip Spell Reflection
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Spell Reflection
+END
+MACRO 16777233 "ST+BS+DS" INV_Misc_QuestionMark
+#showtooltip Shattering Throw
+/cast Battle Stance
+/cast Shattering Throw
+/use 10
+END

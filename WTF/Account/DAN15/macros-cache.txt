@@ -1,0 +1,66 @@
+MACRO 12 "asd" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Polymorph
+END
+MACRO 17 "Aura" INV_Misc_QuestionMark
+/cast [nomounted] Charger; [mounted] !Crusader Aura;  [spec:1] !Concentration Aura; [spec:2] Concentration Aura;
+END
+MACRO 18 "Aura3" INV_Misc_QuestionMark
+/castsequence [nomounted] Charger, !Crusader Aura, [mounted]  Charger, !Crusader Aura, Charger, !Retribution Aura
+END
+MACRO 3 "Boludez" Ability_Creature_Disease_02
+<(^^<) (v^^v) (>^^)> 
+END
+MACRO 13 "Burbuja" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Citruz] Hand of Protection(Rank 3)
+/cast [target=Donlunfardo] Hand of Protection(Rank 3)
+END
+MACRO 19 "bye" Ability_Creature_Cursed_04
+/logout
+END
+MACRO 9 "Cart" Ability_Defend
+/5 Cambio ace, dos, tres, cuatro, siete de caos ; tres, siete de no muertos ; dos, tres, cinco, ocho de prismas ; Por DOS de nobles (tmb la compro!!!)
+END
+MACRO 15 "Cleanse" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=spawm] Cleanse
+/cast [target=Turco] Cleanse
+END
+MACRO 5 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Polymorph; [target=mouseover,exists,mod:shift] Remove Curse
+END
+MACRO 7 "dsad" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Counterspell
+END
+MACRO 6 "Insc Neru" Ability_BullRush
+/6 Vendo |cffffd000|Htrade:45363:450:450:33B24:g////7////3////////////////////////99/////////////////////////f///////////f|h[Inscription]|h|r!!! OFERTA 15g Mayors -- 20g Minors --  50g Especiales!!! COMPRO Cartas nobles, undeath y chaos!!!
+END
+MACRO 10 "inscription" Ability_CheapShot
+/6 Vendo |cffffd000|Htrade:45363:450:450:33B24:g////7////3///////////////////////////////////////////////////f///////////f|h[Inscription]|h|r!!! Tengo todos los glyphs!!! Mayores 15g - Menores 20g - especiales 50g --- Mando por COD unicamente
+END
+MACRO 4 "MACROTARGET" Ability_CheapShot
+/say <%t> Testing
+END
+MACRO 2 "ROLL" Ability_Hunter_BeastCall
+/roll
+END
+MACRO 16 "Sacrifice" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [target=Donlunfardo] Hand of Sacrifice, Divine Sacrifice
+END
+MACRO 11 "Salir" Ability_Druid_BalanceofPower
+/Script LeaveParty()
+END
+MACRO 14 "Salvation" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=nataku] Hand of Salvation
+END
+MACRO 8 "sdgsdfsdfsdg" Ability_Creature_Disease_02
+/w [Inscription]!!! OFERTA 15g comunes -- 20g minors --y 50g especiales!!! Compro 
+END
+MACRO 1 "Target" Ability_Rogue_SinisterCalling
+/tar Donlunfardo
+END

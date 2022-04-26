@@ -1,0 +1,37 @@
+MACRO 16777224 " /as" Ability_Creature_Cursed_04
+.modrates on
+END
+MACRO 16777226 "2x2" Ability_Warrior_PunishingBlow
+/castsequence Stormstrike, Lava Lash
+END
+MACRO 16777227 "asd" INV_Misc_QuestionMark
+#showtooltip
+/use Battlemaster's Aggression
+/cast Gift of the Naaru(Racial)
+END
+MACRO 16777228 "bye" Ability_BackStab
+/logout
+END
+MACRO 16777220 "CC" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Wind Shear
+END
+MACRO 16777218 "Come cola" Ability_Creature_Poison_05
+/usar Braxley's Backyard Moonshine
+/usar Talisman of the Tundra
+END
+MACRO 16777219 "f" Ability_Ambush
+/tmw
+END
+MACRO 16777223 "ja" INV_Misc_QuestionMark
+/focus mincest
+/use [target=focustarget, mincest] flame shock
+END
+MACRO 16777222 "mincest" Ability_Ambush
+/use [target=targettarget, mincest] flame shock
+/use [target=targettarget, mincest] lava burst
+END
+MACRO 16777225 "totem" Spell_Shaman_GiftEarthmother
+/castsequence Shamanistic Rage, Stoneclaw Totem
+END

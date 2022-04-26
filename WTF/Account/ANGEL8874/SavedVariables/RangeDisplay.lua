@@ -5,10 +5,10 @@ RangeDisplayDB3 = {
 		},
 	},
 	["profileKeys"] = {
-		["Ijaa - Sin'Dorei"] = "Ijaa - Sin'Dorei",
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
 	},
 	["profiles"] = {
-		["Ijaa - Sin'Dorei"] = {
+		["Ijaa - WoWArg"] = {
 		},
 	},
 }

@@ -1,8 +1,8 @@
 ﻿--[[
 	Icon set definitions
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherIcons.lua 854 2009-04-16 06:13:47Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherIcons.lua 852 2009-04-16 06:00:18Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or

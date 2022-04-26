@@ -1,0 +1,64 @@
+MACRO 16777224 "BLOOD CLEAVE" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast Cleave(Rank 8)
+/cancelaura chaos bane
+END
+MACRO 16777223 "BLOOD HS" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast Heroic Strike(Rank 13)
+/cancelaura chaos bane
+END
+MACRO 16777217 "charge" INV_Misc_QuestionMark
+#showtooltip Charge(Rank 3)
+/cast Battle Stance
+/cast Charge(Rank 3)
+/cast Defensive Stance
+END
+MACRO 16777226 "DISARM" INV_Misc_QuestionMark
+#showtooltip Disarm
+/cast Defensive Stance
+/cast Disarm
+END
+MACRO 16777225 "INTER" INV_Misc_QuestionMark
+#showtooltip Intercept
+/cast Berserker Stance
+/cast Intercept
+END
+MACRO 16777228 "INTERV" INV_Misc_QuestionMark
+#showtooltip Intervene
+/cast Defensive Stance
+/cast Intervene
+END
+MACRO 16777232 "MULTITARGET" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
+/cast Cleave(Rank 8)
+/cancelaura chaos bane
+END
+MACRO 16777227 "SHATTERING" INV_Misc_QuestionMark
+#showtooltip Shattering Throw
+/cast Battle Stance
+/cast Shattering Throw
+/use 10
+END
+MACRO 16777229 "SLAM" INV_Misc_QuestionMark
+#showtooltip 
+/startattack 
+/cast Slam(Rank 8)
+/cast Heroic Strike(Rank 13)
+END
+MACRO 16777230 "TAUNT" INV_Misc_QuestionMark
+#showtooltip Taunt
+/cast Defensive Stance
+/cast Taunt
+END
+MACRO 16777231 "UNITARGET" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
+/cast Heroic Strike(Rank 13)
+/cancelaura chaos bane
+END

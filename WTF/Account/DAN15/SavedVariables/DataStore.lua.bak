@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["guildName"] = "Land Of The Fire",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Land Of The Fire"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+	},
+}

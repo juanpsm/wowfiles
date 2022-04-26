@@ -1,7 +1,7 @@
 
 ClassLootDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "profile",
+		["Snts - WoWArg"] = "profile",
 	},
 	["profiles"] = {
 		["profile"] = {

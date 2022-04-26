@@ -12,14 +12,14 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 822.5224928708012,
+					["x"] = 783.1169299699134,
 				},
 			},
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 797.5224928708012,
+					["x"] = 758.1169299699134,
 				},
 			},
 		},
@@ -28,14 +28,14 @@ Quartz3DB = {
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 822.5224928708012,
+					["x"] = 783.1169299699134,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 822.5224928708012,
+					["x"] = 783.1169299699134,
 				},
 			},
 		},
@@ -47,7 +47,8 @@ Quartz3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "Default",
+		["Delatierra - WoWArg"] = "Default",
+		["Indico - Sin'Dorei"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

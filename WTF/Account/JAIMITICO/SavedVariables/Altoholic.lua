@@ -3,6 +3,7 @@ AltoholicDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -12,7 +13,7 @@ AltoholicDB = {
 	["global"] = {
 		["options"] = {
 			["MinimapIconAngle"] = 197,
-			["Lola"] = "R11KRKV21BHQ06ZBTRRR",
+			["Lola"] = "V18RQDV52VOH20FTQVUQ",
 		},
 		["Characters"] = {
 			["Default.WoWArg.Malfa"] = {

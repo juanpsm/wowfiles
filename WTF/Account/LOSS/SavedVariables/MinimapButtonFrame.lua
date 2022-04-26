@@ -1,7 +1,7 @@
 
 MBFDB = {
 	["profileKeys"] = {
-		["Lossana - Sin'Dorei"] = "Default",
+		["Lossana - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -12,13 +12,14 @@ MBFDB = {
 				"AtlasButtonFrame", -- [4]
 				"LibDBIcon10_Bartender4", -- [5]
 				"DBMMinimapButton", -- [6]
-				"HealBot_ButtonFrame", -- [7]
-				"LibDBIcon10_SavedInstances", -- [8]
-				"LibDBIcon10_Grid", -- [9]
-				"LibDBIcon10_Omen", -- [10]
-				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [11]
-				"GMGenie_Minimap", -- [12]
-				"LibDBIcon10_Broker_Portals", -- [13]
+				"Gatherer_MinimapOptionsButton", -- [7]
+				"GMGenie_Minimap", -- [8]
+				"HealBot_ButtonFrame", -- [9]
+				"LibDBIcon10_Skada", -- [10]
+				"LibDBIcon10_Grid", -- [11]
+				"LibDBIcon10_Omen", -- [12]
+				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [13]
+				"FishingBuddyMinimapFrame", -- [14]
 			},
 		},
 	},

@@ -1,10 +1,17 @@
 
 LoremasterDB = {
 	["profileKeys"] = {
-		["Ijaa - Sin'Dorei"] = "char",
+		["Ijaa - WoWArg"] = "char",
+		["Spawm - Sin'dorei(WoWArg)"] = "char",
 	},
 	["char"] = {
-		["Ijaa - Sin'Dorei"] = {
+		["Ijaa - WoWArg"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
+		["Spawm - Sin'dorei(WoWArg)"] = {
 			["settings"] = {
 				["version"] = "v2.033 20100226",
 				["faction"] = "Alliance",

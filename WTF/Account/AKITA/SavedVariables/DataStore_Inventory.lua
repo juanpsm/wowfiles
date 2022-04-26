@@ -3,8 +3,10 @@ DataStore_InventoryDB = {
 	["profileKeys"] = {
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Kraftwork - WoWArg"] = "Kraftwork - WoWArg",
-		["Demetriuz - WoWArg"] = "Demetriuz - WoWArg",
 		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+		["Guthrakk - Sin'dorei(WoWArg)"] = "Guthrakk - Sin'dorei(WoWArg)",
+		["Guthrakk - Sin'Dorei"] = "Guthrakk - Sin'Dorei",
+		["Demetriuz - WoWArg"] = "Demetriuz - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -27,33 +29,9 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 60,
 				["lastUpdate"] = 1538613195,
 			},
-			["Default.WoWArg.Guthrakk"] = {
-				["Inventory"] = {
-					"|cffa335ee|Hitem:50843:0:3621:3563:0:0:0:0:80|h[Yelmo de bruja de Escarcha]|h|r", -- [1]
-					"|cffa335ee|Hitem:50005:0:3531:0:0:0:0:0:80|h[Amuleto de la elegía silenciosa]|h|r", -- [2]
-					"|cffa335ee|Hitem:50059:0:3587:3520:0:0:0:0:80|h[Cubrehombros de carne espantosos]|h|r", -- [3]
-					6833, -- [4]
-					"|cffa335ee|Hitem:48335:0:3563:3587:0:0:0:0:80|h[Camisote de triunfo de Thrall]|h|r", -- [5]
-					"|cffa335ee|Hitem:50015:0:3531:3563:0:0:0:0:80|h[Cinturón de nova de sangre]|h|r", -- [6]
-					"|cffa335ee|Hitem:50450:0:3531:3520:3587:0:0:0:80|h[Leotardos de talismanes dudosos]|h|r", -- [7]
-					"|cffa335ee|Hitem:47295:0:3587:0:0:0:0:0:80|h[Escarpes de tierra trepidante]|h|r", -- [8]
-					47280, -- [9]
-					"|cffa335ee|Hitem:50842:0:3520:0:0:0:0:0:80|h[Guantes de bruja de Escarcha]|h|r", -- [10]
-					50397, -- [11]
-					47733, -- [12]
-					48724, -- [13]
-					47213, -- [14]
-					40723, -- [15]
-					47322, -- [16]
-					49976, -- [17]
-					47666, -- [18]
-				},
-				["averageItemLvl"] = 248.1176470588235,
-				["lastUpdate"] = 1568495884,
-			},
 			["Default.WoWArg.Demetriuz"] = {
 				["Inventory"] = {
-					[5] = "|cff1eff00|Hitem:14091:0:0:0:0:0:839:0:13|h[Toga perlada del águila]|h|r",
+					[5] = "|cff1eff00|Hitem:14091:0:0:0:0:0:839:0:13|h[Beaded Robe of the Eagle]|h|r",
 					[6] = 3442,
 					[7] = 2366,
 					[9] = 6060,
@@ -63,7 +41,7 @@ DataStore_InventoryDB = {
 					[10] = 9746,
 				},
 				["averageItemLvl"] = 11,
-				["lastUpdate"] = 1545102863,
+				["lastUpdate"] = 1611191249,
 			},
 			["Default.WoWArg.Rochallor"] = {
 				["Inventory"] = {
@@ -88,8 +66,104 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 58.33333333333334,
 				["lastUpdate"] = 1538613028,
 			},
+			["Default.Sin'dorei(WoWArg).Guthrakk"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:50843:0:3621:3563:0:0:0:0:80|h[Frost Witch's Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50005:0:3531:0:0:0:0:0:80|h[Amulet of the Silent Eulogy]|h|r", -- [2]
+					"|cffa335ee|Hitem:50059:0:3587:3520:0:0:0:0:80|h[Horrific Flesh Epaulets]|h|r", -- [3]
+					6833, -- [4]
+					"|cffa335ee|Hitem:48335:0:3563:3587:0:0:0:0:80|h[Thrall's Hauberk of Triumph]|h|r", -- [5]
+					"|cffa335ee|Hitem:50015:0:3531:3563:0:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:50450:0:3531:3520:3587:0:0:0:80|h[Leggings of Dubious Charms]|h|r", -- [7]
+					"|cffa335ee|Hitem:47295:0:3587:0:0:0:0:0:80|h[Sabatons of Tremoring Earth]|h|r", -- [8]
+					47280, -- [9]
+					"|cffa335ee|Hitem:50842:0:3520:0:0:0:0:0:80|h[Frost Witch's Gloves]|h|r", -- [10]
+					50399, -- [11]
+					47733, -- [12]
+					49076, -- [13]
+					47213, -- [14]
+					40723, -- [15]
+					47322, -- [16]
+					49976, -- [17]
+					47666, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 245.4705882352941,
+				["lastUpdate"] = 1618883192,
+			},
+			["Default.WoWArg.Guthrakk"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:50843:0:3621:3563:0:0:0:0:80|h[Frost Witch's Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50005:0:3531:0:0:0:0:0:80|h[Amulet of the Silent Eulogy]|h|r", -- [2]
+					"|cffa335ee|Hitem:50059:0:3587:3520:0:0:0:0:80|h[Horrific Flesh Epaulets]|h|r", -- [3]
+					6833, -- [4]
+					"|cffa335ee|Hitem:48335:0:3563:3587:0:0:0:0:80|h[Thrall's Hauberk of Triumph]|h|r", -- [5]
+					"|cffa335ee|Hitem:50015:0:3531:3563:0:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:50450:0:3531:3520:3587:0:0:0:80|h[Leggings of Dubious Charms]|h|r", -- [7]
+					"|cffa335ee|Hitem:47295:0:3587:0:0:0:0:0:80|h[Sabatons of Tremoring Earth]|h|r", -- [8]
+					47280, -- [9]
+					"|cffa335ee|Hitem:50842:0:3520:0:0:0:0:0:80|h[Frost Witch's Gloves]|h|r", -- [10]
+					50399, -- [11]
+					47733, -- [12]
+					49076, -- [13]
+					47213, -- [14]
+					40723, -- [15]
+					47322, -- [16]
+					49976, -- [17]
+					47666, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 245.4705882352941,
+				["lastUpdate"] = 1615833583,
+			},
+			["Default.Sin'Dorei.Guthrakk"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:50843:0:3621:3563:0:0:0:0:80|h[Frost Witch's Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50005:0:3531:0:0:0:0:0:80|h[Amulet of the Silent Eulogy]|h|r", -- [2]
+					"|cffa335ee|Hitem:50059:0:3587:3520:0:0:0:0:80|h[Horrific Flesh Epaulets]|h|r", -- [3]
+					6833, -- [4]
+					"|cffa335ee|Hitem:48335:0:3563:3587:0:0:0:0:80|h[Thrall's Hauberk of Triumph]|h|r", -- [5]
+					"|cffa335ee|Hitem:50015:0:3531:3563:0:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:50450:0:3531:3520:3587:0:0:0:80|h[Leggings of Dubious Charms]|h|r", -- [7]
+					"|cffa335ee|Hitem:47295:0:3587:0:0:0:0:0:80|h[Sabatons of Tremoring Earth]|h|r", -- [8]
+					47280, -- [9]
+					"|cffa335ee|Hitem:50842:0:3520:0:0:0:0:0:80|h[Frost Witch's Gloves]|h|r", -- [10]
+					50399, -- [11]
+					47733, -- [12]
+					49076, -- [13]
+					47213, -- [14]
+					40723, -- [15]
+					47322, -- [16]
+					49976, -- [17]
+					47666, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 245.4705882352941,
+				["lastUpdate"] = 1619482698,
+			},
 		},
 		["Guilds"] = {
+			["Default.WoWArg.The Dark Dynasty"] = {
+				["Members"] = {
+					["Guthrakk"] = {
+						["averageItemLvl"] = 245,
+					},
+				},
+			},
+			["Default.Sin'Dorei.The Dark Dynasty"] = {
+				["Members"] = {
+					["Guthrakk"] = {
+						["averageItemLvl"] = 245,
+					},
+				},
+			},
+			["Default.WoWArg.The Burning Crusade"] = {
+				["Members"] = {
+					["Guthrakk"] = {
+						["averageItemLvl"] = 248,
+					},
+				},
+			},
 			["Default.WoWArg.Horda de exiliados"] = {
 				["Members"] = {
 					["Guthrakk"] = {
@@ -100,10 +174,10 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.WoWArg.The Burning Crusade"] = {
+			["Default.Sin'dorei(WoWArg).The Dark Dynasty"] = {
 				["Members"] = {
 					["Guthrakk"] = {
-						["averageItemLvl"] = 248,
+						["averageItemLvl"] = 245,
 					},
 				},
 			},

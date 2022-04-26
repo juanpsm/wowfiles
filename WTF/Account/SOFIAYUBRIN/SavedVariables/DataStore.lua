@@ -7,7 +7,7 @@ DataStoreDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.WoWArg.Zelphar"] = {
-				["guildName"] = "Azeroth Fighters",
+				["guildName"] = "Azote de Rasganorte",
 				["faction"] = "Alliance",
 			},
 			["Default.WoWArg.Gnomeansno"] = {
@@ -16,10 +16,13 @@ DataStoreDB = {
 			},
 		},
 		["Guilds"] = {
+			["Default.WoWArg.Azeroth Fighters"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.WoWArg.Shadowblades"] = {
 				["faction"] = "Alliance",
 			},
-			["Default.WoWArg.Azeroth Fighters"] = {
+			["Default.WoWArg.Azote de Rasganorte"] = {
 				["faction"] = "Alliance",
 			},
 		},

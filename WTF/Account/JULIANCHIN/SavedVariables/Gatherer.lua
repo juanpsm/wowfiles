@@ -1,27 +1,36 @@
 
 GatherItems = {
-	[3] = {
-		["ZANGARMARSH"] = {
-			[181271] = {
+	[2] = {
+		["HINTERLANDS"] = {
+			[142142] = {
 				{
-					0.5703818202018738, -- [1]
-					0.703319251537323, -- [2]
+					0.17320616543293, -- [1]
+					0.5427834391593933, -- [2]
 					1, -- [3]
-					1637290001, -- [4]
-					1637290001, -- [5]
+					1615414592, -- [4]
+					1615414592, -- [5]
 				}, -- [1]
-				["gtype"] = "HERB",
-			},
-		},
-		["BLADES_EDGE_MOUNTAINS"] = {
-			[181271] = {
 				{
-					0.5877401828765869, -- [1]
-					0.1364286094903946, -- [2]
+					0.1828934848308563, -- [1]
+					0.5435178279876709, -- [2]
 					1, -- [3]
-					1637291773, -- [4]
-					1637291773, -- [5]
-				}, -- [1]
+					1615414600, -- [4]
+					1615414600, -- [5]
+				}, -- [2]
+				{
+					0.187237024307251, -- [1]
+					0.5171284675598145, -- [2]
+					1, -- [3]
+					1615414610, -- [4]
+					1615414610, -- [5]
+				}, -- [3]
+				{
+					0.1815130760272344, -- [1]
+					0.5113825798034668, -- [2]
+					3, -- [3]
+					1615414627, -- [4]
+					1615414627, -- [5]
+				}, -- [4]
 				["gtype"] = "HERB",
 			},
 		},
@@ -30,17 +39,11 @@ GatherItems = {
 }
 GatherDrops = nil
 Gatherer_DropRates = {
-	[3] = {
-		["ZANGARMARSH"] = {
-			[181271] = {
-				[22786] = 2,
-				["total"] = 1,
-			},
-		},
-		["BLADES_EDGE_MOUNTAINS"] = {
-			[181271] = {
-				[22786] = 1,
-				["total"] = 1,
+	[2] = {
+		["HINTERLANDS"] = {
+			[142142] = {
+				[8838] = 12,
+				["total"] = 6,
 			},
 		},
 	},
@@ -48,9 +51,7 @@ Gatherer_DropRates = {
 }
 Gatherer_SavedSettings_AccountWide = {
 	["profile.Default"] = {
-		["mainmap.enable"] = true,
 		["minimap.enable"] = true,
-		["miniicon.angle"] = 208.8424762891102,
 	},
 	["SETTINGS_VERSION"] = 2,
 }
@@ -267,9 +268,9 @@ LibSwagData = {
 			["Pálida"] = 3818,
 			["Purple Lotus"] = 8831,
 			["Acérita salvaje"] = 3355,
-			["Solea"] = 8838,
-			["Grave Moss"] = 3369,
 			["Salviargenta de montaña"] = 13465,
+			["Grave Moss"] = 3369,
+			["Musgo de tumba"] = 3369,
 			["Musgopena"] = 13466,
 			["Gromsblood"] = 8846,
 			["Khadgar's Whisker"] = 3358,
@@ -290,7 +291,7 @@ LibSwagData = {
 			["Liferoot"] = 3357,
 			["Firebloom"] = 4625,
 			["Gromsanguina"] = 8846,
-			["Musgo de tumba"] = 3369,
+			["Solea"] = 8838,
 			["Plaguebloom"] = 13466,
 			["Kingsblood"] = 3356,
 			["Atriplex salvaje"] = 8153,

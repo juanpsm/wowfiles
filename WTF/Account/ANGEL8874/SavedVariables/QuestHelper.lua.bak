@@ -1,0 +1,151 @@
+
+QuestHelper_Pref = {
+}
+QuestHelper_UID = "XJd2aKxefYfxdAPBpNT1kLskHbAWkyfT"
+QuestHelper_SaveDate = 1539810315
+QuestHelper_Errors = {
+	["version"] = 1,
+}
+QuestHelper_Collector = {
+	["1.4.0 on 3.3.5/esES/1"] = {
+		["monster"] = {
+		},
+		["warp"] = {
+		},
+		["flight_times"] = {
+		},
+		["modified"] = 1539810363,
+		["flight_master"] = {
+		},
+		["achievement"] = {
+		},
+		["fishing"] = {
+		},
+		["item"] = {
+			[43968] = {
+				["open_no"] = 2,
+				["type"] = "Misión/Misión",
+				["name"] = "Equipo de reanimación de abominaciones",
+				["ilevel"] = 0,
+				["minlevel"] = 0,
+				["quality"] = 1,
+			},
+		},
+		["realms"] = {
+			["WoWArg"] = 1,
+		},
+		["worldloot"] = {
+		},
+		["object"] = {
+		},
+		["quest"] = {
+			[13289] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Geists feroces explotados: 0/15",
+				["criteria_1_text"] = "Necrófagos helados explotados: 0/15",
+				["special_item"] = 43968,
+				["criteria_3_text"] = "Soldados de la Alianza resucitados explotados: 0/15",
+				["daily"] = true,
+				["name"] = "¡Eso es abominable!",
+				["criteria_3_type"] = "monster",
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+				["criteria_2_type"] = "monster",
+			},
+			[5251] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Archivo quemado: 0/1",
+				["criteria_1_text"] = "Instructor Galford matado: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "El archivista",
+				["tag"] = "Mazmorra",
+				["level"] = 60,
+				["criteria_1_type"] = "monster",
+				["criteria_2_type"] = "object",
+			},
+			[13297] = {
+				["groupcount"] = 5,
+				["daily"] = true,
+				["name"] = "Neutralizar la peste",
+				["criteria_1_text"] = "Caldera de peste neutralizada: 0/1",
+				["special_item"] = false,
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+				["tag"] = "Élite",
+			},
+			[13344] = {
+				["groupcount"] = 0,
+				["daily"] = true,
+				["name"] = "No es un bicho",
+				["criteria_1_text"] = "Mensajero oscuro invocado: 0/1",
+				["special_item"] = 44433,
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+			},
+			[11505] = {
+				["groupcount"] = 0,
+				["daily"] = true,
+				["name"] = "Espíritus de Auchindoun",
+				["criteria_1_text"] = "Protege una torre del Espíritu",
+				["special_item"] = false,
+				["level"] = -1,
+				["criteria_1_type"] = "event",
+				["tag"] = "JcJ",
+			},
+			[13405] = {
+				["groupcount"] = 0,
+				["daily"] = true,
+				["name"] = "Llamada a las armas: Playa de los Ancestros",
+				["criteria_1_text"] = "Victoria en la Playa de los Ancestros",
+				["special_item"] = false,
+				["level"] = -1,
+				["criteria_1_type"] = "event",
+				["tag"] = "JcJ",
+			},
+			[12578] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "El górloc enfadado",
+				["criteria_1_text"] = "Ve al Poblado Caminamoho",
+				["special_item"] = false,
+				["level"] = 77,
+				["criteria_1_type"] = "event",
+			},
+			[13300] = {
+				["groupcount"] = 0,
+				["daily"] = true,
+				["name"] = "Esclavos de la saronita",
+				["criteria_1_text"] = "Esclavo de las minas de saronita rescatado: 0/10",
+				["special_item"] = false,
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+			},
+			[24580] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Anub'Rekhan: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "¡Anub'Rekhan debe morir!",
+				["items_reward"] = {
+					[49426] = 5,
+					[47241] = 5,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["tag"] = "Banda",
+			},
+			[13073] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "El favor del guardián",
+				["criteria_1_text"] = "El alto señor Tirion Vadín en el Pináculo de los Cruzados te ha pedido que obtengas un pasaje de la archidruida Lilliandra y que hables con el guardián Remulos en Claro de la Luna.",
+				["special_item"] = false,
+				["level"] = 80,
+				["criteria_1_type"] = "log",
+			},
+		},
+		["version"] = 8,
+	},
+}
+QuestHelper_Collector_Version = 8

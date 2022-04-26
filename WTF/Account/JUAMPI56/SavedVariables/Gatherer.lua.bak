@@ -1,0 +1,228 @@
+
+GatherItems = {
+	["dbVersion"] = 6,
+}
+Gatherer_DropRates = {
+	["dbVersion"] = 5,
+}
+Gatherer_SavedSettings_AccountWide = {
+	["profile.Default"] = {
+		["miniicon.angle"] = 261.781762768554,
+	},
+	["SETTINGS_VERSION"] = 2,
+}
+LibSwagData = {
+	["items"] = {
+		[3357] = {
+			["cat"] = "HERB",
+			["name"] = "Vidarraíz",
+		},
+		[2452] = {
+			["cat"] = "HERB",
+			["name"] = "Cardopresto",
+		},
+		[2775] = {
+			["cat"] = "MINE",
+			["name"] = "Mena de plata",
+		},
+		[3358] = {
+			["cat"] = "HERB",
+			["name"] = "Khadgar's Whisker",
+		},
+		[13463] = {
+			["cat"] = "HERB",
+			["name"] = "Dreamfoil",
+		},
+		[13464] = {
+			["cat"] = "HERB",
+			["name"] = "Sansam dorado",
+		},
+		[13465] = {
+			["cat"] = "HERB",
+			["name"] = "Mountain Silversage",
+		},
+		[2776] = {
+			["cat"] = "MINE",
+			["name"] = "Mena de oro",
+		},
+		[13466] = {
+			["cat"] = "HERB",
+			["name"] = "Plaguebloom",
+		},
+		[8836] = {
+			["cat"] = "HERB",
+			["name"] = "Arthas' Tears",
+		},
+		[13467] = {
+			["cat"] = "HERB",
+			["name"] = "Icecap",
+		},
+		[13468] = {
+			["cat"] = "HERB",
+			["name"] = "Black Lotus",
+		},
+		[8838] = {
+			["cat"] = "HERB",
+			["name"] = "Sungrass",
+		},
+		[8839] = {
+			["cat"] = "HERB",
+			["name"] = "Carolina",
+		},
+		[8153] = {
+			["cat"] = "HERB",
+			["name"] = "Atriplex salvaje",
+		},
+		[2447] = {
+			["cat"] = "HERB",
+			["name"] = "Flor de paz",
+		},
+		[2770] = {
+			["cat"] = "MINE",
+			["name"] = "Mena de cobre",
+		},
+		[3369] = {
+			["cat"] = "HERB",
+			["name"] = "Grave Moss",
+		},
+		[765] = {
+			["cat"] = "HERB",
+			["name"] = "Hojaplata",
+		},
+		[8846] = {
+			["cat"] = "HERB",
+			["name"] = "Gromsblood",
+		},
+		[2771] = {
+			["cat"] = "MINE",
+			["name"] = "Mena de estaño",
+		},
+		[3858] = {
+			["cat"] = "MINE",
+			["name"] = "Mithril Ore",
+		},
+		[3819] = {
+			["cat"] = "HERB",
+			["name"] = "Wintersbite",
+		},
+		[785] = {
+			["cat"] = "HERB",
+			["name"] = "Marregal",
+		},
+		[2772] = {
+			["cat"] = "MINE",
+			["name"] = "Iron Ore",
+		},
+		[3355] = {
+			["cat"] = "HERB",
+			["name"] = "Wild Steelbloom",
+		},
+		[3820] = {
+			["cat"] = "HERB",
+			["name"] = "Stranglekelp",
+		},
+		[2450] = {
+			["cat"] = "HERB",
+			["name"] = "Brezospina",
+		},
+		[8831] = {
+			["cat"] = "HERB",
+			["name"] = "Loto cárdeno",
+		},
+		[4625] = {
+			["cat"] = "HERB",
+			["name"] = "Firebloom",
+		},
+		[3356] = {
+			["cat"] = "HERB",
+			["name"] = "Kingsblood",
+		},
+		[10620] = {
+			["cat"] = "MINE",
+			["name"] = "Thorium Ore",
+		},
+		[8845] = {
+			["cat"] = "HERB",
+			["name"] = "Ghost Mushroom",
+		},
+		[3821] = {
+			["cat"] = "HERB",
+			["name"] = "Goldthorn",
+		},
+		[7911] = {
+			["cat"] = "MINE",
+			["name"] = "Truesilver Ore",
+		},
+		[2449] = {
+			["cat"] = "HERB",
+			["name"] = "Raíz de tierra",
+		},
+		[3818] = {
+			["cat"] = "HERB",
+			["name"] = "Pálida",
+		},
+		[2453] = {
+			["cat"] = "HERB",
+			["name"] = "Bruiseweed",
+		},
+		[11370] = {
+			["cat"] = "MINE",
+			["name"] = "Dark Iron Ore",
+		},
+	},
+	["HERB"] = {
+	},
+	["ai"] = {
+	},
+	["spells"] = {
+	},
+	["cats"] = {
+		["MINE"] = {
+			["Truesilver Ore"] = 7911,
+			["Dark Iron Ore"] = 11370,
+			["Mena de cobre"] = 2770,
+			["Mena de oro"] = 2776,
+			["Thorium Ore"] = 10620,
+			["Mena de estaño"] = 2771,
+			["Mithril Ore"] = 3858,
+			["Iron Ore"] = 2772,
+			["Mena de plata"] = 2775,
+		},
+		["HERB"] = {
+			["Cardopresto"] = 2452,
+			["Raíz de tierra"] = 2449,
+			["Wild Steelbloom"] = 3355,
+			["Gromsblood"] = 8846,
+			["Khadgar's Whisker"] = 3358,
+			["Carolina"] = 8839,
+			["Marregal"] = 785,
+			["Flor de paz"] = 2447,
+			["Sungrass"] = 8838,
+			["Mountain Silversage"] = 13465,
+			["Goldthorn"] = 3821,
+			["Loto cárdeno"] = 8831,
+			["Icecap"] = 13467,
+			["Arthas' Tears"] = 8836,
+			["Wintersbite"] = 3819,
+			["Stranglekelp"] = 3820,
+			["Bruiseweed"] = 2453,
+			["Hojaplata"] = 765,
+			["Ghost Mushroom"] = 8845,
+			["Firebloom"] = 4625,
+			["Dreamfoil"] = 13463,
+			["Vidarraíz"] = 3357,
+			["Plaguebloom"] = 13466,
+			["Pálida"] = 3818,
+			["Atriplex salvaje"] = 8153,
+			["Kingsblood"] = 3356,
+			["Grave Moss"] = 3369,
+			["Black Lotus"] = 13468,
+			["Brezospina"] = 2450,
+			["Sansam dorado"] = 13464,
+		},
+	},
+	["MINE"] = {
+	},
+}
+Gatherer_SharingBlacklist = {
+}

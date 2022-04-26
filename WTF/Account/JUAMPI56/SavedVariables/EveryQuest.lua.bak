@@ -1,0 +1,12 @@
+
+EveryQuestDB = nil
+EQ2DB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["querytime"] = 1499533093,
+		},
+	},
+}

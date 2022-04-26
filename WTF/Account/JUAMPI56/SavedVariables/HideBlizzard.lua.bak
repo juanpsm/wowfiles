@@ -17,10 +17,10 @@ HideBlizzardDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Trolly - WoWArg"] = "Trolly - WoWArg",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 	},
 	["profiles"] = {
-		["Trolly - WoWArg"] = {
+		["Eldorath - WoWArg"] = {
 			["Version"] = "1.0.58",
 		},
 	},

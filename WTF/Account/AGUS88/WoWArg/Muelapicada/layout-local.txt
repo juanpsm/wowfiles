@@ -1,0 +1,8 @@
+Version: 1
+Frame: CollectMeButtonFrame
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -227
+Y: 107
+W: 35
+H: 35

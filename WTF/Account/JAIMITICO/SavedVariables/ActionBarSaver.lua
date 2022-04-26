@@ -15,12 +15,6 @@ ActionBarSaverDB = {
 		},
 		["WARLOCK"] = {
 		},
-		["ROGUE"] = {
-		},
-		["DRUID"] = {
-		},
-		["SHAMAN"] = {
-		},
 		["HUNTER"] = {
 			["prueba"] = {
 				"spell|54||Picadura de serpiente|Rango 4|13551", -- [1]
@@ -93,6 +87,12 @@ ActionBarSaverDB = {
 				[71] = "spell|62||Mordedura de mangosta|Rango 2|14269",
 				[66] = "spell|8||Fusión de las Sombras|Racial|58984",
 			},
+		},
+		["DRUID"] = {
+		},
+		["SHAMAN"] = {
+		},
+		["ROGUE"] = {
 		},
 	},
 	["spellSubs"] = {

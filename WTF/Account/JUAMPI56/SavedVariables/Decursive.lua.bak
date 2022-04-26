@@ -1,7 +1,7 @@
 
 DecursiveDB = {
 	["class"] = {
-		["WARRIOR"] = {
+		["DEATHKNIGHT"] = {
 			["CureOrder"] = {
 				-12, -- [1]
 				-11, -- [2]
@@ -14,7 +14,7 @@ DecursiveDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Default",
+		["Snts - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -22,7 +22,6 @@ DecursiveDB = {
 			["MainBarY"] = -95.99999692106056,
 			["DebuffsFrame_y"] = -153.5999950736969,
 			["DebuffsFrame_x"] = 1020.000028849072,
-			["Hidden"] = true,
 		},
 	},
 }

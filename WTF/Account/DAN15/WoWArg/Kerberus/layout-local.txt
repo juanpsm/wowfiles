@@ -1,0 +1,22 @@
+Version: 1
+Frame: WorldMapScreenAnchor
+FrameLevel: 0
+Anchor: TOPLEFT
+X: 10
+Y: -118
+W: 1
+H: 1
+Frame: DBMMinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -136
+Y: -115
+W: 32
+H: 32
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: TOP
+X: 33
+Y: 2
+W: 450
+H: 33

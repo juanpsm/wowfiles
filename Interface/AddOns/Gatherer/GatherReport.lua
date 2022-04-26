@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherReport.lua 785 2008-12-08 20:36:35Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherReport.lua 892 2010-10-18 06:08:00Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Reporting and data management subsystem
 --]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherReport.lua $", "$Rev: 785 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherReport.lua $", "$Rev: 892 $")
 
 local THROTTLE_COUNT = 25
 local THROTTLE_RATE = 1
@@ -67,7 +67,7 @@ function public.Hide()
 end
 
 function public.Toggle()
-	if (frame:IsVisible()) then
+	if (frame:IsShown()) then
 		public.Hide()
 	else
 		public.Show()
@@ -125,18 +125,18 @@ frame.Drag:SetNormalFontObject("GameFontHighlightHuge")
 
 frame.Done = CreateFrame("Button", "", frame, "OptionsButtonTemplate")
 frame.Done:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -10, 10)
-frame.Done:SetScript("OnClick", function() frame:Hide() end)
+frame.Done:SetScript("OnClick", function() public.Hide() end)
 frame.Done:SetText(DONE)
 
 frame.Config = CreateFrame("Button", "", frame, "OptionsButtonTemplate")
 frame.Config:SetPoint("BOTTOM", frame, "BOTTOM", 0, 10)
-frame.Config:SetScript("OnClick", function() Gatherer.Config.ShowOptions() end)
+frame.Config:SetScript("OnClick", function() public.Hide() Gatherer.Config.Show() end)
 frame.Config:SetText("Config")
 
 --Show Node Density search frame
 frame.NodeSearch = CreateFrame("Button", nil, frame, "OptionsButtonTemplate")
 frame.NodeSearch:SetPoint("BOTTOM", frame, "BOTTOM", -100, 10)
-frame.NodeSearch:SetScript("OnClick", function() frame:Hide() Gatherer.NodeSearch.private.frame:Show() end)
+frame.NodeSearch:SetScript("OnClick", function() frame:Hide() Gatherer.NodeSearch.Show() end)
 frame.NodeSearch:SetText("Node Search")
 
 frame.SearchBox = CreateFrame("EditBox", "", frame)
@@ -462,11 +462,11 @@ function public.AddButton(buttonName, filter)
 	end
 	local button = CreateFrame("CheckButton", "Gatherer_ReportFilterCheckbox_"..buttonName, frame, "OptionsCheckButtonTemplate")
 	if (private.LastButton) then
-		button:SetPoint("LEFT", getglobal(private.LastButton:GetName().."Text"), "RIGHT", 5, 0)
+		button:SetPoint("LEFT", _G[private.LastButton:GetName().."Text"], "RIGHT", 5, 0)
 	else
 		button:SetPoint("TOPLEFT", frame.SearchBox, "BOTTOMLEFT", 0,  0)
 	end
-	local text = getglobal(button:GetName().."Text")
+	local text = _G[button:GetName().."Text"]
 	text:SetText(buttonName)
 	button:SetScript("PostClick", private.SearchButtonClickHandler)
 	button:SetHitRectInsets(0, -text:GetWidth(), 0, 0)
@@ -564,7 +564,7 @@ function GathererResultsScroll()
 end
 
 local function filter(searchString, ...)
-	local show = true
+	local show = false
 	local f, s, var = string.gmatch(searchString, "[%p%w]+")
 	while true do
 		local match = f(s, var)
@@ -585,15 +585,13 @@ local function filter(searchString, ...)
 			match = match:sub(2, #match - 1)
 		end
 		
-		local showMatch = false
 		for filterName, button in pairs(private.SearchButtons) do
 			if ( button.active and button.filter(match, ...) ) then
-				showMatch = true
+				show = true
 				break
 			end
 		end
-		if not ( showMatch ) then
-			show = false
+		if ( show ) then
 			break
 		end
 	end
@@ -602,20 +600,20 @@ end
 
 function public.UpdateDisplay()
 	local parameter = frame.SearchBox:GetText() or ""
-
+	
 	private.results.size = 0
 	for i, continent in Gatherer.Storage.GetAreaIndices() do
 		for i, zone in Gatherer.Storage.GetAreaIndices(continent) do
 			for id, gtype in Gatherer.Storage.ZoneGatherNames(continent, zone) do
 				for index in Gatherer.Storage.ZoneGatherNodes(continent, zone, id) do
 					local posX, posY, count, gType, harvested, inspected, source = Gatherer.Storage.GetNodeInfo(continent, zone, id, index)
-
+					
 					if (source == "REQUIRE") then source = _tr("NOTE_UNSKILLED")
 					elseif (source == "IMPORTED") then source = _tr("NOTE_IMPORTED")
 					elseif (not source) then source = ""
 					end
-
-					if (filter(parameter, continent, zone, id, index, posX, posY, count, harvested, inspected, source, gType)) then
+					
+					if ( (parameter == "") or filter(parameter, continent, zone, id, index, posX, posY, count, harvested, inspected, source, gType) ) then
 						local size = private.results.size + 1
 						if not private.results.data[size] then private.results.data[size] = {} end
 						local data = private.results.data[size]

@@ -3,90 +3,90 @@ XPerlConfig = nil
 XPerlConfig_Global = nil
 XPerlConfigNew = {
 	["savedPositions"] = {
-		["Sin'Dorei"] = {
+		["WoWArg"] = {
 			["Ijaa"] = {
 				["XPerl_Focus"] = {
-					["top"] = 733.023313166024,
-					["left"] = 216.7999878042196,
+					["top"] = 824.615327892698,
+					["left"] = 216.800001808284,
 				},
 				["XPerl_Raid_Title8"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 425.5999857734647,
 				},
 				["XPerl_AdminFrameAnchor"] = {
-					["top"] = 521.5116654264956,
+					["top"] = 567.307686111483,
 					["height"] = 149.9999997264831,
-					["left"] = 724.1860795499225,
+					["left"] = 805.6410689969575,
 					["width"] = 139.9999950766962,
 				},
 				["XPerl_FocusTarget"] = {
-					["top"] = 733.0233037638772,
+					["top"] = 824.6153995903047,
 					["left"] = 414.7000350456239,
 				},
 				["XPerl_Raid_Title4"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 182.4000119081391,
 				},
 				["XPerl_Raid_Title1"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 0,
 				},
 				["XPerl_Player"] = {
-					["top"] = 882.2232509187651,
+					["top"] = 973.8153528806668,
 					["left"] = 20.69999883622431,
 				},
 				["XPerl_Raid_Title9"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 486.4000317550375,
 				},
 				["XPerl_Raid_Title5"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 243.2000158775188,
 				},
 				["XPerl_Player_Pet"] = {
-					["top"] = 830.7232580775151,
-					["left"] = 72.09999063501731,
+					["top"] = 922.3154519323903,
+					["left"] = 72.0999967617953,
 				},
 				["XPerl_Raid_Title6"] = {
-					["top"] = 521.0232884538475,
-					["left"] = 304.0000058428341,
+					["top"] = 612.6153031805213,
+					["left"] = 303.9999778347053,
 				},
 				["XPerl_Assists_FrameAnchor"] = {
-					["top"] = 508.5115876109436,
+					["top"] = 554.3077133264125,
 					["height"] = 124.0000016411013,
-					["left"] = 629.1860791396472,
+					["left"] = 710.6409985663613,
 					["width"] = 329.9999958972468,
 				},
 				["XPerl_PetTarget"] = {
-					["top"] = 1172.747550781232,
-					["left"] = 233.4999881872603,
+					["top"] = 1303.593668039058,
+					["left"] = 233.5000372014841,
 				},
 				["XPerl_Party_Anchor"] = {
-					["top"] = 773.0232903490253,
+					["top"] = 864.6153610919569,
 					["left"] = 0,
 				},
 				["XPerl_TargetTarget"] = {
-					["top"] = 884.6233177572671,
+					["top"] = 976.2154135836945,
 					["left"] = 412.9999766923979,
 				},
 				["XPerl_Raid_Title7"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 364.8000238162782,
 				},
 				["XPerl_Raid_Title10"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 547.2000217203528,
 				},
 				["XPerl_Target"] = {
-					["top"] = 883.4232677058142,
-					["left"] = 216.7999878042196,
+					["top"] = 975.0153944650034,
+					["left"] = 216.800001808284,
 				},
 				["XPerl_Raid_Title2"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 60.80000396937969,
 				},
 				["XPerl_Raid_Title3"] = {
-					["top"] = 521.0232884538475,
+					["top"] = 612.6153031805213,
 					["left"] = 121.6000079387594,
 				},
 			},
@@ -104,7 +104,7 @@ XPerlConfigNew = {
 		["ShowTutorials"] = true,
 		["rangeFinder"] = {
 			["StatsFrame"] = {
-				["item"] = "Heavy Frostweave Bandage",
+				["item"] = "Heavy Netherweave Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},
@@ -112,10 +112,10 @@ XPerlConfigNew = {
 				["enabled"] = true,
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
-				["item"] = "Heavy Frostweave Bandage",
+				["item"] = "Heavy Netherweave Bandage",
 			},
 			["NameFrame"] = {
-				["item"] = "Heavy Frostweave Bandage",
+				["item"] = "Heavy Netherweave Bandage",
 				["FadeAmount"] = 0.5,
 				["HealthLowPoint"] = 0.85,
 			},

@@ -1,0 +1,10 @@
+
+PB_DB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

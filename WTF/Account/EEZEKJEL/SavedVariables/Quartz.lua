@@ -52,7 +52,9 @@ Quartz3DB = {
 	},
 	["profileKeys"] = {
 		["Elchamaquito - WoWArg"] = "Default",
+		["Elchamaquito - Sin'Dorei"] = "Default",
 		["Trank - WoWArg"] = "Default",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Default",
 		["Perruco - WoWArg"] = "Default",
 	},
 	["profiles"] = {

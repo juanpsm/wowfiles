@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherEvent.lua 869 2009-08-05 19:54:12Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherEvent.lua 880 2010-10-12 07:49:21Z Esamynn $
 
 	License:
 	This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Event handling routines
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherEvent.lua $", "$Rev: 869 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherEvent.lua $", "$Rev: 880 $")
 
 local _tr = Gatherer.Locale.Tr
 local _trC = Gatherer.Locale.TrClient
@@ -36,7 +36,7 @@ local _trL = Gatherer.Locale.TrLocale
 function Gatherer.Event.RegisterEvents( frame )
 	frame:RegisterEvent("WORLD_MAP_UPDATE")
 	frame:RegisterEvent("CLOSE_WORLD_MAP"); -- never triggered apparently
-	frame:RegisterEvent("LEARNED_SPELL_IN_TAB"); -- follow current skills
+	--frame:RegisterEvent("LEARNED_SPELL_IN_TAB"); -- follow current skills
 	frame:RegisterEvent("SPELLS_CHANGED"); -- follow current skills
 	frame:RegisterEvent("SKILL_LINES_CHANGED"); -- follow current skills
 	frame:RegisterEvent("UI_ERROR_MESSAGE"); -- track failed gathering
@@ -72,6 +72,7 @@ function Gatherer.Event.OnLoad()
 	Gatherer.MapNotes.Update()
 	Gatherer.MiniNotes.Show()
 	
+	Gatherer.MiniIcon.CreateLDB()
 	Gatherer.MiniIcon.Reposition()
 	Gatherer.MiniIcon.Update()
 	
@@ -104,6 +105,7 @@ function Gatherer.Event.OnEvent( event, ... )
 	elseif ( event == "PLAYER_LOGIN" ) then
 		Gatherer.Util.StartClientItemCacheRefresh()
 		Gatherer.Util.GetSkills()
+		Gatherer.Util.UpdateTrackingState()
 		Gatherer.Plugins.LoadPluginData() -- * FIX for borked LoadAddOn *
 	
 	elseif ( event == "PLAYER_LOGOUT" ) then
@@ -120,6 +122,7 @@ function Gatherer.Event.OnEvent( event, ... )
 		Gatherer.Util.GetSkills()
 	
 	elseif ( event == "MINIMAP_UPDATE_TRACKING" ) then
+		Gatherer.Util.UpdateTrackingState()
 		Gatherer.MiniNotes.ForceUpdate()
 	
 	elseif ( event == "CHAT_MSG_ADDON" ) then

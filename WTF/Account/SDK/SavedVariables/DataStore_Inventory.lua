@@ -1,53 +1,91 @@
 
 DataStore_InventoryDB = {
 	["profileKeys"] = {
-		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Miratros - WoWArg"] = "Miratros - WoWArg",
+		["Underclub - WoWArg"] = "Underclub - WoWArg",
+		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
+		["Fjaak - Sin'dorei(WoWArg)"] = "Fjaak - Sin'dorei(WoWArg)",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+		["Draenoric - Sin'dorei(WoWArg)"] = "Draenoric - Sin'dorei(WoWArg)",
+		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Microwave - WoWArg"] = "Microwave - WoWArg",
+		["Doroteo - Sin'dorei(WoWArg)"] = "Doroteo - Sin'dorei(WoWArg)",
+		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
+		["Subjected - Sin'dorei(WoWArg)"] = "Subjected - Sin'dorei(WoWArg)",
 		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
 		["Deadly - WoWArg"] = "Deadly - WoWArg",
-		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
-		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
-		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
-		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
-		["Microwave - WoWArg"] = "Microwave - WoWArg",
-		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
-		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
-		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
-		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
-		["Snts - WoWArg"] = "Snts - WoWArg",
+		["Acidstorm - WoWArg"] = "Acidstorm - WoWArg",
+		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Rivo - Sin'dorei(WoWArg)"] = "Rivo - Sin'dorei(WoWArg)",
 		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
+		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
+		["Snts - WoWArg"] = "Snts - WoWArg",
+		["Fjaak - Sin'Dorei"] = "Fjaak - Sin'Dorei",
+		["Snts - Sin'dorei(WoWArg)"] = "Snts - Sin'dorei(WoWArg)",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
+		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
+		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
+		["Underclub - Sin'dorei(WoWArg)"] = "Underclub - Sin'dorei(WoWArg)",
 		["Rivo - WoWArg"] = "Rivo - WoWArg",
 		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Deadly"] = {
+			["jsanchez.Sin'dorei(WoWArg).Gilraenloss"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51208:3820:3621:3545:0:0:0:0:80|h[Sanctified Dark Coven Hood]|h|r", -- [1]
-					"|cffa335ee|Hitem:50182:0:3563:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r", -- [2]
-					"|cffa335ee|Hitem:51205:3810:3563:0:0:0:0:0:80|h[Sanctified Dark Coven Shoulderpads]|h|r", -- [3]
-					4333, -- [4]
-					"|cffa335ee|Hitem:51206:3832:3520:3563:0:0:0:0:80|h[Sanctified Dark Coven Robe]|h|r", -- [5]
-					"|cffa335ee|Hitem:51930:0:3545:3563:0:0:0:0:80|h[Cord of the Patronizing Practitioner]|h|r", -- [6]
-					"|cffa335ee|Hitem:49891:3872:3520:3563:3545:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [7]
-					"|cffa335ee|Hitem:49890:3826:3520:3545:0:0:0:0:80|h[Deathfrost Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:49994:2332:3563:0:0:0:0:0:80|h[The Lady's Brittle Bracers]|h|r", -- [9]
-					"|cffa335ee|Hitem:51209:3246:3520:0:0:0:0:0:80|h[Sanctified Dark Coven Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:50714:3840:3545:0:0:0:0:0:80|h[Valanar's Other Signet Ring]|h|r", -- [11]
-					"|cffa335ee|Hitem:50398:3840:3563:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
-					47213, -- [13]
-					50360, -- [14]
-					"|cffa335ee|Hitem:51826:3722:3563:0:0:0:0:0:80|h[Lich Wrappings]|h|r", -- [15]
-					nil, -- [16]
+					"|cffa335ee|Hitem:51153:3817:3628:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Headpiece]|h|r", -- [1]
+					"|cffa335ee|Hitem:50421:0:3525:0:0:0:0:0:80|h[Sindragosa's Cruel Claw]|h|r", -- [2]
+					"|cffa335ee|Hitem:51151:3808:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Spaulders]|h|r", -- [3]
+					52019, -- [4]
+					"|cffa335ee|Hitem:51150:3832:3525:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50413:0:3525:3525:3525:0:0:0:80|h[Nerub'ar Stalker's Cord]|h|r", -- [6]
+					"|cffa335ee|Hitem:49901:3823:3525:3525:3525:0:0:0:80|h[Draconic Bonesplinter Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:49897:3606:3525:3525:0:0:0:0:80|h[Rock-Steady Treads]|h|r", -- [8]
+					"|cffa335ee|Hitem:50333:3845:3525:0:0:0:0:0:80|h[Toskk's Maximized Wristguards]|h|r", -- [9]
+					"|cffa335ee|Hitem:51154:3603:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Handguards]|h|r", -- [10]
+					51560, -- [11]
+					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
+					51377, -- [13]
+					50362, -- [14]
+					"|cffa335ee|Hitem:50470:3605:3879:0:0:0:0:0:80|h[Recovered Scarlet Onslaught Cape]|h|r", -- [15]
+					"|cffa335ee|Hitem:51022:3827:3525:3525:0:0:0:0:80|h[Hersir's Greatspear]|h|r", -- [16]
 					nil, -- [17]
-					"|cffa335ee|Hitem:51852:0:3563:0:0:0:0:0:80|h[Wand of Ruby Claret]|h|r", -- [18]
+					"|cffa335ee|Hitem:46994:3608:0:0:0:0:0:0:80|h[Talonstrike]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 261.4666666666666,
-				["lastUpdate"] = 1614970706,
+				["averageItemLvl"] = 262,
+				["lastUpdate"] = 1619112026,
+			},
+			["Default.Sin'Dorei.Subjected"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51187:3817:3628:3525:0:0:0:0:80|h[Sanctified Shadowblade Helmet]|h|r", -- [1]
+					"|cffa335ee|Hitem:50421:0:3525:0:0:0:0:0:80|h[Sindragosa's Cruel Claw]|h|r", -- [2]
+					"|cffa335ee|Hitem:51185:3808:3525:0:0:0:0:0:80|h[Sanctified Shadowblade Pauldrons]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:50087:3832:3525:3525:0:0:0:0:80|h[Shadowblade Breastplate]|h|r", -- [5]
+					"|cffa335ee|Hitem:50995:0:3525:3525:3525:0:0:0:80|h[Vengeful Noose]|h|r", -- [6]
+					"|cffa335ee|Hitem:51186:3823:3525:3879:0:0:0:0:80|h[Sanctified Shadowblade Legplates]|h|r", -- [7]
+					"|cffa335ee|Hitem:50308:3826:0:0:0:0:0:0:80|h[Blighted Leather Footpads]|h|r", -- [8]
+					"|cffa335ee|Hitem:50264:3845:0:0:0:0:0:0:80|h[Chewed Leather Wristguards]|h|r", -- [9]
+					"|cffa335ee|Hitem:48222:3604:3525:0:0:0:0:0:80|h[VanCleef's Gauntlets of Conquest]|h|r", -- [10]
+					47730, -- [11]
+					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
+					40684, -- [13]
+					50355, -- [14]
+					"|cffa335ee|Hitem:50470:3730:3525:0:0:0:0:0:80|h[Recovered Scarlet Onslaught Cape]|h|r", -- [15]
+					"|cffa335ee|Hitem:50412:3789:0:0:0:0:0:0:80|h[Bloodvenom Blade]|h|r", -- [16]
+					"|cffa335ee|Hitem:50411:3789:0:0:0:0:0:0:80|h[Scourgeborne Waraxe]|h|r", -- [17]
+					47659, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 252.3529411764706,
+				["lastUpdate"] = 1645978204,
 			},
 			["julianchin.WoWArg.Microwave"] = {
 				["Currencies"] = {
@@ -75,9 +113,9 @@ DataStore_InventoryDB = {
 					50033, -- [18]
 				},
 				["averageItemLvl"] = 263,
-				["lastUpdate"] = 1625353440,
+				["lastUpdate"] = 1630728888,
 			},
-			["Default.WoWArg.Skombrow"] = {
+			["Default.Sin'dorei(WoWArg).Skombrow"] = {
 				["Inventory"] = {
 					"|cffa335ee|Hitem:51302:3820:3627:3520:0:0:0:0:80|h[Sanctified Lasherweave Helmet]|h|r", -- [1]
 					"|cffa335ee|Hitem:50609:0:3520:0:0:0:0:0:80|h[Bone Sentinel's Amulet]|h|r", -- [2]
@@ -97,34 +135,33 @@ DataStore_InventoryDB = {
 					"|cffa335ee|Hitem:50685:3834:3520:0:0:0:0:0:80|h[Trauma]|h|r", -- [16]
 					50635, -- [17]
 					50454, -- [18]
-					45579, -- [19]
 				},
 				["averageItemLvl"] = 275.8823529411765,
-				["lastUpdate"] = 1614960753,
+				["lastUpdate"] = 1619124007,
 			},
-			["Default.WoWArg.Rivo"] = {
+			["Default.Sin'dorei(WoWArg).Snts"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51255:3820:3621:3545:0:0:0:0:80|h[Sanctified Crimson Acolyte Cowl]|h|r", -- [1]
-					"|cffa335ee|Hitem:51863:0:3545:0:0:0:0:0:80|h[Pendant of Split Veins]|h|r", -- [2]
-					"|cffa335ee|Hitem:51182:3838:3531:0:0:0:0:0:80|h[Sanctified Crimson Acolyte Mantle]|h|r", -- [3]
+					48472, -- [1]
+					51357, -- [2]
+					48478, -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51180:3832:3520:3531:0:0:0:0:80|h[Sanctified Crimson Acolyte Raiments]|h|r", -- [5]
-					"|cffa335ee|Hitem:49978:0:3545:3520:3531:0:0:0:80|h[Crushing Coldwraith Belt]|h|r", -- [6]
-					"|cffa335ee|Hitem:49891:3719:3520:3531:3582:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [7]
-					"|cffa335ee|Hitem:49890:3826:3520:3545:0:0:0:0:80|h[Deathfrost Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:49994:2332:3531:3520:0:0:0:0:80|h[The Lady's Brittle Bracers]|h|r", -- [9]
-					"|cffa335ee|Hitem:51183:0:3545:3520:0:0:0:0:80|h[Sanctified Crimson Acolyte Handwraps]|h|r", -- [10]
-					"|cffa335ee|Hitem:50170:0:3582:0:0:0:0:0:80|h[Valanar's Other Signet Ring]|h|r", -- [11]
-					"|cffa335ee|Hitem:50398:0:3531:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
-					40682, -- [13]
-					54572, -- [14]
-					"|cffa335ee|Hitem:51826:3831:3531:0:0:0:0:0:80|h[Lich Wrappings]|h|r", -- [15]
-					50428, -- [16]
-					50173, -- [17]
-					50033, -- [18]
+					50272, -- [5]
+					"|cffa335ee|Hitem:40881:0:3518:3879:0:0:0:0:80|h[Furious Gladiator's Girdle of Triumph]|h|r", -- [6]
+					48476, -- [7]
+					"|cffa335ee|Hitem:40882:1597:3518:0:0:0:0:0:80|h[Furious Gladiator's Greaves of Triumph]|h|r", -- [8]
+					40890, -- [9]
+					48480, -- [10]
+					51358, -- [11]
+					"|cffa335ee|Hitem:50447:0:3532:0:0:0:0:0:80|h[Harbinger's Bone Band]|h|r", -- [12]
+					49074, -- [13]
+					43838, -- [14]
+					51356, -- [15]
+					"|cffa335ee|Hitem:51562:3847:3532:3532:0:0:0:0:80|h[Oxheart]|h|r", -- [16]
+					[18] = 47673,
+					[19] = 5976,
 				},
-				["averageItemLvl"] = 262.5882352941176,
-				["lastUpdate"] = 1614970087,
+				["averageItemLvl"] = 236.4375,
+				["lastUpdate"] = 1619151279,
 			},
 			["Default.Sin'Dorei.Snts"] = {
 				["Inventory"] = {
@@ -148,67 +185,79 @@ DataStore_InventoryDB = {
 					[19] = 5976,
 				},
 				["averageItemLvl"] = 245.4375,
-				["lastUpdate"] = 1636001332,
+				["lastUpdate"] = 1636222959,
 			},
-			["Default.WoWArg.Firecracker"] = {
+			["Default.Sin'Dorei.Draenoric"] = {
 				["Inventory"] = {
-					[5] = 56,
-					[16] = 35,
-					[7] = 1395,
-					[8] = 55,
-					[4] = 6096,
-				},
-				["averageItemLvl"] = 1.25,
-				["lastUpdate"] = 1583107409,
-			},
-			["Default.WoWArg.Subjected"] = {
-				["Inventory"] = {
-					"|cffa335ee|Hitem:51187:3817:3628:3525:0:0:0:0:80|h[Sanctified Shadowblade Helmet]|h|r", -- [1]
-					"|cffa335ee|Hitem:50421:0:3525:0:0:0:0:0:80|h[Sindragosa's Cruel Claw]|h|r", -- [2]
-					"|cffa335ee|Hitem:51185:3808:3525:0:0:0:0:0:80|h[Sanctified Shadowblade Pauldrons]|h|r", -- [3]
-					49, -- [4]
-					"|cffa335ee|Hitem:50001:3832:3525:3525:3525:0:0:0:80|h[Ikfirus's Sack of Wonder]|h|r", -- [5]
-					"|cffa335ee|Hitem:50995:0:3525:3525:3525:0:0:0:80|h[Vengeful Noose]|h|r", -- [6]
-					"|cffa335ee|Hitem:49899:3823:3525:3525:3879:0:0:0:80|h[Bladeborn Leggings]|h|r", -- [7]
-					50308, -- [8]
-					50264, -- [9]
-					"|cffa335ee|Hitem:48222:3604:3525:0:0:0:0:0:80|h[VanCleef's Gauntlets of Conquest]|h|r", -- [10]
-					47730, -- [11]
-					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
-					40684, -- [13]
-					50355, -- [14]
-					"|cffa335ee|Hitem:49998:3605:3525:0:0:0:0:0:80|h[Shadowvault Slayer's Cloak]|h|r", -- [15]
-					51021, -- [16]
-					51784, -- [17]
-					47659, -- [18]
-					5976, -- [19]
-				},
-				["averageItemLvl"] = 251.5882352941177,
-				["lastUpdate"] = 1614962561,
-			},
-			["Default.WoWArg.Draenoric"] = {
-				["Inventory"] = {
-					"|cffa335ee|Hitem:51162:3817:3628:3518:0:0:0:0:80|h[Sanctified Lightsworn Helmet]|h|r", -- [1]
-					"|cffa335ee|Hitem:50452:0:3518:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r", -- [2]
+					"|cffa335ee|Hitem:51277:3817:3628:3518:0:0:0:0:80|h[Sanctified Lightsworn Helmet]|h|r", -- [1]
+					"|cffa335ee|Hitem:50647:0:3518:0:0:0:0:0:80|h[Ahn'kahar Onyx Neckguard]|h|r", -- [2]
 					"|cffa335ee|Hitem:51160:3808:3518:0:0:0:0:0:80|h[Sanctified Lightsworn Shoulderplates]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51164:3832:3518:3518:0:0:0:0:80|h[Sanctified Lightsworn Battleplate]|h|r", -- [5]
+					"|cffa335ee|Hitem:51164:3832:3518:3879:0:0:0:0:80|h[Sanctified Lightsworn Battleplate]|h|r", -- [5]
 					"|cffa335ee|Hitem:50987:0:3518:3518:3518:0:0:0:80|h[Malevolent Girdle]|h|r", -- [6]
-					"|cffa335ee|Hitem:51161:3823:3879:3732:0:0:0:0:80|h[Sanctified Lightsworn Legplates]|h|r", -- [7]
+					"|cffa335ee|Hitem:51161:3823:3518:3732:0:0:0:0:80|h[Sanctified Lightsworn Legplates]|h|r", -- [7]
 					"|cffa335ee|Hitem:50071:0:3518:3518:0:0:0:0:80|h[Treads of the Wasteland]|h|r", -- [8]
 					"|cffa335ee|Hitem:51832:3845:3518:0:0:0:0:0:80|h[Taiga Bindings]|h|r", -- [9]
 					"|cffa335ee|Hitem:50037:1603:3518:3518:0:0:0:0:80|h[Fleshrending Gauntlets]|h|r", -- [10]
 					"|cffa335ee|Hitem:51855:0:3518:0:0:0:0:0:80|h[Thrice Fanged Signet]|h|r", -- [11]
 					"|cffa335ee|Hitem:52572:0:3518:0:0:0:0:0:80|h[Ashen Band of Endless Might]|h|r", -- [12]
 					50342, -- [13]
-					50351, -- [14]
+					50706, -- [14]
 					"|cffa335ee|Hitem:50019:1099:3518:0:0:0:0:0:80|h[Winding Sheet]|h|r", -- [15]
 					"|cffa335ee|Hitem:49888:3789:3732:3732:0:0:0:0:80|h[Shadow's Edge]|h|r", -- [16]
-					[18] = 50455,
+					[18] = 47661,
 					[19] = 5976,
 				},
+				["averageItemLvl"] = 265.25,
+				["lastUpdate"] = 1631322442,
+			},
+			["Default.Sin'Dorei.Doroteo"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:41158:3795:3628:3519:0:0:0:0:80|h[Relentless Gladiator's Chain Helm]|h|r", -- [1]
+					"|cffa335ee|Hitem:50452:0:3530:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r", -- [2]
+					"|cffa335ee|Hitem:41218:3793:3530:0:0:0:0:0:80|h[Relentless Gladiator's Chain Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:41088:3245:3519:3530:0:0:0:0:80|h[Relentless Gladiator's Chain Armor]|h|r", -- [5]
+					"|cffa335ee|Hitem:51350:3601:3535:3519:0:0:0:0:80|h[Wrathful Gladiator's Waistguard of Triumph]|h|r", -- [6]
+					"|cffa335ee|Hitem:50645:3823:3530:3530:3530:0:0:0:80|h[Leggings of Northern Lights]|h|r", -- [7]
+					"|cffa335ee|Hitem:51351:3606:3530:0:0:0:0:0:80|h[Wrathful Gladiator's Sabatons of Triumph]|h|r", -- [8]
+					"|cffa335ee|Hitem:50655:3845:3525:0:0:0:0:0:80|h[Scourge Hunter's Vambraces]|h|r", -- [9]
+					"|cffa335ee|Hitem:41144:0:3535:0:0:0:0:0:80|h[Relentless Gladiator's Chain Gauntlets]|h|r", -- [10]
+					"|cffa335ee|Hitem:50618:0:3525:0:0:0:0:0:80|h[Frostbrood Sapphire Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
+					50342, -- [13]
+					51377, -- [14]
+					"|cffa335ee|Hitem:51356:3605:0:0:0:0:0:0:80|h[Wrathful Gladiator's Cloak of Victory]|h|r", -- [15]
+					"|cffa335ee|Hitem:50672:3833:3535:0:0:0:0:0:80|h[Bloodvenom Blade]|h|r", -- [16]
+					"|cffa335ee|Hitem:50787:3731:0:0:0:0:0:0:80|h[Frost Giant's Cleaver]|h|r", -- [17]
+					"|cffa335ee|Hitem:50638:3608:3537:0:0:0:0:0:80|h[Zod's Repeating Longbow]|h|r", -- [18]
+				},
 				["averageItemLvl"] = 264,
-				["lastUpdate"] = 1614970655,
+				["lastUpdate"] = 1636155233,
+			},
+			["Default.Sin'dorei(WoWArg).Underclub"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51208:3820:3621:3545:0:0:0:0:80|h[Sanctified Dark Coven Hood]|h|r", -- [1]
+					"|cffa335ee|Hitem:50182:0:3563:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51205:3810:3563:0:0:0:0:0:80|h[Sanctified Dark Coven Shoulderpads]|h|r", -- [3]
+					4333, -- [4]
+					"|cffa335ee|Hitem:51206:3832:3520:3563:0:0:0:0:80|h[Sanctified Dark Coven Robe]|h|r", -- [5]
+					"|cffa335ee|Hitem:51930:0:3545:3563:0:0:0:0:80|h[Cord of the Patronizing Practitioner]|h|r", -- [6]
+					"|cffa335ee|Hitem:49891:3872:3520:3563:3545:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [7]
+					"|cffa335ee|Hitem:49890:3826:3520:3545:0:0:0:0:80|h[Deathfrost Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:49994:2332:3563:0:0:0:0:0:80|h[The Lady's Brittle Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:51209:3246:3520:0:0:0:0:0:80|h[Sanctified Dark Coven Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:50714:3840:3545:0:0:0:0:0:80|h[Valanar's Other Signet Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50398:3840:3563:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
+					47213, -- [13]
+					50360, -- [14]
+					"|cffa335ee|Hitem:51826:3722:3563:0:0:0:0:0:80|h[Lich Wrappings]|h|r", -- [15]
+					"|cffa335ee|Hitem:50725:3854:3531:3545:3563:0:0:0:80|h[Dying Light]|h|r", -- [16]
+					nil, -- [17]
+					"|cffa335ee|Hitem:51852:0:3563:0:0:0:0:0:80|h[Wand of Ruby Claret]|h|r", -- [18]
+				},
+				["averageItemLvl"] = 262.4375,
+				["lastUpdate"] = 1619151016,
 			},
 			["julianchin.WoWArg.Deadly"] = {
 				["guid"] = "00000000000CD889",
@@ -307,66 +356,66 @@ DataStore_InventoryDB = {
 					[3816] = "1:0",
 					[272] = "1:0",
 					[607] = "1:8",
-					[3848] = "1:0",
+					[850] = "1,4",
 					[604] = "1:0,2:0,3:0,4:0",
 					[1261] = "1:0",
 					[2417] = "1:0",
-					[213] = "1:0",
+					[587] = "1:0,2:0,3:0,4:0",
 					[200] = "1:0",
 					[4476] = "1:0",
 					[1723] = "1:0",
-					[39] = "1:0",
-					[3800] = "1:0",
-					[1193] = "1:0",
-					[7] = true,
+					[636] = true,
+					[504] = true,
+					[37] = "1:0",
 					[513] = "1:2",
+					[768] = true,
 					[545] = true,
 					[1151] = "1:0",
 					[2933] = "1:0",
 					[1789] = "1:0",
-					[583] = "1:0,2:0",
+					[40] = "1:0",
 					[705] = "1:0,2:0,3:0,4:31,5:0,6:0,7:0,8:149,9:1,10:0,11:0,12:0,13:3,14:186,15:0",
 					[2935] = "1:0",
 					[769] = true,
 					[546] = true,
-					[948] = "1:15086,2:9594,3:28528,4:11482,5:11818",
-					[34] = "1:0",
+					[9] = true,
+					[36] = "1:0",
 					[1281] = "1:0",
 					[116] = true,
 					[2556] = "1,12,13,15",
-					[1190] = "1:0",
+					[221] = "1:0",
 					[770] = "3,4,5",
 					[137] = "1:0",
-					[1761] = "1:0",
-					[1189] = "1:0",
+					[388] = "1:0",
+					[246] = "1,3",
 					[1283] = "8,9",
 					[3855] = "1:0",
-					[3097] = "1:0",
-					[1832] = "1:17",
-					[1012] = "1:0",
-					[503] = true,
-					[1764] = "1:0",
-					[42] = "12,15",
-					[1795] = "1:11",
-					[2924] = "1:0",
-					[3003] = "1:0",
 					[1556] = "1:0",
+					[3003] = "1:0",
+					[2924] = "1:0",
+					[503] = true,
+					[42] = "12,15",
+					[1764] = "1:0",
+					[1795] = "1:11",
+					[1012] = "1:0",
+					[1832] = "1:17",
+					[3097] = "1:0",
 					[772] = "1,2,3,4,5,6,7,8,9,10,11",
-					[246] = "1,3",
-					[388] = "1:0",
-					[221] = "1:0",
-					[36] = "1:0",
-					[9] = true,
-					[40] = "1:0",
-					[768] = true,
-					[37] = "1:0",
-					[504] = true,
-					[636] = true,
+					[1189] = "1:0",
+					[1761] = "1:0",
+					[1190] = "1:0",
+					[34] = "1:0",
+					[948] = "1:15086,2:9594,3:28528,4:11482,5:11818",
+					[583] = "1:0,2:0",
+					[7] = true,
+					[1193] = "1:0",
+					[3800] = "1:0",
+					[39] = "1:0",
 					[2188] = "1:0",
-					[587] = "1:0,2:0,3:0,4:0",
+					[213] = "1:0",
 					[2189] = "1:0",
 					[1162] = "1:0",
-					[850] = "1,4",
+					[3848] = "1:0",
 				},
 				["CompletionDates"] = {
 					[7] = "10:12:15",
@@ -379,115 +428,125 @@ DataStore_InventoryDB = {
 					[545] = "12:9:18",
 					[116] = "9:1:15",
 					[889] = "3:18:19",
-					[855] = "2:24:16",
-					[238] = "3:18:19",
-					[1017] = "11:19:15",
+					[605] = "2:24:16",
+					[636] = "8:25:18",
+					[769] = "10:15:15",
 					[891] = "11:18:15",
 					[6] = "8:29:15",
 					[768] = "8:22:18",
 					[546] = "9:19:18",
-					[769] = "10:15:15",
-					[636] = "8:25:18",
-					[605] = "2:24:16",
+					[1017] = "11:19:15",
+					[238] = "3:18:19",
+					[855] = "2:24:16",
 				},
 				["numCompletedAchievements"] = 20,
 				["numAchievements"] = 1058,
 			},
-			["Default.WoWArg.Eldorath"] = {
+			["Default.Sin'dorei(WoWArg).Doroteo"] = {
 				["Inventory"] = {
-					2623, -- [1]
-					5003, -- [2]
-					nil, -- [3]
-					53, -- [4]
-					nil, -- [5]
-					6418, -- [6]
-					"|cff1eff00|Hitem:14207:0:0:0:0:0:861:0:43|h[Vital Leggings of the Eagle]|h|r", -- [7]
-					15398, -- [8]
-					9448, -- [9]
-					4040, -- [10]
-					5011, -- [11]
-					33262, -- [12]
-					[15] = 33260,
-					[18] = 5214,
-				},
-				["averageItemLvl"] = 34.18181818181818,
-				["lastUpdate"] = 1597444390,
-			},
-			["julianchin.WoWArg.Draenoric"] = {
-				["Inventory"] = {
-					"|cffa335ee|Hitem:50326:3817:3621:3518:0:0:0:0:80|h[Casco juraluz]|h|r", -- [1]
-					"|cffa335ee|Hitem:50452:0:3549:0:0:0:0:0:80|h[Collar de la suerte de Wodin]|h|r", -- [2]
-					"|cffa335ee|Hitem:50324:3808:3518:0:0:0:0:0:80|h[Hombreras de placas juraluz]|h|r", -- [3]
+					"|cffa335ee|Hitem:51153:3817:3628:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Headpiece]|h|r", -- [1]
+					45820, -- [2]
+					"|cffa335ee|Hitem:51151:3808:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Spaulders]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:50328:0:3518:3518:0:0:0:0:80|h[Placa de batalla juraluz]|h|r", -- [5]
-					"|cffa335ee|Hitem:50987:0:3518:3518:0:0:0:0:80|h[Faja malévola]|h|r", -- [6]
-					"|cffa335ee|Hitem:51161:3823:3879:3536:0:0:0:0:80|h[Quijotes juraluz santificados]|h|r", -- [7]
-					50812, -- [8]
-					51364, -- [9]
-					"|cffa335ee|Hitem:50777:1603:3518:3518:0:0:0:0:80|h[Lúas de escarcha y granizo]|h|r", -- [10]
-					"|cffa335ee|Hitem:50453:0:3518:0:0:0:0:0:80|h[Anillo de tendones podridos]|h|r", -- [11]
-					"|cffa335ee|Hitem:52572:0:3549:0:0:0:0:0:80|h[Sortija Cinérea de poderío infinito]|h|r", -- [12]
+					"|cffa335ee|Hitem:51150:3832:3525:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50688:0:3525:3525:3525:0:0:0:80|h[Nerub'ar Stalker's Cord]|h|r", -- [6]
+					"|cffa335ee|Hitem:50645:3823:3525:3525:3525:0:0:0:80|h[Leggings of Northern Lights]|h|r", -- [7]
+					"|cffa335ee|Hitem:50607:3606:3525:3525:0:0:0:0:80|h[Frostbitten Fur Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:50655:3845:3525:0:0:0:0:0:80|h[Scourge Hunter's Vambraces]|h|r", -- [9]
+					"|cffa335ee|Hitem:51154:3604:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:50618:0:3525:0:0:0:0:0:80|h[Frostbrood Sapphire Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
 					50342, -- [13]
-					40684, -- [14]
-					"|cffa335ee|Hitem:50791:0:3518:0:0:0:0:0:80|h[Capa de gárgola de saronita]|h|r", -- [15]
-					"|cffa335ee|Hitem:51562:0:3518:3518:0:0:0:0:80|h[Corazón de buey]|h|r", -- [16]
-					[18] = 50455,
-					[19] = 20132,
+					50363, -- [14]
+					"|cffa335ee|Hitem:50470:3730:3879:0:0:0:0:0:80|h[Recovered Scarlet Onslaught Cape]|h|r", -- [15]
+					"|cffa335ee|Hitem:51022:3827:3525:3525:0:0:0:0:80|h[Hersir's Greatspear]|h|r", -- [16]
+					[18] = "|cffa335ee|Hitem:51927:3608:3525:0:0:0:0:0:80|h[Njorndar Bone Bow]|h|r",
 				},
-				["averageItemLvl"] = 254.3125,
-				["lastUpdate"] = 1555176673,
+				["averageItemLvl"] = 265.6875,
+				["lastUpdate"] = 1619112322,
+			},
+			["Default.WoWArg.Underclub"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51208:3820:3621:3545:0:0:0:0:80|h[Sanctified Dark Coven Hood]|h|r", -- [1]
+					"|cffa335ee|Hitem:50182:0:3563:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51205:3810:3563:0:0:0:0:0:80|h[Sanctified Dark Coven Shoulderpads]|h|r", -- [3]
+					4333, -- [4]
+					"|cffa335ee|Hitem:51206:3832:3520:3563:0:0:0:0:80|h[Sanctified Dark Coven Robe]|h|r", -- [5]
+					"|cffa335ee|Hitem:51930:0:3545:3563:0:0:0:0:80|h[Cord of the Patronizing Practitioner]|h|r", -- [6]
+					"|cffa335ee|Hitem:49891:3872:3520:3563:3545:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [7]
+					"|cffa335ee|Hitem:49890:3826:3520:3545:0:0:0:0:80|h[Deathfrost Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:50651:2332:3531:0:0:0:0:0:80|h[The Lady's Brittle Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:51209:3246:3520:0:0:0:0:0:80|h[Sanctified Dark Coven Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:50714:3840:3545:0:0:0:0:0:80|h[Valanar's Other Signet Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50398:3840:3563:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
+					47213, -- [13]
+					50360, -- [14]
+					"|cffa335ee|Hitem:51826:3722:3563:0:0:0:0:0:80|h[Lich Wrappings]|h|r", -- [15]
+					"|cffa335ee|Hitem:50725:3854:3531:3545:3563:0:0:0:80|h[Dying Light]|h|r", -- [16]
+					nil, -- [17]
+					"|cffa335ee|Hitem:51852:0:3563:0:0:0:0:0:80|h[Wand of Ruby Claret]|h|r", -- [18]
+				},
+				["averageItemLvl"] = 263.25,
+				["lastUpdate"] = 1650612573,
 			},
 			["julianchin.WoWArg.Doroteo"] = {
 				["numFreeBankSlots"] = 89,
 				["numBankSlots"] = 188,
 				["lastUpdate"] = 1555397724,
 				["numFreeBagSlots"] = 69,
+				["numBagSlots"] = 98,
 				["Containers"] = {
 					["Bag10"] = {
 						["link"] = "|cff0070dd|Hitem:23775:0:0:0:0:0:0:0:80|h[Caja de herramientas de titanio]|h|r",
 						["links"] = {
 						},
-						["size"] = 32,
-						["icon"] = "Interface\\Icons\\INV_Misc_EngGizmos_19",
+						["freeslots"] = 24,
+						["counts"] = {
+							[26] = 3,
+							[32] = 4,
+							[31] = 20,
+						},
 						["bagtype"] = 128,
 						["cooldowns"] = {
 						},
 						["ids"] = {
 							[26] = 10561,
 							[23] = 44951,
-							[32] = 42546,
 							[24] = 44951,
+							[31] = 42546,
 							[21] = 44951,
 							[25] = 44951,
 							[22] = 44951,
-							[31] = 42546,
+							[32] = 42546,
 						},
-						["counts"] = {
-							[26] = 3,
-							[32] = 4,
-							[31] = 20,
-						},
-						["freeslots"] = 24,
-					},
-					["Bag-2"] = {
+						["icon"] = "Interface\\Icons\\INV_Misc_EngGizmos_19",
 						["size"] = 32,
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["links"] = {
-						},
+					},
+					["Bag100"] = {
+						["freeslots"] = 20,
+						["bagtype"] = 0,
 						["ids"] = {
-							6893, -- [1]
-							9249, -- [2]
-							11078, -- [3]
-							11140, -- [4]
-							42482, -- [5]
+							51903, -- [1]
+							nil, -- [2]
+							50038, -- [3]
+							50787, -- [4]
+							50759, -- [5]
+							47233, -- [6]
+							48254, -- [7]
+							[9] = 50792,
+							[10] = 50777,
 						},
 						["cooldowns"] = {
 						},
-						["bagtype"] = 0,
+						["size"] = 28,
 						["counts"] = {
-							[3] = 14,
 						},
-						["freeslots"] = 0,
+						["links"] = {
+							[10] = "|cffa335ee|Hitem:50777:3222:3525:3525:0:0:0:0:80|h[Lúas de escarcha y granizo]|h|r",
+							[3] = "|cffa335ee|Hitem:50038:3832:3525:3525:3525:0:0:0:80|h[Caparazón de reyes olvidados]|h|r",
+							[6] = "|cffa335ee|Hitem:47233:0:3519:0:0:0:0:0:80|h[Guja de arconte]|h|r",
+							[7] = "|cffa335ee|Hitem:48254:3222:3519:0:0:0:0:0:80|h[Manoplas de conquista de Brisaveloz]|h|r",
+						},
 					},
 					["Bag8"] = {
 						["ids"] = {
@@ -515,7 +574,12 @@ DataStore_InventoryDB = {
 						["links"] = {
 							[8] = "|cffe6cc80|Hitem:42946:3608:0:0:0:0:0:0:80|h[Arco de hueso antiguo encantado]|h|r",
 						},
-						["size"] = 20,
+						["freeslots"] = 0,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
+						["bagtype"] = 0,
+						["cooldowns"] = {
+						},
+						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:0:80|h[Bolsa nueva de Papá]|h|r",
 						["counts"] = {
 							7, -- [1]
 							5, -- [2]
@@ -529,37 +593,34 @@ DataStore_InventoryDB = {
 							[18] = 7,
 							[13] = 2,
 						},
-						["bagtype"] = 0,
-						["cooldowns"] = {
-						},
-						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:0:80|h[Bolsa nueva de Papá]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
-						["freeslots"] = 0,
+						["size"] = 20,
 					},
-					["Bag0"] = {
-						["size"] = 16,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["freeslots"] = 16,
-						["ids"] = {
+					["Bag-2"] = {
+						["freeslots"] = 0,
+						["counts"] = {
+							[3] = 14,
 						},
-						["cooldowns"] = {
+						["ids"] = {
+							6893, -- [1]
+							9249, -- [2]
+							11078, -- [3]
+							11140, -- [4]
+							42482, -- [5]
 						},
 						["bagtype"] = 0,
-						["counts"] = {
+						["cooldowns"] = {
 						},
 						["links"] = {
 						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+						["size"] = 32,
 					},
 					["Bag3"] = {
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
 						["links"] = {
 						},
-						["freeslots"] = 11,
-						["counts"] = {
-							[4] = 176,
-							[5] = 1000,
-							[6] = 278,
-						},
+						["size"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
@@ -574,85 +635,50 @@ DataStore_InventoryDB = {
 							[5] = 52021,
 							[17] = 41611,
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["size"] = 20,
+						["counts"] = {
+							[4] = 176,
+							[5] = 1000,
+							[6] = 278,
+						},
+						["freeslots"] = 11,
 					},
-					["Bag7"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+					["Bag1"] = {
+						["ids"] = {
+						},
 						["links"] = {
 						},
-						["freeslots"] = 7,
+						["size"] = 22,
 						["counts"] = {
-							[12] = 1000,
-							[13] = 1000,
-							[14] = 1000,
-							[7] = 20,
-							[15] = 1000,
-							[8] = 12,
-							[18] = 1000,
-							[19] = 1000,
-							[10] = 1000,
-							[9] = 1000,
-							[11] = 1000,
-							[16] = 1000,
 						},
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
-						["ids"] = {
-							[12] = 41164,
-							[13] = 41165,
-							[14] = 41165,
-							[7] = 33470,
-							[15] = 41165,
-							[8] = 33470,
-							[17] = 50444,
-							[9] = 41164,
-							[19] = 52020,
-							[10] = 41164,
-							[18] = 52020,
-							[11] = 41164,
-							[16] = 41165,
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["size"] = 20,
+						["link"] = "|cffa335ee|Hitem:50316:0:0:0:0:0:0:0:80|h[Bolsa novísima de Papá]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
+						["freeslots"] = 22,
 					},
 					["Bag5"] = {
 						["ids"] = {
 						},
 						["links"] = {
 						},
-						["freeslots"] = 16,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
+						["size"] = 16,
+						["counts"] = {
+						},
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
 						["link"] = "|cff1eff00|Hitem:4500:0:0:0:0:0:0:0:80|h[Mochila de viajero]|h|r",
-						["counts"] = {
-						},
-						["size"] = 16,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_08",
+						["freeslots"] = 16,
 					},
 					["Bag4"] = {
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
 						["links"] = {
 							[2] = "|cffa335ee|Hitem:51356:3605:0:0:0:0:0:0:80|h[Capa de victoria de Gladiador colérico]|h|r",
 						},
-						["size"] = 20,
-						["counts"] = {
-							nil, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							6, -- [4]
-							7, -- [5]
-							16, -- [6]
-							20, -- [7]
-							11, -- [8]
-							7, -- [9]
-							13, -- [10]
-							13, -- [11]
-							17, -- [12]
-							[19] = 10,
-						},
+						["freeslots"] = 0,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
@@ -678,72 +704,100 @@ DataStore_InventoryDB = {
 							35627, -- [19]
 							6948, -- [20]
 						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["freeslots"] = 0,
-					},
-					["Bag100"] = {
-						["links"] = {
-							[10] = "|cffa335ee|Hitem:50777:3222:3525:3525:0:0:0:0:80|h[Lúas de escarcha y granizo]|h|r",
-							[7] = "|cffa335ee|Hitem:48254:3222:3519:0:0:0:0:0:80|h[Manoplas de conquista de Brisaveloz]|h|r",
-							[3] = "|cffa335ee|Hitem:50038:3832:3525:3525:3525:0:0:0:80|h[Caparazón de reyes olvidados]|h|r",
-							[6] = "|cffa335ee|Hitem:47233:0:3519:0:0:0:0:0:80|h[Guja de arconte]|h|r",
-						},
-						["ids"] = {
-							51903, -- [1]
+						["counts"] = {
+							nil, -- [1]
 							nil, -- [2]
-							50038, -- [3]
-							50787, -- [4]
-							50759, -- [5]
-							47233, -- [6]
-							48254, -- [7]
-							[9] = 50792,
-							[10] = 50777,
+							nil, -- [3]
+							6, -- [4]
+							7, -- [5]
+							16, -- [6]
+							20, -- [7]
+							11, -- [8]
+							7, -- [9]
+							13, -- [10]
+							13, -- [11]
+							17, -- [12]
+							[19] = 10,
 						},
-						["bagtype"] = 0,
-						["cooldowns"] = {
-						},
-						["size"] = 28,
-						["counts"] = {
-						},
-						["freeslots"] = 20,
+						["size"] = 20,
 					},
-					["Bag1"] = {
-						["ids"] = {
-						},
+					["Bag0"] = {
 						["links"] = {
 						},
-						["freeslots"] = 22,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
+						["counts"] = {
+						},
+						["ids"] = {
+						},
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
-						["link"] = "|cffa335ee|Hitem:50316:0:0:0:0:0:0:0:80|h[Bolsa novísima de Papá]|h|r",
-						["counts"] = {
+						["freeslots"] = 16,
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+					},
+					["Bag7"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["links"] = {
 						},
-						["size"] = 22,
+						["size"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["bagtype"] = 0,
+						["cooldowns"] = {
+						},
+						["ids"] = {
+							[12] = 41164,
+							[13] = 41165,
+							[14] = 41165,
+							[7] = 33470,
+							[15] = 41165,
+							[8] = 33470,
+							[17] = 50444,
+							[9] = 41164,
+							[19] = 52020,
+							[10] = 41164,
+							[16] = 41165,
+							[11] = 41164,
+							[18] = 52020,
+						},
+						["counts"] = {
+							[12] = 1000,
+							[13] = 1000,
+							[14] = 1000,
+							[7] = 20,
+							[15] = 1000,
+							[8] = 12,
+							[18] = 1000,
+							[19] = 1000,
+							[10] = 1000,
+							[16] = 1000,
+							[11] = 1000,
+							[9] = 1000,
+						},
+						["freeslots"] = 7,
 					},
 					["Bag2"] = {
 						["ids"] = {
 						},
 						["links"] = {
 						},
-						["freeslots"] = 20,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["counts"] = {
+						},
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
-						["counts"] = {
-						},
-						["size"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["freeslots"] = 20,
 					},
 					["Bag9"] = {
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
 						["links"] = {
 							[14] = "|cff1eff00|Hitem:25161:0:0:0:0:0:-41:44:80|h[Hoja de ala de dragón de la bestia]|h|r",
 						},
-						["size"] = 20,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["freeslots"] = 2,
+						["counts"] = {
+						},
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
@@ -769,16 +823,48 @@ DataStore_InventoryDB = {
 							29762, -- [19]
 							29765, -- [20]
 						},
-						["counts"] = {
-						},
-						["freeslots"] = 2,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
 					},
 					["Bag11"] = {
 						["link"] = "|cff0070dd|Hitem:23775:0:0:0:0:0:0:0:80|h[Caja de herramientas de titanio]|h|r",
 						["links"] = {
 						},
-						["size"] = 32,
-						["icon"] = "Interface\\Icons\\INV_Misc_EngGizmos_19",
+						["freeslots"] = 0,
+						["counts"] = {
+							5, -- [1]
+							5, -- [2]
+							7, -- [3]
+							3, -- [4]
+							15, -- [5]
+							9, -- [6]
+							2, -- [7]
+							4, -- [8]
+							14, -- [9]
+							11, -- [10]
+							10, -- [11]
+							10, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							20, -- [15]
+							20, -- [16]
+							nil, -- [17]
+							10, -- [18]
+							nil, -- [19]
+							5, -- [20]
+							20, -- [21]
+							20, -- [22]
+							20, -- [23]
+							7, -- [24]
+							4, -- [25]
+							4, -- [26]
+							5, -- [27]
+							19, -- [28]
+							7, -- [29]
+							9, -- [30]
+							20, -- [31]
+							15, -- [32]
+						},
 						["bagtype"] = 128,
 						["cooldowns"] = {
 						},
@@ -816,85 +902,51 @@ DataStore_InventoryDB = {
 							23768, -- [31]
 							23768, -- [32]
 						},
-						["counts"] = {
-							5, -- [1]
-							5, -- [2]
-							7, -- [3]
-							3, -- [4]
-							15, -- [5]
-							9, -- [6]
-							2, -- [7]
-							4, -- [8]
-							14, -- [9]
-							11, -- [10]
-							10, -- [11]
-							10, -- [12]
-							nil, -- [13]
-							nil, -- [14]
-							20, -- [15]
-							20, -- [16]
-							nil, -- [17]
-							10, -- [18]
-							nil, -- [19]
-							5, -- [20]
-							20, -- [21]
-							20, -- [22]
-							20, -- [23]
-							7, -- [24]
-							4, -- [25]
-							4, -- [26]
-							5, -- [27]
-							19, -- [28]
-							7, -- [29]
-							9, -- [30]
-							20, -- [31]
-							15, -- [32]
-						},
-						["freeslots"] = 0,
+						["icon"] = "Interface\\Icons\\INV_Misc_EngGizmos_19",
+						["size"] = 32,
 					},
 					["Bag6"] = {
 						["ids"] = {
 						},
 						["links"] = {
 						},
-						["freeslots"] = 20,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
+						["counts"] = {
+						},
 						["bagtype"] = 0,
 						["cooldowns"] = {
 						},
 						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
-						["counts"] = {
-						},
-						["size"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["freeslots"] = 20,
 					},
 				},
-				["numBagSlots"] = 98,
 			},
-			["Default.Sin'Dorei.Doroteo"] = {
+			["Default.Sin'dorei(WoWArg).Subjected"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51286:3817:3628:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Headpiece]|h|r", -- [1]
-					45820, -- [2]
-					"|cffa335ee|Hitem:51288:3808:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Spaulders]|h|r", -- [3]
+					"|cffa335ee|Hitem:51187:3817:3628:3525:0:0:0:0:80|h[Sanctified Shadowblade Helmet]|h|r", -- [1]
+					"|cffa335ee|Hitem:50421:0:3525:0:0:0:0:0:80|h[Sindragosa's Cruel Claw]|h|r", -- [2]
+					"|cffa335ee|Hitem:51185:3808:3525:0:0:0:0:0:80|h[Sanctified Shadowblade Pauldrons]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51289:3832:3525:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Tunic]|h|r", -- [5]
-					"|cffa335ee|Hitem:50688:0:3525:3525:3525:0:0:0:80|h[Nerub'ar Stalker's Cord]|h|r", -- [6]
-					"|cffa335ee|Hitem:50645:3823:3525:3525:3525:0:0:0:80|h[Leggings of Northern Lights]|h|r", -- [7]
-					"|cffa335ee|Hitem:50607:3606:3525:3525:0:0:0:0:80|h[Frostbitten Fur Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:50655:3845:3525:0:0:0:0:0:80|h[Scourge Hunter's Vambraces]|h|r", -- [9]
-					"|cffa335ee|Hitem:51285:3604:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:50618:0:3525:0:0:0:0:0:80|h[Frostbrood Sapphire Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50087:3832:3525:3525:0:0:0:0:80|h[Shadowblade Breastplate]|h|r", -- [5]
+					"|cffa335ee|Hitem:50995:0:3525:3525:3525:0:0:0:80|h[Vengeful Noose]|h|r", -- [6]
+					"|cffa335ee|Hitem:51186:3823:3525:3879:0:0:0:0:80|h[Sanctified Shadowblade Legplates]|h|r", -- [7]
+					"|cffa335ee|Hitem:50308:3826:0:0:0:0:0:0:80|h[Blighted Leather Footpads]|h|r", -- [8]
+					"|cffa335ee|Hitem:50264:3845:0:0:0:0:0:0:80|h[Chewed Leather Wristguards]|h|r", -- [9]
+					"|cffa335ee|Hitem:48222:3604:3525:0:0:0:0:0:80|h[VanCleef's Gauntlets of Conquest]|h|r", -- [10]
+					47730, -- [11]
 					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
-					50342, -- [13]
-					50363, -- [14]
-					"|cffa335ee|Hitem:50470:3730:3879:0:0:0:0:0:80|h[Recovered Scarlet Onslaught Cape]|h|r", -- [15]
-					"|cffa335ee|Hitem:50735:3827:3525:3525:3525:0:0:0:80|h[Oathbinder, Charge of the Ranger-General]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:51927:3608:3525:0:0:0:0:0:80|h[Njorndar Bone Bow]|h|r",
-					[19] = 5976,
+					40684, -- [13]
+					50355, -- [14]
+					50470, -- [15]
+					"|cffa335ee|Hitem:50412:3789:0:0:0:0:0:0:80|h[Bloodvenom Blade]|h|r", -- [16]
+					"|cffa335ee|Hitem:50411:3789:0:0:0:0:0:0:80|h[Scourgeborne Waraxe]|h|r", -- [17]
+					47659, -- [18]
 				},
-				["averageItemLvl"] = 271,
-				["lastUpdate"] = 1635906310,
+				["averageItemLvl"] = 252.3529411764706,
+				["lastUpdate"] = 1619197612,
 			},
-			["Default.Sin'Dorei.Draenoric"] = {
+			["Default.Sin'dorei(WoWArg).Draenoric"] = {
 				["Inventory"] = {
 					"|cffa335ee|Hitem:51162:3817:3628:3518:0:0:0:0:80|h[Sanctified Lightsworn Helmet]|h|r", -- [1]
 					"|cffa335ee|Hitem:50452:0:3518:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r", -- [2]
@@ -916,55 +968,116 @@ DataStore_InventoryDB = {
 					[19] = 5976,
 				},
 				["averageItemLvl"] = 264,
-				["lastUpdate"] = 1625361677,
+				["lastUpdate"] = 1619111108,
 			},
-			["Default.WoWArg.Microwave"] = {
+			["Default.Kel'Thuzad.Skombrow"] = {
 				["Inventory"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					49, -- [4]
-					60, -- [5]
-					2186, -- [6]
-					2958, -- [7]
-					1173, -- [8]
-					6070, -- [9]
-					1422, -- [10]
-					nil, -- [11]
-					nil, -- [12]
-					nil, -- [13]
-					nil, -- [14]
-					11475, -- [15]
-					2224, -- [16]
-					50055, -- [17]
-					28979, -- [18]
+					[5] = "|cff1eff00|Hitem:15010:0:0:0:0:0:754:0:7|h[Primal Wraps of the Owl]|h|r",
+					[6] = 6058,
+					[7] = 5398,
+					[16] = 5393,
+					[8] = 1419,
+					[10] = 5394,
 				},
-				["averageItemLvl"] = 5.6,
-				["lastUpdate"] = 1573337471,
+				["averageItemLvl"] = 6.5,
+				["lastUpdate"] = 1619377780,
+			},
+			["Default.WoWArg.Skombrow"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51290:3820:3621:3520:0:0:0:0:80|h[Sanctified Lasherweave Cover]|h|r", -- [1]
+					"|cffa335ee|Hitem:50182:0:3559:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51292:3810:3520:0:0:0:0:0:80|h[Sanctified Lasherweave Mantle]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:51294:3832:3520:3559:0:0:0:0:80|h[Sanctified Lasherweave Vestment]|h|r", -- [5]
+					"|cffa335ee|Hitem:50613:0:3545:3520:3520:0:0:0:80|h[Crushing Coldwraith Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:51293:3719:3520:3527:0:0:0:0:80|h[Sanctified Lasherweave Trousers]|h|r", -- [7]
+					"|cffa335ee|Hitem:50699:3826:3545:3520:0:0:0:0:80|h[Plague Scientist's Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:54584:3758:3520:0:0:0:0:0:80|h[Phaseshifter's Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:51291:3246:3520:0:0:0:0:0:80|h[Sanctified Lasherweave Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:50614:0:3545:0:0:0:0:0:80|h[Loop of the Endless Labyrinth]|h|r", -- [11]
+					"|cffa335ee|Hitem:50398:0:3559:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
+					50365, -- [13]
+					50348, -- [14]
+					"|cffa335ee|Hitem:54583:3831:3520:0:0:0:0:0:80|h[Cloak of Burning Dusk]|h|r", -- [15]
+					"|cffa335ee|Hitem:50734:3834:3520:0:0:0:0:0:80|h[Royal Scepter of Terenas II]|h|r", -- [16]
+					50719, -- [17]
+					50457, -- [18]
+				},
+				["averageItemLvl"] = 276.7058823529412,
+				["lastUpdate"] = 1650612494,
+			},
+			["Default.Sin'Dorei.Fjaak"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:48429:0:3637:3524:0:0:0:0:80|h[Wrynn's Greathelm of Conquest]|h|r", -- [1]
+					51806, -- [2]
+					50234, -- [3]
+					38, -- [4]
+					"|cffa335ee|Hitem:48436:0:0:3532:0:0:0:0:80|h[Wrynn's Breastplate of Conquest]|h|r", -- [5]
+					51564, -- [6]
+					"|cffa335ee|Hitem:49903:3823:3525:3525:3525:0:0:0:80|h[Legplates of Painful Death]|h|r", -- [7]
+					"|cffa335ee|Hitem:49906:1597:3525:3879:0:0:0:0:80|h[Hellfrozen Bonegrinders]|h|r", -- [8]
+					45283, -- [9]
+					"|cffa335ee|Hitem:51217:0:3529:0:0:0:0:0:80|h[Sanctified Ymirjar Lord's Handguards]|h|r", -- [10]
+					37257, -- [11]
+					"|cffa335ee|Hitem:50447:0:3529:0:0:0:0:0:80|h[Harbinger's Bone Band]|h|r", -- [12]
+					50235, -- [13]
+					40684, -- [14]
+					"|cffa335ee|Hitem:50764:1099:3525:0:0:0:0:0:80|h[Shawl of Nerubian Silk]|h|r", -- [15]
+					50191, -- [16]
+					43085, -- [17]
+					50444, -- [18]
+					5976, -- [19]
+				},
+				["averageItemLvl"] = 236.8823529411765,
+				["lastUpdate"] = 1638921734,
+			},
+			["julianchin.WoWArg.Draenoric"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:50326:3817:3621:3518:0:0:0:0:80|h[Casco juraluz]|h|r", -- [1]
+					"|cffa335ee|Hitem:50452:0:3549:0:0:0:0:0:80|h[Collar de la suerte de Wodin]|h|r", -- [2]
+					"|cffa335ee|Hitem:50324:3808:3518:0:0:0:0:0:80|h[Hombreras de placas juraluz]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:50328:0:3518:3518:0:0:0:0:80|h[Placa de batalla juraluz]|h|r", -- [5]
+					"|cffa335ee|Hitem:50987:0:3518:3518:0:0:0:0:80|h[Faja malévola]|h|r", -- [6]
+					"|cffa335ee|Hitem:51161:3823:3879:3536:0:0:0:0:80|h[Quijotes juraluz santificados]|h|r", -- [7]
+					50812, -- [8]
+					51364, -- [9]
+					"|cffa335ee|Hitem:50777:1603:3518:3518:0:0:0:0:80|h[Lúas de escarcha y granizo]|h|r", -- [10]
+					"|cffa335ee|Hitem:50453:0:3518:0:0:0:0:0:80|h[Anillo de tendones podridos]|h|r", -- [11]
+					"|cffa335ee|Hitem:52572:0:3549:0:0:0:0:0:80|h[Sortija Cinérea de poderío infinito]|h|r", -- [12]
+					50342, -- [13]
+					40684, -- [14]
+					"|cffa335ee|Hitem:50791:0:3518:0:0:0:0:0:80|h[Capa de gárgola de saronita]|h|r", -- [15]
+					"|cffa335ee|Hitem:51562:0:3518:3518:0:0:0:0:80|h[Corazón de buey]|h|r", -- [16]
+					[18] = 50455,
+					[19] = 20132,
+				},
+				["averageItemLvl"] = 254.3125,
+				["lastUpdate"] = 1555176673,
 			},
 			["Default.WoWArg.Snts"] = {
 				["Inventory"] = {
-					48472, -- [1]
-					51357, -- [2]
-					"|cffa335ee|Hitem:40868:3852:3518:0:0:0:0:0:80|h[Furious Gladiator's Dreadplate Shoulders]|h|r", -- [3]
-					52019, -- [4]
-					50272, -- [5]
-					"|cffa335ee|Hitem:40881:0:3518:3879:0:0:0:0:80|h[Furious Gladiator's Girdle of Triumph]|h|r", -- [6]
-					48476, -- [7]
+					"|cffa335ee|Hitem:48529:3818:3637:3529:0:0:0:0:80|h[Thassarian's Faceguard of Conquest]|h|r", -- [1]
+					50195, -- [2]
+					"|cffa335ee|Hitem:51383:3811:3532:3532:0:0:0:0:80|h[Spaulders of the Blood Princes]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:50857:3832:3536:3532:0:0:0:0:80|h[Scourgelord Chestguard]|h|r", -- [5]
+					47711, -- [6]
+					"|cffa335ee|Hitem:50854:0:3532:3532:0:0:0:0:80|h[Scourgelord Legguards]|h|r", -- [7]
 					"|cffa335ee|Hitem:40882:1597:3518:0:0:0:0:0:80|h[Furious Gladiator's Greaves of Triumph]|h|r", -- [8]
 					40890, -- [9]
-					"|cffa335ee|Hitem:40809:1603:3518:0:0:0:0:0:80|h[Furious Gladiator's Dreadplate Gauntlets]|h|r", -- [10]
-					51358, -- [11]
+					"|cffa335ee|Hitem:50856:3253:3529:0:0:0:0:0:80|h[Scourgelord Handguards]|h|r", -- [10]
+					50403, -- [11]
 					"|cffa335ee|Hitem:50447:0:3532:0:0:0:0:0:80|h[Harbinger's Bone Band]|h|r", -- [12]
-					49074, -- [13]
-					43838, -- [14]
-					51356, -- [15]
+					50235, -- [13]
+					42129, -- [14]
+					"|cffa335ee|Hitem:50859:0:3532:0:0:0:0:0:80|h[Cloak of Many Skins]|h|r", -- [15]
 					"|cffa335ee|Hitem:51562:3847:3532:3532:0:0:0:0:80|h[Oxheart]|h|r", -- [16]
 					[18] = 47673,
 					[19] = 5976,
 				},
-				["averageItemLvl"] = 236.4375,
-				["lastUpdate"] = 1614970580,
+				["averageItemLvl"] = 245.4375,
+				["lastUpdate"] = 1648174074,
 			},
 			["Default.Sin'Dorei.Skombrow"] = {
 				["Inventory"] = {
@@ -988,109 +1101,141 @@ DataStore_InventoryDB = {
 					50457, -- [18]
 				},
 				["averageItemLvl"] = 276.7058823529412,
-				["lastUpdate"] = 1637286301,
+				["lastUpdate"] = 1646613239,
 			},
-			["Default.Bennu.Skombrow"] = {
+			["Default.Sin'dorei(WoWArg).Fjaak"] = {
 				["Inventory"] = {
-					[7] = 6124,
-					[5] = 6123,
-					[16] = 3661,
+					"|cffa335ee|Hitem:50080:3817:3628:3525:0:0:0:0:80|h[Ymirjar Lord's Helmet]|h|r", -- [1]
+					"|cffa335ee|Hitem:50452:0:3525:0:0:0:0:0:80|h[Wodin's Lucky Necklace]|h|r", -- [2]
+					"|cffa335ee|Hitem:50082:3808:3524:0:0:0:0:0:80|h[Ymirjar Lord's Shoulderplates]|h|r", -- [3]
+					38, -- [4]
+					"|cffa335ee|Hitem:50078:3832:3525:3525:0:0:0:0:80|h[Ymirjar Lord's Battleplate]|h|r", -- [5]
+					45829, -- [6]
+					"|cffa335ee|Hitem:49903:3823:3525:3525:3525:0:0:0:80|h[Legplates of Painful Death]|h|r", -- [7]
+					"|cffa335ee|Hitem:49906:1597:3525:3879:0:0:0:0:80|h[Hellfrozen Bonegrinders]|h|r", -- [8]
+					"|cffa335ee|Hitem:45301:3231:0:0:0:0:0:0:80|h[Bracers of the Smothering Inferno]|h|r", -- [9]
+					"|cffa335ee|Hitem:51213:0:3525:0:0:0:0:0:80|h[Sanctified Ymirjar Lord's Gauntlets]|h|r", -- [10]
+					52571, -- [11]
+					47730, -- [12]
+					40684, -- [13]
+					47214, -- [14]
+					"|cffa335ee|Hitem:50764:1099:3525:0:0:0:0:0:80|h[Shawl of Nerubian Silk]|h|r", -- [15]
+					"|cffa335ee|Hitem:50049:3789:0:0:0:0:0:0:80|h[Quel'Delar, Ferocity of the Scorned]|h|r", -- [16]
+					50267, -- [17]
+					47659, -- [18]
+					5976, -- [19]
 				},
-				["averageItemLvl"] = 1.333333333333333,
-				["lastUpdate"] = 1603671511,
+				["averageItemLvl"] = 243.8823529411765,
+				["lastUpdate"] = 1619041329,
 			},
-			["Default.WoWArg.Chamdoc"] = {
+			["Default.WoWArg.Acidstorm"] = {
 				["Inventory"] = {
-					nil, -- [1]
-					nil, -- [2]
-					nil, -- [3]
-					6134, -- [4]
-					5341, -- [5]
-					"|cff1eff00|Hitem:15110:0:0:0:0:0:1013:0:22|h[Cinturón rígido de la ballena]|h|r", -- [6]
-					5327, -- [7]
-					11853, -- [8]
-					1789, -- [9]
-					"|cff1eff00|Hitem:6586:0:0:0:0:0:508:0:22|h[Guantes de exploración del lobo]|h|r", -- [10]
-					[17] = 15893,
-					[15] = "|cff1eff00|Hitem:6585:0:0:0:0:0:757:0:22|h[Capa de exploración del búho]|h|r",
-					[16] = "|cff1eff00|Hitem:15222:0:0:0:0:0:1838:0:22|h[Garrote con púas de cólera de las Sombras]|h|r",
+					[16] = 36,
+					[7] = 23344,
+					[17] = 2362,
+					[4] = 23345,
+					[8] = 23348,
 				},
-				["averageItemLvl"] = 19.33333333333333,
-				["lastUpdate"] = 1556857225,
+				["averageItemLvl"] = 1.25,
+				["lastUpdate"] = 1650612706,
 			},
-			["Default.WoWArg.Doroteo"] = {
+			["Default.Sin'dorei(WoWArg).Rivo"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51153:3817:3628:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Headpiece]|h|r", -- [1]
-					45820, -- [2]
-					"|cffa335ee|Hitem:51151:3808:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Spaulders]|h|r", -- [3]
+					"|cffa335ee|Hitem:51255:3820:3621:3545:0:0:0:0:80|h[Sanctified Crimson Acolyte Cowl]|h|r", -- [1]
+					"|cffa335ee|Hitem:51894:0:3563:0:0:0:0:0:80|h[Soulcleave Pendant]|h|r", -- [2]
+					"|cffa335ee|Hitem:51182:3838:3531:0:0:0:0:0:80|h[Sanctified Crimson Acolyte Mantle]|h|r", -- [3]
 					nil, -- [4]
-					"|cffa335ee|Hitem:51150:3832:3525:3525:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Tunic]|h|r", -- [5]
-					"|cffa335ee|Hitem:50688:0:3525:3525:3525:0:0:0:80|h[Nerub'ar Stalker's Cord]|h|r", -- [6]
-					"|cffa335ee|Hitem:50645:3823:3525:3525:3525:0:0:0:80|h[Leggings of Northern Lights]|h|r", -- [7]
-					"|cffa335ee|Hitem:50607:3606:3525:3525:0:0:0:0:80|h[Frostbitten Fur Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:50655:3845:3525:0:0:0:0:0:80|h[Scourge Hunter's Vambraces]|h|r", -- [9]
-					"|cffa335ee|Hitem:51154:3604:3525:0:0:0:0:0:80|h[Sanctified Ahn'Kahar Blood Hunter's Handguards]|h|r", -- [10]
-					"|cffa335ee|Hitem:50618:0:3525:0:0:0:0:0:80|h[Frostbrood Sapphire Ring]|h|r", -- [11]
-					"|cffa335ee|Hitem:50402:0:3525:0:0:0:0:0:80|h[Ashen Band of Endless Vengeance]|h|r", -- [12]
-					50342, -- [13]
-					50363, -- [14]
-					"|cffa335ee|Hitem:50470:3730:3879:0:0:0:0:0:80|h[Recovered Scarlet Onslaught Cape]|h|r", -- [15]
-					"|cffa335ee|Hitem:51022:3827:3525:3525:0:0:0:0:80|h[Hersir's Greatspear]|h|r", -- [16]
-					[18] = "|cffa335ee|Hitem:51927:3608:3525:0:0:0:0:0:80|h[Njorndar Bone Bow]|h|r",
-					[19] = 5976,
+					"|cffa335ee|Hitem:51180:3832:3520:3531:0:0:0:0:80|h[Sanctified Crimson Acolyte Raiments]|h|r", -- [5]
+					"|cffa335ee|Hitem:49978:0:3545:3520:3531:0:0:0:80|h[Crushing Coldwraith Belt]|h|r", -- [6]
+					"|cffa335ee|Hitem:49891:3719:3520:3531:3582:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [7]
+					"|cffa335ee|Hitem:49890:3826:3520:3545:0:0:0:0:80|h[Deathfrost Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:53486:2332:3520:3563:0:0:0:0:80|h[Bracers of Fiery Night]|h|r", -- [9]
+					"|cffa335ee|Hitem:51183:0:3545:3520:0:0:0:0:80|h[Sanctified Crimson Acolyte Handwraps]|h|r", -- [10]
+					"|cffa335ee|Hitem:50170:0:3582:0:0:0:0:0:80|h[Valanar's Other Signet Ring]|h|r", -- [11]
+					"|cffa335ee|Hitem:50398:0:3531:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
+					40682, -- [13]
+					54572, -- [14]
+					"|cffa335ee|Hitem:51826:3831:3531:0:0:0:0:0:80|h[Lich Wrappings]|h|r", -- [15]
+					50428, -- [16]
+					50173, -- [17]
+					50033, -- [18]
 				},
-				["averageItemLvl"] = 265.6875,
-				["lastUpdate"] = 1614980224,
+				["averageItemLvl"] = 263,
+				["lastUpdate"] = 1619157786,
 			},
 			["Default.Sin'Dorei.Underclub"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:41994:3797:3621:3520:0:0:0:0:80|h[Relentless Gladiator's Felweave Cowl]|h|r", -- [1]
-					51333, -- [2]
-					"|cffa335ee|Hitem:49991:3794:3535:3520:0:0:0:0:80|h[Shoulders of Mercy Killing]|h|r", -- [3]
+					"|cffa335ee|Hitem:51208:3820:3621:3545:0:0:0:0:80|h[Sanctified Dark Coven Hood]|h|r", -- [1]
+					"|cffa335ee|Hitem:50182:0:3563:0:0:0:0:0:80|h[Blood Queen's Crimson Choker]|h|r", -- [2]
+					"|cffa335ee|Hitem:51205:3810:3563:0:0:0:0:0:80|h[Sanctified Dark Coven Shoulderpads]|h|r", -- [3]
 					4333, -- [4]
-					"|cffa335ee|Hitem:41999:3245:3520:3531:0:0:0:0:80|h[Relentless Gladiator's Felweave Raiment]|h|r", -- [5]
-					"|cffa335ee|Hitem:41898:0:3535:3531:0:0:0:0:80|h[Furious Gladiator's Cord of Dominance]|h|r", -- [6]
-					"|cffa335ee|Hitem:51539:3872:3520:3535:0:0:0:0:80|h[Wrathful Gladiator's Felweave Trousers]|h|r", -- [7]
-					"|cffa335ee|Hitem:41903:3232:3563:0:0:0:0:0:80|h[Furious Gladiator's Slippers of Dominance]|h|r", -- [8]
-					"|cffa335ee|Hitem:51339:2326:0:0:0:0:0:0:80|h[Wrathful Gladiator's Cuffs of Alacrity]|h|r", -- [9]
-					"|cffa335ee|Hitem:42018:3246:3535:0:0:0:0:0:80|h[Relentless Gladiator's Felweave Handguards]|h|r", -- [10]
+					"|cffa335ee|Hitem:51206:3832:3520:3563:0:0:0:0:80|h[Sanctified Dark Coven Robe]|h|r", -- [5]
+					"|cffa335ee|Hitem:51930:0:3545:3563:0:0:0:0:80|h[Cord of the Patronizing Practitioner]|h|r", -- [6]
+					"|cffa335ee|Hitem:49891:3872:3520:3563:3545:0:0:0:80|h[Leggings of Woven Death]|h|r", -- [7]
+					"|cffa335ee|Hitem:49890:3826:3520:3545:0:0:0:0:80|h[Deathfrost Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:50651:2332:3531:0:0:0:0:0:80|h[The Lady's Brittle Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:51209:3246:3520:0:0:0:0:0:80|h[Sanctified Dark Coven Gloves]|h|r", -- [10]
 					"|cffa335ee|Hitem:50714:3840:3545:0:0:0:0:0:80|h[Valanar's Other Signet Ring]|h|r", -- [11]
 					"|cffa335ee|Hitem:50398:3840:3563:0:0:0:0:0:80|h[Ashen Band of Endless Destruction]|h|r", -- [12]
 					47213, -- [13]
 					50360, -- [14]
-					"|cffa335ee|Hitem:51334:3243:0:0:0:0:0:0:80|h[Wrathful Gladiator's Cloak of Ascendancy]|h|r", -- [15]
+					"|cffa335ee|Hitem:51826:3722:3563:0:0:0:0:0:80|h[Lich Wrappings]|h|r", -- [15]
 					"|cffa335ee|Hitem:50725:3854:3531:3545:3563:0:0:0:80|h[Dying Light]|h|r", -- [16]
 					nil, -- [17]
 					"|cffa335ee|Hitem:51852:0:3563:0:0:0:0:0:80|h[Wand of Ruby Claret]|h|r", -- [18]
 				},
-				["averageItemLvl"] = 255.625,
-				["lastUpdate"] = 1635914385,
+				["averageItemLvl"] = 263.25,
+				["lastUpdate"] = 1636223057,
 			},
 			["Default.WoWArg.Fjaak"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:50080:3817:3628:3525:0:0:0:0:80|h[Ymirjar Lord's Helmet]|h|r", -- [1]
-					45820, -- [2]
-					"|cffa335ee|Hitem:50082:3808:3524:0:0:0:0:0:80|h[Ymirjar Lord's Shoulderplates]|h|r", -- [3]
+					"|cffa335ee|Hitem:48429:0:3637:3524:0:0:0:0:80|h[Wrynn's Greathelm of Conquest]|h|r", -- [1]
+					51806, -- [2]
+					50234, -- [3]
 					38, -- [4]
-					"|cffa335ee|Hitem:48372:3252:3524:3524:0:0:0:0:80|h[Wrynn's Battleplate of Conquest]|h|r", -- [5]
-					45824, -- [6]
+					"|cffa335ee|Hitem:48436:0:0:3532:0:0:0:0:80|h[Wrynn's Breastplate of Conquest]|h|r", -- [5]
+					51564, -- [6]
 					"|cffa335ee|Hitem:49903:3823:3525:3525:3525:0:0:0:80|h[Legplates of Painful Death]|h|r", -- [7]
 					"|cffa335ee|Hitem:49906:1597:3525:3879:0:0:0:0:80|h[Hellfrozen Bonegrinders]|h|r", -- [8]
-					"|cffa335ee|Hitem:45301:3231:0:0:0:0:0:0:80|h[Bracers of the Smothering Inferno]|h|r", -- [9]
-					51213, -- [10]
-					47730, -- [11]
-					50453, -- [12]
-					40684, -- [13]
-					47214, -- [14]
-					"|cffa335ee|Hitem:42075:1099:0:0:0:0:0:0:80|h[Furious Gladiator's Cloak of Victory]|h|r", -- [15]
-					[18] = 47659,
-					[19] = 5976,
+					45283, -- [9]
+					"|cffa335ee|Hitem:51217:0:3529:0:0:0:0:0:80|h[Sanctified Ymirjar Lord's Handguards]|h|r", -- [10]
+					37257, -- [11]
+					"|cffa335ee|Hitem:50447:0:3529:0:0:0:0:0:80|h[Harbinger's Bone Band]|h|r", -- [12]
+					50235, -- [13]
+					40684, -- [14]
+					"|cffa335ee|Hitem:50764:1099:3525:0:0:0:0:0:80|h[Shawl of Nerubian Silk]|h|r", -- [15]
+					50191, -- [16]
+					43085, -- [17]
+					50444, -- [18]
+					5976, -- [19]
 				},
-				["averageItemLvl"] = 238.4666666666667,
-				["lastUpdate"] = 1617837684,
+				["averageItemLvl"] = 236.8823529411765,
+				["lastUpdate"] = 1648173763,
 			},
 		},
 		["Guilds"] = {
+			["Default.Sin'dorei(WoWArg).Die Verbannten"] = {
+				["Members"] = {
+					["Draenoric"] = {
+						["averageItemLvl"] = 264,
+					},
+					["Subjected"] = {
+						["averageItemLvl"] = 252,
+					},
+					["Crobar"] = {
+						["averageItemLvl"] = 274,
+					},
+					["Turco"] = {
+						["averageItemLvl"] = 270,
+					},
+					["Doroteo"] = {
+						["averageItemLvl"] = 265,
+					},
+					["Chamaquitaa"] = {
+						["averageItemLvl"] = 273,
+					},
+				},
+			},
 			["Default.Sin'Dorei.The Knights Of The Death"] = {
 				["Members"] = {
 					["Snts"] = {
@@ -1098,26 +1243,134 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
+			["Default.Sin'dorei(WoWArg).Orden Fenix"] = {
+				["Members"] = {
+					["Gilraenloss"] = {
+						["averageItemLvl"] = 261,
+					},
+					["Finweloss"] = {
+						["averageItemLvl"] = 12,
+					},
+					["Underclub"] = {
+						["averageItemLvl"] = 262,
+					},
+					["Acrux"] = {
+						["averageItemLvl"] = 8,
+					},
+					["Skombrow"] = {
+						["averageItemLvl"] = 275,
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Mare Magnum"] = {
+				["Members"] = {
+					["Fjaak"] = {
+						["averageItemLvl"] = 243,
+					},
+					["Skom"] = {
+						["averageItemLvl"] = 249,
+					},
+				},
+			},
+			["Default.WoWArg.The Knights Of The Death"] = {
+				["Members"] = {
+					["Snts"] = {
+						["averageItemLvl"] = 245,
+					},
+					["Nigthcrow"] = {
+						["averageItemLvl"] = 24,
+					},
+				},
+			},
+			["Default.WoWArg.Dioses de la Alianza"] = {
+				["Members"] = {
+					["Snts"] = {
+						["averageItemLvl"] = 231,
+					},
+				},
+			},
+			["Default.WoWArg.Facheritos"] = {
+				["Members"] = {
+					["Rivo"] = {
+						["averageItemLvl"] = 262,
+					},
+					["Elchamaquito"] = {
+						["averageItemLvl"] = 264,
+					},
+				},
+			},
 			["Default.WoWArg.Mare Magnum"] = {
 				["Members"] = {
 					["Skom"] = {
-						["averageItemLvl"] = 247,
+						["averageItemLvl"] = 249,
+					},
+					["Fjaak"] = {
+						["averageItemLvl"] = 236,
 					},
 					["Subjected"] = {
 						["averageItemLvl"] = 251,
 					},
-					["Fjaak"] = {
-						["averageItemLvl"] = 238,
+				},
+			},
+			["Default.WoWArg.Die Verbannten"] = {
+				["Members"] = {
+					["Malditabecky"] = {
+						["averageItemLvl"] = 268,
+					},
+					["Crobar"] = {
+						["averageItemLvl"] = 274,
+					},
+					["Turco"] = {
+						["averageItemLvl"] = 270,
+					},
+					["Subjected"] = {
+						["averageItemLvl"] = 252,
+					},
+					["Deadly"] = {
+						["averageItemLvl"] = 262,
+					},
+					["Enanadarck"] = {
+						["averageItemLvl"] = 267,
+					},
+					["Chamaquitaa"] = {
+						["averageItemLvl"] = 273,
+					},
+					["Marcojedor"] = {
+						["averageItemLvl"] = 252,
+					},
+					["Rivo"] = {
+						["averageItemLvl"] = 261,
+					},
+					["Skombrow"] = {
+						["averageItemLvl"] = 275,
+					},
+					["Elchamaquito"] = {
+						["averageItemLvl"] = 258,
+					},
+					["Underclub"] = {
+						["averageItemLvl"] = 262,
+					},
+					["Draenoric"] = {
+						["averageItemLvl"] = 264,
+					},
+					["Doroteo"] = {
+						["averageItemLvl"] = 265,
+					},
+					["Rivothrill"] = {
+						["averageItemLvl"] = 270,
 					},
 				},
 			},
 			["Default.WoWArg.Orden Fenix"] = {
 				["Members"] = {
 					["Gilraenloss"] = {
-						["averageItemLvl"] = 258,
+						["averageItemLvl"] = 261,
 					},
 					["Finweloss"] = {
 						["averageItemLvl"] = 12,
+					},
+					["Subjected"] = {
+						["averageItemLvl"] = 84,
 					},
 					["Acrux"] = {
 						["averageItemLvl"] = 8,
@@ -1125,14 +1378,14 @@ DataStore_InventoryDB = {
 					["Eldorath"] = {
 						["averageItemLvl"] = 34,
 					},
-					["Deadly"] = {
-						["averageItemLvl"] = 220,
+					["Fjaak"] = {
+						["averageItemLvl"] = 227,
 					},
-					["Doroteo"] = {
-						["averageItemLvl"] = 246,
+					["Underclub"] = {
+						["averageItemLvl"] = 263,
 					},
 					["Skombrow"] = {
-						["averageItemLvl"] = 275,
+						["averageItemLvl"] = 276,
 					},
 					["Elfhelm"] = {
 						["averageItemLvl"] = 31,
@@ -1143,21 +1396,11 @@ DataStore_InventoryDB = {
 					["Skom"] = {
 						["averageItemLvl"] = 227,
 					},
-					["Fjaak"] = {
-						["averageItemLvl"] = 227,
+					["Doroteo"] = {
+						["averageItemLvl"] = 246,
 					},
-					["Subjected"] = {
-						["averageItemLvl"] = 84,
-					},
-				},
-			},
-			["Default.WoWArg.The Knights Of The Death"] = {
-				["Members"] = {
-					["Snts"] = {
-						["averageItemLvl"] = 236,
-					},
-					["Nigthcrow"] = {
-						["averageItemLvl"] = 24,
+					["Deadly"] = {
+						["averageItemLvl"] = 220,
 					},
 				},
 			},
@@ -1174,10 +1417,10 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Dioses de la Alianza"] = {
+			["Default.WoWArg.LaPatrullaRoja"] = {
 				["Members"] = {
-					["Snts"] = {
-						["averageItemLvl"] = 231,
+					["Miratros"] = {
+						["averageItemLvl"] = 22,
 					},
 				},
 			},
@@ -1191,13 +1434,13 @@ DataStore_InventoryDB = {
 			["Default.Sin'Dorei.Orden Fenix"] = {
 				["Members"] = {
 					["Gilraenloss"] = {
-						["averageItemLvl"] = 267,
+						["averageItemLvl"] = 270,
 					},
 					["Finweloss"] = {
 						["averageItemLvl"] = 12,
 					},
 					["Underclub"] = {
-						["averageItemLvl"] = 255,
+						["averageItemLvl"] = 263,
 					},
 					["Acrux"] = {
 						["averageItemLvl"] = 8,
@@ -1207,13 +1450,29 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Facheritos"] = {
+			["Default.Sin'dorei(WoWArg).Facheritos"] = {
 				["Members"] = {
 					["Rivo"] = {
-						["averageItemLvl"] = 262,
+						["averageItemLvl"] = 263,
 					},
-					["Elchamaquito"] = {
+				},
+			},
+			["Default.Sin'Dorei.Die Verbannten"] = {
+				["Members"] = {
+					["Draenoric"] = {
+						["averageItemLvl"] = 265,
+					},
+					["Doroteo"] = {
 						["averageItemLvl"] = 264,
+					},
+					["Crobar"] = {
+						["averageItemLvl"] = 274,
+					},
+					["Turco"] = {
+						["averageItemLvl"] = 270,
+					},
+					["Subjected"] = {
+						["averageItemLvl"] = 252,
 					},
 				},
 			},
@@ -1254,66 +1513,20 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.Sin'Dorei.Die Verbannten"] = {
+			["Default.Sin'Dorei.Mare Magnum"] = {
 				["Members"] = {
-					["Draenoric"] = {
-						["averageItemLvl"] = 264,
+					["Fjaak"] = {
+						["averageItemLvl"] = 236,
 					},
-					["Doroteo"] = {
-						["averageItemLvl"] = 271,
+					["Skom"] = {
+						["averageItemLvl"] = 249,
 					},
 				},
 			},
-			["Default.WoWArg.Die Verbannten"] = {
+			["Default.Sin'dorei(WoWArg).The Knights Of The Death"] = {
 				["Members"] = {
-					["Malditabecky"] = {
-						["averageItemLvl"] = 268,
-					},
-					["Crobar"] = {
-						["averageItemLvl"] = 274,
-					},
-					["Turco"] = {
-						["averageItemLvl"] = 270,
-					},
-					["Subjected"] = {
-						["averageItemLvl"] = 251,
-					},
-					["Draenoric"] = {
-						["averageItemLvl"] = 264,
-					},
-					["Deadly"] = {
-						["averageItemLvl"] = 261,
-					},
-					["Marcojedor"] = {
-						["averageItemLvl"] = 252,
-					},
-					["Doroteo"] = {
-						["averageItemLvl"] = 265,
-					},
-					["Skombrow"] = {
-						["averageItemLvl"] = 275,
-					},
-					["Enanadarck"] = {
-						["averageItemLvl"] = 267,
-					},
-					["Rivo"] = {
-						["averageItemLvl"] = 261,
-					},
-					["Elchamaquito"] = {
-						["averageItemLvl"] = 258,
-					},
-					["Chamaquitaa"] = {
-						["averageItemLvl"] = 272,
-					},
-					["Rivothrill"] = {
-						["averageItemLvl"] = 270,
-					},
-				},
-			},
-			["Default.WoWArg.LaPatrullaRoja"] = {
-				["Members"] = {
-					["Miratros"] = {
-						["averageItemLvl"] = 22,
+					["Snts"] = {
+						["averageItemLvl"] = 236,
 					},
 				},
 			},

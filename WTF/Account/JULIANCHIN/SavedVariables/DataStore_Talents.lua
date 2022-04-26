@@ -2,16 +2,19 @@
 DataStore_TalentsDB = {
 	["profileKeys"] = {
 		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Anetha - WoWArg"] = "Anetha - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Crobar - WoWArg"] = "Crobar - WoWArg",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom - Sin'dorei(WoWArg)",
+		["Eldorath - Sin'dorei(WoWArg)"] = "Eldorath - Sin'dorei(WoWArg)",
 		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Crobar - Sin'Dorei"] = "Crobar - Sin'Dorei",
 	},
@@ -96,8 +99,8 @@ DataStore_TalentsDB = {
 					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [11]
 					"1|1|56384|Interface\\Spellbook\\UI-Glyph-Rune-6|320", -- [12]
 				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1614965645,
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1648515380,
 				["Class"] = "MAGE",
 				["TalentTrees"] = {
 					["Arcane|1"] = {
@@ -145,147 +148,12 @@ DataStore_TalentsDB = {
 						[13] = 3,
 						[27] = 5,
 						[14] = 1,
-						[28] = 1,
+						[22] = 2,
 						[17] = 2,
 						[18] = 3,
 						[19] = 2,
 						[20] = 1,
-						[11] = 2,
-						[22] = 2,
 						[26] = 1,
-					},
-					["Fire|1"] = {
-						nil, -- [1]
-						nil, -- [2]
-						5, -- [3]
-						5, -- [4]
-						nil, -- [5]
-						3, -- [6]
-						[23] = 3,
-						[13] = 3,
-						[27] = 5,
-						[14] = 3,
-						[28] = 1,
-						[15] = 3,
-						[9] = 1,
-						[20] = 1,
-						[18] = 5,
-						[19] = 3,
-						[10] = 2,
-						[21] = 2,
-						[11] = 3,
-						[26] = 3,
-					},
-				},
-				["PointsSpent"] = "20,51,0,20,0,51",
-			},
-			["Default.WoWArg.Pamflin"] = {
-				["lastUpdate"] = 1567808902,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.WoWArg.Anetha"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"1|2|||0", -- [3]
-					"1|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1613842902,
-				["Class"] = "HUNTER",
-				["PointsSpent"] = "0,0,0,0,0,0",
-			},
-			["Default.Sin'Dorei.Crobar"] = {
-				["Glyphs"] = {
-					"1|1|56368|Interface\\Spellbook\\UI-Glyph-Rune-9|316", -- [1]
-					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [2]
-					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [3]
-					"1|1|56382|Interface\\Spellbook\\UI-Glyph-Rune-17|328", -- [4]
-					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [5]
-					"1|1|63091|Interface\\Spellbook\\UI-Glyph-Rune-3|697", -- [6]
-					"1|1|56380|Interface\\Spellbook\\UI-Glyph-Rune-1|315", -- [7]
-					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [8]
-					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [9]
-					"1|1|56375|Interface\\Spellbook\\UI-Glyph-Rune-15|329", -- [10]
-					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [11]
-					"1|1|56384|Interface\\Spellbook\\UI-Glyph-Rune-6|320", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1621742300,
-				["Class"] = "MAGE",
-				["TalentTrees"] = {
-					["Arcane|1"] = {
-						2, -- [1]
-						3, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						nil, -- [5]
-						5, -- [6]
-						nil, -- [7]
-						3, -- [8]
-						3, -- [9]
-						1, -- [10]
-						[14] = 3,
-					},
-					["Arcane|2"] = {
-						2, -- [1]
-						3, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						2, -- [5]
-						3, -- [6]
-						1, -- [7]
-						3, -- [8]
-						nil, -- [9]
-						1, -- [10]
-						nil, -- [11]
-						2, -- [12]
-						nil, -- [13]
-						3, -- [14]
-					},
-					["Frost|2"] = {
-						3, -- [1]
-						5, -- [2]
-						2, -- [3]
-						3, -- [4]
-						2, -- [5]
-						nil, -- [6]
-						3, -- [7]
-						3, -- [8]
-						1, -- [9]
-						[23] = 2,
-						[24] = 3,
-						[25] = 1,
-						[13] = 3,
-						[27] = 5,
-						[14] = 1,
-						[26] = 1,
-						[17] = 2,
-						[18] = 3,
-						[19] = 2,
-						[20] = 1,
-						[22] = 2,
 						[11] = 2,
 						[28] = 1,
 					},
@@ -300,9 +168,9 @@ DataStore_TalentsDB = {
 						[13] = 3,
 						[27] = 5,
 						[14] = 3,
-						[26] = 3,
-						[15] = 3,
 						[18] = 5,
+						[15] = 3,
+						[26] = 3,
 						[10] = 2,
 						[9] = 1,
 						[19] = 3,
@@ -314,173 +182,7 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "20,51,0,20,0,51",
 			},
-			["Default.WoWArg.Perruco"] = {
-				["lastUpdate"] = 1587066421,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.Queldorei PVP- PVE.Julianchin"] = {
-				["lastUpdate"] = 1604633316,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.WoWArg.Rivothrill"] = {
-				["Glyphs"] = {
-					"1|1|56368|Interface\\Spellbook\\UI-Glyph-Rune-9|316", -- [1]
-					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [2]
-					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [3]
-					"1|1|56382|Interface\\Spellbook\\UI-Glyph-Rune-17|328", -- [4]
-					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [5]
-					"1|1|63091|Interface\\Spellbook\\UI-Glyph-Rune-3|697", -- [6]
-					"1|1|56380|Interface\\Spellbook\\UI-Glyph-Rune-1|315", -- [7]
-					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [8]
-					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [9]
-					"1|1|56375|Interface\\Spellbook\\UI-Glyph-Rune-15|329", -- [10]
-					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [11]
-					"1|1|56384|Interface\\Spellbook\\UI-Glyph-Rune-6|320", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1596731562,
-				["Class"] = "MAGE",
-				["TalentTrees"] = {
-					["Arcane|1"] = {
-						2, -- [1]
-						3, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						nil, -- [5]
-						5, -- [6]
-						nil, -- [7]
-						3, -- [8]
-						3, -- [9]
-						1, -- [10]
-						[14] = 3,
-					},
-					["Arcane|2"] = {
-						2, -- [1]
-						3, -- [2]
-						nil, -- [3]
-						nil, -- [4]
-						2, -- [5]
-						3, -- [6]
-						1, -- [7]
-						3, -- [8]
-						nil, -- [9]
-						1, -- [10]
-						nil, -- [11]
-						2, -- [12]
-						nil, -- [13]
-						3, -- [14]
-					},
-					["Frost|2"] = {
-						3, -- [1]
-						5, -- [2]
-						2, -- [3]
-						3, -- [4]
-						2, -- [5]
-						nil, -- [6]
-						3, -- [7]
-						3, -- [8]
-						1, -- [9]
-						[23] = 2,
-						[24] = 3,
-						[25] = 1,
-						[13] = 3,
-						[27] = 5,
-						[14] = 1,
-						[28] = 1,
-						[17] = 2,
-						[18] = 3,
-						[19] = 2,
-						[20] = 1,
-						[11] = 2,
-						[22] = 2,
-						[26] = 1,
-					},
-					["Fire|1"] = {
-						nil, -- [1]
-						nil, -- [2]
-						5, -- [3]
-						5, -- [4]
-						nil, -- [5]
-						3, -- [6]
-						[23] = 3,
-						[13] = 3,
-						[27] = 5,
-						[14] = 3,
-						[28] = 1,
-						[15] = 3,
-						[9] = 1,
-						[20] = 1,
-						[18] = 5,
-						[19] = 3,
-						[10] = 2,
-						[21] = 2,
-						[11] = 3,
-						[26] = 3,
-					},
-				},
-				["PointsSpent"] = "20,51,0,20,0,51",
-			},
-			["Default.WoWArg.Subjected"] = {
-				["lastUpdate"] = 1583106919,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.Queldorei PVP- PVE.Skombrow"] = {
-				["lastUpdate"] = 1604633641,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.WoWArg.Skom"] = {
+			["Default.Sin'Dorei.Skom"] = {
 				["Glyphs"] = {
 					"1|1|54818|Interface\\Spellbook\\UI-Glyph-Rune-10|166", -- [1]
 					"1|2|57857|Interface\\Spellbook\\UI-Glyph-Rune-8|434", -- [2]
@@ -496,7 +198,7 @@ DataStore_TalentsDB = {
 					"1|1|62970|Interface\\Spellbook\\UI-Glyph-Rune-10|672", -- [12]
 				},
 				["ActiveTalents"] = 2,
-				["lastUpdate"] = 1615834110,
+				["lastUpdate"] = 1627919730,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
 					["Restoration|2"] = {
@@ -574,7 +276,159 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "0,57,14,18,0,53",
 			},
-			["Default.Sin'Dorei.Skom"] = {
+			["Default.WoWArg.Pamflin"] = {
+				["lastUpdate"] = 1567808902,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Anetha"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1618102856,
+				["Class"] = "HUNTER",
+				["PointsSpent"] = "0,0,0,0,0,0",
+			},
+			["Default.Sin'dorei(WoWArg).Crobar"] = {
+				["Glyphs"] = {
+					"1|1|56368|Interface\\Spellbook\\UI-Glyph-Rune-9|316", -- [1]
+					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [2]
+					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [3]
+					"1|1|56382|Interface\\Spellbook\\UI-Glyph-Rune-17|328", -- [4]
+					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [5]
+					"1|1|63091|Interface\\Spellbook\\UI-Glyph-Rune-3|697", -- [6]
+					"1|1|56380|Interface\\Spellbook\\UI-Glyph-Rune-1|315", -- [7]
+					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [8]
+					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [9]
+					"1|1|56375|Interface\\Spellbook\\UI-Glyph-Rune-15|329", -- [10]
+					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [11]
+					"1|1|56384|Interface\\Spellbook\\UI-Glyph-Rune-6|320", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1619197181,
+				["Class"] = "MAGE",
+				["TalentTrees"] = {
+					["Arcane|1"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						5, -- [6]
+						nil, -- [7]
+						3, -- [8]
+						3, -- [9]
+						1, -- [10]
+						[14] = 3,
+					},
+					["Arcane|2"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						2, -- [5]
+						3, -- [6]
+						1, -- [7]
+						3, -- [8]
+						nil, -- [9]
+						1, -- [10]
+						nil, -- [11]
+						2, -- [12]
+						nil, -- [13]
+						3, -- [14]
+					},
+					["Frost|2"] = {
+						3, -- [1]
+						5, -- [2]
+						2, -- [3]
+						3, -- [4]
+						2, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+						1, -- [9]
+						[23] = 2,
+						[24] = 3,
+						[25] = 1,
+						[13] = 3,
+						[27] = 5,
+						[14] = 1,
+						[28] = 1,
+						[17] = 2,
+						[18] = 3,
+						[19] = 2,
+						[20] = 1,
+						[11] = 2,
+						[22] = 2,
+						[26] = 1,
+					},
+					["Fire|1"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						5, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						[23] = 3,
+						[13] = 3,
+						[27] = 5,
+						[14] = 3,
+						[28] = 1,
+						[15] = 3,
+						[9] = 1,
+						[20] = 1,
+						[18] = 5,
+						[19] = 3,
+						[10] = 2,
+						[21] = 2,
+						[11] = 3,
+						[26] = 3,
+					},
+				},
+				["PointsSpent"] = "20,51,0,20,0,51",
+			},
+			["Default.Queldorei PVP- PVE.Skombrow"] = {
+				["lastUpdate"] = 1604633641,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Skom"] = {
 				["Glyphs"] = {
 					"1|1|54818|Interface\\Spellbook\\UI-Glyph-Rune-10|166", -- [1]
 					"1|2|57857|Interface\\Spellbook\\UI-Glyph-Rune-8|434", -- [2]
@@ -590,7 +444,7 @@ DataStore_TalentsDB = {
 					"1|1|62970|Interface\\Spellbook\\UI-Glyph-Rune-10|672", -- [12]
 				},
 				["ActiveTalents"] = 2,
-				["lastUpdate"] = 1637291141,
+				["lastUpdate"] = 1648531235,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
 					["Restoration|2"] = {
@@ -674,22 +528,410 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "0,57,14,18,0,53",
 			},
+			["Default.WoWArg.Perruco"] = {
+				["lastUpdate"] = 1587066421,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Rivothrill"] = {
+				["Glyphs"] = {
+					"1|1|56368|Interface\\Spellbook\\UI-Glyph-Rune-9|316", -- [1]
+					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [2]
+					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [3]
+					"1|1|56382|Interface\\Spellbook\\UI-Glyph-Rune-17|328", -- [4]
+					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [5]
+					"1|1|63091|Interface\\Spellbook\\UI-Glyph-Rune-3|697", -- [6]
+					"1|1|56380|Interface\\Spellbook\\UI-Glyph-Rune-1|315", -- [7]
+					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [8]
+					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [9]
+					"1|1|56375|Interface\\Spellbook\\UI-Glyph-Rune-15|329", -- [10]
+					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [11]
+					"1|1|56384|Interface\\Spellbook\\UI-Glyph-Rune-6|320", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1596731562,
+				["Class"] = "MAGE",
+				["TalentTrees"] = {
+					["Arcane|1"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						5, -- [6]
+						nil, -- [7]
+						3, -- [8]
+						3, -- [9]
+						1, -- [10]
+						[14] = 3,
+					},
+					["Arcane|2"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						2, -- [5]
+						3, -- [6]
+						1, -- [7]
+						3, -- [8]
+						nil, -- [9]
+						1, -- [10]
+						nil, -- [11]
+						2, -- [12]
+						nil, -- [13]
+						3, -- [14]
+					},
+					["Frost|2"] = {
+						3, -- [1]
+						5, -- [2]
+						2, -- [3]
+						3, -- [4]
+						2, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+						1, -- [9]
+						[23] = 2,
+						[24] = 3,
+						[25] = 1,
+						[13] = 3,
+						[27] = 5,
+						[14] = 1,
+						[26] = 1,
+						[17] = 2,
+						[18] = 3,
+						[19] = 2,
+						[20] = 1,
+						[22] = 2,
+						[11] = 2,
+						[28] = 1,
+					},
+					["Fire|1"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						5, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						[23] = 3,
+						[13] = 3,
+						[27] = 5,
+						[14] = 3,
+						[26] = 3,
+						[15] = 3,
+						[18] = 5,
+						[10] = 2,
+						[9] = 1,
+						[19] = 3,
+						[20] = 1,
+						[21] = 2,
+						[11] = 3,
+						[28] = 1,
+					},
+				},
+				["PointsSpent"] = "20,51,0,20,0,51",
+			},
+			["Default.Sin'dorei(WoWArg).Skom"] = {
+				["Glyphs"] = {
+					"1|1|54818|Interface\\Spellbook\\UI-Glyph-Rune-10|166", -- [1]
+					"1|2|57857|Interface\\Spellbook\\UI-Glyph-Rune-8|434", -- [2]
+					"1|2|57862|Interface\\Spellbook\\UI-Glyph-Rune-1|435", -- [3]
+					"1|1|54815|Interface\\Spellbook\\UI-Glyph-Rune1|165", -- [4]
+					"1|2|59219|Interface\\Spellbook\\UI-Glyph-Rune-10|551", -- [5]
+					"1|1|62969|Interface\\Spellbook\\UI-Glyph-Rune-1|671", -- [6]
+					"1|1|71013|Interface\\Spellbook\\UI-Glyph-Rune-10|891", -- [7]
+					"1|2|57855|Interface\\Spellbook\\UI-Glyph-Rune-12|433", -- [8]
+					"1|2|57862|Interface\\Spellbook\\UI-Glyph-Rune-1|435", -- [9]
+					"1|1|54824|Interface\\Spellbook\\UI-Glyph-Rune-3|168", -- [10]
+					"1|2|59219|Interface\\Spellbook\\UI-Glyph-Rune-10|551", -- [11]
+					"1|1|62970|Interface\\Spellbook\\UI-Glyph-Rune-10|672", -- [12]
+				},
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1619050831,
+				["Class"] = "DRUID",
+				["TalentTrees"] = {
+					["Restoration|2"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						3, -- [5]
+						3, -- [6]
+						3, -- [7]
+						1, -- [8]
+						2, -- [9]
+						[23] = 1,
+						[12] = 1,
+						[13] = 5,
+						[27] = 1,
+						[16] = 5,
+						[17] = 3,
+						[18] = 1,
+						[24] = 3,
+						[20] = 5,
+						[22] = 3,
+						[11] = 3,
+						[26] = 5,
+					},
+					["Restoration|1"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						3, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						nil, -- [7]
+						1, -- [8]
+						2, -- [9]
+					},
+					["Feral Combat|1"] = {
+						5, -- [1]
+						nil, -- [2]
+						3, -- [3]
+						2, -- [4]
+						3, -- [5]
+						2, -- [6]
+						1, -- [7]
+						3, -- [8]
+						2, -- [9]
+						3, -- [10]
+						1, -- [11]
+						[23] = 3,
+						[24] = 3,
+						[25] = 3,
+						[13] = 2,
+						[14] = 1,
+						[29] = 1,
+						[15] = 2,
+						[17] = 5,
+						[18] = 3,
+						[19] = 1,
+						[30] = 1,
+						[21] = 1,
+						[28] = 5,
+						[26] = 1,
+					},
+					["Balance|2"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						2, -- [4]
+						nil, -- [5]
+						1, -- [6]
+						3, -- [7]
+						1, -- [8]
+						[11] = 3,
+					},
+				},
+				["PointsSpent"] = "0,57,14,18,0,53",
+			},
+			["Default.Queldorei PVP- PVE.Julianchin"] = {
+				["lastUpdate"] = 1604633316,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Subjected"] = {
+				["lastUpdate"] = 1583106919,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Eldorath"] = {
+				["Glyphs"] = {
+					"1|1|55674|Interface\\Spellbook\\UI-Glyph-Rune-1|266", -- [1]
+					"1|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"1|1|55687|Interface\\Spellbook\\UI-Glyph-Rune-2|269", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1619052275,
+				["Class"] = "PRIEST",
+				["TalentTrees"] = {
+					["Shadow|1"] = {
+						3, -- [1]
+						2, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						nil, -- [7]
+						5, -- [8]
+						1, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						3, -- [12]
+						nil, -- [13]
+						1, -- [14]
+						2, -- [15]
+						3, -- [16]
+						2, -- [17]
+						nil, -- [18]
+						1, -- [19]
+						2, -- [20]
+					},
+				},
+				["PointsSpent"] = "0,0,33,0,0,0",
+			},
+			["Default.Sin'Dorei.Crobar"] = {
+				["Glyphs"] = {
+					"1|1|56368|Interface\\Spellbook\\UI-Glyph-Rune-9|316", -- [1]
+					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [2]
+					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [3]
+					"1|1|56382|Interface\\Spellbook\\UI-Glyph-Rune-17|328", -- [4]
+					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [5]
+					"1|1|63091|Interface\\Spellbook\\UI-Glyph-Rune-3|697", -- [6]
+					"1|1|56380|Interface\\Spellbook\\UI-Glyph-Rune-1|315", -- [7]
+					"1|2|57926|Interface\\Spellbook\\UI-Glyph-Rune-5|446", -- [8]
+					"1|2|57927|Interface\\Spellbook\\UI-Glyph-Rune-14|447", -- [9]
+					"1|1|56375|Interface\\Spellbook\\UI-Glyph-Rune-15|329", -- [10]
+					"1|2|57925|Interface\\Spellbook\\UI-Glyph-Rune-20|451", -- [11]
+					"1|1|56384|Interface\\Spellbook\\UI-Glyph-Rune-6|320", -- [12]
+				},
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1631150913,
+				["Class"] = "MAGE",
+				["TalentTrees"] = {
+					["Arcane|1"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						nil, -- [5]
+						5, -- [6]
+						nil, -- [7]
+						3, -- [8]
+						3, -- [9]
+						1, -- [10]
+						[14] = 3,
+					},
+					["Arcane|2"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						2, -- [5]
+						3, -- [6]
+						1, -- [7]
+						3, -- [8]
+						nil, -- [9]
+						1, -- [10]
+						nil, -- [11]
+						2, -- [12]
+						nil, -- [13]
+						3, -- [14]
+					},
+					["Frost|2"] = {
+						3, -- [1]
+						5, -- [2]
+						2, -- [3]
+						3, -- [4]
+						2, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+						1, -- [9]
+						[23] = 2,
+						[24] = 3,
+						[25] = 1,
+						[13] = 3,
+						[27] = 5,
+						[14] = 1,
+						[28] = 1,
+						[17] = 2,
+						[18] = 3,
+						[19] = 2,
+						[20] = 1,
+						[11] = 2,
+						[22] = 2,
+						[26] = 1,
+					},
+					["Fire|1"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						5, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						[23] = 3,
+						[13] = 3,
+						[27] = 5,
+						[14] = 3,
+						[28] = 1,
+						[15] = 3,
+						[9] = 1,
+						[20] = 1,
+						[18] = 5,
+						[19] = 3,
+						[10] = 2,
+						[21] = 2,
+						[11] = 3,
+						[26] = 3,
+					},
+				},
+				["PointsSpent"] = "20,51,0,20,0,51",
+			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
 		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Anetha - WoWArg"] = "Anetha - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Crobar - WoWArg"] = "Crobar - WoWArg",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom - Sin'dorei(WoWArg)",
+		["Eldorath - Sin'dorei(WoWArg)"] = "Eldorath - Sin'dorei(WoWArg)",
 		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Crobar - Sin'Dorei"] = "Crobar - Sin'Dorei",
 	},
@@ -698,7 +940,6 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Marksmanship"] = {
-					["background"] = "HunterMarksmanship",
 					["talents"] = {
 						"1341|Improved Concussive Shot|Spell_Frost_Stun|1|1|2", -- [1]
 						"2197|Focused Aim|Ability_Hunter_FocusedAim|1|2|3", -- [2]
@@ -728,16 +969,16 @@ DataStore_TalentsRefDB = {
 						"2134|Marked for Death|Ability_Hunter_Assassinate|10|2|5", -- [26]
 						"2135|Chimera Shot|Ability_Hunter_ChimeraShot2|11|2|1", -- [27]
 					},
-					["icon"] = "Ability_Marksmanship",
 					["prereqs"] = {
 						[20] = "5|3",
 						[9] = "2|3",
 						[19] = "5|2",
 						[24] = "8|2",
 					},
+					["icon"] = "Ability_Marksmanship",
+					["background"] = "HunterMarksmanship",
 				},
 				["Beast Mastery"] = {
-					["background"] = "HunterBeastMastery",
 					["talents"] = {
 						"1382|Improved Aspect of the Hawk|Spell_Nature_RavenForm|1|2|5", -- [1]
 						"1389|Endurance Training|Spell_Nature_Reincarnation|1|3|5", -- [2]
@@ -766,7 +1007,6 @@ DataStore_TalentsRefDB = {
 						"2227|Kindred Spirits|Ability_Hunter_SeparationAnxiety|10|2|5", -- [25]
 						"2139|Beast Mastery|Ability_Hunter_BeastMastery|11|2|1", -- [26]
 					},
-					["icon"] = "Ability_Hunter_BeastTaming",
 					["prereqs"] = {
 						[23] = "7|2",
 						[20] = "7|1",
@@ -774,9 +1014,10 @@ DataStore_TalentsRefDB = {
 						[18] = "5|2",
 						[16] = "4|3",
 					},
+					["icon"] = "Ability_Hunter_BeastTaming",
+					["background"] = "HunterBeastMastery",
 				},
 				["Survival"] = {
-					["background"] = "HunterSurvival",
 					["talents"] = {
 						"1623|Improved Tracking|Ability_Hunter_ImprovedTracking|1|1|5", -- [1]
 						"1820|Hawk Eye|Ability_TownWatch|1|2|3", -- [2]
@@ -807,16 +1048,17 @@ DataStore_TalentsRefDB = {
 						"2144|Hunting Party|Ability_Hunter_HuntingParty|10|3|3", -- [27]
 						"2145|Explosive Shot|Ability_Hunter_ExplosiveShot|11|2|1", -- [28]
 					},
-					["icon"] = "Ability_Hunter_SwiftStrike",
 					["prereqs"] = {
 						[19] = "6|1",
 						[16] = "3|3",
 						[14] = "3|1",
 						[28] = "9|2",
-						[27] = "7|3",
-						[23] = "7|2",
 						[20] = "5|2",
+						[23] = "7|2",
+						[27] = "7|3",
 					},
+					["icon"] = "Ability_Hunter_SwiftStrike",
+					["background"] = "HunterSurvival",
 				},
 			},
 			["Version"] = 12340,
@@ -826,6 +1068,14 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Fuego"] = {
+					["prereqs"] = {
+						[20] = "5|2",
+						[24] = "9|2",
+						[16] = "3|3",
+						[25] = "7|2",
+					},
+					["background"] = "MageFire",
+					["icon"] = "Spell_Fire_FireBolt02",
 					["talents"] = {
 						"27|Explosión de Fuego mejorada|Spell_Fire_Fireball|1|1|2", -- [1]
 						"1141|Incineración|Spell_Fire_FlameShock|1|2|3", -- [2]
@@ -856,16 +1106,16 @@ DataStore_TalentsRefDB = {
 						"1851|Consunción|Ability_Mage_Burnout|10|2|5", -- [27]
 						"1852|Bomba viva|Ability_Mage_LivingBomb|11|2|1", -- [28]
 					},
-					["prereqs"] = {
-						[20] = "5|2",
-						[24] = "9|2",
-						[16] = "3|3",
-						[25] = "7|2",
-					},
-					["icon"] = "Spell_Fire_FireBolt02",
-					["background"] = "MageFire",
 				},
 				["Arcano"] = {
+					["prereqs"] = {
+						[20] = "5|2",
+						[24] = "7|2",
+						[19] = "5|2",
+						[22] = "6|2",
+					},
+					["background"] = "MageArcane",
+					["icon"] = "Spell_Holy_MagicalSentry",
 					["talents"] = {
 						"74|Sutileza Arcana|Spell_Holy_DispelMagic|1|1|2", -- [1]
 						"76|Enfoque Arcano|Spell_Holy_Devotion|1|2|3", -- [2]
@@ -898,16 +1148,16 @@ DataStore_TalentsRefDB = {
 						"1826|Poder con hechizos|Spell_Arcane_ArcaneTorrent|10|3|2", -- [29]
 						"1847|Tromba Arcana|Ability_Mage_ArcaneBarrage|11|2|1", -- [30]
 					},
-					["prereqs"] = {
-						[20] = "5|2",
-						[24] = "7|2",
-						[19] = "5|2",
-						[22] = "6|2",
-					},
-					["icon"] = "Spell_Holy_MagicalSentry",
-					["background"] = "MageArcane",
 				},
 				["Escarcha"] = {
+					["prereqs"] = {
+						[17] = "5|2",
+						[20] = "5|2",
+						[19] = "7|2",
+						[26] = "9|2",
+					},
+					["background"] = "MageFrost",
+					["icon"] = "Spell_Frost_FrostBolt02",
 					["talents"] = {
 						"38|Mordedura de Escarcha|Spell_Frost_FrostArmor|1|1|3", -- [1]
 						"37|Descarga de Escarcha mejorada|Spell_Frost_FrostBolt02|1|2|5", -- [2]
@@ -938,14 +1188,6 @@ DataStore_TalentsRefDB = {
 						"1856|Helado hasta los huesos|Ability_Mage_ChilledToTheBone|10|2|5", -- [27]
 						"1857|Congelación profunda|Ability_Mage_DeepFreeze|11|2|1", -- [28]
 					},
-					["prereqs"] = {
-						[17] = "5|2",
-						[26] = "9|2",
-						[19] = "7|2",
-						[20] = "5|2",
-					},
-					["icon"] = "Spell_Frost_FrostBolt02",
-					["background"] = "MageFrost",
 				},
 			},
 			["Version"] = 12340,
@@ -955,7 +1197,6 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Balance"] = {
-					["background"] = "DruidBalance",
 					["talents"] = {
 						"762|Starlight Wrath|Spell_Nature_AbolishMagic|1|2|5", -- [1]
 						"2238|Genesis|Spell_Arcane_Arcane03|1|3|5", -- [2]
@@ -986,7 +1227,6 @@ DataStore_TalentsRefDB = {
 						"1928|Earth and Moon|Ability_Druid_EarthandSky|10|2|3", -- [27]
 						"1926|Starfall|Ability_Druid_Starfall|11|2|1", -- [28]
 					},
-					["icon"] = "Spell_Nature_StarFall",
 					["prereqs"] = {
 						[19] = "7|2",
 						[14] = "5|2",
@@ -995,9 +1235,10 @@ DataStore_TalentsRefDB = {
 						[8] = "2|2",
 						[7] = "2|2",
 					},
+					["icon"] = "Spell_Nature_StarFall",
+					["background"] = "DruidBalance",
 				},
 				["Restoration"] = {
-					["background"] = "DruidRestoration",
 					["talents"] = {
 						"821|Improved Mark of the Wild|Spell_Nature_Regeneration|1|1|2", -- [1]
 						"823|Nature's Focus|Spell_Nature_HealingWaveGreater|1|2|3", -- [2]
@@ -1027,19 +1268,19 @@ DataStore_TalentsRefDB = {
 						"1916|Gift of the Earthmother|Ability_Druid_ManaTree|10|3|5", -- [26]
 						"1917|Wild Growth|Ability_Druid_Flourish|11|2|1", -- [27]
 					},
-					["icon"] = "Spell_Nature_HealingTouch",
 					["prereqs"] = {
 						[16] = "4|3",
 						[27] = "9|2",
 						[9] = "2|3",
-						[12] = "3|1",
+						[24] = "9|2",
 						[18] = "5|2",
 						[23] = "8|2",
-						[24] = "9|2",
+						[12] = "3|1",
 					},
+					["icon"] = "Spell_Nature_HealingTouch",
+					["background"] = "DruidRestoration",
 				},
 				["Feral Combat"] = {
-					["background"] = "DruidFeralCombat",
 					["talents"] = {
 						"796|Ferocity|Ability_Hunter_Pet_Hyena|1|2|5", -- [1]
 						"795|Feral Aggression|Ability_Druid_DemoralizingRoar|1|3|5", -- [2]
@@ -1072,17 +1313,18 @@ DataStore_TalentsRefDB = {
 						"2266|Primal Gore|Ability_Druid_Rake|10|3|1", -- [29]
 						"1927|Berserk|Ability_Druid_Berserk|11|2|1", -- [30]
 					},
-					["icon"] = "Ability_Racial_BearForm",
 					["prereqs"] = {
 						[26] = "7|2",
 						[12] = "3|3",
 						[20] = "7|2",
 						[17] = "4|2",
 						[11] = "3|3",
-						[27] = "9|2",
-						[22] = "7|2",
 						[29] = "10|2",
+						[22] = "7|2",
+						[27] = "9|2",
 					},
+					["icon"] = "Ability_Racial_BearForm",
+					["background"] = "DruidFeralCombat",
 				},
 			},
 			["Version"] = 12340,
@@ -1092,14 +1334,7 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Unholy"] = {
-					["prereqs"] = {
-						[20] = "4|4",
-						[24] = "6|4",
-						[22] = "6|2",
-						[28] = "8|2",
-					},
 					["background"] = "DeathKnightUnholy",
-					["icon"] = "Spell_Deathknight_UnholyPresence",
 					["talents"] = {
 						"2082|Vicious Strikes|Spell_Deathknight_PlagueStrike|1|1|2", -- [1]
 						"1932|Virulence|Spell_Shadow_BurningSpirit|1|2|3", -- [2]
@@ -1133,14 +1368,16 @@ DataStore_TalentsRefDB = {
 						"2036|Rage of Rivendare|INV_Weapon_Halberd14|10|2|5", -- [30]
 						"2000|Summon Gargoyle|Ability_Hunter_Pet_Bat|11|2|1", -- [31]
 					},
+					["icon"] = "Spell_Deathknight_UnholyPresence",
+					["prereqs"] = {
+						[20] = "4|4",
+						[24] = "6|4",
+						[22] = "6|2",
+						[28] = "8|2",
+					},
 				},
 				["Frost"] = {
-					["prereqs"] = {
-						[7] = "1|1",
-						[16] = "3|1",
-					},
 					["background"] = "DeathKnightFrost",
-					["icon"] = "Spell_Deathknight_FrostPresence",
 					["talents"] = {
 						"2031|Improved Icy Touch|Spell_DeathKnight_IceTouch|1|1|3", -- [1]
 						"2020|Runic Power Mastery|Spell_Arcane_Arcane01|1|2|2", -- [2]
@@ -1172,14 +1409,14 @@ DataStore_TalentsRefDB = {
 						"1998|Tundra Stalker|Spell_Nature_Tranquility|10|2|5", -- [28]
 						"1989|Howling Blast|Spell_Frost_ArcticWinds|11|2|1", -- [29]
 					},
+					["icon"] = "Spell_Deathknight_FrostPresence",
+					["prereqs"] = {
+						[7] = "1|1",
+						[16] = "3|1",
+					},
 				},
 				["Blood"] = {
-					["prereqs"] = {
-						[10] = "3|1",
-						[16] = "3|2",
-					},
 					["background"] = "DeathKnightBlood",
-					["icon"] = "Spell_Deathknight_BloodPresence",
 					["talents"] = {
 						"1939|Butchery|INV_Axe_68|1|1|2", -- [1]
 						"1945|Subversion|Spell_DeathKnight_Subversion|1|2|3", -- [2]
@@ -1210,6 +1447,11 @@ DataStore_TalentsRefDB = {
 						"2034|Blood Gorged|Spell_Nature_Reincarnation|10|2|5", -- [27]
 						"1961|Dancing Rune Weapon|INV_Sword_07|11|2|1", -- [28]
 					},
+					["icon"] = "Spell_Deathknight_BloodPresence",
+					["prereqs"] = {
+						[10] = "3|1",
+						[16] = "3|2",
+					},
 				},
 			},
 			["Version"] = 12340,
@@ -1219,6 +1461,12 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "enUS",
 			["Trees"] = {
 				["Discipline"] = {
+					["prereqs"] = {
+						[15] = "3|3",
+						[19] = "5|2",
+					},
+					["background"] = "PriestDiscipline",
+					["icon"] = "Spell_Holy_WordFortitude",
 					["talents"] = {
 						"342|Unbreakable Will|Spell_Magic_MageArmor|1|2|5", -- [1]
 						"1898|Twin Disciplines|Spell_Holy_SealOfVengeance|1|3|5", -- [2]
@@ -1249,56 +1497,14 @@ DataStore_TalentsRefDB = {
 						"1202|Borrowed Time|Spell_Holy_BorrowedTime|10|2|5", -- [27]
 						"1897|Penance|Spell_Holy_Penance|11|2|1", -- [28]
 					},
-					["prereqs"] = {
-						[15] = "3|3",
-						[19] = "5|2",
-					},
-					["icon"] = "Spell_Holy_WordFortitude",
-					["background"] = "PriestDiscipline",
-				},
-				["Shadow"] = {
-					["talents"] = {
-						"465|Spirit Tap|Spell_Shadow_Requiem|1|1|3", -- [1]
-						"2027|Improved Spirit Tap|Spell_Shadow_Requiem|1|2|2", -- [2]
-						"462|Darkness|Spell_Shadow_Twilight|1|3|5", -- [3]
-						"466|Shadow Affinity|Spell_Shadow_ShadowWard|2|1|3", -- [4]
-						"482|Improved Shadow Word: Pain|Spell_Shadow_ShadowWordPain|2|2|2", -- [5]
-						"463|Shadow Focus|Spell_Shadow_BurningSpirit|2|3|3", -- [6]
-						"542|Improved Psychic Scream|Spell_Shadow_PsychicScream|3|1|2", -- [7]
-						"481|Improved Mind Blast|Spell_Shadow_UnholyFrenzy|3|2|5", -- [8]
-						"501|Mind Flay|Spell_Shadow_SiphonMana|3|3|1", -- [9]
-						"483|Veiled Shadows|Spell_Magic_LesserInvisibilty|4|2|2", -- [10]
-						"881|Shadow Reach|Spell_Shadow_ChillTouch|4|3|2", -- [11]
-						"461|Shadow Weaving|Spell_Shadow_BlackPlague|4|4|3", -- [12]
-						"541|Silence|Spell_Shadow_ImpPhaseShift|5|1|1", -- [13]
-						"484|Vampiric Embrace|Spell_Shadow_UnsummonBuilding|5|2|1", -- [14]
-						"1638|Improved Vampiric Embrace|Spell_Shadow_ImprovedVampiricEmbrace|5|3|2", -- [15]
-						"1777|Focused Mind|Spell_Nature_FocusedMind|5|4|3", -- [16]
-						"1781|Mind Melt|Spell_Shadow_Skull|6|1|2", -- [17]
-						"2267|Improved Devouring Plague|Spell_Shadow_DevouringPlague.|6|3|3", -- [18]
-						"521|Shadowform|Spell_Shadow_Shadowform|7|2|1", -- [19]
-						"1778|Shadow Power|Spell_Shadow_ShadowPower|7|3|5", -- [20]
-						"1906|Improved Shadowform|Spell_Shadow_SummonVoidWalker|8|1|2", -- [21]
-						"1816|Misery|Spell_Shadow_Misery|8|3|3", -- [22]
-						"1908|Psychic Horror|Spell_Shadow_PsychicHorrors|9|1|1", -- [23]
-						"1779|Vampiric Touch|Spell_Holy_Stoicism|9|2|1", -- [24]
-						"1909|Pain and Suffering|Spell_Shadow_PainAndSuffering|9|3|3", -- [25]
-						"1907|Twisted Faith|Spell_Shadow_MindTwisting|10|3|5", -- [26]
-						"1910|Dispersion|Spell_Shadow_Dispersion|11|2|1", -- [27]
-					},
-					["prereqs"] = {
-						[19] = "5|2",
-						[27] = "9|2",
-						[2] = "1|1",
-						[21] = "7|2",
-						[13] = "3|1",
-						[15] = "5|2",
-						[24] = "7|2",
-					},
-					["icon"] = "Spell_Shadow_ShadowWordPain",
-					["background"] = "PriestShadow",
 				},
 				["Holy"] = {
+					["prereqs"] = {
+						[11] = "2|3",
+						[18] = "5|2",
+					},
+					["background"] = "PriestHoly",
+					["icon"] = "Spell_Holy_HolyBolt",
 					["talents"] = {
 						"410|Healing Focus|Spell_Holy_HealingFocus|1|1|2", -- [1]
 						"406|Improved Renew|Spell_Holy_Renew|1|2|3", -- [2]
@@ -1328,12 +1534,48 @@ DataStore_TalentsRefDB = {
 						"1905|Divine Providence|Spell_Holy_DivineProvidence|10|2|5", -- [26]
 						"1911|Guardian Spirit|Spell_Holy_GuardianSpirit|11|2|1", -- [27]
 					},
+				},
+				["Shadow"] = {
 					["prereqs"] = {
-						[11] = "2|3",
-						[18] = "5|2",
+						[19] = "5|2",
+						[27] = "9|2",
+						[2] = "1|1",
+						[21] = "7|2",
+						[13] = "3|1",
+						[15] = "5|2",
+						[24] = "7|2",
 					},
-					["icon"] = "Spell_Holy_HolyBolt",
-					["background"] = "PriestHoly",
+					["background"] = "PriestShadow",
+					["icon"] = "Spell_Shadow_ShadowWordPain",
+					["talents"] = {
+						"465|Spirit Tap|Spell_Shadow_Requiem|1|1|3", -- [1]
+						"2027|Improved Spirit Tap|Spell_Shadow_Requiem|1|2|2", -- [2]
+						"462|Darkness|Spell_Shadow_Twilight|1|3|5", -- [3]
+						"466|Shadow Affinity|Spell_Shadow_ShadowWard|2|1|3", -- [4]
+						"482|Improved Shadow Word: Pain|Spell_Shadow_ShadowWordPain|2|2|2", -- [5]
+						"463|Shadow Focus|Spell_Shadow_BurningSpirit|2|3|3", -- [6]
+						"542|Improved Psychic Scream|Spell_Shadow_PsychicScream|3|1|2", -- [7]
+						"481|Improved Mind Blast|Spell_Shadow_UnholyFrenzy|3|2|5", -- [8]
+						"501|Mind Flay|Spell_Shadow_SiphonMana|3|3|1", -- [9]
+						"483|Veiled Shadows|Spell_Magic_LesserInvisibilty|4|2|2", -- [10]
+						"881|Shadow Reach|Spell_Shadow_ChillTouch|4|3|2", -- [11]
+						"461|Shadow Weaving|Spell_Shadow_BlackPlague|4|4|3", -- [12]
+						"541|Silence|Spell_Shadow_ImpPhaseShift|5|1|1", -- [13]
+						"484|Vampiric Embrace|Spell_Shadow_UnsummonBuilding|5|2|1", -- [14]
+						"1638|Improved Vampiric Embrace|Spell_Shadow_ImprovedVampiricEmbrace|5|3|2", -- [15]
+						"1777|Focused Mind|Spell_Nature_FocusedMind|5|4|3", -- [16]
+						"1781|Mind Melt|Spell_Shadow_Skull|6|1|2", -- [17]
+						"2267|Improved Devouring Plague|Spell_Shadow_DevouringPlague.|6|3|3", -- [18]
+						"521|Shadowform|Spell_Shadow_Shadowform|7|2|1", -- [19]
+						"1778|Shadow Power|Spell_Shadow_ShadowPower|7|3|5", -- [20]
+						"1906|Improved Shadowform|Spell_Shadow_SummonVoidWalker|8|1|2", -- [21]
+						"1816|Misery|Spell_Shadow_Misery|8|3|3", -- [22]
+						"1908|Psychic Horror|Spell_Shadow_PsychicHorrors|9|1|1", -- [23]
+						"1779|Vampiric Touch|Spell_Holy_Stoicism|9|2|1", -- [24]
+						"1909|Pain and Suffering|Spell_Shadow_PainAndSuffering|9|3|3", -- [25]
+						"1907|Twisted Faith|Spell_Shadow_MindTwisting|10|3|5", -- [26]
+						"1910|Dispersion|Spell_Shadow_Dispersion|11|2|1", -- [27]
+					},
 				},
 			},
 			["Version"] = 12340,

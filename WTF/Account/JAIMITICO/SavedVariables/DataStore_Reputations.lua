@@ -3,6 +3,7 @@ DataStore_ReputationsDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,14 +12,24 @@ DataStore_ReputationsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["lastUpdate"] = 1618962691,
+				["Factions"] = {
+					["Exodar"] = "3000|9000|5622",
+					["Ironforge"] = "9000|21000|9655",
+					["Stormwind"] = "3000|9000|5722",
+					["Gnomeregan Exiles"] = "9000|21000|10667",
+					["Darnassus"] = "3000|9000|5722",
+				},
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["lastUpdate"] = 1528838082,
 				["Factions"] = {
 					["El Exodar"] = "3000|9000|4159",
 					["Forjaz"] = "3000|9000|4259",
 					["Ventormenta"] = "3000|9000|4259",
-					["Darnassus"] = "3000|9000|8685",
 					["Exiliados de Gnomeregan"] = "3000|9000|4259",
+					["Darnassus"] = "3000|9000|8685",
 				},
 			},
 			["Default.WoWArg.Malfa"] = {
@@ -27,8 +38,8 @@ DataStore_ReputationsDB = {
 					["El Exodar"] = "3000|9000|8572",
 					["Forjaz"] = "3000|9000|4279",
 					["Ventormenta"] = "3000|9000|4279",
-					["Exiliados de Gnomeregan"] = "3000|9000|4279",
 					["Darnassus"] = "3000|9000|4467",
+					["Exiliados de Gnomeregan"] = "3000|9000|4279",
 				},
 			},
 			["Default.WoWArg.Ampina"] = {
@@ -37,8 +48,8 @@ DataStore_ReputationsDB = {
 					["El Exodar"] = "3000|9000|4800",
 					["Forjaz"] = "3000|9000|3100",
 					["Ventormenta"] = "3000|9000|3100",
-					["Exiliados de Gnomeregan"] = "3000|9000|3100",
 					["Darnassus"] = "3000|9000|3100",
+					["Exiliados de Gnomeregan"] = "3000|9000|3100",
 				},
 			},
 			["Default.WoWArg.Asasasdasda"] = {
@@ -47,8 +58,8 @@ DataStore_ReputationsDB = {
 					["El Exodar"] = "3000|9000|3000",
 					["Forjaz"] = "3000|9000|4000",
 					["Ventormenta"] = "3000|9000|3100",
-					["Exiliados de Gnomeregan"] = "3000|9000|3100",
 					["Darnassus"] = "3000|9000|3100",
+					["Exiliados de Gnomeregan"] = "3000|9000|3100",
 				},
 			},
 			["Default.WoWArg.Elfhelm"] = {
@@ -56,12 +67,12 @@ DataStore_ReputationsDB = {
 				["Factions"] = {
 					["El Exodar"] = "9000|21000|9519",
 					["Centinelas Ala de Plata"] = "0|3000|20",
-					["El Pacto de Plata"] = "0|3000|0",
+					["Exiliados de Gnomeregan"] = "9000|21000|10342",
 					["Vanguardia de la Alianza"] = "0|3000|0",
 					["Forjaz"] = "9000|21000|10277",
 					["Ventormenta"] = "9000|21000|10446",
 					["Darnassus"] = "21000|42000|26479",
-					["Exiliados de Gnomeregan"] = "9000|21000|10342",
+					["El Pacto de Plata"] = "0|3000|0",
 				},
 			},
 			["Default.WoWArg.Irupe"] = {
@@ -70,8 +81,8 @@ DataStore_ReputationsDB = {
 					["El Exodar"] = "3000|9000|4000",
 					["Forjaz"] = "3000|9000|3100",
 					["Ventormenta"] = "3000|9000|3100",
-					["Exiliados de Gnomeregan"] = "3000|9000|3100",
 					["Darnassus"] = "3000|9000|3100",
+					["Exiliados de Gnomeregan"] = "3000|9000|3100",
 				},
 			},
 			["Default.WoWArg.Jaimitico"] = {
@@ -80,8 +91,8 @@ DataStore_ReputationsDB = {
 					["El Exodar"] = "3000|9000|5388",
 					["Forjaz"] = "9000|21000|9063",
 					["Ventormenta"] = "3000|9000|5488",
-					["Darnassus"] = "3000|9000|5488",
 					["Exiliados de Gnomeregan"] = "9000|21000|10075",
+					["Darnassus"] = "3000|9000|5488",
 				},
 			},
 		},

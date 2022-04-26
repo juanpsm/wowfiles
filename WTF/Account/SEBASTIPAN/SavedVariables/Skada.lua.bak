@@ -1,0 +1,10 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

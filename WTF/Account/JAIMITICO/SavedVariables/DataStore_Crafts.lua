@@ -3,6 +3,7 @@ DataStore_CraftsDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -36,8 +37,13 @@ DataStore_CraftsDB = {
 			},
 			["Default.WoWArg.Elfhelm"] = {
 				["Professions"] = {
-					["Herboristería"] = {
-						["isPrimary"] = true,
+					["Primeros auxilios"] = {
+						["FullLink"] = "|cffffd000|Htrade:3274:71:150:13F9BF:OAAAAA|h[Primeros auxilios]|h|r",
+						["isSecondary"] = true,
+						["Crafts"] = {
+							"1|3275", -- [1]
+						},
+						["NumCrafts"] = 1,
 					},
 					["Alquimia"] = {
 						["FullLink"] = "|cffffd000|Htrade:2259:1:75:13F9BF:HAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Alquimia]|h|r",
@@ -51,39 +57,50 @@ DataStore_CraftsDB = {
 						},
 						["NumCrafts"] = 3,
 					},
-					["Desollar"] = {
-						["isPrimary"] = true,
+					["Equitación"] = {
+						["isSecondary"] = true,
 					},
 					["Pesca"] = {
 						["isSecondary"] = true,
 					},
-					["Equitación"] = {
-						["isSecondary"] = true,
+					["Herboristería"] = {
+						["isPrimary"] = true,
 					},
-					["Primeros auxilios"] = {
-						["FullLink"] = "|cffffd000|Htrade:3274:71:150:13F9BF:OAAAAA|h[Primeros auxilios]|h|r",
-						["isSecondary"] = true,
-						["Crafts"] = {
-							"1|3275", -- [1]
-						},
-						["NumCrafts"] = 1,
+					["Desollar"] = {
+						["isPrimary"] = true,
 					},
 				},
 				["lastUpdate"] = 1529091821,
+			},
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["Professions"] = {
+					["Herbalism"] = {
+						["isPrimary"] = true,
+					},
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+					},
+					["Alchemy"] = {
+						["isPrimary"] = true,
+					},
+				},
 			},
 			["Default.WoWArg.Jaimitico"] = {
 				["Professions"] = {
 					["Cocina"] = {
 						["isSecondary"] = true,
 					},
-					["Alquimia"] = {
-						["isPrimary"] = true,
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
 					},
 					["Herboristería"] = {
 						["isPrimary"] = true,
 					},
-					["Primeros auxilios"] = {
-						["isSecondary"] = true,
+					["Alquimia"] = {
+						["isPrimary"] = true,
 					},
 				},
 			},
@@ -91,9 +108,6 @@ DataStore_CraftsDB = {
 		["Guilds"] = {
 			["Default.WoWArg.Orden Fenix"] = {
 				["Members"] = {
-					["Gilraenloss"] = {
-						["Version"] = 12340,
-					},
 					["Doroteo"] = {
 						["Professions"] = {
 							"|cffffd000|Htrade:2259:1:75:F61C8:HAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Alquimia]|h|r", -- [1]
@@ -102,6 +116,9 @@ DataStore_CraftsDB = {
 						},
 						["Version"] = 12340,
 						["lastUpdate"] = 1537313017,
+					},
+					["Gilraenloss"] = {
+						["Version"] = 12340,
 					},
 					["Fjaak"] = {
 						["Professions"] = {

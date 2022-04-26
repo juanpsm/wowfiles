@@ -1,0 +1,70 @@
+MACRO 16777220 "asdfg" Ability_Druid_Maul
+/equip Dazzling Longsword
+/equip Aegis of the Scarlet Commander
+END
+MACRO 16777223 "Bat+Retalia" Ability_Creature_Disease_03
+/cast Battle Stance
+/cast Retaliation
+END
+MACRO 16777218 "Batt+Charg" INV_Misc_QuestionMark
+#showtooltip Charge
+/cast Battle Stance
+/equip  Pendulum of Doom
+/cast Charge
+END
+MACRO 16777217 "Ber+Int" Spell_Fire_BurningSpeed
+/cast Berserker Stance
+/equip Pendulum of Doom
+/cast Intercept
+END
+MACRO 16777232 "bye" INV_Misc_QuestionMark
+/logout
+END
+MACRO 16777227 "cortarcast" INV_Misc_QuestionMark
+#showtooltip Shield Bash
+/equip Dazzling Longsword
+/equip Aegis of the Scarlet Commander
+/cast Shield Bash
+END
+MACRO 16777222 "Def+Scu" Ability_Hunter_Pet_Gorilla
+/cast Defensive Stance
+/equip Dazzling Longsword
+/equip Aegis of the Scarlet Commander
+/cast Shield Wall
+END
+MACRO 16777224 "Def+tanque" ABILITY_DRUID_DEMORALIZINGROAR
+/cast Defensive Stance
+/equip Ardent Custodian
+/equip Aegis of the Scarlet Commander
+/cast Shield Wall
+END
+MACRO 16777226 "Fury1arm" Ability_Paladin_SheathofLight
+/equip Pendulum of Doom
+/cast Heroic Strike
+END
+MACRO 16777225 "Fury2arm" Ability_Parry
+/equip Reforged Blade of Heroes
+/equip Dazzling Longsword
+/cast Whirlwind
+END
+MACRO 16777219 "H+E" Ability_Druid_PrimalTenacity
+/targetlastenemy
+/castsequence Heroic Strike, Execute
+END
+MACRO 16777221 "Hacha" Ability_Hunter_AimedShot
+/equip Pendulum of Doom
+END
+MACRO 16777229 "overpower" INV_Misc_QuestionMark
+#showtooltip Overpower
+/equip Pendulum of Doom
+/cast Overpower
+END
+MACRO 16777228 "risa" Ability_Creature_Poison_01
+/laugh
+END
+MACRO 16777230 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1WM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO 16777231 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Epy[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

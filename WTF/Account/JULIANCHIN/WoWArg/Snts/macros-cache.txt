@@ -1,0 +1,17 @@
+MACRO 16777221 "Defensa (40pr)" INV_Misc_QuestionMark
+/cast Entereza ligada al hielo
+/cast Caparazón antimagia
+END
+MACRO 16777220 "power" INV_Misc_QuestionMark
+/cast Armadura inquebrantable
+/cast Transfusión de sangre
+/cast Potenciar arma de runas
+END
+MACRO 16777218 "runas y pr" INV_Misc_QuestionMark
+/cast Transfusión de sangre
+/cast Potenciar arma de runas
+END
+MACRO 16777222 "vida 40rp" INV_Misc_QuestionMark
+/cast Levantar a muerto
+/cast Pacto de la muerte
+END

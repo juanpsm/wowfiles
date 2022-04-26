@@ -7,6 +7,7 @@ Lore_Visible = 1
 Lore_Inform = 1
 Lore_Users = {
 	"Skombrow", -- [1]
+	"Subjected", -- [2]
 }
 Lore_Tabletposition = 0
 Lore_Locked = 0

@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["guildName"] = "MetalMutans",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.MetalMutans"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+	},
+}

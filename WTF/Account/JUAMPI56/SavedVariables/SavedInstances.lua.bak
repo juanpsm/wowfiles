@@ -2,9 +2,9 @@
 SavedInstancesDB = {
 	["DBVersion"] = 10,
 	["Toons"] = {
-		["Nightbull - WoWArg"] = {
+		["Snts - WoWArg"] = {
 			["AlwaysShow"] = false,
-			["Class"] = "WARRIOR",
+			["Class"] = "DEATHKNIGHT",
 		},
 	},
 	["Lockouts"] = {

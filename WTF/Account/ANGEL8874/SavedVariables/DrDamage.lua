@@ -7,6 +7,7 @@ DrDamageDB = {
 		["Shino - WoWArg"] = "Shino - WoWArg",
 		["Morenasso - WoWArg"] = "Morenasso - WoWArg",
 		["Flako - WoWArg"] = "Flako - WoWArg",
+		["Spawm - Sin'dorei(WoWArg)"] = "Spawm - Sin'dorei(WoWArg)",
 		["Unaseca - WoWArg"] = "Unaseca - WoWArg",
 		["Gringax - WoWArg"] = "Gringax - WoWArg",
 		["Morenita - WoWArg"] = "Morenita - WoWArg",
@@ -23,6 +24,8 @@ DrDamageDB = {
 		["Morenasso - WoWArg"] = {
 		},
 		["Flako - WoWArg"] = {
+		},
+		["Spawm - Sin'dorei(WoWArg)"] = {
 		},
 		["Unaseca - WoWArg"] = {
 		},

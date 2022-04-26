@@ -2,14 +2,40 @@
 DataStore_InventoryDB = {
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'Dorei.Elchamaquito"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51192:3820:3627:3531:0:0:0:0:80|h[Sanctified Frost Witch's Headpiece]|h|r", -- [1]
+					"|cffa335ee|Hitem:51871:0:3879:0:0:0:0:0:80|h[Choker of Filthy Diamonds]|h|r", -- [2]
+					"|cffa335ee|Hitem:51194:3810:3531:0:0:0:0:0:80|h[Sanctified Frost Witch's Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:51190:3832:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50671:0:3563:3563:3563:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:51193:3719:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:49896:3826:3531:3531:0:0:0:0:80|h[Earthsoul Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:50030:2332:3531:0:0:0:0:0:80|h[Bloodsunder's Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:50064:3246:3531:3531:0:0:0:0:80|h[Unclean Surgical Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:49967:0:3563:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r", -- [11]
+					"|cffa335ee|Hitem:50400:0:3531:0:0:0:0:0:80|h[Ashen Band of Endless Wisdom]|h|r", -- [12]
+					50358, -- [13]
+					50359, -- [14]
+					"|cffa335ee|Hitem:50205:3831:3531:0:0:0:0:0:80|h[Frostbinder's Shredded Cape]|h|r", -- [15]
+					"|cffa335ee|Hitem:50428:3834:0:0:0:0:0:0:80|h[Royal Scepter of Terenas II]|h|r", -- [16]
+					"|cffa335ee|Hitem:49976:1128:0:0:0:0:0:0:80|h[Bulwark of Smouldering Steel]|h|r", -- [17]
+					47665, -- [18]
+				},
+				["averageItemLvl"] = 264.8235294117647,
+				["lastUpdate"] = 1630729940,
+			},
 			["Default.WoWArg.Perruco"] = {
 				["Inventory"] = {
 					[16] = 36,
@@ -20,6 +46,30 @@ DataStore_InventoryDB = {
 				},
 				["averageItemLvl"] = 1.25,
 				["lastUpdate"] = 1597360602,
+			},
+			["Default.WoWArg.Elchamaquito"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:51192:3820:3627:3531:0:0:0:0:80|h[Sanctified Frost Witch's Headpiece]|h|r", -- [1]
+					"|cffa335ee|Hitem:51871:0:3879:0:0:0:0:0:80|h[Choker of Filthy Diamonds]|h|r", -- [2]
+					"|cffa335ee|Hitem:51194:3810:3531:0:0:0:0:0:80|h[Sanctified Frost Witch's Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:51190:3832:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50671:0:3563:3563:3563:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:51193:3719:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:49896:3826:3531:3531:0:0:0:0:80|h[Earthsoul Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:50030:2332:3531:0:0:0:0:0:80|h[Bloodsunder's Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:50064:3246:3531:3531:0:0:0:0:80|h[Unclean Surgical Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:49967:0:3563:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r", -- [11]
+					"|cffa335ee|Hitem:50400:0:3531:0:0:0:0:0:80|h[Ashen Band of Endless Wisdom]|h|r", -- [12]
+					50358, -- [13]
+					50359, -- [14]
+					"|cffa335ee|Hitem:50205:3831:3531:0:0:0:0:0:80|h[Frostbinder's Shredded Cape]|h|r", -- [15]
+					"|cffa335ee|Hitem:50428:3834:0:0:0:0:0:0:80|h[Royal Scepter of Terenas II]|h|r", -- [16]
+					"|cffa335ee|Hitem:49976:1128:0:0:0:0:0:0:80|h[Bulwark of Smouldering Steel]|h|r", -- [17]
+					47665, -- [18]
+				},
+				["averageItemLvl"] = 264.8235294117647,
+				["lastUpdate"] = 1618718191,
 			},
 			["Default.WoWArg.Rochallor"] = {
 				["Inventory"] = {
@@ -43,18 +93,29 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 61.15384615384615,
 				["lastUpdate"] = 1527836810,
 			},
-			["Default.WoWArg.Buyvip"] = {
+			["Default.Sin'dorei(WoWArg).Elchamaquito"] = {
 				["Inventory"] = {
-					[10] = 4914,
-					[16] = 2092,
-					[7] = 120,
-					[17] = 50055,
-					[18] = 25861,
-					[4] = 2105,
-					[8] = 121,
+					"|cffa335ee|Hitem:51192:3820:3627:3531:0:0:0:0:80|h[Sanctified Frost Witch's Headpiece]|h|r", -- [1]
+					"|cffa335ee|Hitem:51871:0:3879:0:0:0:0:0:80|h[Choker of Filthy Diamonds]|h|r", -- [2]
+					"|cffa335ee|Hitem:51194:3810:3531:0:0:0:0:0:80|h[Sanctified Frost Witch's Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					"|cffa335ee|Hitem:51190:3832:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Tunic]|h|r", -- [5]
+					"|cffa335ee|Hitem:50671:0:3563:3563:3563:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
+					"|cffa335ee|Hitem:51193:3719:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Legguards]|h|r", -- [7]
+					"|cffa335ee|Hitem:49896:3826:3531:3531:0:0:0:0:80|h[Earthsoul Boots]|h|r", -- [8]
+					"|cffa335ee|Hitem:50030:2332:3531:0:0:0:0:0:80|h[Bloodsunder's Bracers]|h|r", -- [9]
+					"|cffa335ee|Hitem:50064:3246:3531:3531:0:0:0:0:80|h[Unclean Surgical Gloves]|h|r", -- [10]
+					"|cffa335ee|Hitem:49967:0:3563:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r", -- [11]
+					"|cffa335ee|Hitem:50400:0:3531:0:0:0:0:0:80|h[Ashen Band of Endless Wisdom]|h|r", -- [12]
+					50358, -- [13]
+					50359, -- [14]
+					"|cffa335ee|Hitem:50205:3831:3531:0:0:0:0:0:80|h[Frostbinder's Shredded Cape]|h|r", -- [15]
+					"|cffa335ee|Hitem:50428:3834:0:0:0:0:0:0:80|h[Royal Scepter of Terenas II]|h|r", -- [16]
+					"|cffa335ee|Hitem:49976:1128:0:0:0:0:0:0:80|h[Bulwark of Smouldering Steel]|h|r", -- [17]
+					47665, -- [18]
 				},
-				["averageItemLvl"] = 2.333333333333334,
-				["lastUpdate"] = 1527117378,
+				["averageItemLvl"] = 264.8235294117647,
+				["lastUpdate"] = 1619112255,
 			},
 			["Default.WoWArg.Meparto"] = {
 				["Inventory"] = {
@@ -78,31 +139,6 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 60.38461538461539,
 				["lastUpdate"] = 1527835080,
 			},
-			["Default.WoWArg.Elchamaquito"] = {
-				["Inventory"] = {
-					"|cffa335ee|Hitem:51192:3820:3627:3531:0:0:0:0:80|h[Sanctified Frost Witch's Headpiece]|h|r", -- [1]
-					"|cffa335ee|Hitem:51871:0:3879:0:0:0:0:0:80|h[Choker of Filthy Diamonds]|h|r", -- [2]
-					"|cffa335ee|Hitem:51194:3810:3531:0:0:0:0:0:80|h[Sanctified Frost Witch's Spaulders]|h|r", -- [3]
-					52019, -- [4]
-					"|cffa335ee|Hitem:51190:3832:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Tunic]|h|r", -- [5]
-					"|cffa335ee|Hitem:50671:0:3563:3563:3563:0:0:0:80|h[Belt of the Blood Nova]|h|r", -- [6]
-					"|cffa335ee|Hitem:51193:3719:3531:3531:0:0:0:0:80|h[Sanctified Frost Witch's Legguards]|h|r", -- [7]
-					"|cffa335ee|Hitem:49896:3826:3531:3531:0:0:0:0:80|h[Earthsoul Boots]|h|r", -- [8]
-					"|cffa335ee|Hitem:50030:2332:3531:0:0:0:0:0:80|h[Bloodsunder's Bracers]|h|r", -- [9]
-					"|cffa335ee|Hitem:50064:3246:3531:3531:0:0:0:0:80|h[Unclean Surgical Gloves]|h|r", -- [10]
-					"|cffa335ee|Hitem:49967:0:3563:0:0:0:0:0:80|h[Marrowgar's Frigid Eye]|h|r", -- [11]
-					"|cffa335ee|Hitem:50400:0:3531:0:0:0:0:0:80|h[Ashen Band of Endless Wisdom]|h|r", -- [12]
-					50358, -- [13]
-					50359, -- [14]
-					"|cffa335ee|Hitem:50205:3831:3531:0:0:0:0:0:80|h[Frostbinder's Shredded Cape]|h|r", -- [15]
-					"|cffa335ee|Hitem:50428:3834:0:0:0:0:0:0:80|h[Royal Scepter of Terenas II]|h|r", -- [16]
-					"|cffa335ee|Hitem:49976:1128:0:0:0:0:0:0:80|h[Bulwark of Smouldering Steel]|h|r", -- [17]
-					47665, -- [18]
-					5976, -- [19]
-				},
-				["averageItemLvl"] = 264.8235294117647,
-				["lastUpdate"] = 1614970641,
-			},
 			["Default.WoWArg.Trank"] = {
 				["Inventory"] = {
 					nil, -- [1]
@@ -122,6 +158,19 @@ DataStore_InventoryDB = {
 				["averageItemLvl"] = 6.666666666666667,
 				["lastUpdate"] = 1556510796,
 			},
+			["Default.WoWArg.Buyvip"] = {
+				["Inventory"] = {
+					[10] = 4914,
+					[16] = 2092,
+					[7] = 120,
+					[17] = 50055,
+					[18] = 25861,
+					[4] = 2105,
+					[8] = 121,
+				},
+				["averageItemLvl"] = 2.333333333333334,
+				["lastUpdate"] = 1527117378,
+			},
 		},
 		["Guilds"] = {
 			["Default.WoWArg.Red Army"] = {
@@ -131,43 +180,23 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Los Exiliados"] = {
+			["Default.Sin'Dorei.Facheritos"] = {
 				["Members"] = {
-					["Crazyfear"] = {
-						["averageItemLvl"] = 266,
-					},
-					["Doroteo"] = {
-						["averageItemLvl"] = 255,
-					},
-					["Razzor"] = {
-						["averageItemLvl"] = 264,
-					},
-					["Maracoo"] = {
-						["averageItemLvl"] = 252,
-					},
-					["Draenoric"] = {
-						["averageItemLvl"] = 254,
-					},
-					["Mejoral"] = {
-						["averageItemLvl"] = 264,
-					},
-					["Skombrow"] = {
-						["averageItemLvl"] = 261,
+					["Rivo"] = {
+						["averageItemLvl"] = 263,
 					},
 					["Elchamaquito"] = {
 						["averageItemLvl"] = 264,
 					},
-					["Yaandeel"] = {
-						["averageItemLvl"] = 255,
+				},
+			},
+			["Default.WoWArg.Facheritos"] = {
+				["Members"] = {
+					["Rivo"] = {
+						["averageItemLvl"] = 262,
 					},
-					["Thesickness"] = {
-						["averageItemLvl"] = 253,
-					},
-					["Liomessi"] = {
-						["averageItemLvl"] = 274,
-					},
-					["Rivothrill"] = {
-						["averageItemLvl"] = 258,
+					["Elchamaquito"] = {
+						["averageItemLvl"] = 264,
 					},
 				},
 			},
@@ -208,13 +237,53 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Facheritos"] = {
+			["Default.Sin'dorei(WoWArg).Facheritos"] = {
 				["Members"] = {
 					["Rivo"] = {
-						["averageItemLvl"] = 262,
+						["averageItemLvl"] = 263,
 					},
 					["Elchamaquito"] = {
 						["averageItemLvl"] = 264,
+					},
+				},
+			},
+			["Default.WoWArg.Los Exiliados"] = {
+				["Members"] = {
+					["Crazyfear"] = {
+						["averageItemLvl"] = 266,
+					},
+					["Doroteo"] = {
+						["averageItemLvl"] = 255,
+					},
+					["Razzor"] = {
+						["averageItemLvl"] = 264,
+					},
+					["Maracoo"] = {
+						["averageItemLvl"] = 252,
+					},
+					["Draenoric"] = {
+						["averageItemLvl"] = 254,
+					},
+					["Mejoral"] = {
+						["averageItemLvl"] = 264,
+					},
+					["Skombrow"] = {
+						["averageItemLvl"] = 261,
+					},
+					["Elchamaquito"] = {
+						["averageItemLvl"] = 264,
+					},
+					["Yaandeel"] = {
+						["averageItemLvl"] = 255,
+					},
+					["Thesickness"] = {
+						["averageItemLvl"] = 253,
+					},
+					["Liomessi"] = {
+						["averageItemLvl"] = 274,
+					},
+					["Rivothrill"] = {
+						["averageItemLvl"] = 258,
 					},
 				},
 			},

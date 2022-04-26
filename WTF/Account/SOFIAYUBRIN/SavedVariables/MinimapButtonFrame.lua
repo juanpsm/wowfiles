@@ -20,6 +20,7 @@ MBFDB = {
 				"CurrencyMinimap", -- [11]
 				"FuBarPluginAtlasLootFuFrameMinimapButton", -- [12]
 				"AltoholicMinimapButton", -- [13]
+				"LibDBIcon10_Skada", -- [14]
 			},
 		},
 	},

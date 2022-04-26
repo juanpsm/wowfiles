@@ -1,100 +1,171 @@
 
 DataStore_ContainersDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Nightbull"] = {
-				["lastUpdate"] = 1522877166,
+			["Default.WoWArg.Skombrow"] = {
+				["lastUpdate"] = 1499533178,
 				["Containers"] = {
 					["Bag4"] = {
-						["link"] = "|cffffffff|Hitem:828:0:0:0:0:0:0:0:14|h[Faltriquera azul pequeña]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09_Blue",
-						["size"] = 6,
-						["freeslots"] = 6,
+						["ids"] = {
+							6948, -- [1]
+							7005, -- [2]
+							22147, -- [3]
+							22148, -- [4]
+							27518, -- [5]
+							29450, -- [6]
+							27860, -- [7]
+							27860, -- [8]
+							29450, -- [9]
+							29450, -- [10]
+							27860, -- [11]
+							27860, -- [12]
+							13446, -- [13]
+							22832, -- [14]
+							27498, -- [15]
+							27502, -- [16]
+						},
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:73|h[Bolsa de tejido abisal]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							20, -- [3]
+							12, -- [4]
+							nil, -- [5]
+							15, -- [6]
+							16, -- [7]
+							20, -- [8]
+							20, -- [9]
+							20, -- [10]
+							20, -- [11]
+							20, -- [12]
+							6, -- [13]
+							6, -- [14]
+							5, -- [15]
+							4, -- [16]
+						},
 					},
 					["Bag0"] = {
 						["ids"] = {
-							2901, -- [1]
-							118, -- [2]
-							159, -- [3]
-							1251, -- [4]
-							4561, -- [5]
-							3650, -- [6]
-							6948, -- [7]
-							5956, -- [8]
-							5119, -- [9]
-							5118, -- [10]
-							17056, -- [11]
-						},
-						["links"] = {
-							[5] = "|cff1eff00|Hitem:4561:0:0:0:0:0:15:0:14|h[Tomahawk arrancacabelleras de aguante]|h|r",
+							27723, -- [1]
+							32897, -- [2]
+							29739, -- [3]
+							25421, -- [4]
+							25361, -- [5]
+							25418, -- [6]
+							21887, -- [7]
+							25405, -- [8]
+							28384, -- [9]
+							22577, -- [10]
+							25401, -- [11]
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
 						["size"] = 16,
 						["counts"] = {
+							[10] = 2,
+							[6] = 8,
+							[7] = 2,
 							[3] = 4,
-							[4] = 6,
+							[4] = 4,
 						},
 						["freeslots"] = 5,
 					},
 					["Bag1"] = {
 						["ids"] = {
-							20497, -- [1]
-							6145, -- [2]
-							4703, -- [3]
-							nil, -- [4]
-							nil, -- [5]
-							16306, -- [6]
-							5062, -- [7]
-							5086, -- [8]
+							32902, -- [1]
+							32905, -- [2]
 						},
-						["link"] = "|cffffffff|Hitem:4498:0:0:0:0:0:0:0:14|h[Cartera de cuero marrón]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09",
-						["size"] = 8,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:73|h[Bolsa de tejido abisal]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
 						["counts"] = {
-							[7] = 5,
+							12, -- [1]
+							4, -- [2]
 						},
-						["freeslots"] = 2,
+						["freeslots"] = 14,
 					},
 					["Bag2"] = {
 						["ids"] = {
-							[2] = 5469,
-							[5] = 2672,
-							[6] = 117,
+							30362, -- [1]
+							31727, -- [2]
+							37764, -- [3]
+							27468, -- [4]
+							28202, -- [5]
+							37762, -- [6]
+							30535, -- [7]
+							24783, -- [8]
+							29354, -- [9]
+							29263, -- [10]
+							28042, -- [11]
+							29776, -- [12]
+							37751, -- [13]
+							31277, -- [14]
+							31299, -- [15]
+							30328, -- [16]
 						},
-						["link"] = "|cffffffff|Hitem:4496:0:0:0:0:0:0:0:14|h[Faltriquera marrón pequeña]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09",
-						["size"] = 6,
-						["counts"] = {
-							[2] = 10,
-							[6] = 4,
+						["links"] = {
+							[7] = "|cffa335ee|Hitem:30535:1843:2960:2961:2962:0:0:0:73|h[Falda de caminante del bosque]|h|r",
+							[8] = "|cff1eff00|Hitem:24783:1843:0:0:0:0:-40:40:73|h[Botas Sangreoscura del bandido]|h|r",
+							[4] = "|cff0070dd|Hitem:27468:1843:0:0:0:0:0:0:73|h[Manijas de Claro de la Luna]|h|r",
 						},
-						["freeslots"] = 3,
+						["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:73|h[Bolsa de tejido abisal]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+						["size"] = 16,
 					},
 					["Bag3"] = {
 						["ids"] = {
-							[2] = 2835,
-							[5] = 1210,
-							[6] = 2589,
+							30358, -- [1]
+							31535, -- [2]
+							30710, -- [3]
+							29166, -- [4]
+							21991, -- [5]
+							31310, -- [6]
+							29793, -- [7]
+							25056, -- [8]
+							31297, -- [9]
+							29780, -- [10]
+							21991, -- [11]
 						},
-						["link"] = "|cffffffff|Hitem:4496:0:0:0:0:0:0:0:14|h[Faltriquera marrón pequeña]|h|r",
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_09",
-						["size"] = 6,
+						["links"] = {
+							[8] = "|cff1eff00|Hitem:25056:0:0:0:0:0:-40:31:73|h[Anillo de almandina del bandido]|h|r",
+						},
+						["link"] = "|cff0070dd|Hitem:35516:0:0:0:0:0:0:0:73|h[Cartera Toquesol]|h|r",
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_13",
+						["size"] = 20,
 						["counts"] = {
-							[2] = 2,
-							[6] = 12,
+							4, -- [1]
+							4, -- [2]
+							[5] = 20,
+							[11] = 16,
 						},
-						["freeslots"] = 3,
+						["freeslots"] = 9,
 					},
 					["Bag-2"] = {
+						["ids"] = {
+							6893, -- [1]
+							11000, -- [2]
+							11078, -- [3]
+							18249, -- [4]
+							30622, -- [5]
+							30633, -- [6]
+							30426, -- [7]
+							30688, -- [8]
+							7146, -- [9]
+							31084, -- [10]
+						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
 						["size"] = 32,
+						["counts"] = {
+							[3] = 3,
+						},
 					},
 				},
-				["numFreeBagSlots"] = 19,
-				["numBagSlots"] = 42,
+				["numFreeBagSlots"] = 28,
+				["numBagSlots"] = 84,
 			},
 		},
 		["Version"] = 1,

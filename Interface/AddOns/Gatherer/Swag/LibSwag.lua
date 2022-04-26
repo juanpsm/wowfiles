@@ -2,7 +2,7 @@
 
 	LibSwag - A library to help you keep track of all your swag.
 
-	Revision: $Id: LibSwag.lua 730 2008-05-19 23:09:27Z Esamynn $
+	Revision: $Id: LibSwag.lua 876 2010-09-18 23:41:23Z Esamynn $
 
 	License:
 		This library is free software; you can redistribute it and/or
@@ -319,8 +319,8 @@ if (create or update) then
 			local gtext
 			local lines = GameTooltip:NumLines()
 			for i=1, lines do
-				gtext = (getglobal("GameTooltipTextLeft"..i):GetText() or "")
-				local rTip = getglobal("GameTooltipTextRight"..i)
+				gtext = (_G["GameTooltipTextLeft"..i]:GetText() or "")
+				local rTip = _G["GameTooltipTextRight"..i]
 				if (rTip:IsVisible()) then
 					gtext = gtext.." / "..(rTip:GetText() or "")
 				end

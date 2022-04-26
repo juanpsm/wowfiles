@@ -1,0 +1,34 @@
+
+SexyCooldownDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["global"] = {
+		["dbVersion"] = 3,
+	},
+	["profiles"] = {
+		["Ijaa - WoWArg"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
+					["bar"] = {
+						["y"] = 509.6142260261808,
+						["x"] = 20.07851887225252,
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999922682501,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.99999845365,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

@@ -1,0 +1,3 @@
+Bartender4: disabled
+Grid: enabled
+TellMeWhen: disabled

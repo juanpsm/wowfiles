@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Shamyy - WoWArg",
+	},
+	["profiles"] = {
+		["Shamyy - WoWArg"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Shamyy - WoWArg",
+	},
+	["profiles"] = {
+		["Shamyy - WoWArg"] = {
+		},
+	},
+}

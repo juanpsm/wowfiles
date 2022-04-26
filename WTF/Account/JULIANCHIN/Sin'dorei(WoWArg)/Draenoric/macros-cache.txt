@@ -1,0 +1,49 @@
+MACRO 16777220 "assd" INV_Misc_QuestionMark
+#showtooltip Crusader Strike
+/startattack
+/cast Crusader Strike 
+END
+MACRO 16777223 "BLOCK CAP" INV_Misc_QuestionMark
+/script dr=function(x)return 1/(1/16+0.9560/x)end;DEFAULT_CHAT_FRAME:AddMessage("Need 102.4 combat table coverage. Currently at: "..string.format("%.2f", GetDodgeChance()+GetBlockChance()+GetParryChance()+5+dr(GetCombatRating(CR_DEFENSE_SKILL)/122.962)))
+END
+MACRO 16777226 "defensa recta MO" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover,help,exists] Righteous Defense; Hand of Salvation
+END
+MACRO 16777227 "defensivo" INV_Misc_QuestionMark
+/cast Divine Protection
+/cast Gift of the Naaru(Racial)
+END
+MACRO 16777232 "HoR MO" INV_Misc_QuestionMark
+#show
+/cast [target=mouseover] Hand of Reckoning
+END
+MACRO 16777228 "HS + SS" INV_Misc_QuestionMark
+/castsequence Holy Shield(Rank 6), Sacred Shield(Rank 1)
+END
+MACRO 16777221 "inmune" INV_Misc_QuestionMark
+#showtooltip
+/cast Divine Shield
+/in 0.5 /script CancelUnitBuff("Draenoric","Divine Shield")
+END
+MACRO 16777233 "mana" INV_Misc_QuestionMark
+/cast Divine Plea
+/cast Gift of the Naaru(Racial)
+END
+MACRO 16777230 "reyes swalla" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=mouseover] Greater Blessing of Kings
+END
+MACRO 16777225 "rotacion 6 sec" INV_Misc_QuestionMark
+/castsequence Hammer of the Righteous, Shield of Righteousness(Rank 2)
+END
+MACRO 16777224 "rotacion 9 sec" INV_Misc_QuestionMark
+/castsequence Judgement of Wisdom, Sacred Shield, Consecration(Rank 8)
+END
+MACRO 16777222 "rotacion tank" INV_Misc_QuestionMark
+/castsequence reset=10 Holy Shield, Shield of Righteousness, Consecration, Hammer of the Righteous, Judgement of Wisdom, Shield of Righteousness, Holy Shield, Hammer of the Righteous, Consecration,Shield of Righteousness
+END
+MACRO 16777231 "WoH MO" INV_Misc_QuestionMark
+#show
+/cast [target=mouseover] Hammer of Wrath(Rank 6)
+END

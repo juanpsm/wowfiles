@@ -4,7 +4,7 @@ QuestHelper_Pref = {
 	["submit_nag_type"] = "OFF",
 }
 QuestHelper_UID = "DhS49iRDeReeoPWnpGX1VQwdpA0eBTXF"
-QuestHelper_SaveDate = 1604633444
+QuestHelper_SaveDate = 1619397272
 QuestHelper_Errors = {
 	["version"] = 1,
 	["crash"] = {
@@ -31,6 +31,18 @@ QuestHelper_Errors = {
 			["local_version"] = "1.4.0",
 			["locale"] = "enUS",
 		}, -- [2]
+		{
+			["game_version"] = "3.3.5",
+			["toc_version"] = "1.4.0",
+			["message"] = "Too many stored objectives (24711 0 1)",
+			["timestamp"] = "2021-04-19 22:40:20",
+			["count"] = 2,
+			["locale"] = "enUS",
+			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  DoomCooldownPulse\n  DrDamage, v1.7.8_release\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.16\n  GearScore, v3.1.17 - Release\n  Gladius, vv1.2.0\n  Grid, v1.30300.1308\n  GridIndicatorIconBar, vv1.3-beta\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HealBot, v3.3.5.4\n  HunterHelper, v1.64\n  Ace2\n  LightHeaded, v304\n  Lore, v7.7.5\n  loremaster, vv2.033 20100226\n  MageNuggets, v1.86\n  MikScrollingBattleText, v5.4.78\n  MinimapButtonFrame, v3.1.1\n  MinimapButtonFrameSkinPack, v3.0\n  NeedToKnow, v3.1.7\n  NugComboBar\n  Omen, v3.0.9\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PallyPower, vv3.2.20\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  Recount, v1111\n  Scrap\n  SexyCooldown, v0.6.16\n  ShadowedUnitFrames, vv3.2.12\n  Skada, vr301\n  SkadaAbsorbs, v1.0\n  SkadaCC, v1.0\n  SkadaDamageTaken, v1.0\n  SkadaDamage, v1.0\n  SkadaDeaths, v1.0\n  SkadaDebuffs, v1.0\n  SkadaDispels, v1.0\n  SkadaEnemies, v1.0\n  SkadaFailbot, v1.0\n  SkadaHealing, v1.0\n  SkadaPower, v1.0\n  SkadaThreat, v1.0\n  SliceCommander, v1.4.1\n  SlideBar, v3.1.16 (<%codename%>)\n  Swatter, v3.1.16\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TellMeWhen, v1.2.4\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomeOfTeleportation\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
+			["stack"] = "Interface\\AddOns\\QuestHelper\\director_quest.lua:734: in function `QH_UpdateQuests'\nInterface\\AddOns\\QuestHelper\\db_get.lua:112: in function `DB_Init'\nInterface\\AddOns\\QuestHelper\\main.lua:460: in function <Interface\\AddOns\\QuestHelper\\main.lua:408>\n",
+			["local_version"] = "1.4.0",
+			["silent"] = true,
+		}, -- [3]
 	},
 }
 QuestHelper_Collector = {
@@ -54,53 +66,234 @@ QuestHelper_Collector = {
 		},
 		["warp"] = {
 			"\000\000Ø={\000ài\000\000ËŠu\000Vª\000\000\000Ø={\000ài\000\000ËŠu\000Vª\000", -- [1]
+			"\000\000¤^{\000\\j\000\0008Hx\000 ­\000", -- [2]
 		},
 		["flight_times"] = {
 		},
-		["modified"] = 1604633447,
+		["modified"] = 1619397284,
 		["flight_master"] = {
 		},
 		["achievement"] = {
 		},
 		["fishing"] = {
 		},
-		["item"] = {
-		},
+		["version"] = 8,
 		["realms"] = {
-			["WoWArg"] = 3,
 			["Queldorei PVP- PVE"] = 2,
+			["Sin'Dorei"] = 1,
+			["WoWArg"] = 3,
+			["Sin'dorei(WoWArg)"] = 1,
 		},
 		["worldloot"] = {
 		},
 		["object"] = {
 		},
 		["quest"] = {
-			[10296] = {
+			[13207] = {
 				["groupcount"] = 0,
-				["daily"] = false,
-				["name"] = "The Black Morass",
-				["level"] = 70,
+				["items_choice"] = {
+					[44371] = 1,
+					[44370] = 1,
+					[44372] = 1,
+					[44373] = 1,
+				},
+				["criteria_1_text"] = "Brann's Exploration complete: 1/1",
 				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Halls of Stone",
+				["criteria_1_monster_true"] = {
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 78,
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
 				["tag"] = "Dungeon",
 			},
-			[24871] = {
+			[24711] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Rotting Frost Giant slain: 0/1",
-				["name"] = "Securing the Ramparts",
+				["criteria_1_text"] = "Meet Lady Jaina Proudmoore at the entrance to the Halls of Reflection.",
 				["special_item"] = false,
 				["daily"] = false,
+				["name"] = "Frostmourne",
+				["criteria_1_monster_true"] = {
+				},
+				["level"] = 80,
+				["criteria_1_type"] = "log",
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "Dungeon",
+			},
+			[24587] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Ignis the Furnace Master slain: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Ignis the Furnace Master Must Die!",
+				["items_reward"] = {
+					[49426] = 5,
+					[47241] = 5,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["tag"] = "Raid",
+			},
+			[13241] = {
+				["groupcount"] = 0,
+				["items_choice"] = {
+					[44711] = 1,
+					[43950] = 1,
+					[44710] = 1,
+					[49702] = 1,
+					[44713] = 1,
+				},
+				["criteria_1_text"] = "Ymirjar Berserker slain: 0/7",
+				["name"] = "Timear Foresees Ymirjar Berserkers in your Future!",
+				["special_item"] = false,
+				["items_reward"] = {
+					[47241] = 3,
+				},
+				["criteria_1_monster_true"] = {
+				},
+				["daily"] = true,
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "Dungeon",
+			},
+			[13244] = {
+				["groupcount"] = 0,
+				["items_choice"] = {
+					[44711] = 1,
+					[43950] = 1,
+					[44710] = 1,
+					[49702] = 1,
+					[44713] = 1,
+				},
+				["criteria_1_text"] = "Titanium Vanguard slain: 3/7",
+				["special_item"] = false,
+				["items_reward"] = {
+					[47241] = 3,
+				},
+				["name"] = "Timear Foresees Titanium Vanguards in your Future!",
+				["daily"] = true,
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+				["tag"] = "Dungeon",
+			},
+			[13245] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Axe of the Plunderer: 0/1",
+				["name"] = "Proof of Demise: Ingvar the Plunderer",
+				["special_item"] = false,
+				["daily"] = true,
 				["criteria_1_monster_true"] = {
 				},
 				["items_reward"] = {
-					[52006] = 1,
+					[47241] = 4,
 				},
 				["level"] = 80,
+				["criteria_1_type"] = "item",
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "Heroic",
+			},
+			[50010] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Criatura rara: 0/1",
+				["name"] = "Buscando Raros",
+				["special_item"] = false,
+				["daily"] = true,
+				["criteria_1_monster_true"] = {
+				},
+				["items_reward"] = {
+					[47241] = 2,
+				},
+				["level"] = 77,
 				["criteria_1_type"] = "monster",
 				["criteria_1_monster_false"] = {
 					[114] = 4,
 					[127] = 2,
 				},
-				["tag"] = "Raid (10)",
+				["tag"] = "World Event",
+			},
+			[50016] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Players slain: 0/40",
+				["name"] = "Muestra de ValentÃ­a",
+				["special_item"] = false,
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["items_reward"] = {
+					[20558] = 1,
+					[299984] = 1,
+				},
+				["level"] = 80,
+				["criteria_1_type"] = "player",
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "PvP",
+			},
+			[50018] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Cairne Bloodhoof slain: 0/1",
+				["criteria_1_text"] = "Thrall slain: 0/1",
+				["items_reward"] = {
+					[42425] = 5,
+					[299984] = 1,
+				},
+				["criteria_2_monster_true"] = {
+				},
+				["criteria_1_monster_true"] = {
+				},
+				["special_item"] = false,
+				["criteria_2_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["name"] = "Muestra de Honor",
+				["criteria_1_type"] = "monster",
+				["daily"] = false,
+				["level"] = 80,
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["criteria_2_type"] = "monster",
+			},
+			[50022] = {
+				["criteria_2_text"] = "Bazil Thredd slain: 0/1",
+				["criteria_1_text"] = "0",
+				["criteria_4_type"] = "monster",
+				["daily"] = false,
+				["level"] = 80,
+				["criteria_5_type"] = "monster",
+				["groupcount"] = 0,
+				["criteria_5_text"] = "Kaz'rogal slain: 0/1",
+				["criteria_4_text"] = "Emeriss slain: 0/1",
+				["criteria_3_text"] = "Firemaw slain: 0/1",
+				["items_reward"] = {
+					[49426] = 10,
+					[47241] = 10,
+					[299985] = 1,
+				},
+				["name"] = "Una amenaza latente",
+				["criteria_2_type"] = "monster",
+				["criteria_3_type"] = "monster",
+				["criteria_1_type"] = "event",
+				["special_item"] = false,
+				["tag"] = "Raid",
 			},
 			[50024] = {
 				["criteria_2_text"] = "Chief Ukorz Sandscalp slain: 0/1",
@@ -154,6 +347,134 @@ QuestHelper_Collector = {
 					[127] = 2,
 				},
 				["criteria_2_type"] = "monster",
+			},
+			[13250] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Mojo Remnant of Akali: 0/1",
+				["special_item"] = false,
+				["daily"] = true,
+				["name"] = "Proof of Demise: Gal'darah",
+				["items_reward"] = {
+					[47241] = 4,
+				},
+				["criteria_1_type"] = "item",
+				["level"] = 80,
+				["tag"] = "Heroic",
+			},
+			[9063] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "Torwa Pathfinder",
+				["level"] = 52,
+				["special_item"] = false,
+			},
+			[13159] = {
+				["groupcount"] = 0,
+				["items_choice"] = {
+					[44344] = 1,
+					[44343] = 1,
+					[44342] = 1,
+					[44345] = 1,
+				},
+				["criteria_1_text"] = "Cyanigosa Slain: 0/1",
+				["special_item"] = 42482,
+				["daily"] = false,
+				["name"] = "Containment",
+				["criteria_1_monster_true"] = {
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 77,
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "Dungeon",
+			},
+			[13538] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Destroy one of the three southern towers: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Southern Sabotage",
+				["items_reward"] = {
+					[43228] = 10,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["tag"] = "PvP",
+			},
+			[24869] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Rescue Darnavan: 0/1",
+				["name"] = "Deprogramming",
+				["special_item"] = false,
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["items_reward"] = {
+					[52006] = 1,
+				},
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "Raid (10)",
+			},
+			[3385] = {
+				["criteria_2_text"] = "Clunk slain: 0/1",
+				["criteria_1_text"] = "Trade Master Kovic slain: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["level"] = 50,
+				["groupcount"] = 0,
+				["criteria_1_type"] = "monster",
+				["criteria_2_monster_true"] = {
+				},
+				["criteria_3_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["criteria_3_text"] = "Trader's Satchel: 0/1",
+				["items_reward"] = {
+					[10462] = 1,
+					[10479] = 1,
+				},
+				["name"] = "The Undermarket",
+				["criteria_3_monster_true"] = {
+				},
+				["criteria_3_type"] = "item",
+				["criteria_2_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["criteria_2_type"] = "monster",
+			},
+			[24871] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Rotting Frost Giant slain: 0/1",
+				["name"] = "Securing the Ramparts",
+				["special_item"] = false,
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["items_reward"] = {
+					[52006] = 1,
+				},
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["tag"] = "Raid (10)",
 			},
 			[24873] = {
 				["groupcount"] = 0,
@@ -231,28 +552,6 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "Raid (25)",
 			},
-			[13159] = {
-				["groupcount"] = 0,
-				["items_choice"] = {
-					[44344] = 1,
-					[44343] = 1,
-					[44342] = 1,
-					[44345] = 1,
-				},
-				["criteria_1_text"] = "Cyanigosa Slain: 0/1",
-				["special_item"] = 42482,
-				["daily"] = false,
-				["name"] = "Containment",
-				["criteria_1_monster_true"] = {
-				},
-				["criteria_1_type"] = "monster",
-				["level"] = 77,
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "Dungeon",
-			},
 			[24878] = {
 				["groupcount"] = 0,
 				["criteria_1_text"] = "Return with two strains of Blight.",
@@ -272,223 +571,42 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "Raid (25)",
 			},
-			[13245] = {
+			[24879] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Axe of the Plunderer: 0/1",
-				["name"] = "Proof of Demise: Ingvar the Plunderer",
-				["special_item"] = false,
-				["daily"] = true,
-				["criteria_1_monster_true"] = {
-				},
-				["items_reward"] = {
-					[47241] = 4,
-				},
-				["level"] = 80,
-				["criteria_1_type"] = "item",
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "Heroic",
-			},
-			[13633] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Dusty Journal: 0/1",
+				["criteria_1_text"] = "Minchar Rescued: 0/1",
 				["special_item"] = false,
 				["daily"] = false,
-				["criteria_1_monster_true"] = {
-				},
-				["name"] = "The Black Knight of Westfall?",
-				["level"] = 80,
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["criteria_1_type"] = "item",
-			},
-			[13207] = {
-				["groupcount"] = 0,
-				["items_choice"] = {
-					[44371] = 1,
-					[44370] = 1,
-					[44372] = 1,
-					[44373] = 1,
-				},
-				["criteria_1_text"] = "Brann's Exploration complete: 1/1",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Halls of Stone",
-				["criteria_1_monster_true"] = {
-				},
-				["criteria_1_type"] = "monster",
-				["level"] = 78,
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "Dungeon",
-			},
-			[50010] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Criatura rara: 0/1",
-				["name"] = "Buscando Raros",
-				["special_item"] = false,
-				["daily"] = true,
-				["criteria_1_monster_true"] = {
-				},
-				["items_reward"] = {
-					[47241] = 2,
-				},
-				["level"] = 77,
-				["criteria_1_type"] = "monster",
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "World Event",
-			},
-			[24711] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Meet Lady Jaina Proudmoore at the entrance to the Halls of Reflection.",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Frostmourne",
-				["criteria_1_monster_true"] = {
-				},
-				["level"] = 80,
-				["criteria_1_type"] = "log",
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "Dungeon",
-			},
-			[13241] = {
-				["groupcount"] = 0,
-				["items_choice"] = {
-					[44711] = 1,
-					[43950] = 1,
-					[44710] = 1,
-					[49702] = 1,
-					[44713] = 1,
-				},
-				["criteria_1_text"] = "Ymirjar Berserker slain: 0/7",
-				["name"] = "Timear Foresees Ymirjar Berserkers in your Future!",
-				["special_item"] = false,
-				["items_reward"] = {
-					[47241] = 3,
-				},
-				["criteria_1_monster_true"] = {
-				},
-				["daily"] = true,
-				["criteria_1_type"] = "monster",
-				["level"] = 80,
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "Dungeon",
-			},
-			[3385] = {
-				["criteria_2_text"] = "Clunk slain: 0/1",
-				["criteria_1_text"] = "Trade Master Kovic slain: 0/1",
-				["special_item"] = false,
-				["daily"] = false,
-				["criteria_1_monster_true"] = {
-				},
-				["level"] = 50,
-				["groupcount"] = 0,
-				["criteria_1_type"] = "monster",
-				["criteria_2_monster_true"] = {
-				},
-				["criteria_3_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["criteria_3_text"] = "Trader's Satchel: 0/1",
-				["items_reward"] = {
-					[10462] = 1,
-					[10479] = 1,
-				},
-				["name"] = "The Undermarket",
-				["criteria_3_monster_true"] = {
-				},
-				["criteria_3_type"] = "item",
-				["criteria_2_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["criteria_2_type"] = "monster",
-			},
-			[50016] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Players slain: 0/40",
-				["name"] = "Muestra de ValentÃ­a",
-				["special_item"] = false,
-				["daily"] = false,
-				["criteria_1_monster_true"] = {
-				},
-				["items_reward"] = {
-					[20558] = 1,
-					[299984] = 1,
-				},
-				["level"] = 80,
-				["criteria_1_type"] = "player",
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "PvP",
-			},
-			[24869] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Rescue Darnavan: 0/1",
-				["name"] = "Deprogramming",
-				["special_item"] = false,
-				["daily"] = false,
-				["criteria_1_monster_true"] = {
-				},
+				["name"] = "Blood Quickening",
 				["items_reward"] = {
 					[52006] = 1,
 				},
-				["level"] = 80,
 				["criteria_1_type"] = "monster",
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["tag"] = "Raid (10)",
+				["level"] = 80,
+				["tag"] = "Raid (25)",
 			},
-			[50018] = {
+			[3528] = {
 				["groupcount"] = 0,
-				["criteria_2_text"] = "Cairne Bloodhoof slain: 0/1",
-				["criteria_1_text"] = "Thrall slain: 0/1",
-				["items_reward"] = {
-					[42425] = 5,
-					[299984] = 1,
+				["items_choice"] = {
+					[10751] = 1,
+					[10750] = 1,
+					[10749] = 1,
 				},
-				["criteria_2_monster_true"] = {
-				},
-				["criteria_1_monster_true"] = {
-				},
-				["special_item"] = false,
-				["criteria_2_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["name"] = "Muestra de Honor",
-				["criteria_1_type"] = "monster",
+				["criteria_1_text"] = "Filled Egg of Hakkar: 0/1",
+				["special_item"] = 10465,
 				["daily"] = false,
-				["level"] = 80,
-				["criteria_1_monster_false"] = {
-					[114] = 4,
-					[127] = 2,
-				},
-				["criteria_2_type"] = "monster",
+				["name"] = "The God Hakkar",
+				["level"] = 53,
+				["criteria_1_type"] = "item",
+				["tag"] = "Dungeon",
+			},
+			[272] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "Trial of the Sea Lion",
+				["criteria_1_text"] = "Pendant of the Sea Lion: 0/1",
+				["special_item"] = false,
+				["level"] = -1,
+				["criteria_1_type"] = "item",
 			},
 			[13672] = {
 				["groupcount"] = 0,
@@ -498,15 +616,139 @@ QuestHelper_Collector = {
 				["criteria_1_monster_true"] = {
 				},
 				["name"] = "Up To The Challenge",
-				["level"] = 80,
+				["criteria_1_type"] = "item",
 				["criteria_1_monster_false"] = {
 					[114] = 4,
 					[127] = 2,
 				},
+				["level"] = 80,
+			},
+			[12843] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "They Took Our Men!",
+				["criteria_1_text"] = "Goblin Prisoner freed: 0/5",
+				["special_item"] = false,
+				["level"] = 79,
+				["items_choice"] = {
+					[42866] = 1,
+					[42842] = 1,
+					[42888] = 1,
+					[42864] = 1,
+					[42877] = 1,
+				},
+				["criteria_1_type"] = "monster",
+			},
+			[26034] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Halion slain: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "The Twilight Destroyer",
+				["items_reward"] = {
+					[49426] = 5,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 82,
+				["tag"] = "Raid",
+			},
+			[10296] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "The Black Morass",
+				["level"] = 70,
+				["special_item"] = false,
+				["tag"] = "Dungeon",
+			},
+			[13181] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Victory in Lake Wintergrasp",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Victory in Wintergrasp",
+				["items_reward"] = {
+					[43228] = 10,
+				},
+				["criteria_1_type"] = "event",
+				["level"] = 80,
+				["tag"] = "PvP",
+			},
+			[13633] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Dusty Journal: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["name"] = "The Black Knight of Westfall?",
 				["criteria_1_type"] = "item",
+				["criteria_1_monster_false"] = {
+					[114] = 4,
+					[127] = 2,
+				},
+				["level"] = 80,
+			},
+			[13153] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Imbued Horde Armor: 0/10",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Warding the Warriors",
+				["items_reward"] = {
+					[43228] = 10,
+				},
+				["criteria_1_type"] = "item",
+				["level"] = 80,
+				["tag"] = "PvP",
+			},
+			[13177] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Horde members slain: 0/10",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "No Mercy for the Merciless",
+				["items_reward"] = {
+					[43228] = 10,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["tag"] = "PvP",
+			},
+			[10279] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "To The Master's Lair",
+				["level"] = 66,
+				["special_item"] = false,
 			},
 		},
-		["version"] = 8,
+		["item"] = {
+			[41599] = {
+				["equiplocation"] = "BAG",
+				["type"] = "Container/Bag",
+				["name"] = "Frostweave Bag",
+				["ilevel"] = 80,
+				["minlevel"] = 0,
+				["open_no"] = 2,
+				["quality"] = 2,
+			},
+			[43523] = {
+				["open_no"] = 2,
+				["type"] = "Consumable/Food & Drink",
+				["name"] = "Conjured Mana Strudel",
+				["ilevel"] = 90,
+				["minlevel"] = 80,
+				["quality"] = 1,
+			},
+			[20388] = {
+				["open_no"] = 2,
+				["type"] = "Consumable/Consumable",
+				["name"] = "Lollipop",
+				["ilevel"] = 55,
+				["minlevel"] = 0,
+				["quality"] = 1,
+			},
+		},
 	},
 	["1.4.0 on 3.3.5/esES/1"] = {
 		["monster"] = {
@@ -520,9 +762,9 @@ QuestHelper_Collector = {
 		},
 		["achievement"] = {
 		},
-		["version"] = 8,
 		["item"] = {
 		},
+		["version"] = 8,
 		["realms"] = {
 			["WoWArg"] = 1,
 		},
@@ -565,8 +807,8 @@ QuestHelper_Collector = {
 				["daily"] = false,
 				["name"] = "El Drakkensryd",
 				["criteria_1_text"] = "Jinete de draco de El Encuentro Hyldnir derrotada: 0/10",
-				["criteria_1_type"] = "monster",
 				["level"] = 80,
+				["criteria_1_type"] = "monster",
 				["items_choice"] = {
 					[42887] = 1,
 					[42863] = 1,
@@ -721,9 +963,9 @@ QuestHelper_Collector = {
 				["special_item"] = false,
 				["daily"] = false,
 				["name"] = "El Mercado Negro",
-				["criteria_1_type"] = "monster",
-				["criteria_3_type"] = "item",
 				["level"] = 50,
+				["criteria_3_type"] = "item",
+				["criteria_1_type"] = "monster",
 				["items_reward"] = {
 					[10462] = 1,
 					[10479] = 1,

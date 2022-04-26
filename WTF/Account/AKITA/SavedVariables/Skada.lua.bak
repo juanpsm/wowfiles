@@ -1,0 +1,10 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Guthrakk - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

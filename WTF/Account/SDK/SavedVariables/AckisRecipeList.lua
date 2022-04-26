@@ -1,13 +1,19 @@
 
 ARLDB2 = {
 	["profileKeys"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
 	},
 	["profiles"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = {
+		},
+		["Subjected - Sin'Dorei"] = {
+		},
 		["Skombrow - Bennu"] = {
 		},
-		["Draenoric - Sin'Dorei"] = {
+		["Skombrow - Kel'Thuzad"] = {
 		},
 	},
 }

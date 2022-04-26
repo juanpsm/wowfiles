@@ -5,18 +5,18 @@ AtlasLootCharDB = {
 	["WishList"] = {
 	},
 	["AtlasLootVersion"] = "51102",
-	["LastSearchedText"] = "Jaded Crystal Dagger",
+	["LastSearchedText"] = "adamantine repeater",
 	["AutoQuery"] = false,
 	["SearchResult"] = {
 		{
 			2, -- [1]
-			34604, -- [2]
+			27507, -- [2]
 			"", -- [3]
-			"=q4=Jaded Crystal Dagger", -- [4]
-			"Selin Fireheart", -- [5]
+			"=q3=Adamantine Repeater", -- [4]
+			"Keli'dan the Breaker", -- [5]
 			"", -- [6]
 			"", -- [7]
-			"SMTFireheart|\"\"", -- [8]
+			"HCFurnaceBreaker|\"\"", -- [8]
 		}, -- [1]
 	},
 }

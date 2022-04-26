@@ -1,5 +1,17 @@
+MACRO 8 "." INV_Misc_QuestionMark
+Hola! Por este medio no atendemos bugs, para eso está el buggtracker. En el foro podes encontrar una guia: https://foro.wowarg.com.ar/t/guia-como-reportar-un-bug/511
+END
+MACRO 25 ".demorph" Ability_Rogue_Disguise
+.demorph
+END
+MACRO 24 "angel" Ability_Creature_Cursed_05
+.morph 5233
+END
 MACRO 15 "appear" Ability_Vanish
 .appear
+END
+MACRO 28 "Cthun" Ability_CheapShot
+.morph 15556
 END
 MACRO 19 "Decursive" INV_Misc_QuestionMark
 /stopcasting
@@ -48,8 +60,8 @@ END
 MACRO 18 "quest" Ability_Hunter_Invigeration
 .loo q Cleansing Drak'Tharon
 END
-MACRO 8 "s" INV_Misc_QuestionMark
-Hola, lamentamos mucho el inconveniente, pero no podemos hacer nada al respecto. Recomendamos que siempre hagas los intercambios de items valiosos a traves de trade para evitar esto
+MACRO 26 "revive" Spell_Holy_DivineSpirit
+.revive
 END
 MACRO 6 "speed" Ability_Druid_Dash
 .velo 10
@@ -59,4 +71,10 @@ MACRO 1 "Spy" Ability_Hunter_AspectoftheViper
 END
 MACRO 17 "target" Ability_Hunter_MasterTactitian
 /target Straydog
+END
+MACRO 23 "thresher" Ability_Creature_Poison_05
+.morph 994
+END
+MACRO 27 "unaura" Spell_Holy_DivineHymn
+.unaura all
 END

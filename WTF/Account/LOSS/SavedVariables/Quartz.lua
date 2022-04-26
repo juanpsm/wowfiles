@@ -12,14 +12,14 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 822.9729304447945,
+					["x"] = 790.4348045143016,
 				},
 			},
 		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 797.9729304447945,
+					["x"] = 765.4348045143016,
 				},
 			},
 		},
@@ -28,14 +28,14 @@ Quartz3DB = {
 		["Focus"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 822.9729304447945,
+					["x"] = 790.4348045143016,
 				},
 			},
 		},
 		["Target"] = {
 			["profiles"] = {
 				["Default"] = {
-					["x"] = 822.9729304447945,
+					["x"] = 790.4348045143016,
 				},
 			},
 		},
@@ -47,7 +47,7 @@ Quartz3DB = {
 		},
 	},
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Default",
+		["Lossana - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

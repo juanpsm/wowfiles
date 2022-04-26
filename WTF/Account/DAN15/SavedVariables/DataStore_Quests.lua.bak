@@ -1,0 +1,69 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:7142:-1|h[The Battle for Alterac]|h|r", -- [2]
+					"|cffffff00|Hquest:7141:-1|h[The Battle of Alterac]|h|r", -- [3]
+					nil, -- [4]
+					"|cff808080|Hquest:8115:60|h[Control Five Bases]|h|r", -- [5]
+					"|cff808080|Hquest:8114:60|h[Control Four Bases]|h|r", -- [6]
+					nil, -- [7]
+					"|cffffff00|Hquest:24580:80|h[Anub'Rekhan Must Die!]|h|r", -- [8]
+					nil, -- [9]
+					"|cffffff00|Hquest:50001:80|h[Buscando a Truenoventura en el Lagberinto]|h|r", -- [10]
+					nil, -- [11]
+					"|cffffff00|Hquest:13384:80|h[Judgment at the Eye of Eternity]|h|r", -- [12]
+					nil, -- [13]
+					"|cff808080|Hquest:4491:55|h[A Little Help From My Friends]|h|r", -- [14]
+					nil, -- [15]
+					"|cffffff00|Hquest:13222:80|h[Defend the Siege]|h|r", -- [16]
+					"|cffffff00|Hquest:13197:80|h[Fueling the Demolishers]|h|r", -- [17]
+					"|cffffff00|Hquest:236:80|h[Fueling the Demolishers]|h|r", -- [18]
+					"|cffffff00|Hquest:13177:80|h[No Mercy for the Merciless]|h|r", -- [19]
+					"|cffffff00|Hquest:13181:80|h[Victory in Wintergrasp]|h|r", -- [20]
+				},
+				["lastUpdate"] = 1592435358,
+				["Rewards"] = {
+					[12] = "c|44657|1|1,c|44659|1|1,c|44660|1|1",
+					[14] = "c|11911|1|1,c|11913|1|1",
+					[8] = "r|49426|5|1,r|47241|5|1",
+					[17] = "r|43228|10|1",
+					[18] = "r|43228|10|1",
+					[19] = "r|43228|10|1",
+					[10] = "r|299999|2|1",
+					[5] = "r|20132|1|1",
+					[20] = "r|43228|10|1",
+					[16] = "r|43228|10|1",
+				},
+				["Quests"] = {
+					"0|Alterac Valley", -- [1]
+					"1|PvP|0|222000|1", -- [2]
+					"1|PvP|0|99000|1", -- [3]
+					"0|Arathi Basin", -- [4]
+					"1|PvP|0|27000|1", -- [5]
+					"1|PvP|0|27000|1", -- [6]
+					"0|Naxxramas", -- [7]
+					"1|Raid|0|296000|0", -- [8]
+					"0|Testing", -- [9]
+					"1|World Event|0|100000|0", -- [10]
+					"0|The Eye of Eternity", -- [11]
+					"1|Raid (10)|0|222000|0", -- [12]
+					"0|Un'Goro Crater", -- [13]
+					"1||0|4950|-1", -- [14]
+					"0|Wintergrasp", -- [15]
+					"1|PvP|0|132300|0", -- [16]
+					"1|PvP|0|132300|0", -- [17]
+					"1|PvP|0|132300|0", -- [18]
+					"1|PvP|0|132300|1", -- [19]
+					"1|PvP|0|132300|1", -- [20]
+				},
+			},
+		},
+	},
+}

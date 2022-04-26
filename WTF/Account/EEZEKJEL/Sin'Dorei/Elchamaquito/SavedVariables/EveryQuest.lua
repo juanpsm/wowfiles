@@ -7,6 +7,7 @@ EQ2DBPC = {
 	},
 	["profileKeys"] = {
 		["Elchamaquito - WoWArg"] = "global",
+		["Elchamaquito - Sin'Dorei"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {

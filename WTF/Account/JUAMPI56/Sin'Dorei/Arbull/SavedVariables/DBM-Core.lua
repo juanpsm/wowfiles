@@ -14,23 +14,23 @@ DBM_SavedOptions = {
 	["BlockVersionUpdatePopup"] = true,
 	["WarningColors"] = {
 		{
-			["b"] = 0.94,
+			["b"] = 0.9411764705882353,
 			["g"] = 0.8,
-			["r"] = 0.41,
+			["r"] = 0.4117647058823529,
 		}, -- [1]
 		{
 			["b"] = 0,
-			["g"] = 0.95,
-			["r"] = 0.95,
+			["g"] = 0.9490196078431372,
+			["r"] = 0.9490196078431372,
 		}, -- [2]
 		{
 			["b"] = 0,
-			["g"] = 0.5,
+			["g"] = 0.5019607843137255,
 			["r"] = 1,
 		}, -- [3]
 		{
-			["b"] = 0.1,
-			["g"] = 0.1,
+			["b"] = 0.1019607843137255,
+			["g"] = 0.1019607843137255,
 			["r"] = 1,
 		}, -- [4]
 	},
@@ -47,27 +47,27 @@ DBM_SavedOptions = {
 	["ShowSpecialWarnings"] = true,
 	["RaidWarningSound"] = "Sound\\Doodad\\BellTollNightElf.wav",
 	["SpecialWarningSound"] = "Sound\\Spells\\PVPFlagTaken.wav",
-	["AlwaysShowHealthFrame"] = false,
 	["DontShowBossAnnounces"] = false,
-	["RangeFrameSound2"] = "none",
 	["SpecialWarningY"] = 75,
+	["RangeFrameSound2"] = "none",
+	["AlwaysShowHealthFrame"] = false,
 	["RaidWarningPosition"] = {
 		["Y"] = -185,
 		["X"] = 0,
 		["Point"] = "TOP",
 	},
-	["RangeFrameLocked"] = false,
-	["Enabled"] = true,
 	["RangeFrameX"] = 50,
-	["WarningIconLeft"] = true,
-	["HealthFrameWidth"] = 200,
-	["RangeFrameSound1"] = "none",
-	["DontSendBossWhispers"] = false,
+	["Enabled"] = true,
 	["SpecialWarningFontColor"] = {
 		0, -- [1]
 		0, -- [2]
 		1, -- [3]
 	},
+	["WarningIconLeft"] = true,
+	["HealthFrameWidth"] = 200,
+	["RangeFrameLocked"] = false,
+	["DontSendBossWhispers"] = false,
+	["RangeFrameSound1"] = "none",
 	["HPFrameY"] = 50,
 	["FixCLEUOnCombatStart"] = false,
 	["SpecialWarningX"] = 0,
@@ -80,5 +80,26 @@ DBM_SavedOptions = {
 }
 DBT_SavedOptions = {
 	["DBM"] = {
+		["EndColorG"] = 0,
+		["HugeTimerY"] = -119.9999971884546,
+		["HugeBarXOffset"] = 0,
+		["Scale"] = 0.8999999761581421,
+		["StartColorR"] = 1,
+		["HugeWidth"] = 200,
+		["BarYOffset"] = 0,
+		["TimerPoint"] = "RIGHT",
+		["StartColorG"] = 0.6980392156862745,
+		["TimerY"] = 220.2231610753346,
+		["TimerX"] = -441.8988609796928,
+		["EndColorR"] = 1,
+		["Width"] = 183,
+		["HugeTimerPoint"] = "CENTER",
+		["HugeScale"] = 1.049999952316284,
+		["StartColorB"] = 0,
+		["FontSize"] = 10,
+		["HugeTimerX"] = 0,
+		["HugeBarYOffset"] = 0,
+		["BarXOffset"] = 0,
+		["EndColorB"] = 0,
 	},
 }

@@ -1,0 +1,723 @@
+
+GUPPET_SAVEDDATA = {
+	["MultiGround"] = {
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 0,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 0,
+	},
+	["Companion"] = {
+		{
+			["Name"] = "Búho común",
+			["Slot"] = 1,
+			["Id"] = 10707,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7553,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [1]
+		{
+			["Name"] = "Carolina",
+			["Slot"] = 2,
+			["Id"] = 10680,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7390,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [2]
+		{
+			["Name"] = "Conejo marrón",
+			["Slot"] = 3,
+			["Id"] = 35239,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 20472,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [3]
+		{
+			["Name"] = "Conejo Pataneve",
+			["Slot"] = 4,
+			["Id"] = 10711,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7560,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [4]
+		{
+			["Name"] = "Cotorrilla",
+			["Slot"] = 5,
+			["Id"] = 39181,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 22445,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [5]
+		{
+			["Name"] = "Cucaracha",
+			["Slot"] = 6,
+			["Id"] = 10688,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7395,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [6]
+		{
+			["Name"] = "Culebra carmesí",
+			["Slot"] = 7,
+			["Id"] = 10717,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7567,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [7]
+		{
+			["Name"] = "Lechuza gavilana",
+			["Slot"] = 8,
+			["Id"] = 10706,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7555,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [8]
+		{
+			["Name"] = "Polilla roja",
+			["Slot"] = 9,
+			["Id"] = 35909,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 21009,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [9]
+		{
+			["Name"] = "Pollo de los Páramos de Poniente",
+			["Slot"] = 10,
+			["Id"] = 13548,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 30379,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [10]
+		{
+			["Name"] = "Prole de dracohalcón azul",
+			["Slot"] = 11,
+			["Id"] = 36031,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 21056,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [11]
+		{
+			["Name"] = "Prole de estornino",
+			["Slot"] = 12,
+			["Id"] = 61348,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 32589,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [12]
+		{
+			["Name"] = "Prole flechada",
+			["Slot"] = 13,
+			["Id"] = 67413,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 35396,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [13]
+		{
+			["Name"] = "Senegal",
+			["Slot"] = 14,
+			["Id"] = 10684,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7389,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [14]
+		{
+			["Name"] = "Siamés",
+			["Slot"] = 15,
+			["Id"] = 10677,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 7380,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [15]
+		{
+			["Name"] = "Vermizo de maná",
+			["Slot"] = 16,
+			["Id"] = 35156,
+			["UseSnowball"] = 0,
+			["CreatureID"] = 20408,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [16]
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 16,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 16,
+	},
+	["Unknown"] = {
+		["Total"] = 0,
+	},
+	["FastFly"] = {
+		{
+			["Name"] = "Grifo rojo presto",
+			["Slot"] = 17,
+			["Id"] = 32289,
+			["CreatureID"] = 18376,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [1]
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 1,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 1,
+	},
+	["Aquatic"] = {
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 0,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 0,
+	},
+	["SlowFly"] = {
+		{
+			["Name"] = "Grifo dorado",
+			["Slot"] = 16,
+			["Id"] = 32235,
+			["CreatureID"] = 18360,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [1]
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 1,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 1,
+	},
+	["FastGround"] = {
+		{
+			["Name"] = "Carnero blanco presto",
+			["Slot"] = 3,
+			["Id"] = 23240,
+			["CreatureID"] = 14547,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [1]
+		{
+			["Name"] = "Carnero gris presto",
+			["Slot"] = 5,
+			["Id"] = 23239,
+			["CreatureID"] = 14548,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [2]
+		{
+			["Name"] = "Carnero marrón presto",
+			["Slot"] = 7,
+			["Id"] = 23238,
+			["CreatureID"] = 14546,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [3]
+		{
+			["Name"] = "Corcel blanco presto",
+			["Slot"] = 8,
+			["Id"] = 23228,
+			["CreatureID"] = 14560,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [4]
+		{
+			["Name"] = "Corcel marrón presto",
+			["Slot"] = 9,
+			["Id"] = 23229,
+			["CreatureID"] = 14561,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [5]
+		{
+			["Name"] = "Gran elekk azul",
+			["Slot"] = 13,
+			["Id"] = 35713,
+			["CreatureID"] = 20848,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [6]
+		{
+			["Name"] = "Gran elekk morado",
+			["Slot"] = 14,
+			["Id"] = 35714,
+			["CreatureID"] = 20850,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [7]
+		{
+			["Name"] = "Gran elekk verde",
+			["Slot"] = 15,
+			["Id"] = 35712,
+			["CreatureID"] = 20849,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [8]
+		{
+			["Name"] = "Palomino presto",
+			["Slot"] = 18,
+			["Id"] = 23227,
+			["CreatureID"] = 14559,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [9]
+		{
+			["Name"] = "Sable de Hielo presto",
+			["Slot"] = 21,
+			["Id"] = 23221,
+			["CreatureID"] = 14556,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [10]
+		{
+			["Name"] = "Sable de la Niebla presto",
+			["Slot"] = 23,
+			["Id"] = 23219,
+			["CreatureID"] = 14555,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [11]
+		{
+			["Name"] = "Sable de la Tempestad presto",
+			["Slot"] = 25,
+			["Id"] = 23338,
+			["CreatureID"] = 14602,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [12]
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 12,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 12,
+	},
+	["SlowGround"] = {
+		{
+			["Name"] = "Caballo marrón",
+			["Slot"] = 1,
+			["Id"] = 458,
+			["CreatureID"] = 284,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [1]
+		{
+			["Name"] = "Carnero blanco",
+			["Slot"] = 2,
+			["Id"] = 6898,
+			["CreatureID"] = 4777,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [2]
+		{
+			["Name"] = "Carnero gris",
+			["Slot"] = 4,
+			["Id"] = 6777,
+			["CreatureID"] = 4710,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [3]
+		{
+			["Name"] = "Carnero marrón",
+			["Slot"] = 6,
+			["Id"] = 6899,
+			["CreatureID"] = 4779,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [4]
+		{
+			["Name"] = "Elekk gris",
+			["Slot"] = 10,
+			["Id"] = 35710,
+			["CreatureID"] = 20846,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [5]
+		{
+			["Name"] = "Elekk marrón",
+			["Slot"] = 11,
+			["Id"] = 34406,
+			["CreatureID"] = 19658,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [6]
+		{
+			["Name"] = "Elekk morado",
+			["Slot"] = 12,
+			["Id"] = 35711,
+			["CreatureID"] = 20847,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [7]
+		{
+			["Name"] = "Pinto",
+			["Slot"] = 19,
+			["Id"] = 472,
+			["CreatureID"] = 307,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [8]
+		{
+			["Name"] = "Sable de Hielo moteado",
+			["Slot"] = 20,
+			["Id"] = 10789,
+			["CreatureID"] = 7687,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [9]
+		{
+			["Name"] = "Sable de Hielo rayado",
+			["Slot"] = 22,
+			["Id"] = 8394,
+			["CreatureID"] = 6074,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [10]
+		{
+			["Name"] = "Sable de la noche rayado",
+			["Slot"] = 24,
+			["Id"] = 10793,
+			["CreatureID"] = 7690,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [11]
+		{
+			["Name"] = "Sable del Alba rayado",
+			["Slot"] = 26,
+			["Id"] = 66847,
+			["CreatureID"] = 35168,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [12]
+		{
+			["Name"] = "Yegua zaina",
+			["Slot"] = 27,
+			["Id"] = 6648,
+			["CreatureID"] = 4269,
+			["Weight"] = {
+				["BattleGrounds"] = 0,
+				["Global World"] = 1,
+				["Arenas"] = 0,
+				["Cities"] = 0,
+				["Instances"] = 0,
+			},
+		}, -- [13]
+		["TotalWeight"] = {
+			["BattleGrounds"] = 0,
+			["Global World"] = 13,
+			["Arenas"] = 0,
+			["Cities"] = 0,
+			["Instances"] = 0,
+		},
+		["Total"] = 13,
+	},
+}
+GUPPET_SAVEDLOCATIONS = {
+	["BattleGrounds"] = 40,
+	["Instances"] = 20,
+	["Arenas"] = 30,
+	["Cities"] = 10,
+	["Global World"] = 0,
+}
+GUPPET_OPTIONS = {
+	["Debug"] = false,
+	["PreviewFrameStartPos"] = 0,
+	["Class"] = {
+		["AquaticForm"] = true,
+		["FlyForm"] = true,
+	},
+	["IngameButton"] = {
+		["MountButton"] = "Auto",
+		["xOffset"] = -195.6534367220738,
+		["Icons"] = {
+			["Fly"] = "Interface\\Icons\\Ability_Mount_Drake_Bronze.blp",
+			["Companion"] = "Interface\\Icons\\INV_Box_PetCarrier_01.blp",
+			["Ground"] = "Interface\\Icons\\Ability_Mount_Mammoth_Black.blp",
+			["Auto"] = "Interface\\Icons\\Ability_Mount_Drake_Azure.blp",
+		},
+		["yOffset"] = -40.26958413924846,
+		["Show"] = false,
+		["Alignment"] = "H",
+		["RelativePoint"] = "RIGHT",
+		["CompanionButton"] = true,
+		["Lock"] = false,
+		["Scale"] = 1,
+	},
+	["NewVersion"] = 0,
+	["AutoDismount"] = false,
+	["PreviewFrameSpeed"] = 1,
+	["AutoCompanion"] = {
+		["Enabled"] = false,
+		["PetOfTheDay"] = {
+			["Enabled"] = false,
+			["Day"] = 0,
+			["Month"] = 0,
+			["PetId"] = 0,
+			["Year"] = 0,
+		},
+		["Outside"] = true,
+		["BattleGround"] = true,
+		["Party"] = true,
+		["City"] = true,
+		["DismissMounted"] = false,
+		["Resummon"] = 0,
+		["Arena"] = true,
+		["Delay"] = 2,
+		["Raid"] = true,
+	},
+	["MinimapButton"] = {
+		["Show"] = false,
+		["Radius"] = 78,
+		["Position"] = 355,
+		["xOffset"] = 0,
+		["RelativePoint"] = "",
+		["Lock"] = true,
+		["yOffset"] = 0,
+	},
+	["Mode"] = "Expert_",
+}
+GUPPET_SAVEDZONEVARS = {
+	["CANFLYDALARAN"] = false,
+	["NEW_SUBZONE"] = "",
+	["NEW_ZONE"] = "",
+	["OLD_SUBZONE"] = "",
+	["OLD_ZONE"] = "",
+	["CANFLYCONTINENT"] = true,
+}

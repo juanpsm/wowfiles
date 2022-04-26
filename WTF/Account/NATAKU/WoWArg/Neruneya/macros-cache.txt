@@ -1,0 +1,28 @@
+MACRO 16777224 "asdsdsa" INV_Misc_QuestionMark
+/6 vendo Arctic fur y Eternal life!!!
+END
+MACRO 16777217 "Draenei" Spell_Holy_HolyProtection
+/target Neruneya
+/use Gift of the Naaru
+/targetlassenemy
+END
+MACRO 16777223 "grax" Ability_Ambush
+/reply Mandado, muchas  graciass!!!
+END
+MACRO 16777219 "Incription" INV_Misc_QuestionMark
+END
+MACRO 16777225 "ins" Ability_Creature_Disease_03
+/6 No vendo
+END
+MACRO 16777222 "sad" Ability_Creature_Disease_05
+/cast |cffffd000|Htrade:45363:450:450:33B24:g////7////3///////////////////////////////////////////////////f///////////f|h[Inscription]|h|r
+END
+MACRO 16777220 "VuhDoDCShieldData" Ability_Hunter_MasterMarksman
+END
+MACRO 16777221 "VuhDoDCShieldNames" Ability_Hunter_MasterMarksman
+#showtooltip Arctic Fur
+/6 Vendo Arctic Fur y Eternal Life!!!
+END
+MACRO 16777218 "WorldInsc" Ability_Druid_Berserk
+/6 vendo |cffffd000|Htrade:45363:450:450:33B24:g////73/7/3///////v9/////v///4/vn//99//x////////////////////rPf///////////f|h[Inscription]|h|r FULL 25g TODOS  especiales! Mando por cod o estoy FRENTE AL TRAINER de inscription en Dalaran! SOLO GLIFOS
+END

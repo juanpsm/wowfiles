@@ -1,17 +1,17 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Nightbull"] = {
+			["Default.WoWArg.Skombrow"] = {
 				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|||0", -- [4]
+					"1|2|||0", -- [5]
 					"0|1|||0", -- [6]
 					"0|0|||0", -- [7]
 					"0|0|||0", -- [8]
@@ -21,141 +21,192 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1522877162,
-				["Class"] = "WARRIOR",
-				["PointsSpent"] = "0,0,0,0,0,0",
+				["lastUpdate"] = 1499533178,
+				["Class"] = "DRUID",
+				["TalentTrees"] = {
+					["Equilibrio|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						2, -- [4]
+						[7] = 1,
+					},
+					["Restauración|1"] = {
+						2, -- [1]
+						3, -- [2]
+						nil, -- [3]
+						2, -- [4]
+						nil, -- [5]
+						3, -- [6]
+						3, -- [7]
+						1, -- [8]
+						2, -- [9]
+						5, -- [10]
+						3, -- [11]
+						1, -- [12]
+						5, -- [13]
+						nil, -- [14]
+						nil, -- [15]
+						4, -- [16]
+						3, -- [17]
+						1, -- [18]
+						nil, -- [19]
+						5, -- [20]
+						nil, -- [21]
+						nil, -- [22]
+						1, -- [23]
+						3, -- [24]
+						nil, -- [25]
+						5, -- [26]
+						1, -- [27]
+					},
+				},
+				["PointsSpent"] = "11,0,53,0,0,0",
 			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["global"] = {
-		["WARRIOR"] = {
+		["DRUID"] = {
 			["Locale"] = "esES",
 			["Trees"] = {
-				["Protección"] = {
-					["background"] = "WarriorProtection",
+				["Combate feral"] = {
+					["background"] = "DruidFeralCombat",
 					["talents"] = {
-						"142|Ira sangrienta mejorada|Ability_Racial_BloodRage|1|1|2", -- [1]
-						"1601|Especialización en escudos|INV_Shield_06|1|2|5", -- [2]
-						"141|Atronar mejorado|Ability_ThunderClap|1|3|3", -- [3]
-						"144|Incitar|Ability_Warrior_Incite|2|2|3", -- [4]
-						"138|Anticipación|Spell_Nature_MirrorImage|2|3|5", -- [5]
-						"153|Última carga|Spell_Holy_AshesToAshes|3|1|1", -- [6]
-						"147|Revancha mejorada|Ability_Warrior_Revenge|3|2|2", -- [7]
-						"1654|Maestría con escudos|Ability_Warrior_ShieldMastery|3|3|2", -- [8]
-						"140|Consistencia|Spell_Holy_Devotion|3|4|5", -- [9]
-						"2247|Reflejo de hechizos mejorado|Ability_Warrior_ShieldReflection|4|1|2", -- [10]
-						"151|Desarmar mejorado|Ability_Warrior_Disarm|4|2|2", -- [11]
-						"146|Pinchar|Ability_Warrior_Sunder|4|3|3", -- [12]
-						"150|Disciplinas mejoradas|Ability_Warrior_ShieldWall|5|1|2", -- [13]
-						"152|Arremetida de conmoción|Ability_ThunderBolt|5|2|1", -- [14]
-						"149|Orden de mordaza|Ability_Warrior_ShieldBash|5|3|2", -- [15]
-						"702|Especialización en armas de una mano|INV_Sword_20|6|3|5", -- [16]
-						"1652|Actitud defensiva mejorada|Ability_Warrior_DefensiveStance|7|1|2", -- [17]
-						"148|Vigilancia|Ability_Warrior_Vigilance|7|2|1", -- [18]
-						"1660|Ira enfocada|Ability_Warrior_FocusedRage|7|3|3", -- [19]
-						"1653|Vitalidad|INV_Helmet_21|8|2|3", -- [20]
-						"1870|Salvaguarda|Ability_Warrior_Safeguard|8|3|2", -- [21]
-						"2236|Belisario|Ability_Warrior_Warbringer|9|1|1", -- [22]
-						"1666|Devastar|INV_Sword_11|9|2|1", -- [23]
-						"1893|Bloqueo crítico|Ability_Warrior_CriticalBlock|9|3|3", -- [24]
-						"1871|Escudo y espada|Ability_Warrior_SwordandBoard|10|2|3", -- [25]
-						"2246|Escudo de daño|INV_Shield_31|10|3|2", -- [26]
-						"1872|Ola de choque|Ability_Warrior_Shockwave|11|2|1", -- [27]
+						"796|Ferocidad|Ability_Hunter_Pet_Hyena|1|2|5", -- [1]
+						"795|Agresión feral|Ability_Druid_DemoralizingRoar|1|3|5", -- [2]
+						"799|Instinto feral|Ability_Ambush|2|1|3", -- [3]
+						"805|Furia cruel|Ability_Druid_Ravage|2|2|2", -- [4]
+						"794|Pellejo grueso|INV_Misc_Pelt_Bear_03|2|3|3", -- [5]
+						"807|Presteza feral|Spell_Nature_SpiritWolf|3|1|2", -- [6]
+						"1162|Instintos de supervivencia|Ability_Druid_TigersRoar|3|2|1", -- [7]
+						"798|Garras afiladas|INV_Misc_MonsterClaw_04|3|3|3", -- [8]
+						"802|Ataques trituradores|Spell_Shadow_VampiricAura|4|1|2", -- [9]
+						"803|Golpes depredadores|Ability_Hunter_Pet_Cat|4|2|3", -- [10]
+						"801|Furia primigenia|Ability_Racial_Cannibalize|4|3|2", -- [11]
+						"1914|Precisión primigenia|Ability_Druid_PrimalPrecision|4|4|2", -- [12]
+						"797|Impacto brutal|Ability_Druid_Bash|5|1|2", -- [13]
+						"804|Carga feral|Ability_Hunter_Pet_Bear|5|3|1", -- [14]
+						"1792|Instinto de nutrición|Ability_Druid_HealingInstincts|5|4|2", -- [15]
+						"2242|Reacción natural|Ability_BullRush|6|1|3", -- [16]
+						"808|Corazón de lo Salvaje|Spell_Holy_BlessingOfAgility|6|2|5", -- [17]
+						"1794|Supervivencia del más fuerte|Ability_Druid_Enrage|6|3|3", -- [18]
+						"809|Líder de la manada|Spell_Nature_UnyeildingStamina|7|2|1", -- [19]
+						"1798|Líder de la manada mejorado|Spell_Nature_UnyeildingStamina|7|3|2", -- [20]
+						"1793|Tenacidad primigenia|Ability_Druid_PrimalTenacity|7|4|3", -- [21]
+						"2241|Protector de la manada|Ability_Druid_ChallangingRoar|8|1|3", -- [22]
+						"1795|Instintos depredadores|Ability_Druid_PredatoryInstincts|8|3|3", -- [23]
+						"1919|Heridas infectadas|Ability_Druid_InfectedWound|8|4|3", -- [24]
+						"1921|Rey de la selva|Ability_Druid_KingoftheJungle|9|1|3", -- [25]
+						"1796|Destrozar|Ability_Druid_Mangle2|9|2|1", -- [26]
+						"1920|Destrozar mejorado|Ability_Druid_Mangle2|9|3|3", -- [27]
+						"1918|Desgarrar y romper|Ability_Druid_PrimalAgression|10|2|5", -- [28]
+						"2266|Sangre primigenia|Ability_Druid_Rake|10|3|1", -- [29]
+						"1927|Rabia|Ability_Druid_Berserk|11|2|1", -- [30]
 					},
-					["icon"] = "Ability_Warrior_DefensiveStance",
+					["icon"] = "Ability_Racial_BearForm",
 					["prereqs"] = {
-						[18] = "5|2",
-						[25] = "9|2",
+						[26] = "7|2",
+						[12] = "3|3",
+						[20] = "7|2",
+						[17] = "4|2",
+						[11] = "3|3",
+						[29] = "10|2",
+						[22] = "7|2",
+						[27] = "9|2",
 					},
 				},
-				["Armas"] = {
-					["background"] = "WarriorArms",
+				["Equilibrio"] = {
+					["background"] = "DruidBalance",
 					["talents"] = {
-						"124|Golpe heroico mejorado|Ability_Rogue_Ambush|1|1|3", -- [1]
-						"130|Desvío|Ability_Parry|1|2|5", -- [2]
-						"127|Desgarrar mejorado|Ability_Gouge|1|3|2", -- [3]
-						"126|Cargar mejorado|Ability_Warrior_Charge|2|1|2", -- [4]
-						"641|Voluntad de hierro|Spell_Magic_MageArmor|2|2|3", -- [5]
-						"128|Maestría táctica|Spell_Nature_EnchantArmor|2|3|3", -- [6]
-						"131|Abrumar mejorado|INV_Sword_05|3|1|2", -- [7]
-						"137|Control de inquina|Spell_Holy_BlessingOfStamina|3|2|1", -- [8]
-						"662|Empalar|Ability_SearingArrow|3|3|2", -- [9]
-						"121|Heridas profundas|Ability_BackStab|3|4|3", -- [10]
-						"136|Especialización en armas de dos manos|INV_Axe_09|4|2|3", -- [11]
-						"2232|Gusto por la sangre|Ability_Rogue_HungerforBlood|4|3|3", -- [12]
-						"132|Especialización en hachas y armas de asta|INV_Axe_06|5|1|5", -- [13]
-						"133|Golpes de barrido|Ability_Rogue_SliceDice|5|2|1", -- [14]
-						"125|Especialización en mazas|INV_Mace_01|5|3|5", -- [15]
-						"123|Especialización en espadas|INV_Sword_27|5|4|5", -- [16]
-						"134|Maestría en armas|Ability_Warrior_WeaponMastery|6|1|2", -- [17]
-						"129|Seccionar mejorado|Ability_ShockWave|6|3|3", -- [18]
-						"1859|Trauma|Ability_Warrior_BloodNova|6|4|2", -- [19]
-						"1663|Segundo aliento|Ability_Hunter_Harass|7|1|2", -- [20]
-						"135|Golpe mortal|Ability_Warrior_SavageBlow|7|2|1", -- [21]
-						"1862|Fuerza de armas|Ability_Warrior_OffensiveStance|7|3|2", -- [22]
-						"2233|Embate mejorado|Ability_Warrior_DecisiveStrike|7|4|2", -- [23]
-						"2283|Fuerza irresistible|Ability_Warrior_BullRush|8|1|1", -- [24]
-						"1824|Golpe mortal mejorado|Ability_Warrior_SavageBlow|8|2|3", -- [25]
-						"1860|Asalto inexorable|Ability_Warrior_UnrelentingAssault|8|3|2", -- [26]
-						"1662|Muerte súbita|Ability_Warrior_ImprovedDisciplines|9|1|3", -- [27]
-						"1661|Ira interminable|Ability_Warrior_EndlessRage|9|2|1", -- [28]
-						"1664|Frenesí sangriento|Ability_Warrior_BloodFrenzy|9|3|2", -- [29]
-						"2231|Equipo de demolición|Ability_Warrior_Trauma|10|2|5", -- [30]
-						"1863|Filotormenta|Ability_Warrior_Bladestorm|11|2|1", -- [31]
+						"762|Cólera de luz estelar|Spell_Nature_AbolishMagic|1|2|5", -- [1]
+						"2238|Génesis|Spell_Arcane_Arcane03|1|3|5", -- [2]
+						"783|Resplandor lunar|Spell_Nature_Sentinal|2|1|3", -- [3]
+						"1822|Majestuosidad de la Naturaleza|INV_Staff_01|2|2|2", -- [4]
+						"763|Fuego lunar mejorado|Spell_Nature_StarFall|2|4|2", -- [5]
+						"782|Zarzas|Spell_Nature_Thorns|3|1|3", -- [6]
+						"789|Gracia de la Naturaleza|Spell_Nature_NaturesBlessing|3|2|3", -- [7]
+						"2240|Esplendor de la Naturaleza|Spell_Nature_NatureGuardian|3|3|1", -- [8]
+						"764|Alcance de la Naturaleza|Spell_Nature_NatureTouchGrow|3|4|2", -- [9]
+						"792|Venganza|Spell_Nature_Purge|4|2|5", -- [10]
+						"784|Enfoque celestial|Spell_Arcane_StarFire|4|3|3", -- [11]
+						"1782|Guía de la Luna|Ability_Druid_LunarGuidance|5|1|3", -- [12]
+						"788|Enjambre de insectos|Spell_Nature_InsectSwarm|5|2|1", -- [13]
+						"2239|Enjambre de insectos mejorado|Spell_Nature_InsectSwarm|5|3|3", -- [14]
+						"1784|Estado onírico|Ability_Druid_Dreamstate|6|1|3", -- [15]
+						"790|Furia de luna|Spell_Nature_MoonGlow|6|2|3", -- [16]
+						"1783|Equilibrio de poder|Ability_Druid_BalanceofPower|6|3|2", -- [17]
+						"793|Forma de lechúcico lunar|Spell_Nature_ForceOfNature|7|2|1", -- [18]
+						"1912|Forma de lechúcico lunar mejorada|Ability_Druid_ImprovedMoonkinForm|7|3|3", -- [19]
+						"1785|Fuego feérico mejorado|Spell_Nature_FaerieFire|7|4|3", -- [20]
+						"1913|Frenesí de buhíco|Ability_Druid_OwlkinFrenzy|8|1|3", -- [21]
+						"1786|Cólera de Cenarius|Ability_Druid_TwilightsWrath|8|3|5", -- [22]
+						"1924|Eclipse|Ability_Druid_Eclipse|9|1|3", -- [23]
+						"1923|Tifón|Ability_Druid_Typhoon|9|2|1", -- [24]
+						"1787|Fuerza de la Naturaleza|Ability_Druid_ForceofNature|9|3|1", -- [25]
+						"1925|Viento huracanado|Ability_Druid_GaleWinds|9|4|2", -- [26]
+						"1928|Tierra y Luna|Ability_Druid_EarthandSky|10|2|3", -- [27]
+						"1926|Lluvia de estrellas|Ability_Druid_Starfall|11|2|1", -- [28]
 					},
-					["icon"] = "Ability_Rogue_Eviscerate",
+					["icon"] = "Spell_Nature_StarFall",
 					["prereqs"] = {
-						[10] = "3|3",
-						[21] = "5|2",
-						[25] = "7|2",
-					},
-				},
-				["Furia"] = {
-					["background"] = "WarriorFury",
-					["talents"] = {
-						"2250|Armado hasta los dientes|INV_Shoulder_22|1|1|3", -- [1]
-						"158|Voz retumbante|Spell_Nature_Purge|1|2|2", -- [2]
-						"157|Crueldad|Ability_Rogue_Eviscerate|1|3|5", -- [3]
-						"161|Grito desmoralizador mejorado|Ability_Warrior_WarCry|2|2|5", -- [4]
-						"159|Cólera desbocada|Spell_Nature_StoneClawTotem|2|3|5", -- [5]
-						"166|Rajar mejorado|Ability_Warrior_Cleave|3|1|3", -- [6]
-						"160|Aullido perforador|Spell_Shadow_DeathScream|3|2|1", -- [7]
-						"661|Manía sangrienta|Spell_Shadow_SummonImp|3|3|3", -- [8]
-						"154|Presencia de orden|Spell_Nature_FocusedMind|3|4|5", -- [9]
-						"1581|Especialización en doble empuñadura|Ability_DualWield|4|1|5", -- [10]
-						"1542|Ejecutar mejorado|INV_Sword_48|4|2|2", -- [11]
-						"155|Enfurecer|Spell_Shadow_UnholyFrenzy|4|3|5", -- [12]
-						"1657|Precisión|Ability_Marksmanship|5|1|3", -- [13]
-						"165|Deseo de muerte|Spell_Shadow_DeathPact|5|2|1", -- [14]
-						"1543|Interceptar mejorado|Ability_Rogue_Sprint|5|3|2", -- [15]
-						"1541|Ira rabiosa mejorada|Spell_Nature_AncestralGuardian|6|1|2", -- [16]
-						"156|Aluvión|Ability_GhoulFrenzy|6|3|5", -- [17]
-						"1864|Intensificar ira|Ability_Warrior_EndlessRage|7|1|3", -- [18]
-						"167|Sed de sangre|Spell_Nature_BloodLust|7|2|1", -- [19]
-						"1655|Torbellino mejorado|Ability_Whirlwind|7|4|2", -- [20]
-						"1865|Ataques furiosos|Ability_Warrior_FuriousResolve|8|1|2", -- [21]
-						"1658|Actitud rabiosa mejorada|Ability_Racial_Avatar|8|4|5", -- [22]
-						"1868|Furia heroica|Ability_HeroicLeap|9|1|1", -- [23]
-						"1659|Desenfreno|Ability_Warrior_Rampage|9|2|1", -- [24]
-						"1866|Oleada de sangre|Ability_Warrior_Bloodsurge|9|3|3", -- [25]
-						"2234|Furia interminable|Ability_Warrior_IntensifyRage|10|2|5", -- [26]
-						"1867|Empuñadura de titán|Ability_Warrior_TitansGrip|11|2|1", -- [27]
-					},
-					["icon"] = "Ability_Warrior_InnerRage",
-					["prereqs"] = {
+						[19] = "7|2",
+						[14] = "5|2",
 						[24] = "7|2",
-						[19] = "5|2",
-						[25] = "7|2",
+						[21] = "7|2",
+						[8] = "2|2",
+						[7] = "2|2",
+					},
+				},
+				["Restauración"] = {
+					["background"] = "DruidRestoration",
+					["talents"] = {
+						"821|Marca de lo Salvaje mejorada|Spell_Nature_Regeneration|1|1|2", -- [1]
+						"823|Enfoque de la Naturaleza|Spell_Nature_HealingWaveGreater|1|2|3", -- [2]
+						"822|Furor|Spell_Holy_BlessingOfStamina|1|3|5", -- [3]
+						"824|Naturalista|Spell_Nature_HealingTouch|2|1|5", -- [4]
+						"841|Sutileza|Ability_EyeOfTheOwl|2|2|3", -- [5]
+						"826|Cambio de forma natural|Spell_Nature_WispSplode|2|3|3", -- [6]
+						"829|Intensidad|Spell_Frost_WindWalkOn|3|1|3", -- [7]
+						"827|Augurio de claridad|Spell_Nature_CrystalBall|3|2|1", -- [8]
+						"1915|Maestro en cambio de forma|Ability_Druid_MasterShapeshifter|3|3|2", -- [9]
+						"843|Espíritu sosegado|Spell_Holy_ElunesGrace|4|2|5", -- [10]
+						"830|Rejuvenecimiento mejorado|Spell_Nature_Rejuvenation|4|3|3", -- [11]
+						"831|Presteza de la Naturaleza|Spell_Nature_RavenForm|5|1|1", -- [12]
+						"828|Don de la Naturaleza|Spell_Nature_ProtectionformNature|5|2|5", -- [13]
+						"842|Tranquilidad mejorada|Spell_Nature_Tranquility|5|4|2", -- [14]
+						"1788|Toque potenciado|Ability_Druid_EmpoweredTouch|6|1|2", -- [15]
+						"825|Obsequio de la Naturaleza|Spell_Nature_ResistNature|6|3|5", -- [16]
+						"1797|Espíritu vivo|Spell_Nature_GiftoftheWaterSpirit|7|1|3", -- [17]
+						"844|Alivio presto|INV_Relics_IdolofRejuvenation|7|2|1", -- [18]
+						"1790|Perfección natural|Ability_Druid_NaturalPerfection|7|3|3", -- [19]
+						"1789|Rejuvenecimiento potenciado|Ability_Druid_EmpoweredRejuvination|8|2|5", -- [20]
+						"1922|Semilla viviente|Ability_Druid_GiftoftheEarthmother|8|3|3", -- [21]
+						"1929|Revitalizar|Ability_Druid_Replenish|9|1|3", -- [22]
+						"1791|Árbol de vida|Ability_Druid_TreeofLife|9|2|1", -- [23]
+						"1930|Árbol de vida mejorado|Ability_Druid_ImprovedTreeForm|9|3|3", -- [24]
+						"2264|Piel de corteza mejorada|Spell_Nature_StoneClawTotem|10|1|2", -- [25]
+						"1916|Don de la Madre Tierra|Ability_Druid_ManaTree|10|3|5", -- [26]
+						"1917|Crecimiento salvaje|Ability_Druid_Flourish|11|2|1", -- [27]
+					},
+					["icon"] = "Spell_Nature_HealingTouch",
+					["prereqs"] = {
+						[16] = "4|3",
+						[27] = "9|2",
+						[9] = "2|3",
+						[24] = "9|2",
+						[18] = "5|2",
+						[23] = "8|2",
+						[12] = "3|1",
 					},
 				},
 			},
 			["Version"] = 12340,
-			["Order"] = "Armas,Furia,Protección",
+			["Order"] = "Equilibrio,Combate feral,Restauración",
 		},
 	},
 }

@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherStorage.lua 786 2008-12-08 20:50:59Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherStorage.lua 876 2010-09-18 23:41:23Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Library for accessing and updating the database
 --]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherStorage.lua $", "$Rev: 786 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherStorage.lua $", "$Rev: 876 $")
 
 --------------------------------------------------------------------------
 -- Constants
@@ -844,7 +844,7 @@ eventFrame.UnregisterEvent = function() end
 
 eventFrame:SetScript("OnEvent", function( frame, event, arg1 )
 	if ( event == "ADDON_LOADED" and strlower(arg1) == "gatherer" ) then
-		local savedData = getglobal(globalName)
+		local savedData = _G[globalName]
 		if ( savedData ) then
 			getfenv(0)[globalName] = nil
 			if ( savedData.dbVersion == nil ) then --old, unversioned Database

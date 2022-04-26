@@ -7,6 +7,7 @@ EQ2DBPC = {
 	},
 	["profileKeys"] = {
 		["Turco - WoWArg"] = "global",
+		["Turco - Sin'Dorei"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {

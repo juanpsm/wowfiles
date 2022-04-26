@@ -1,16 +1,22 @@
 
 HandyNotes_QuestGiversDB = {
 	["profileKeys"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
 		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
 	},
 	["profiles"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = {
+		},
+		["Subjected - Sin'Dorei"] = {
+		},
 		["Skombrow - Bennu"] = {
 		},
 		["Skombrow - WoWArg"] = {
 		},
-		["Draenoric - Sin'Dorei"] = {
+		["Skombrow - Kel'Thuzad"] = {
 		},
 	},
 }

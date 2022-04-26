@@ -1,0 +1,12 @@
+
+GladiusDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["profiles"] = {
+		["Ijaa - WoWArg"] = {
+			["y"] = 386.1871035305665,
+			["x"] = 7.100102638453139,
+		},
+	},
+}

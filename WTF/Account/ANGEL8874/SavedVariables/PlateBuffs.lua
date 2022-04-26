@@ -1,10 +1,22 @@
 
 PB_DB = {
 	["profileKeys"] = {
-		["Ijaa - Sin'Dorei"] = "Default",
+		["Natsuki - WoWArg"] = "Default",
+		["Ijaa - WoWArg"] = "Default",
+		["Spawm - WoWArg"] = "Default",
+		["Shino - WoWArg"] = "Default",
+		["Morenasso - WoWArg"] = "Default",
+		["Flako - WoWArg"] = "Default",
+		["Spawm - Sin'dorei(WoWArg)"] = "Default",
+		["Gringax - Sin'dorei(WoWArg)"] = "Default",
+		["Morenita - WoWArg"] = "Default",
+		["Gringax - WoWArg"] = "Default",
+		["Unaseca - WoWArg"] = "Default",
+		["Ijaa - Sin'dorei(WoWArg)"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
+			["unknownSpellDataIcon"] = false,
 		},
 	},
 }

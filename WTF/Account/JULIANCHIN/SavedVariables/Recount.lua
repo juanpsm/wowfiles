@@ -2,16 +2,19 @@
 RecountDB = {
 	["profileKeys"] = {
 		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Anetha - WoWArg"] = "Anetha - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Crobar - WoWArg"] = "Crobar - WoWArg",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom - Sin'dorei(WoWArg)",
+		["Eldorath - Sin'dorei(WoWArg)"] = "Eldorath - Sin'dorei(WoWArg)",
 		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Crobar - Sin'Dorei"] = "Crobar - Sin'Dorei",
 	},
@@ -20,8 +23,8 @@ RecountDB = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["h"] = 200.0000054703376,
-					["w"] = 139.9999950766962,
+					["w"] = 139.9999997188455,
+					["h"] = 199.9999893161274,
 				},
 			},
 			["Colors"] = {
@@ -32,22 +35,55 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Zul'Farrak",
+			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
-			["MainWindowVis"] = false,
-			["CurDataSet"] = "LastFightData",
+			["DetailWindowX"] = 0,
 		},
-		["Rivothrill - WoWArg"] = {
+		["Crobar - Sin'dorei(WoWArg)"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["BarText"] = {
 					["NumFormat"] = 3,
 				},
 				["Position"] = {
+					["y"] = 383.8461881445553,
+					["h"] = 304.4591849709402,
+					["w"] = 266.8872935086829,
+					["x"] = -731.3025047066137,
+				},
+			},
+			["DetailWindowX"] = -2.790816452404648,
+			["LastInstanceName"] = "Vault of Archavon",
+			["MainWindowHeight"] = 304.4591849709402,
+			["Font"] = "Friz Quadrata TT",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 5.860714774973394,
+			["CurDataSet"] = "CurrentFightData",
+			["Scaling"] = 1.2,
+			["MainWindowWidth"] = 266.8872935086829,
+			["GraphWindowX"] = 0,
+		},
+		["Rivothrill - WoWArg"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
 					["y"] = 413.2058389331703,
 					["h"] = 319.0000120193566,
 					["w"] = 366.9999389191759,
 					["x"] = -720.0294661205614,
+				},
+				["BarText"] = {
+					["NumFormat"] = 3,
 				},
 			},
 			["DetailWindowX"] = -13.00000007028864,
@@ -64,10 +100,10 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 26.99999936740228,
-			["MainWindowHeight"] = 318.9871283936495,
+			["CurDataSet"] = "LastFightData",
 			["GraphWindowX"] = 0,
 			["MainWindowWidth"] = 367.2549123497203,
-			["CurDataSet"] = "LastFightData",
+			["MainWindowHeight"] = 318.9871283936495,
 		},
 		["Julianchin - Queldorei PVP- PVE"] = {
 			["GraphWindowY"] = 0,
@@ -85,9 +121,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Pamflin - WoWArg"] = {
 			["GraphWindowY"] = 0,
@@ -105,8 +141,29 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
+			["DetailWindowX"] = 0,
+			["MainWindowVis"] = false,
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Eldorath - WoWArg"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 139.9999997188455,
+					["h"] = 199.9999893161274,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 			["MainWindowVis"] = false,
 			["DetailWindowX"] = 0,
 		},
@@ -131,9 +188,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["MainWindowVis"] = false,
-			["MainWindowWidth"] = 255.4284629906943,
 			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 255.4284629906943,
+			["MainWindowVis"] = false,
 		},
 		["Perruco - WoWArg"] = {
 			["GraphWindowY"] = 0,
@@ -151,9 +208,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Subjected - WoWArg"] = {
 			["GraphWindowY"] = 0,
@@ -171,9 +228,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["CurDataSet"] = "OverallData",
-			["GraphWindowX"] = 0,
 			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
 		["Diputado - WoWArg"] = {
 			["GraphWindowY"] = 0,
@@ -191,9 +248,9 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
 		["Skombrow - Queldorei PVP- PVE"] = {
 			["GraphWindowY"] = 0,
@@ -211,11 +268,65 @@ RecountDB = {
 				},
 			},
 			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
 		},
-		["Eldorath - WoWArg"] = {
+		["Crobar - WoWArg"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
+				["Position"] = {
+					["y"] = 368.0367804932482,
+					["x"] = -737.9551895837964,
+					["w"] = 236.5841061510217,
+					["h"] = 309.97711950284,
+				},
+			},
+			["DetailWindowX"] = -0.04047527136860619,
+			["BarTextColorSwap"] = false,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
+			["Font"] = "Friz Quadrata TT",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0.08499804351583473,
+			["MainWindowHeight"] = 309.97711950284,
+			["Scaling"] = 1.3,
+			["MainWindowWidth"] = 236.5841061510217,
+			["GraphWindowX"] = 0,
+		},
+		["Skom - Sin'dorei(WoWArg)"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 139.9999997188455,
+					["h"] = 199.9999893161274,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Eldorath - Sin'dorei(WoWArg)"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
@@ -233,26 +344,23 @@ RecountDB = {
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
 			["MainWindowVis"] = false,
-			["CurDataSet"] = "OverallData",
 			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
 		},
-		["Crobar - WoWArg"] = {
+		["Skom - WoWArg"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
+				["Position"] = {
+					["y"] = 436.5017959932884,
+					["h"] = 227.8608658955394,
+					["w"] = 244.2816046698645,
+					["x"] = -749.9728506780492,
+				},
 				["BarText"] = {
 					["NumFormat"] = 3,
 				},
-				["Position"] = {
-					["y"] = 366.8215631326129,
-					["x"] = -730.1934828499419,
-					["w"] = 248.4277209662073,
-					["h"] = 311.3227026458259,
-				},
 			},
-			["DetailWindowX"] = -4.551661760402771,
-			["LastInstanceName"] = "Molten Core",
-			["MainWindowHeight"] = 311.3226666580446,
-			["Font"] = "Friz Quadrata TT",
+			["MainWindowMode"] = 5,
 			["Colors"] = {
 				["Bar"] = {
 					["Bar Text"] = {
@@ -263,27 +371,33 @@ RecountDB = {
 					},
 				},
 			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
 			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
-			["Scaling"] = 1.3,
-			["MainWindowWidth"] = 248.4277209662073,
-			["DetailWindowY"] = 9.453449207428863,
+			["Scaling"] = 1.15,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["Font"] = "Friz Quadrata TT",
+			["CurDataSet"] = "LastFightData",
+			["MainWindowWidth"] = 244.2816046698645,
+			["MainWindowHeight"] = 227.8608658955394,
 		},
-		["Skom - WoWArg"] = {
+		["Crobar - Sin'Dorei"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["BarText"] = {
 					["NumFormat"] = 3,
 				},
 				["Position"] = {
-					["y"] = 416.8938638933908,
-					["h"] = 301.2557119928856,
-					["w"] = 313.0000222258528,
-					["x"] = -733.9348738744401,
+					["y"] = 383.1813930316517,
+					["x"] = -736.8678641578645,
+					["w"] = 257.6118387429693,
+					["h"] = 310.0000077317499,
 				},
 			},
-			["MainWindowMode"] = 5,
-			["LastInstanceName"] = "Vault of Archavon",
+			["DetailWindowX"] = -1.938067137033529,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["MainWindowHeight"] = 310.0000077317499,
+			["DetailWindowY"] = 4.069940566038598,
 			["CurDataSet"] = "LastFightData",
 			["Colors"] = {
 				["Bar"] = {
@@ -295,31 +409,11 @@ RecountDB = {
 					},
 				},
 			},
-			["DetailWindowY"] = 0,
-			["MainWindowHeight"] = 301.2557506119856,
 			["GraphWindowX"] = 0,
-			["MainWindowWidth"] = 312.999985169098,
-			["DetailWindowX"] = 0,
-		},
-		["Crobar - Sin'Dorei"] = {
-			["GraphWindowY"] = 0,
-			["MainWindow"] = {
-				["Position"] = {
-					["w"] = 140.0000106684094,
-					["h"] = 200.0000027354896,
-				},
-			},
-			["Colors"] = {
-				["Bar"] = {
-					["Bar Text"] = {
-						["a"] = 1,
-					},
-				},
-			},
-			["DetailWindowY"] = 0,
-			["DetailWindowX"] = 0,
-			["GraphWindowX"] = 0,
-			["CurDataSet"] = "OverallData",
+			["Font"] = "Friz Quadrata TT",
+			["Scaling"] = 1.2,
+			["MainWindowWidth"] = 257.6118567368599,
+			["MainWindowVis"] = false,
 		},
 	},
 }

@@ -1,10 +1,19 @@
 
 HandyNotes_QuestGiversDB = {
 	["profileKeys"] = {
-		["Arbull - WoWArg"] = "Arbull - WoWArg",
+		["Skombrow - Bennu"] = "Skombrow - Bennu",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+		["Nightbull - Sin'Dorei"] = "Nightbull - Sin'Dorei",
+		["Nightbull - Sin'dorei(WoWArg)"] = "Nightbull - Sin'dorei(WoWArg)",
 	},
 	["profiles"] = {
-		["Arbull - WoWArg"] = {
+		["Skombrow - Bennu"] = {
+		},
+		["Skombrow - WoWArg"] = {
+		},
+		["Nightbull - Sin'Dorei"] = {
+		},
+		["Nightbull - Sin'dorei(WoWArg)"] = {
 		},
 	},
 }

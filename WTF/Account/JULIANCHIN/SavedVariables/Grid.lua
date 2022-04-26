@@ -3,29 +3,82 @@ GridDB = {
 	["namespaces"] = {
 		["GridFrame"] = {
 			["profiles"] = {
-				["Default"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+					["fontSize"] = 10,
 					["statusmap"] = {
+						["corner2"] = {
+							["alert_lowMana"] = true,
+						},
+						["text2"] = {
+							["alert_aggro"] = false,
+							["alert_feignDeath"] = false,
+							["alert_offline"] = false,
+							["debuff_Forbearance"] = false,
+						},
 						["baricon5"] = {
 						},
-						["baricon9"] = {
+						["text"] = {
+							["debuff_Ghost"] = false,
+							["alert_heals"] = false,
+							["unit_health"] = false,
+							["player_target"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_offline"] = false,
+							["alert_feignDeath"] = false,
+							["alert_death"] = false,
+							["alert_aggro"] = false,
 						},
-						["baricon1"] = {
-						},
-						["baricon3"] = {
+						["border"] = {
+							["alert_lowMana"] = false,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
 						},
 						["baricon8"] = {
 						},
-						["baricon7"] = {
+						["baricon1"] = {
+							["buff_Lifebloom"] = false,
+							["debuff_curse"] = true,
+						},
+						["baricon3"] = {
+							["buff_Regrowth"] = false,
+							["buff_Riptide"] = false,
+							["buff_Rejuvenation"] = false,
+							["buff_WildGrowth"] = false,
+							["buff_PowerWord:Shield"] = false,
+							["debuff_magic"] = true,
+						},
+						["baricon4"] = {
+							["buff_Regrowth"] = false,
+							["debuff_poison"] = true,
+						},
+						["baricon9"] = {
 						},
 						["baricon6"] = {
 						},
-						["baricon4"] = {
+						["baricon7"] = {
+						},
+						["icon"] = {
+							["debuff_EssenceoftheBloodQueen"] = true,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["ready_check"] = false,
+							["debuff_curse"] = false,
+							["debuff_magic"] = false,
 						},
 						["baricon2"] = {
+							["buff_Rejuvenation"] = false,
+							["debuff_disease"] = true,
 						},
 					},
+					["enableText2"] = true,
+					["cornerSize"] = 8,
+					["iconBorderSize"] = 2,
+					["orientation"] = "HORIZONTAL",
+					["frameWidth"] = 70,
+					["textlength"] = 20,
+					["frameHeight"] = 40,
 				},
-				["char/Skom - WoWArg"] = {
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
 					["fontSize"] = 11,
 					["statusmap"] = {
 						["corner2"] = {
@@ -36,8 +89,8 @@ GridDB = {
 						["baricon5"] = {
 						},
 						["barcolor"] = {
-							["debuff_Ghost"] = true,
 							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
 							["alert_death"] = true,
 							["unit_health"] = true,
 						},
@@ -57,27 +110,23 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["alert_feignDeath"] = true,
 							["alert_offline"] = true,
-							["alert_death"] = true,
 							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
-						["bar"] = {
-							["debuff_Ghost"] = true,
-							["alert_offline"] = true,
-							["alert_death"] = true,
-							["unit_health"] = true,
+						["baricon2"] = {
 						},
 						["text"] = {
 							["unit_name"] = true,
-							["alert_feignDeath"] = true,
+							["alert_offline"] = true,
 							["unit_healthDeficit"] = true,
 							["debuff_Ghost"] = true,
 							["alert_heals"] = true,
 							["alert_death"] = true,
-							["alert_offline"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon6"] = {
 						},
@@ -88,7 +137,7 @@ GridDB = {
 						},
 						["baricon3"] = {
 						},
-						["baricon1"] = {
+						["baricon4"] = {
 						},
 						["frameAlpha"] = {
 							["alert_range_10"] = true,
@@ -101,15 +150,19 @@ GridDB = {
 						},
 						["baricon9"] = {
 						},
-						["baricon4"] = {
+						["baricon1"] = {
 						},
 						["corner3"] = {
 							["debuff_curse"] = true,
 							["debuff_poison"] = true,
-							["debuff_magic"] = true,
 							["debuff_disease"] = true,
+							["debuff_magic"] = true,
 						},
-						["baricon2"] = {
+						["bar"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
 						},
 					},
 					["borderSize"] = 1,
@@ -120,19 +173,19 @@ GridDB = {
 					["texture"] = "Gradient",
 					["enableIconStackText"] = true,
 					["frameHeight"] = 36,
-					["healingBar_intensity"] = 0.5,
+					["iconBorderSize"] = 1,
 					["showTooltip"] = "OOC",
 					["enableText2"] = false,
-					["cornerSize"] = 6,
-					["invertBarColor"] = false,
-					["textorientation"] = "VERTICAL",
-					["font"] = "Friz Quadrata TT",
-					["debug"] = false,
-					["enableMouseoverHighlight"] = true,
-					["orientation"] = "VERTICAL",
 					["enableIconCooldown"] = true,
+					["font"] = "Friz Quadrata TT",
+					["textorientation"] = "VERTICAL",
+					["invertBarColor"] = false,
+					["enableMouseoverHighlight"] = true,
+					["debug"] = false,
+					["orientation"] = "VERTICAL",
+					["cornerSize"] = 6,
 					["frameWidth"] = 36,
-					["iconBorderSize"] = 1,
+					["healingBar_intensity"] = 0.5,
 				},
 				["char/Crobar - WoWArg"] = {
 					["fontSize"] = 10,
@@ -140,24 +193,13 @@ GridDB = {
 						["corner2"] = {
 							["alert_lowMana"] = true,
 						},
-						["baricon5"] = {
-						},
-						["border"] = {
-							["alert_lowMana"] = false,
-							["alert_lowHealth"] = false,
-							["alert_aggro"] = true,
-						},
-						["baricon4"] = {
-							["buff_Regrowth"] = false,
-							["debuff_poison"] = true,
-						},
 						["text2"] = {
+							["debuff_Forbearance"] = false,
 							["alert_offline"] = false,
 							["alert_feignDeath"] = false,
-							["debuff_Forbearance"] = false,
 							["alert_aggro"] = false,
 						},
-						["baricon8"] = {
+						["baricon5"] = {
 						},
 						["text"] = {
 							["alert_offline"] = false,
@@ -170,9 +212,9 @@ GridDB = {
 							["alert_death"] = false,
 							["alert_aggro"] = false,
 						},
-						["baricon6"] = {
+						["baricon9"] = {
 						},
-						["baricon7"] = {
+						["baricon8"] = {
 						},
 						["baricon1"] = {
 							["buff_Lifebloom"] = false,
@@ -186,7 +228,18 @@ GridDB = {
 							["buff_PowerWord:Shield"] = false,
 							["debuff_magic"] = true,
 						},
-						["baricon9"] = {
+						["baricon4"] = {
+							["buff_Regrowth"] = false,
+							["debuff_poison"] = true,
+						},
+						["border"] = {
+							["alert_lowMana"] = false,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
 						},
 						["icon"] = {
 							["ready_check"] = false,
@@ -201,106 +254,145 @@ GridDB = {
 							["debuff_disease"] = true,
 						},
 					},
-					["iconBorderSize"] = 2,
-					["textlength"] = 20,
-					["frameHeight"] = 45,
 					["enableText2"] = true,
+					["frameWidth"] = 70,
+					["iconBorderSize"] = 2,
 					["orientation"] = "HORIZONTAL",
 					["cornerSize"] = 8,
-					["frameWidth"] = 70,
+					["textlength"] = 20,
+					["frameHeight"] = 40,
 				},
-				["Skom"] = {
-					["fontSize"] = 10,
+				["realm/WoWArg - Alliance"] = {
+					["fontSize"] = 11,
 					["statusmap"] = {
 						["corner2"] = {
-							["alert_lowMana"] = true,
 						},
-						["text2"] = {
-							["debuff_Forbearance"] = false,
-							["alert_feignDeath"] = false,
-							["alert_offline"] = false,
-							["alert_aggro"] = false,
+						["healingBar"] = {
+							["alert_heals"] = true,
 						},
 						["baricon5"] = {
 						},
-						["text"] = {
-							["debuff_Ghost"] = false,
-							["alert_heals"] = false,
-							["unit_health"] = false,
-							["player_target"] = false,
-							["unit_healthDeficit"] = false,
-							["alert_feignDeath"] = false,
-							["alert_offline"] = false,
-							["alert_death"] = false,
-							["alert_aggro"] = false,
+						["barcolor"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
 						},
-						["baricon9"] = {
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["text2"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
-						["baricon1"] = {
-							["buff_Lifebloom"] = true,
+						["baricon9"] = {
 						},
-						["baricon3"] = {
-							["buff_Regrowth"] = false,
-							["buff_Riptide"] = false,
-							["buff_Rejuvenation"] = false,
-							["buff_PowerWord:Shield"] = false,
-							["buff_WildGrowth"] = true,
-						},
-						["icon"] = {
-							["debuff_curse"] = false,
-							["debuff_poison"] = false,
-							["debuff_disease"] = false,
-							["debuff_magic"] = false,
+						["text"] = {
+							["unit_name"] = true,
+							["alert_offline"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon6"] = {
 						},
 						["baricon7"] = {
 						},
-						["border"] = {
-							["alert_lowHealth"] = false,
-							["alert_lowMana"] = false,
+						["corner4"] = {
 							["alert_aggro"] = true,
 						},
+						["baricon3"] = {
+						},
 						["baricon4"] = {
-							["buff_Regrowth"] = true,
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
 						},
 						["baricon2"] = {
-							["buff_Rejuvenation"] = true,
+						},
+						["baricon1"] = {
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_magic"] = true,
+						},
+						["bar"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
 						},
 					},
-					["enableText2"] = true,
-					["borderSize"] = 2,
-					["frameHeight"] = 60,
-					["textlength"] = 20,
-					["iconSize"] = 18,
-					["orientation"] = "HORIZONTAL",
-					["frameWidth"] = 86,
-					["cornerSize"] = 9,
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["iconBorderSize"] = 1,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["enableIconCooldown"] = true,
+					["font"] = "Friz Quadrata TT",
+					["textorientation"] = "VERTICAL",
+					["invertBarColor"] = false,
+					["enableMouseoverHighlight"] = true,
+					["debug"] = false,
+					["orientation"] = "VERTICAL",
+					["cornerSize"] = 6,
+					["frameWidth"] = 36,
+					["healingBar_intensity"] = 0.5,
 				},
-				["char/Rivothrill - WoWArg"] = {
+				["char/Skom - Sin'Dorei"] = {
 					["fontSize"] = 10,
 					["statusmap"] = {
 						["corner2"] = {
 							["alert_lowMana"] = true,
 						},
 						["text2"] = {
-							["alert_aggro"] = false,
-							["alert_feignDeath"] = false,
-							["alert_offline"] = false,
 							["debuff_Forbearance"] = false,
+							["alert_offline"] = false,
+							["alert_feignDeath"] = false,
+							["alert_aggro"] = false,
 						},
 						["baricon5"] = {
 						},
 						["text"] = {
-							["debuff_Ghost"] = false,
+							["alert_offline"] = false,
 							["alert_heals"] = false,
 							["unit_health"] = false,
-							["player_target"] = false,
-							["unit_healthDeficit"] = false,
 							["alert_feignDeath"] = false,
-							["alert_offline"] = false,
+							["unit_healthDeficit"] = false,
+							["debuff_Ghost"] = false,
+							["player_target"] = false,
 							["alert_death"] = false,
 							["alert_aggro"] = false,
 						},
@@ -327,17 +419,17 @@ GridDB = {
 							["buff_Regrowth"] = false,
 							["debuff_poison"] = true,
 						},
+						["baricon9"] = {
+						},
 						["baricon6"] = {
 						},
 						["baricon7"] = {
 						},
-						["baricon9"] = {
-						},
 						["icon"] = {
-							["debuff_curse"] = false,
+							["ready_check"] = false,
 							["debuff_poison"] = false,
 							["debuff_disease"] = false,
-							["ready_check"] = false,
+							["debuff_curse"] = false,
 							["debuff_magic"] = false,
 						},
 						["baricon2"] = {
@@ -346,14 +438,14 @@ GridDB = {
 						},
 					},
 					["enableText2"] = true,
-					["frameHeight"] = 45,
+					["cornerSize"] = 8,
 					["iconBorderSize"] = 2,
 					["orientation"] = "HORIZONTAL",
-					["textlength"] = 20,
 					["frameWidth"] = 70,
-					["cornerSize"] = 8,
+					["textlength"] = 20,
+					["frameHeight"] = 45,
 				},
-				["class/Mage"] = {
+				["class/Druid"] = {
 					["fontSize"] = 11,
 					["statusmap"] = {
 						["corner2"] = {
@@ -462,10 +554,731 @@ GridDB = {
 					["frameWidth"] = 36,
 					["iconBorderSize"] = 1,
 				},
+				["char/Crobar - Sin'Dorei"] = {
+					["fontSize"] = 11,
+					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
+						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["text2"] = {
+							["alert_feignDeath"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["debuff_Ghost"] = true,
+						},
+						["baricon8"] = {
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["text"] = {
+							["unit_name"] = true,
+							["alert_feignDeath"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
+						["baricon3"] = {
+						},
+						["baricon1"] = {
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["baricon9"] = {
+						},
+						["baricon4"] = {
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["baricon2"] = {
+						},
+					},
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["healingBar_intensity"] = 0.5,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["cornerSize"] = 6,
+					["invertBarColor"] = false,
+					["textorientation"] = "VERTICAL",
+					["font"] = "Friz Quadrata TT",
+					["debug"] = false,
+					["enableMouseoverHighlight"] = true,
+					["orientation"] = "VERTICAL",
+					["enableIconCooldown"] = true,
+					["frameWidth"] = 36,
+					["iconBorderSize"] = 1,
+				},
+				["Default"] = {
+					["fontSize"] = 11,
+					["cornerSize"] = 6,
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["healingBar_intensity"] = 0.5,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
+						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["baricon9"] = {
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["baricon4"] = {
+						},
+						["text2"] = {
+							["alert_feignDeath"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["debuff_Ghost"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon2"] = {
+						},
+						["text"] = {
+							["unit_name"] = true,
+							["alert_feignDeath"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["baricon1"] = {
+						},
+						["baricon3"] = {
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+					},
+					["invertBarColor"] = false,
+					["textorientation"] = "VERTICAL",
+					["font"] = "Friz Quadrata TT",
+					["debug"] = false,
+					["enableMouseoverHighlight"] = true,
+					["orientation"] = "VERTICAL",
+					["enableIconCooldown"] = true,
+					["frameWidth"] = 36,
+					["iconBorderSize"] = 1,
+				},
+				["char/Skom - WoWArg"] = {
+					["fontSize"] = 11,
+					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
+						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["text2"] = {
+							["alert_feignDeath"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["debuff_Ghost"] = true,
+						},
+						["baricon8"] = {
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["text"] = {
+							["unit_name"] = true,
+							["alert_feignDeath"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
+						["baricon3"] = {
+						},
+						["baricon1"] = {
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["baricon9"] = {
+						},
+						["baricon4"] = {
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["baricon2"] = {
+						},
+					},
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["healingBar_intensity"] = 0.5,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["cornerSize"] = 6,
+					["invertBarColor"] = false,
+					["textorientation"] = "VERTICAL",
+					["font"] = "Friz Quadrata TT",
+					["debug"] = false,
+					["enableMouseoverHighlight"] = true,
+					["orientation"] = "VERTICAL",
+					["enableIconCooldown"] = true,
+					["frameWidth"] = 36,
+					["iconBorderSize"] = 1,
+				},
+				["Skom"] = {
+					["fontSize"] = 8,
+					["cornerSize"] = 7,
+					["iconSize"] = 15,
+					["textlength"] = 20,
+					["frameHeight"] = 39,
+					["statusmap"] = {
+						["corner2"] = {
+							["alert_lowMana"] = true,
+						},
+						["healingBar"] = {
+							["alert_heals"] = false,
+						},
+						["baricon5"] = {
+						},
+						["baricon9"] = {
+						},
+						["baricon4"] = {
+							["buff_Regrowth"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon2"] = {
+							["buff_Rejuvenation"] = true,
+							["buff_Regrowth"] = false,
+						},
+						["text"] = {
+							["alert_feignDeath"] = false,
+							["unit_healthDeficit"] = false,
+							["debuff_Ghost"] = false,
+							["alert_heals"] = false,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["baricon1"] = {
+							["buff_Lifebloom"] = true,
+						},
+						["baricon3"] = {
+							["buff_WildGrowth"] = true,
+						},
+						["icon"] = {
+							["debuff_disease"] = false,
+							["debuff_WeakenedSoul"] = true,
+							["debuff_Forbearance"] = false,
+							["debuff_magic"] = false,
+						},
+						["border"] = {
+							["alert_aggro"] = true,
+						},
+					},
+					["orientation"] = "HORIZONTAL",
+					["frameWidth"] = 57,
+				},
+				["realm/Sin'Dorei - Alliance"] = {
+					["fontSize"] = 11,
+					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
+						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["text2"] = {
+							["alert_feignDeath"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["debuff_Ghost"] = true,
+						},
+						["baricon8"] = {
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["text"] = {
+							["unit_name"] = true,
+							["alert_feignDeath"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
+						["baricon3"] = {
+						},
+						["baricon1"] = {
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["baricon9"] = {
+						},
+						["baricon4"] = {
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["baricon2"] = {
+						},
+					},
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["healingBar_intensity"] = 0.5,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["cornerSize"] = 6,
+					["invertBarColor"] = false,
+					["textorientation"] = "VERTICAL",
+					["font"] = "Friz Quadrata TT",
+					["debug"] = false,
+					["enableMouseoverHighlight"] = true,
+					["orientation"] = "VERTICAL",
+					["enableIconCooldown"] = true,
+					["frameWidth"] = 36,
+					["iconBorderSize"] = 1,
+				},
+				["char/Rivothrill - WoWArg"] = {
+					["fontSize"] = 10,
+					["statusmap"] = {
+						["corner2"] = {
+							["alert_lowMana"] = true,
+						},
+						["text2"] = {
+							["alert_aggro"] = false,
+							["alert_feignDeath"] = false,
+							["alert_offline"] = false,
+							["debuff_Forbearance"] = false,
+						},
+						["baricon5"] = {
+						},
+						["text"] = {
+							["debuff_Ghost"] = false,
+							["alert_heals"] = false,
+							["unit_health"] = false,
+							["player_target"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_feignDeath"] = false,
+							["alert_offline"] = false,
+							["alert_death"] = false,
+							["alert_aggro"] = false,
+						},
+						["border"] = {
+							["alert_lowMana"] = false,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon1"] = {
+							["buff_Lifebloom"] = false,
+							["debuff_curse"] = true,
+						},
+						["baricon3"] = {
+							["buff_Regrowth"] = false,
+							["buff_Riptide"] = false,
+							["buff_Rejuvenation"] = false,
+							["buff_WildGrowth"] = false,
+							["buff_PowerWord:Shield"] = false,
+							["debuff_magic"] = true,
+						},
+						["baricon4"] = {
+							["buff_Regrowth"] = false,
+							["debuff_poison"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["baricon9"] = {
+						},
+						["icon"] = {
+							["debuff_curse"] = false,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["ready_check"] = false,
+							["debuff_magic"] = false,
+						},
+						["baricon2"] = {
+							["buff_Rejuvenation"] = false,
+							["debuff_disease"] = true,
+						},
+					},
+					["enableText2"] = true,
+					["frameHeight"] = 45,
+					["iconBorderSize"] = 2,
+					["orientation"] = "HORIZONTAL",
+					["textlength"] = 20,
+					["frameWidth"] = 70,
+					["cornerSize"] = 8,
+				},
+				["class/Mage"] = {
+					["fontSize"] = 10,
+					["cornerSize"] = 8,
+					["enableText2"] = true,
+					["statusmap"] = {
+						["corner2"] = {
+							["alert_lowMana"] = true,
+						},
+						["text2"] = {
+							["alert_aggro"] = false,
+							["alert_offline"] = false,
+							["alert_feignDeath"] = false,
+							["debuff_Forbearance"] = false,
+						},
+						["baricon5"] = {
+						},
+						["text"] = {
+							["debuff_Ghost"] = false,
+							["alert_heals"] = false,
+							["unit_health"] = false,
+							["player_target"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_offline"] = false,
+							["alert_feignDeath"] = false,
+							["alert_death"] = false,
+							["alert_aggro"] = false,
+						},
+						["baricon9"] = {
+						},
+						["baricon8"] = {
+						},
+						["baricon1"] = {
+							["buff_Lifebloom"] = false,
+							["debuff_curse"] = true,
+						},
+						["baricon3"] = {
+							["buff_Regrowth"] = false,
+							["buff_Riptide"] = false,
+							["buff_Rejuvenation"] = false,
+							["buff_WildGrowth"] = false,
+							["buff_PowerWord:Shield"] = false,
+							["debuff_magic"] = true,
+						},
+						["icon"] = {
+							["debuff_EssenceoftheBloodQueen"] = true,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["ready_check"] = false,
+							["debuff_curse"] = false,
+							["debuff_magic"] = false,
+						},
+						["border"] = {
+							["alert_lowMana"] = false,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
+						},
+						["baricon7"] = {
+						},
+						["baricon6"] = {
+						},
+						["baricon4"] = {
+							["buff_Regrowth"] = false,
+							["debuff_poison"] = true,
+						},
+						["baricon2"] = {
+							["buff_Rejuvenation"] = false,
+							["debuff_disease"] = true,
+						},
+					},
+					["iconBorderSize"] = 2,
+					["orientation"] = "HORIZONTAL",
+					["frameWidth"] = 70,
+					["textlength"] = 20,
+					["frameHeight"] = 40,
+				},
 			},
 		},
 		["GridStatusVehicle"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["enable"] = false,
+						["color"] = {
+							["a"] = 0.7,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Driving",
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["color"] = {
+							["a"] = 0.7,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["enable"] = false,
+						["text"] = "Driving",
+						["range"] = false,
+						["priority"] = 50,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["text"] = "Driving",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.7,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["text"] = "Driving",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.7,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["text"] = "Driving",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.7,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
@@ -481,47 +1294,150 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
+						["text"] = "Driving",
+						["enable"] = false,
 						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.7,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["text"] = "Driving",
-						["range"] = false,
-						["enable"] = false,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridRoster"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["party_state"] = "solo",
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["party_state"] = "solo",
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["party_state"] = "solo",
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["party_state"] = "solo",
+				},
 				["Default"] = {
-					["party_state"] = "party",
+					["party_state"] = "solo",
 				},
 				["char/Skom - WoWArg"] = {
 					["party_state"] = "solo",
 				},
-				["char/Crobar - WoWArg"] = {
-					["party_state"] = "heroic_raid",
+				["realm/Sin'Dorei - Alliance"] = {
+					["party_state"] = "solo",
 				},
 				["char/Rivothrill - WoWArg"] = {
 				},
 				["class/Mage"] = {
-					["party_state"] = "solo",
 				},
 			},
 		},
 		["GridStatusName"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["enable"] = true,
+						["priority"] = 1,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["text"] = "Unit Name",
+						["range"] = false,
+						["class"] = true,
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 1,
+						["enable"] = true,
+						["class"] = true,
+						["range"] = false,
+						["text"] = "Unit Name",
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["class"] = true,
+						["text"] = "Unit Name",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["class"] = true,
+						["text"] = "Unit Name",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["class"] = true,
+						["text"] = "Unit Name",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["unit_name"] = {
@@ -538,30 +1454,111 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["unit_name"] = {
-						["text"] = "Unit Name",
 						["class"] = true,
+						["text"] = "Unit Name",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 1,
-						["range"] = false,
-						["enable"] = true,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridStatusTarget"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 0.8,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["priority"] = 99,
+						["range"] = false,
+						["text"] = "Target",
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["color"] = {
+							["a"] = 0.8,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["enable"] = true,
+						["text"] = "Target",
+						["range"] = false,
+						["priority"] = 99,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["text"] = "Target",
+						["enable"] = true,
+						["priority"] = 99,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.8,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["text"] = "Target",
+						["enable"] = true,
+						["priority"] = 99,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.8,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["text"] = "Target",
+						["enable"] = true,
+						["priority"] = 99,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.8,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["player_target"] = {
@@ -577,42 +1574,68 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["player_target"] = {
+						["text"] = "Target",
+						["enable"] = true,
 						["priority"] = 99,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.8,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["text"] = "Target",
-						["range"] = false,
-						["enable"] = true,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridStatusRange"] = {
 			["profiles"] = {
-				["Default"] = {
-					["alert_range_10"] = {
-						["enable"] = false,
-						["text"] = "10 yards",
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
 						["color"] = {
-							["a"] = 0.8181818181818181,
-							["b"] = 0.3,
-							["g"] = 0.2,
-							["r"] = 0.1,
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
 						},
-						["priority"] = 81,
+						["priority"] = 84,
 						["range"] = false,
-						["desc"] = "More than 10 yards away",
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_43"] = {
+						["color"] = {
+							["a"] = 0.2181818181818181,
+							["b"] = 0.29,
+							["g"] = 0.86,
+							["r"] = 0.43,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "43 yards",
+						["range"] = false,
+						["desc"] = "More than 43 yards away",
+					},
+					["alert_range_33"] = {
+						["color"] = {
+							["a"] = 0.4,
+							["b"] = 0.99,
+							["g"] = 0.66,
+							["r"] = 0.33,
+						},
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "33 yards",
+						["range"] = false,
+						["desc"] = "More than 33 yards away",
 					},
 					["alert_range_30"] = {
 						["enable"] = false,
@@ -653,18 +1676,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 38 yards away",
 					},
-					["alert_range_40"] = {
-						["enable"] = true,
-						["text"] = "40 yards",
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
 						["color"] = {
-							["a"] = 0.2727272727272727,
-							["b"] = 0.2,
-							["g"] = 0.8,
-							["r"] = 0.4,
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
 						},
-						["priority"] = 84,
+						["priority"] = 81,
 						["range"] = false,
-						["desc"] = "More than 40 yards away",
+						["desc"] = "More than 10 yards away",
 					},
 					["alert_range_100"] = {
 						["enable"] = false,
@@ -680,7 +1703,383 @@ GridDB = {
 						["desc"] = "More than 100 yards away",
 					},
 				},
-				["char/Skom - WoWArg"] = {
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["alert_range_100"] = {
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["enable"] = false,
+						["text"] = "100 yards",
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+					["alert_range_10"] = {
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["enable"] = false,
+						["text"] = "10 yards",
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["debug"] = false,
+					["alert_range_40"] = {
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "40 yards",
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_28"] = {
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "28 yards",
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_38"] = {
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
+						},
+						["priority"] = 84,
+						["enable"] = false,
+						["text"] = "38 yards",
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_30"] = {
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "30 yards",
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["frequency"] = 0.5,
+				},
+				["char/Crobar - WoWArg"] = {
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_43"] = {
+						["color"] = {
+							["a"] = 0.2181818181818181,
+							["r"] = 0.43,
+							["g"] = 0.86,
+							["b"] = 0.29,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "43 yards",
+						["range"] = false,
+						["desc"] = "More than 43 yards away",
+					},
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["r"] = 0.1,
+							["g"] = 0.2,
+							["b"] = 0.3,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["r"] = 0.28,
+							["g"] = 0.5600000000000001,
+							["b"] = 0.84,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_33"] = {
+						["color"] = {
+							["a"] = 0.4,
+							["r"] = 0.33,
+							["g"] = 0.66,
+							["b"] = 0.99,
+						},
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "33 yards",
+						["range"] = false,
+						["desc"] = "More than 33 yards away",
+					},
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+				},
+				["realm/WoWArg - Alliance"] = {
+					["alert_range_100"] = {
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["enable"] = false,
+						["text"] = "100 yards",
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+					["alert_range_10"] = {
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["enable"] = false,
+						["text"] = "10 yards",
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["debug"] = false,
+					["alert_range_40"] = {
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "40 yards",
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_28"] = {
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "28 yards",
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_30"] = {
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "30 yards",
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_38"] = {
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
+						},
+						["priority"] = 84,
+						["enable"] = false,
+						["text"] = "38 yards",
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["frequency"] = 0.5,
+				},
+				["char/Skom - Sin'Dorei"] = {
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_43"] = {
+						["color"] = {
+							["a"] = 0.2181818181818181,
+							["r"] = 0.43,
+							["g"] = 0.86,
+							["b"] = 0.29,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "43 yards",
+						["range"] = false,
+						["desc"] = "More than 43 yards away",
+					},
+					["alert_range_33"] = {
+						["color"] = {
+							["a"] = 0.4,
+							["r"] = 0.33,
+							["g"] = 0.66,
+							["b"] = 0.99,
+						},
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "33 yards",
+						["range"] = false,
+						["desc"] = "More than 33 yards away",
+					},
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["r"] = 0.28,
+							["g"] = 0.5600000000000001,
+							["b"] = 0.84,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["r"] = 0.1,
+							["g"] = 0.2,
+							["b"] = 0.3,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+				},
+				["class/Druid"] = {
 					["frequency"] = 0.5,
 					["alert_range_10"] = {
 						["enable"] = false,
@@ -762,7 +2161,8 @@ GridDB = {
 						["desc"] = "More than 100 yards away",
 					},
 				},
-				["char/Crobar - WoWArg"] = {
+				["char/Crobar - Sin'Dorei"] = {
+					["frequency"] = 0.5,
 					["alert_range_10"] = {
 						["enable"] = false,
 						["text"] = "10 yards",
@@ -775,6 +2175,33 @@ GridDB = {
 						["priority"] = 81,
 						["range"] = false,
 						["desc"] = "More than 10 yards away",
+					},
+					["debug"] = false,
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["r"] = 0.28,
+							["g"] = 0.5600000000000001,
+							["b"] = 0.84,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
 					},
 					["alert_range_38"] = {
 						["enable"] = false,
@@ -802,18 +2229,130 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 40 yards away",
 					},
-					["alert_range_33"] = {
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
 						["color"] = {
-							["a"] = 0.4,
-							["r"] = 0.33,
-							["g"] = 0.66,
-							["b"] = 0.99,
+							["a"] = 0.1090909090909091,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+				},
+				["Default"] = {
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["debug"] = false,
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
 						},
 						["priority"] = 83,
-						["enable"] = true,
-						["text"] = "33 yards",
 						["range"] = false,
-						["desc"] = "More than 33 yards away",
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["frequency"] = 0.5,
+				},
+				["char/Skom - WoWArg"] = {
+					["frequency"] = 0.5,
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["r"] = 0.1,
+							["g"] = 0.2,
+							["b"] = 0.3,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["debug"] = false,
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -828,31 +2367,31 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_30"] = {
+					["alert_range_38"] = {
 						["enable"] = false,
-						["text"] = "30 yards",
+						["text"] = "38 yards",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
-						},
-						["priority"] = 83,
-						["range"] = false,
-						["desc"] = "More than 30 yards away",
-					},
-					["alert_range_43"] = {
-						["color"] = {
-							["a"] = 0.2181818181818181,
-							["r"] = 0.43,
-							["g"] = 0.86,
-							["b"] = 0.29,
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
 						},
 						["priority"] = 84,
-						["enable"] = true,
-						["text"] = "43 yards",
 						["range"] = false,
-						["desc"] = "More than 43 yards away",
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
 					},
 					["alert_range_100"] = {
 						["enable"] = false,
@@ -869,6 +2408,87 @@ GridDB = {
 					},
 				},
 				["Skom"] = {
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+				},
+				["realm/Sin'Dorei - Alliance"] = {
+					["frequency"] = 0.5,
 					["alert_range_10"] = {
 						["enable"] = false,
 						["text"] = "10 yards",
@@ -882,44 +2502,19 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 10 yards away",
 					},
-					["alert_range_40"] = {
-						["enable"] = true,
-						["text"] = "40 yards",
+					["debug"] = false,
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
 						["color"] = {
-							["a"] = 0.2727272727272727,
-							["r"] = 0.4,
-							["g"] = 0.8,
-							["b"] = 0.2,
-						},
-						["priority"] = 84,
-						["range"] = false,
-						["desc"] = "More than 40 yards away",
-					},
-					["alert_range_36"] = {
-						["color"] = {
-							["a"] = 0.3454545454545455,
-							["b"] = 0.08,
-							["g"] = 0.72,
-							["r"] = 0.36,
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
 						},
 						["priority"] = 83,
-						["enable"] = false,
-						["text"] = "36 yards",
 						["range"] = false,
-						["desc"] = "More than 36 yards away",
-					},
-					["alert_range_38"] = {
-						["enable"] = false,
-						["text"] = "38 yards",
-						["color"] = {
-							["a"] = 0.3090909090909091,
-							["r"] = 0.38,
-							["g"] = 0.76,
-							["b"] = 0.14,
-						},
-						["priority"] = 84,
-						["range"] = false,
-						["desc"] = "More than 38 yards away",
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -934,31 +2529,31 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 28 yards away",
 					},
-					["alert_range_30"] = {
+					["alert_range_38"] = {
 						["enable"] = false,
-						["text"] = "30 yards",
+						["text"] = "38 yards",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
 						},
-						["priority"] = 83,
+						["priority"] = 84,
 						["range"] = false,
-						["desc"] = "More than 30 yards away",
+						["desc"] = "More than 38 yards away",
 					},
-					["alert_range_25"] = {
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
 						["color"] = {
-							["a"] = 0.5454545454545454,
-							["b"] = 0.75,
-							["g"] = 0.5,
-							["r"] = 0.25,
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
 						},
-						["priority"] = 82,
-						["enable"] = false,
-						["text"] = "25 yards",
+						["priority"] = 84,
 						["range"] = false,
-						["desc"] = "More than 25 yards away",
+						["desc"] = "More than 40 yards away",
 					},
 					["alert_range_100"] = {
 						["enable"] = false,
@@ -1081,81 +2676,105 @@ GridDB = {
 					},
 				},
 				["class/Mage"] = {
-					["frequency"] = 0.5,
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
 					["alert_range_10"] = {
 						["enable"] = false,
 						["text"] = "10 yards",
 						["color"] = {
 							["a"] = 0.8181818181818181,
-							["r"] = 0.1,
-							["g"] = 0.2,
 							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
 						},
 						["priority"] = 81,
 						["range"] = false,
 						["desc"] = "More than 10 yards away",
 					},
-					["debug"] = false,
-					["alert_range_38"] = {
-						["enable"] = false,
-						["text"] = "38 yards",
+					["alert_range_43"] = {
 						["color"] = {
-							["a"] = 0.3090909090909091,
-							["r"] = 0.38,
-							["g"] = 0.76,
-							["b"] = 0.14,
+							["a"] = 0.2181818181818181,
+							["b"] = 0.29,
+							["g"] = 0.86,
+							["r"] = 0.43,
 						},
 						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "43 yards",
 						["range"] = false,
-						["desc"] = "More than 38 yards away",
-					},
-					["alert_range_28"] = {
-						["enable"] = false,
-						["text"] = "28 yards",
-						["color"] = {
-							["a"] = 0.490909090909091,
-							["r"] = 0.28,
-							["g"] = 0.5600000000000001,
-							["b"] = 0.84,
-						},
-						["priority"] = 83,
-						["range"] = false,
-						["desc"] = "More than 28 yards away",
+						["desc"] = "More than 43 yards away",
 					},
 					["alert_range_30"] = {
 						["enable"] = false,
 						["text"] = "30 yards",
 						["color"] = {
 							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
 							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
 						},
 						["priority"] = 83,
 						["range"] = false,
 						["desc"] = "More than 30 yards away",
 					},
-					["alert_range_40"] = {
-						["enable"] = true,
-						["text"] = "40 yards",
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
 						["color"] = {
-							["a"] = 0.2727272727272727,
-							["r"] = 0.4,
-							["g"] = 0.8,
-							["b"] = 0.2,
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
 						},
 						["priority"] = 84,
 						["range"] = false,
-						["desc"] = "More than 40 yards away",
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_33"] = {
+						["color"] = {
+							["a"] = 0.4,
+							["b"] = 0.99,
+							["g"] = 0.66,
+							["r"] = 0.33,
+						},
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "33 yards",
+						["range"] = false,
+						["desc"] = "More than 33 yards away",
 					},
 					["alert_range_100"] = {
 						["enable"] = false,
 						["text"] = "100 yards",
 						["color"] = {
 							["a"] = 0.1090909090909091,
-							["r"] = 0,
-							["g"] = 0,
 							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
 						},
 						["priority"] = 90,
 						["range"] = false,
@@ -1166,205 +2785,237 @@ GridDB = {
 		},
 		["GridStatusAuras"] = {
 			["profiles"] = {
-				["char/Skom - WoWArg"] = {
-					["buff_Renew"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+					["debuff_EssenceoftheBloodQueen"] = {
+						["text"] = "Essence of the Blood Queen",
 						["enable"] = true,
-						["text"] = "Renew",
+						["priority"] = 90,
+						["missing"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.3,
-							["g"] = 0.7,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["duration"] = false,
+						["range"] = false,
+						["desc"] = "Debuff: Essence of the Blood Queen",
+					},
+					["buff_WildGrowth"] = {
+						["priority"] = 90,
+						["missing"] = false,
+						["duration"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["enable"] = true,
+						["text"] = "Wild Growth",
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+					},
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["buff_Renew"] = {
+						["color"] = {
+							["a"] = 1,
 							["r"] = 0,
+							["g"] = 0.7,
+							["b"] = 0.3,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Renew",
 						["range"] = false,
 						["desc"] = "Buff: Renew",
 					},
 					["buff_Riptide"] = {
-						["enable"] = true,
-						["text"] = "Riptide",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.8,
-							["g"] = 0,
 							["r"] = 0.4,
+							["g"] = 0,
+							["b"] = 0.8,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Riptide",
 						["range"] = false,
 						["desc"] = "Buff: Riptide",
 					},
 					["abolish"] = true,
 					["debuff_curse"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0,
 							["r"] = 0.6,
+							["g"] = 0,
+							["b"] = 1,
 						},
+						["text"] = "Curse",
 						["order"] = 25,
 						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Curse",
 						["range"] = false,
 						["desc"] = "Debuff type: Curse",
 					},
 					["debuff_Ghost"] = {
-						["enable"] = true,
-						["text"] = "Ghost",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
 							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Ghost",
 						["range"] = false,
 						["desc"] = "Debuff: Ghost",
 					},
 					["debug"] = false,
 					["debuff_WeakenedSoul"] = {
-						["enable"] = true,
-						["text"] = "Weakened Soul",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
 							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Weakened Soul",
 						["range"] = false,
 						["desc"] = "Debuff: Weakened Soul",
 					},
 					["buff_Rejuvenation"] = {
-						["enable"] = true,
-						["text"] = "Rejuvenation",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.7,
-							["g"] = 0.3,
 							["r"] = 0,
+							["g"] = 0.3,
+							["b"] = 0.7,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Rejuvenation",
 						["range"] = false,
 						["desc"] = "Buff: Rejuvenation",
 					},
 					["debuff_Forbearance"] = {
-						["enable"] = true,
-						["text"] = "Forbearance",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
 							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Forbearance",
 						["range"] = false,
 						["desc"] = "Debuff: Forbearance",
 					},
 					["buff_PowerWord:Shield"] = {
-						["enable"] = true,
-						["text"] = "Power Word: Shield",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.8,
 							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0,
 						},
 						["priority"] = 91,
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
 						["range"] = false,
 						["desc"] = "Buff: Power Word: Shield",
 					},
 					["debuff_poison"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.6,
 							["r"] = 0,
+							["g"] = 0.6,
+							["b"] = 0,
 						},
+						["text"] = "Poison",
 						["order"] = 25,
 						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Poison",
 						["range"] = false,
 						["desc"] = "Debuff type: Poison",
 					},
 					["buff_Regrowth"] = {
-						["enable"] = true,
-						["text"] = "Regrowth",
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.1,
-							["g"] = 0.7,
 							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0.1,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Regrowth",
 						["range"] = false,
 						["desc"] = "Buff: Regrowth",
 					},
-					["debuff_MortalStrike"] = {
-						["enable"] = true,
-						["text"] = "Mortal Strike",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.2,
-							["g"] = 0.2,
-							["r"] = 0.8,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Mortal Strike",
-					},
-					["buff_EarthShield"] = {
-						["enable"] = true,
-						["text"] = "Earth Shield",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.3,
-							["g"] = 0.7,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Buff: Earth Shield",
-					},
 					["debuff_disease"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.4,
 							["r"] = 0.6,
+							["g"] = 0.4,
+							["b"] = 0,
 						},
+						["text"] = "Disease",
 						["order"] = 25,
 						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Disease",
 						["range"] = false,
 						["desc"] = "Debuff type: Disease",
 					},
-					["buff_Lifebloom"] = {
-						["enable"] = true,
-						["text"] = "Lifebloom",
+					["buff_EarthShield"] = {
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
+							["r"] = 0.5,
 							["g"] = 0.7,
-							["r"] = 0.3,
+							["b"] = 0.3,
 						},
 						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["debuff_MortalStrike"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.2,
+							["b"] = 0.2,
+						},
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["buff_Lifebloom"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.3,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Lifebloom",
 						["range"] = false,
 						["desc"] = "Buff: Lifebloom",
 					},
 					["debuff_magic"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0.6,
 							["r"] = 0.2,
+							["g"] = 0.6,
+							["b"] = 1,
 						},
+						["text"] = "Magic",
 						["order"] = 25,
 						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Magic",
 						["range"] = false,
 						["desc"] = "Debuff type: Magic",
 					},
@@ -1401,54 +3052,227 @@ GridDB = {
 						["desc"] = "Buff: Wild Growth",
 					},
 				},
-				["Skom"] = {
+				["realm/WoWArg - Alliance"] = {
+					["buff_Renew"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 0.7,
+							["b"] = 0.3,
+						},
+						["enable"] = true,
+						["text"] = "Renew",
+						["range"] = false,
+						["desc"] = "Buff: Renew",
+					},
+					["buff_Riptide"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.4,
+							["g"] = 0,
+							["b"] = 0.8,
+						},
+						["enable"] = true,
+						["text"] = "Riptide",
+						["range"] = false,
+						["desc"] = "Buff: Riptide",
+					},
+					["abolish"] = true,
+					["debuff_curse"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.6,
+							["g"] = 0,
+							["b"] = 1,
+						},
+						["text"] = "Curse",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff type: Curse",
+					},
+					["debuff_Ghost"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["enable"] = true,
+						["text"] = "Ghost",
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["debug"] = false,
+					["debuff_WeakenedSoul"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
+					},
 					["buff_Rejuvenation"] = {
-						["mine"] = true,
-						["duration"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 0.3,
+							["b"] = 0.7,
+						},
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
+					["debuff_Forbearance"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["buff_PowerWord:Shield"] = {
+						["priority"] = 91,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0,
+						},
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
+					},
+					["debuff_poison"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 0.6,
+							["b"] = 0,
+						},
+						["text"] = "Poison",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff type: Poison",
 					},
 					["buff_Regrowth"] = {
-						["mine"] = true,
-						["duration"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 0.7,
+							["b"] = 0.1,
+						},
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
+					},
+					["debuff_disease"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.6,
+							["g"] = 0.4,
+							["b"] = 0,
+						},
+						["text"] = "Disease",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff type: Disease",
+					},
+					["buff_EarthShield"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.7,
+							["b"] = 0.3,
+						},
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["debuff_MortalStrike"] = {
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.2,
+							["b"] = 0.2,
+						},
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
 					},
 					["buff_Lifebloom"] = {
-						["mine"] = true,
-						["duration"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.3,
+							["g"] = 0.7,
+							["b"] = 0,
+						},
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
 					},
+					["debuff_magic"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.2,
+							["g"] = 0.6,
+							["b"] = 1,
+						},
+						["text"] = "Magic",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff type: Magic",
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
 					["buff_WildGrowth"] = {
+						["priority"] = 90,
+						["missing"] = false,
+						["text"] = "Wild Growth",
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.5,
 							["g"] = 0.5,
 							["b"] = 0.5,
 						},
-						["duration"] = true,
-						["range"] = false,
-						["desc"] = "Buff: Wild Growth",
-						["enable"] = true,
-						["text"] = "Wild Growth",
-						["priority"] = 90,
-						["missing"] = false,
-						["mine"] = true,
-					},
-				},
-				["char/Rivothrill - WoWArg"] = {
-					["buff_WildGrowth"] = {
 						["duration"] = false,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["text"] = "Wild Growth",
-						["enable"] = true,
-						["missing"] = false,
-						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Buff: Wild Growth",
 					},
 				},
-				["class/Mage"] = {
+				["class/Druid"] = {
 					["buff_Renew"] = {
 						["enable"] = true,
 						["text"] = "Renew",
@@ -1651,26 +3475,917 @@ GridDB = {
 						["desc"] = "Debuff type: Magic",
 					},
 				},
+				["char/Crobar - Sin'Dorei"] = {
+					["buff_Renew"] = {
+						["enable"] = true,
+						["text"] = "Renew",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Renew",
+					},
+					["buff_Riptide"] = {
+						["enable"] = true,
+						["text"] = "Riptide",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Riptide",
+					},
+					["abolish"] = true,
+					["debuff_curse"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Curse",
+						["range"] = false,
+						["desc"] = "Debuff type: Curse",
+					},
+					["debuff_Ghost"] = {
+						["enable"] = true,
+						["text"] = "Ghost",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["debug"] = false,
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
+					},
+					["buff_Rejuvenation"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["buff_PowerWord:Shield"] = {
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
+					},
+					["debuff_poison"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Poison",
+						["range"] = false,
+						["desc"] = "Debuff type: Poison",
+					},
+					["buff_Regrowth"] = {
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
+					},
+					["debuff_MortalStrike"] = {
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["buff_EarthShield"] = {
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["debuff_disease"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Disease",
+						["range"] = false,
+						["desc"] = "Debuff type: Disease",
+					},
+					["buff_Lifebloom"] = {
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
+					},
+					["debuff_magic"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Magic",
+						["range"] = false,
+						["desc"] = "Debuff type: Magic",
+					},
+				},
+				["Default"] = {
+					["buff_Renew"] = {
+						["enable"] = true,
+						["text"] = "Renew",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Renew",
+					},
+					["buff_Riptide"] = {
+						["enable"] = true,
+						["text"] = "Riptide",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Riptide",
+					},
+					["abolish"] = true,
+					["debuff_curse"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Curse",
+						["range"] = false,
+						["desc"] = "Debuff type: Curse",
+					},
+					["debuff_Ghost"] = {
+						["enable"] = true,
+						["text"] = "Ghost",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["debug"] = false,
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
+					},
+					["buff_Rejuvenation"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["buff_PowerWord:Shield"] = {
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
+					},
+					["debuff_poison"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Poison",
+						["range"] = false,
+						["desc"] = "Debuff type: Poison",
+					},
+					["buff_Regrowth"] = {
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
+					},
+					["debuff_MortalStrike"] = {
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["buff_EarthShield"] = {
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["debuff_disease"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Disease",
+						["range"] = false,
+						["desc"] = "Debuff type: Disease",
+					},
+					["buff_Lifebloom"] = {
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
+					},
+					["debuff_magic"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Magic",
+						["range"] = false,
+						["desc"] = "Debuff type: Magic",
+					},
+				},
+				["char/Skom - WoWArg"] = {
+					["buff_Renew"] = {
+						["enable"] = true,
+						["text"] = "Renew",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Renew",
+					},
+					["buff_Riptide"] = {
+						["enable"] = true,
+						["text"] = "Riptide",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Riptide",
+					},
+					["abolish"] = true,
+					["debuff_curse"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Curse",
+						["range"] = false,
+						["desc"] = "Debuff type: Curse",
+					},
+					["debuff_Ghost"] = {
+						["enable"] = true,
+						["text"] = "Ghost",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["debug"] = false,
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
+					},
+					["buff_Rejuvenation"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["buff_PowerWord:Shield"] = {
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
+					},
+					["debuff_poison"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Poison",
+						["range"] = false,
+						["desc"] = "Debuff type: Poison",
+					},
+					["buff_Regrowth"] = {
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
+					},
+					["debuff_MortalStrike"] = {
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["buff_EarthShield"] = {
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["debuff_disease"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Disease",
+						["range"] = false,
+						["desc"] = "Debuff type: Disease",
+					},
+					["buff_Lifebloom"] = {
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
+					},
+					["debuff_magic"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Magic",
+						["range"] = false,
+						["desc"] = "Debuff type: Magic",
+					},
+				},
+				["Skom"] = {
+					["buff_WildGrowth"] = {
+						["enable"] = true,
+						["text"] = "Wild Growth",
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+						["mine"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["duration"] = true,
+						["missing"] = false,
+					},
+					["buff_Rejuvenation"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Regrowth"] = {
+						["duration"] = true,
+						["mine"] = true,
+					},
+					["buff_Lifebloom"] = {
+						["duration"] = true,
+						["mine"] = true,
+					},
+				},
+				["realm/Sin'Dorei - Alliance"] = {
+					["buff_Renew"] = {
+						["enable"] = true,
+						["text"] = "Renew",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Renew",
+					},
+					["buff_Riptide"] = {
+						["enable"] = true,
+						["text"] = "Riptide",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Riptide",
+					},
+					["abolish"] = true,
+					["debuff_curse"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Curse",
+						["range"] = false,
+						["desc"] = "Debuff type: Curse",
+					},
+					["debuff_Ghost"] = {
+						["enable"] = true,
+						["text"] = "Ghost",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["debug"] = false,
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
+					},
+					["buff_Rejuvenation"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["buff_PowerWord:Shield"] = {
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
+					},
+					["debuff_poison"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Poison",
+						["range"] = false,
+						["desc"] = "Debuff type: Poison",
+					},
+					["buff_Regrowth"] = {
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
+					},
+					["debuff_MortalStrike"] = {
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["buff_EarthShield"] = {
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["debuff_disease"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Disease",
+						["range"] = false,
+						["desc"] = "Debuff type: Disease",
+					},
+					["buff_Lifebloom"] = {
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
+					},
+					["debuff_magic"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["order"] = 25,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Magic",
+						["range"] = false,
+						["desc"] = "Debuff type: Magic",
+					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+					["buff_WildGrowth"] = {
+						["duration"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["text"] = "Wild Growth",
+						["enable"] = true,
+						["missing"] = false,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+					},
+				},
+				["class/Mage"] = {
+					["debuff_EssenceoftheBloodQueen"] = {
+						["duration"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["text"] = "Essence of the Blood Queen",
+						["enable"] = true,
+						["missing"] = false,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Essence of the Blood Queen",
+					},
+					["buff_WildGrowth"] = {
+						["text"] = "Wild Growth",
+						["enable"] = true,
+						["priority"] = 90,
+						["missing"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["duration"] = false,
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+					},
+				},
 			},
 		},
 		["GridStatus"] = {
 			["profiles"] = {
-				["Default"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
 					["colors"] = {
-						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
 						},
 						["WARRIOR"] = {
 							["b"] = 0.43,
 							["g"] = 0.61,
 							["r"] = 0.78,
 						},
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
 						},
 						["MAGE"] = {
 							["b"] = 0.94,
@@ -1687,19 +4402,75 @@ GridDB = {
 							["g"] = 0.51,
 							["r"] = 0.58,
 						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
 						},
 						["DRUID"] = {
 							["b"] = 0.04,
 							["g"] = 0.49,
 							["r"] = 1,
 						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+					},
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["range"] = false,
+					["debug"] = false,
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["r"] = 0.91764705882353,
+							["g"] = 0.67450980392157,
+							["b"] = 0.84705882352941,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["r"] = 0.4,
+							["g"] = 0.4,
+							["b"] = 0.4,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["r"] = 0.54509803921569,
+							["g"] = 0.25490196078431,
+							["b"] = 0.68627450980392,
+						},
+						["Undead"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.2,
+							["b"] = 0,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
 							["r"] = 1,
 						},
 						["DEATHKNIGHT"] = {
@@ -1707,7 +4478,614 @@ GridDB = {
 							["g"] = 0.12,
 							["r"] = 0.77,
 						},
+						["Elemental"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["r"] = 0.93725490196078,
+							["g"] = 0.75686274509804,
+							["b"] = 0.27843137254902,
+						},
+						["PetColorType"] = "Using Fallback color",
 					},
+				},
+				["char/Crobar - WoWArg"] = {
+					["colors"] = {
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["MAGE"] = {
+							["r"] = 0.41,
+							["g"] = 0.8,
+							["b"] = 0.94,
+						},
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.58,
+							["g"] = 0.51,
+							["b"] = 0.79,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
+					},
+				},
+				["realm/WoWArg - Alliance"] = {
+					["range"] = false,
+					["debug"] = false,
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["r"] = 0.91764705882353,
+							["g"] = 0.67450980392157,
+							["b"] = 0.84705882352941,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["r"] = 0.4,
+							["g"] = 0.4,
+							["b"] = 0.4,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["r"] = 0.54509803921569,
+							["g"] = 0.25490196078431,
+							["b"] = 0.68627450980392,
+						},
+						["Undead"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.2,
+							["b"] = 0,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["r"] = 0.93725490196078,
+							["g"] = 0.75686274509804,
+							["b"] = 0.27843137254902,
+						},
+						["PetColorType"] = "Using Fallback color",
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+					["colors"] = {
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["MAGE"] = {
+							["r"] = 0.41,
+							["g"] = 0.8,
+							["b"] = 0.94,
+						},
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.58,
+							["g"] = 0.51,
+							["b"] = 0.79,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
+						},
+					},
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["b"] = 0.84705882352941,
+							["g"] = 0.67450980392157,
+							["r"] = 0.91764705882353,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["MAGE"] = {
+							["r"] = 0.41,
+							["g"] = 0.8,
+							["b"] = 0.94,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["b"] = 0.4,
+							["g"] = 0.4,
+							["r"] = 0.4,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["b"] = 0.68627450980392,
+							["g"] = 0.25490196078431,
+							["r"] = 0.54509803921569,
+						},
+						["Undead"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
+						},
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 0.8,
+						},
+						["PetColorType"] = "Using Fallback color",
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.58,
+							["g"] = 0.51,
+							["b"] = 0.79,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["b"] = 0.27843137254902,
+							["g"] = 0.75686274509804,
+							["r"] = 0.93725490196078,
+						},
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
+					},
+					["range"] = false,
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["b"] = 0.84705882352941,
+							["g"] = 0.67450980392157,
+							["r"] = 0.91764705882353,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["MAGE"] = {
+							["r"] = 0.41,
+							["g"] = 0.8,
+							["b"] = 0.94,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["b"] = 0.4,
+							["g"] = 0.4,
+							["r"] = 0.4,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["b"] = 0.68627450980392,
+							["g"] = 0.25490196078431,
+							["r"] = 0.54509803921569,
+						},
+						["Undead"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
+						},
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 0.8,
+						},
+						["PetColorType"] = "Using Fallback color",
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.58,
+							["g"] = 0.51,
+							["b"] = 0.79,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["b"] = 0.27843137254902,
+							["g"] = 0.75686274509804,
+							["r"] = 0.93725490196078,
+						},
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
+					},
+					["range"] = false,
+					["debug"] = false,
+				},
+				["Default"] = {
+					["colors"] = {
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["b"] = 0.4,
+							["g"] = 0.4,
+							["r"] = 0.4,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["b"] = 0.68627450980392,
+							["g"] = 0.25490196078431,
+							["r"] = 0.54509803921569,
+						},
+						["PetColorType"] = "Using Fallback color",
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 0.8,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["Undead"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["b"] = 0.27843137254902,
+							["g"] = 0.75686274509804,
+							["r"] = 0.93725490196078,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["b"] = 0.84705882352941,
+							["g"] = 0.67450980392157,
+							["r"] = 0.91764705882353,
+						},
+					},
+					["range"] = false,
+					["debug"] = false,
 				},
 				["char/Skom - WoWArg"] = {
 					["colors"] = {
@@ -1820,135 +5198,37 @@ GridDB = {
 					["range"] = false,
 					["debug"] = false,
 				},
-				["char/Crobar - WoWArg"] = {
-					["colors"] = {
-						["PALADIN"] = {
-							["r"] = 0.96,
-							["g"] = 0.55,
-							["b"] = 0.73,
-						},
-						["MAGE"] = {
-							["r"] = 0.41,
-							["g"] = 0.8,
-							["b"] = 0.94,
-						},
-						["DRUID"] = {
-							["r"] = 1,
-							["g"] = 0.49,
-							["b"] = 0.04,
-						},
-						["DEATHKNIGHT"] = {
-							["r"] = 0.77,
-							["g"] = 0.12,
-							["b"] = 0.23,
-						},
-						["PRIEST"] = {
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
-						["WARLOCK"] = {
-							["r"] = 0.58,
-							["g"] = 0.51,
-							["b"] = 0.79,
-						},
-						["HUNTER"] = {
-							["r"] = 0.67,
-							["g"] = 0.83,
-							["b"] = 0.45,
-						},
-						["WARRIOR"] = {
-							["r"] = 0.78,
-							["g"] = 0.61,
-							["b"] = 0.43,
-						},
-						["ROGUE"] = {
-							["r"] = 1,
-							["g"] = 0.96,
-							["b"] = 0.41,
-						},
-						["SHAMAN"] = {
-							["r"] = 0,
-							["g"] = 0.44,
-							["b"] = 0.87,
-						},
-					},
-				},
 				["Skom"] = {
 					["colors"] = {
-						["DEATHKNIGHT"] = {
-							["r"] = 0.77,
-							["g"] = 0.12,
-							["b"] = 0.23,
-						},
-						["WARRIOR"] = {
-							["r"] = 0.78,
-							["g"] = 0.61,
-							["b"] = 0.43,
-						},
-						["ROGUE"] = {
-							["r"] = 1,
-							["g"] = 0.96,
-							["b"] = 0.41,
-						},
-						["MAGE"] = {
-							["r"] = 0.41,
-							["g"] = 0.8,
-							["b"] = 0.94,
-						},
-						["PRIEST"] = {
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
-						["WARLOCK"] = {
-							["r"] = 0.58,
-							["g"] = 0.51,
-							["b"] = 0.79,
-						},
 						["HUNTER"] = {
-							["r"] = 0.67,
-							["g"] = 0.83,
 							["b"] = 0.45,
-						},
-						["DRUID"] = {
-							["r"] = 1,
-							["g"] = 0.49,
-							["b"] = 0.04,
-						},
-						["SHAMAN"] = {
-							["r"] = 0,
-							["g"] = 0.44,
-							["b"] = 0.87,
+							["g"] = 0.83,
+							["r"] = 0.67,
 						},
 						["PALADIN"] = {
-							["r"] = 0.96,
-							["g"] = 0.55,
 							["b"] = 0.73,
-						},
-					},
-				},
-				["char/Rivothrill - WoWArg"] = {
-					["colors"] = {
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
+							["g"] = 0.55,
+							["r"] = 0.96,
 						},
 						["MAGE"] = {
 							["b"] = 0.94,
 							["g"] = 0.8,
 							["r"] = 0.41,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
 						},
 						["PRIEST"] = {
 							["b"] = 1,
@@ -1960,30 +5240,19 @@ GridDB = {
 							["g"] = 0.51,
 							["r"] = 0.58,
 						},
-						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
-						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
 						["ROGUE"] = {
 							["b"] = 0.41,
 							["g"] = 0.96,
 							["r"] = 1,
 						},
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
 						},
 					},
 				},
-				["class/Mage"] = {
-					["debug"] = false,
+				["realm/Sin'Dorei - Alliance"] = {
 					["colors"] = {
 						["UNKNOWN_UNIT"] = {
 							["a"] = 1,
@@ -2092,17 +5361,328 @@ GridDB = {
 						},
 					},
 					["range"] = false,
+					["debug"] = false,
+				},
+				["char/Rivothrill - WoWArg"] = {
+					["colors"] = {
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+					},
+				},
+				["class/Mage"] = {
+					["colors"] = {
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+					},
 				},
 			},
 		},
 		["GridStatusAggro"] = {
 			["profiles"] = {
-				["Default"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["enable"] = true,
+						["threat"] = false,
+						["text"] = "Aggro",
+						["threattexts"] = {
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
+						},
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 99,
+						["range"] = false,
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0.9999978030100465,
+								["b"] = 0.4666656414046884,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0.5999986818060279,
+								["b"] = 0,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0,
+								["b"] = 0,
+							}, -- [3]
+						},
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["threat"] = false,
+						["text"] = "Aggro",
+						["threattexts"] = {
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
+						},
+						["enable"] = true,
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0.9999978030100465,
+								["b"] = 0.4666656414046884,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0.5999986818060279,
+								["b"] = 0,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0,
+								["b"] = 0,
+							}, -- [3]
+						},
+						["range"] = false,
+						["priority"] = 99,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
 					["alert_aggro"] = {
 						["threatcolors"] = {
 							{
+								["a"] = 1,
 								["b"] = 0.4666656414046884,
+								["g"] = 0.9999978030100465,
+								["r"] = 0.9999978030100465,
 							}, -- [1]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0.5999986818060279,
+								["r"] = 0.9999978030100465,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0.9999978030100465,
+							}, -- [3]
+						},
+						["threat"] = false,
+						["priority"] = 99,
+						["threattexts"] = {
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
+						},
+						["enable"] = true,
+						["text"] = "Aggro",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+					},
+				},
+				["realm/Sin'Dorei - Alliance"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["b"] = 0.4666656414046884,
+								["g"] = 0.9999978030100465,
+								["r"] = 0.9999978030100465,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0.5999986818060279,
+								["r"] = 0.9999978030100465,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0.9999978030100465,
+							}, -- [3]
+						},
+						["threat"] = false,
+						["priority"] = 99,
+						["threattexts"] = {
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
+						},
+						["enable"] = true,
+						["text"] = "Aggro",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["b"] = 0.4666656414046884,
+								["g"] = 0.9999978030100465,
+								["r"] = 0.9999978030100465,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0.5999986818060279,
+								["r"] = 0.9999978030100465,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0.9999978030100465,
+							}, -- [3]
+						},
+						["threat"] = false,
+						["priority"] = 99,
+						["threattexts"] = {
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
+						},
+						["enable"] = true,
+						["text"] = "Aggro",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
 						},
 					},
 				},
@@ -2147,24 +5727,9 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["Skom"] = {
-					["alert_aggro"] = {
-						["threatcolors"] = {
-							{
-								["b"] = 0.4666656414046884,
-							}, -- [1]
-						},
-					},
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["char/Crobar - Sin'Dorei"] = {
 					["debug"] = false,
 					["alert_aggro"] = {
-						["priority"] = 99,
-						["threat"] = false,
 						["threatcolors"] = {
 							{
 								["a"] = 1,
@@ -2185,26 +5750,152 @@ GridDB = {
 								["r"] = 0.9999978030100465,
 							}, -- [3]
 						},
+						["threat"] = false,
+						["priority"] = 99,
 						["threattexts"] = {
 							"High", -- [1]
 							"Aggro", -- [2]
 							"Tank", -- [3]
 						},
+						["enable"] = true,
+						["text"] = "Aggro",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0,
 							["r"] = 1,
 						},
-						["text"] = "Aggro",
-						["range"] = false,
-						["enable"] = true,
 					},
+				},
+				["Skom"] = {
+					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["b"] = 0.4666656414046884,
+							}, -- [1]
+						},
+					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridStatusHeals"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["channeled"] = true,
+							["hot"] = true,
+						},
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["ignore_self"] = false,
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["channeled"] = true,
+							["hot"] = true,
+						},
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["text"] = "Incoming heals",
+						["enable"] = true,
+						["priority"] = 50,
+						["range"] = false,
+						["ignore_self"] = false,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
+						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
+						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
+						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["alert_heals"] = {
@@ -2226,11 +5917,7 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["alert_heals"] = {
 						["heal_filter"] = {
@@ -2240,21 +5927,261 @@ GridDB = {
 						},
 						["ignore_self"] = false,
 						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 1,
 							["r"] = 0,
 						},
-						["text"] = "Incoming heals",
-						["range"] = false,
-						["enable"] = true,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridStatusReadyCheck"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["enable"] = true,
+						["colors"] = {
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+						},
+						["delay"] = 5,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["text"] = "Ready Check",
+						["range"] = false,
+						["priority"] = 95,
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["colors"] = {
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+						},
+						["delay"] = 5,
+						["enable"] = true,
+						["priority"] = 95,
+						["range"] = false,
+						["text"] = "Ready Check",
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["priority"] = 95,
+						["colors"] = {
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+						},
+						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["priority"] = 95,
+						["colors"] = {
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+						},
+						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["priority"] = 95,
+						["colors"] = {
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+						},
+						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["ready_check"] = {
@@ -2301,14 +6228,10 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["ready_check"] = {
-						["text"] = "Ready Check",
+						["priority"] = 95,
 						["colors"] = {
 							["not_ready"] = {
 								["a"] = 1,
@@ -2340,21 +6263,109 @@ GridDB = {
 							},
 						},
 						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 95,
-						["delay"] = 5,
-						["enable"] = true,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridIndicatorIconBar"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+					["scale"] = 0.8500000000000001,
+					["spacing"] = 3,
+					["yOffset"] = -8,
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["rowSize"] = 9,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["flash"] = true,
+				},
+				["char/Crobar - WoWArg"] = {
+					["scale"] = 0.8500000000000001,
+					["spacing"] = 3,
+					["yOffset"] = -8,
+				},
+				["realm/WoWArg - Alliance"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["rowSize"] = 9,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["flash"] = true,
+				},
+				["char/Skom - Sin'Dorei"] = {
+					["scale"] = 0.8500000000000001,
+					["spacing"] = 3,
+				},
+				["class/Druid"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["flash"] = true,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["rowSize"] = 9,
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["flash"] = true,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["rowSize"] = 9,
+				},
+				["Default"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["flash"] = true,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["rowSize"] = 9,
+				},
 				["char/Skom - WoWArg"] = {
 					["attachPoint"] = "CENTER",
 					["scale"] = 1,
@@ -2369,19 +6380,12 @@ GridDB = {
 					["xOffset"] = 0,
 					["rowSize"] = 9,
 				},
-				["char/Crobar - WoWArg"] = {
-					["scale"] = 0.8500000000000001,
-					["spacing"] = 3,
-				},
 				["Skom"] = {
-					["scale"] = 0.8500000000000001,
-					["spacing"] = 3,
+					["scale"] = 0.75,
+					["yOffset"] = -15,
+					["spacing"] = 2,
 				},
-				["char/Rivothrill - WoWArg"] = {
-					["scale"] = 0.8500000000000001,
-					["spacing"] = 3,
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["attachPoint"] = "CENTER",
 					["scale"] = 1,
 					["opacity"] = 1,
@@ -2394,11 +6398,426 @@ GridDB = {
 					},
 					["xOffset"] = 0,
 					["rowSize"] = 9,
+				},
+				["char/Rivothrill - WoWArg"] = {
+					["scale"] = 0.8500000000000001,
+					["spacing"] = 3,
+				},
+				["class/Mage"] = {
+					["scale"] = 0.8500000000000001,
+					["spacing"] = 3,
+					["yOffset"] = -8,
 				},
 			},
 		},
 		["GridStatusHealth"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["alert_feignDeath"] = {
+						["enable"] = true,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["priority"] = 55,
+						["range"] = false,
+						["text"] = "FD",
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 0.6,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 60,
+						["range"] = false,
+						["text"] = "Offline",
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 30,
+						["range"] = false,
+						["text"] = "Low HP",
+					},
+					["alert_death"] = {
+						["enable"] = true,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["text"] = "DEAD",
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 30,
+						["range"] = false,
+						["deadAsFullHealth"] = true,
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["alert_feignDeath"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["enable"] = true,
+						["text"] = "FD",
+						["range"] = false,
+						["priority"] = 55,
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["color"] = {
+							["a"] = 0.6,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["enable"] = true,
+						["text"] = "Offline",
+						["range"] = false,
+						["priority"] = 60,
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["enable"] = true,
+						["text"] = "Low HP",
+						["range"] = false,
+						["priority"] = 30,
+					},
+					["alert_death"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["enable"] = true,
+						["text"] = "DEAD",
+						["range"] = false,
+						["priority"] = 50,
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["deadAsFullHealth"] = true,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["alert_feignDeath"] = {
+						["text"] = "FD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["text"] = "Offline",
+						["enable"] = true,
+						["priority"] = 60,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.6,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_death"] = {
+						["text"] = "DEAD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["text"] = "Low HP",
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["alert_feignDeath"] = {
+						["text"] = "FD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["text"] = "Offline",
+						["enable"] = true,
+						["priority"] = 60,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.6,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_death"] = {
+						["text"] = "DEAD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["text"] = "Low HP",
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["Default"] = {
+					["alert_feignDeath"] = {
+						["text"] = "FD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["text"] = "Offline",
+						["enable"] = true,
+						["priority"] = 60,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.6,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_death"] = {
+						["text"] = "DEAD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["text"] = "Low HP",
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["alert_feignDeath"] = {
 						["text"] = "FD",
@@ -2479,23 +6898,19 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["alert_feignDeath"] = {
-						["priority"] = 55,
+						["text"] = "FD",
 						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "FD",
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
 					},
 					["debug"] = false,
 					["unit_healthDeficit"] = {
@@ -2512,66 +6927,268 @@ GridDB = {
 						},
 					},
 					["alert_offline"] = {
+						["text"] = "Offline",
+						["enable"] = true,
 						["priority"] = 60,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.6,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Offline",
-						["range"] = false,
-						["enable"] = true,
 					},
 					["alert_death"] = {
-						["priority"] = 50,
+						["text"] = "DEAD",
 						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "DEAD",
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
 					},
 					["alert_lowHealth"] = {
 						["threshold"] = 80,
+						["text"] = "Low HP",
+						["enable"] = true,
 						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Low HP",
-						["range"] = false,
-						["enable"] = true,
 					},
 					["unit_health"] = {
 						["useClassColors"] = true,
 						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 30,
-						["range"] = false,
-						["enable"] = true,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridLayout"] = {
 			["profiles"] = {
-				["Default"] = {
-					["layout"] = "By Group 5",
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
 					["anchorRel"] = "TOPLEFT",
+					["PosY"] = -427.5267377746151,
+					["layouts"] = {
+						["bg"] = "By Group 25",
+					},
+					["layout"] = "By Group 5",
+					["ScaleSize"] = 1.25,
+					["Spacing"] = 0,
+					["Padding"] = 0,
+					["horizontal"] = true,
+					["PosX"] = 0,
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["heroic_raid"] = "By Group 25",
+						["raid"] = "By Group 10",
+						["bg"] = "By Group 40",
+						["arena"] = "By Group 5",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "By Group 5",
+					["borderTexture"] = "Blizzard Tooltip",
+					["BackgroundB"] = 0.1,
+					["BackgroundA"] = 0.65,
+					["Padding"] = 1,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["horizontal"] = false,
+					["PosX"] = 499.9999645494909,
+					["PosY"] = -399.9999765377402,
+				},
+				["char/Crobar - WoWArg"] = {
+					["anchorRel"] = "TOPLEFT",
+					["PosY"] = -427.5267377746151,
+					["layouts"] = {
+						["bg"] = "By Group 25",
+					},
+					["layout"] = "By Group 5",
+					["ScaleSize"] = 1.25,
+					["Spacing"] = 0,
+					["Padding"] = 0,
+					["horizontal"] = true,
+					["PosX"] = 0,
+				},
+				["realm/WoWArg - Alliance"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["heroic_raid"] = "By Group 25",
+						["raid"] = "By Group 10",
+						["bg"] = "By Group 40",
+						["arena"] = "By Group 5",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "By Group 5",
+					["Padding"] = 1,
+					["borderTexture"] = "Blizzard Tooltip",
+					["BackgroundA"] = 0.65,
+					["BackgroundB"] = 0.1,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["horizontal"] = false,
+					["PosX"] = 500.0000309424868,
+					["PosY"] = -400.0000247539894,
+				},
+				["char/Skom - Sin'Dorei"] = {
+					["anchorRel"] = "TOPLEFT",
+					["PosY"] = -391.7419140046825,
+					["layouts"] = {
+						["bg"] = "By Group 25",
+					},
+					["layout"] = "By Group 5",
+					["ScaleSize"] = 1.25,
+					["Spacing"] = 0,
+					["Padding"] = 0,
+					["horizontal"] = true,
+					["PosX"] = 0,
+				},
+				["class/Druid"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["raid"] = "By Group 10",
+						["arena"] = "By Group 5",
+						["bg"] = "By Group 40",
+						["heroic_raid"] = "By Group 25",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "By Group 5",
+					["PosY"] = -400.0000247539894,
+					["PosX"] = 500.0000309424868,
+					["BackgroundA"] = 0.65,
+					["horizontal"] = false,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["Padding"] = 1,
+					["BackgroundB"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["arena"] = "By Group 5",
+						["heroic_raid"] = "By Group 25",
+						["bg"] = "By Group 40",
+						["raid"] = "By Group 10",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "By Group 5",
+					["PosY"] = -400.0000247539894,
+					["PosX"] = 500.0000309424868,
+					["BackgroundA"] = 0.65,
+					["horizontal"] = false,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["Padding"] = 1,
+					["BackgroundB"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
+				},
+				["Default"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["arena"] = "By Group 5",
+						["heroic_raid"] = "By Group 25",
+						["bg"] = "By Group 40",
+						["raid"] = "By Group 10",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
 					["PosY"] = -427.5267874377531,
+					["layout"] = "By Group 5",
 					["PosX"] = 37.49333194045999,
+					["debug"] = false,
+					["BackgroundA"] = 0.65,
+					["horizontal"] = false,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["Padding"] = 1,
+					["BackgroundB"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
 				},
 				["char/Skom - WoWArg"] = {
 					["hideTab"] = false,
@@ -2596,8 +7213,8 @@ GridDB = {
 					["groupAnchor"] = "TOPLEFT",
 					["debug"] = false,
 					["layout"] = "By Group 5",
-					["PosY"] = -399.9999785211076,
-					["PosX"] = 499.9999242080013,
+					["PosY"] = -400.0000744171275,
+					["PosX"] = 499.9998819530727,
 					["BackgroundA"] = 0.65,
 					["horizontal"] = false,
 					["BorderG"] = 0.5,
@@ -2606,31 +7223,48 @@ GridDB = {
 					["BackgroundB"] = 0.1,
 					["borderTexture"] = "Blizzard Tooltip",
 				},
-				["char/Crobar - WoWArg"] = {
-					["anchorRel"] = "TOPLEFT",
-					["layouts"] = {
-						["bg"] = "By Group 25",
-					},
-					["ScaleSize"] = 1.25,
-					["Spacing"] = 0,
-					["PosY"] = -399.9999502592824,
-					["layout"] = "By Group 25",
-					["Padding"] = 0,
-					["PosX"] = 0,
-					["horizontal"] = true,
-				},
 				["Skom"] = {
 					["anchorRel"] = "TOPLEFT",
-					["PosY"] = -396.3297946958014,
-					["layouts"] = {
-						["raid"] = "By Group 15",
-					},
+					["ScaleSize"] = 1.6,
+					["Spacing"] = 0,
+					["PosY"] = -422.0215802974211,
 					["layout"] = "By Group 5",
-					["ScaleSize"] = 1.05,
 					["PosX"] = 0,
 					["horizontal"] = true,
-					["Spacing"] = 0,
 					["Padding"] = 0,
+				},
+				["realm/Sin'Dorei - Alliance"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["arena"] = "By Group 5",
+						["heroic_raid"] = "By Group 25",
+						["bg"] = "By Group 40",
+						["raid"] = "By Group 10",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "By Group 5",
+					["PosY"] = -400.0000744171275,
+					["PosX"] = 500.0000309424868,
+					["BackgroundA"] = 0.65,
+					["horizontal"] = false,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["Padding"] = 1,
+					["BackgroundB"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
 				},
 				["char/Rivothrill - WoWArg"] = {
 					["anchorRel"] = "TOPLEFT",
@@ -2646,45 +7280,41 @@ GridDB = {
 					["Padding"] = 0,
 				},
 				["class/Mage"] = {
-					["hideTab"] = false,
 					["anchorRel"] = "TOPLEFT",
-					["BorderB"] = 0.5,
+					["PosY"] = -422.9388819150652,
 					["layouts"] = {
-						["party"] = "By Group 5",
-						["solo"] = "By Group 5",
-						["raid"] = "By Group 10",
-						["arena"] = "By Group 5",
-						["bg"] = "By Group 40",
-						["heroic_raid"] = "By Group 25",
+						["bg"] = "By Group 25",
 					},
-					["BackgroundR"] = 0.1,
-					["ScaleSize"] = 1,
-					["FrameLock"] = false,
-					["BorderA"] = 1,
-					["BorderR"] = 0.5,
-					["Spacing"] = 10,
-					["anchor"] = "TOPLEFT",
-					["clamp"] = true,
-					["groupAnchor"] = "TOPLEFT",
-					["debug"] = false,
 					["layout"] = "By Group 5",
-					["PosY"] = -400.0000651355611,
-					["PosX"] = 499.9998924688385,
-					["BackgroundA"] = 0.65,
-					["horizontal"] = false,
-					["BorderG"] = 0.5,
-					["BackgroundG"] = 0.1,
-					["Padding"] = 1,
-					["BackgroundB"] = 0.1,
-					["borderTexture"] = "Blizzard Tooltip",
+					["ScaleSize"] = 1.25,
+					["PosX"] = 0,
+					["horizontal"] = true,
+					["Padding"] = 0,
+					["Spacing"] = 0,
 				},
 			},
 		},
 		["GridRange"] = {
 			["profiles"] = {
-				["char/Skom - WoWArg"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
 				},
 				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+				},
+				["char/Crobar - Sin'Dorei"] = {
+				},
+				["Default"] = {
+				},
+				["char/Skom - WoWArg"] = {
+				},
+				["realm/Sin'Dorei - Alliance"] = {
 				},
 				["char/Rivothrill - WoWArg"] = {
 				},
@@ -2694,6 +7324,92 @@ GridDB = {
 		},
 		["GridStatusMana"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 1,
+						},
+						["priority"] = 40,
+						["range"] = false,
+						["text"] = "Low Mana",
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 1,
+						},
+						["enable"] = true,
+						["text"] = "Low Mana",
+						["range"] = false,
+						["priority"] = 40,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["text"] = "Low Mana",
+						["enable"] = true,
+						["priority"] = 40,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["text"] = "Low Mana",
+						["enable"] = true,
+						["priority"] = 40,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["text"] = "Low Mana",
+						["enable"] = true,
+						["priority"] = 40,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["alert_lowMana"] = {
@@ -2710,30 +7426,111 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["alert_lowMana"] = {
 						["threshold"] = 10,
+						["text"] = "Low Mana",
+						["enable"] = true,
 						["priority"] = 40,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "Low Mana",
-						["range"] = false,
-						["enable"] = true,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 		["GridStatusVoiceComm"] = {
 			["profiles"] = {
+				["char/Crobar - Sin'dorei(WoWArg)"] = {
+				},
+				["realm/Sin'dorei(WoWArg) - Alliance"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["enable"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 1,
+							["b"] = 0.5,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Talking",
+					},
+				},
+				["char/Crobar - WoWArg"] = {
+				},
+				["realm/WoWArg - Alliance"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 1,
+							["b"] = 0.5,
+						},
+						["enable"] = false,
+						["text"] = "Talking",
+						["range"] = false,
+						["priority"] = 50,
+					},
+				},
+				["char/Skom - Sin'Dorei"] = {
+				},
+				["class/Druid"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["text"] = "Talking",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 1,
+							["r"] = 0.5,
+						},
+					},
+				},
+				["char/Crobar - Sin'Dorei"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["text"] = "Talking",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 1,
+							["r"] = 0.5,
+						},
+					},
+				},
+				["Default"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["text"] = "Talking",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 1,
+							["r"] = 0.5,
+						},
+					},
+				},
 				["char/Skom - WoWArg"] = {
 					["debug"] = false,
 					["alert_voice"] = {
@@ -2749,37 +7546,46 @@ GridDB = {
 						},
 					},
 				},
-				["char/Crobar - WoWArg"] = {
-				},
-				["char/Rivothrill - WoWArg"] = {
-				},
-				["class/Mage"] = {
+				["realm/Sin'Dorei - Alliance"] = {
 					["debug"] = false,
 					["alert_voice"] = {
+						["text"] = "Talking",
+						["enable"] = false,
 						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 1,
 							["r"] = 0.5,
 						},
-						["text"] = "Talking",
-						["range"] = false,
-						["enable"] = false,
 					},
+				},
+				["char/Rivothrill - WoWArg"] = {
+				},
+				["class/Mage"] = {
 				},
 			},
 		},
 	},
 	["profiles"] = {
-		["char/Skom - WoWArg"] = {
+		["char/Crobar - Sin'dorei(WoWArg)"] = {
+		},
+		["realm/Sin'dorei(WoWArg) - Alliance"] = {
 		},
 		["char/Crobar - WoWArg"] = {
 		},
-		["Skom"] = {
-			["minimap"] = {
-				["minimapPos"] = 239.5735670108417,
-			},
+		["realm/WoWArg - Alliance"] = {
+		},
+		["char/Skom - Sin'Dorei"] = {
+		},
+		["class/Druid"] = {
+		},
+		["char/Skom - WoWArg"] = {
+		},
+		["char/Crobar - Sin'Dorei"] = {
+		},
+		["realm/Sin'Dorei - Alliance"] = {
 		},
 		["char/Rivothrill - WoWArg"] = {
 		},
@@ -2787,8 +7593,12 @@ GridDB = {
 		},
 	},
 	["currentProfile"] = {
-		["Skom - WoWArg"] = "Skom",
+		["Skom - Sin'Dorei"] = "char",
+		["Crobar - Sin'dorei(WoWArg)"] = "char",
 		["Rivothrill - WoWArg"] = "char",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom",
 		["Crobar - WoWArg"] = "char",
+		["Skom - WoWArg"] = "Skom",
+		["Crobar - Sin'Dorei"] = "class",
 	},
 }

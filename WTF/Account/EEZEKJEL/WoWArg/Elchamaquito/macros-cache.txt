@@ -1,0 +1,48 @@
+MACRO 16777228 "bye" Ability_BackStab
+/logout
+END
+MACRO 16777237 "Bye" INV_Misc_QuestionMark
+#showtooltip
+/castsequence [nocombat] reset=900 Astral Recall, Hearthstone
+/cast [combat] Hearthstone
+END
+MACRO 16777220 "CC" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Wind Shear
+END
+MACRO 16777238 "fix ui" INV_Misc_QuestionMark
+/run local f=CreateFrame(“frame”, nil, UIParent); f:SetScript(“OnUpdate”, CombatLogClearEntries);
+END
+MACRO 16777233 "MULTI target" INV_Misc_QuestionMark
+/castsequence reset=5 Flame Shock, Lava Burst, Chain Lightning, Lightning Bolt, 
+Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt, Lava Burst, Chain Lightning, 
+Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt
+END
+MACRO 16777235 "ONE shoot PVE" INV_Misc_QuestionMark
+#showtooltip
+/cast Elemental Mastery
+/castsequence reset=5 Flame Shock, Lightning Bolt, Lava Burst, Chain Lightning, Lightning Bolt
+END
+MACRO 16777234 "ONE shoot PVP" INV_Misc_QuestionMark
+#showtooltip
+/cast Elemental Mastery
+/castsequence Flame Shock, Lava Burst, Chain Lightning
+END
+MACRO 16777236 "OPEN ELE" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/cast Flame Shock
+END
+MACRO 16777229 "power" INV_Misc_QuestionMark
+/use Copo de nieve efímero
+/cast Fuerza de las mareas
+END
+MACRO 16777225 "totem" Spell_Shaman_GiftEarthmother
+/castsequence Shamanistic Rage, Stoneclaw Totem
+END
+MACRO 16777232 "UNI target" INV_Misc_QuestionMark
+/castsequence reset=5 Flame Shock, Lava Burst, Lightning Bolt, Lightning Bolt, 
+Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt, Lava Burst, Lightning Bolt, 
+Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt, Lightning Bolt
+END

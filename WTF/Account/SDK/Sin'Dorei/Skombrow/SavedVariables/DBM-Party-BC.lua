@@ -90,10 +90,10 @@ DBMPartyBC_SavedVars = {
 		["Enabled"] = true,
 		["Bane of Treachery on >%s<"] = true,
 		["SetIconOnBaneTarget"] = true,
-		["Timer37566Omor0"] = true,
+		["HealthFrame"] = false,
 		["Bane of Treachery on you"] = true,
 		["Announce"] = false,
-		["HealthFrame"] = false,
+		["Timer37566Omor0"] = true,
 	},
 	["Thorngrin"] = {
 		["Enabled"] = true,
@@ -104,8 +104,8 @@ DBMPartyBC_SavedVars = {
 	},
 	["Freywinn"] = {
 		["Enabled"] = true,
-		["Announce"] = false,
 		["WarnTranq"] = true,
+		["Announce"] = false,
 		["HealthFrame"] = false,
 	},
 	["Selin"] = {
@@ -175,20 +175,19 @@ DBMPartyBC_SavedVars = {
 		["Timer35159Capacitus1"] = true,
 		["Enabled"] = true,
 	},
-	["Sepethrea"] = {
+	["Quagmirran"] = {
 		["Enabled"] = true,
 		["Announce"] = false,
 		["HealthFrame"] = false,
 	},
-	["Soccothrates"] = {
+	["Mennu"] = {
 		["Enabled"] = true,
-		["Knock Away"] = true,
-		["Announce"] = false,
 		["HealthFrame"] = false,
+		["Announce"] = false,
+		["Corrupted Nova Totem"] = true,
 	},
-	["Syth"] = {
+	["Gargolmar"] = {
 		["Enabled"] = true,
-		["SummonElementals"] = true,
 		["Announce"] = false,
 		["HealthFrame"] = false,
 	},
@@ -206,8 +205,8 @@ DBMPartyBC_SavedVars = {
 		["Lung Burst on >%s<"] = true,
 		["HealthFrame"] = false,
 		["Enveloping Winds on >%s<"] = true,
-		["Lightning Cloud"] = true,
 		["Announce"] = false,
+		["Lightning Cloud"] = true,
 	},
 	["PT"] = {
 		["Enabled"] = true,
@@ -231,44 +230,10 @@ DBMPartyBC_SavedVars = {
 		["Announce"] = false,
 		["Electrified Net on >%s<"] = true,
 	},
-	["Quagmirran"] = {
+	["Sepethrea"] = {
 		["Enabled"] = true,
 		["Announce"] = false,
 		["HealthFrame"] = false,
-	},
-	["Shaffar"] = {
-		["Enabled"] = true,
-		["Announce"] = false,
-		["HealthFrame"] = false,
-	},
-	["Vazruden"] = {
-		["Enabled"] = true,
-		["Announce"] = false,
-		["HealthFrame"] = false,
-	},
-	["Mennu"] = {
-		["Enabled"] = true,
-		["HealthFrame"] = false,
-		["Announce"] = false,
-		["Corrupted Nova Totem"] = true,
-	},
-	["Temporus"] = {
-		["Spell Reflection"] = true,
-		["Hasten"] = true,
-		["Enabled"] = true,
-		["Timer38592Temporus0"] = true,
-		["HealthFrame"] = false,
-		["Timer31458Temporus1"] = true,
-		["Announce"] = false,
-		["Hasten on %s - dispel now"] = false,
-	},
-	["Aeonus"] = {
-		["Enabled"] = true,
-		["Time Stop"] = true,
-		["warnFrenzy"] = true,
-		["HealthFrame"] = false,
-		["Announce"] = false,
-		["Timer31422Aeonus0"] = true,
 	},
 	["Delrissa"] = {
 		["Renew"] = true,
@@ -294,6 +259,42 @@ DBMPartyBC_SavedVars = {
 		["Announce"] = false,
 		["Complete Domination on >%s<"] = true,
 	},
+	["Hellmaw"] = {
+		["Enabled"] = true,
+		["Timer33547Hellmaw0"] = true,
+		["timer_berserk"] = true,
+		["HealthFrame"] = false,
+		["Announce"] = false,
+		["Fear"] = true,
+	},
+	["Temporus"] = {
+		["Spell Reflection"] = true,
+		["Hasten"] = true,
+		["Enabled"] = true,
+		["Timer38592Temporus0"] = true,
+		["HealthFrame"] = false,
+		["Timer31458Temporus1"] = true,
+		["Announce"] = false,
+		["Hasten on %s - dispel now"] = false,
+	},
+	["Aeonus"] = {
+		["Enabled"] = true,
+		["Time Stop"] = true,
+		["warnFrenzy"] = true,
+		["HealthFrame"] = false,
+		["Announce"] = false,
+		["Timer31422Aeonus0"] = true,
+	},
+	["Shaffar"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
+	["Vazruden"] = {
+		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
 	["Ironhand"] = {
 		["Enabled"] = true,
 		["Play sound on $spell:39194"] = false,
@@ -305,20 +306,6 @@ DBMPartyBC_SavedVars = {
 		["Jackhammer"] = true,
 		["Announce"] = false,
 		["Jackhammer - run away"] = false,
-	},
-	["WarpSplinter"] = {
-		["Enabled"] = true,
-		["Stomp"] = true,
-		["Timer34716WarpSplinter1"] = true,
-		["Timer34727WarpSplinter0"] = true,
-		["HealthFrame"] = false,
-		["Announce"] = false,
-		["Summon Saplings"] = true,
-	},
-	["Muselek"] = {
-		["Enabled"] = true,
-		["Announce"] = false,
-		["HealthFrame"] = false,
 	},
 	["Kael"] = {
 		["Timer36819Kael0"] = true,
@@ -333,10 +320,26 @@ DBMPartyBC_SavedVars = {
 		["Announce"] = false,
 		["Enabled"] = true,
 	},
-	["EpochHunter"] = {
+	["Muselek"] = {
 		["Enabled"] = true,
 		["Announce"] = false,
 		["HealthFrame"] = false,
+	},
+	["WarpSplinter"] = {
+		["Enabled"] = true,
+		["Stomp"] = true,
+		["Timer34716WarpSplinter1"] = true,
+		["Timer34727WarpSplinter0"] = true,
+		["HealthFrame"] = false,
+		["Announce"] = false,
+		["Summon Saplings"] = true,
+	},
+	["Drake"] = {
+		["Enabled"] = true,
+		["HealthFrame"] = false,
+		["Announce"] = false,
+		["Exploding Shot on >%s<"] = true,
+		["Timer33792Drake0"] = true,
 	},
 	["Kalithresh"] = {
 		["Enabled"] = true,
@@ -346,12 +349,10 @@ DBMPartyBC_SavedVars = {
 		["Announce"] = false,
 		["Spell Reflection"] = true,
 	},
-	["Drake"] = {
+	["EpochHunter"] = {
 		["Enabled"] = true,
-		["HealthFrame"] = false,
-		["Timer33792Drake0"] = true,
 		["Announce"] = false,
-		["Exploding Shot on >%s<"] = true,
+		["HealthFrame"] = false,
 	},
 	["Gyrokill"] = {
 		["Enabled"] = true,
@@ -361,16 +362,20 @@ DBMPartyBC_SavedVars = {
 		["Announce"] = false,
 		["Shadow Power on %s - dispel now"] = false,
 	},
-	["Hellmaw"] = {
+	["Soccothrates"] = {
 		["Enabled"] = true,
-		["Timer33547Hellmaw0"] = true,
-		["timer_berserk"] = true,
-		["HealthFrame"] = false,
+		["Knock Away"] = true,
 		["Announce"] = false,
-		["Fear"] = true,
+		["HealthFrame"] = false,
 	},
 	["Shirrak"] = {
 		["Enabled"] = true,
+		["Announce"] = false,
+		["HealthFrame"] = false,
+	},
+	["Syth"] = {
+		["Enabled"] = true,
+		["SummonElementals"] = true,
 		["Announce"] = false,
 		["HealthFrame"] = false,
 	},
@@ -382,11 +387,6 @@ DBMPartyBC_SavedVars = {
 		["Seed of Corruption on >%s<"] = true,
 		["Announce"] = false,
 		["Shadow Nova"] = true,
-	},
-	["Gargolmar"] = {
-		["Enabled"] = true,
-		["Announce"] = false,
-		["HealthFrame"] = false,
 	},
 	["Keli'dan"] = {
 		["Enabled"] = true,
@@ -510,10 +510,10 @@ DBMPartyBC_SavedStats = {
 	},
 	["Anzu"] = {
 		["kills"] = 0,
-		["heroicKills"] = 20,
-		["heroicPulls"] = 22,
-		["heroicBestTime"] = 78.21900000004098,
-		["heroicLastTime"] = 78.21900000004098,
+		["heroicKills"] = 29,
+		["heroicPulls"] = 31,
+		["heroicBestTime"] = 71.02400000003399,
+		["heroicLastTime"] = 146.5999999999767,
 		["pulls"] = 0,
 	},
 	["Vorpil"] = {
@@ -596,10 +596,10 @@ DBMPartyBC_SavedStats = {
 	},
 	["Nethekurse"] = {
 		["kills"] = 0,
-		["heroicKills"] = 2,
-		["heroicPulls"] = 2,
+		["heroicKills"] = 3,
+		["heroicPulls"] = 3,
 		["heroicBestTime"] = 18.97100000001956,
-		["heroicLastTime"] = 39.14200000005076,
+		["heroicLastTime"] = 21.17500000000291,
 		["pulls"] = 0,
 	},
 	["Skarloc"] = {
@@ -614,29 +614,29 @@ DBMPartyBC_SavedStats = {
 		["heroicKills"] = 0,
 		["pulls"] = 0,
 	},
-	["Sepethrea"] = {
+	["Quagmirran"] = {
+		["kills"] = 0,
+		["heroicKills"] = 2,
+		["heroicPulls"] = 2,
+		["heroicBestTime"] = 24.43899999978021,
+		["heroicLastTime"] = 30.29200000013225,
+		["pulls"] = 0,
+	},
+	["Mennu"] = {
+		["heroicPulls"] = 3,
+		["kills"] = 3,
+		["heroicLastTime"] = 30.09199999998964,
+		["heroicKills"] = 3,
+		["lastTime"] = 11.83599999995204,
+		["heroicBestTime"] = 16.24899999983609,
+		["bestTime"] = 8.326000000000931,
+		["pulls"] = 3,
+	},
+	["Gargolmar"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
 		["pulls"] = 0,
-	},
-	["Soccothrates"] = {
-		["kills"] = 0,
-		["heroicKills"] = 1,
-		["heroicPulls"] = 1,
-		["heroicBestTime"] = 54.62900000001537,
-		["heroicLastTime"] = 54.62900000001537,
-		["pulls"] = 0,
-	},
-	["Syth"] = {
-		["heroicPulls"] = 3,
-		["kills"] = 8,
-		["heroicKills"] = 3,
-		["heroicLastTime"] = 25.40100000001257,
-		["lastTime"] = 10.32599999988452,
-		["heroicBestTime"] = 12.52799999993295,
-		["bestTime"] = 8.216000000014901,
-		["pulls"] = 8,
 	},
 	["Pathaleon"] = {
 		["heroicPulls"] = 0,
@@ -678,45 +678,7 @@ DBMPartyBC_SavedStats = {
 		["bestTime"] = 75.72999999998137,
 		["pulls"] = 2,
 	},
-	["Quagmirran"] = {
-		["kills"] = 0,
-		["heroicKills"] = 2,
-		["heroicPulls"] = 2,
-		["heroicBestTime"] = 24.43899999978021,
-		["heroicLastTime"] = 30.29200000013225,
-		["pulls"] = 0,
-	},
-	["Shaffar"] = {
-		["kills"] = 0,
-		["heroicKills"] = 1,
-		["heroicPulls"] = 1,
-		["heroicBestTime"] = 26.61899999994785,
-		["heroicLastTime"] = 26.61899999994785,
-		["pulls"] = 0,
-	},
-	["Vazruden"] = {
-		["heroicPulls"] = 0,
-		["kills"] = 0,
-		["heroicKills"] = 0,
-		["pulls"] = 0,
-	},
-	["Mennu"] = {
-		["heroicPulls"] = 2,
-		["kills"] = 3,
-		["heroicLastTime"] = 16.24899999983609,
-		["heroicKills"] = 2,
-		["lastTime"] = 11.83599999995204,
-		["heroicBestTime"] = 16.24899999983609,
-		["bestTime"] = 8.326000000000931,
-		["pulls"] = 3,
-	},
-	["Temporus"] = {
-		["heroicPulls"] = 0,
-		["kills"] = 0,
-		["heroicKills"] = 0,
-		["pulls"] = 0,
-	},
-	["Aeonus"] = {
+	["Sepethrea"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
@@ -738,16 +700,50 @@ DBMPartyBC_SavedStats = {
 		["heroicLastTime"] = 73.04700000002049,
 		["pulls"] = 0,
 	},
+	["Hellmaw"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Temporus"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Aeonus"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
+	["Shaffar"] = {
+		["kills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 26.61899999994785,
+		["heroicLastTime"] = 26.61899999994785,
+		["pulls"] = 0,
+	},
+	["Vazruden"] = {
+		["heroicPulls"] = 0,
+		["kills"] = 0,
+		["heroicKills"] = 0,
+		["pulls"] = 0,
+	},
 	["Ironhand"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
 		["pulls"] = 0,
 	},
-	["WarpSplinter"] = {
-		["heroicPulls"] = 0,
+	["Kael"] = {
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 3,
+		["heroicPulls"] = 3,
+		["heroicBestTime"] = 30.10699999998906,
+		["heroicLastTime"] = 30.13300000000163,
 		["pulls"] = 0,
 	},
 	["Muselek"] = {
@@ -760,15 +756,13 @@ DBMPartyBC_SavedStats = {
 		["bestTime"] = 4.452999999979511,
 		["pulls"] = 12,
 	},
-	["Kael"] = {
+	["WarpSplinter"] = {
+		["heroicPulls"] = 0,
 		["kills"] = 0,
-		["heroicKills"] = 3,
-		["heroicPulls"] = 3,
-		["heroicBestTime"] = 30.10699999998906,
-		["heroicLastTime"] = 30.13300000000163,
+		["heroicKills"] = 0,
 		["pulls"] = 0,
 	},
-	["EpochHunter"] = {
+	["Drake"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
@@ -784,7 +778,7 @@ DBMPartyBC_SavedStats = {
 		["bestTime"] = 15.37400000006892,
 		["pulls"] = 6,
 	},
-	["Drake"] = {
+	["EpochHunter"] = {
 		["heroicPulls"] = 0,
 		["kills"] = 0,
 		["heroicKills"] = 0,
@@ -796,10 +790,12 @@ DBMPartyBC_SavedStats = {
 		["heroicKills"] = 0,
 		["pulls"] = 0,
 	},
-	["Hellmaw"] = {
-		["heroicPulls"] = 0,
+	["Soccothrates"] = {
 		["kills"] = 0,
-		["heroicKills"] = 0,
+		["heroicKills"] = 1,
+		["heroicPulls"] = 1,
+		["heroicBestTime"] = 54.62900000001537,
+		["heroicLastTime"] = 54.62900000001537,
 		["pulls"] = 0,
 	},
 	["Shirrak"] = {
@@ -810,18 +806,22 @@ DBMPartyBC_SavedStats = {
 		["bestTime"] = 15.18000000016764,
 		["pulls"] = 1,
 	},
+	["Syth"] = {
+		["heroicPulls"] = 4,
+		["kills"] = 8,
+		["heroicKills"] = 4,
+		["heroicLastTime"] = 23.71799999999348,
+		["lastTime"] = 10.32599999988452,
+		["heroicBestTime"] = 12.52799999993295,
+		["bestTime"] = 8.216000000014901,
+		["pulls"] = 8,
+	},
 	["Zereketh"] = {
 		["kills"] = 0,
 		["heroicKills"] = 1,
 		["heroicPulls"] = 1,
 		["heroicBestTime"] = 32.41300000000047,
 		["heroicLastTime"] = 32.41300000000047,
-		["pulls"] = 0,
-	},
-	["Gargolmar"] = {
-		["heroicPulls"] = 0,
-		["kills"] = 0,
-		["heroicKills"] = 0,
 		["pulls"] = 0,
 	},
 	["Keli'dan"] = {

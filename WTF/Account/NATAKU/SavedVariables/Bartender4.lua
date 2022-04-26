@@ -12,7 +12,7 @@ Bartender4DB = {
 					["version"] = 3,
 					["keyring"] = true,
 				},
-				["Neruneya - WoWArg"] = {
+				["Misumi - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 1.500007700826814,
@@ -20,7 +20,15 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Misumi - WoWArg"] = {
+				["Turco - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
+						["point"] = "CENTER",
+					},
+				},
+				["Neruneya - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 1.500007700826814,
@@ -33,6 +41,22 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 1.500007700826814,
 						["x"] = 58.50000243003865,
+						["point"] = "CENTER",
+					},
+				},
+				["Epyon - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
+						["point"] = "CENTER",
+					},
+				},
+				["Turco - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
 						["point"] = "CENTER",
 					},
 				},
@@ -123,7 +147,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Neruneya - WoWArg"] = {
+				["Misumi - WoWArg"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
@@ -181,7 +205,65 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Misumi - WoWArg"] = {
+				["Turco - Sin'dorei(WoWArg)"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Neruneya - WoWArg"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
@@ -286,6 +368,122 @@ Bartender4DB = {
 							["position"] = {
 								["y"] = -37.5000172840779,
 								["x"] = -231.5000144091025,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Epyon - Sin'dorei(WoWArg)"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Turco - Sin'Dorei"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [6]
@@ -367,7 +565,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Neruneya - WoWArg"] = {
+				["Misumi - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 51.50003658748369,
@@ -375,7 +573,15 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Misumi - WoWArg"] = {
+				["Turco - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
+						["point"] = "CENTER",
+					},
+				},
+				["Neruneya - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 51.50003658748369,
@@ -388,6 +594,22 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 51.50003658748369,
 						["x"] = 53.49987161866102,
+						["point"] = "CENTER",
+					},
+				},
+				["Epyon - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
+						["point"] = "CENTER",
+					},
+				},
+				["Turco - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
 						["point"] = "CENTER",
 					},
 				},
@@ -412,14 +634,6 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Neruneya - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.24997677772899,
-						["x"] = -135.7500923585826,
-						["point"] = "CENTER",
-					},
-				},
 				["Misumi - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -428,11 +642,43 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Turco - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997379991112,
+						["x"] = -159.7499321538948,
+						["point"] = "CENTER",
+					},
+				},
+				["Neruneya - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997677772899,
+						["x"] = -135.7500923585826,
+						["point"] = "CENTER",
+					},
+				},
 				["Epyon - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 14.24997677772899,
 						["x"] = -159.7499790024124,
+						["point"] = "CENTER",
+					},
+				},
+				["Epyon - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997379991112,
+						["x"] = -159.7499321538948,
+						["point"] = "CENTER",
+					},
+				},
+				["Turco - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24997379991112,
+						["x"] = -159.7499321538948,
 						["point"] = "CENTER",
 					},
 				},
@@ -456,7 +702,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Neruneya - WoWArg"] = {
+				["Misumi - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.50002139118544,
@@ -464,7 +710,15 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Misumi - WoWArg"] = {
+				["Turco - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
+						["point"] = "CENTER",
+					},
+				},
+				["Neruneya - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 89.50002139118544,
@@ -477,6 +731,22 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 89.50002139118544,
 						["x"] = -163.5000157781384,
+						["point"] = "CENTER",
+					},
+				},
+				["Epyon - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
+						["point"] = "CENTER",
+					},
+				},
+				["Turco - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
 						["point"] = "CENTER",
 					},
 				},
@@ -501,15 +771,6 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Neruneya - WoWArg"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 0.800000011920929,
-						["x"] = -188.8000196631383,
-						["point"] = "CENTER",
-						["y"] = 42.39998040851253,
-					},
-				},
 				["Misumi - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -519,6 +780,24 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
+				["Turco - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.39995634872992,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Neruneya - WoWArg"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -188.8000196631383,
+						["point"] = "CENTER",
+						["y"] = 42.39998040851253,
+					},
+				},
 				["Epyon - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -526,6 +805,24 @@ Bartender4DB = {
 						["x"] = -188.8000196631383,
 						["point"] = "CENTER",
 						["y"] = 42.39998040851253,
+					},
+				},
+				["Epyon - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["y"] = 42.39995634872992,
+					},
+				},
+				["Turco - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.39995634872992,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
 					},
 				},
 				["Gaara - WoWArg"] = {
@@ -542,9 +839,12 @@ Bartender4DB = {
 	},
 	["profileKeys"] = {
 		["Turco - WoWArg"] = "Turco - WoWArg",
-		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Misumi - WoWArg"] = "Misumi - WoWArg",
+		["Turco - Sin'dorei(WoWArg)"] = "Turco - WoWArg",
+		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Epyon - Sin'dorei(WoWArg)"] = "Epyon - Sin'dorei(WoWArg)",
+		["Turco - Sin'Dorei"] = "Turco - WoWArg",
 		["Gaara - WoWArg"] = "Gaara - WoWArg",
 	},
 	["profiles"] = {
@@ -553,11 +853,17 @@ Bartender4DB = {
 				["minimapPos"] = 49.84407540966069,
 			},
 		},
-		["Neruneya - WoWArg"] = {
-		},
 		["Misumi - WoWArg"] = {
 		},
+		["Turco - Sin'dorei(WoWArg)"] = {
+		},
+		["Neruneya - WoWArg"] = {
+		},
 		["Epyon - WoWArg"] = {
+		},
+		["Epyon - Sin'dorei(WoWArg)"] = {
+		},
+		["Turco - Sin'Dorei"] = {
 		},
 		["Gaara - WoWArg"] = {
 		},

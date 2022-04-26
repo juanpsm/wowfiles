@@ -1,0 +1,48 @@
+
+ItemRackUser = {
+	["ButtonSpacing"] = 4,
+	["QueuesEnabled"] = {
+	},
+	["Locked"] = "OFF",
+	["MainScale"] = 1,
+	["SetMenuWrapValue"] = 3,
+	["Buttons"] = {
+	},
+	["Sets"] = {
+		["~CombatQueue"] = {
+			["equip"] = {
+			},
+		},
+		["arbol"] = {
+			["equip"] = {
+				[6] = "31461:0:0:0:0:0:0:0",
+				[8] = "44673:1843:0:0:0:0:-42:81",
+			},
+			["icon"] = "Interface\\Icons\\Ability_Druid_TreeofLife",
+			["old"] = {
+			},
+		},
+		["~Unequip"] = {
+			["equip"] = {
+			},
+		},
+	},
+	["EnableQueues"] = "ON",
+	["CurrentSet"] = "arbol",
+	["Alpha"] = 1,
+	["ItemsUsed"] = {
+	},
+	["Events"] = {
+		["Enabled"] = {
+		},
+		["Set"] = {
+		},
+	},
+	["Queues"] = {
+	},
+	["SetMenuWrap"] = "OFF",
+	["Hidden"] = {
+	},
+	["MenuScale"] = 0.85,
+	["EnableEvents"] = "ON",
+}

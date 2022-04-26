@@ -1,31 +1,43 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 	},
 	["profiles"] = {
-		["Rivothrill - WoWArg"] = {
+		["Skom - Sin'Dorei"] = {
+		},
+		["Crobar - Sin'dorei(WoWArg)"] = {
 		},
 		["Skombrow - Queldorei PVP- PVE"] = {
 		},
 		["Julianchin - Queldorei PVP- PVE"] = {
+		},
+		["Rivothrill - WoWArg"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
-		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 	},
 	["profiles"] = {
-		["Rivothrill - WoWArg"] = {
+		["Skom - Sin'Dorei"] = {
+		},
+		["Crobar - Sin'dorei(WoWArg)"] = {
 		},
 		["Skombrow - Queldorei PVP- PVE"] = {
 		},
 		["Julianchin - Queldorei PVP- PVE"] = {
+		},
+		["Rivothrill - WoWArg"] = {
 		},
 	},
 }

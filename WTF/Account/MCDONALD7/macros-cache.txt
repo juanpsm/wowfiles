@@ -1,0 +1,27 @@
+MACRO 9 "6s" Ability_Creature_Disease_05
+/castsequence Hammer of the Righteous, Shield of Righteousness(Rank 2)
+END
+MACRO 8 "9s" Ability_Creature_Poison_04
+/castsequence Judgement of Wisdom, Sacred Shield, Consecration(Rank 8)
+END
+MACRO 4 "Cover me" Spell_Frost_FrostArmor02
+/gp cover me
+END
+MACRO 3 "Gogogo" Ability_BackStab
+/gp gogogo
+END
+MACRO 5 "Heal me" Spell_Nature_ResistNature
+/gp heal me
+END
+MACRO 2 "off" Ability_Ambush
+.modrates off
+END
+MACRO 1 "on" INV_Misc_QuestionMark
+.modrates on
+END
+MACRO 6 "Rotacion 6 seg T" Ability_ShockWave
+/castsequence Martillo del honrado, Escudo de rectitud(Rango 2)
+END
+MACRO 7 "Rotacion 9 seg T" Ability_TheBlackArrow
+/castsequence Sentencia de sabiduría, Escudo Sagrado(Rango 6), Consagración(Rango 8)
+END

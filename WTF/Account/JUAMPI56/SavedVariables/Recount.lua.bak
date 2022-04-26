@@ -1,15 +1,17 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["profiles"] = {
-		["Nightbull - WoWArg"] = {
+		["Skombrow - WoWArg"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 140.0000002738072,
-					["h"] = 199.9999928810135,
+					["y"] = -193.6777567289453,
+					["x"] = 630.4117720152715,
+					["w"] = 265.6030827873353,
+					["h"] = 136.7191038590851,
 				},
 			},
 			["Colors"] = {
@@ -21,9 +23,11 @@ RecountDB = {
 			},
 			["DetailWindowY"] = 0,
 			["DetailWindowX"] = 0,
-			["MainWindowVis"] = false,
+			["MainWindowWidth"] = 265.6029602374022,
+			["MainWindowHeight"] = 136.7191038590851,
 			["GraphWindowX"] = 0,
 			["CurDataSet"] = "OverallData",
+			["MainWindowMode"] = 5,
 		},
 	},
 }

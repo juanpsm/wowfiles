@@ -1,0 +1,13 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["profiles"] = {
+		["Nataku - WoWArg"] = {
+			["PositionY"] = 639.7059168481227,
+			["Shown"] = true,
+			["PositionX"] = 791.0294989453541,
+		},
+	},
+}

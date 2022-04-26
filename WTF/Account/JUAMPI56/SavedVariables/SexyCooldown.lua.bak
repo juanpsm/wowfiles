@@ -1,0 +1,34 @@
+
+SexyCooldownDB = {
+	["profileKeys"] = {
+		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
+	},
+	["global"] = {
+		["dbVersion"] = 3,
+	},
+	["profiles"] = {
+		["Draenoric - WoWArg"] = {
+			["bars"] = {
+				{
+					["blacklist"] = {
+					},
+					["events"] = {
+					},
+					["bar"] = {
+						["y"] = 502.8675246894103,
+						["x"] = 20.0783029455647,
+						["fontColor"] = {
+						},
+						["borderColor"] = {
+						},
+						["height"] = 32.99999922682501,
+						["name"] = "Bar 0",
+						["backgroundColor"] = {
+						},
+						["width"] = 449.99999845365,
+					},
+				}, -- [1]
+			},
+		},
+	},
+}

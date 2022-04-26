@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherConvert.lua 776 2008-11-13 03:02:26Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherConvert.lua 876 2010-09-18 23:41:23Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Database conversion/merging code and conversion data tables
 --]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherConvert.lua $", "$Rev: 776 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherConvert.lua $", "$Rev: 876 $")
 
 local metatable = { __index = getfenv(0) }
 setmetatable( Gatherer.Convert, metatable )
@@ -36,7 +36,7 @@ setfenv(1, Gatherer.Convert)
 local type = type
 local ipairs = ipairs
 local pairs = pairs
-local getglobal = getglobal
+local _G = _G
 
 
 local nodeLevel, mappingData, typeConverstionData
@@ -74,7 +74,7 @@ local function extractNodeInformation()
 					elseif ( type(conversionInfo) == "function" ) then
 						data = conversionInfo(data, nodeData)
 					elseif ( type(conversionInfo) == "string" ) then
-						data = getglobal(conversionInfo)(data, nodeData)
+						data = _G[conversionInfo](data, nodeData)
 					end
 				else
 					data = nil; --Invalid Type, set to nil

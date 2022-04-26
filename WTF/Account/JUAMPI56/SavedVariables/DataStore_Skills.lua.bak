@@ -1,44 +1,44 @@
 
 DataStore_SkillsDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Nightbull"] = {
-				["lastUpdate"] = 1522877162,
+			["Default.WoWArg.Skombrow"] = {
+				["lastUpdate"] = 1499533178,
 				["Skills"] = {
 					["Profesiones"] = {
-						["Herrería"] = "2|75",
-						["Minería"] = "5|75",
+						["Desollar"] = "375|375",
+						["Peletería"] = "277|375",
 					},
 					["Habilidades con armas"] = {
-						["Hachas de dos manos"] = "1|70",
-						["Hachas"] = "61|70",
-						["Espadas"] = "1|70",
-						["Mazas de dos manos"] = "66|70",
-						["Sin armas"] = "15|70",
-						["Defensa"] = "68|70",
-						["Espadas de dos manos"] = "1|70",
-						["Mazas"] = "1|70",
+						["Sin armas"] = "94|365",
+						["Armas de asta"] = "93|365",
+						["Mazas de dos manos"] = "85|365",
+						["Bastones"] = "202|365",
+						["Dagas"] = "39|365",
+						["Mazas"] = "54|365",
+						["Defensa"] = "365|365",
 					},
 					["Idiomas"] = {
-						["Idioma: taurahe"] = "300|300",
-						["Idioma: orco"] = "300|300",
+						["Idioma: común"] = "300|300",
+						["Idioma: darnassiano"] = "300|300",
 					},
 					["Armaduras disponibles"] = {
-						["Malla"] = "1|1",
-						["Cuero"] = "1|1",
 						["Tela"] = "1|1",
-						["Escudo"] = "1|1",
+						["Cuero"] = "1|1",
 					},
 					["Habilidades de clase"] = {
-						["Protección"] = "1|1",
-						["Armas"] = "1|1",
-						["Furia"] = "1|1",
+						["Combate feral"] = "1|1",
+						["Equilibrio"] = "1|1",
+						["Restauración"] = "1|1",
 					},
 					["Habilidades secundarias"] = {
-						["Primeros auxilios"] = "10|75",
+						["Cocina"] = "307|375",
+						["Pesca"] = "16|75",
+						["Equitación"] = "300|300",
+						["Primeros auxilios"] = "375|375",
 					},
 				},
 			},

@@ -1,7 +1,7 @@
 
 ShadowedUFDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Default",
+		["Lossana - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

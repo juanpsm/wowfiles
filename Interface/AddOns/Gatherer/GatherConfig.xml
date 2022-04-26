@@ -7,7 +7,7 @@
 		<ButtonText inherits="GameFontNormal" justifyH="LEFT" setAllPoints="true"/>
 		<Scripts>
 			<OnLoad>
-				this:SetFrameLevel( this:GetFrameLevel() + 4 );
+				self:SetFrameLevel( self:GetFrameLevel() + 4 );
 			</OnLoad>
 			<OnClick>
 				Gatherer.Config.Blacklist_IgnoreButton_OnClick(self)
@@ -34,7 +34,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						this:SetFrameLevel( this:GetFrameLevel() + 3 );
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
 					</OnLoad>
 					<OnClick>
 						StaticPopup_Show("GATHERER_ADD_SHARING_IGNORE");
@@ -60,7 +60,7 @@
 				</Anchors>
 				<Scripts>
 					<OnLoad>
-						this:SetFrameLevel( this:GetFrameLevel() + 3 );
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
 					</OnLoad>
 					<OnClick>
 						Gatherer.Config.Blacklist_UnignoreButton_OnClick(self)
@@ -298,7 +298,7 @@
 				</Layers>
 				<Scripts>
 					<OnLoad>
-						this:SetFrameLevel( this:GetFrameLevel() + 3 );
+						self:SetFrameLevel( self:GetFrameLevel() + 3 );
 						ScrollFrame_OnLoad(self);
 					</OnLoad>
 					<OnVerticalScroll>

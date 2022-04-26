@@ -1,0 +1,14 @@
+
+LoremasterDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "char",
+	},
+	["char"] = {
+		["Delatierra - WoWArg"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
+	},
+}

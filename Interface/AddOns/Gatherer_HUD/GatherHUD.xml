@@ -2,8 +2,8 @@
 <!--
 	Gatherer Addon for World of Warcraft(tm).
 	HUD Plugin Module
-	Version: 3.1.14
-	Revision: $Id: GatherHUD.xml 754 2008-10-14 04:43:39Z Esamynn $
+	Version: 3.1.11
+	Revision: $Id: GatherHUD.xml 813 2009-03-15 01:07:55Z loial $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -59,9 +59,9 @@
 		</Frames>
 		<Scripts>
 			<OnLoad>
-				Gatherer_HUD.Load(self)
-				Gatherer_HUD.Register()
-				Gatherer_HUD.UpdateStruture()
+				Gatherer_HUD.Load(self);
+				Gatherer_HUD.Register();
+				Gatherer_HUD.UpdateStruture();
 			</OnLoad>
 			<OnEvent>
 				Gatherer_HUD.ProcessGameEvent(event)

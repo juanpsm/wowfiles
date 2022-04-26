@@ -1,0 +1,18 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["scale"] = 1,
+					["point"] = "LEFT",
+					["x"] = 38.57142629367968,
+					["y"] = 219.2003598928399,
+				}, -- [1]
+			},
+		},
+	},
+}

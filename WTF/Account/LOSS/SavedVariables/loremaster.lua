@@ -1,13 +1,13 @@
 
 LoremasterDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "char",
+		["Lossana - WoWArg"] = "char",
 	},
 	["char"] = {
-		["Lossena - Sin'Dorei"] = {
+		["Lossana - WoWArg"] = {
 			["settings"] = {
 				["version"] = "v2.033 20100226",
-				["faction"] = "Horde",
+				["faction"] = "Alliance",
 			},
 		},
 	},

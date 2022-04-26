@@ -3,6 +3,8 @@ NugComboBarDB = {
 	["posY"] = 0,
 	["posX"] = 0,
 	["scale"] = 1,
+	["skin"] = "NCB Classic",
+	["visibility"] = "normal",
 	["colors"] = {
 		{
 			1, -- [1]
@@ -35,6 +37,4 @@ NugComboBarDB = {
 			1, -- [3]
 		}, -- [6]
 	},
-	["visibility"] = "normal",
-	["skin"] = "NCB Classic",
 }

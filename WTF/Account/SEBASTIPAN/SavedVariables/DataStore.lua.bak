@@ -1,0 +1,14 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Shamyy - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Shamyy"] = {
+				["faction"] = "Alliance",
+			},
+		},
+		["Version"] = 1,
+	},
+}

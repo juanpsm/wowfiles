@@ -1,12 +1,18 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Nightbull"] = {
-				["faction"] = "Horde",
+			["Default.WoWArg.Skombrow"] = {
+				["guildName"] = "Orden Fenix",
+				["faction"] = "Alliance",
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Orden Fenix"] = {
+				["faction"] = "Alliance",
 			},
 		},
 		["Version"] = 1,

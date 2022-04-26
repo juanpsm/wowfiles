@@ -49,8 +49,10 @@ Quartz3DB = {
 	["profileKeys"] = {
 		["Rochallor - WoWArg"] = "Default",
 		["Kraftwork - WoWArg"] = "Default",
-		["Demetriuz - WoWArg"] = "Default",
 		["Guthrakk - WoWArg"] = "Default",
+		["Guthrakk - Sin'dorei(WoWArg)"] = "Default",
+		["Guthrakk - Sin'Dorei"] = "Default",
+		["Demetriuz - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

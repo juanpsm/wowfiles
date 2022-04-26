@@ -1,0 +1,22 @@
+MACRO 16777219 " silence focus" INV_Misc_QuestionMark
+#showtooltip Silencio
+/cast [target=focus] Silencio
+END
+MACRO 16777222 "burst" Ability_Creature_Cursed_02
+/cast Dije de Resurgimiento
+/cast Rabiar(Racial)
+END
+MACRO 16777221 "burst" INV_Misc_QuestionMark
+/cast Ruina de maestro de batalla
+/cast Dije de Resurgimiento
+END
+MACRO 16777217 "dispel auto" Ability_Creature_Disease_04
+/Cast [target=player] Dispel Magic(Rank 2) 
+END
+MACRO 16777218 "Dispel enfermeda" Ability_Ambush
+/Cast [target=player] Suprimir enfermedad
+END
+MACRO 16777220 "focus disarm fea" INV_Misc_QuestionMark
+#showtooltip Vampiric Touch(Rank 5)
+/cast [target=focus] Vampiric Touch(Rank 5)
+END

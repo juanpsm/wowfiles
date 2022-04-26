@@ -4,30 +4,43 @@ AtlasLootDB = {
 	["profileKeys"] = {
 		["Neverpony - WoWArg"] = "Neverpony - WoWArg",
 		["Picalorto - WoWArg"] = "Picalorto - WoWArg",
-		["Mithrandil - WoWArg"] = "Mithrandil - WoWArg",
-		["Bloodpurge - WoWArg"] = "Bloodpurge - WoWArg",
-		["Operator - WoWArg"] = "Operator - WoWArg",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
-		["Deadly - WoWArg"] = "Deadly - WoWArg",
-		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
-		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
 		["Miratros - WoWArg"] = "Miratros - WoWArg",
-		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
-		["Microwave - WoWArg"] = "Microwave - WoWArg",
-		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
-		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
-		["Rivo - WoWArg"] = "Rivo - WoWArg",
-		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
-		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+		["Underclub - WoWArg"] = "Underclub - WoWArg",
+		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
+		["Fjaak - Sin'dorei(WoWArg)"] = "Fjaak - Sin'dorei(WoWArg)",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+		["Draenoric - Sin'dorei(WoWArg)"] = "Draenoric - Sin'dorei(WoWArg)",
 		["Akipicanano - WoWArg"] = "Akipicanano - WoWArg",
 		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
-		["Snts - WoWArg"] = "Snts - WoWArg",
-		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
-		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
-		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Microwave - WoWArg"] = "Microwave - WoWArg",
+		["Doroteo - Sin'dorei(WoWArg)"] = "Doroteo - Sin'dorei(WoWArg)",
+		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
+		["Mithrandil - WoWArg"] = "Mithrandil - WoWArg",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
+		["Subjected - Sin'dorei(WoWArg)"] = "Subjected - Sin'dorei(WoWArg)",
+		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
+		["Deadly - WoWArg"] = "Deadly - WoWArg",
+		["Acidstorm - WoWArg"] = "Acidstorm - WoWArg",
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
+		["Bloodpurge - WoWArg"] = "Bloodpurge - WoWArg",
+		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
+		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
+		["Rivo - WoWArg"] = "Rivo - WoWArg",
+		["Operator - WoWArg"] = "Operator - WoWArg",
+		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
+		["Fjaak - Sin'Dorei"] = "Fjaak - Sin'Dorei",
+		["Snts - Sin'dorei(WoWArg)"] = "Snts - Sin'dorei(WoWArg)",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
+		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
+		["Snts - WoWArg"] = "Snts - WoWArg",
+		["Rivo - Sin'dorei(WoWArg)"] = "Rivo - Sin'dorei(WoWArg)",
+		["Underclub - Sin'dorei(WoWArg)"] = "Underclub - Sin'dorei(WoWArg)",
 		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
 	},
 	["profiles"] = {
@@ -39,63 +52,27 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
-		["Mithrandil - WoWArg"] = {
-			["AtlasLootVersion"] = "51102",
-			["AllLinks"] = false,
-		},
-		["Bloodpurge - WoWArg"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
-		["Operator - WoWArg"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
-		["Draenoric - Sin'Dorei"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
-		["Deadly - WoWArg"] = {
-			["AtlasLootVersion"] = "51102",
-			["AllLinks"] = false,
-		},
-		["Underclub - Sin'Dorei"] = {
-			["AtlasLootVersion"] = "51102",
-			["AllLinks"] = false,
-		},
-		["Rivo - Sin'Dorei"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
 		["Miratros - WoWArg"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
-		["Firecracker - WoWArg"] = {
+		["Underclub - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Underclub - Sin'Dorei"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
-		["Microwave - WoWArg"] = {
-			["AllLinks"] = false,
+		["Fjaak - Sin'dorei(WoWArg)"] = {
 			["AtlasLootVersion"] = "51102",
-		},
-		["Chamdoc - WoWArg"] = {
 			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
 		},
-		["Doroteo - Sin'Dorei"] = {
+		["Eldorath - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
 		},
-		["Rivo - WoWArg"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
-		["Draenoric - WoWArg"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
-		["Rivothrill - WoWArg"] = {
+		["Draenoric - Sin'dorei(WoWArg)"] = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
@@ -104,18 +81,63 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51102",
 		},
 		["Skombrow - Sin'Dorei"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
-		["Subjected - WoWArg"] = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
-		["Eldorath - WoWArg"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
-		["Snts - WoWArg"] = {
+		["Microwave - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Doroteo - Sin'dorei(WoWArg)"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Rivo - Sin'Dorei"] = {
+			["AllLinks"] = false,
+			["LastBoss"] = "GruulsLairHighKingMaulgar",
+			["AtlasLootVersion"] = "51102",
+		},
+		["Mithrandil - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Skombrow - Bennu"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Subjected - Sin'dorei(WoWArg)"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Draenoric - Sin'Dorei"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Deadly - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Acidstorm - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Rivothrill - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Subjected - Sin'Dorei"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Bloodpurge - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Doroteo - WoWArg"] = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
@@ -123,7 +145,35 @@ AtlasLootDB = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
 		},
-		["Doroteo - WoWArg"] = {
+		["Rivo - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Operator - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Firecracker - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Draenoric - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Skombrow - Kel'Thuzad"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Fjaak - Sin'Dorei"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Snts - Sin'dorei(WoWArg)"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Subjected - WoWArg"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
@@ -136,9 +186,25 @@ AtlasLootDB = {
 			["ItemIDs"] = 1,
 			["EquipCompare"] = true,
 		},
-		["Skombrow - Bennu"] = {
+		["Chamdoc - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Doroteo - Sin'Dorei"] = {
 			["AtlasLootVersion"] = "51102",
 			["AllLinks"] = false,
+		},
+		["Snts - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Rivo - Sin'dorei(WoWArg)"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Underclub - Sin'dorei(WoWArg)"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
 		},
 		["Snts - Sin'Dorei"] = {
 			["AtlasLootVersion"] = "51102",
@@ -210,6 +276,13 @@ AtlasLootWishList = {
 			["Mark"] = true,
 			["AllowShareWishlist"] = true,
 			["markInTable"] = "own",
+		},
+		["Acidstorm"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
 		},
 		["Bloodpurge"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -841,6 +914,16 @@ AtlasLootWishList = {
 					"", -- [7]
 					"SmithingWeaponOld1|AtlasLootCrafting", -- [8]
 				}, -- [8]
+				{
+					0, -- [1]
+					27526, -- [2]
+					"", -- [3]
+					"|cff0070ddSkyfire Hawk-Bow", -- [4]
+					"Warbringer O'mrogg", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCHallsOmrogg|AtlasLootBurningCrusade", -- [8]
+				}, -- [9]
 				["info"] = {
 					"Doroteo (armas y cosas)", -- [1]
 					{
@@ -2087,7 +2170,7 @@ AtlasLootWishList = {
 			}, -- [11]
 			{
 				{
-					2, -- [1]
+					6, -- [1]
 					29986, -- [2]
 					"", -- [3]
 					"=q4=Cowl of the Grand Engineer", -- [4]
@@ -2097,7 +2180,7 @@ AtlasLootWishList = {
 					"TKEyeVoidReaver|\"\"", -- [8]
 				}, -- [1]
 				{
-					6, -- [1]
+					3, -- [1]
 					35329, -- [2]
 					"", -- [3]
 					"|cff0070ddDreadweave Hood", -- [4]
@@ -2107,7 +2190,7 @@ AtlasLootWishList = {
 					"PVP70RepCloth|AtlasLootBurningCrusade", -- [8]
 				}, -- [2]
 				{
-					5, -- [1]
+					2, -- [1]
 					35333, -- [2]
 					"", -- [3]
 					"|cff0070ddMooncloth Cowl", -- [4]
@@ -2116,6 +2199,26 @@ AtlasLootWishList = {
 					"", -- [7]
 					"PVP70RepCloth|AtlasLootBurningCrusade", -- [8]
 				}, -- [3]
+				{
+					9, -- [1]
+					27877, -- [2]
+					"", -- [3]
+					"=q3=Draenic Wildstaff", -- [4]
+					"Avatar of the Martyred", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"AuchCryptsAvatar|\"\"", -- [8]
+				}, -- [4]
+				{
+					0, -- [1]
+					12592, -- [2]
+					"", -- [3]
+					"=q4=Blackblade of Shahram", -- [4]
+					"General Drakkisath", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UBRSDrakkisath|\"\"", -- [8]
+				}, -- [5]
 				["info"] = {
 					"cosas", -- [1]
 					{
@@ -2124,10 +2227,259 @@ AtlasLootWishList = {
 					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 				},
 			}, -- [12]
+			{
+				{
+					7, -- [1]
+					45162, -- [2]
+					"", -- [3]
+					"|cffa335eeFlamestalker Boots", -- [4]
+					"Ignis the Furnace Master", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarIgnis25Man|AtlasLootWotLK", -- [8]
+				}, -- [1]
+				{
+					5, -- [1]
+					45232, -- [2]
+					"", -- [3]
+					"|cffa335eeRuned Ironhide Boots", -- [4]
+					"The Iron Council", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarIronCouncil25Man|AtlasLootWotLK", -- [8]
+				}, -- [2]
+				{
+					4, -- [1]
+					45245, -- [2]
+					"", -- [3]
+					"|cffa335eeShoulderpads of the Intruder", -- [4]
+					"The Iron Council", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarIronCouncil25Man|AtlasLootWotLK", -- [8]
+				}, -- [3]
+				{
+					3, -- [1]
+					45265, -- [2]
+					"", -- [3]
+					"|cffa335eeShoulderpads of the Monolith", -- [4]
+					"Kologarn", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarKologarn25Man|AtlasLootWotLK", -- [8]
+				}, -- [4]
+				{
+					2, -- [1]
+					45453, -- [2]
+					"", -- [3]
+					"|cffa335eeWinter's Icy Embrace", -- [4]
+					"Hodir", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarHodir25Man|AtlasLootWotLK", -- [8]
+				}, -- [5]
+				{
+					8, -- [1]
+					45473, -- [2]
+					"", -- [3]
+					"|cffa335eeEmbrace of the Gladiator", -- [4]
+					"Thorim", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarThorim25Man|AtlasLootWotLK", -- [8]
+				}, -- [6]
+				{
+					6, -- [1]
+					45523, -- [2]
+					"", -- [3]
+					"|cffa335eeGarona's Guise", -- [4]
+					"Yogg-Saron", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarYoggSaron25Man|AtlasLootWotLK", -- [8]
+				}, -- [7]
+				["info"] = {
+					"Set rogue Ulduar", -- [1]
+					{
+						["Skombrow"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [13]
 		},
 		["Chamdoc"] = {
 		},
 		["Fjaak"] = {
+			{
+				{
+					9, -- [1]
+					50761, -- [2]
+					"", -- [3]
+					"|cffa335eeCitadel Enforcer's Claymore", -- [4]
+					"Lord Marrowgar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLordMarrowgar|AtlasLootWotLK", -- [8]
+				}, -- [1]
+				{
+					2, -- [1]
+					50342, -- [2]
+					"", -- [3]
+					"|cffa335eeWhispering Fanged Skull", -- [4]
+					"Lady Deathwhisper", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLadyDeathwhisper|AtlasLootWotLK", -- [8]
+				}, -- [2]
+				{
+					10, -- [1]
+					50788, -- [2]
+					"", -- [3]
+					"|cffa335eeBone Drake's Enameled Boots", -- [4]
+					"Icecrown Gunship Battle", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCGunshipBattle|AtlasLootWotLK", -- [8]
+				}, -- [3]
+				{
+					7, -- [1]
+					50798, -- [2]
+					"", -- [3]
+					"|cffa335eeRamaladni's Blade of Culling", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang|AtlasLootWotLK", -- [8]
+				}, -- [4]
+				{
+					5, -- [1]
+					51001, -- [2]
+					"", -- [3]
+					"|cffa335eeRotface's Rupturing Ring", -- [4]
+					"Rotface", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCRotface|AtlasLootWotLK", -- [8]
+				}, -- [5]
+				{
+					8, -- [1]
+					51000, -- [2]
+					"", -- [3]
+					"|cffa335eeFlesh-Shaper's Gurney Strap", -- [4]
+					"Rotface", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCRotface|AtlasLootWotLK", -- [8]
+				}, -- [6]
+				{
+					4, -- [1]
+					51385, -- [2]
+					"", -- [3]
+					"|cffa335eeStakethrower", -- [4]
+					"Blood-Queen Lana'thel", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLanathel|AtlasLootWotLK", -- [8]
+				}, -- [7]
+				{
+					6, -- [1]
+					51779, -- [2]
+					"", -- [3]
+					"|cffa335eeRimetooth Pendant", -- [4]
+					"Sindragosa", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSindragosa|AtlasLootWotLK", -- [8]
+				}, -- [8]
+				{
+					3, -- [1]
+					51796, -- [2]
+					"", -- [3]
+					"|cffa335eeWarmace of Menethil", -- [4]
+					"The Lich King", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLichKing|AtlasLootWotLK", -- [8]
+				}, -- [9]
+				["info"] = {
+					"fury 10n", -- [1]
+					{
+						["Fjaak"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [1]
+			{
+				{
+					0, -- [1]
+					50415, -- [2]
+					"", -- [3]
+					"|cffa335eeBryntroll, the Bone Arbiter", -- [4]
+					"Lord Marrowgar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLordMarrowgar25Man|AtlasLootWotLK", -- [8]
+				}, -- [1]
+				{
+					0, -- [1]
+					49983, -- [2]
+					"", -- [3]
+					"|cffa335eeBlood-Soaked Saronite Stompers", -- [4]
+					"Lady Deathwhisper", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLadyDeathwhisper25Man|AtlasLootWotLK", -- [8]
+				}, -- [2]
+				{
+					0, -- [1]
+					50333, -- [2]
+					"", -- [3]
+					"|cffa335eeToskk's Maximized Wristguards", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang25Man|AtlasLootWotLK", -- [8]
+				}, -- [3]
+				{
+					0, -- [1]
+					50362, -- [2]
+					"", -- [3]
+					"|cffa335eeDeathbringer's Will", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang25Man|AtlasLootWotLK", -- [8]
+				}, -- [4]
+				{
+					0, -- [1]
+					52026, -- [2]
+					"", -- [3]
+					"|cffa335eeProtector's Mark of Sanctification", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang25Man|AtlasLootWotLK", -- [8]
+				}, -- [5]
+				{
+					0, -- [1]
+					50226, -- [2]
+					"", -- [3]
+					"|cffa335eeFestergut's Acidic Blood", -- [4]
+					"Festergut", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCFestergut25Man|AtlasLootWotLK", -- [8]
+				}, -- [6]
+				["info"] = {
+					"fury 25n", -- [1]
+					{
+						["Fjaak"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [2]
+		},
+		["Acidstorm"] = {
 		},
 		["Bloodpurge"] = {
 		},
@@ -2467,7 +2819,7 @@ AtlasLootWishList = {
 					"HCHallsKargath|\"\"", -- [8]
 				}, -- [1]
 				{
-					2, -- [1]
+					17, -- [1]
 					27739, -- [2]
 					"", -- [3]
 					"|cff0070ddSpaulders of the Righteous", -- [4]
@@ -2477,7 +2829,7 @@ AtlasLootWishList = {
 					"TKBotLaj|\"\"", -- [8]
 				}, -- [2]
 				{
-					12, -- [1]
+					26, -- [1]
 					27839, -- [2]
 					"", -- [3]
 					"|cff0070ddLegplates of the Righteous", -- [4]
@@ -2507,7 +2859,7 @@ AtlasLootWishList = {
 					"HCHallsKargath|\"\"", -- [8]
 				}, -- [5]
 				{
-					17, -- [1]
+					2, -- [1]
 					28285, -- [2]
 					"", -- [3]
 					"=q3=Helm of the Righteous", -- [4]
@@ -2517,7 +2869,7 @@ AtlasLootWishList = {
 					"TKMechCalcHEROIC|\"\"", -- [8]
 				}, -- [6]
 				{
-					13, -- [1]
+					27, -- [1]
 					29253, -- [2]
 					"", -- [3]
 					"=q4=Girdle of Valorous Deeds", -- [4]
@@ -2527,7 +2879,7 @@ AtlasLootWishList = {
 					"CoTMorassAeonus|\"\"", -- [8]
 				}, -- [7]
 				{
-					0, -- [1]
+					20, -- [1]
 					46874, -- [2]
 					"", -- [3]
 					"|cff0070ddArgent Crusader's Tabard", -- [4]
@@ -2536,6 +2888,46 @@ AtlasLootWishList = {
 					"", -- [7]
 					"ArgentTournament2|\"\"", -- [8]
 				}, -- [8]
+				{
+					12, -- [1]
+					28505, -- [2]
+					"", -- [3]
+					"=q4=Gauntlets of Renewed Hope", -- [4]
+					"Attumen the Huntsman", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraAttumen|\"\"", -- [8]
+				}, -- [9]
+				{
+					13, -- [1]
+					28666, -- [2]
+					"", -- [3]
+					"=q4=Pauldrons of the Justice-Seeker", -- [4]
+					"Shade of Aran", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraAran|\"\"", -- [8]
+				}, -- [10]
+				{
+					30, -- [1]
+					"s55369", -- [2]
+					"41257", -- [3]
+					"=ds=Titansteel Destroyer", -- [4]
+					"=ds=Search Result: titansteel", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"SearchResult|SearchResultPage1", -- [8]
+				}, -- [11]
+				{
+					23, -- [1]
+					12592, -- [2]
+					"", -- [3]
+					"=q4=Blackblade of Shahram", -- [4]
+					"General Drakkisath", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UBRSDrakkisath|\"\"", -- [8]
+				}, -- [12]
 				["info"] = {
 					"Righteous Armor", -- [1]
 					{
@@ -2702,6 +3094,292 @@ AtlasLootWishList = {
 					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 				},
 			}, -- [5]
+			{
+				{
+					3, -- [1]
+					29766, -- [2]
+					"", -- [3]
+					"|cffa335eeLeggings of the Fallen Champion", -- [4]
+					"Gruul the Dragonkiller", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"GruulGruul|AtlasLootBurningCrusade", -- [8]
+				}, -- [1]
+				{
+					2, -- [1]
+					29763, -- [2]
+					"", -- [3]
+					"|cffa335eePauldrons of the Fallen Champion", -- [4]
+					"High King Maulgar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"GruulsLairHighKingMaulgar|AtlasLootBurningCrusade", -- [8]
+				}, -- [2]
+				{
+					9, -- [1]
+					29754, -- [2]
+					"", -- [3]
+					"|cffa335eeChestguard of the Fallen Champion", -- [4]
+					"Magtheridon", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCMagtheridon|", -- [8]
+				}, -- [3]
+				{
+					6, -- [1]
+					29760, -- [2]
+					"", -- [3]
+					"|cffa335eeHelm of the Fallen Champion", -- [4]
+					"Prince Malchezaar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraPrince|", -- [8]
+				}, -- [4]
+				["info"] = {
+					"T4", -- [1]
+					{
+						["Draenoric"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [6]
+			{
+				{
+					0, -- [1]
+					27787, -- [2]
+					"", -- [3]
+					"|cff0070ddChestguard of No Remorse", -- [4]
+					"Hydromancer Thespia", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CFRSteamThespia|AtlasLootBurningCrusade", -- [8]
+				}, -- [1]
+				{
+					0, -- [1]
+					13394, -- [2]
+					"", -- [3]
+					"|cff0070ddSkul's Cold Embrace", -- [4]
+					"Skul", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"STRATSkull|AtlasLootOriginalWoW", -- [8]
+				}, -- [2]
+				{
+					0, -- [1]
+					18722, -- [2]
+					"", -- [3]
+					"|cff0070ddDeath Grips", -- [4]
+					"Magistrate Barthilas", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"STRATMagistrateBarthilas|", -- [8]
+				}, -- [3]
+				["info"] = {
+					"blue", -- [1]
+					{
+						["Draenoric"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [7]
+			{
+				{
+					8, -- [1]
+					13348, -- [2]
+					"", -- [3]
+					"|cff0070ddDemonshear", -- [4]
+					"Balnazzar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"STRATBalnazzar|", -- [8]
+				}, -- [1]
+				{
+					9, -- [1]
+					13375, -- [2]
+					"", -- [3]
+					"|cff0070ddCrest of Retribution", -- [4]
+					"Ramstein the Gorger", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"STRATRamsteintheGorger|", -- [8]
+				}, -- [2]
+				{
+					2, -- [1]
+					27524, -- [2]
+					"", -- [3]
+					"|cff0070ddFiremaul of Destruction", -- [4]
+					"Warbringer O'mrogg", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCHallsOmrogg|AtlasLootBurningCrusade", -- [8]
+				}, -- [3]
+				{
+					5, -- [1]
+					28800, -- [2]
+					"", -- [3]
+					"=q4=Hammer of the Naaru", -- [4]
+					"High King Maulgar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"GruulsLairHighKingMaulgar|\"\"", -- [8]
+				}, -- [4]
+				{
+					12, -- [1]
+					12592, -- [2]
+					"", -- [3]
+					"=q4=Blackblade of Shahram", -- [4]
+					"General Drakkisath", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UBRSDrakkisath|\"\"", -- [8]
+				}, -- [5]
+				["info"] = {
+					"armas", -- [1]
+					{
+						["Draenoric"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [8]
+			{
+				{
+					0, -- [1]
+					35404, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Ornamented Headguard", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [1]
+				{
+					0, -- [1]
+					35406, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Ornamented Spaulders", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [2]
+				{
+					0, -- [1]
+					35402, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Ornamented Chestplate", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [3]
+				{
+					0, -- [1]
+					35403, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Ornamented Gloves", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [4]
+				{
+					0, -- [1]
+					35405, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Ornamented Leggings", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [5]
+				{
+					0, -- [1]
+					35414, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Scaled Helm", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [6]
+				{
+					0, -- [1]
+					35416, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Scaled Shoulders", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [7]
+				{
+					0, -- [1]
+					35412, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Scaled Chestpiece", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [8]
+				{
+					0, -- [1]
+					35413, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Scaled Gauntlets", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [9]
+				{
+					0, -- [1]
+					35415, -- [2]
+					"", -- [3]
+					"|cff0070ddCrusader's Scaled Legguards", -- [4]
+					"Plate", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"PVP70RepPlate|\"\"", -- [8]
+				}, -- [10]
+				{
+					0, -- [1]
+					32793, -- [2]
+					"", -- [3]
+					"|cffa335eeVeteran's Plate Greaves", -- [4]
+					"PvP Rewards", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HardModeArena2|\"\"", -- [8]
+				}, -- [11]
+				{
+					0, -- [1]
+					32805, -- [2]
+					"", -- [3]
+					"|cffa335eeVeteran's Plate Belt", -- [4]
+					"PvP Rewards", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HardModeArena2|\"\"", -- [8]
+				}, -- [12]
+				{
+					0, -- [1]
+					32818, -- [2]
+					"", -- [3]
+					"|cffa335eeVeteran's Plate Bracers", -- [4]
+					"PvP Rewards", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HardModeArena2|\"\"", -- [8]
+				}, -- [13]
+				["info"] = {
+					"Crusader's Ornamented Battlegear", -- [1]
+					{
+						["Draenoric"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [9]
 		},
 		["Eldorath"] = {
 		},
@@ -3527,7 +4205,7 @@ AtlasLootWishList = {
 		["Subjected"] = {
 			{
 				{
-					11, -- [1]
+					14, -- [1]
 					28206, -- [2]
 					"", -- [3]
 					"=q3=Cowl of the Guiltless", -- [4]
@@ -3537,7 +4215,7 @@ AtlasLootWishList = {
 					"CoTMorassAeonus|\"\"", -- [8]
 				}, -- [1]
 				{
-					8, -- [1]
+					11, -- [1]
 					27831, -- [2]
 					"", -- [3]
 					"=q3=Mantle of the Unforgiven", -- [4]
@@ -3547,7 +4225,7 @@ AtlasLootWishList = {
 					"AuchManaNexusPrinceHEROIC|\"\"", -- [8]
 				}, -- [2]
 				{
-					8, -- [1]
+					11, -- [1]
 					27787, -- [2]
 					"", -- [3]
 					"=q3=Chestguard of No Remorse", -- [4]
@@ -3557,7 +4235,7 @@ AtlasLootWishList = {
 					"CFRSteamThespia|\"\"", -- [8]
 				}, -- [3]
 				{
-					20, -- [1]
+					23, -- [1]
 					28124, -- [2]
 					"", -- [3]
 					"=q3=Liar's Cord", -- [4]
@@ -3567,7 +4245,7 @@ AtlasLootWishList = {
 					"CFRSlaveRokmar|\"\"", -- [8]
 				}, -- [4]
 				{
-					2, -- [1]
+					5, -- [1]
 					27867, -- [2]
 					"", -- [3]
 					"=q3=Boots of the Unjust", -- [4]
@@ -3577,7 +4255,7 @@ AtlasLootWishList = {
 					"AuchCryptsExarch|\"\"", -- [8]
 				}, -- [5]
 				{
-					14, -- [1]
+					17, -- [1]
 					28396, -- [2]
 					"", -- [3]
 					"=q3=Gloves of the Unbound", -- [4]
@@ -3587,7 +4265,7 @@ AtlasLootWishList = {
 					"TKArcScryer|\"\"", -- [8]
 				}, -- [6]
 				{
-					12, -- [1]
+					15, -- [1]
 					27514, -- [2]
 					"", -- [3]
 					"=q3=Leggings of the Unrepentant", -- [4]
@@ -3597,7 +4275,7 @@ AtlasLootWishList = {
 					"HCFurnaceBreaker|\"\"", -- [8]
 				}, -- [7]
 				{
-					5, -- [1]
+					8, -- [1]
 					27765, -- [2]
 					"", -- [3]
 					"=q3=Armwraps of Disdain", -- [4]
@@ -3607,7 +4285,7 @@ AtlasLootWishList = {
 					"CFRUnderSwamplord|\"\"", -- [8]
 				}, -- [8]
 				{
-					15, -- [1]
+					17, -- [1]
 					31404, -- [2]
 					"", -- [3]
 					"=q2=Green Trophy Tabard of the Illidari", -- [4]
@@ -3627,7 +4305,7 @@ AtlasLootWishList = {
 					"ICCLichKing25ManHEROIC|\"\"", -- [8]
 				}, -- [10]
 				{
-					21, -- [1]
+					24, -- [1]
 					24361, -- [2]
 					"", -- [3]
 					"=q3=Spellfire Longsword", -- [4]
@@ -3637,7 +4315,7 @@ AtlasLootWishList = {
 					"CFRSlaveMennu|\"\"", -- [8]
 				}, -- [11]
 				{
-					27, -- [1]
+					30, -- [1]
 					40491, -- [2]
 					"", -- [3]
 					"=q4=Hailstorm", -- [4]
@@ -3647,7 +4325,7 @@ AtlasLootWishList = {
 					"Malygos|\"\"", -- [8]
 				}, -- [12]
 				{
-					30, -- [1]
+					2, -- [1]
 					32500, -- [2]
 					"", -- [3]
 					"=q4=Crystal Spire of Karabor", -- [4]
@@ -3657,7 +4335,7 @@ AtlasLootWishList = {
 					"BTIllidanStormrage|\"\"", -- [8]
 				}, -- [13]
 				{
-					17, -- [1]
+					20, -- [1]
 					50466, -- [2]
 					"", -- [3]
 					"=q4=Sentinel's Winter Cloak", -- [4]
@@ -3667,7 +4345,7 @@ AtlasLootWishList = {
 					"EmblemofFrost2|\"\"", -- [8]
 				}, -- [14]
 				{
-					9, -- [1]
+					12, -- [1]
 					27804, -- [2]
 					"", -- [3]
 					"=q3=Devilshark Cape", -- [4]
@@ -3677,7 +4355,7 @@ AtlasLootWishList = {
 					"CFRSteamWarlord|\"\"", -- [8]
 				}, -- [15]
 				{
-					24, -- [1]
+					27, -- [1]
 					28226, -- [2]
 					"", -- [3]
 					"=q3=Timeslicer", -- [4]
@@ -3687,7 +4365,7 @@ AtlasLootWishList = {
 					"CoTHillsbradHunterHEROIC|\"\"", -- [8]
 				}, -- [16]
 				{
-					5, -- [1]
+					8, -- [1]
 					34604, -- [2]
 					"", -- [3]
 					"=q4=Jaded Crystal Dagger", -- [4]
@@ -3696,6 +4374,16 @@ AtlasLootWishList = {
 					"", -- [7]
 					"SMTFireheart|\"\"", -- [8]
 				}, -- [17]
+				{
+					5, -- [1]
+					34616, -- [2]
+					"", -- [3]
+					"|cffa335eeBreeching Comet", -- [4]
+					"Kael'thas Sunstrider (Heroic)", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"SMTKaelthasHEROIC|AtlasLootBurningCrusade", -- [8]
+				}, -- [18]
 				["info"] = {
 					"Bloodfang Armor (Recolor)", -- [1]
 					{
@@ -3704,6 +4392,532 @@ AtlasLootWishList = {
 					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 				},
 			}, -- [1]
+			{
+				{
+					11, -- [1]
+					24356, -- [2]
+					"", -- [3]
+					"|cff0070ddWastewalker Shiv", -- [4]
+					"Mennu the Betrayer", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CFRSlaveMennu|AtlasLootBurningCrusade", -- [8]
+				}, -- [1]
+				{
+					2, -- [1]
+					30055, -- [2]
+					"", -- [3]
+					"|cffa335eeShoulderpads of the Stranger", -- [4]
+					"Hydross the Unstable", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CFRSerpentHydross|AtlasLootBurningCrusade", -- [8]
+				}, -- [2]
+				{
+					5, -- [1]
+					24396, -- [2]
+					"", -- [3]
+					"|cff0070ddVest of Vengeance", -- [4]
+					"Keli'dan the Breaker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCFurnaceBreaker|AtlasLootBurningCrusade", -- [8]
+				}, -- [3]
+				{
+					6, -- [1]
+					24398, -- [2]
+					"", -- [3]
+					"|cff0070ddMantle of the Dusk-Dweller", -- [4]
+					"Keli'dan the Breaker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCFurnaceBreaker|AtlasLootBurningCrusade", -- [8]
+				}, -- [4]
+				{
+					7, -- [1]
+					32080, -- [2]
+					"", -- [3]
+					"|cffa335eeMantle of Shadowy Embrace", -- [4]
+					"Keli'dan the Breaker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCFurnaceBreaker|AtlasLootBurningCrusade", -- [8]
+				}, -- [5]
+				{
+					27, -- [1]
+					34810, -- [2]
+					"", -- [3]
+					"|cffa335eeCloak of Blade Turning", -- [4]
+					"Kael'thas Sunstrider", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"SMTKaelthas|AtlasLootBurningCrusade", -- [8]
+				}, -- [6]
+				{
+					1, -- [1]
+					34616, -- [2]
+					"", -- [3]
+					"|cffa335eeBreeching Comet", -- [4]
+					"Kael'thas Sunstrider (Heroic)", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"SMTKaelthasHEROIC|AtlasLootBurningCrusade", -- [8]
+				}, -- [7]
+				{
+					30, -- [1]
+					34613, -- [2]
+					"", -- [3]
+					"|cffa335eeShoulderpads of the Silvermoon Retainer", -- [4]
+					"Kael'thas Sunstrider (Heroic)", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"SMTKaelthasHEROIC|AtlasLootBurningCrusade", -- [8]
+				}, -- [8]
+				{
+					17, -- [1]
+					28414, -- [2]
+					"", -- [3]
+					"|cff0070ddHelm of Assassination", -- [4]
+					"Harbinger Skyriss", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"TKArcHarbinger|AtlasLootBurningCrusade", -- [8]
+				}, -- [9]
+				{
+					20, -- [1]
+					12587, -- [2]
+					"", -- [3]
+					"|cff0070ddEye of Rend", -- [4]
+					"Warchief Rend Blackhand", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UBRSRend|AtlasLootOriginalWoW", -- [8]
+				}, -- [10]
+				{
+					21, -- [1]
+					12590, -- [2]
+					"", -- [3]
+					"|cffa335eeFelstriker", -- [4]
+					"Warchief Rend Blackhand", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UBRSRend|AtlasLootOriginalWoW", -- [8]
+				}, -- [11]
+				{
+					14, -- [1]
+					27776, -- [2]
+					"", -- [3]
+					"|cff0070ddShoulderpads of Assassination", -- [4]
+					"Talon King Ikiss", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"AuchSethekkTalonKing|AtlasLootBurningCrusade", -- [8]
+				}, -- [12]
+				{
+					24, -- [1]
+					37255, -- [2]
+					"", -- [3]
+					"=q3=The Interrogator", -- [4]
+					"Drakos the Interrogator", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"OcuDrakos|\"\"", -- [8]
+				}, -- [13]
+				{
+					8, -- [1]
+					27507, -- [2]
+					"", -- [3]
+					"=q3=Adamantine Repeater", -- [4]
+					"Keli'dan the Breaker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCFurnaceBreaker|\"\"", -- [8]
+				}, -- [14]
+				["info"] = {
+					"COSAS", -- [1]
+					{
+						["Subjected"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [2]
+			{
+				{
+					11, -- [1]
+					32080, -- [2]
+					"", -- [3]
+					"|TInterface\\Icons\\INV_Misc_QuestionMark:0|t |cffa335eeMantle of Shadowy Embrace", -- [4]
+					"Keli'dan the Breaker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCFurnaceBreaker|\"\"", -- [8]
+				}, -- [1]
+				{
+					17, -- [1]
+					27509, -- [2]
+					"", -- [3]
+					"|cff0070ddHandgrips of Assassination", -- [4]
+					"Aeonus", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CoTMorassAeonus|\"\"", -- [8]
+				}, -- [2]
+				{
+					18, -- [1]
+					29247, -- [2]
+					"", -- [3]
+					"|cffa335eeGirdle of the Deathdealer", -- [4]
+					"Aeonus", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CoTMorassAeonus|\"\"", -- [8]
+				}, -- [3]
+				{
+					5, -- [1]
+					45324, -- [2]
+					"", -- [3]
+					"|cffa335eeLeggings of Swift Reflexes", -- [4]
+					"The Iron Council", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarIronCouncil|\"\"", -- [8]
+				}, -- [4]
+				{
+					21, -- [1]
+					28669, -- [2]
+					"", -- [3]
+					"|cffa335eeRapscallion Boots", -- [4]
+					"Shade of Aran", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraAran|\"\"", -- [8]
+				}, -- [5]
+				{
+					2, -- [1]
+					28414, -- [2]
+					"", -- [3]
+					"|TInterface\\Icons\\INV_Misc_QuestionMark:0|t |cff0070ddHelm of Assassination", -- [4]
+					"Leather", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"DS3Leather|\"\"", -- [8]
+				}, -- [6]
+				{
+					22, -- [1]
+					28514, -- [2]
+					"", -- [3]
+					"=q4=Bracers of Maliciousness", -- [4]
+					"Maiden of Virtue", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraMaiden|\"\"", -- [8]
+				}, -- [7]
+				{
+					14, -- [1]
+					32235, -- [2]
+					"", -- [3]
+					"=q4=Cursed Vision of Sargeras", -- [4]
+					"Illidan Stormrage", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"BTIllidanStormrage|\"\"", -- [8]
+				}, -- [8]
+				{
+					8, -- [1]
+					28345, -- [2]
+					"", -- [3]
+					"|cff0070ddWarp Splinter's Thorn", -- [4]
+					"Warp Splinter", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"TKBotSplinter|\"\"", -- [8]
+				}, -- [9]
+				["info"] = {
+					"DARK", -- [1]
+					{
+						["Subjected"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [3]
+			{
+				{
+					11, -- [1]
+					32080, -- [2]
+					"", -- [3]
+					"=q4=Mantle of Shadowy Embrace", -- [4]
+					"Keli'dan the Breaker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"HCFurnaceBreaker|\"\"", -- [8]
+				}, -- [1]
+				{
+					14, -- [1]
+					28660, -- [2]
+					"", -- [3]
+					"=q4=Gilded Thorium Cloak", -- [4]
+					"Terestian Illhoof", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraIllhoof|\"\"", -- [8]
+				}, -- [2]
+				{
+					25, -- [1]
+					9512, -- [2]
+					"", -- [3]
+					"=q3=Blackmetal Cape", -- [4]
+					"Trash Mobs (Zul'Farrak)", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ZFTrash|\"\"", -- [8]
+				}, -- [3]
+				{
+					22, -- [1]
+					18495, -- [2]
+					"", -- [3]
+					"=q3=Redoubt Cloak", -- [4]
+					"DM North Tribute Chest", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"DMNTRIBUTERUN|\"\"", -- [8]
+				}, -- [4]
+				{
+					2, -- [1]
+					45453, -- [2]
+					"", -- [3]
+					"=q4=Winter's Icy Embrace", -- [4]
+					"Hodir", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"UlduarHodir25Man|\"\"", -- [8]
+				}, -- [5]
+				{
+					8, -- [1]
+					"s3872", -- [2]
+					"4335", -- [3]
+					"=ds=Rich Purple Silk Shirt", -- [4]
+					"=ds=Search Result: Rich Purple Silk Shirt", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"SearchResult|SearchResultPage1", -- [8]
+				}, -- [6]
+				{
+					15, -- [1]
+					28750, -- [2]
+					"", -- [3]
+					"=q4=Girdle of Treachery", -- [4]
+					"Chess Event", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraChess|\"\"", -- [8]
+				}, -- [7]
+				{
+					11, -- [1]
+					30538, -- [2]
+					"", -- [3]
+					"=q4=Midnight Legguards", -- [4]
+					"Quagmirran", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CFRSlaveQuagmirran|\"\"", -- [8]
+				}, -- [8]
+				{
+					5, -- [1]
+					27908, -- [2]
+					"", -- [3]
+					"|cff0070ddLeggings of Assassination", -- [4]
+					"Murmur", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"AuchShadowMurmur|\"\"", -- [8]
+				}, -- [9]
+				{
+					8, -- [1]
+					30060, -- [2]
+					"", -- [3]
+					"=q4=Boots of Effortless Striking", -- [4]
+					"The Lurker Below", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"CFRSerpentLurker|\"\"", -- [8]
+				}, -- [10]
+				{
+					5, -- [1]
+					"s36357", -- [2]
+					"30039", -- [3]
+					"=ds=Boots of Utter Darkness", -- [4]
+					"=ds=Search Result: Boots of Utter Darkness", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"LeatherLeatherArmorBC1|\"\"", -- [8]
+				}, -- [11]
+				{
+					19, -- [1]
+					28414, -- [2]
+					"", -- [3]
+					"|TInterface\\Icons\\INV_Misc_QuestionMark:0|t |cff0070ddHelm of Assassination", -- [4]
+					"Leather", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"DS3Leather|\"\"", -- [8]
+				}, -- [12]
+				{
+					16, -- [1]
+					28514, -- [2]
+					"", -- [3]
+					"=q4=Bracers of Maliciousness", -- [4]
+					"Maiden of Virtue", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"KaraMaiden|\"\"", -- [8]
+				}, -- [13]
+				{
+					2, -- [1]
+					32235, -- [2]
+					"", -- [3]
+					"=q4=Cursed Vision of Sargeras", -- [4]
+					"Illidan Stormrage", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"BTIllidanStormrage|\"\"", -- [8]
+				}, -- [14]
+				{
+					28, -- [1]
+					28345, -- [2]
+					"", -- [3]
+					"|cff0070ddWarp Splinter's Thorn", -- [4]
+					"Warp Splinter", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"TKBotSplinter|\"\"", -- [8]
+				}, -- [15]
+				["info"] = {
+					"xmog oscurito", -- [1]
+					{
+						["Subjected"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [4]
+			{
+				{
+					9, -- [1]
+					49950, -- [2]
+					"", -- [3]
+					"|cffa335eeFrostbitten Fur Boots", -- [4]
+					"Lord Marrowgar", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLordMarrowgar25Man|AtlasLootWotLK", -- [8]
+				}, -- [1]
+				{
+					10, -- [1]
+					50362, -- [2]
+					"", -- [3]
+					"|cffa335eeDeathbringer's Will", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang25Man|AtlasLootWotLK", -- [8]
+				}, -- [2]
+				{
+					2, -- [1]
+					52025, -- [2]
+					"", -- [3]
+					"|cffa335eeVanquisher's Mark of Sanctification", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang25Man|AtlasLootWotLK", -- [8]
+				}, -- [3]
+				{
+					3, -- [1]
+					50333, -- [2]
+					"", -- [3]
+					"|cffa335eeToskk's Maximized Wristguards", -- [4]
+					"Deathbringer Saurfang", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCSaurfang25Man|AtlasLootWotLK", -- [8]
+				}, -- [4]
+				{
+					12, -- [1]
+					50021, -- [2]
+					"", -- [3]
+					"|cffa335eeAldriana's Gloves of Secrecy", -- [4]
+					"Rotface", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCRotface25Man|AtlasLootWotLK", -- [8]
+				}, -- [5]
+				{
+					11, -- [1]
+					50067, -- [2]
+					"", -- [3]
+					"|cffa335eeAstrylian's Sutured Cinch", -- [4]
+					"Professor Putricide", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCPutricide25Man|AtlasLootWotLK", -- [8]
+				}, -- [6]
+				{
+					4, -- [1]
+					50351, -- [2]
+					"", -- [3]
+					"|cffa335eeTiny Abomination in a Jar", -- [4]
+					"Professor Putricide", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCPutricide25Man|AtlasLootWotLK", -- [8]
+				}, -- [7]
+				{
+					8, -- [1]
+					50186, -- [2]
+					"", -- [3]
+					"|cffa335eeFrostbrood Sapphire Ring", -- [4]
+					"Valithria Dreamwalker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCValithria25Man|AtlasLootWotLK", -- [8]
+				}, -- [8]
+				{
+					5, -- [1]
+					50183, -- [2]
+					"", -- [3]
+					"|cffa335eeLungbreaker", -- [4]
+					"Valithria Dreamwalker", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCValithria25Man|AtlasLootWotLK", -- [8]
+				}, -- [9]
+				{
+					6, -- [1]
+					50426, -- [2]
+					"", -- [3]
+					"|cffa335eeHeaven's Fall, Kryss of a Thousand Lies", -- [4]
+					"The Lich King", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLichKing25Man|AtlasLootWotLK", -- [8]
+				}, -- [10]
+				{
+					7, -- [1]
+					50012, -- [2]
+					"", -- [3]
+					"|cffa335eeHavoc's Call, Blade of Lordaeron Kings", -- [4]
+					"The Lich King", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"ICCLichKing25Man|AtlasLootWotLK", -- [8]
+				}, -- [11]
+				["info"] = {
+					"ITEMS 25n", -- [1]
+					{
+						["Subjected"] = false,
+					}, -- [2]
+					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
+				},
+			}, -- [5]
 		},
 		["Rivothrill"] = {
 		},

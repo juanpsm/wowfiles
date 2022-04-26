@@ -6,6 +6,10 @@ SavedInstancesDB = {
 			["AlwaysShow"] = false,
 			["Class"] = "DRUID",
 		},
+		["Muelapicada - WoWArg"] = {
+			["AlwaysShow"] = false,
+			["Class"] = "HUNTER",
+		},
 		["Sttriker - WoWArg"] = {
 			["AlwaysShow"] = false,
 			["Class"] = "WARRIOR",
@@ -14,10 +18,10 @@ SavedInstancesDB = {
 	["Lockouts"] = {
 	},
 	["Tooltip"] = {
-		["ReverseInstances"] = false,
-		["CategorySort"] = "EXPANSION",
-		["ShowSoloCategory"] = false,
 		["Details"] = false,
+		["CategorySort"] = "EXPANSION",
+		["RecentHistory"] = false,
+		["ReverseInstances"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -26,14 +30,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["RecentHistory"] = false,
+		["ShowSoloCategory"] = false,
 	},
 	["Instances"] = {
 	},
@@ -73,21 +77,21 @@ SavedInstancesDB = {
 		["D2ClassColor"] = true,
 		["R4ClassColor"] = true,
 		["R3ClassColor"] = true,
-		["D2Text"] = "5+",
+		["R1ClassColor"] = true,
 		["D2Color"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["R1ClassColor"] = true,
-		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
+		["D1Text"] = "5",
+		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]

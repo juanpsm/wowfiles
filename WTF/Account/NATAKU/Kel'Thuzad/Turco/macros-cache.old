@@ -1,0 +1,108 @@
+MACRO 16777218 "BS+C" INV_Misc_QuestionMark
+#showtooltip Cargar(Rango 3)
+/equip Decapitadora de Gladiador colérico
+/cast Actitud de batalla
+/cast Cargar(Rango 3)
+END
+MACRO 16777234 "BS+C2" INV_Misc_QuestionMark
+#showtooltip Charge
+/equip Wrathful Gladiator's Decapitator
+/cast Battle stance
+/cast Charge
+END
+MACRO 16777220 "BS+I" INV_Misc_QuestionMark
+#showtooltip Interceptar
+/equip Decapitadora de Gladiador colérico
+/cast Actitud rabiosa
+/cast Interceptar
+END
+MACRO 16777236 "BS+R+DS" INV_Misc_QuestionMark
+#showtooltip Represalias
+/castsequence Actitud de batalla, Represalias, Actitud defensiva
+END
+MACRO 16777228 "DE+I" INV_Misc_QuestionMark
+#showtooltip Intervenir
+/cast Actitud defensiva
+/cast [target=generica] Intervene
+/cast [target=kykio] Intervene
+/cast [target=synystergats] Intervene
+/cast [target=Citrulin] Intervene
+/cast [target=Chimu] Intervene
+END
+MACRO 16777227 "DE+SW+armas" INV_Misc_QuestionMark
+#showtooltip Muro de escudo
+/equip Sajadora de Gladiador colérico
+/equip Escudo muro de Gladiador colérico
+/cast Actitud defensiva
+/cast Muro de escudo
+/cast Bloquear con escudo
+END
+MACRO 16777217 "Esp+SR" INV_Misc_QuestionMark
+#showtooltip Reflejo de Hechizos
+/cast Reflejo de hechizos
+/Equip Aplastahuesos de Acero de Titanes
+/equip Panel de placas Desechado de Crygil
+/cast Reflejo de Hechizos
+END
+MACRO 16777225 "Esp+SS+armas" INV_Misc_QuestionMark
+#showtooltip Embate con Escudo
+/lanzar Embate con escudo(Rango 8)
+/Equip Aplastahuesos de Acero de Titanes
+/equip Panel de placas Desechado de Crygil
+/cast Embate con Escudo
+END
+MACRO 16777231 "Esp+SS+armas" INV_Misc_QuestionMark
+#showtooltip Azote con Escudo
+/Equip Aplastahuesos de Acero de Titanes
+/equip Panel de placas Desechado de Crygil
+/cast Azote con Escudo
+END
+MACRO 16777230 "Focus+SB" INV_Misc_QuestionMark
+#showtooltip Shield Bash
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast [target=Focus] Shield Bash
+END
+MACRO 16777237 "Heal" INV_Misc_QuestionMark
+#showtooltip Regeneración iracunda
+/castsequence Ira de maestro de batalla, Regeneración iracunda
+END
+MACRO 16777226 "Night" INV_Misc_QuestionMark
+#showtooltip Nighttime
+/equip Wrathful Gladiator's Cleaver
+/equip Wrathful Gladiator's Shield Wall
+/cast Defensive Stance
+END
+MACRO 16777229 "Pummel" INV_Misc_QuestionMark
+#showtooltip Zurrar
+/cast Actitud rabiosa
+/cast Zurrar
+END
+MACRO 16777219 "SB+armas" INV_Misc_QuestionMark
+#showtooltip Azote de escudo
+/equip Sajadora de Gladiador colérico
+/equip Escudo muro de Gladiador colérico
+/cast Azote de escudo
+END
+MACRO 16777222 "SE+S" INV_Misc_QuestionMark
+#showtooltip
+/cast Embate con escudo(Rango 8)
+/equip Sajadora de Gladiador colérico
+/equip Escudo muro de Gladiador colérico
+/cast Embate con escudo(Rango 8)
+END
+MACRO 16777221 "SR+S" INV_Misc_QuestionMark
+#showtooltip Reflejo de hechizos
+/equip Sajadora de Gladiador colérico
+/equip Escudo muro de Gladiador colérico
+/cast Reflejo de hechizos
+END
+MACRO 16777233 "ST+BS+DS" INV_Misc_QuestionMark
+#showtooltip Lanzamiento destrozador
+/castsequence Actitud de batalla, Lanzamiento destrozador, Actitud defensiva
+END
+MACRO 16777232 "ST+CanAura" INV_Misc_QuestionMark
+#showtooltip Lanzamiento destrozador
+/cancelaura Filotormenta
+/cast Lanzamiento destrozador
+END

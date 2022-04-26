@@ -3,6 +3,7 @@ DataStore_TalentsDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,6 +12,26 @@ DataStore_TalentsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1618962691,
+				["Class"] = "WARLOCK",
+				["PointsSpent"] = "0,0,0,0,0,0",
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
@@ -165,6 +186,7 @@ DataStore_TalentsRefDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -176,17 +198,6 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Supervivencia"] = {
-					["prereqs"] = {
-						[19] = "6|1",
-						[16] = "3|3",
-						[14] = "3|1",
-						[28] = "9|2",
-						[20] = "5|2",
-						[23] = "7|2",
-						[27] = "7|3",
-					},
-					["background"] = "HunterSurvival",
-					["icon"] = "Ability_Hunter_SwiftStrike",
 					["talents"] = {
 						"1623|Rastreo mejorado|Ability_Hunter_ImprovedTracking|1|1|5", -- [1]
 						"1820|Ojo de halcón|Ability_TownWatch|1|2|3", -- [2]
@@ -217,16 +228,19 @@ DataStore_TalentsRefDB = {
 						"2144|Grupo de caza|Ability_Hunter_HuntingParty|10|3|3", -- [27]
 						"2145|Disparo explosivo|Ability_Hunter_ExplosiveShot|11|2|1", -- [28]
 					},
+					["prereqs"] = {
+						[19] = "6|1",
+						[16] = "3|3",
+						[14] = "3|1",
+						[28] = "9|2",
+						[27] = "7|3",
+						[23] = "7|2",
+						[20] = "5|2",
+					},
+					["icon"] = "Ability_Hunter_SwiftStrike",
+					["background"] = "HunterSurvival",
 				},
 				["Puntería"] = {
-					["prereqs"] = {
-						[20] = "5|3",
-						[9] = "2|3",
-						[19] = "5|2",
-						[24] = "8|2",
-					},
-					["background"] = "HunterMarksmanship",
-					["icon"] = "Ability_Marksmanship",
 					["talents"] = {
 						"1341|Disparo de conmoción mejorado|Spell_Frost_Stun|1|1|2", -- [1]
 						"2197|Puntería centrada|Ability_Hunter_FocusedAim|1|2|3", -- [2]
@@ -256,6 +270,14 @@ DataStore_TalentsRefDB = {
 						"2134|Marcado para morir|Ability_Hunter_Assassinate|10|2|5", -- [26]
 						"2135|Disparo de quimera|Ability_Hunter_ChimeraShot2|11|2|1", -- [27]
 					},
+					["prereqs"] = {
+						[20] = "5|3",
+						[9] = "2|3",
+						[19] = "5|2",
+						[24] = "8|2",
+					},
+					["icon"] = "Ability_Marksmanship",
+					["background"] = "HunterMarksmanship",
 				},
 				["Bestias"] = {
 					["talents"] = {
@@ -286,6 +308,7 @@ DataStore_TalentsRefDB = {
 						"2227|Almas gemelas|Ability_Hunter_SeparationAnxiety|10|2|5", -- [25]
 						"2139|Maestría en bestias|Ability_Hunter_BeastMastery|11|2|1", -- [26]
 					},
+					["background"] = "HunterBeastMastery",
 					["prereqs"] = {
 						[23] = "7|2",
 						[20] = "7|1",
@@ -293,7 +316,6 @@ DataStore_TalentsRefDB = {
 						[18] = "5|2",
 						[16] = "4|3",
 					},
-					["background"] = "HunterBeastMastery",
 				},
 				["Dominio de bestias"] = {
 					["icon"] = "Ability_Hunter_BeastTaming",
@@ -306,6 +328,7 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Aflicción"] = {
+					["background"] = "WarlockCurses",
 					["talents"] = {
 						"1284|Maldición de agonía mejorada|Spell_Shadow_CurseOfSargeras|1|1|2", -- [1]
 						"1005|Supresión|Spell_Shadow_UnsummonBuilding|1|2|3", -- [2]
@@ -336,16 +359,16 @@ DataStore_TalentsRefDB = {
 						"1876|Aflicción eterna|Ability_Warlock_EverlastingAffliction|10|2|5", -- [27]
 						"2041|Poseer|Ability_Warlock_Haunt|11|2|1", -- [28]
 					},
+					["icon"] = "Spell_Shadow_DeathCoil",
 					["prereqs"] = {
 						[26] = "9|2",
 						[18] = "5|2",
 						[16] = "3|3",
 						[25] = "7|2",
 					},
-					["icon"] = "Spell_Shadow_DeathCoil",
-					["background"] = "WarlockCurses",
 				},
 				["Demonología"] = {
+					["background"] = "WarlockSummoning",
 					["talents"] = {
 						"1221|Piedra de salud mejorada|INV_Stone_04|1|1|2", -- [1]
 						"1222|Diablillo mejorado|Spell_Shadow_SummonImp|1|2|3", -- [2]
@@ -375,18 +398,18 @@ DataStore_TalentsRefDB = {
 						"1885|Pacto demoníaco|Spell_Shadow_DemonicPact|10|2|5", -- [26]
 						"1886|Metamorfosis|Spell_Shadow_DemonForm|11|2|1", -- [27]
 					},
+					["icon"] = "Spell_Shadow_Metamorphosis",
 					["prereqs"] = {
 						[19] = "6|2",
 						[16] = "4|2",
 						[14] = "4|2",
 						[13] = "3|3",
-						[12] = "3|2",
 						[23] = "8|2",
+						[12] = "3|2",
 					},
-					["icon"] = "Spell_Shadow_Metamorphosis",
-					["background"] = "WarlockSummoning",
 				},
 				["Destrucción"] = {
+					["background"] = "WarlockDestruction",
 					["talents"] = {
 						"944|Descarga de las Sombras mejorada|Spell_Shadow_ShadowBolt|1|2|5", -- [1]
 						"943|Aterrar|Spell_Shadow_DeathPact|1|3|5", -- [2]
@@ -415,6 +438,7 @@ DataStore_TalentsRefDB = {
 						"1890|Fuego y azufre|Ability_Warlock_FireandBrimstone|10|2|5", -- [25]
 						"1891|Descarga de caos|Ability_Warlock_ChaosBolt|11|2|1", -- [26]
 					},
+					["icon"] = "Spell_Shadow_RainOfFire",
 					["prereqs"] = {
 						[12] = "4|1",
 						[14] = "3|3",
@@ -422,8 +446,6 @@ DataStore_TalentsRefDB = {
 						[21] = "7|3",
 						[22] = "7|2",
 					},
-					["icon"] = "Spell_Shadow_RainOfFire",
-					["background"] = "WarlockDestruction",
 				},
 			},
 			["Version"] = 12340,
@@ -433,6 +455,7 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Sagrado"] = {
+					["background"] = "PriestHoly",
 					["talents"] = {
 						"410|Enfoque de sanación|Spell_Holy_HealingFocus|1|1|2", -- [1]
 						"406|Renovar mejorado|Spell_Holy_Renew|1|2|3", -- [2]
@@ -462,17 +485,17 @@ DataStore_TalentsRefDB = {
 						"1905|Divina providencia|Spell_Holy_DivineProvidence|10|2|5", -- [26]
 						"1911|Espíritu guardián|Spell_Holy_GuardianSpirit|11|2|1", -- [27]
 					},
+					["icon"] = "Spell_Holy_HolyBolt",
 					["prereqs"] = {
 						[11] = "2|3",
 						[18] = "5|2",
 					},
-					["icon"] = "Spell_Holy_HolyBolt",
-					["background"] = "PriestHoly",
 				},
 				["Magia sombría"] = {
 					["icon"] = "Spell_Shadow_ShadowWordPain",
 				},
 				["Disciplina"] = {
+					["background"] = "PriestDiscipline",
 					["talents"] = {
 						"342|Voluntad inquebrantable|Spell_Magic_MageArmor|1|2|5", -- [1]
 						"1898|Disciplinas gemelas|Spell_Holy_SealOfVengeance|1|3|5", -- [2]
@@ -503,12 +526,11 @@ DataStore_TalentsRefDB = {
 						"1202|Tiempo prestado|Spell_Holy_BorrowedTime|10|2|5", -- [27]
 						"1897|Penitencia|Spell_Holy_Penance|11|2|1", -- [28]
 					},
+					["icon"] = "Spell_Holy_WordFortitude",
 					["prereqs"] = {
 						[15] = "3|3",
 						[19] = "5|2",
 					},
-					["icon"] = "Spell_Holy_WordFortitude",
-					["background"] = "PriestDiscipline",
 				},
 				["Sombra"] = {
 					["talents"] = {
@@ -540,7 +562,6 @@ DataStore_TalentsRefDB = {
 						"1907|Fe distorsionada|Spell_Shadow_MindTwisting|10|3|5", -- [26]
 						"1910|Dispersión|Spell_Shadow_Dispersion|11|2|1", -- [27]
 					},
-					["background"] = "PriestShadow",
 					["prereqs"] = {
 						[19] = "5|2",
 						[27] = "9|2",
@@ -550,6 +571,7 @@ DataStore_TalentsRefDB = {
 						[15] = "5|2",
 						[24] = "7|2",
 					},
+					["background"] = "PriestShadow",
 				},
 			},
 			["Version"] = 12340,

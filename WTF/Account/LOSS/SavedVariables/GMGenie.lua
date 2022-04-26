@@ -22,7 +22,6 @@ GMGenie_SavedVars = {
 	["mail"] = {
 	},
 	["tele"] = {
-		["GM Island"] = "gmis",
 	},
 	["useSpy"] = true,
 	["swapTicketWindows"] = false,

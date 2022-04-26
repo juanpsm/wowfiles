@@ -1,10 +1,16 @@
 
 Postal3DB = {
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "Muelapicada - Sin'Dorei",
+		["Indico - Sin'Dorei"] = "Indico - Sin'Dorei",
+		["Muelapicada - WoWArg"] = "Muelapicada - WoWArg",
+		["Sttriker - WoWArg"] = "Sttriker - WoWArg",
 	},
 	["profiles"] = {
-		["Muelapicada - Sin'Dorei"] = {
+		["Indico - Sin'Dorei"] = {
+		},
+		["Muelapicada - WoWArg"] = {
+		},
+		["Sttriker - WoWArg"] = {
 		},
 	},
 }

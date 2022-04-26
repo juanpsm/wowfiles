@@ -1,0 +1,15 @@
+Version: 1
+Frame: CollectMeButtonFrame
+FrameLevel: 1
+Anchor: TOP
+X: 341
+Y: -3
+W: 35
+H: 35
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: TOP
+X: 11
+Y: 3
+W: 450
+H: 33

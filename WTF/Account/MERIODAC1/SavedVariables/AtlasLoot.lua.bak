@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Izilabot - Sin'Dorei"] = "Izilabot - Sin'Dorei",
+	},
+	["profiles"] = {
+		["Izilabot - Sin'Dorei"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Izilabot"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Izilabot"] = {
+		},
+	},
+}

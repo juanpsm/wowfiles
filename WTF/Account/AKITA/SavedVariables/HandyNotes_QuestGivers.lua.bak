@@ -1,0 +1,10 @@
+
+HandyNotes_QuestGiversDB = {
+	["profileKeys"] = {
+		["Guthrakk - Sin'dorei(WoWArg)"] = "Guthrakk - Sin'dorei(WoWArg)",
+	},
+	["profiles"] = {
+		["Guthrakk - Sin'dorei(WoWArg)"] = {
+		},
+	},
+}

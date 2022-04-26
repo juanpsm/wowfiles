@@ -1,0 +1,42 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["Inventory"] = {
+					31145, -- [1]
+					37543, -- [2]
+					37405, -- [3]
+					nil, -- [4]
+					36885, -- [5]
+					37394, -- [6]
+					35577, -- [7]
+					37403, -- [8]
+					35579, -- [9]
+					"|cff1eff00|Hitem:24785:0:0:0:0:0:-40:40:72|h[Guantes Sangreoscura del bandido]|h|r", -- [10]
+					"|cff0070dd|Hitem:11118:0:0:0:0:0:188:0:72|h[Piedra arcádica de aguante]|h|r", -- [11]
+					37524, -- [12]
+					28042, -- [13]
+					38212, -- [14]
+					37566, -- [15]
+					36878, -- [16]
+					[18] = 28064,
+				},
+				["averageItemLvl"] = 124.0625,
+				["lastUpdate"] = 1553378846,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.MetalMutans"] = {
+				["Members"] = {
+					["Delatierra"] = {
+						["averageItemLvl"] = 124,
+					},
+				},
+			},
+		},
+	},
+}

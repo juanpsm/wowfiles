@@ -7,39 +7,39 @@ DataStore_SkillsDB = {
 	["global"] = {
 		["Characters"] = {
 			["Default.WoWArg.Zelphar"] = {
-				["lastUpdate"] = 1570170031,
+				["lastUpdate"] = 1589604468,
 				["Skills"] = {
-					["Profesiones"] = {
-						["Herboristería"] = "450|450",
-						["Inscripción"] = "450|450",
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
 					},
-					["Habilidades con armas"] = {
-						["Sin armas"] = "2|400",
-						["Armas de asta"] = "1|400",
-						["Mazas de dos manos"] = "1|400",
-						["Bastones"] = "274|400",
-						["Dagas"] = "1|400",
-						["Mazas"] = "7|400",
-						["Defensa"] = "400|400",
+					["Class Skills"] = {
+						["Balance"] = "1|1",
+						["Restoration"] = "1|1",
+						["Feral Combat"] = "1|1",
 					},
-					["Idiomas"] = {
-						["Idioma: común"] = "300|300",
-						["Idioma: darnassiano"] = "300|300",
+					["Professions"] = {
+						["Herbalism"] = "450|450",
+						["Inscription"] = "450|450",
 					},
-					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
-						["Cuero"] = "1|1",
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
 					},
-					["Habilidades de clase"] = {
-						["Combate feral"] = "1|1",
-						["Equilibrio"] = "1|1",
-						["Restauración"] = "1|1",
+					["Secondary Skills"] = {
+						["Cooking"] = "1|75",
+						["Riding"] = "300|300",
+						["First Aid"] = "15|75",
+						["Fishing"] = "35|75",
 					},
-					["Habilidades secundarias"] = {
-						["Cocina"] = "1|75",
-						["Pesca"] = "35|75",
-						["Equitación"] = "300|300",
-						["Primeros auxilios"] = "15|75",
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "1|400",
+						["Defense"] = "400|400",
+						["Unarmed"] = "2|400",
+						["Staves"] = "317|400",
+						["Maces"] = "7|400",
+						["Polearms"] = "1|400",
+						["Daggers"] = "1|400",
 					},
 				},
 			},

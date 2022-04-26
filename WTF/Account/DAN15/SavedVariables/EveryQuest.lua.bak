@@ -1,0 +1,12 @@
+
+EveryQuestDB = nil
+EQ2DB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["querytime"] = 1592535639,
+		},
+	},
+}

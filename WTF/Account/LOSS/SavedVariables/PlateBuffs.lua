@@ -1,7 +1,7 @@
 
 PB_DB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Default",
+		["Lossana - WoWArg"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

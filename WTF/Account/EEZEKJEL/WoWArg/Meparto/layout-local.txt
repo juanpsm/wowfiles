@@ -1,0 +1,15 @@
+Version: 1
+Frame: DBMMinimapButton
+FrameLevel: 3
+Anchor: TOPRIGHT
+X: -136
+Y: -115
+W: 32
+H: 32
+Frame: KoordinatorMiniWindowFrame
+FrameLevel: 23
+Anchor: TOPRIGHT
+X: -43
+Y: -187
+W: 46
+H: 24

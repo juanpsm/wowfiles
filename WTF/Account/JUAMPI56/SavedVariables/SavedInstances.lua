@@ -2,22 +2,18 @@
 SavedInstancesDB = {
 	["DBVersion"] = 10,
 	["Toons"] = {
-		["Arbull - WoWArg"] = {
+		["Snts - WoWArg"] = {
 			["AlwaysShow"] = false,
-			["Class"] = "DRUID",
-		},
-		["Nightbull - WoWArg"] = {
-			["AlwaysShow"] = false,
-			["Class"] = "WARRIOR",
+			["Class"] = "DEATHKNIGHT",
 		},
 	},
 	["Lockouts"] = {
 	},
 	["Tooltip"] = {
-		["Details"] = false,
-		["CategorySort"] = "EXPANSION",
-		["RecentHistory"] = false,
 		["ReverseInstances"] = false,
+		["CategorySort"] = "EXPANSION",
+		["ShowSoloCategory"] = false,
+		["Details"] = false,
 		["ShowCategories"] = false,
 		["CategorySpaces"] = false,
 		["AltColumnColor"] = {
@@ -26,14 +22,14 @@ SavedInstancesDB = {
 			0.2, -- [3]
 			1, -- [4]
 		},
-		["NewInstanceShow"] = false,
+		["RaidsFirst"] = true,
 		["ShowHints"] = true,
 		["ShowEncounters"] = false,
 		["TrackRandom"] = false,
-		["RaidsFirst"] = true,
+		["NewInstanceShow"] = false,
 		["ColumnStyle"] = "NORMAL",
 		["NewFirst"] = true,
-		["ShowSoloCategory"] = false,
+		["RecentHistory"] = false,
 	},
 	["Instances"] = {
 	},
@@ -73,21 +69,21 @@ SavedInstancesDB = {
 		["D2ClassColor"] = true,
 		["R4ClassColor"] = true,
 		["R3ClassColor"] = true,
-		["R1ClassColor"] = true,
+		["D2Text"] = "5+",
 		["D2Color"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
+		["R1ClassColor"] = true,
+		["D1Text"] = "5",
 		["D1Color"] = {
 			0, -- [1]
 			0.6, -- [2]
 			0, -- [3]
 			1, -- [4]
 		},
-		["D1Text"] = "5",
-		["D2Text"] = "5+",
 		["R2Indicator"] = "BLANK",
 		["R2Color"] = {
 			0.6, -- [1]
@@ -99,5 +95,6 @@ SavedInstancesDB = {
 		["R4Text"] = "25+",
 	},
 	["MinimapIcon"] = {
+		["hide"] = false,
 	},
 }

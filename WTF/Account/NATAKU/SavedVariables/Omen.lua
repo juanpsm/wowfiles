@@ -1,18 +1,33 @@
 
 Omen3DB = {
 	["profileKeys"] = {
-		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Turco - Sin'dorei(WoWArg)"] = "Turco - Sin'dorei(WoWArg)",
 		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Misumi - WoWArg"] = "Misumi - WoWArg",
-		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Epyon - Sin'Dorei"] = "Epyon - Sin'Dorei",
+		["Neruneya - Sin'dorei(WoWArg)"] = "Neruneya - Sin'dorei(WoWArg)",
+		["Epyon - Sin'dorei(WoWArg)"] = "Epyon - Sin'dorei(WoWArg)",
+		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Turco - Sin'Dorei"] = "Turco - Sin'Dorei",
 		["Gaara - WoWArg"] = "Gaara - WoWArg",
 	},
 	["profiles"] = {
-		["Epyon - WoWArg"] = {
-			["PositionW"] = 199.9999353344555,
-			["PositionY"] = 698.40573088548,
+		["Turco - WoWArg"] = {
+			["PositionW"] = 276.3671048905356,
+			["PositionH"] = 148.6808103801695,
+			["VGrip2"] = 158.9110733190207,
+			["PositionY"] = 653.926632581833,
+			["VGrip1"] = 117.4560107140588,
 			["PositionX"] = -0,
-			["PositionH"] = 81.99994109812357,
+		},
+		["Turco - Sin'dorei(WoWArg)"] = {
+			["VGrip2"] = 160.5111249227017,
+			["PositionY"] = 731.256745196176,
+			["PositionW"] = 279.1497881043654,
+			["PositionH"] = 156.468881147611,
+			["PositionX"] = -0,
+			["VGrip1"] = 118.6386575515622,
 		},
 		["Neruneya - WoWArg"] = {
 			["PositionY"] = 595.3504725610388,
@@ -25,13 +40,38 @@ Omen3DB = {
 			["PositionX"] = 794.16662576672,
 			["PositionY"] = 587.0000345681558,
 		},
-		["Turco - WoWArg"] = {
-			["PositionW"] = 276.3671048905356,
-			["PositionH"] = 148.6808103801695,
-			["VGrip2"] = 158.9110733190207,
-			["PositionY"] = 687.171569146691,
-			["VGrip1"] = 117.4560107140588,
+		["Epyon - Sin'Dorei"] = {
+			["PositionY"] = 711.3097976523736,
+			["PositionW"] = 200.0000073100181,
+			["Shown"] = true,
+			["PositionX"] = 171.9444728215285,
+			["PositionH"] = 82.00001307368618,
+		},
+		["Neruneya - Sin'dorei(WoWArg)"] = {
+			["PositionY"] = 709.9799051820367,
+			["PositionW"] = 200.0000073100181,
+			["Shown"] = true,
 			["PositionX"] = -0,
+			["PositionH"] = 82.00001307368618,
+		},
+		["Epyon - Sin'dorei(WoWArg)"] = {
+			["PositionX"] = 777.9348408886705,
+			["PositionY"] = 631.521719574914,
+		},
+		["Epyon - WoWArg"] = {
+			["PositionY"] = 698.40573088548,
+			["PositionW"] = 199.9999353344555,
+			["Shown"] = true,
+			["PositionX"] = -0,
+			["PositionH"] = 81.99994109812357,
+		},
+		["Turco - Sin'Dorei"] = {
+			["VGrip2"] = 151.2666741521256,
+			["PositionY"] = 648.8091700802928,
+			["PositionW"] = 263.0724627331413,
+			["VGrip1"] = 111.8058026341798,
+			["PositionX"] = -0,
+			["PositionH"] = 153.809150188609,
 		},
 		["Gaara - WoWArg"] = {
 			["PositionX"] = 794.16662576672,

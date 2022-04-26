@@ -1,0 +1,24 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["lastUpdate"] = 1553378846,
+				["Stats"] = {
+					["Ranged"] = "131-133|1.9450000923825|326|54|2.7980937957764",
+					["Spell"] = "47|47|54|7.0164937973022|51|96",
+					["Melee"] = "453-594|2.8940001374576|240|54|6.7580938339233|0",
+					["MaxPower"] = "0|6065",
+					["PVP"] = "5|0|0|542",
+					["HealthMax"] = 8752,
+					["Resistances"] = "35|35|35|35|35|35",
+					["Base"] = "130|336|476|250|241|2891",
+					["Defense"] = "2891|360|18.040626525879|0|0|0",
+				},
+			},
+		},
+	},
+}

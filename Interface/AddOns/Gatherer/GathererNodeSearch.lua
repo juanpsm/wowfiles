@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GathererNodeSearch.lua 854 2009-04-16 06:13:47Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GathererNodeSearch.lua 891 2010-10-18 05:06:32Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -29,13 +29,27 @@
 --]]
 
 
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GathererNodeSearch.lua $", "$Rev: 854 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GathererNodeSearch.lua $", "$Rev: 891 $")
 
 Gatherer.NodeSearch = {}
-local lib = Gatherer.NodeSearch
+local public = Gatherer.NodeSearch
 local private = {}
 
-lib.private = private
+function public.Show()
+	private.frame:Show()
+end
+
+function public.Hide()
+	private.frame:Hide()
+end
+
+function public.Toggle()
+	if (private.frame:IsShown()) then
+		public.Hide()
+	else
+		public.Show()
+	end
+end
 
 private.frame = CreateFrame("Frame", nil, UIParent)
 local frame = private.frame
@@ -77,14 +91,14 @@ frame.DragBottom:SetScript("OnMouseUp", function() frame:StopMovingOrSizing() en
 --Hide frame
 frame.Done = CreateFrame("Button", nil, frame, "OptionsButtonTemplate")
 frame.Done:SetPoint("BOTTOMRIGHT", frame, "BOTTOMRIGHT", -10, 10)
-frame.Done:SetScript("OnClick", function() frame:Hide() end)
+frame.Done:SetScript("OnClick", function() public.Hide() end)
 frame.Done:SetText("Done")
 
 --Display Gathereables Report
 frame.GatherablesReport = CreateFrame("Button", nil, frame, "OptionsButtonTemplate")
 frame.GatherablesReport:SetWidth(150)
 frame.GatherablesReport:SetPoint("BOTTOM", frame, "BOTTOM", -142, 10)
-frame.GatherablesReport:SetScript("OnClick", function() frame:Hide() GathererReportFrame:Show() end)
+frame.GatherablesReport:SetScript("OnClick", function() frame:Hide() Gatherer.Report.Show() end)
 frame.GatherablesReport:SetText("Gatherables Report")
 
 --Display Configuration
@@ -198,7 +212,7 @@ frame.resultlist.sheet = ScrollSheet:Create(frame.resultlist, {
 --Get node type Gatherer.Nodes.Objects[  id ]
 
 -- Returns the count of nodes for each "Gather Type" in the zone specified
-lib.GetNodeCountsByGatherType( continent, zone )
+public.GetNodeCountsByGatherType( continent, zone )
 
 -- Returns information on a specific node
 --
@@ -211,7 +225,7 @@ lib.GetNodeCountsByGatherType( continent, zone )
 -- lastInspected - time at which the node was last inspected
 -- source - the source of this node
 --------------------------------------------------------------------------
-lib.GetNodeInfo( continent, zone, gatherName, index )
+public.GetNodeInfo( continent, zone, gatherName, index )
 
 ]]
 local Data = {}

@@ -1,6 +1,6 @@
 ﻿--[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
+	Version: 3.1.16 (<%codename%>)
 	Revision: $Id: GatherManifest.lua 754 2008-10-14 04:43:39Z Esamynn $
 
 	Gatherer Manifest
@@ -103,4 +103,4 @@ function manifest.Validate()
 	return true
 end
 
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherManifest.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherManifest.lua $", "$Rev: 754 $")

@@ -1,0 +1,41 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["lastUpdate"] = 1553378843,
+				["Skills"] = {
+					["Habilidades con armas"] = {
+						["Sin armas"] = "3|360",
+						["Bastones"] = "99|360",
+						["Defensa"] = "360|360",
+						["Mazas"] = "47|360",
+						["Dagas"] = "1|360",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+						["Idioma: darnassiano"] = "300|300",
+					},
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
+						["Cuero"] = "1|1",
+					},
+					["Habilidades de clase"] = {
+						["Combate feral"] = "1|1",
+						["Equilibrio"] = "1|1",
+						["Restauración"] = "1|1",
+					},
+					["Habilidades secundarias"] = {
+						["Cocina"] = "1|75",
+						["Pesca"] = "1|75",
+						["Equitación"] = "225|225",
+						["Primeros auxilios"] = "1|75",
+					},
+				},
+			},
+		},
+	},
+}

@@ -1,5 +1,7 @@
 
 TipTac_Config = {
-	["top"] = 530.9189435457183,
-	["left"] = 865.522558180615,
+	["top"] = 190.6667868680163,
+	["colorNameByClass"] = true,
+	["left"] = 1492.333459626893,
+	["targetYouText"] = "<<YOU>>",
 }

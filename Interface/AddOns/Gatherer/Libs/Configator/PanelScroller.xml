@@ -1,8 +1,8 @@
 <Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/">
 <!--
 	Enchantrix:Barker Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: PanelScroller.xml 130 2008-10-11 12:38:07Z Norganna $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: PanelScroller.xml 282 2010-10-13 18:02:57Z brykrys $
 	URL: http://auctioneeraddon.com/dl/
 
 	License:
@@ -28,7 +28,7 @@
 		http://www.fsf.org/licensing/licenses/gpl-faq.html#InterpreterIncompat
 -->
 	<Script>
-		LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/PanelScroller.xml $","$Rev: 130 $","5.1.DEV.", 'auctioneer', 'libs')
+		LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/PanelScroller.xml $","$Rev: 282 $","5.1.DEV.", 'auctioneer', 'libs')
 	</Script>
 	<Script file="PanelScroller.lua"/>
 	<Texture name="PanelScrollerScrollBarButton" virtual="true">
@@ -98,11 +98,11 @@
 		</Frames>
 		<Scripts>
 			<OnLoad>
-				self.incrButton = getglobal(self:GetName().."ScrollRightButton")
-				self.decrButton = getglobal(self:GetName().."ScrollLeftButton")
+				self.incrButton = _G[self:GetName().."ScrollRightButton"]
+				self.decrButton = _G[self:GetName().."ScrollLeftButton"]
 			</OnLoad>
 			<OnValueChanged>
-				self:GetParent():ScrollToCoords(arg1, nil);
+				self:GetParent():ScrollToCoords(value, nil);
 			</OnValueChanged>
 		</Scripts>
 		<ThumbTexture name="$parentThumbTexture" inherits="PanelScrollerScrollBarButton" file="Interface\Buttons\UI-ScrollBar-Knob">
@@ -141,11 +141,11 @@
 		</Frames>
 		<Scripts>
 			<OnLoad>
-				self.incrButton = getglobal(self:GetName().."ScrollUpButton")
-				self.decrButton = getglobal(self:GetName().."ScrollDownButton")
+				self.incrButton = _G[self:GetName().."ScrollUpButton"]
+				self.decrButton = _G[self:GetName().."ScrollDownButton"]
 			</OnLoad>
 			<OnValueChanged>
-				self:GetParent():ScrollToCoords(nil, arg1);
+				self:GetParent():ScrollToCoords(nil, value);
 			</OnValueChanged>
 		</Scripts>
 		<ThumbTexture name="$parentThumbTexture" inherits="PanelScrollerScrollBarButton" file="Interface\Buttons\UI-ScrollBar-Knob">
@@ -193,7 +193,7 @@
 				self:Update()
 			</OnVerticalScroll>
 			<OnMouseWheel>
-				self:MouseScroll(arg1);
+				self:MouseScroll(delta);
 			</OnMouseWheel>
 		</Scripts>
 	</ScrollFrame>

@@ -1,6 +1,8 @@
 
 Omen3DB = {
 	["profileKeys"] = {
+		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
@@ -10,10 +12,24 @@ Omen3DB = {
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
 		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
-		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
+		["Eldorath - Sin'dorei(WoWArg)"] = "Eldorath - Sin'dorei(WoWArg)",
+		["Skom - WoWArg"] = "Skom - WoWArg",
+		["Crobar - Sin'Dorei"] = "Crobar - Sin'Dorei",
 	},
 	["profiles"] = {
+		["Skom - Sin'Dorei"] = {
+			["PositionX"] = 777.9348408886705,
+			["PositionY"] = 631.521719574914,
+		},
+		["Crobar - Sin'dorei(WoWArg)"] = {
+			["VGrip2"] = 144.1555642106174,
+			["PositionY"] = 680.7244301015018,
+			["PositionW"] = 250.7053156694244,
+			["VGrip1"] = 106.5497648513259,
+			["PositionX"] = -0,
+			["PositionH"] = 120.5642676054229,
+		},
 		["Rivothrill - WoWArg"] = {
 			["VGrip2"] = 168.6538499958202,
 			["PositionY"] = 783.2330340279233,
@@ -43,11 +59,11 @@ Omen3DB = {
 			["PositionY"] = 623.5713865820857,
 		},
 		["Crobar - WoWArg"] = {
-			["PositionW"] = 285.333226682044,
-			["PositionH"] = 129.2274892386342,
-			["VGrip2"] = 164.0665830670462,
-			["PositionY"] = 713.9204952593478,
-			["VGrip1"] = 121.2666048756429,
+			["PositionW"] = 298.937075856409,
+			["PositionH"] = 173.1109447769605,
+			["VGrip2"] = 171.8888056267792,
+			["PositionY"] = 699.2925417923925,
+			["VGrip1"] = 127.0482476371847,
 			["PositionX"] = -0,
 		},
 		["Subjected - WoWArg"] = {
@@ -66,13 +82,25 @@ Omen3DB = {
 			["PositionX"] = 791.0294989453541,
 			["PositionY"] = 639.7059168481227,
 		},
+		["Perruco - WoWArg"] = {
+			["PositionX"] = 791.0294989453541,
+			["PositionY"] = 639.7059168481227,
+		},
+		["Eldorath - Sin'dorei(WoWArg)"] = {
+			["PositionX"] = 777.9348408886705,
+			["PositionY"] = 631.521719574914,
+		},
 		["Skom - WoWArg"] = {
 			["PositionX"] = 770.6168605940205,
 			["PositionY"] = 573.701259533538,
 		},
-		["Perruco - WoWArg"] = {
-			["PositionX"] = 791.0294989453541,
-			["PositionY"] = 639.7059168481227,
+		["Crobar - Sin'Dorei"] = {
+			["VGrip2"] = 153.4000578323677,
+			["PositionY"] = 688.7030651678974,
+			["PositionW"] = 266.7826950223205,
+			["PositionH"] = 155.1391146345086,
+			["PositionX"] = -0,
+			["VGrip1"] = 113.3826514413152,
 		},
 	},
 }

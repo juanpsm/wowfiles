@@ -4,8 +4,8 @@
 	http://localizer.norganna.org/
 
 	AddOn: Gatherer
-	Revision: $Id: GatherStrings.lua 854 2009-04-16 06:13:47Z Esamynn $
-	Version: 3.1.14 (<%codename%>)
+	Revision: $Id: GatherStrings.lua 846 2009-04-15 22:07:52Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
 
 	License:
 		This program is free software; you can redistribute it and/or

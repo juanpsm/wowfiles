@@ -52,6 +52,7 @@ GUPPET_CM_SAVEDDATA = {
 		[6654] = {
 		},
 		[32240] = {
+			true, -- [1]
 		},
 		[34795] = {
 		},
@@ -106,7 +107,6 @@ GUPPET_CM_SAVEDDATA = {
 		[63844] = {
 		},
 		[59788] = {
-			true, -- [1]
 		},
 		[458] = {
 		},
@@ -125,6 +125,7 @@ GUPPET_CM_SAVEDDATA = {
 		[63637] = {
 		},
 		[23219] = {
+			true, -- [1]
 		},
 		[23227] = {
 		},
@@ -133,7 +134,6 @@ GUPPET_CM_SAVEDDATA = {
 		[23243] = {
 		},
 		[23251] = {
-			true, -- [1]
 		},
 		[43900] = {
 		},
@@ -168,7 +168,6 @@ GUPPET_CM_SAVEDDATA = {
 		[59567] = {
 		},
 		[49379] = {
-			true, -- [1]
 		},
 		[24242] = {
 		},
@@ -225,7 +224,6 @@ GUPPET_CM_SAVEDDATA = {
 		[35025] = {
 		},
 		[59569] = {
-			true, -- [1]
 		},
 		[23221] = {
 		},
@@ -256,7 +254,6 @@ GUPPET_CM_SAVEDDATA = {
 		[59650] = {
 		},
 		[6653] = {
-			true, -- [1]
 		},
 		[26056] = {
 		},
@@ -267,7 +264,6 @@ GUPPET_CM_SAVEDDATA = {
 		[580] = {
 		},
 		[32244] = {
-			true, -- [1]
 		},
 		[18990] = {
 		},
@@ -316,7 +312,6 @@ GUPPET_CM_SAVEDDATA = {
 		[48027] = {
 		},
 		[32245] = {
-			true, -- [1]
 		},
 		[17450] = {
 		},
@@ -409,6 +404,7 @@ GUPPET_CM_SAVEDDATA = {
 		[59996] = {
 		},
 		[10793] = {
+			true, -- [1]
 		},
 		[35712] = {
 		},
@@ -475,7 +471,6 @@ GUPPET_CM_SAVEDDATA = {
 		[35020] = {
 		},
 		[60119] = {
-			true, -- [1]
 		},
 		[16055] = {
 		},
@@ -526,12 +521,12 @@ GUPPET_CM_SAVEDDATA = {
 	},
 	["PlayerInfo"] = {
 		{
-			["Name"] = "Muelapicada",
-			["Faction"] = "Horde",
-			["FactionId"] = 2,
-			["Class"] = "HUNTER",
-			["ClassId"] = 6,
-			["Realm"] = "Sin'Dorei",
+			["Name"] = "Delatierra",
+			["Faction"] = "Alliance",
+			["FactionId"] = 1,
+			["Class"] = "DRUID",
+			["ClassId"] = 7,
+			["Realm"] = "WoWArg",
 		}, -- [1]
 	},
 	["Companions"] = {
@@ -586,7 +581,6 @@ GUPPET_CM_SAVEDDATA = {
 		[62746] = {
 		},
 		[42609] = {
-			true, -- [1]
 		},
 		[45175] = {
 		},
@@ -649,6 +643,7 @@ GUPPET_CM_SAVEDDATA = {
 		[10704] = {
 		},
 		[10706] = {
+			true, -- [1]
 		},
 		[28505] = {
 		},
@@ -717,12 +712,10 @@ GUPPET_CM_SAVEDDATA = {
 		[43697] = {
 		},
 		[65358] = {
-			true, -- [1]
 		},
 		[10703] = {
 		},
 		[15067] = {
-			true, -- [1]
 		},
 		[24988] = {
 		},
@@ -755,7 +748,6 @@ GUPPET_CM_SAVEDDATA = {
 		[74932] = {
 		},
 		[70613] = {
-			true, -- [1]
 		},
 		[15048] = {
 		},
@@ -768,7 +760,6 @@ GUPPET_CM_SAVEDDATA = {
 		[65682] = {
 		},
 		[75906] = {
-			true, -- [1]
 		},
 		[15049] = {
 		},

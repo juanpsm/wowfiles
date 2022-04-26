@@ -2,23 +2,16 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["profiles"] = {
-		["Lossena - Sin'Dorei"] = {
-			["AtlasLootVersion"] = "51102",
-			["AllLinks"] = false,
-		},
-		["Lossana - Sin'Dorei"] = {
+		["Lossana - WoWArg"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
 	},
 }
 AtlasLootWishList = {
-	["Shared"] = {
-	},
 	["Options"] = {
 		["Lossana"] = {
 			["AllowShareWishlistInCombat"] = true,
@@ -27,18 +20,11 @@ AtlasLootWishList = {
 			["markInTable"] = "own",
 			["AllowShareWishlist"] = true,
 		},
-		["Lossena"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
+	},
+	["Shared"] = {
 	},
 	["Own"] = {
 		["Lossana"] = {
-		},
-		["Lossena"] = {
 		},
 	},
 }

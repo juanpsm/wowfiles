@@ -7,6 +7,6 @@ AccountSearchFrameSave = {
 		0, -- [4]
 		0, -- [5]
 	},
-	["debugLvl"] = 0,
 	["attachPosition"] = 1,
+	["debugLvl"] = 0,
 }

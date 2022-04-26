@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["profiles"] = {
+		["Nataku - WoWArg"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["profiles"] = {
+		["Nataku - WoWArg"] = {
+		},
+	},
+}

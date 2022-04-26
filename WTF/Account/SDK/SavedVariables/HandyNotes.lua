@@ -3,13 +3,16 @@ HandyNotesDB = {
 	["profileKeys"] = {
 		["Rivo - WoWArg"] = "Rivo - WoWArg",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Underclub - WoWArg"] = "Underclub - WoWArg",
 		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
-		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
+		["Snts - Sin'dorei(WoWArg)"] = "Snts - Sin'dorei(WoWArg)",
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
+		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Snts - WoWArg"] = "Snts - WoWArg",
 		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
-		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
 	},
 	["profiles"] = {
@@ -17,19 +20,25 @@ HandyNotesDB = {
 		},
 		["Skombrow - Bennu"] = {
 		},
-		["Draenoric - Sin'Dorei"] = {
-		},
-		["Subjected - WoWArg"] = {
+		["Underclub - WoWArg"] = {
 		},
 		["Skombrow - Sin'Dorei"] = {
 		},
-		["Underclub - Sin'Dorei"] = {
+		["Snts - Sin'dorei(WoWArg)"] = {
+		},
+		["Skombrow - Sin'dorei(WoWArg)"] = {
+		},
+		["Skombrow - Kel'Thuzad"] = {
+		},
+		["Firecracker - WoWArg"] = {
+		},
+		["Subjected - WoWArg"] = {
 		},
 		["Snts - WoWArg"] = {
 		},
 		["Skombrow - WoWArg"] = {
 		},
-		["Firecracker - WoWArg"] = {
+		["Subjected - Sin'Dorei"] = {
 		},
 		["Snts - Sin'Dorei"] = {
 		},
@@ -39,13 +48,16 @@ HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Rivo - WoWArg"] = "Rivo - WoWArg",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Underclub - WoWArg"] = "Underclub - WoWArg",
 		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
-		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
+		["Snts - Sin'dorei(WoWArg)"] = "Snts - Sin'dorei(WoWArg)",
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
+		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Snts - WoWArg"] = "Snts - WoWArg",
 		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
-		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
 	},
 	["profiles"] = {
@@ -53,19 +65,25 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Skombrow - Bennu"] = {
 		},
-		["Draenoric - Sin'Dorei"] = {
-		},
-		["Subjected - WoWArg"] = {
+		["Underclub - WoWArg"] = {
 		},
 		["Skombrow - Sin'Dorei"] = {
 		},
-		["Underclub - Sin'Dorei"] = {
+		["Snts - Sin'dorei(WoWArg)"] = {
+		},
+		["Skombrow - Sin'dorei(WoWArg)"] = {
+		},
+		["Skombrow - Kel'Thuzad"] = {
+		},
+		["Firecracker - WoWArg"] = {
+		},
+		["Subjected - WoWArg"] = {
 		},
 		["Snts - WoWArg"] = {
 		},
 		["Skombrow - WoWArg"] = {
 		},
-		["Firecracker - WoWArg"] = {
+		["Subjected - Sin'Dorei"] = {
 		},
 		["Snts - Sin'Dorei"] = {
 		},

@@ -1,0 +1,10 @@
+
+ARLDB2 = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["profiles"] = {
+		["Nataku - WoWArg"] = {
+		},
+	},
+}

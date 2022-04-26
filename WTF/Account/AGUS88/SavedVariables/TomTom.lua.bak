@@ -1,0 +1,19 @@
+
+TomTomDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+TomTomWaypoints = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["profiles"] = {
+		["Delatierra - WoWArg"] = {
+		},
+	},
+}

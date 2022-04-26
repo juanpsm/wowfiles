@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherCommand.lua 754 2008-10-14 04:43:39Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherCommand.lua 891 2010-10-18 05:06:32Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Command parsing and processing
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherCommand.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherCommand.lua $", "$Rev: 891 $")
 
 SLASH_GATHERER1 = "/gather"
 SLASH_GATHERER2 = "/gatherer"
@@ -42,16 +42,18 @@ local function PrintUsageLine( cmd, curSetting, description )
 		Gatherer.Util.ChatPrint(format("  |cffffffff/gatherer %s|r - %s", cmd, description))
 	end
 end
+Gatherer.Command.PrintUsageLine = PrintUsageLine
 
 local function parseOnOff( str )
-	if ( str == "on" or str == "true" or str == "1" ) then
+	if ( str == "on" or str == "true" or str == "1" or str == "enable" ) then
 		return true
-	elseif ( str == "off" or str == "false" or str == "0" ) then
+	elseif ( str == "off" or str == "false" or str == "0" or str == "disable" ) then
 		return false
 	else
 		return nil
 	end
 end
+Gatherer.Command.parseOnOff = parseOnOff
 
 local function parseGatherType( str )
 	if ( str == "treasure" ) then
@@ -66,7 +68,7 @@ end
 function Gatherer.Command.Process( command )
 	local Config = Gatherer.Config
 	command = command:trim():gsub("%s+", " ")
-	if ( command == "" or command == "options" ) then
+	if ( command == "" or command == "options" or command == "config" ) then
 		Config.MakeGuiConfig()
 		Config.Gui:Show()
 	else
@@ -82,22 +84,21 @@ function Gatherer.Command.Process( command )
 			local showTresure = GetSetting("show.minimap.open") and "on" or "off"
 			
 			Print("Usage:")
-			PrintUsageLine("minimap (on|off|toggle)", useMinimap, "turns the gather minimap display on and off")
-			PrintUsageLine("mainmap (on|off|toggle)", useMainmap, "turns the gather mainmap display on and off")
+			PrintUsageLine("minimap (on||off||toggle)", useMinimap, "turns the gather minimap display on and off")
+			PrintUsageLine("mainmap (on||off||toggle)", useMainmap, "turns the gather mainmap display on and off")
 			PrintUsageLine("dist <n>", GetSetting("minimap.distance"), "sets the maximum search distance for display ([100, 5000], default=800)")
 			PrintUsageLine("num <n>", GetSetting("minimap.count"), "sets the maximum number of items to display (default=20, up to 50)")
 		--	PrintUsageLine("fdist <n>", SETTINGS.fadeDist, "sets a fade distance (in units) for the icons to fade out by (default = 20)")
 		--	PrintUsageLine("fperc <n>", SETTINGS.fadePerc, "sets the percentage for fade at max fade distance (default = 80 [=80% faded])")
 		--	PrintUsageLine("theme <name>", SETTINGS.iconSet, "sets the icon theme: original, shaded (default), iconic or iconshade")
 		--	PrintUsageLine("idist <n>", SETTINGS.miniIconDist, "sets the minimap distance at which the gather icon will become iconic (0 = off, 1-60 = pixel radius on minimap, default = 40)")
-			PrintUsageLine("herbs (on|off|toggle)", showHerbs, "select whether to show herb data on the minimap")
-			PrintUsageLine("ore (on|off|toggle)", showOre, "select whether to show mining data on the minimap")
-			PrintUsageLine("treasure (on|off|toggle)", showTresure, "select whether to show treasure data on the minimap")
+			PrintUsageLine("herbs (on||off||toggle)", showHerbs, "select whether to show herb data on the minimap")
+			PrintUsageLine("ore (on||off||toggle)", showOre, "select whether to show mining data on the minimap")
+			PrintUsageLine("treasure (on||off||toggle)", showTresure, "select whether to show treasure data on the minimap")
 			PrintUsageLine("options", nil, "show/hide UI Options dialog.")
-		--	PrintUsageLine("report", nil, "show/hide report dialog.")
-		--	PrintUsageLine("search", nil, "show/hide search dialog.")
-		--	PrintUsageLine("loginfo (on|off)", nil, "show/hide logon information.")
-		--	PrintUsageLine("filterrec (herbs|mining|treasure)", nil, "link display filter to recording for selected gathering type")
+			PrintUsageLine("report", nil, "show/hide report dialog.")
+			PrintUsageLine("search", nil, "show/hide search dialog.")
+			PrintUsageLine("plugin help", nil, "help for Gatherer plugin slash commands")
 		
 		elseif ( cmd == "minimap" ) then
 			local enabled = parseOnOff(p1)
@@ -185,6 +186,16 @@ function Gatherer.Command.Process( command )
 				
 				end
 			end
+		
+		elseif ( cmd == "report" ) then
+			Gatherer.Report.Toggle()
+		
+		elseif ( cmd == "search" ) then
+			Gatherer.NodeSearch.Toggle()
+		
+		elseif ( cmd == "plugin" ) then
+			Gatherer.Plugins.ProcessCommands(p1, p2, p3, p4)
+		
 		end
 	end
 end

@@ -1,14 +1,154 @@
 
 DataStore_TalentsDB = {
 	["profileKeys"] = {
-		["Turco - WoWArg"] = "Turco - WoWArg",
-		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
-		["Gaara - WoWArg"] = "Gaara - WoWArg",
 		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Turco - Sin'dorei(WoWArg)"] = "Turco - Sin'dorei(WoWArg)",
+		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Misumi - WoWArg"] = "Misumi - WoWArg",
+		["Epyon - Sin'Dorei"] = "Epyon - Sin'Dorei",
+		["Neruneya - Sin'dorei(WoWArg)"] = "Neruneya - Sin'dorei(WoWArg)",
+		["Epyon - Sin'dorei(WoWArg)"] = "Epyon - Sin'dorei(WoWArg)",
+		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Turco - Sin'Dorei"] = "Turco - Sin'Dorei",
+		["Gaara - WoWArg"] = "Gaara - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.WoWArg.Gaara"] = {
+				["lastUpdate"] = 1601617591,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Misumi"] = {
+				["lastUpdate"] = 1614891464,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Neruneya"] = {
+				["Glyphs"] = {
+					"1|1|58647|Interface\\Spellbook\\UI-Glyph-Rune-12|521", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|58673|Interface\\Spellbook\\UI-Glyph-Rune-5|515", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1619108316,
+				["Class"] = "DEATHKNIGHT",
+				["TalentTrees"] = {
+					["Unholy|1"] = {
+						2, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						3, -- [5]
+						2, -- [6]
+						3, -- [7]
+						nil, -- [8]
+						nil, -- [9]
+						1, -- [10]
+						2, -- [11]
+						nil, -- [12]
+						2, -- [13]
+						1, -- [14]
+						5, -- [15]
+						2, -- [16]
+						nil, -- [17]
+						3, -- [18]
+						nil, -- [19]
+						1, -- [20]
+						nil, -- [21]
+						1, -- [22]
+						2, -- [23]
+						1, -- [24]
+						3, -- [25]
+						1, -- [26]
+						3, -- [27]
+						3, -- [28]
+						1, -- [29]
+						5, -- [30]
+						1, -- [31]
+					},
+					["Blood|1"] = {
+						2, -- [1]
+						nil, -- [2]
+						3, -- [3]
+						1, -- [4]
+					},
+				},
+				["PointsSpent"] = "6,0,53,0,0,0",
+			},
+			["Default.Sin'dorei(WoWArg).Epyon"] = {
+				["Glyphs"] = {
+					"1|1|58385|Interface\\Spellbook\\UI-Glyph-Rune-12|500", -- [1]
+					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [2]
+					"0|2|||0", -- [3]
+					"1|1|58357|Interface\\Spellbook\\UI-Glyph-Rune-6|496", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1618882879,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Protection|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						1, -- [6]
+						2, -- [7]
+						2, -- [8]
+						5, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						nil, -- [14]
+						2, -- [15]
+						5, -- [16]
+					},
+				},
+				["PointsSpent"] = "0,0,30,0,0,0",
+			},
 			["Default.WoWArg.Turco"] = {
 				["Glyphs"] = {
 					"1|1|58370|Interface\\Spellbook\\UI-Glyph-Rune-8|509", -- [1]
@@ -24,8 +164,8 @@ DataStore_TalentsDB = {
 					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [11]
 					"1|1|58368|Interface\\Spellbook\\UI-Glyph-Rune-17|489", -- [12]
 				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1614978575,
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1648519371,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Fury|1"] = {
@@ -97,23 +237,6 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "18,53,0,57,14,0",
 			},
-			["Default.WoWArg.Misumi"] = {
-				["lastUpdate"] = 1614891464,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
 			["Default.WoWArg.Epyon"] = {
 				["Glyphs"] = {
 					"1|1|58385|Interface\\Spellbook\\UI-Glyph-Rune-12|500", -- [1]
@@ -130,7 +253,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1614711170,
+				["lastUpdate"] = 1617842077,
 				["Class"] = "WARRIOR",
 				["TalentTrees"] = {
 					["Protection|1"] = {
@@ -170,7 +293,7 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1614960719,
+				["lastUpdate"] = 1616019972,
 				["Class"] = "DEATHKNIGHT",
 				["TalentTrees"] = {
 					["Unholy|1"] = {
@@ -215,13 +338,188 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "6,0,53,0,0,0",
 			},
-			["Default.WoWArg.Gaara"] = {
-				["lastUpdate"] = 1601617591,
+			["Default.Sin'dorei(WoWArg).Turco"] = {
 				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
+					"1|1|58370|Interface\\Spellbook\\UI-Glyph-Rune-8|509", -- [1]
+					"1|2|58096|Interface\\Spellbook\\UI-Glyph-Rune-4|484", -- [2]
+					"1|2|58095|Interface\\Spellbook\\UI-Glyph-Rune-1|483", -- [3]
+					"1|1|58357|Interface\\Spellbook\\UI-Glyph-Rune-6|496", -- [4]
+					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [5]
+					"1|1|58366|Interface\\Spellbook\\UI-Glyph-Rune-10|492", -- [6]
+					"1|1|63327|Interface\\Spellbook\\UI-Glyph-Rune-20|765", -- [7]
+					"1|2|68164|Interface\\Spellbook\\UI-Glyph-Rune-17|851", -- [8]
+					"1|2|58095|Interface\\Spellbook\\UI-Glyph-Rune-1|483", -- [9]
+					"1|1|58367|Interface\\Spellbook\\UI-Glyph-Rune-16|494", -- [10]
+					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [11]
+					"1|1|58368|Interface\\Spellbook\\UI-Glyph-Rune-17|489", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1619150024,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Arms|2"] = {
+						nil, -- [1]
+						3, -- [2]
+						2, -- [3]
+						2, -- [4]
+						3, -- [5]
+						1, -- [6]
+						2, -- [7]
+						[14] = 1,
+						[29] = 2,
+						[30] = 5,
+						[31] = 1,
+						[17] = 2,
+						[9] = 2,
+						[19] = 2,
+						[20] = 2,
+						[10] = 3,
+						[21] = 1,
+						[22] = 2,
+						[11] = 3,
+						[24] = 1,
+						[12] = 3,
+						[25] = 3,
+						[26] = 2,
+						[13] = 5,
+						[27] = 3,
+						[28] = 1,
+					},
+					["Fury|1"] = {
+						3, -- [1]
+						[14] = 1,
+						[12] = 2,
+						[6] = 3,
+						[26] = 5,
+						[27] = 1,
+						[3] = 5,
+						[25] = 3,
+						[24] = 1,
+						[10] = 5,
+						[17] = 5,
+						[18] = 3,
+						[19] = 1,
+						[20] = 2,
+						[5] = 5,
+						[22] = 5,
+						[13] = 3,
+					},
+					["Arms|1"] = {
+						3, -- [1]
+						4, -- [2]
+						[5] = 2,
+						[6] = 1,
+						[9] = 2,
+						[11] = 3,
+						[10] = 3,
+					},
+					["Fury|2"] = {
+						3, -- [1]
+						nil, -- [2]
+						2, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						nil, -- [6]
+						1, -- [7]
+						3, -- [8]
+					},
+				},
+				["PointsSpent"] = "18,53,0,57,14,0",
+			},
+			["Default.Sin'Dorei.Turco"] = {
+				["Glyphs"] = {
+					"1|1|58370|Interface\\Spellbook\\UI-Glyph-Rune-8|509", -- [1]
+					"1|2|58096|Interface\\Spellbook\\UI-Glyph-Rune-4|484", -- [2]
+					"1|2|58095|Interface\\Spellbook\\UI-Glyph-Rune-1|483", -- [3]
+					"1|1|58357|Interface\\Spellbook\\UI-Glyph-Rune-6|496", -- [4]
+					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [5]
+					"1|1|58366|Interface\\Spellbook\\UI-Glyph-Rune-10|492", -- [6]
+					"1|1|63327|Interface\\Spellbook\\UI-Glyph-Rune-20|765", -- [7]
+					"1|2|68164|Interface\\Spellbook\\UI-Glyph-Rune-17|851", -- [8]
+					"1|2|58095|Interface\\Spellbook\\UI-Glyph-Rune-1|483", -- [9]
+					"1|1|58367|Interface\\Spellbook\\UI-Glyph-Rune-16|494", -- [10]
+					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [11]
+					"1|1|58368|Interface\\Spellbook\\UI-Glyph-Rune-17|489", -- [12]
+				},
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1640879151,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Arms|2"] = {
+						nil, -- [1]
+						3, -- [2]
+						2, -- [3]
+						2, -- [4]
+						3, -- [5]
+						1, -- [6]
+						2, -- [7]
+						[14] = 1,
+						[29] = 2,
+						[30] = 5,
+						[31] = 1,
+						[17] = 2,
+						[9] = 2,
+						[19] = 2,
+						[20] = 2,
+						[10] = 3,
+						[21] = 1,
+						[22] = 2,
+						[11] = 3,
+						[24] = 1,
+						[12] = 3,
+						[25] = 3,
+						[26] = 2,
+						[13] = 5,
+						[27] = 3,
+						[28] = 1,
+					},
+					["Fury|1"] = {
+						3, -- [1]
+						[3] = 5,
+						[12] = 2,
+						[6] = 3,
+						[13] = 3,
+						[27] = 1,
+						[14] = 1,
+						[25] = 3,
+						[24] = 1,
+						[10] = 5,
+						[17] = 5,
+						[18] = 3,
+						[19] = 1,
+						[20] = 2,
+						[5] = 5,
+						[22] = 5,
+						[26] = 5,
+					},
+					["Arms|1"] = {
+						3, -- [1]
+						4, -- [2]
+						[5] = 2,
+						[6] = 1,
+						[9] = 2,
+						[11] = 3,
+						[10] = 3,
+					},
+					["Fury|2"] = {
+						3, -- [1]
+						nil, -- [2]
+						2, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						nil, -- [6]
+						1, -- [7]
+						3, -- [8]
+					},
+				},
+				["PointsSpent"] = "18,53,0,57,14,0",
+			},
+			["Default.Sin'Dorei.Epyon"] = {
+				["Glyphs"] = {
+					"1|1|58385|Interface\\Spellbook\\UI-Glyph-Rune-12|500", -- [1]
+					"1|2|58097|Interface\\Spellbook\\UI-Glyph-Rune-5|485", -- [2]
 					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
+					"1|1|58357|Interface\\Spellbook\\UI-Glyph-Rune-6|496", -- [4]
 					"0|2|||0", -- [5]
 					"0|1|||0", -- [6]
 					"0|0|||0", -- [7]
@@ -231,23 +529,53 @@ DataStore_TalentsDB = {
 					"0|0|||0", -- [11]
 					"0|0|||0", -- [12]
 				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1630814244,
+				["Class"] = "WARRIOR",
+				["TalentTrees"] = {
+					["Protection|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						1, -- [6]
+						2, -- [7]
+						2, -- [8]
+						5, -- [9]
+						nil, -- [10]
+						nil, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						nil, -- [14]
+						2, -- [15]
+						5, -- [16]
+					},
+				},
+				["PointsSpent"] = "0,0,30,0,0,0",
 			},
 		},
 	},
 }
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
-		["Turco - WoWArg"] = "Turco - WoWArg",
-		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
-		["Gaara - WoWArg"] = "Gaara - WoWArg",
 		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Turco - Sin'dorei(WoWArg)"] = "Turco - Sin'dorei(WoWArg)",
+		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Misumi - WoWArg"] = "Misumi - WoWArg",
+		["Epyon - Sin'Dorei"] = "Epyon - Sin'Dorei",
+		["Neruneya - Sin'dorei(WoWArg)"] = "Neruneya - Sin'dorei(WoWArg)",
+		["Epyon - Sin'dorei(WoWArg)"] = "Epyon - Sin'dorei(WoWArg)",
+		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Turco - Sin'Dorei"] = "Turco - Sin'Dorei",
+		["Gaara - WoWArg"] = "Gaara - WoWArg",
 	},
 	["global"] = {
 		["DEATHKNIGHT"] = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Sangre"] = {
+					["background"] = "DeathKnightBlood",
 					["talents"] = {
 						"1939|Carnicería|INV_Axe_68|1|1|2", -- [1]
 						"1945|Subversión|Spell_DeathKnight_Subversion|1|2|3", -- [2]
@@ -278,14 +606,14 @@ DataStore_TalentsRefDB = {
 						"2034|Atracarse de sangre|Spell_Nature_Reincarnation|10|2|5", -- [27]
 						"1961|Arma de runa danzante|INV_Sword_07|11|2|1", -- [28]
 					},
+					["icon"] = "Spell_Deathknight_BloodPresence",
 					["prereqs"] = {
 						[10] = "3|1",
 						[16] = "3|2",
 					},
-					["icon"] = "Spell_Deathknight_BloodPresence",
-					["background"] = "DeathKnightBlood",
 				},
 				["Escarcha"] = {
+					["background"] = "DeathKnightFrost",
 					["talents"] = {
 						"2031|Toque helado mejorado|Spell_DeathKnight_IceTouch|1|1|3", -- [1]
 						"2020|Maestría en poder rúnico|Spell_Arcane_Arcane01|1|2|2", -- [2]
@@ -317,14 +645,14 @@ DataStore_TalentsRefDB = {
 						"1998|Acechador de tundra|Spell_Nature_Tranquility|10|2|5", -- [28]
 						"1989|Explosión aullante|Spell_Frost_ArcticWinds|11|2|1", -- [29]
 					},
+					["icon"] = "Spell_Deathknight_FrostPresence",
 					["prereqs"] = {
 						[7] = "1|1",
 						[16] = "3|1",
 					},
-					["icon"] = "Spell_Deathknight_FrostPresence",
-					["background"] = "DeathKnightFrost",
 				},
 				["Profano"] = {
+					["background"] = "DeathKnightUnholy",
 					["talents"] = {
 						"2082|Golpes feroces|Spell_Deathknight_PlagueStrike|1|1|2", -- [1]
 						"1932|Virulencia|Spell_Shadow_BurningSpirit|1|2|3", -- [2]
@@ -358,14 +686,13 @@ DataStore_TalentsRefDB = {
 						"2036|Ira de Osahendido|INV_Weapon_Halberd14|10|2|5", -- [30]
 						"2000|Invocar gárgola|Ability_Hunter_Pet_Bat|11|2|1", -- [31]
 					},
+					["icon"] = "Spell_Deathknight_UnholyPresence",
 					["prereqs"] = {
 						[20] = "4|4",
 						[24] = "6|4",
 						[22] = "6|2",
 						[28] = "8|2",
 					},
-					["icon"] = "Spell_Deathknight_UnholyPresence",
-					["background"] = "DeathKnightUnholy",
 				},
 			},
 			["Version"] = 12340,
@@ -375,7 +702,12 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Protección"] = {
+					["prereqs"] = {
+						[18] = "5|2",
+						[25] = "9|2",
+					},
 					["background"] = "WarriorProtection",
+					["icon"] = "Ability_Warrior_DefensiveStance",
 					["talents"] = {
 						"142|Ira sangrienta mejorada|Ability_Racial_BloodRage|1|1|2", -- [1]
 						"1601|Especialización en escudos|INV_Shield_06|1|2|5", -- [2]
@@ -405,14 +737,15 @@ DataStore_TalentsRefDB = {
 						"2246|Escudo de daño|INV_Shield_31|10|3|2", -- [26]
 						"1872|Ola de choque|Ability_Warrior_Shockwave|11|2|1", -- [27]
 					},
-					["icon"] = "Ability_Warrior_DefensiveStance",
-					["prereqs"] = {
-						[18] = "5|2",
-						[25] = "9|2",
-					},
 				},
 				["Armas"] = {
+					["prereqs"] = {
+						[10] = "3|3",
+						[21] = "5|2",
+						[25] = "7|2",
+					},
 					["background"] = "WarriorArms",
+					["icon"] = "Ability_Rogue_Eviscerate",
 					["talents"] = {
 						"124|Golpe heroico mejorado|Ability_Rogue_Ambush|1|1|3", -- [1]
 						"130|Desvío|Ability_Parry|1|2|5", -- [2]
@@ -446,15 +779,15 @@ DataStore_TalentsRefDB = {
 						"2231|Equipo de demolición|Ability_Warrior_Trauma|10|2|5", -- [30]
 						"1863|Filotormenta|Ability_Warrior_Bladestorm|11|2|1", -- [31]
 					},
-					["icon"] = "Ability_Rogue_Eviscerate",
-					["prereqs"] = {
-						[10] = "3|3",
-						[21] = "5|2",
-						[25] = "7|2",
-					},
 				},
 				["Furia"] = {
+					["prereqs"] = {
+						[24] = "7|2",
+						[19] = "5|2",
+						[25] = "7|2",
+					},
 					["background"] = "WarriorFury",
+					["icon"] = "Ability_Warrior_InnerRage",
 					["talents"] = {
 						"2250|Armado hasta los dientes|INV_Shoulder_22|1|1|3", -- [1]
 						"158|Voz retumbante|Spell_Nature_Purge|1|2|2", -- [2]
@@ -483,12 +816,6 @@ DataStore_TalentsRefDB = {
 						"1866|Oleada de sangre|Ability_Warrior_Bloodsurge|9|3|3", -- [25]
 						"2234|Furia interminable|Ability_Warrior_IntensifyRage|10|2|5", -- [26]
 						"1867|Empuñadura de titán|Ability_Warrior_TitansGrip|11|2|1", -- [27]
-					},
-					["icon"] = "Ability_Warrior_InnerRage",
-					["prereqs"] = {
-						[24] = "7|2",
-						[19] = "5|2",
-						[25] = "7|2",
 					},
 				},
 			},

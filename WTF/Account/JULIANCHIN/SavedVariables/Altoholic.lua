@@ -2,38 +2,108 @@
 AltoholicDB = {
 	["profileKeys"] = {
 		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Anetha - WoWArg"] = "Anetha - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
 		["Crobar - WoWArg"] = "Crobar - WoWArg",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom - Sin'dorei(WoWArg)",
+		["Eldorath - Sin'dorei(WoWArg)"] = "Eldorath - Sin'dorei(WoWArg)",
 		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Crobar - Sin'Dorei"] = "Crobar - Sin'Dorei",
 	},
 	["global"] = {
 		["options"] = {
 			["MinimapIconAngle"] = 203,
-			["Lola"] = "K51AYKV55NFA19A@NKUY",
+			["Lola"] = "F12TTCM53ABU29HBYFVT",
 		},
 		["Characters"] = {
 			["Default.Sin'Dorei.Crobar"] = {
 				["Friends"] = {
-					"Gilraenloss", -- [1]
+					"Bufardoll", -- [1]
+					"Delatierra", -- [2]
+					"Doroteo", -- [3]
+					"Elchamaquito", -- [4]
+					"Eldorath", -- [5]
+					"Elevenhour", -- [6]
+					"Elfhelm", -- [7]
+					"Elloderii", -- [8]
+					"Fjaak", -- [9]
+					"Gilraenloss", -- [10]
+					"Jesed", -- [11]
+					"Liomessi", -- [12]
+					"Mcdonald", -- [13]
+					"Miela", -- [14]
+					"Missmoon", -- [15]
+					"Pandemonic", -- [16]
+					"Pick", -- [17]
+					"Reideer", -- [18]
+					"Skombrow", -- [19]
+					"Sttriker", -- [20]
+					"Tenebron", -- [21]
+					"Tenebroza", -- [22]
+					"Tenebrys", -- [23]
+					"Tenebryta", -- [24]
+					"Turco", -- [25]
+					"Wissmoon", -- [26]
+					"Zulux", -- [27]
+				},
+			},
+			["Default.WoWArg.Eldorath"] = {
+				["Friends"] = {
+					"Delatierra", -- [1]
+					"Stormtotems", -- [2]
+				},
+			},
+			["Default.WoWArg.Crobar"] = {
+				["Friends"] = {
+					"Turco", -- [1]
 					"Bufardoll", -- [2]
-					"Crazyfear", -- [3]
-					"Delatierra", -- [4]
-					"Doroteo", -- [5]
-					"Elchamaquito", -- [6]
-					"Eldorath", -- [7]
-					"Elevenhour", -- [8]
-					"Elfhelm", -- [9]
-					"Elloderii", -- [10]
-					"Fjaak", -- [11]
+					"Delatierra", -- [3]
+					"Doroteo", -- [4]
+					"Elchamaquito", -- [5]
+					"Eldorath", -- [6]
+					"Elevenhour", -- [7]
+					"Elfhelm", -- [8]
+					"Elloderii", -- [9]
+					"Fjaak", -- [10]
+					"Gilraenloss", -- [11]
+					"Jesed", -- [12]
+					"Liomessi", -- [13]
+					"Mcdonald", -- [14]
+					"Miela", -- [15]
+					"Missmoon", -- [16]
+					"Pick", -- [17]
+					"Reideer", -- [18]
+					"Skombrow", -- [19]
+					"Sttriker", -- [20]
+					"Tenebron", -- [21]
+					"Tenebroza", -- [22]
+					"Tenebrys", -- [23]
+					"Tenebryta", -- [24]
+					"Wissmoon", -- [25]
+					"Zulux", -- [26]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Crobar"] = {
+				["Friends"] = {
+					"Bufardoll", -- [1]
+					"Crazyfear", -- [2]
+					"Delatierra", -- [3]
+					"Doroteo", -- [4]
+					"Elchamaquito", -- [5]
+					"Eldorath", -- [6]
+					"Elevenhour", -- [7]
+					"Elfhelm", -- [8]
+					"Elloderii", -- [9]
+					"Fjaak", -- [10]
+					"Gilraenloss", -- [11]
 					"Jesed", -- [12]
 					"Liomessi", -- [13]
 					"Mcdonald", -- [14]
@@ -53,76 +123,17 @@ AltoholicDB = {
 					"Zulux", -- [28]
 				},
 			},
-			["Default.WoWArg.Eldorath"] = {
-				["Friends"] = {
-					"Delatierra", -- [1]
-					"Stormtotems", -- [2]
-				},
-			},
-			["Default.WoWArg.Crobar"] = {
-				["Friends"] = {
-					"Gilraenloss", -- [1]
-					"Liomessi", -- [2]
-					"Turco", -- [3]
-					"Bufardoll", -- [4]
-					"Crazyfear", -- [5]
-					"Delatierra", -- [6]
-					"Doroteo", -- [7]
-					"Elchamaquito", -- [8]
-					"Eldorath", -- [9]
-					"Elevenhour", -- [10]
-					"Elfhelm", -- [11]
-					"Elloderii", -- [12]
-					"Fjaak", -- [13]
-					"Jesed", -- [14]
-					"Mcdonald", -- [15]
-					"Miela", -- [16]
-					"Missmoon", -- [17]
-					"Pandemonic", -- [18]
-					"Pick", -- [19]
-					"Reideer", -- [20]
-					"Skombrow", -- [21]
-					"Sttriker", -- [22]
-					"Tenebron", -- [23]
-					"Tenebroza", -- [24]
-					"Tenebrys", -- [25]
-					"Tenebryta", -- [26]
-					"Wissmoon", -- [27]
-					"Zulux", -- [28]
-				},
-			},
 			["Default.WoWArg.Anetha"] = {
 				["Friends"] = {
 					"Elchamaquito", -- [1]
 					"Subjected", -- [2]
 				},
 			},
-			["Default.WoWArg.Skom"] = {
+			["Default.Sin'dorei(WoWArg).Skom"] = {
 				["Friends"] = {
-					"Subjected", -- [1]
+					"Draenoric", -- [1]
 					"Apolodark", -- [2]
 					"Cpudrio", -- [3]
-					"Draenoric", -- [4]
-					"Elchamaquito", -- [5]
-					"Fjaak", -- [6]
-					"Gilraenloss", -- [7]
-					"Jesed", -- [8]
-					"Mcdonald", -- [9]
-					"Nefele", -- [10]
-					"Reideer", -- [11]
-					"Skombrow", -- [12]
-					"Snts", -- [13]
-					"Snykijr", -- [14]
-					"Turco", -- [15]
-					"Ursark", -- [16]
-					"Zulux", -- [17]
-				},
-			},
-			["Default.Sin'Dorei.Skom"] = {
-				["Friends"] = {
-					"Apolodark", -- [1]
-					"Cpudrio", -- [2]
-					"Draenoric", -- [3]
 					"Elchamaquito", -- [4]
 					"Fjaak", -- [5]
 					"Gilraenloss", -- [6]
@@ -167,6 +178,57 @@ AltoholicDB = {
 					"Turco", -- [24]
 					"Wissmoon", -- [25]
 					"Zulux", -- [26]
+				},
+			},
+			["Default.WoWArg.Skom"] = {
+				["Friends"] = {
+					"Apolodark", -- [1]
+					"Cpudrio", -- [2]
+					"Draenoric", -- [3]
+					"Elchamaquito", -- [4]
+					"Fjaak", -- [5]
+					"Gilraenloss", -- [6]
+					"Jesed", -- [7]
+					"Mcdonald", -- [8]
+					"Nefele", -- [9]
+					"Reideer", -- [10]
+					"Skombrow", -- [11]
+					"Snts", -- [12]
+					"Snykijr", -- [13]
+					"Subjected", -- [14]
+					"Turco", -- [15]
+					"Ursark", -- [16]
+					"Zulux", -- [17]
+				},
+				["SavedInstance"] = {
+					["Icecrown Citadel|317"] = "178766|1648531235|1|0",
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Eldorath"] = {
+				["Friends"] = {
+					"Delatierra", -- [1]
+					"Stormtotems", -- [2]
+				},
+			},
+			["Default.Sin'Dorei.Skom"] = {
+				["Friends"] = {
+					"Apolodark", -- [1]
+					"Cpudrio", -- [2]
+					"Draenoric", -- [3]
+					"Elchamaquito", -- [4]
+					"Fjaak", -- [5]
+					"Gilraenloss", -- [6]
+					"Jesed", -- [7]
+					"Mcdonald", -- [8]
+					"Nefele", -- [9]
+					"Reideer", -- [10]
+					"Skombrow", -- [11]
+					"Snts", -- [12]
+					"Snykijr", -- [13]
+					"Subjected", -- [14]
+					"Turco", -- [15]
+					"Ursark", -- [16]
+					"Zulux", -- [17]
 				},
 			},
 		},

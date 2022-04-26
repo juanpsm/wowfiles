@@ -1,0 +1,81 @@
+MACRO 16777236 "cancelaurashadow" INV_Misc_QuestionMark
+#showtooltip Frost Shock
+/cast  [target=Focus] Frost Shock
+END
+MACRO 16777240 "Citru CS" INV_Misc_QuestionMark
+#showtooltip Cleanse Spirit
+/cast [target=Ryonan] Cleanse Spirit
+/cast [target=Pasado] Cleanse Spirit
+END
+MACRO 16777238 "Citru ES" INV_Misc_QuestionMark
+#showtooltip Earth Shield
+/cast [target=Ryonan] Earth Shield
+/cast [target=Pasado] Earth Shield
+END
+MACRO 16777239 "Citru Riptide" INV_Misc_QuestionMark
+#showtooltip Riptide
+/cast [target=Ryonan] Riptide
+/cast [target=Pasado] Riptide
+END
+MACRO 16777234 "CitruHW" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Citru] Healing Wave
+/cast [target=Ryonan] Healing Wave
+/cast [target=Pasado] Healing Wave
+END
+MACRO 16777219 "CitruLHW" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Nataku] Lesser Healing Wave
+/cast [target=Ertac] Lesser Healing Wave
+/cast [target=Ryonan] Lesser Healing Wave
+/cast [target=Pasado] Lesser Healing Wave
+END
+MACRO 16777235 "eita" Ability_Creature_Disease_01
+/follow eita
+END
+MACRO 16777233 "FocusFS" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Frost Shock
+END
+MACRO 16777232 "FocusH" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Focus] Hex
+END
+MACRO 16777229 "FocusP" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Purge
+END
+MACRO 16777228 "FocusS" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast [target=focus] Wind Shear
+END
+MACRO 16777237 "NS+HW" INV_Misc_QuestionMark
+#showtooltip Nature's Swiftness
+/use Platinum Disks of Sorcery
+/castsequence Nature's Swiftness, Healing Wave(Rank 14)
+END
+MACRO 16777245 "Spawm CS" INV_Misc_QuestionMark
+#showtooltip Cleanse Spirit
+/cast [target=Spawm] Cleanse Spirit
+END
+MACRO 16777244 "Spawm ES" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Spawm] Earth Shield
+END
+MACRO 16777243 "Spawm HW" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Spawm] Healing Wave
+END
+MACRO 16777242 "Spawm LHW" INV_Misc_QuestionMark
+#showtooltip Lesser Healing Wave
+/cast [target=Spawm] Lesser Healing Wave
+END
+MACRO 16777241 "Spawm R" INV_Misc_QuestionMark
+/cast [target=focustarget]Choque de llamas
+END
+MACRO 16777225 "TargetS" INV_Misc_QuestionMark
+#showtooltip
+/stopcasting
+/cast Wind Shear
+END

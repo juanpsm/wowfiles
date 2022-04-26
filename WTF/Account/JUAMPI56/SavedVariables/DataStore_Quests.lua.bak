@@ -1,63 +1,59 @@
 
 DataStore_QuestsDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Nightbull"] = {
-				["HistoryLastUpdate"] = 1522877166,
-				["History"] = {
-					[886] = true,
-					[766] = true,
-					[833] = true,
-					[780] = true,
-					[3091] = true,
-					[861] = true,
-					[743] = true,
-					[745] = true,
-					[747] = true,
-					[749] = true,
-					[751] = true,
-					[753] = true,
-					[755] = true,
-					[757] = true,
-					[759] = true,
-					[761] = true,
-					[763] = true,
-					[767] = true,
-					[771] = true,
-					[6362] = true,
-					[844] = true,
-					[1492] = true,
-					[6363] = true,
-					[854] = true,
-					[6364] = true,
-					[860] = true,
-					[6365] = true,
-					[760] = true,
-					[3376] = true,
-					[748] = true,
-					[750] = true,
-					[752] = true,
-					[754] = true,
-					[756] = true,
-					[758] = true,
-					[6361] = true,
-				},
+			["Default.WoWArg.Skombrow"] = {
 				["QuestLinks"] = {
-					[2] = "|cffff8040|Hquest:896:18|h[La fortuna de un minero]|h|r",
+					nil, -- [1]
+					"|cff40c040|Hquest:10253:67|h[Levixus el Invocador de Almas]|h|r", -- [2]
+					nil, -- [3]
+					"|cff40c040|Hquest:9524:70|h[Atrapados en la Ciudadela]|h|r", -- [4]
+					nil, -- [5]
+					"|cffffff00|Hquest:10965:-1|h[Se acabó el sueño]|h|r", -- [6]
+					nil, -- [7]
+					"|cff40c040|Hquest:10705:70|h[El vidente Udalo]|h|r", -- [8]
+					"|cff40c040|Hquest:10882:70|h[Presagista de la Condena]|h|r", -- [9]
+					nil, -- [10]
+					"|cff40c040|Hquest:11216:70|h[Archimago Alturus]|h|r", -- [11]
+					nil, -- [12]
+					"|cff40c040|Hquest:10821:68|h[¡Largo de aquí!]|h|r", -- [13]
+					nil, -- [14]
+					"|cff40c040|Hquest:10772:70|h[El Sendero de la Conquista]|h|r", -- [15]
+					"|cff40c040|Hquest:10577:70|h[Lo que Illidan quiere, lo consigue...]|h|r", -- [16]
+					"|cff40c040|Hquest:10648:70|h[Se busca: Uvuros, plaga de Sombraluna]|h|r", -- [17]
+					"|cff40c040|Hquest:10637:70|h[Una distracción necesaria]|h|r", -- [18]
 				},
-				["HistoryBuild"] = "12340",
-				["lastUpdate"] = 1522877162,
+				["lastUpdate"] = 1499533178,
 				["Rewards"] = {
-					[2] = "r|5335|1|1",
+					[2] = "c|29312|1|0,c|29313|1|0,c|29315|1|1,c|29314|1|1",
+					[17] = "c|31112|1|1,c|31114|1|0,c|31111|1|1,c|31115|1|0",
+					[13] = "c|31793|1|1,c|31792|1|1,c|31790|1|1,c|31791|1|1",
+					[4] = "r|29434|2|1",
+					[9] = "c|31747|1|1,c|31749|1|1,c|31748|1|1",
 				},
 				["Quests"] = {
-					"0|Los Baldíos", -- [1]
-					"1||0|0|0", -- [2]
+					"0|Auchindoun", -- [1]
+					"1|Élite|3|0|0", -- [2]
+					"0|Ciudadela del Fuego Infernal", -- [3]
+					"1|Heroica|0|132000|0", -- [4]
+					"0|Druida", -- [5]
+					"1||0|74000|0", -- [6]
+					"0|El Castillo de la Tempestad", -- [7]
+					"1|Mazmorra|0|0|0", -- [8]
+					"1|Mazmorra|0|132000|0", -- [9]
+					"0|Karazhan", -- [10]
+					"1||0|0|0", -- [11]
+					"0|Montañas Filospada", -- [12]
+					"1|Élite|2|78000|0", -- [13]
+					"0|Valle Sombraluna", -- [14]
+					"1|Élite|3|0|0", -- [15]
+					"1||0|0|0", -- [16]
+					"1|Élite|4|132000|0", -- [17]
+					"1||0|0|0", -- [18]
 				},
-				["HistorySize"] = 36,
 			},
 		},
 	},

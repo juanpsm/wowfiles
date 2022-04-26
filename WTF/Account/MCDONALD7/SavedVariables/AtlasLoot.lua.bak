@@ -1,0 +1,30 @@
+
+AtlasLootOptions = nil
+AtlasLootDB = {
+	["profileKeys"] = {
+		["Mcdonald - WoWArg"] = "Mcdonald - WoWArg",
+	},
+	["profiles"] = {
+		["Mcdonald - WoWArg"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+	},
+}
+AtlasLootWishList = {
+	["Options"] = {
+		["Mcdonald"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+	},
+	["Shared"] = {
+	},
+	["Own"] = {
+		["Mcdonald"] = {
+		},
+	},
+}

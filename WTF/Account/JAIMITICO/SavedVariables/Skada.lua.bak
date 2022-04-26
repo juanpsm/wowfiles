@@ -1,0 +1,18 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Elfhelm - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["scale"] = 1,
+					["point"] = "TOPLEFT",
+					["x"] = 16.71468472278619,
+					["y"] = -228.0236206364904,
+				}, -- [1]
+			},
+		},
+	},
+}

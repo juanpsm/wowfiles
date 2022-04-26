@@ -1,15 +1,15 @@
 
 RecountDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["profiles"] = {
-		["Lossena - Sin'Dorei"] = {
+		["Lossana - WoWArg"] = {
 			["GraphWindowY"] = 0,
 			["MainWindow"] = {
 				["Position"] = {
-					["w"] = 139.9999950766962,
-					["h"] = 200.0000054703376,
+					["w"] = 139.9999997188455,
+					["h"] = 199.9999893161274,
 				},
 			},
 			["Colors"] = {

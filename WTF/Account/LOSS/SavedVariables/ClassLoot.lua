@@ -1,7 +1,7 @@
 
 ClassLootDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "profile",
+		["Lossana - WoWArg"] = "profile",
 	},
 	["profiles"] = {
 		["profile"] = {

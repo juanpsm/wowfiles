@@ -6,17 +6,10 @@ EQ2DBPC = {
 		},
 	},
 	["profileKeys"] = {
-		["Guthrakk - WoWArg"] = "global",
+		["Guthrakk - Sin'Dorei"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
-			["history"] = {
-				[4820] = {
-					[24802] = {
-						["status"] = 0,
-					},
-				},
-			},
 		},
 	},
 }

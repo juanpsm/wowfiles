@@ -531,7 +531,7 @@ GUPPET_CM_SAVEDDATA = {
 			["FactionId"] = 1,
 			["Class"] = "ROGUE",
 			["ClassId"] = 0,
-			["Realm"] = "Sin'Dorei",
+			["Realm"] = "WoWArg",
 		}, -- [1]
 	},
 	["Companions"] = {
@@ -844,7 +844,6 @@ GUPPET_CM_SAVEDDATA = {
 		[62513] = {
 		},
 		[69452] = {
-			true, -- [1]
 		},
 		[32298] = {
 		},

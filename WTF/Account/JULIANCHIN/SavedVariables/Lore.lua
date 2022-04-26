@@ -10,6 +10,7 @@ Lore_Users = {
 	"Crobar", -- [2]
 	"Julianchin", -- [3]
 	"Skombrow", -- [4]
+	"Skom", -- [5]
 }
 Lore_Tabletposition = 0
 Lore_Locked = 0

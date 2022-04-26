@@ -1,0 +1,13 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Shamyy - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Shamyy"] = {
+				["lastUpdate"] = 1592433882,
+			},
+		},
+	},
+}

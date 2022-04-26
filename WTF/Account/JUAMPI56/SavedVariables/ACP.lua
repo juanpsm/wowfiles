@@ -1,2 +1,35 @@
 
-ACP_Data = nil
+ACP_Data = {
+	["sorter"] = "Agrupar por nombre",
+	["NoRecurse"] = false,
+	["NoChildren"] = true,
+	["collapsed"] = {
+		["Bagnon"] = true,
+		["Overachiever"] = true,
+		["Blizzard Addons"] = true,
+		["DBM"] = true,
+		["Altoholic"] = true,
+		["GupPet"] = true,
+		["ComboPointsRedux"] = true,
+		["AtlasLoot"] = true,
+		["ShadowedUnitFrames"] = true,
+		["LightHeaded"] = true,
+		["EveryQuest"] = true,
+		["Libraries"] = true,
+		["Atlas"] = true,
+		["Talented"] = true,
+		["HandyNotes"] = true,
+		["Scrap"] = true,
+		["Leatrix"] = true,
+		["Gatherer"] = true,
+		["Broker"] = true,
+		["OmniCC"] = true,
+		["SpellFlash"] = true,
+		["DataStore"] = true,
+		["XPerl"] = true,
+		["TidyPlates"] = true,
+	},
+	["ProtectedAddons"] = {
+		["ACP"] = true,
+	},
+}

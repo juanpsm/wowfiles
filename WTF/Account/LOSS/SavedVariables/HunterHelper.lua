@@ -1,2 +1,6 @@
 
-HHConfig = nil
+HHConfig = {
+	["profileKeys"] = {
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
+	},
+}

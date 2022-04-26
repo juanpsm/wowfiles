@@ -2,22 +2,6 @@
 SpellFlashAddonConfig = {
 	["LastVersion"] = 56,
 	["SERVER"] = {
-		["server.wowarg.com.ar"] = {
-			["ImmuneIgnore"] = {
-			},
-			["REALM"] = {
-				["Sin'Dorei"] = {
-					["PLAYER"] = {
-						["Draenoric"] = {
-						},
-					},
-				},
-			},
-			["Immune"] = {
-				["PALADIN"] = {
-				},
-			},
-		},
 		["www.wowarg.com.ar"] = {
 			["ImmuneIgnore"] = {
 			},

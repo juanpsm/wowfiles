@@ -1,11 +1,11 @@
 
 FIZ_Data = {
-	["OriginalCollapsed"] = {
-	},
+	["Version"] = 201031,
 	["SSO"] = {
 		["WoWArg"] = {
 		},
 	},
-	["Version"] = 201031,
 	["ChatFrame"] = 0,
+	["OriginalCollapsed"] = {
+	},
 }

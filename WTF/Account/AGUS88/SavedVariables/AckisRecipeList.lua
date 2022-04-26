@@ -1,10 +1,13 @@
 
 ARLDB2 = {
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "Muelapicada - Sin'Dorei",
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+		["Indico - Sin'Dorei"] = "Indico - Sin'Dorei",
 	},
 	["profiles"] = {
-		["Muelapicada - Sin'Dorei"] = {
+		["Delatierra - WoWArg"] = {
+		},
+		["Indico - Sin'Dorei"] = {
 		},
 	},
 }

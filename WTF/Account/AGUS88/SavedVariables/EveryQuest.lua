@@ -2,16 +2,15 @@
 EveryQuestDB = nil
 EQ2DB = {
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "global",
+		["Delatierra - WoWArg"] = "global",
+		["Indico - Sin'Dorei"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
 			["unknowns"] = {
-				[50017] = "162||05/07/21||Muestra de Honor||Dalaran",
-				[50022] = "162||05/07/21||Una amenaza latente||Dalaran",
-				[50015] = "162||05/07/21||Muestra de Valentía||Stormwind City",
+				[13255] = "162||08/03/21||Proof of Demise: Herald Volazj||Ahn'kahet: The Old Kingdom",
 			},
-			["querytime"] = 1620365757,
+			["querytime"] = 1553378750,
 		},
 	},
 }

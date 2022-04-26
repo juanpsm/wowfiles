@@ -1,0 +1,86 @@
+MACRO 16777241 "0Kromtofc" INV_Misc_QuestionMark
+#showtooltip Cleanse
+/cast [target=Descendent] Cleanse
+/cast [target=Manipuladora] Cleanse
+/cast [target=Spawm] Cleanse
+/cast [target=Dtank] Cleanse
+END
+MACRO 16777245 "0Kromtoff" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Descendent] Hand of Freedom
+/cast [target=Manipuladora] Hand of Freedom
+/cast [target=Spawm] Hand of Freedom
+/cast [target=Turco] Hand of Freedom
+END
+MACRO 16777227 "0Kromtoff" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Descendent] Flash of Light
+/cast [target=Manipuladora] Flash of Light
+/cast [target=Spawm] Flash of Light
+/cast [target=Turco] Flash of Light
+END
+MACRO 16777223 "0Kromtofh" INV_Misc_QuestionMark
+#showtooltip Holy Shock
+/cast [target=Descendent] Holy Shock
+/cast [target=Manipuladora] Holy Shock
+/cast [target=Spawm] Holy Shock
+/cast [target=Turco] Holy Shock
+END
+MACRO 16777243 "0Kromtofs" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Descendent] Sacred Shield
+/cast [target=Spawm] Sacred Shield
+/cast [target=Dtank] Sacred Shield
+/cast [target=Donlunfardo] Sacred Shield
+END
+MACRO 16777239 "0z" INV_Misc_QuestionMark
+#showtooltip Beacon of Light
+/cast [target=Nataku] Beacon of Light
+END
+MACRO 16777240 "1Hanzoc" INV_Misc_QuestionMark
+#showtooltip Cleanse
+/cast [target=Heyling] Cleanse
+END
+MACRO 16777232 "1Hanzof" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Heyling] Hand of Freedom
+END
+MACRO 16777244 "1Hanzof" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Heyling] Flash of Light
+END
+MACRO 16777235 "1Hanzoh" INV_Misc_QuestionMark
+#showtooltip Holy Shock
+/cast [target=Heyling] Holy Shock
+END
+MACRO 16777237 "1Hanzos" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Nataku] Sacred Shield
+END
+MACRO 16777234 "1x" Ability_Ambush
+/cast [target=Turco] Hand Of Sacrifice
+END
+MACRO 16777222 "2Natakuc" INV_Misc_QuestionMark
+#showtooltip Cleanse
+/cast [target=Nataku] Cleanse
+END
+MACRO 16777220 "2Natakuf" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Nataku] Hand of Freedom
+END
+MACRO 16777236 "2Natakuf" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Nataku] Flash of Light
+END
+MACRO 16777238 "2Natakuh" INV_Misc_QuestionMark
+#showtooltip Holy Shock
+/cast [target=Nataku] Holy Shock
+END
+MACRO 16777246 "2Natakus" INV_Misc_QuestionMark
+#showtooltip Sacred Shield
+/cast [target=Nataku] Sacred Shield
+END
+MACRO 16777247 "TargetsF" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Turco] Hand Of Protection
+END

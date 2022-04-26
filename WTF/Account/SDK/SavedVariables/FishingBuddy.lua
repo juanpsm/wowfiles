@@ -15,30 +15,28 @@ FishingBuddy_Info = {
 	["enUS"] = {
 		["FishTotals"] = {
 		},
-		["FishingHoles"] = {
-		},
 		["SubZones"] = {
-			[3000] = 1,
+			[2002] = "Teldrassil",
+			[1000] = 4,
+			[1002] = "The Eventide",
+			[1004] = "Krasus' Landing",
+			[2001] = "Shadowglen",
 			[1001] = "Dalaran Merchant's Bank",
 			[1003] = "Dalaran",
-			[2000] = 1,
-			[1000] = 4,
-			[2001] = "Shadowglen",
-			[1004] = "Krasus' Landing",
-			[3001] = "Magmadar Cavern",
-			[1002] = "The Eventide",
+			[2000] = 2,
 		},
 		["FishingSkill"] = {
 		},
+		["FishingHoles"] = {
+		},
 	},
 	["FishInfo2"] = 0,
-	["Version"] = 9817,
-	["ImppDBLoaded"] = 0,
-	["Fishies"] = {
-	},
 	["ZoneIndex"] = {
 		"Dalaran", -- [1]
 		"Teldrassil", -- [2]
-		"Molten Core", -- [3]
 	},
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+	},
+	["Version"] = 9817,
 }

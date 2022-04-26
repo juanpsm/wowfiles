@@ -1,6 +1,6 @@
 MACRO 1 "Decursive" INV_Misc_QuestionMark
 /stopcasting
-/cast [target=mouseover,nomod,exists] Purgar;  [target=mouseover,exists,mod:ctrl] Curar toxinas; [target=mouseover,exists,mod:shift] Maleficio
+/cast [@mouseover,nomod,exists] Limpiar espíritu;  [@mouseover,exists,mod:ctrl] Purgar; [@mouseover,exists,mod:shift] Maleficio
 END
 MACRO 3 "peque dispel" INV_Misc_QuestionMark
 /

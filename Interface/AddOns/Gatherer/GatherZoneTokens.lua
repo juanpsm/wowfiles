@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherZoneTokens.lua 869 2009-08-05 19:54:12Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherZoneTokens.lua 866 2009-08-05 07:53:42Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Functions for converting to and from the locale independent zone tokens
 --]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherZoneTokens.lua $", "$Rev: 869 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherZoneTokens.lua $", "$Rev: 866 $")
 
 -- reference to the Astrolabe mapping library
 local Astrolabe = DongleStub(Gatherer.AstrolabeVersion)

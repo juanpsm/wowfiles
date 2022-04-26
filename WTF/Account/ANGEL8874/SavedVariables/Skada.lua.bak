@@ -1,0 +1,18 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Shino - WoWArg"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["scale"] = 1,
+					["point"] = "TOPLEFT",
+					["x"] = -0,
+					["y"] = -267.9833944442362,
+				}, -- [1]
+			},
+		},
+	},
+}

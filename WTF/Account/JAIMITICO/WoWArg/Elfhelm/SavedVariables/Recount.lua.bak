@@ -1,0 +1,6300 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Elfhelm"] = {
+			["GUID"] = "0x000000000013F9BF",
+			["LastEventHealth"] = {
+				"166 (70%)", -- [1]
+				"166 (70%)", -- [2]
+				"155 (65%)", -- [3]
+				"144 (61%)", -- [4]
+				"144 (61%)", -- [5]
+				"224 (94%)", -- [6]
+				"224 (94%)", -- [7]
+				"224 (94%)", -- [8]
+				"224 (94%)", -- [9]
+				"224 (94%)", -- [10]
+				"224 (94%)", -- [11]
+				"224 (94%)", -- [12]
+				"224 (94%)", -- [13]
+				"224 (94%)", -- [14]
+				"224 (94%)", -- [15]
+				"214 (90%)", -- [16]
+				"214 (90%)", -- [17]
+				"206 (87%)", -- [18]
+				"206 (87%)", -- [19]
+				"206 (87%)", -- [20]
+				"236 (100%)", -- [21]
+				"236 (100%)", -- [22]
+				"236 (100%)", -- [23]
+				"236 (100%)", -- [24]
+				"236 (100%)", -- [25]
+				"229 (97%)", -- [26]
+				"229 (97%)", -- [27]
+				"229 (97%)", -- [28]
+				"229 (97%)", -- [29]
+				"221 (93%)", -- [30]
+				"213 (90%)", -- [31]
+				"211 (89%)", -- [32]
+				"219 (92%)", -- [33]
+				"236 (100%)", -- [34]
+				"236 (100%)", -- [35]
+				"236 (100%)", -- [36]
+				"236 (100%)", -- [37]
+				"236 (100%)", -- [38]
+				"236 (100%)", -- [39]
+				"236 (100%)", -- [40]
+				"225 (95%)", -- [41]
+				"214 (90%)", -- [42]
+				"203 (86%)", -- [43]
+				"190 (80%)", -- [44]
+				"178 (75%)", -- [45]
+				"166 (70%)", -- [46]
+				"166 (70%)", -- [47]
+				"166 (70%)", -- [48]
+				"166 (70%)", -- [49]
+				"166 (70%)", -- [50]
+			},
+			["LastAttackedBy"] = "Chamán Tuercepinos",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["HealingTaken"] = {
+					83, -- [1]
+				},
+				["TimeHeal"] = {
+					3.5, -- [1]
+				},
+				["TimeDamage"] = {
+					542.3399999999999, -- [1]
+				},
+				["ActiveTime"] = {
+					545.8399999999998, -- [1]
+				},
+				["DamageTaken"] = {
+					1151, -- [1]
+				},
+				["Healing"] = {
+					83, -- [1]
+				},
+				["DOT_Time"] = {
+					135, -- [1]
+				},
+				["Damage"] = {
+					7292, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Elfhelm",
+			["level"] = 10,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 43,
+			["LastEventNum"] = {
+				nil, -- [1]
+				4.661016949152542, -- [2]
+				4.661016949152542, -- [3]
+				[15] = 4.237288135593221,
+				[17] = 3.389830508474576,
+				[25] = 2.966101694915254,
+				[29] = 3.389830508474576,
+				[30] = 3.389830508474576,
+				[31] = 4.237288135593221,
+				[40] = 4.661016949152542,
+				[41] = 4.661016949152542,
+				[42] = 4.661016949152542,
+				[43] = 5.508474576271187,
+				[44] = 5.084745762711864,
+				[45] = 5.084745762711864,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 11,
+			["TimeLast"] = {
+				["TimeHeal"] = 1528929527,
+				["OVERALL"] = 1528930090,
+				["DamageTaken"] = 1528930086,
+				["HealingTaken"] = 1528929527,
+				["TimeDamage"] = 1528930090,
+				["Healing"] = 1528929527,
+				["ActiveTime"] = 1528930090,
+				["DOT_Time"] = 1528930014,
+				["Damage"] = 1528930090,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 7886.921,
+			["NextEventNum"] = 6,
+			["LastEventHealthNum"] = {
+				70.33898305084746, -- [1]
+				70.33898305084746, -- [2]
+				65.67796610169492, -- [3]
+				61.01694915254237, -- [4]
+				61.01694915254237, -- [5]
+				94.91525423728814, -- [6]
+				94.91525423728814, -- [7]
+				94.91525423728814, -- [8]
+				94.91525423728814, -- [9]
+				94.91525423728814, -- [10]
+				94.91525423728814, -- [11]
+				94.91525423728814, -- [12]
+				94.91525423728814, -- [13]
+				94.91525423728814, -- [14]
+				94.91525423728814, -- [15]
+				90.67796610169492, -- [16]
+				90.67796610169492, -- [17]
+				87.28813559322033, -- [18]
+				87.28813559322033, -- [19]
+				87.28813559322033, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				97.03389830508475, -- [26]
+				97.03389830508475, -- [27]
+				97.03389830508475, -- [28]
+				97.03389830508475, -- [29]
+				93.64406779661017, -- [30]
+				90.2542372881356, -- [31]
+				89.40677966101696, -- [32]
+				92.79661016949153, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				95.33898305084746, -- [41]
+				90.67796610169492, -- [42]
+				86.01694915254237, -- [43]
+				80.50847457627118, -- [44]
+				75.42372881355932, -- [45]
+				70.33898305084746, -- [46]
+				70.33898305084746, -- [47]
+				70.33898305084746, -- [48]
+				70.33898305084746, -- [49]
+				70.33898305084746, -- [50]
+			},
+			["LastEvents"] = {
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -19 (Physical)", -- [1]
+				"Chamán Tuercepinos Melee Elfhelm Hit -11 (Physical)", -- [2]
+				"Chamán Tuercepinos Melee Elfhelm Hit -11 (Physical)", -- [3]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -23 (Physical)", -- [4]
+				"Elfhelm Disparo Arcano Chamán Tuercepinos Hit -29 (Arcane)", -- [5]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -23 (Physical)", -- [6]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -16 (Physical)", -- [7]
+				"Elfhelm Disparo Arcano Chamán Tuercepinos Miss (Arcane)", -- [8]
+				"Elfhelm Picadura de serpiente (DoT) Chamán Tuercepinos Tick -11 (Nature)", -- [9]
+				"Elfhelm Disparo automático Chamán Tuercepinos Miss (Physical)", -- [10]
+				"Elfhelm Disparo automático Chamán Tuercepinos Crit -38 (Physical)", -- [11]
+				"Elfhelm Melee Chamán Tuercepinos Miss", -- [12]
+				"Elfhelm Picadura de serpiente (DoT) Chamán Tuercepinos Tick -11 (Nature)", -- [13]
+				"Elfhelm Golpe de raptor Chamán Tuercepinos Hit -42 (Physical)", -- [14]
+				"Chamán Tuercepinos Melee Elfhelm Hit -10 (Physical)", -- [15]
+				"Elfhelm Picadura de serpiente (DoT) Chamán Tuercepinos Tick -11 (Nature)", -- [16]
+				"Chamán Tuercepinos Melee Elfhelm Hit -8 (Physical)", -- [17]
+				"Elfhelm Melee Chamán Tuercepinos Hit -31 (Physical)", -- [18]
+				"Elfhelm Picadura de serpiente (DoT) Chamán Tuercepinos Tick -11 (Nature)", -- [19]
+				"Elfhelm Melee Chamán Tuercepinos Hit -31 (Physical)", -- [20]
+				"Elfhelm Disparo automático Defensor Tuercepinos Hit -19 (Physical)", -- [21]
+				"Elfhelm Disparo Arcano Defensor Tuercepinos Hit -29 (Arcane)", -- [22]
+				"Elfhelm Disparo automático Defensor Tuercepinos Hit -20 (Physical)", -- [23]
+				"Elfhelm Disparo automático Defensor Tuercepinos Hit -19 (Physical)", -- [24]
+				"Defensor Tuercepinos Melee Elfhelm Hit -7 (Physical)", -- [25]
+				"Elfhelm Melee Defensor Tuercepinos Hit -34 (Physical)", -- [26]
+				"Elfhelm Disparo automático Defensor Tuercepinos Hit -22 (Physical)", -- [27]
+				"Elfhelm Golpe de raptor Defensor Tuercepinos Crit -76 (Physical)", -- [28]
+				"Chamán Tuercepinos Melee Elfhelm Hit -8 (Physical)", -- [29]
+				"Chamán Tuercepinos Melee Elfhelm Hit -8 (Physical)", -- [30]
+				"Chamán Tuercepinos Melee Elfhelm Hit -10 (Physical)", -- [31]
+				"Elfhelm Disparo automático Chamán Tuercepinos Evade (Physical)", -- [32]
+				"Elfhelm Disparo automático Chamán Tuercepinos Evade (Physical)", -- [33]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -20 (Physical)", -- [34]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -22 (Physical)", -- [35]
+				"Elfhelm Disparo Arcano Chamán Tuercepinos Hit -29 (Arcane)", -- [36]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -24 (Physical)", -- [37]
+				"Elfhelm Disparo automático Chamán Tuercepinos Crit -48 (Physical)", -- [38]
+				"Chamán Tuercepinos Melee Elfhelm Dodge", -- [39]
+				"Chamán Tuercepinos Melee Elfhelm Hit -11 (Physical)", -- [40]
+				"Chamán Tuercepinos Melee Elfhelm Hit -11 (Physical)", -- [41]
+				"Chamán Tuercepinos Melee Elfhelm Hit -11 (Physical)", -- [42]
+				"Chamán Tuercepinos Melee Elfhelm Hit -13 (Physical)", -- [43]
+				"Chamán Tuercepinos Melee Elfhelm Hit -12 (Physical)", -- [44]
+				"Chamán Tuercepinos Melee Elfhelm Hit -12 (Physical)", -- [45]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -19 (Physical)", -- [46]
+				"Chamán Tuercepinos Melee Elfhelm Miss", -- [47]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -24 (Physical)", -- [48]
+				"Elfhelm Disparo automático Chamán Tuercepinos Hit -20 (Physical)", -- [49]
+				"Elfhelm Disparo Arcano Chamán Tuercepinos Hit -29 (Arcane)", -- [50]
+			},
+			["Name"] = "Elfhelm",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				true, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				true, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				true, -- [39]
+				true, -- [40]
+				true, -- [41]
+				true, -- [42]
+				true, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				7880.185, -- [1]
+				7880.435, -- [2]
+				7882.543000000001, -- [3]
+				7883.233, -- [4]
+				7886.921, -- [5]
+				7798.16, -- [6]
+				7799.92, -- [7]
+				7800.755, -- [8]
+				7801.422000000001, -- [9]
+				7802.033, -- [10]
+				7803.117, -- [11]
+				7803.235000000001, -- [12]
+				7804.440000000001, -- [13]
+				7806.452, -- [14]
+				7807.105000000001, -- [15]
+				7807.404000000001, -- [16]
+				7809.116, -- [17]
+				7809.651, -- [18]
+				7810.404000000001, -- [19]
+				7812.915, -- [20]
+				7824.575, -- [21]
+				7825.477, -- [22]
+				7826.233, -- [23]
+				7833.035, -- [24]
+				7833.99, -- [25]
+				7834.139, -- [26]
+				7835.41, -- [27]
+				7837.404000000001, -- [28]
+				7838.157, -- [29]
+				7840.217000000001, -- [30]
+				7842.227, -- [31]
+				7844.441, -- [32]
+				7846.383, -- [33]
+				7851.558, -- [34]
+				7853.150000000001, -- [35]
+				7855.464, -- [36]
+				7856.083000000001, -- [37]
+				7857.889, -- [38]
+				7859.447, -- [39]
+				7861.576, -- [40]
+				7863.617, -- [41]
+				7865.692, -- [42]
+				7867.736, -- [43]
+				7869.782, -- [44]
+				7871.841, -- [45]
+				7873.432, -- [46]
+				7873.934, -- [47]
+				7875.579, -- [48]
+				7877.637, -- [49]
+				7877.738, -- [50]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Chamán Tuercepinos"] = {
+									["count"] = 0,
+								},
+								["Duende sombrío"] = {
+									["count"] = 0,
+								},
+								["Duende oscuro"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 7,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 7,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 173,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 0,
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Arcane"] = 29,
+						["Physical"] = 111,
+						["Melee"] = 33,
+						["Nature"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 67,
+								},
+								["Melee"] = {
+									["count"] = 33,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 29,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 173,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Descarga de las Sombras"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["50%Resistido"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["25%Resistido"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 3,
+					},
+					["TimeHealing"] = {
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 5.76,
+								},
+								["Melee"] = {
+									["count"] = 1.59,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 1.05,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 3.23,
+								},
+							},
+							["amount"] = 11.63,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Poción de sanación"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 11.63,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 44,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 44,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 33,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 33,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 33,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 25,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 67,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 67,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 11.63,
+					["TimeDamaging"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 5.76,
+								},
+								["Melee"] = {
+									["count"] = 1.59,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 1.05,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 3.23,
+								},
+							},
+							["amount"] = 11.63,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight2"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 3,
+					},
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Duende granuja"] = {
+									["count"] = 0,
+								},
+								["Emboscador Tuercepinos"] = {
+									["count"] = 0,
+								},
+								["Lord Melenas"] = {
+									["count"] = 0,
+								},
+								["Rondador Tejemadera"] = {
+									["count"] = 0,
+								},
+								["Duende oscuro"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Arcane"] = 0,
+					},
+					["TimeSpent"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 9.029999999999999,
+								},
+								["Melee"] = {
+									["count"] = 1.1,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0.9,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 1.99,
+								},
+							},
+							["amount"] = 13.02,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 33,
+					["PartialResist"] = {
+						["Oscurecer visión"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Telaraña"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Oscurecer visión"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Telaraña"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 13.02,
+					["ElementTaken"] = {
+						["Melee"] = 33,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 219,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 76,
+									["min"] = 76,
+									["count"] = 1,
+									["amount"] = 76,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 76,
+						},
+						["Picadura de serpiente"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 34,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 34,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 34,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 80,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 80,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 26,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 80,
+								},
+								["Melee"] = {
+									["count"] = 34,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 29,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 76,
+								},
+							},
+							["amount"] = 219,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 13.02,
+					["TimeDamaging"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 9.029999999999999,
+								},
+								["Melee"] = {
+									["count"] = 1.1,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0.9,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 1.99,
+								},
+							},
+							["amount"] = 13.02,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 29,
+						["Physical"] = 156,
+						["Melee"] = 34,
+						["Nature"] = 0,
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Duende granuja"] = {
+									["count"] = 0,
+								},
+								["Duende sombrío"] = {
+									["count"] = 0,
+								},
+								["Defensor Tuercepinos"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Physical"] = 0,
+						["Melee"] = 0,
+						["Arcane"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Emboscador Tuercepinos"] = {
+									["count"] = 0,
+								},
+								["Grell sañoso"] = {
+									["count"] = 0,
+								},
+								["Chamán Tuercepinos"] = {
+									["count"] = 12,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 18,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 18,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 12,
+					["Damage"] = 225,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 44,
+						["Physical"] = 119,
+						["Melee"] = 62,
+						["Arcane"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Arañazo (DoT)"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 42,
+								},
+								["Melee"] = {
+									["count"] = 62,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 44,
+								},
+								["Disparo automático"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 225,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 18,
+								},
+							},
+							["amount"] = 18,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Arañazo (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+						["Arañazo (DoT)"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 3,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0.84,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 2.01,
+								},
+								["Melee"] = {
+									["count"] = 4.88,
+								},
+								["Disparo automático"] = {
+									["count"] = 6.95,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 3.57,
+								},
+							},
+							["amount"] = 18.25,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 18.25,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 42,
+									["min"] = 42,
+									["count"] = 1,
+									["amount"] = 42,
+								},
+								["Dodge"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 42,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 44,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 44,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 38,
+									["min"] = 38,
+									["count"] = 1,
+									["amount"] = 38,
+								},
+								["Hit"] = {
+									["max"] = 23,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 39,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 77,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 31,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 62,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 62,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 18.25,
+					["TimeDamaging"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0.84,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 2.01,
+								},
+								["Melee"] = {
+									["count"] = 4.88,
+								},
+								["Disparo automático"] = {
+									["count"] = 6.95,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 3.57,
+								},
+							},
+							["amount"] = 18.25,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Duende granuja"] = {
+									["count"] = 0,
+								},
+								["Duende sombrío"] = {
+									["count"] = 0,
+								},
+								["Emboscador Tuercepinos"] = {
+									["count"] = 0,
+								},
+								["Grell sañoso"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 36,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 0,
+						["Melee"] = 36,
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 176,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 0,
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Physical"] = 59,
+						["Melee"] = 88,
+						["Arcane"] = 29,
+					},
+					["PartialAbsorb"] = {
+						["Arañazo"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 88,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 29,
+								},
+								["Disparo automático"] = {
+									["count"] = 59,
+								},
+							},
+							["amount"] = 176,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 36,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Arañazo"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Descarga de las Sombras"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Arañazo"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["25%Resistido"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 5.94,
+								},
+								["Melee"] = {
+									["count"] = 6.66,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 1.2,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 3.3,
+								},
+							},
+							["amount"] = 17.1,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 17.1,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 29,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 29,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 32,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 88,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 88,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 59,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 59,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 17.1,
+					["TimeDamaging"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 5.94,
+								},
+								["Melee"] = {
+									["count"] = 6.66,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 1.2,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 3.3,
+								},
+							},
+							["amount"] = 17.1,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Duende granuja"] = {
+									["count"] = 0,
+								},
+								["Grell sañoso"] = {
+									["count"] = 0,
+								},
+								["Defensor Tuercepinos"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 92,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 92,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 306,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 0,
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Physical"] = 219,
+						["Melee"] = 0,
+						["Arcane"] = 87,
+					},
+					["PartialAbsorb"] = {
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 219,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 306,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 92,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Descarga de las Sombras"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["50%Resistido"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 20.73,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 26.64,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 26.64,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 87,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 87,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 171,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 219,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 26.64,
+					["TimeDamaging"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 20.73,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 26.64,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Duende granuja"] = {
+									["count"] = 0,
+								},
+								["Grell sañoso"] = {
+									["count"] = 0,
+								},
+								["Defensor Tuercepinos"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 92,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 8,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Parry"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Arcane"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 92,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 306,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+						["Shadow"] = 0,
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Physical"] = 219,
+						["Melee"] = 0,
+						["Arcane"] = 87,
+					},
+					["PartialAbsorb"] = {
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 219,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 87,
+								},
+							},
+							["amount"] = 306,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 92,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Descarga de las Sombras"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["50%Resistido"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+						["Physical"] = 0,
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 20.73,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 26.64,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 26.64,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 87,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 87,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 48,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 48,
+								},
+								["Hit"] = {
+									["max"] = 24,
+									["min"] = 0,
+									["count"] = 8,
+									["amount"] = 171,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 219,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 26.64,
+					["TimeDamaging"] = {
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 20.73,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 5.91,
+								},
+							},
+							["amount"] = 26.64,
+						},
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0,
+								},
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 0,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["ElementDoneBlock"] = {
+						["Physical"] = 32,
+					},
+					["TimeHealing"] = {
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DOTs"] = {
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Defensor Tuercepinos"] = {
+									["count"] = 12,
+								},
+								["Duende sombrío"] = {
+									["count"] = 15,
+								},
+								["Chamán Tuercepinos"] = {
+									["count"] = 21,
+								},
+								["Duende oscuro"] = {
+									["count"] = 21,
+								},
+								["Emboscador Tuercepinos"] = {
+									["count"] = 12,
+								},
+								["Grell sañoso"] = {
+									["count"] = 30,
+								},
+								["Rondador Tejemadera"] = {
+									["count"] = 3,
+								},
+								["Duende granuja"] = {
+									["count"] = 18,
+								},
+								["Lord Melenas"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 135,
+						},
+					},
+					["ElementDoneResist"] = {
+						["Arcane"] = 11,
+					},
+					["TimeSpent"] = {
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 7.680000000000002,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 11.17,
+								},
+								["Melee"] = {
+									["count"] = 18.67,
+								},
+								["Disparo automático"] = {
+									["count"] = 53.27,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 1.79,
+								},
+							},
+							["amount"] = 92.58,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 8.57,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 6.21,
+								},
+								["Disparo automático"] = {
+									["count"] = 24.14,
+								},
+							},
+							["amount"] = 38.92,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 14.37,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 8.27,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 7.79,
+								},
+								["Disparo automático"] = {
+									["count"] = 53.23,
+								},
+								["Melee"] = {
+									["count"] = 15.42,
+								},
+							},
+							["amount"] = 99.08000000000003,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 4.52,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 10.45,
+								},
+								["Melee"] = {
+									["count"] = 25.61,
+								},
+								["Disparo automático"] = {
+									["count"] = 20.82,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 7.67,
+								},
+							},
+							["amount"] = 69.07000000000001,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 9.380000000000001,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 4.35,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 5.090000000000001,
+								},
+								["Disparo automático"] = {
+									["count"] = 25.84,
+								},
+								["Melee"] = {
+									["count"] = 4.520000000000001,
+								},
+							},
+							["amount"] = 49.18000000000001,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.13,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 7.5,
+								},
+								["Disparo automático"] = {
+									["count"] = 25.66,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 15.07,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 11.89,
+								},
+							},
+							["amount"] = 71.25,
+						},
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 9.43,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 1.36,
+								},
+							},
+							["amount"] = 10.79,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0.64,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0.57,
+								},
+								["Disparo automático"] = {
+									["count"] = 8.279999999999999,
+								},
+							},
+							["amount"] = 9.49,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 4.7,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 6.75,
+								},
+								["Disparo automático"] = {
+									["count"] = 69.85999999999999,
+								},
+							},
+							["amount"] = 83.14999999999998,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0.57,
+								},
+								["Picadura de serpiente"] = {
+									["count"] = 1.59,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 1.56,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 1.69,
+								},
+								["Disparo automático"] = {
+									["count"] = 11.98,
+								},
+								["Melee"] = {
+									["count"] = 1.44,
+								},
+							},
+							["amount"] = 18.83,
+						},
+					},
+					["DamageTaken"] = 1151,
+					["ElementTakenResist"] = {
+						["Shadow"] = 72,
+					},
+					["PartialResist"] = {
+						["Arañazo (DoT)"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["50%Resistido"] = {
+									["max"] = 10,
+									["min"] = 8,
+									["count"] = 4,
+									["amount"] = 37,
+								},
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["25%Resistido"] = {
+									["max"] = 7,
+									["min"] = 5,
+									["count"] = 6,
+									["amount"] = 35,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 72,
+						},
+						["Oscurecer visión"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 121,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 121,
+							["amount"] = 0,
+						},
+						["Arañazo"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Telaraña"] = {
+							["Details"] = {
+								["No Resiste"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Arañazo (DoT)"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 0,
+						},
+						["Descarga de las Sombras"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 11,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 0,
+						},
+						["Oscurecer visión"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 121,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 121,
+							["amount"] = 0,
+						},
+						["Arañazo"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Telaraña"] = {
+							["Details"] = {
+								["No Absorbe"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 545.8399999999998,
+					["ElementTaken"] = {
+						["Shadow"] = 194,
+						["Melee"] = 835,
+						["Physical"] = 122,
+					},
+					["DOT_Time"] = 135,
+					["Damage"] = 7292,
+					["TimeHeal"] = 3.5,
+					["WhoHealed"] = {
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+					["WhoDamaged"] = {
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 92,
+								},
+							},
+							["amount"] = 92,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Descarga de las Sombras"] = {
+									["count"] = 194,
+								},
+								["Melee"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 205,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 229,
+								},
+							},
+							["amount"] = 229,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 94,
+								},
+							},
+							["amount"] = 94,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 190,
+								},
+							},
+							["amount"] = 190,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Arañazo (DoT)"] = {
+									["count"] = 108,
+								},
+								["Arañazo"] = {
+									["count"] = 14,
+								},
+								["Melee"] = {
+									["count"] = 49,
+								},
+							},
+							["amount"] = 171,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 137,
+								},
+							},
+							["amount"] = 137,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["Healing"] = 83,
+					["HealedWho"] = {
+						["Elfhelm"] = {
+							["Details"] = {
+								["Poción de sanación"] = {
+									["count"] = 83,
+								},
+							},
+							["amount"] = 83,
+						},
+					},
+					["Heals"] = {
+						["Poción de sanación"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 83,
+									["min"] = 83,
+									["count"] = 1,
+									["amount"] = 83,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 83,
+						},
+					},
+					["Attacks"] = {
+						["Disparo Arcano"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 58,
+									["min"] = 50,
+									["count"] = 4,
+									["amount"] = 216,
+								},
+								["Hit"] = {
+									["max"] = 29,
+									["min"] = 17,
+									["count"] = 43,
+									["amount"] = 1190,
+								},
+							},
+							["count"] = 48,
+							["amount"] = 1406,
+						},
+						["Golpe de raptor"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 76,
+									["min"] = 76,
+									["count"] = 2,
+									["amount"] = 152,
+								},
+								["Hit"] = {
+									["max"] = 46,
+									["min"] = 36,
+									["count"] = 12,
+									["amount"] = 483,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 635,
+						},
+						["Picadura de serpiente"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 6,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 64,
+									["min"] = 56,
+									["count"] = 2,
+									["amount"] = 120,
+								},
+								["Hit"] = {
+									["max"] = 36,
+									["min"] = 26,
+									["count"] = 39,
+									["amount"] = 1194,
+								},
+							},
+							["count"] = 49,
+							["amount"] = 1314,
+						},
+						["Disparo automático"] = {
+							["Details"] = {
+								["Evade"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Miss"] = {
+									["count"] = 2,
+									["amount"] = 0,
+								},
+								["Crit"] = {
+									["max"] = 50,
+									["min"] = 32,
+									["count"] = 11,
+									["amount"] = 472,
+								},
+								["Hit"] = {
+									["max"] = 26,
+									["min"] = 14,
+									["count"] = 141,
+									["amount"] = 2975,
+								},
+							},
+							["count"] = 156,
+							["amount"] = 3447,
+						},
+						["Picadura de serpiente (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 10,
+									["count"] = 45,
+									["amount"] = 490,
+								},
+							},
+							["count"] = 45,
+							["amount"] = 490,
+						},
+					},
+					["HealingTaken"] = 83,
+					["DamagedWho"] = {
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 259,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 157,
+								},
+								["Melee"] = {
+									["count"] = 307,
+								},
+								["Disparo automático"] = {
+									["count"] = 595,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 1362,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 55,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 112,
+								},
+								["Disparo automático"] = {
+									["count"] = 348,
+								},
+							},
+							["amount"] = 515,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 249,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 126,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 77,
+								},
+								["Disparo automático"] = {
+									["count"] = 580,
+								},
+								["Melee"] = {
+									["count"] = 221,
+								},
+							},
+							["amount"] = 1253,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 140,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 115,
+								},
+								["Melee"] = {
+									["count"] = 278,
+								},
+								["Disparo automático"] = {
+									["count"] = 239,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 77,
+								},
+							},
+							["amount"] = 849,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 44,
+								},
+								["Melee"] = {
+									["count"] = 91,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 224,
+								},
+								["Disparo automático"] = {
+									["count"] = 779,
+								},
+							},
+							["amount"] = 1138,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 215,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 117,
+								},
+								["Disparo automático"] = {
+									["count"] = 329,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 107,
+								},
+								["Melee"] = {
+									["count"] = 262,
+								},
+							},
+							["amount"] = 1030,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 87,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 115,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 25,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 10,
+								},
+								["Disparo automático"] = {
+									["count"] = 79,
+								},
+							},
+							["amount"] = 114,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 137,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 84,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 65,
+								},
+								["Disparo automático"] = {
+									["count"] = 327,
+								},
+								["Melee"] = {
+									["count"] = 129,
+								},
+							},
+							["amount"] = 742,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 17,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 36,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 11,
+								},
+								["Disparo automático"] = {
+									["count"] = 84,
+								},
+								["Melee"] = {
+									["count"] = 26,
+								},
+							},
+							["amount"] = 174,
+						},
+					},
+					["TimeDamage"] = 542.3399999999999,
+					["TimeDamaging"] = {
+						["Defensor Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 7.680000000000002,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 11.17,
+								},
+								["Melee"] = {
+									["count"] = 18.67,
+								},
+								["Disparo automático"] = {
+									["count"] = 53.27,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 1.79,
+								},
+							},
+							["amount"] = 92.58,
+						},
+						["Duende sombrío"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 8.57,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 6.21,
+								},
+								["Disparo automático"] = {
+									["count"] = 24.14,
+								},
+							},
+							["amount"] = 38.92,
+						},
+						["Chamán Tuercepinos"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 14.37,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 8.27,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 7.79,
+								},
+								["Disparo automático"] = {
+									["count"] = 53.23,
+								},
+								["Melee"] = {
+									["count"] = 15.42,
+								},
+							},
+							["amount"] = 99.08000000000003,
+						},
+						["Duende oscuro"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 4.52,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 10.45,
+								},
+								["Melee"] = {
+									["count"] = 25.61,
+								},
+								["Disparo automático"] = {
+									["count"] = 20.82,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 7.67,
+								},
+							},
+							["amount"] = 69.07000000000001,
+						},
+						["Emboscador Tuercepinos"] = {
+							["Details"] = {
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 4.7,
+								},
+								["Melee"] = {
+									["count"] = 1.84,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 6.75,
+								},
+								["Disparo automático"] = {
+									["count"] = 69.85999999999999,
+								},
+							},
+							["amount"] = 83.14999999999998,
+						},
+						["Grell sañoso"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11.13,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 7.5,
+								},
+								["Disparo automático"] = {
+									["count"] = 25.66,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 15.07,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 11.89,
+								},
+							},
+							["amount"] = 71.25,
+						},
+						["Threggil"] = {
+							["Details"] = {
+								["Disparo automático"] = {
+									["count"] = 9.43,
+								},
+								["Disparo Arcano"] = {
+									["count"] = 1.36,
+								},
+							},
+							["amount"] = 10.79,
+						},
+						["Rondador Tejemadera"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0.64,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 0.57,
+								},
+								["Disparo automático"] = {
+									["count"] = 8.279999999999999,
+								},
+							},
+							["amount"] = 9.49,
+						},
+						["Duende granuja"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 9.380000000000001,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 4.35,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 5.090000000000001,
+								},
+								["Disparo automático"] = {
+									["count"] = 25.84,
+								},
+								["Melee"] = {
+									["count"] = 4.520000000000001,
+								},
+							},
+							["amount"] = 49.18000000000001,
+						},
+						["Lord Melenas"] = {
+							["Details"] = {
+								["Disparo Arcano"] = {
+									["count"] = 0.57,
+								},
+								["Picadura de serpiente"] = {
+									["count"] = 1.59,
+								},
+								["Golpe de raptor"] = {
+									["count"] = 1.56,
+								},
+								["Picadura de serpiente (DoT)"] = {
+									["count"] = 1.69,
+								},
+								["Disparo automático"] = {
+									["count"] = 11.98,
+								},
+								["Melee"] = {
+									["count"] = 1.44,
+								},
+							},
+							["amount"] = 18.83,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 91,
+								},
+								["Dodge"] = {
+									["count"] = 5,
+								},
+								["Miss"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 8,
+								},
+								["Parry"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 121,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["ElementDone"] = {
+						["Arcane"] = 1406,
+						["Physical"] = 4082,
+						["Melee"] = 1314,
+						["Nature"] = 490,
+					},
+					["ElementHitsDone"] = {
+						["Arcane"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Crit"] = {
+									["count"] = 4,
+								},
+								["Hit"] = {
+									["count"] = 43,
+								},
+							},
+							["amount"] = 48,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 153,
+								},
+								["Dodge"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 4,
+								},
+								["Crit"] = {
+									["count"] = 13,
+								},
+								["Evade"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 173,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Parry"] = {
+									["count"] = 2,
+								},
+								["Miss"] = {
+									["count"] = 6,
+								},
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 39,
+								},
+							},
+							["amount"] = 49,
+						},
+						["Nature"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 1,
+								},
+								["Tick"] = {
+									["count"] = 45,
+								},
+							},
+							["amount"] = 46,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1528928881,
+			["LastActive"] = 1528930090,
+		},
+	},
+	["FightNum"] = 44,
+	["CombatTimes"] = {
+		{
+			1528928881, -- [1]
+			1528928888, -- [2]
+			"19:28:01", -- [3]
+			"19:28:08", -- [4]
+			"Rondador Tejemadera", -- [5]
+		}, -- [1]
+		{
+			1528928923, -- [1]
+			1528928929, -- [2]
+			"19:28:43", -- [3]
+			"19:28:49", -- [4]
+			"Duende sombrío", -- [5]
+		}, -- [2]
+		{
+			1528928938, -- [1]
+			1528928943, -- [2]
+			"19:28:58", -- [3]
+			"19:29:03", -- [4]
+			"Duende sombrío", -- [5]
+		}, -- [3]
+		{
+			1528928954, -- [1]
+			1528928960, -- [2]
+			"19:29:14", -- [3]
+			"19:29:20", -- [4]
+			"Duende sombrío", -- [5]
+		}, -- [4]
+		{
+			1528929021, -- [1]
+			1528929032, -- [2]
+			"19:30:21", -- [3]
+			"19:30:32", -- [4]
+			"Duende sombrío", -- [5]
+		}, -- [5]
+		{
+			1528929037, -- [1]
+			1528929041, -- [2]
+			"19:30:37", -- [3]
+			"19:30:41", -- [4]
+			"Duende granuja", -- [5]
+		}, -- [6]
+		{
+			1528929044, -- [1]
+			1528929049, -- [2]
+			"19:30:44", -- [3]
+			"19:30:49", -- [4]
+			"Duende granuja", -- [5]
+		}, -- [7]
+		{
+			1528929059, -- [1]
+			1528929063, -- [2]
+			"19:30:59", -- [3]
+			"19:31:03", -- [4]
+			"Duende granuja", -- [5]
+		}, -- [8]
+		{
+			1528929070, -- [1]
+			1528929088, -- [2]
+			"19:31:10", -- [3]
+			"19:31:28", -- [4]
+			"Duende granuja", -- [5]
+		}, -- [9]
+		{
+			1528929104, -- [1]
+			1528929113, -- [2]
+			"19:31:44", -- [3]
+			"19:31:53", -- [4]
+			"Duende oscuro", -- [5]
+		}, -- [10]
+		{
+			1528929122, -- [1]
+			1528929128, -- [2]
+			"19:32:02", -- [3]
+			"19:32:08", -- [4]
+			"Duende granuja", -- [5]
+		}, -- [11]
+		{
+			1528929139, -- [1]
+			1528929149, -- [2]
+			"19:32:19", -- [3]
+			"19:32:29", -- [4]
+			"Grell sañoso", -- [5]
+		}, -- [12]
+		{
+			1528929156, -- [1]
+			1528929180, -- [2]
+			"19:32:36", -- [3]
+			"19:33:00", -- [4]
+			"Duende oscuro", -- [5]
+		}, -- [13]
+		{
+			1528929187, -- [1]
+			1528929194, -- [2]
+			"19:33:07", -- [3]
+			"19:33:14", -- [4]
+			"Grell sañoso", -- [5]
+		}, -- [14]
+		{
+			1528929201, -- [1]
+			1528929212, -- [2]
+			"19:33:21", -- [3]
+			"19:33:32", -- [4]
+			"Duende oscuro", -- [5]
+		}, -- [15]
+		{
+			1528929293, -- [1]
+			1528929316, -- [2]
+			"19:34:53", -- [3]
+			"19:35:16", -- [4]
+			"Duende oscuro", -- [5]
+		}, -- [16]
+		{
+			1528929357, -- [1]
+			1528929366, -- [2]
+			"19:35:57", -- [3]
+			"19:36:06", -- [4]
+			"Grell sañoso", -- [5]
+		}, -- [17]
+		{
+			1528929389, -- [1]
+			1528929397, -- [2]
+			"19:36:29", -- [3]
+			"19:36:37", -- [4]
+			"Grell sañoso", -- [5]
+		}, -- [18]
+		{
+			1528929420, -- [1]
+			1528929437, -- [2]
+			"19:37:04", -- [3]
+			"19:37:17", -- [4]
+			"Lord Melenas", -- [5]
+		}, -- [19]
+		{
+			1528929452, -- [1]
+			1528929471, -- [2]
+			"19:37:32", -- [3]
+			"19:37:51", -- [4]
+			"Grell sañoso", -- [5]
+		}, -- [20]
+		{
+			1528929476, -- [1]
+			1528929485, -- [2]
+			"19:37:56", -- [3]
+			"19:38:05", -- [4]
+			"Threggil", -- [5]
+		}, -- [21]
+		{
+			1528929498, -- [1]
+			1528929547, -- [2]
+			"19:38:18", -- [3]
+			"19:39:07", -- [4]
+			"Grell sañoso", -- [5]
+		}, -- [22]
+		{
+			1528929569, -- [1]
+			1528929582, -- [2]
+			"19:39:29", -- [3]
+			"19:39:42", -- [4]
+			"Rondador Tejemadera", -- [5]
+		}, -- [23]
+		{
+			1528929594, -- [1]
+			1528929602, -- [2]
+			"19:39:55", -- [3]
+			"19:40:02", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [24]
+		{
+			1528929606, -- [1]
+			1528929611, -- [2]
+			"19:40:06", -- [3]
+			"19:40:11", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [25]
+		{
+			1528929617, -- [1]
+			1528929628, -- [2]
+			"19:40:17", -- [3]
+			"19:40:28", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [26]
+		{
+			1528929644, -- [1]
+			1528929653, -- [2]
+			"19:40:44", -- [3]
+			"19:40:53", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [27]
+		{
+			1528929662, -- [1]
+			1528929669, -- [2]
+			"19:41:02", -- [3]
+			"19:41:09", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [28]
+		{
+			1528929674, -- [1]
+			1528929684, -- [2]
+			"19:41:15", -- [3]
+			"19:41:24", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [29]
+		{
+			1528929710, -- [1]
+			1528929714, -- [2]
+			"19:41:51", -- [3]
+			"19:41:54", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [30]
+		{
+			1528929720, -- [1]
+			1528929727, -- [2]
+			"19:42:01", -- [3]
+			"19:42:07", -- [4]
+			"Emboscador Tuercepinos", -- [5]
+		}, -- [31]
+		{
+			1528929736, -- [1]
+			1528929742, -- [2]
+			"19:42:16", -- [3]
+			"19:42:22", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [32]
+		{
+			1528929753, -- [1]
+			1528929762, -- [2]
+			"19:42:33", -- [3]
+			"19:42:42", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [33]
+		{
+			1528929774, -- [1]
+			1528929790, -- [2]
+			"19:42:54", -- [3]
+			"19:43:10", -- [4]
+			"Chamán Tuercepinos", -- [5]
+		}, -- [34]
+		{
+			1528929795, -- [1]
+			1528929803, -- [2]
+			"19:43:15", -- [3]
+			"19:43:23", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [35]
+		{
+			1528929813, -- [1]
+			1528929821, -- [2]
+			"19:43:33", -- [3]
+			"19:43:41", -- [4]
+			"Chamán Tuercepinos", -- [5]
+		}, -- [36]
+		{
+			1528929834, -- [1]
+			1528929851, -- [2]
+			"19:43:54", -- [3]
+			"19:44:11", -- [4]
+			"Chamán Tuercepinos", -- [5]
+		}, -- [37]
+		{
+			1528929857, -- [1]
+			1528929865, -- [2]
+			"19:44:18", -- [3]
+			"19:44:25", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [38]
+		{
+			1528929888, -- [1]
+			1528929895, -- [2]
+			"19:44:48", -- [3]
+			"19:44:55", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [39]
+		{
+			1528929948, -- [1]
+			1528929957, -- [2]
+			"19:45:48", -- [3]
+			"19:45:57", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [40]
+		{
+			1528929982, -- [1]
+			1528929997, -- [2]
+			"19:46:22", -- [3]
+			"19:46:37", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [41]
+		{
+			1528930001, -- [1]
+			1528930017, -- [2]
+			"19:46:42", -- [3]
+			"19:46:57", -- [4]
+			"Chamán Tuercepinos", -- [5]
+		}, -- [42]
+		{
+			1528930028, -- [1]
+			1528930047, -- [2]
+			"19:47:08", -- [3]
+			"19:47:27", -- [4]
+			"Defensor Tuercepinos", -- [5]
+		}, -- [43]
+		{
+			1528930055, -- [1]
+			1528930091, -- [2]
+			"19:47:35", -- [3]
+			"19:48:11", -- [4]
+			"Chamán Tuercepinos", -- [5]
+		}, -- [44]
+	},
+	["FoughtWho"] = {
+		"Chamán Tuercepinos 19:47:35-19:48:11", -- [1]
+		"Defensor Tuercepinos 19:47:08-19:47:27", -- [2]
+		"Chamán Tuercepinos 19:46:42-19:46:57", -- [3]
+		"Defensor Tuercepinos 19:46:22-19:46:37", -- [4]
+		"Defensor Tuercepinos 19:45:48-19:45:57", -- [5]
+	},
+}

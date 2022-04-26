@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Mcdonald - WoWArg"] = "Mcdonald - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Mcdonald"] = {
+				["XPMax"] = 0,
+				["played"] = 1225863,
+				["guildRankName"] = "Oficial",
+				["zone"] = "Halls of Reflection",
+				["lastUpdate"] = 1599871683,
+				["class"] = "Paladin",
+				["race"] = "Dwarf",
+				["level"] = 80,
+				["XP"] = 28216,
+				["RestXP"] = 0,
+				["money"] = 14892596,
+				["gender"] = 2,
+				["guildRankIndex"] = 1,
+				["guildName"] = "Mare Magnum",
+				["name"] = "Mcdonald",
+				["faction"] = "Alliance",
+				["englishRace"] = "Dwarf",
+				["subZone"] = "The Hidden Passage",
+				["lastLogoutTimestamp"] = 1599871683,
+				["englishClass"] = "PALADIN",
+			},
+		},
+	},
+}

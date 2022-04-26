@@ -14,6 +14,10 @@ END
 MACRO 12 "asd" INV_Misc_QuestionMark
 .die
 END
+MACRO 18 "asd" INV_Misc_QuestionMark
+/usa mano derecha
+/use mano izquierda
+END
 MACRO 4 "ddedde" Ability_Rogue_WrongfullyAccused
 /invite 
 END
@@ -21,20 +25,30 @@ MACRO 15 "Decursive" INV_Misc_QuestionMark
 /stopcasting
 /cast [target=mouseover,nomod,exists] Eliminar maldición;  [target=mouseover,exists,mod:ctrl] Suprimir veneno; [target=mouseover,exists,mod:shift] Ciclón
 END
-MACRO 9 "druida" INV_Misc_QuestionMark
+MACRO 10 "Druida" INV_Misc_QuestionMark
 /console PlayerStatLeftDropDown Malee
 END
-MACRO 10 "Druida" INV_Misc_QuestionMark
+MACRO 9 "druida" INV_Misc_QuestionMark
 /console PlayerStatLeftDropDown Malee
 END
 MACRO 14 "follow" INV_Misc_QuestionMark
 /follow
+END
+MACRO 17 "leave" INV_Misc_QuestionMark
+/run LeaveParty()
+END
+MACRO 16 "levle" INV_Misc_QuestionMark
+.level 1
+.level -1
 END
 MACRO 7 "roll 1000" INV_Misc_QuestionMark
 /roll 1000 (1-1000)
 END
 MACRO 6 "rooll" INV_Misc_QuestionMark
 /roll
+END
+MACRO 19 "s" INV_Misc_QuestionMark
+.spectator spectate
 END
 MACRO 1 "salvel" Ability_Mount_Drake_Red
 /roll 99 (1-100)

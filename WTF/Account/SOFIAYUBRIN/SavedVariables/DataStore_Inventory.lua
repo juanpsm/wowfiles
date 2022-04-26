@@ -8,26 +8,26 @@ DataStore_InventoryDB = {
 		["Characters"] = {
 			["Default.WoWArg.Zelphar"] = {
 				["Inventory"] = {
-					"|cffa335ee|Hitem:51137:3820:3626:3520:0:0:0:0:80|h[Casco tejeazote santificado]|h|r", -- [1]
-					"|cffa335ee|Hitem:49975:0:3582:0:0:0:0:0:80|h[Amuleto de centinela osario]|h|r", -- [2]
-					"|cffa335ee|Hitem:51135:3809:3520:0:0:0:0:0:80|h[Espaldares tejeazote santificados]|h|r", -- [3]
+					"|cffa335ee|Hitem:51137:3820:3626:3520:0:0:0:0:80|h[Sanctified Lasherweave Helmet]|h|r", -- [1]
+					"|cffa335ee|Hitem:49975:0:3582:0:0:0:0:0:80|h[Bone Sentinel's Amulet]|h|r", -- [2]
+					"|cffa335ee|Hitem:51135:3809:3520:0:0:0:0:0:80|h[Sanctified Lasherweave Pauldrons]|h|r", -- [3]
 					52019, -- [4]
-					"|cffa335ee|Hitem:50172:3832:3545:3520:3558:0:0:0:80|h[Toga de seda sanguina]|h|r", -- [5]
-					"|cffa335ee|Hitem:50069:0:3563:3520:3531:0:0:0:80|h[Guardapolvo ensangrentado del profesor]|h|r", -- [6]
-					"|cffa335ee|Hitem:51136:3719:3520:3563:0:0:0:0:80|h[Quijotes tejeazote santificados]|h|r", -- [7]
-					"|cffa335ee|Hitem:50009:3232:3563:3520:0:0:0:0:80|h[Botas de crecimiento antinatural]|h|r", -- [8]
-					"|cffa335ee|Hitem:50417:2332:3545:0:0:0:0:0:80|h[Brazales de sueño eterno]|h|r", -- [9]
-					"|cffa335ee|Hitem:51138:3246:3520:0:0:0:0:0:80|h[Guanteletes tejeazote santificados]|h|r", -- [10]
-					"|cffa335ee|Hitem:50424:0:3563:0:0:0:0:0:80|h[Memoria de Malygos]|h|r", -- [11]
-					"|cffa335ee|Hitem:50400:0:3563:0:0:0:0:0:80|h[Sortija Cinérea de sabiduría infinita]|h|r", -- [12]
+					"|cffa335ee|Hitem:50172:3832:3545:3520:3558:0:0:0:80|h[Sanguine Silk Robes]|h|r", -- [5]
+					"|cffa335ee|Hitem:50069:0:3563:3520:3531:0:0:0:80|h[Professor's Bloodied Smock]|h|r", -- [6]
+					"|cffa335ee|Hitem:51136:3719:3520:3563:0:0:0:0:80|h[Sanctified Lasherweave Legplates]|h|r", -- [7]
+					"|cffa335ee|Hitem:50009:3232:3563:3520:0:0:0:0:80|h[Boots of Unnatural Growth]|h|r", -- [8]
+					"|cffa335ee|Hitem:50630:2332:3545:0:0:0:0:0:80|h[Bracers of Eternal Dreaming]|h|r", -- [9]
+					"|cffa335ee|Hitem:51138:3246:3520:0:0:0:0:0:80|h[Sanctified Lasherweave Gauntlets]|h|r", -- [10]
+					"|cffa335ee|Hitem:50424:0:3563:0:0:0:0:0:80|h[Memory of Malygos]|h|r", -- [11]
+					"|cffa335ee|Hitem:50400:0:3563:0:0:0:0:0:80|h[Ashen Band of Endless Wisdom]|h|r", -- [12]
 					50358, -- [13]
-					50339, -- [14]
-					"|cffa335ee|Hitem:50014:3831:3545:0:0:0:0:0:80|h[Gran capa de campeón converso]|h|r", -- [15]
-					"|cffa335ee|Hitem:50429:3854:3520:3520:0:0:0:0:80|h[Archus, gran bastón de Antonidas]|h|r", -- [16]
+					50346, -- [14]
+					"|cffa335ee|Hitem:50668:3831:3545:0:0:0:0:0:80|h[Greatcloak of the Turned Champion]|h|r", -- [15]
+					"|cffa335ee|Hitem:50429:3854:3520:3520:0:0:0:0:80|h[Archus, Greatstaff of Antonidas]|h|r", -- [16]
 					[18] = 50454,
 				},
-				["averageItemLvl"] = 264.4375,
-				["lastUpdate"] = 1570170112,
+				["averageItemLvl"] = 266.875,
+				["lastUpdate"] = 1589604468,
 			},
 			["Default.WoWArg.Gnomeansno"] = {
 				["Inventory"] = {
@@ -55,6 +55,13 @@ DataStore_InventoryDB = {
 			},
 		},
 		["Guilds"] = {
+			["Default.WoWArg.Azeroth Fighters"] = {
+				["Members"] = {
+					["Zelphar"] = {
+						["averageItemLvl"] = 266,
+					},
+				},
+			},
 			["Default.WoWArg.Shadowblades"] = {
 				["Members"] = {
 					["Zelphar"] = {
@@ -65,10 +72,10 @@ DataStore_InventoryDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Azeroth Fighters"] = {
+			["Default.WoWArg.Azote de Rasganorte"] = {
 				["Members"] = {
 					["Zelphar"] = {
-						["averageItemLvl"] = 264,
+						["averageItemLvl"] = 266,
 					},
 				},
 			},

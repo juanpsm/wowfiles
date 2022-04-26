@@ -35,10 +35,10 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["alert_feignDeath"] = true,
 							["alert_offline"] = true,
-							["alert_death"] = true,
 							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -113,13 +113,7 @@ GridDB = {
 					["healingBar_intensity"] = 0.5,
 				},
 				["Default"] = {
-					["fontSize"] = 14,
-					["cornerSize"] = 10,
-					["iconBorderSize"] = 2,
-					["iconSize"] = 17,
-					["enableBarColor"] = true,
-					["textlength"] = 20,
-					["frameHeight"] = 60,
+					["fontSize"] = 12,
 					["statusmap"] = {
 						["corner2"] = {
 							["alert_lowMana"] = true,
@@ -132,7 +126,8 @@ GridDB = {
 						},
 						["baricon4"] = {
 							["debuff_NecroticPlague"] = true,
-							["buff_Riptide"] = true,
+							["debuff_Defile"] = true,
+							["buff_Riptide"] = false,
 						},
 						["baricon8"] = {
 						},
@@ -171,12 +166,18 @@ GridDB = {
 						["baricon2"] = {
 							["debuff_curse"] = false,
 							["buff_MareasVivas"] = true,
-							["debuff_Defile"] = true,
-							["buff_Riptide"] = false,
+							["debuff_Defile"] = false,
+							["buff_Riptide"] = true,
 						},
 					},
-					["frameWidth"] = 86,
+					["iconBorderSize"] = 2,
+					["iconSize"] = 17,
+					["textlength"] = 20,
+					["frameHeight"] = 58,
+					["cornerSize"] = 8,
+					["enableText2"] = true,
 					["healingBar_intensity"] = 0.55,
+					["frameWidth"] = 83,
 				},
 				["class/Chamán"] = {
 					["fontSize"] = 11,
@@ -210,10 +211,10 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["alert_feignDeath"] = true,
 							["alert_offline"] = true,
-							["alert_death"] = true,
 							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -328,6 +329,9 @@ GridDB = {
 				["char/Elchamaquito - WoWArg"] = {
 					["party_state"] = "solo",
 				},
+				["Default"] = {
+					["party_state"] = "heroic_raid",
+				},
 				["class/Chamán"] = {
 					["party_state"] = "solo",
 				},
@@ -402,15 +406,15 @@ GridDB = {
 						["desc"] = "Buff: Renew",
 					},
 					["debuff_magic"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.2,
 							["g"] = 0.6,
 							["b"] = 1,
 						},
-						["order"] = 25,
 						["text"] = "Magia",
-						["enable"] = true,
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Magia",
@@ -468,48 +472,6 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Bufo: Recrecimiento",
 					},
-					["debuff_WeakenedSoul"] = {
-						["enable"] = true,
-						["text"] = "Weakened Soul",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Weakened Soul",
-					},
-					["debuff_curse"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0.6,
-							["g"] = 0,
-							["b"] = 1,
-						},
-						["order"] = 25,
-						["text"] = "Maldición",
-						["enable"] = true,
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Maldición",
-					},
-					["debuff_poison"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0,
-							["g"] = 0.6,
-							["b"] = 0,
-						},
-						["order"] = 25,
-						["text"] = "Veneno",
-						["enable"] = true,
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Veneno",
-					},
-					["debug"] = false,
 					["debuff_MortalStrike"] = {
 						["enable"] = true,
 						["text"] = "Mortal Strike",
@@ -522,6 +484,49 @@ GridDB = {
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Mortal Strike",
+					},
+					["debuff_curse"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.6,
+							["g"] = 0,
+							["b"] = 1,
+						},
+						["text"] = "Maldición",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Maldición",
+					},
+					["debuff_poison"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 0.6,
+							["b"] = 0,
+						},
+						["text"] = "Veneno",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Veneno",
+					},
+					["debug"] = false,
+					["debuff_disease"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.6,
+							["g"] = 0.4,
+							["b"] = 0,
+						},
+						["text"] = "Enfermedad",
+						["order"] = 25,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Enfermedad",
 					},
 					["buff_Rejuvenation"] = {
 						["enable"] = true,
@@ -536,18 +541,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Buff: Rejuvenation",
 					},
-					["debuff_Fantasma"] = {
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
 							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
 						},
 						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Fantasma",
 						["range"] = false,
-						["desc"] = "Debuff: Fantasma",
+						["desc"] = "Debuff: Forbearance",
 					},
 					["buff_MareasVivas"] = {
 						["color"] = {
@@ -562,18 +567,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Bufo: Mareas Vivas",
 					},
-					["debuff_Forbearance"] = {
-						["enable"] = true,
-						["text"] = "Forbearance",
+					["buff_Palabradepoder:escudo"] = {
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0,
 						},
-						["priority"] = 90,
+						["priority"] = 91,
+						["enable"] = true,
+						["text"] = "Palabra de poder: escudo",
 						["range"] = false,
-						["desc"] = "Debuff: Forbearance",
+						["desc"] = "Bufo: Palabra de poder: escudo",
 					},
 					["debuff_Ghost"] = {
 						["enable"] = true,
@@ -627,32 +632,31 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Bufo: Renovar",
 					},
-					["buff_Palabradepoder:escudo"] = {
+					["debuff_Fantasma"] = {
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 0.8,
-							["b"] = 0,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
 						},
-						["priority"] = 91,
+						["priority"] = 90,
 						["enable"] = true,
-						["text"] = "Palabra de poder: escudo",
+						["text"] = "Fantasma",
 						["range"] = false,
-						["desc"] = "Bufo: Palabra de poder: escudo",
+						["desc"] = "Debuff: Fantasma",
 					},
-					["debuff_disease"] = {
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.6,
-							["g"] = 0.4,
-							["b"] = 0,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
 						},
-						["order"] = 25,
-						["text"] = "Enfermedad",
-						["enable"] = true,
 						["priority"] = 90,
 						["range"] = false,
-						["desc"] = "Tipo de debuff: Enfermedad",
+						["desc"] = "Debuff: Weakened Soul",
 					},
 					["buff_Lifebloom"] = {
 						["enable"] = true,
@@ -683,6 +687,8 @@ GridDB = {
 				},
 				["Default"] = {
 					["debuff_NecroticPleague"] = {
+						["text"] = "Necrotic Pleague",
+						["enable"] = false,
 						["duration"] = false,
 						["color"] = {
 							["a"] = 1,
@@ -690,10 +696,8 @@ GridDB = {
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
 						["missing"] = false,
-						["enable"] = false,
-						["text"] = "Necrotic Pleague",
+						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Necrotic Pleague",
 					},
@@ -702,6 +706,8 @@ GridDB = {
 						["duration"] = true,
 					},
 					["debuff_NecroticPlague"] = {
+						["text"] = "Necrotic Plague",
+						["enable"] = true,
 						["duration"] = true,
 						["color"] = {
 							["a"] = 1,
@@ -709,14 +715,14 @@ GridDB = {
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
 						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Necrotic Plague",
+						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Necrotic Plague",
 					},
 					["debuff_Defile"] = {
+						["text"] = "Defile",
+						["enable"] = true,
 						["duration"] = false,
 						["color"] = {
 							["a"] = 1,
@@ -724,10 +730,8 @@ GridDB = {
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
 						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Defile",
+						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Defile",
 					},
@@ -738,6 +742,8 @@ GridDB = {
 						["duration"] = true,
 					},
 					["debuff_Infest"] = {
+						["text"] = "Infest",
+						["enable"] = true,
 						["duration"] = true,
 						["color"] = {
 							["a"] = 1,
@@ -745,10 +751,8 @@ GridDB = {
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
 						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Infest",
+						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Infest",
 					},
@@ -838,44 +842,44 @@ GridDB = {
 						["desc"] = "Bufo: Recrecimiento",
 					},
 					["debuff_curse"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.6,
 							["g"] = 0,
 							["b"] = 1,
 						},
-						["order"] = 25,
 						["text"] = "Maldición",
-						["enable"] = true,
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Maldición",
 					},
 					["debuff_poison"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0,
 							["g"] = 0.6,
 							["b"] = 0,
 						},
-						["order"] = 25,
 						["text"] = "Veneno",
-						["enable"] = true,
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Veneno",
 					},
 					["debug"] = false,
 					["debuff_disease"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.6,
 							["g"] = 0.4,
 							["b"] = 0,
 						},
-						["order"] = 25,
 						["text"] = "Enfermedad",
-						["enable"] = true,
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Enfermedad",
@@ -907,15 +911,15 @@ GridDB = {
 						["desc"] = "Bufo: Renovar",
 					},
 					["debuff_magic"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.2,
 							["g"] = 0.6,
 							["b"] = 1,
 						},
-						["order"] = 25,
 						["text"] = "Magia",
-						["enable"] = true,
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Magia",
@@ -1261,6 +1265,7 @@ GridDB = {
 					["flash"] = true,
 				},
 				["Default"] = {
+					["yOffset"] = -6,
 					["spacing"] = 2,
 				},
 				["class/Chamán"] = {
@@ -1282,6 +1287,8 @@ GridDB = {
 		["GridStatus"] = {
 			["profiles"] = {
 				["char/Elchamaquito - WoWArg"] = {
+					["range"] = false,
+					["debug"] = false,
 					["colors"] = {
 						["UNKNOWN_UNIT"] = {
 							["a"] = 1,
@@ -1425,8 +1432,6 @@ GridDB = {
 							["r"] = 0.91764705882353,
 						},
 					},
-					["range"] = false,
-					["debug"] = false,
 				},
 				["Default"] = {
 					["colors"] = {
@@ -1483,6 +1488,8 @@ GridDB = {
 					},
 				},
 				["class/Chamán"] = {
+					["range"] = false,
+					["debug"] = false,
 					["colors"] = {
 						["UNKNOWN_UNIT"] = {
 							["a"] = 1,
@@ -1590,8 +1597,6 @@ GridDB = {
 						},
 						["PetColorType"] = "Using Fallback color",
 					},
-					["range"] = false,
-					["debug"] = false,
 				},
 			},
 		},
@@ -2035,10 +2040,10 @@ GridDB = {
 					["layouts"] = {
 						["party"] = "Grupo de 5",
 						["solo"] = "Grupo de 5",
-						["arena"] = "Grupo de 5",
 						["heroic_raid"] = "Grupo de 25",
-						["bg"] = "Grupo de 40",
 						["raid"] = "Grupo de 10",
+						["bg"] = "Grupo de 40",
+						["arena"] = "Grupo de 5",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1,
@@ -2065,13 +2070,15 @@ GridDB = {
 					["anchorRel"] = "TOPLEFT",
 					["layouts"] = {
 						["party"] = "Grupo de 5 con mascotas",
+						["raid"] = "By Group 25",
 						["bg"] = "Grupo de 25",
 					},
-					["Spacing"] = 0,
-					["PosY"] = -394.522304787236,
-					["layout"] = "By Group 5",
-					["Padding"] = 0,
+					["ScaleSize"] = 1.1,
 					["PosX"] = 0,
+					["PosY"] = -394.522304787236,
+					["layout"] = "By Group 25",
+					["Padding"] = 0,
+					["Spacing"] = 0,
 					["horizontal"] = true,
 				},
 				["class/Chamán"] = {
@@ -2081,10 +2088,10 @@ GridDB = {
 					["layouts"] = {
 						["party"] = "Grupo de 5",
 						["solo"] = "Grupo de 5",
-						["arena"] = "Grupo de 5",
 						["heroic_raid"] = "Grupo de 25",
-						["bg"] = "Grupo de 40",
 						["raid"] = "Grupo de 10",
+						["bg"] = "Grupo de 40",
+						["arena"] = "Grupo de 5",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1,

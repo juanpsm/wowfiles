@@ -1,7 +1,8 @@
 
 PB_DB = {
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "Default",
+		["Delatierra - WoWArg"] = "Default",
+		["Indico - Sin'Dorei"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

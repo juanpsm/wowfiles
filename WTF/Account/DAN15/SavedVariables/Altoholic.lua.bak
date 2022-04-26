@@ -1,0 +1,57 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["Friends"] = {
+					"Aihusta", -- [1]
+					"Alu", -- [2]
+					"Alura", -- [3]
+					"Arvven", -- [4]
+					"Candas", -- [5]
+					"Citru", -- [6]
+					"Derec", -- [7]
+					"Djamena", -- [8]
+					"Donlunfardo", -- [9]
+					"Eldarion", -- [10]
+					"Ertac", -- [11]
+					"Fatmike", -- [12]
+					"Futuro", -- [13]
+					"Glolck", -- [14]
+					"Heyfer", -- [15]
+					"Heyling", -- [16]
+					"Hope", -- [17]
+					"Insanes", -- [18]
+					"Izanagi", -- [19]
+					"Jergal", -- [20]
+					"Jesica", -- [21]
+					"Kusan", -- [22]
+					"Lockita", -- [23]
+					"Manipuladora", -- [24]
+					"Meldana", -- [25]
+					"Mincest", -- [26]
+					"Nalu", -- [27]
+					"Narco", -- [28]
+					"Natsuki", -- [29]
+					"Nazhmir", -- [30]
+					"Neytiriz", -- [31]
+					"Pasado", -- [32]
+					"Phx", -- [33]
+					"Ryonan", -- [34]
+					"Salviloco", -- [35]
+					"Searinoxs", -- [36]
+					"Spawm", -- [37]
+					"Suzaki", -- [38]
+					"Tami", -- [39]
+					"Thy", -- [40]
+					"Warlok", -- [41]
+					"Wista", -- [42]
+					"Zenos", -- [43]
+				},
+			},
+		},
+	},
+}

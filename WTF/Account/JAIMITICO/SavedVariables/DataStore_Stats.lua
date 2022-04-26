@@ -3,6 +3,7 @@ DataStore_StatsDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,6 +12,20 @@ DataStore_StatsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["lastUpdate"] = 1618962692,
+				["Stats"] = {
+					["Ranged"] = "3-5|2.0000000949949|17|0|2.8977000713348",
+					["Spell"] = "0|0|0|5.4464001655579|0|22",
+					["Melee"] = "10-17|2.8000001329929|8|0|4.7776999473572|0",
+					["MaxPower"] = "0|568",
+					["PVP"] = "0|0|0|0",
+					["HealthMax"] = 218,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "18|27|27|42|35|126",
+					["Defense"] = "126|58|4.5979948043823|0|0|0",
+				},
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["lastUpdate"] = 1528838147,
 				["Stats"] = {

@@ -1,0 +1,139 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["BagBar"] = {
+			["profiles"] = {
+				["Izilabot - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.5001364573817,
+						["point"] = "CENTER",
+						["y"] = 1.499996162950993,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Izilabot - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 53.50002209097124,
+						["point"] = "CENTER",
+						["y"] = 51.49999541789293,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+		},
+		["ActionBars"] = {
+			["profiles"] = {
+				["Izilabot - Sin'Dorei"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4998973682538,
+								["point"] = "CENTER",
+								["y"] = -227.5000156834719,
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4998973682538,
+								["point"] = "CENTER",
+								["y"] = -189.5000429525965,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4998973682538,
+								["point"] = "CENTER",
+								["y"] = -151.5000130012629,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4998973682538,
+								["point"] = "CENTER",
+								["y"] = -113.5000211969015,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4998973682538,
+								["point"] = "CENTER",
+								["y"] = -75.50006753951209,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.4998973682538,
+								["point"] = "CENTER",
+								["y"] = -37.50003758817854,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Izilabot - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.49997016042505,
+						["point"] = "CENTER",
+						["y"] = -14.99999977648258,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Izilabot - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -163.499810643497,
+						["point"] = "CENTER",
+						["y"] = 89.4999681487684,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Izilabot - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -188.7999157007195,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.39994878354241,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Izilabot - Sin'Dorei"] = "Izilabot - Sin'Dorei",
+	},
+	["profiles"] = {
+		["Izilabot - Sin'Dorei"] = {
+		},
+	},
+}

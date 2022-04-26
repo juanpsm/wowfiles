@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["profiles"] = {
+		["Ijaa - WoWArg"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
+	},
+	["profiles"] = {
+		["Ijaa - WoWArg"] = {
+		},
+	},
+}

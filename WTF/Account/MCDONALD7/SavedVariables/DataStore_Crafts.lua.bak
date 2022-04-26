@@ -1,0 +1,47 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Mcdonald - WoWArg"] = "Mcdonald - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Mcdonald"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+					["Jewelcrafting"] = {
+						["isPrimary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Mare Magnum"] = {
+				["Members"] = {
+					["Mcdonald"] = {
+						["Professions"] = {
+							25229, -- [1]
+							2575, -- [2]
+							2550, -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1599871680,
+					},
+				},
+			},
+		},
+	},
+}

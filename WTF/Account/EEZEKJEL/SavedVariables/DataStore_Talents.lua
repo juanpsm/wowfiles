@@ -2,89 +2,17 @@
 DataStore_TalentsDB = {
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Perruco"] = {
-				["lastUpdate"] = 1597360602,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.WoWArg.Rochallor"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"1|2|||0", -- [3]
-					"1|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1527835778,
-				["Class"] = "DEATHKNIGHT",
-				["PointsSpent"] = "0,0,0,0,0,0",
-			},
-			["Default.WoWArg.Buyvip"] = {
-				["lastUpdate"] = 1527117378,
-				["Glyphs"] = {
-					"0|1|||0", -- [1]
-					"0|2|||0", -- [2]
-					"0|2|||0", -- [3]
-					"0|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-			},
-			["Default.WoWArg.Meparto"] = {
-				["Glyphs"] = {
-					"1|1|||0", -- [1]
-					"1|2|||0", -- [2]
-					"1|2|||0", -- [3]
-					"1|1|||0", -- [4]
-					"0|2|||0", -- [5]
-					"0|1|||0", -- [6]
-					"0|0|||0", -- [7]
-					"0|0|||0", -- [8]
-					"0|0|||0", -- [9]
-					"0|0|||0", -- [10]
-					"0|0|||0", -- [11]
-					"0|0|||0", -- [12]
-				},
-				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1527834782,
-				["Class"] = "DEATHKNIGHT",
-				["PointsSpent"] = "0,0,0,0,0,0",
-			},
-			["Default.WoWArg.Elchamaquito"] = {
+			["Default.Sin'Dorei.Elchamaquito"] = {
 				["Glyphs"] = {
 					"1|1|55454|Interface\\Spellbook\\UI-Glyph-Rune-15|214", -- [1]
 					"1|2|58063|Interface\\Spellbook\\UI-Glyph-Rune-11|475", -- [2]
@@ -100,7 +28,7 @@ DataStore_TalentsDB = {
 					"1|1|63273|Interface\\Spellbook\\UI-Glyph-Rune-8|737", -- [12]
 				},
 				["ActiveTalents"] = 2,
-				["lastUpdate"] = 1614970640,
+				["lastUpdate"] = 1630729940,
 				["Class"] = "SHAMAN",
 				["TalentTrees"] = {
 					["Restoration|2"] = {
@@ -184,8 +112,282 @@ DataStore_TalentsDB = {
 				},
 				["PointsSpent"] = "18,53,0,0,16,55",
 			},
+			["Default.WoWArg.Perruco"] = {
+				["lastUpdate"] = 1597360602,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Elchamaquito"] = {
+				["Glyphs"] = {
+					"1|1|55454|Interface\\Spellbook\\UI-Glyph-Rune-15|214", -- [1]
+					"1|2|58063|Interface\\Spellbook\\UI-Glyph-Rune-11|475", -- [2]
+					"1|2|58057|Interface\\Spellbook\\UI-Glyph-Rune-2|476", -- [3]
+					"1|1|55453|Interface\\Spellbook\\UI-Glyph-Rune-18|226", -- [4]
+					"1|2|58059|Interface\\Spellbook\\UI-Glyph-Rune-20|473", -- [5]
+					"1|1|63280|Interface\\Spellbook\\UI-Glyph-Rune1|752", -- [6]
+					"1|1|55437|Interface\\Spellbook\\UI-Glyph-Rune-17|212", -- [7]
+					"1|2|58058|Interface\\Spellbook\\UI-Glyph-Rune-17|470", -- [8]
+					"1|2|58063|Interface\\Spellbook\\UI-Glyph-Rune-11|475", -- [9]
+					"1|1|63279|Interface\\Spellbook\\UI-Glyph-Rune-9|751", -- [10]
+					"1|2|58059|Interface\\Spellbook\\UI-Glyph-Rune-20|473", -- [11]
+					"1|1|63273|Interface\\Spellbook\\UI-Glyph-Rune-8|737", -- [12]
+				},
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1618718101,
+				["Class"] = "SHAMAN",
+				["TalentTrees"] = {
+					["Restoration|2"] = {
+						5, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						3, -- [6]
+						nil, -- [7]
+						1, -- [8]
+						3, -- [9]
+						3, -- [10]
+						5, -- [11]
+						3, -- [12]
+						1, -- [13]
+						[23] = 1,
+						[24] = 2,
+						[25] = 5,
+						[26] = 1,
+						[15] = 5,
+						[17] = 1,
+						[18] = 1,
+						[19] = 2,
+						[20] = 2,
+						[21] = 3,
+						[22] = 3,
+					},
+					["Elemental|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						nil, -- [4]
+						3, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						5, -- [8]
+						2, -- [9]
+					},
+					["Enhancement|1"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+						1, -- [9]
+						nil, -- [10]
+						5, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						1, -- [14]
+						3, -- [15]
+						3, -- [16]
+						3, -- [17]
+						nil, -- [18]
+						3, -- [19]
+						1, -- [20]
+						1, -- [21]
+						3, -- [22]
+						1, -- [23]
+						2, -- [24]
+						3, -- [25]
+						1, -- [26]
+						nil, -- [27]
+						5, -- [28]
+						1, -- [29]
+					},
+					["Enhancement|2"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+					},
+				},
+				["PointsSpent"] = "18,53,0,0,16,55",
+			},
+			["Default.WoWArg.Rochallor"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1527835778,
+				["Class"] = "DEATHKNIGHT",
+				["PointsSpent"] = "0,0,0,0,0,0",
+			},
+			["Default.Sin'dorei(WoWArg).Elchamaquito"] = {
+				["Glyphs"] = {
+					"1|1|55454|Interface\\Spellbook\\UI-Glyph-Rune-15|214", -- [1]
+					"1|2|58063|Interface\\Spellbook\\UI-Glyph-Rune-11|475", -- [2]
+					"1|2|58057|Interface\\Spellbook\\UI-Glyph-Rune-2|476", -- [3]
+					"1|1|55453|Interface\\Spellbook\\UI-Glyph-Rune-18|226", -- [4]
+					"1|2|58059|Interface\\Spellbook\\UI-Glyph-Rune-20|473", -- [5]
+					"1|1|63280|Interface\\Spellbook\\UI-Glyph-Rune1|752", -- [6]
+					"1|1|55437|Interface\\Spellbook\\UI-Glyph-Rune-17|212", -- [7]
+					"1|2|58058|Interface\\Spellbook\\UI-Glyph-Rune-17|470", -- [8]
+					"1|2|58063|Interface\\Spellbook\\UI-Glyph-Rune-11|475", -- [9]
+					"1|1|63279|Interface\\Spellbook\\UI-Glyph-Rune-9|751", -- [10]
+					"1|2|58059|Interface\\Spellbook\\UI-Glyph-Rune-20|473", -- [11]
+					"1|1|63273|Interface\\Spellbook\\UI-Glyph-Rune-8|737", -- [12]
+				},
+				["ActiveTalents"] = 2,
+				["lastUpdate"] = 1619112006,
+				["Class"] = "SHAMAN",
+				["TalentTrees"] = {
+					["Restoration|2"] = {
+						5, -- [1]
+						nil, -- [2]
+						nil, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						3, -- [6]
+						nil, -- [7]
+						1, -- [8]
+						3, -- [9]
+						3, -- [10]
+						5, -- [11]
+						3, -- [12]
+						1, -- [13]
+						[23] = 1,
+						[24] = 2,
+						[25] = 5,
+						[26] = 1,
+						[15] = 5,
+						[17] = 1,
+						[18] = 1,
+						[19] = 2,
+						[20] = 2,
+						[21] = 3,
+						[22] = 3,
+					},
+					["Elemental|1"] = {
+						nil, -- [1]
+						5, -- [2]
+						3, -- [3]
+						nil, -- [4]
+						3, -- [5]
+						nil, -- [6]
+						nil, -- [7]
+						5, -- [8]
+						2, -- [9]
+					},
+					["Enhancement|1"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+						1, -- [9]
+						nil, -- [10]
+						5, -- [11]
+						nil, -- [12]
+						nil, -- [13]
+						1, -- [14]
+						3, -- [15]
+						3, -- [16]
+						3, -- [17]
+						nil, -- [18]
+						3, -- [19]
+						1, -- [20]
+						1, -- [21]
+						3, -- [22]
+						1, -- [23]
+						2, -- [24]
+						3, -- [25]
+						1, -- [26]
+						nil, -- [27]
+						5, -- [28]
+						1, -- [29]
+					},
+					["Enhancement|2"] = {
+						nil, -- [1]
+						nil, -- [2]
+						5, -- [3]
+						nil, -- [4]
+						5, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						3, -- [8]
+					},
+				},
+				["PointsSpent"] = "18,53,0,0,16,55",
+			},
+			["Default.WoWArg.Meparto"] = {
+				["Glyphs"] = {
+					"1|1|||0", -- [1]
+					"1|2|||0", -- [2]
+					"1|2|||0", -- [3]
+					"1|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+				["ActiveTalents"] = 1,
+				["lastUpdate"] = 1527834782,
+				["Class"] = "DEATHKNIGHT",
+				["PointsSpent"] = "0,0,0,0,0,0",
+			},
 			["Default.WoWArg.Trank"] = {
 				["lastUpdate"] = 1556510796,
+				["Glyphs"] = {
+					"0|1|||0", -- [1]
+					"0|2|||0", -- [2]
+					"0|2|||0", -- [3]
+					"0|1|||0", -- [4]
+					"0|2|||0", -- [5]
+					"0|1|||0", -- [6]
+					"0|0|||0", -- [7]
+					"0|0|||0", -- [8]
+					"0|0|||0", -- [9]
+					"0|0|||0", -- [10]
+					"0|0|||0", -- [11]
+					"0|0|||0", -- [12]
+				},
+			},
+			["Default.WoWArg.Buyvip"] = {
+				["lastUpdate"] = 1527117378,
 				["Glyphs"] = {
 					"0|1|||0", -- [1]
 					"0|2|||0", -- [2]
@@ -207,8 +409,10 @@ DataStore_TalentsDB = {
 DataStore_TalentsRefDB = {
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
@@ -218,6 +422,12 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Sangre"] = {
+					["prereqs"] = {
+						[10] = "3|1",
+						[16] = "3|2",
+					},
+					["background"] = "DeathKnightBlood",
+					["icon"] = "Spell_Deathknight_BloodPresence",
 					["talents"] = {
 						"1939|Carnicería|INV_Axe_68|1|1|2", -- [1]
 						"1945|Subversión|Spell_DeathKnight_Subversion|1|2|3", -- [2]
@@ -248,14 +458,14 @@ DataStore_TalentsRefDB = {
 						"2034|Atracarse de sangre|Spell_Nature_Reincarnation|10|2|5", -- [27]
 						"1961|Arma de runa danzante|INV_Sword_07|11|2|1", -- [28]
 					},
-					["prereqs"] = {
-						[10] = "3|1",
-						[16] = "3|2",
-					},
-					["icon"] = "Spell_Deathknight_BloodPresence",
-					["background"] = "DeathKnightBlood",
 				},
 				["Escarcha"] = {
+					["prereqs"] = {
+						[7] = "1|1",
+						[16] = "3|1",
+					},
+					["background"] = "DeathKnightFrost",
+					["icon"] = "Spell_Deathknight_FrostPresence",
 					["talents"] = {
 						"2031|Toque helado mejorado|Spell_DeathKnight_IceTouch|1|1|3", -- [1]
 						"2020|Maestría en poder rúnico|Spell_Arcane_Arcane01|1|2|2", -- [2]
@@ -287,14 +497,16 @@ DataStore_TalentsRefDB = {
 						"1998|Acechador de tundra|Spell_Nature_Tranquility|10|2|5", -- [28]
 						"1989|Explosión aullante|Spell_Frost_ArcticWinds|11|2|1", -- [29]
 					},
-					["prereqs"] = {
-						[7] = "1|1",
-						[16] = "3|1",
-					},
-					["icon"] = "Spell_Deathknight_FrostPresence",
-					["background"] = "DeathKnightFrost",
 				},
 				["Profano"] = {
+					["prereqs"] = {
+						[20] = "4|4",
+						[24] = "6|4",
+						[22] = "6|2",
+						[28] = "8|2",
+					},
+					["background"] = "DeathKnightUnholy",
+					["icon"] = "Spell_Deathknight_UnholyPresence",
 					["talents"] = {
 						"2082|Golpes feroces|Spell_Deathknight_PlagueStrike|1|1|2", -- [1]
 						"1932|Virulencia|Spell_Shadow_BurningSpirit|1|2|3", -- [2]
@@ -328,14 +540,6 @@ DataStore_TalentsRefDB = {
 						"2036|Ira de Osahendido|INV_Weapon_Halberd14|10|2|5", -- [30]
 						"2000|Invocar gárgola|Ability_Hunter_Pet_Bat|11|2|1", -- [31]
 					},
-					["prereqs"] = {
-						[20] = "4|4",
-						[24] = "6|4",
-						[22] = "6|2",
-						[28] = "8|2",
-					},
-					["icon"] = "Spell_Deathknight_UnholyPresence",
-					["background"] = "DeathKnightUnholy",
 				},
 			},
 			["Version"] = 12340,
@@ -348,6 +552,13 @@ DataStore_TalentsRefDB = {
 					["icon"] = "Spell_Nature_Lightning",
 				},
 				["Restauración"] = {
+					["prereqs"] = {
+						[17] = "4|2",
+						[18] = "6|3",
+						[24] = "9|2",
+					},
+					["background"] = "ShamanRestoration",
+					["icon"] = "Spell_Nature_MagicImmunity",
 					["talents"] = {
 						"586|Ola de sanación mejorada|Spell_Nature_MagicImmunity|1|2|5", -- [1]
 						"595|Enfoque totémico|Spell_Nature_MoonGlow|1|3|5", -- [2]
@@ -376,13 +587,6 @@ DataStore_TalentsRefDB = {
 						"2063|Maremotos|Spell_Shaman_TidalWaves|10|2|5", -- [25]
 						"2064|Mareas Vivas|spell_nature_riptide|11|2|1", -- [26]
 					},
-					["prereqs"] = {
-						[17] = "4|2",
-						[18] = "6|3",
-						[24] = "9|2",
-					},
-					["icon"] = "Spell_Nature_MagicImmunity",
-					["background"] = "ShamanRestoration",
 				},
 				["Elemental"] = {
 					["talents"] = {
@@ -421,6 +625,15 @@ DataStore_TalentsRefDB = {
 					},
 				},
 				["Mejora"] = {
+					["prereqs"] = {
+						[19] = "7|2",
+						[23] = "7|2",
+						[20] = "5|2",
+						[24] = "7|3",
+						[11] = "2|2",
+					},
+					["background"] = "ShamanEnhancement",
+					["icon"] = "Spell_Nature_LightningShield",
 					["talents"] = {
 						"610|Tótems de mejoría|Spell_Nature_EarthBindTotem|1|1|3", -- [1]
 						"2101|Trabazón con la Tierra|Spell_Nature_StoneClawTotem|1|2|2", -- [2]
@@ -452,15 +665,6 @@ DataStore_TalentsRefDB = {
 						"2057|Arma vorágine|Spell_Shaman_MaelstromWeapon|10|2|5", -- [28]
 						"2058|Espíritu feral|Spell_Shaman_FeralSpirit|11|2|1", -- [29]
 					},
-					["prereqs"] = {
-						[19] = "7|2",
-						[23] = "7|2",
-						[20] = "5|2",
-						[24] = "7|3",
-						[11] = "2|2",
-					},
-					["icon"] = "Spell_Nature_LightningShield",
-					["background"] = "ShamanEnhancement",
 				},
 			},
 			["Version"] = 12340,

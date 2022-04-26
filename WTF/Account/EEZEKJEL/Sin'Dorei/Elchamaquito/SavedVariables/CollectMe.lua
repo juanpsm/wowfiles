@@ -12,10 +12,10 @@ CollectMeSavedVars = {
 		[7384] = 5,
 		[23231] = 5,
 	},
-	["Filters"] = {
+	["IgnoredMountsTable"] = {
 	},
 	["IgnoredCompanionsTable"] = {
 	},
-	["IgnoredMountsTable"] = {
+	["Filters"] = {
 	},
 }

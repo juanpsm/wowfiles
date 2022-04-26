@@ -1,0 +1,12 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Mcdonald - WoWArg"] = "Mcdonald - WoWArg",
+	},
+	["profiles"] = {
+		["Mcdonald - WoWArg"] = {
+			["PositionY"] = 639.7059168481227,
+			["PositionX"] = 791.0294989453541,
+		},
+	},
+}

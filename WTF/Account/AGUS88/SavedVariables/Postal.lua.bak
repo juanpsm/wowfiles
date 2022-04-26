@@ -1,0 +1,10 @@
+
+Postal3DB = {
+	["profileKeys"] = {
+		["Sttriker - WoWArg"] = "Sttriker - WoWArg",
+	},
+	["profiles"] = {
+		["Sttriker - WoWArg"] = {
+		},
+	},
+}

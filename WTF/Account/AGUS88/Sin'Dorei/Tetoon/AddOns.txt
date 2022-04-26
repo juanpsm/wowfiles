@@ -1,0 +1,2 @@
+GearScore: enabled
+BonusScanner: enabled

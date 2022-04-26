@@ -1,0 +1,15 @@
+Version: 1
+Frame: ItemRefTooltip
+FrameLevel: 1
+Anchor: CENTER
+X: 2
+Y: 133
+W: 128
+H: 64
+Frame: CollectMeButtonFrame
+FrameLevel: 10
+Anchor: RIGHT
+X: -297
+Y: -240
+W: 35
+H: 35

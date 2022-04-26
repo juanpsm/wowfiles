@@ -1,10 +1,10 @@
 
 DrDamageDB = {
 	["profileKeys"] = {
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["profiles"] = {
-		["Lossana - Sin'Dorei"] = {
+		["Lossana - WoWArg"] = {
 		},
 	},
 }

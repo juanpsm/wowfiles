@@ -1,0 +1,15 @@
+Version: 1
+Frame: LootFrame
+FrameLevel: 10
+Anchor: CENTER
+X: 29
+Y: -20
+W: 256
+H: 256
+Frame: KoordinatorMiniWindowFrame
+FrameLevel: 12
+Anchor: TOPRIGHT
+X: -5
+Y: -215
+W: 46
+H: 24

@@ -7,22 +7,135 @@ GridDB = {
 					["statusmap"] = {
 						["baricon5"] = {
 						},
+						["icon"] = {
+							["ready_check"] = false,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["debuff_curse"] = false,
+							["debuff_magic"] = false,
+						},
+						["text2"] = {
+							["alert_feignDeath"] = false,
+							["alert_offline"] = false,
+							["alert_lowHealth"] = true,
+							["buff_Rejuvenecimiento"] = false,
+							["alert_death"] = false,
+							["debuff_Almadebilitada"] = true,
+						},
 						["baricon8"] = {
 						},
 						["baricon9"] = {
+						},
+						["text"] = {
+							["debuff_disease"] = false,
+							["alert_heals"] = false,
+							["buff_Rejuvenecimiento"] = false,
+							["alert_feignDeath"] = false,
+							["buff_Renovar"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_range_30"] = false,
+							["alert_death"] = false,
+							["alert_offline"] = false,
 						},
 						["baricon6"] = {
 						},
 						["baricon7"] = {
 						},
 						["baricon3"] = {
+							["debuff_curse"] = false,
+							["debuff_poison"] = false,
+							["buff_MarcadeloSalvaje"] = false,
+							["debuff_disease"] = false,
+							["buff_Flordevida"] = true,
 						},
 						["baricon4"] = {
+							["debuff_curse"] = false,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["buff_Crecimientosalvaje"] = true,
+							["debuff_magic"] = false,
 						},
 						["baricon2"] = {
+							["buff_Recrecimiento"] = false,
+							["buff_Rejuvenecimiento"] = true,
 						},
 						["baricon1"] = {
+							["buff_Rejuvenecimiento"] = false,
+							["buff_Recrecimiento"] = true,
+							["buff_Flordevida"] = false,
 						},
+					},
+					["enableBarColor"] = true,
+					["textlength"] = 20,
+					["frameHeight"] = 60,
+					["enableText2"] = true,
+					["frameWidth"] = 80,
+				},
+			},
+		},
+		["GridStatusAuras"] = {
+			["profiles"] = {
+				["Default"] = {
+					["buff_Rejuvenecimiento"] = {
+						["missing"] = false,
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Flordevida"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Recrecimiento"] = {
+						["missing"] = false,
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Crecimientosalvaje"] = {
+						["enable"] = true,
+						["text"] = "Crecimiento salvaje",
+						["range"] = false,
+						["desc"] = "Bufo: Crecimiento salvaje",
+						["mine"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["duration"] = true,
+						["missing"] = false,
+					},
+					["buff_DondeloSalvaje"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["duration"] = true,
+						["missing"] = false,
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Don de lo Salvaje",
+						["range"] = false,
+						["desc"] = "Bufo: Don de lo Salvaje",
+					},
+					["buff_MarcadeloSalvaje"] = {
+						["enable"] = true,
+						["text"] = "Marca de lo Salvaje",
+						["range"] = false,
+						["desc"] = "Bufo: Marca de lo Salvaje",
+						["mine"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["duration"] = true,
+						["missing"] = false,
 					},
 				},
 			},
@@ -30,31 +143,18 @@ GridDB = {
 		["GridStatusRange"] = {
 			["profiles"] = {
 				["Default"] = {
-					["alert_range_10"] = {
+					["alert_range_36"] = {
 						["color"] = {
-							["a"] = 0.8181818181818181,
-							["b"] = 0.3,
-							["g"] = 0.2,
-							["r"] = 0.1,
-						},
-						["priority"] = 81,
-						["enable"] = false,
-						["text"] = "10 metros",
-						["range"] = false,
-						["desc"] = "Más de 10 metros",
-					},
-					["alert_range_28"] = {
-						["color"] = {
-							["a"] = 0.490909090909091,
-							["b"] = 0.84,
-							["g"] = 0.5600000000000001,
-							["r"] = 0.28,
+							["a"] = 0.3454545454545455,
+							["b"] = 0.08,
+							["g"] = 0.72,
+							["r"] = 0.36,
 						},
 						["priority"] = 83,
-						["enable"] = true,
-						["text"] = "28 metros",
+						["enable"] = false,
+						["text"] = "36 metros",
 						["range"] = false,
-						["desc"] = "Más de 28 metros",
+						["desc"] = "Más de 36 metros",
 					},
 					["alert_range_38"] = {
 						["color"] = {
@@ -64,10 +164,23 @@ GridDB = {
 							["r"] = 0.38,
 						},
 						["priority"] = 84,
-						["enable"] = true,
+						["enable"] = false,
 						["text"] = "38 metros",
 						["range"] = false,
 						["desc"] = "Más de 38 metros",
+					},
+					["alert_range_40"] = {
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "40 metros",
+						["range"] = false,
+						["desc"] = "Más de 40 metros",
 					},
 					["alert_range_100"] = {
 						["color"] = {
@@ -81,6 +194,45 @@ GridDB = {
 						["text"] = "100 metros",
 						["range"] = false,
 						["desc"] = "Más de 100 metros",
+					},
+					["alert_range_28"] = {
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "28 metros",
+						["range"] = false,
+						["desc"] = "Más de 28 metros",
+					},
+					["alert_range_30"] = {
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "30 metros",
+						["range"] = false,
+						["desc"] = "Más de 30 metros",
+					},
+					["alert_range_10"] = {
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["enable"] = false,
+						["text"] = "10 metros",
+						["range"] = false,
+						["desc"] = "Más de 10 metros",
 					},
 				},
 			},
@@ -147,9 +299,10 @@ GridDB = {
 			["profiles"] = {
 				["Default"] = {
 					["anchorRel"] = "TOPLEFT",
+					["Spacing"] = 0,
 					["layout"] = "Grupo de 5",
-					["PosX"] = 499.9999907238168,
-					["PosY"] = -399.9999983969082,
+					["PosX"] = 269.0000114346958,
+					["PosY"] = -31.0000918153969,
 				},
 			},
 		},

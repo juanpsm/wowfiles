@@ -1,0 +1,22 @@
+Version: 1
+Frame: DBMMinimapButton
+FrameLevel: 3
+Anchor: RIGHT
+X: -8
+Y: 336
+W: 32
+H: 32
+Frame: KoordinatorMiniWindowFrame
+FrameLevel: 12
+Anchor: TOPRIGHT
+X: -64
+Y: -192
+W: 46
+H: 24
+Frame: SexyCooldownBar 0
+FrameLevel: 1
+Anchor: TOP
+X: -59
+Y: 4
+W: 450
+H: 33

@@ -1,13 +1,10 @@
 
 LightHeadedDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["profiles"] = {
-		["Lossena - Sin'Dorei"] = {
-		},
-		["Lossana - Sin'Dorei"] = {
+		["Lossana - WoWArg"] = {
 		},
 	},
 }

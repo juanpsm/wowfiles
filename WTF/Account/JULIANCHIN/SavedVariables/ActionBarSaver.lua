@@ -97,12 +97,12 @@ ActionBarSaverDB = {
 				[12] = "spell|120||Cono de frío|Rango 1|12826",
 				[68] = "item|40476||Insignia de la Alianza",
 				[70] = "spell|198||Mazas de una mano||43012",
-				[26] = "spell|14||Drenaje de maná||3273",
-				[53] = "macro|53||dados|Interface\\Icons\\INV_Misc_QuestionMark|/dados",
-				[54] = "macro|54||macro|Interface\\Icons\\Spell_ChargePositive|/macro",
-				[19] = "spell|100||Cargar|Rango 1|66",
-				[27] = "spell|17||Palabra de poder: escudo|Rango 1|51309",
 				[6] = "spell|260||Embelesar (TEST)||42926",
+				[53] = "macro|53||dados|Interface\\Icons\\INV_Misc_QuestionMark|/dados",
+				[27] = "spell|17||Palabra de poder: escudo|Rango 1|51309",
+				[19] = "spell|100||Cargar|Rango 1|66",
+				[54] = "macro|54||macro|Interface\\Icons\\Spell_ChargePositive|/macro",
+				[26] = "spell|14||Drenaje de maná||3273",
 			},
 			["fire pve"] = {
 				"spell|197||Living Bomb|Rank 3|55360", -- [1]

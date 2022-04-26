@@ -19,21 +19,26 @@ TalentedDB = {
 	},
 	["profileKeys"] = {
 		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
-		["Anetha - WoWArg"] = "Anetha - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
+		["Anetha - WoWArg"] = "Anetha - WoWArg",
+		["Crobar - WoWArg"] = "Crobar - WoWArg",
 		["Subjected - WoWArg"] = "Subjected - WoWArg",
 		["Diputado - WoWArg"] = "Diputado - WoWArg",
 		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
 		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
-		["Crobar - WoWArg"] = "Crobar - WoWArg",
+		["Skom - Sin'dorei(WoWArg)"] = "Skom - Sin'dorei(WoWArg)",
+		["Eldorath - Sin'dorei(WoWArg)"] = "Eldorath - Sin'dorei(WoWArg)",
 		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Crobar - Sin'Dorei"] = "Crobar - Sin'Dorei",
 	},
 	["profiles"] = {
 		["Skom - Sin'Dorei"] = {
+		},
+		["Crobar - Sin'dorei(WoWArg)"] = {
 		},
 		["Rivothrill - WoWArg"] = {
 			["last_template"] = "FROST PVP",
@@ -57,17 +62,9 @@ TalentedDB = {
 		},
 		["Pamflin - WoWArg"] = {
 		},
-		["Anetha - WoWArg"] = {
-		},
 		["Perruco - WoWArg"] = {
 		},
-		["Subjected - WoWArg"] = {
-		},
-		["Diputado - WoWArg"] = {
-		},
-		["Skombrow - Queldorei PVP- PVE"] = {
-		},
-		["Eldorath - WoWArg"] = {
+		["Anetha - WoWArg"] = {
 		},
 		["Crobar - WoWArg"] = {
 			["last_template"] = "FIREFROST PVE",
@@ -86,24 +83,45 @@ TalentedDB = {
 				},
 			},
 		},
+		["Subjected - WoWArg"] = {
+		},
+		["Diputado - WoWArg"] = {
+		},
+		["Skombrow - Queldorei PVP- PVE"] = {
+		},
+		["Eldorath - WoWArg"] = {
+		},
+		["Skom - Sin'dorei(WoWArg)"] = {
+		},
+		["Eldorath - Sin'dorei(WoWArg)"] = {
+		},
 		["Skom - WoWArg"] = {
 			["last_template"] = "Empty",
 			["framepos"] = {
 				["TalentedFrame"] = {
 					["y"] = -80.85349634298774,
 					["x"] = 5.019406481357239,
-					["anchor"] = "TOP",
 					["anchorTo"] = "TOP",
+					["anchor"] = "TOP",
 				},
 				["TalentedGlyphs"] = {
 					["y"] = 2.698702633455099,
 					["x"] = 1.254978561614772,
-					["anchor"] = "CENTER",
 					["anchorTo"] = "CENTER",
+					["anchor"] = "CENTER",
 				},
 			},
 		},
 		["Crobar - Sin'Dorei"] = {
+			["last_template"] = "Inspection of Tohmaspy (alt)",
+			["framepos"] = {
+				["TalentedFrame"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
+			},
 		},
 	},
 }

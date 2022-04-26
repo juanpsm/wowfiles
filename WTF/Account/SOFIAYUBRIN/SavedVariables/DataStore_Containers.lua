@@ -8,10 +8,46 @@ DataStore_ContainersDB = {
 		["Characters"] = {
 			["Default.WoWArg.Zelphar"] = {
 				["numBankSlots"] = 28,
-				["lastUpdate"] = 1570170123,
+				["lastUpdate"] = 1589604468,
 				["Containers"] = {
+					["Bag4"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
+						["links"] = {
+							"|cffa335ee|Hitem:50805:0:3545:3545:0:0:0:0:80|h[Mag'hari Chieftain's Staff]|h|r", -- [1]
+							[10] = "|cffa335ee|Hitem:51008:0:3545:0:0:0:0:0:80|h[Choker of Filthy Diamonds]|h|r",
+							[9] = "|cffa335ee|Hitem:50286:1147:0:0:0:0:0:0:80|h[Prelate's Snowshoes]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["freeslots"] = 10,
+						["ids"] = {
+							50805, -- [1]
+							765, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							37921, -- [6]
+							2447, -- [7]
+							nil, -- [8]
+							50286, -- [9]
+							51008, -- [10]
+							50041, -- [11]
+							[17] = 48724,
+							[18] = 40699,
+							[19] = 22792,
+						},
+						["counts"] = {
+							nil, -- [1]
+							4, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							3, -- [6]
+							4, -- [7]
+							[19] = 2,
+						},
+						["size"] = 20,
+					},
 					["Bag100"] = {
-						["size"] = 28,
 						["ids"] = {
 							24579, -- [1]
 							40476, -- [2]
@@ -42,6 +78,7 @@ DataStore_ContainersDB = {
 							2592, -- [27]
 							43127, -- [28]
 						},
+						["size"] = 28,
 						["counts"] = {
 							3, -- [1]
 							[24] = 5,
@@ -57,131 +94,151 @@ DataStore_ContainersDB = {
 						["links"] = {
 							[12] = "|cffa335ee|Hitem:48131:3838:3545:0:0:0:0:0:80|h[Bufas de conquista de Malfurion]|h|r",
 							[17] = "|cffa335ee|Hitem:48132:3246:3520:0:0:0:0:0:80|h[Manoplas de conquista de Malfurion]|h|r",
-							[15] = "|cffa335ee|Hitem:51009:3832:3520:3563:3545:0:0:0:80|h[Coselete del experimento fallido]|h|r",
-							[13] = "|cffa335ee|Hitem:48130:3719:3520:3587:0:0:0:0:80|h[Leotardos de conquista de Malfurion]|h|r",
 							[4] = "|cffa335ee|Hitem:48102:0:3626:3545:0:0:0:0:80|h[Celada de conquista de Malfurion]|h|r",
 							[3] = "|cffa335ee|Hitem:48129:0:3520:0:0:0:0:0:80|h[Toga de conquista de Malfurion]|h|r",
+							[15] = "|cffa335ee|Hitem:51009:3832:3520:3563:3545:0:0:0:80|h[Coselete del experimento fallido]|h|r",
+							[13] = "|cffa335ee|Hitem:48130:3719:3520:3587:0:0:0:0:80|h[Leotardos de conquista de Malfurion]|h|r",
 						},
+					},
+					["Bag1"] = {
+						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:0:80|h[Papa's New Bag]|h|r",
+						["links"] = {
+							[11] = "|cffa335ee|Hitem:50014:3831:3545:0:0:0:0:0:80|h[Greatcloak of the Turned Champion]|h|r",
+							[18] = "|cffa335ee|Hitem:50417:2332:3545:0:0:0:0:0:80|h[Bracers of Eternal Dreaming]|h|r",
+						},
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
+						["freeslots"] = 2,
+						["ids"] = {
+							43126, -- [1]
+							39502, -- [2]
+							2592, -- [3]
+							50339, -- [4]
+							nil, -- [5]
+							54455, -- [6]
+							nil, -- [7]
+							44605, -- [8]
+							34052, -- [9]
+							44605, -- [10]
+							50014, -- [11]
+							43463, -- [12]
+							51797, -- [13]
+							43852, -- [14]
+							50423, -- [15]
+							13379, -- [16]
+							33433, -- [17]
+							50417, -- [18]
+							50449, -- [19]
+							50966, -- [20]
+						},
+						["counts"] = {
+							18, -- [1]
+							2, -- [2]
+							4, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							8, -- [8]
+							nil, -- [9]
+							20, -- [10]
+						},
+						["size"] = 20,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							50781, -- [1]
+							42421, -- [2]
+							50783, -- [3]
+							34068, -- [4]
+							51826, -- [5]
+							34055, -- [6]
+							51585, -- [7]
+							49908, -- [8]
+							51819, -- [9]
+							44605, -- [10]
+							34054, -- [11]
+							43124, -- [12]
+							nil, -- [13]
+							51897, -- [14]
+							44605, -- [15]
+							47732, -- [16]
+							50809, -- [17]
+							49116, -- [18]
+							nil, -- [19]
+							22790, -- [20]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
+						["size"] = 20,
+						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["counts"] = {
+							[12] = 5,
+							[6] = 2,
+							[15] = 20,
+							[4] = 6,
+							[10] = 20,
+							[11] = 9,
+							[20] = 9,
+						},
+						["freeslots"] = 2,
 					},
 					["Bag0"] = {
 						["ids"] = {
 							6948, -- [1]
 							33454, -- [2]
 							33445, -- [3]
-							54455, -- [4]
+							39354, -- [4]
 							32542, -- [5]
-							48724, -- [6]
-							44309, -- [7]
-							50423, -- [8]
+							nil, -- [6]
+							50028, -- [7]
+							50067, -- [8]
 							5976, -- [9]
-							50452, -- [10]
+							41778, -- [10]
 							50986, -- [11]
 							50259, -- [12]
 							49979, -- [13]
-							39502, -- [14]
-							44315, -- [15]
-							37118, -- [16]
+							41787, -- [14]
+							41780, -- [15]
+							43122, -- [16]
 						},
 						["links"] = {
-							[11] = "|cffa335ee|Hitem:50986:0:3520:0:0:0:0:0:80|h[Sello de putrefacción]|h|r",
+							[7] = "|cffa335ee|Hitem:50028:3834:0:0:0:0:0:0:80|h[Trauma]|h|r",
+							[11] = "|cffa335ee|Hitem:50986:0:3520:0:0:0:0:0:80|h[Signet of Putrefaction]|h|r",
 						},
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["counts"] = {
-							[2] = 19,
-							[14] = 11,
-							[3] = 4,
+						["cooldowns"] = {
+							"89678.986|1800|1", -- [1]
 						},
 						["size"] = 16,
+						["counts"] = {
+							[2] = 11,
+							[16] = 3,
+							[4] = 12,
+						},
+						["freeslots"] = 1,
 					},
 					["Bag3"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Frostweave Bag]|h|r",
 						["links"] = {
-							[8] = "|cffa335ee|Hitem:50806:0:3520:3563:3533:0:0:0:80|h[Leotardos de sangre inflexible]|h|r",
-							[14] = "|cffa335ee|Hitem:50785:2332:3533:0:0:0:0:0:80|h[Brazales de bendiciones oscuras]|h|r",
+							[2] = "|cffa335ee|Hitem:50785:2332:3533:0:0:0:0:0:80|h[Bracers of Dark Blessings]|h|r",
 						},
 						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
+						["size"] = 20,
 						["ids"] = {
 							21540, -- [1]
-							39354, -- [2]
+							50785, -- [2]
 							39505, -- [3]
 							8839, -- [4]
 							43157, -- [5]
 							44614, -- [6]
-							3823, -- [7]
-							50806, -- [8]
-							48162, -- [9]
-							48160, -- [10]
-							48161, -- [11]
-							48158, -- [12]
-							44446, -- [13]
-							50785, -- [14]
-							39341, -- [15]
-							44312, -- [16]
-							22786, -- [17]
-							44308, -- [18]
-							52025, -- [19]
-							39342, -- [20]
+							22786, -- [7]
+							[9] = 48162,
+							[12] = 48158,
 						},
 						["counts"] = {
 							[6] = 9,
-							[7] = 3,
-							[2] = 12,
-							[20] = 20,
 							[4] = 3,
-							[15] = 16,
 						},
-						["size"] = 20,
-					},
-					["Bag4"] = {
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
-						["links"] = {
-							"|cffa335ee|Hitem:50805:0:3545:3545:0:0:0:0:80|h[Bastón de jefe Mag'hari]|h|r", -- [1]
-							[10] = "|cffa335ee|Hitem:51008:0:3545:0:0:0:0:0:80|h[Gargantilla de diamantes inmundos]|h|r",
-							[9] = "|cffa335ee|Hitem:50286:1147:0:0:0:0:0:0:80|h[Zapatos para la nieve de prelado]|h|r",
-							[17] = "|cffa335ee|Hitem:50028:3834:0:0:0:0:0:0:80|h[Trauma]|h|r",
-						},
-						["freeslots"] = 1,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["ids"] = {
-							50805, -- [1]
-							765, -- [2]
-							37704, -- [3]
-							36903, -- [4]
-							nil, -- [5]
-							37921, -- [6]
-							2447, -- [7]
-							36907, -- [8]
-							50286, -- [9]
-							51008, -- [10]
-							50041, -- [11]
-							36901, -- [12]
-							43124, -- [13]
-							39342, -- [14]
-							50447, -- [15]
-							22785, -- [16]
-							50028, -- [17]
-							40699, -- [18]
-							22792, -- [19]
-							50774, -- [20]
-						},
-						["counts"] = {
-							nil, -- [1]
-							4, -- [2]
-							2, -- [3]
-							3, -- [4]
-							nil, -- [5]
-							3, -- [6]
-							4, -- [7]
-							4, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							2, -- [12]
-							nil, -- [13]
-							18, -- [14]
-							[19] = 2,
-						},
-						["size"] = 20,
+						["freeslots"] = 11,
 					},
 					["Bag-2"] = {
 						["ids"] = {
@@ -200,98 +257,8 @@ DataStore_ContainersDB = {
 						},
 						["size"] = 32,
 					},
-					["Bag1"] = {
-						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:0:80|h[Bolsa nueva de Papá]|h|r",
-						["links"] = {
-							[11] = "|cffa335ee|Hitem:51379:3832:3563:3520:3563:0:0:0:80|h[Vestiduras de alma de sangre]|h|r",
-						},
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_26_Spellfire",
-						["freeslots"] = 3,
-						["ids"] = {
-							34068, -- [1]
-							50809, -- [2]
-							44309, -- [3]
-							33448, -- [4]
-							42421, -- [5]
-							44313, -- [6]
-							50444, -- [7]
-							47732, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							51379, -- [11]
-							51837, -- [12]
-							43015, -- [13]
-							nil, -- [14]
-							50449, -- [15]
-							50450, -- [16]
-							43127, -- [17]
-							39469, -- [18]
-							50966, -- [19]
-							50851, -- [20]
-						},
-						["counts"] = {
-							7, -- [1]
-							nil, -- [2]
-							nil, -- [3]
-							7, -- [4]
-							nil, -- [5]
-							nil, -- [6]
-							nil, -- [7]
-							nil, -- [8]
-							nil, -- [9]
-							nil, -- [10]
-							nil, -- [11]
-							nil, -- [12]
-							5, -- [13]
-							nil, -- [14]
-							nil, -- [15]
-							nil, -- [16]
-							20, -- [17]
-							7, -- [18]
-						},
-						["size"] = 20,
-					},
-					["Bag2"] = {
-						["ids"] = {
-							50449, -- [1]
-							44310, -- [2]
-							49992, -- [3]
-							50762, -- [4]
-							51826, -- [5]
-							50451, -- [6]
-							51585, -- [7]
-							33470, -- [8]
-							44605, -- [9]
-							44605, -- [10]
-							34054, -- [11]
-							34054, -- [12]
-							34055, -- [13]
-							51897, -- [14]
-							44605, -- [15]
-							44309, -- [16]
-							nil, -- [17]
-							49116, -- [18]
-							43108, -- [19]
-							22790, -- [20]
-						},
-						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:0:80|h[Bolsa de tejido de Escarcha]|h|r",
-						["size"] = 20,
-						["icon"] = "Interface\\Icons\\INV_Misc_Bag_EnchantedMageweave",
-						["counts"] = {
-							[12] = 20,
-							[13] = 7,
-							[15] = 7,
-							[8] = 15,
-							[9] = 14,
-							[19] = 8,
-							[10] = 20,
-							[11] = 3,
-							[20] = 9,
-						},
-						["freeslots"] = 1,
-					},
 				},
-				["numFreeBagSlots"] = 5,
+				["numFreeBagSlots"] = 26,
 				["numBagSlots"] = 96,
 			},
 			["Default.WoWArg.Gnomeansno"] = {

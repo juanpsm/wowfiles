@@ -2,14 +2,30 @@
 DataStore_StatsDB = {
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'Dorei.Elchamaquito"] = {
+				["lastUpdate"] = 1630729940,
+				["Stats"] = {
+					["Ranged"] = "13-15|1.4520000689663|90|12|9.2854690551758",
+					["Spell"] = "3071|3332|12|37.840469360352|1235|598",
+					["Melee"] = "179-439|1.2080000573769|395|12|25.285469055176|0",
+					["MaxPower"] = "0|30306",
+					["PVP"] = "3245|0|0|19380",
+					["HealthMax"] = 25099,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "155|100|1834|1746|291|17780",
+					["Defense"] = "17780|400|3.7818014621735|0|5|0",
+				},
+			},
 			["Default.WoWArg.Perruco"] = {
 				["lastUpdate"] = 1597360602,
 				["Stats"] = {
@@ -22,6 +38,20 @@ DataStore_StatsDB = {
 					["Resistances"] = "0|0|0|0|0|0",
 					["Base"] = "22|17|20|22|24|41",
 					["Defense"] = "41|1|4.4054613113403|0|4.8400001525879|0",
+				},
+			},
+			["Default.WoWArg.Elchamaquito"] = {
+				["lastUpdate"] = 1618718191,
+				["Stats"] = {
+					["Ranged"] = "12-14|1.4520000689663|81|12|9.17746925354",
+					["Spell"] = "3071|3309|12|36.88646697998|1235|326",
+					["Melee"] = "176-436|1.2080000573769|372|12|25.17746925354|0",
+					["MaxPower"] = "0|27921",
+					["PVP"] = "3244|0|0|19194",
+					["HealthMax"] = 21299,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "141|91|1454|1587|185|17762",
+					["Defense"] = "17762|400|3.6305770874023|0|5|0",
 				},
 			},
 			["Default.WoWArg.Rochallor"] = {
@@ -38,18 +68,18 @@ DataStore_StatsDB = {
 					["Defense"] = "3537|270|8.0101680755615|10.150748252869|0|0",
 				},
 			},
-			["Default.WoWArg.Buyvip"] = {
-				["lastUpdate"] = 1527117378,
+			["Default.Sin'dorei(WoWArg).Elchamaquito"] = {
+				["lastUpdate"] = 1619112255,
 				["Stats"] = {
-					["Ranged"] = "4-7|1.8000000854954|18|0|8.2961988449097",
-					["Spell"] = "0|0|0|0|0|0",
-					["Melee"] = "5-7|1.6000000759959|38|0|8.6561994552612|0",
-					["MaxPower"] = "3|100",
-					["PVP"] = "0|0|0|0",
-					["HealthMax"] = 126,
-					["Resistances"] = "0|0|0|0|0|0",
-					["Base"] = "26|24|25|17|24|71",
-					["Defense"] = "71|12|17.690830230713|0|0|0",
+					["Ranged"] = "21-23|1.4520000689663|145|12|14.789468765259",
+					["Spell"] = "3071|3512|12|37.222465515137|1235|462",
+					["Melee"] = "189-449|1.2080000573769|474|12|30.789468765259|0",
+					["MaxPower"] = "0|28761",
+					["PVP"] = "3244|0|0|19194",
+					["HealthMax"] = 21809,
+					["Resistances"] = "75|75|75|75|75|75",
+					["Base"] = "192|142|1505|1643|236|17864",
+					["Defense"] = "17864|400|4.4833717346191|0|5|0",
 				},
 			},
 			["Default.WoWArg.Meparto"] = {
@@ -66,20 +96,6 @@ DataStore_StatsDB = {
 					["Defense"] = "3537|270|8.0101680755615|10.018618583679|0|0",
 				},
 			},
-			["Default.WoWArg.Elchamaquito"] = {
-				["lastUpdate"] = 1614970641,
-				["Stats"] = {
-					["Ranged"] = "12-14|1.4520000689663|81|12|9.17746925354",
-					["Spell"] = "3071|3309|12|36.88646697998|1235|326",
-					["Melee"] = "176-436|1.2080000573769|372|12|25.17746925354|0",
-					["MaxPower"] = "0|27921",
-					["PVP"] = "3243|0|0|19101",
-					["HealthMax"] = 21299,
-					["Resistances"] = "0|0|0|0|0|0",
-					["Base"] = "141|91|1454|1587|185|17762",
-					["Defense"] = "17762|400|3.6305770874023|0|5|0",
-				},
-			},
 			["Default.WoWArg.Trank"] = {
 				["lastUpdate"] = 1556510796,
 				["Stats"] = {
@@ -92,6 +108,20 @@ DataStore_StatsDB = {
 					["Resistances"] = "0|0|0|0|0|0",
 					["Base"] = "32|26|31|21|22|363",
 					["Defense"] = "363|35|7.3305387496948|4.8000001907349|4.8000001907349|0",
+				},
+			},
+			["Default.WoWArg.Buyvip"] = {
+				["lastUpdate"] = 1527117378,
+				["Stats"] = {
+					["Ranged"] = "4-7|1.8000000854954|18|0|8.2961988449097",
+					["Spell"] = "0|0|0|0|0|0",
+					["Melee"] = "5-7|1.6000000759959|38|0|8.6561994552612|0",
+					["MaxPower"] = "3|100",
+					["PVP"] = "0|0|0|0",
+					["HealthMax"] = 126,
+					["Resistances"] = "0|0|0|0|0|0",
+					["Base"] = "26|24|25|17|24|71",
+					["Defense"] = "71|12|17.690830230713|0|0|0",
 				},
 			},
 		},

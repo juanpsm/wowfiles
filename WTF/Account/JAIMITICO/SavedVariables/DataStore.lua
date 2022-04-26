@@ -3,6 +3,7 @@ DataStoreDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,6 +12,9 @@ DataStoreDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["faction"] = "Alliance",
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["faction"] = "Alliance",
 			},
@@ -24,8 +28,8 @@ DataStoreDB = {
 				["faction"] = "Alliance",
 			},
 			["Default.WoWArg.Elfhelm"] = {
-				["guildName"] = "Orden Fenix",
 				["faction"] = "Alliance",
+				["guildName"] = "Orden Fenix",
 			},
 			["Default.WoWArg.Irupe"] = {
 				["faction"] = "Alliance",

@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["XPMax"] = 1555700,
+				["played"] = 329853,
+				["guildRankName"] = "Ruleman",
+				["zone"] = "Bosque de Terokkar",
+				["lastUpdate"] = 1553378858,
+				["class"] = "Druida",
+				["race"] = "Elfo de la noche",
+				["level"] = 72,
+				["XP"] = 595076,
+				["RestXP"] = 1087120,
+				["money"] = 8018205,
+				["gender"] = 2,
+				["guildRankIndex"] = 3,
+				["guildName"] = "MetalMutans",
+				["name"] = "Delatierra",
+				["faction"] = "Alliance",
+				["englishRace"] = "NightElf",
+				["subZone"] = "Skettis",
+				["lastLogoutTimestamp"] = 1553378858,
+				["englishClass"] = "DRUID",
+			},
+		},
+	},
+}

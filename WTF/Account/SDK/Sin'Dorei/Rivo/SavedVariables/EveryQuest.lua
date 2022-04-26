@@ -3,6 +3,7 @@ EveryQuestDBPC = nil
 EQ2DBPC = {
 	["profileKeys"] = {
 		["Rivo - WoWArg"] = "global",
+		["Rivo - Sin'Dorei"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {

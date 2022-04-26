@@ -1,0 +1,21 @@
+
+DataStore_PetsDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["lastUpdate"] = 1553378843,
+				["CRITTER"] = {
+					"7555|Lechuza gavilana|10706|Ability_EyeOfTheOwl", -- [1]
+				},
+				["MOUNT"] = {
+					"18359|Grifo nevado|32240|ability_mount_snowygryphon", -- [1]
+					"14555|Sable de la Niebla presto|23219|Ability_Mount_BlackPanther", -- [2]
+					"7690|Sable de la noche rayado|10793|Ability_Mount_BlackPanther", -- [3]
+				},
+			},
+		},
+	},
+}

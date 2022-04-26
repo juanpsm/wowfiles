@@ -1,7 +1,7 @@
 SET showTargetOfTarget "1"
 SET displayFreeBagSlots "1"
 SET autoQuestProgress "0"
-SET flaggedTutorials "v##>##="
+SET flaggedTutorials "v##>##=##G##H"
 SET profanityFilter "0"
 SET lockActionBars "0"
 SET UnitNameOwn "1"

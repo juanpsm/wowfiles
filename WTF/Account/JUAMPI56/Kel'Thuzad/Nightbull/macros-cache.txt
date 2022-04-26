@@ -1,0 +1,91 @@
+MACRO 16777226 "blood + cleave" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast Cleave(Rank 8)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777227 "blood + heroic" INV_Misc_QuestionMark
+/startattack
+/cast Bloodthirst
+/cast Heroic Strike(Rank 13)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777217 "charge" INV_Misc_QuestionMark
+#showtooltip Charge
+/cast Battle Stance
+/cast Charge
+END
+MACRO 16777232 "charges" INV_Misc_QuestionMark
+#show
+/castsequence Charge(Rank 3),Intercept
+END
+MACRO 16777233 "devas" INV_Misc_QuestionMark
+#showtooltip Devastate(Rank 5)
+/startattack
+/cast Devastate(Rank 5)
+END
+MACRO 16777219 "intercept" INV_Misc_QuestionMark
+#showtooltip Intercept
+/cast Berserker Stance
+/cast Intercept
+END
+MACRO 16777228 "multitarget" INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
+/cast Cleave(Rank 8)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777220 "pummel" INV_Misc_QuestionMark
+#showtooltip Pummel
+/cast Berserker Stance
+/cast Pummel
+END
+MACRO 16777222 "rend+" INV_Misc_QuestionMark
+#showtooltip Rend
+/startattack
+/cast Rend
+END
+MACRO 16777223 "retal" INV_Misc_QuestionMark
+#showtooltip Retaliation
+/cast Battle Stance
+/cast Retaliation
+END
+MACRO 16777218 "revenge" INV_Misc_QuestionMark
+#showtooltip Revenge
+/cast Defensive Stance
+/cast Revenge
+END
+MACRO 16777224 "shattering" INV_Misc_QuestionMark
+#showtooltip Shattering Throw
+/cast Battle Stance
+/cast Shattering Throw
+END
+MACRO 16777230 "slam" INV_Misc_QuestionMark
+#showtooltip 
+/startattack 
+/cast Slam(Rank 8)
+/cast Heroic Strike(Rank 13)
+END
+MACRO 16777225 "slam + cleave" INV_Misc_QuestionMark
+#show Shield Slam(Rank 8)
+/cast Shield Slam(Rank 8)
+/cast Cleave(Rank 8)
+END
+MACRO 16777221 "snare" INV_Misc_QuestionMark
+#showtooltip Hamstring
+/cast Battle Stance
+/cast Hamstring
+END
+MACRO 16777229 "unitarget " INV_Misc_QuestionMark
+#showtooltip
+/startattack
+/castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
+/cast Heroic Strike(Rank 13)
+/script UIErrorsFrame:Clear()
+END
+MACRO 16777231 "vida" INV_Misc_QuestionMark
+#show Last stand
+/cast Last stand
+/use Ick's Rotting Thumb
+END

@@ -2,14 +2,38 @@
 DataStore_CraftsDB = {
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'Dorei.Elchamaquito"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["FullLink"] = "|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r",
+						["isSecondary"] = true,
+					},
+					["Jewelcrafting"] = {
+						["FullLink"] = "|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r",
+						["isPrimary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:3273:1:75:38707:FAAAAA|h[First Aid]|h|r",
+						["isSecondary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
 			["Default.WoWArg.Rochallor"] = {
 				["Professions"] = {
 					["Primeros auxilios"] = {
@@ -25,6 +49,28 @@ DataStore_CraftsDB = {
 					},
 				},
 				["lastUpdate"] = 1527836234,
+			},
+			["Default.Sin'dorei(WoWArg).Elchamaquito"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["FullLink"] = "|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r",
+						["isSecondary"] = true,
+					},
+					["Jewelcrafting"] = {
+						["FullLink"] = "|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r",
+						["isPrimary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["FullLink"] = "|cffffd000|Htrade:3273:1:75:38707:FAAAAA|h[First Aid]|h|r",
+						["isSecondary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+				},
 			},
 			["Default.WoWArg.Meparto"] = {
 				["Professions"] = {
@@ -49,40 +95,106 @@ DataStore_CraftsDB = {
 						["isPrimary"] = true,
 						["Crafts"] = {
 							"1|62242", -- [1]
-							"1|55401", -- [2]
-							"1|55390", -- [3]
+							"1|64725", -- [2]
+							"1|55395", -- [3]
 							"1|56197", -- [4]
-							"1|64725", -- [5]
-							"1|55398", -- [6]
-							"1|55402", -- [7]
-							"1|55399", -- [8]
-							"1|64727", -- [9]
-							"1|58507", -- [10]
-							"1|55395", -- [11]
-							"1|55386", -- [12]
-							"1|56203", -- [13]
-							"1|56199", -- [14]
-							"1|56202", -- [15]
-							"1|56201", -- [16]
-							"3|53994", -- [17]
+							"1|55401", -- [5]
+							"1|55390", -- [6]
+							"1|55398", -- [7]
+							"1|55402", -- [8]
+							"1|55399", -- [9]
+							"1|55386", -- [10]
+							"1|56202", -- [11]
+							"3|53962", -- [12]
+							"3|54007", -- [13]
+							"3|53956", -- [14]
+							"3|53976", -- [15]
+							"3|54023", -- [16]
+							"3|53989", -- [17]
 							"3|53969", -- [18]
-							"3|53956", -- [19]
-							"3|53977", -- [20]
-							"3|54007", -- [21]
-							"3|53979", -- [22]
-							"3|53982", -- [23]
-							"3|56531", -- [24]
-							"3|53976", -- [25]
-							"3|54019", -- [26]
-							"3|54003", -- [27]
-							"3|53951", -- [28]
-							"3|53989", -- [29]
-							"3|56083", -- [30]
-							"3|54023", -- [31]
-							"3|56053", -- [32]
-							"3|53946", -- [33]
+							"3|53977", -- [19]
+							"3|54019", -- [20]
+							"3|54003", -- [21]
+							"3|56083", -- [22]
+							"3|56053", -- [23]
+							"3|53946", -- [24]
+							"3|54004", -- [25]
+							"3|53959", -- [26]
+							"3|58146", -- [27]
+							"3|58145", -- [28]
+							"4|58144", -- [29]
+							"4|56194", -- [30]
+							"4|58141", -- [31]
+							"4|56530", -- [32]
+							"4|56196", -- [33]
+							"4|53890", -- [34]
+							"4|53927", -- [35]
+							"4|54017", -- [36]
+							"4|53934", -- [37]
+							"4|53872", -- [38]
+							"4|53928", -- [39]
+							"4|53940", -- [40]
+							"4|53843", -- [41]
+							"4|53868", -- [42]
+							"4|53845", -- [43]
+							"4|53880", -- [44]
+							"4|53853", -- [45]
+							"4|53863", -- [46]
+							"4|53867", -- [47]
+							"4|53891", -- [48]
+							"4|53892", -- [49]
+							"4|53835", -- [50]
+							"4|53930", -- [51]
+							"4|53920", -- [52]
+							"4|53862", -- [53]
+							"4|53925", -- [54]
+							"4|53941", -- [55]
+							"4|53887", -- [56]
+							"4|53870", -- [57]
+							"4|53856", -- [58]
+							"4|53931", -- [59]
+							"4|53893", -- [60]
+							"4|53864", -- [61]
+							"4|53860", -- [62]
+							"4|53923", -- [63]
+							"4|53861", -- [64]
+							"4|53883", -- [65]
+							"4|53844", -- [66]
+							"4|53859", -- [67]
+							"4|53866", -- [68]
+							"4|53889", -- [69]
+							"4|53918", -- [70]
+							"4|53916", -- [71]
+							"4|41418", -- [72]
+							"4|56205", -- [73]
+							"4|41429", -- [74]
+							"4|47280", -- [75]
+							"4|40514", -- [76]
+							"4|41415", -- [77]
+							"4|31050", -- [78]
+							"4|28917", -- [79]
+							"4|38068", -- [80]
+							"4|28938", -- [81]
+							"4|41420", -- [82]
+							"4|28950", -- [83]
+							"4|28903", -- [84]
+							"4|34960", -- [85]
+							"4|26908", -- [86]
+							"4|36526", -- [87]
+							"4|26903", -- [88]
+							"4|26874", -- [89]
+							"4|26872", -- [90]
+							"4|32809", -- [91]
+							"4|25621", -- [92]
+							"4|25619", -- [93]
+							"4|34959", -- [94]
+							"4|25320", -- [95]
+							"4|32808", -- [96]
+							"4|25321", -- [97]
+							"4|36524", -- [98]
+							"4|32807", -- [99]
 						},
-						["NumCrafts"] = 33,
+						["NumCrafts"] = 99,
 					},
 					["Mining"] = {
 						["isPrimary"] = true,
@@ -368,7 +480,7 @@ DataStore_CraftsDB = {
 						["FullLink"] = "|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cocina]|h|r",
 					},
 				},
-				["lastUpdate"] = 1614965443,
+				["lastUpdate"] = 1615531128,
 			},
 		},
 		["Guilds"] = {
@@ -384,110 +496,48 @@ DataStore_CraftsDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Los Exiliados"] = {
+			["Default.Sin'Dorei.Facheritos"] = {
 				["Members"] = {
-					["Crazyfear"] = {
+					["Rivo"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:51300:450:450:599B1:2/////vPrfNB/Hof5/v2g+9dYTCAUAQIfAAAAAAA8//HAgwAgAwx+++/9yPAAIB////4//z/////////LAAAw//H|h[Herrería]|h|r", -- [1]
-							"|cffffd000|Htrade:51311:389:450:599B1:8f6UMoEsAwjpmMHAAAAAEAAAg/AgnvBAAAAAAAAAAAAAYpABAAAAAAAAAAAAAAAAAAAAAAAAEoAAAAAAACAAAAAAAAAAAAA|h[Joyería]|h|r", -- [2]
-							"|cffffd000|Htrade:51296:427:450:599B1:2fLA3fjDW99TD/5bOA+//jAIoP/D8/B|h[Cocina]|h|r", -- [3]
+							"|cffffd000|Htrade:45363:439:450:AFF69:g////7Hpr92////H8/D1/Pz+/D+/lw/PV+/3w/Pp+////AUZ0HoWnc/////PDEchb+PUathfn2c|h[Inscription]|h|r", -- [1]
+							"|cffffd000|Htrade:51300:450:450:AFF69:2/2+cArCieMA/FoJ5zu6g+BMCFAAUAAAfgAAAAAD8/3AgAQKB0SHAA6BAAACAAg////w/fw/////////PAAA///H|h[Blacksmithing]|h|r", -- [2]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1544743355,
-					},
-					["Doroteo"] = {
-						["Professions"] = {
-							"|cffffd000|Htrade:51306:450:450:F61C8:4/9+svW+Cr7+NZTn/2LfJRCONADAAQHAE/fg9bIJABA45/3//TglXF|h[Ingeniería]|h|r", -- [1]
-							"|cffffd000|Htrade:51309:420:450:F61C8:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAA4FR8PAAAAAAAAFACAAA+///fCPWjNw9/cwAAA|h[Sastrería]|h|r", -- [2]
-							"|cffffd000|Htrade:3413:149:225:F61C8:2PEA3LDAEAAABAAQAAAAAAAAAAAA8fA|h[Cocina]|h|r", -- [3]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1554435430,
-					},
-					["Razzor"] = {
-						["Professions"] = {
-							"|cffffd000|Htrade:51306:450:450:C6A54:4/9+svWuCr6+NZTn/2LfJRCOMADAAAHAExfAgbIJABA45/3v/TglXF|h[Ingeniería]|h|r", -- [1]
-							"|cffffd000|Htrade:51309:421:450:C6A54:4+/+rqoIydiB4/PQ07CRtTBIyVAEAABAAAAAAoBAAOAAAAAAAAAAAAAAeDHqCAOWAAgBAQAAAA|h[Sastrería]|h|r", -- [2]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1543283114,
-					},
-					["Maracoo"] = {
-						["Professions"] = {
-							3908, -- [1]
-							[3] = 2550,
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1527473840,
-					},
-					["Draenoric"] = {
-						["Professions"] = {
-							2575, -- [1]
-							"|cffffd000|Htrade:51311:455:455:FC2E5:8f6VsqMsJyjpuMnAAQQwHAAAg/Bo/vRAAAAAAA+BAAAA6/37v77e+f1eDiaW3gPBXuFZi+5nFAA//D8Pg/BAoGZ01AsQgAC|h[Joyería]|h|r", -- [2]
-							"|cffffd000|Htrade:2550:39:75:FC2E5:HAAAAABAEAAAQAAQAAAAAAAAAAAAMAA|h[Cocina]|h|r", -- [3]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1554435433,
-					},
-					["Mejoral"] = {
-						["Professions"] = {
-							"|cffffd000|Htrade:51313:450:450:733C2:4/77b/b8f/f7vu//v/vvqCCAwBeoDuSa7X/T927/+b//X////vT|h[Encantamiento]|h|r", -- [1]
-							"|cffffd000|Htrade:51311:455:455:733C2:8/7U+qNtNzj9v/XgEEI4HCgAg/R9/vBAAAAAAA+lAAAA6/37v/7e2/9eDj6W31vR3PH5m//nzAK8/D8Pw/////////////D|h[Joyería]|h|r", -- [2]
-							"|cffffd000|Htrade:51296:450:450:733C2:2/am/fz///93X//7vO+//////y/H8/B|h[Cocina]|h|r", -- [3]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1542932248,
-					},
-					["Thesickness"] = {
-						["Professions"] = {
-							"|cffffd000|Htrade:3908:1:75:E671C:ZIAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Sastrería]|h|r", -- [1]
-							"|cffffd000|Htrade:51313:405:450:E671C:47Kbb6e8f5Z72s2nvfrPKCAAwHGABsAA7XzC1EysgARNHg/DAAD|h[Encantamiento]|h|r", -- [2]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1527473839,
+						["lastUpdate"] = 1630727749,
 					},
 					["Elchamaquito"] = {
 						["Professions"] = {
-							2575, -- [1]
-							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Joyería]|h|r", -- [2]
-							"|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cocina]|h|r", -- [3]
+							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [1]
+							2575, -- [2]
+							"|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1556684171,
+						["lastUpdate"] = 1630724757,
 					},
-					["Yaandeel"] = {
+				},
+			},
+			["Default.WoWArg.Facheritos"] = {
+				["Members"] = {
+					["Rivo"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:51313:407:450:105DA8:47Kbb/e8f5Z7ms2nvbpPAAAAgAGABsAA6XzC9EysgARNHg/DAAD|h[Encantamiento]|h|r", -- [1]
-							"|cffffd000|Htrade:51309:422:450:105DA8:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAA4BA4LAABAAAAABAAAAA+///fCPWjNw9/cwAAA|h[Sastrería]|h|r", -- [2]
+							"|cffffd000|Htrade:45363:439:450:AFF69:g////7Hpr92////H8/D1/Pz+/D+/lw/PV+/3w/Pp+////AUZ0HoWnc/////PDEchb+PUathfn2c|h[Inscription]|h|r", -- [1]
+							"|cffffd000|Htrade:51300:450:450:AFF69:2/2+cArCieMA/FoJ5zu6g+BMCFAAUAAAfgAAAAAD8/3AgAQKB0SHAA6BAAACAAg////w/fw/////////LAAA///H|h[Blacksmithing]|h|r", -- [2]
+							"|cffffd000|Htrade:51300:428:450:AFF69:2v22MAjCicMA/FoJ5zqyg+BMABAAUAAAfAAAAAAA8/3AAAQABASHAA6BAAAAAAA////w/fw///A4v9f/DAAAw/7H|h[Herrería]|h|r", -- [3]
+							"|cffffd000|Htrade:45363:439:450:AFF69:g////7Hpr92////H8/D1/Pz+/D+/lw/PV+/3w/Pp+////AUZ0HoWnc/////PDEchb+HUalhLn2c|h[Inscripción]|h|r", -- [4]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1540441005,
+						["lastUpdate"] = 1616023513,
 					},
-					["Skombrow"] = {
+					["Elchamaquito"] = {
 						["Professions"] = {
-							"|cffffd000|Htrade:51302:450:450:21D2C:e+331P+/i/d/9s/vv//XeYpmrjMA74xBYAADEAc+//Q8DCAAkBr8//XVAHx+A4/vO5///////3//PA/DAAAEgAAAj37D|h[Peletería]|h|r", -- [1]
-							0, -- [2]
-							"|cffffd000|Htrade:51296:450:450:21D2C:2/bm+dx/+P8XXS3Qgo///7/////D8/B|h[Cocina]|h|r", -- [3]
+							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [1]
+							2575, -- [2]
+							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Joyería]|h|r", -- [3]
+							0, -- [4]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1554435431,
-					},
-					["Liomessi"] = {
-						["Professions"] = {
-							"|cffffd000|Htrade:51309:443:450:F9A10:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAA4BO4PAEAAAAAABACAAA+///fCPWz//5/fwAAA|h[Sastrería]|h|r", -- [1]
-							"|cffffd000|Htrade:51311:450:450:F9A10:8f6VsqMsJyjpmMHAAAAwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v77e2f1eDiyClgLBSGEYik5nVAA+/D8Pg/BEAWJqBgoUgAB|h[Joyería]|h|r", -- [2]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1544743356,
-					},
-					["Rivothrill"] = {
-						["Professions"] = {
-							"|cffffd000|Htrade:51309:443:450:10151B:4+/+/q7ozfjl9/v50/6RtTlIzV3nN3tLCCAAA49R8PAQBAAAAAFACAAo////fCPWz//9/fwAAA|h[Tailoring]|h|r", -- [1]
-							"|cffffd000|Htrade:51313:442:450:10151B:477fb7a8f7Z72syv/LJPAAAAwBGAhsAA7XzC907v2LVvHk//RAD|h[Enchanting]|h|r", -- [2]
-							"|cffffd000|Htrade:3413:150:225:10151B:GAEAGABAEAgAAAAQAAAAAAAAAAKAUKA|h[Cooking]|h|r", -- [3]
-						},
-						["Version"] = 12340,
-						["lastUpdate"] = 1549674279,
+						["lastUpdate"] = 1618718109,
 					},
 				},
 			},
@@ -601,27 +651,131 @@ DataStore_CraftsDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Facheritos"] = {
+			["Default.Sin'dorei(WoWArg).Facheritos"] = {
 				["Members"] = {
 					["Rivo"] = {
 						["Professions"] = {
 							"|cffffd000|Htrade:45363:439:450:AFF69:g////7Hpr92////H8/D1/Pz+/D+/lw/PV+/3w/Pp+////AUZ0HoWnc/////PDEchb+PUathfn2c|h[Inscription]|h|r", -- [1]
 							"|cffffd000|Htrade:51300:450:450:AFF69:2/2+cArCieMA/FoJ5zu6g+BMCFAAUAAAfgAAAAAD8/3AgAQKB0SHAA6BAAACAAg////w/fw/////////LAAA///H|h[Blacksmithing]|h|r", -- [2]
-							"|cffffd000|Htrade:51300:428:450:AFF69:2v22MAjCicMA/FoJ5zqyg+BMABAAUAAAfAAAAAAA8/3AAAQABASHAA6BAAAAAAA////w/fw///A4v9f/DAAAw/7H|h[Herrería]|h|r", -- [3]
-							"|cffffd000|Htrade:45363:439:450:AFF69:g////7Hpr92////H8/D1/Pz+/D+/lw/PV+/3w/Pp+////AUZ0HoWnc/////PDEchb+HUalhLn2c|h[Inscripción]|h|r", -- [4]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1614962994,
+						["lastUpdate"] = 1619110148,
 					},
 					["Elchamaquito"] = {
 						["Professions"] = {
 							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Jewelcrafting]|h|r", -- [1]
 							2575, -- [2]
-							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Joyería]|h|r", -- [3]
-							0, -- [4]
+							"|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cooking]|h|r", -- [3]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1614970649,
+						["lastUpdate"] = 1619108651,
+					},
+				},
+			},
+			["Default.WoWArg.Los Exiliados"] = {
+				["Members"] = {
+					["Crazyfear"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51300:450:450:599B1:2/////vPrfNB/Hof5/v2g+9dYTCAUAQIfAAAAAAA8//HAgwAgAwx+++/9yPAAIB////4//z/////////LAAAw//H|h[Herrería]|h|r", -- [1]
+							"|cffffd000|Htrade:51311:389:450:599B1:8f6UMoEsAwjpmMHAAAAAEAAAg/AgnvBAAAAAAAAAAAAAYpABAAAAAAAAAAAAAAAAAAAAAAAAEoAAAAAAACAAAAAAAAAAAAA|h[Joyería]|h|r", -- [2]
+							"|cffffd000|Htrade:51296:427:450:599B1:2fLA3fjDW99TD/5bOA+//jAIoP/D8/B|h[Cocina]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1544743355,
+					},
+					["Doroteo"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51306:450:450:F61C8:4/9+svW+Cr7+NZTn/2LfJRCONADAAQHAE/fg9bIJABA45/3//TglXF|h[Ingeniería]|h|r", -- [1]
+							"|cffffd000|Htrade:51309:420:450:F61C8:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAA4FR8PAAAAAAAAFACAAA+///fCPWjNw9/cwAAA|h[Sastrería]|h|r", -- [2]
+							"|cffffd000|Htrade:3413:149:225:F61C8:2PEA3LDAEAAABAAQAAAAAAAAAAAA8fA|h[Cocina]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1554435430,
+					},
+					["Razzor"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51306:450:450:C6A54:4/9+svWuCr6+NZTn/2LfJRCOMADAAAHAExfAgbIJABA45/3v/TglXF|h[Ingeniería]|h|r", -- [1]
+							"|cffffd000|Htrade:51309:421:450:C6A54:4+/+rqoIydiB4/PQ07CRtTBIyVAEAABAAAAAAoBAAOAAAAAAAAAAAAAAeDHqCAOWAAgBAQAAAA|h[Sastrería]|h|r", -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1543283114,
+					},
+					["Maracoo"] = {
+						["Professions"] = {
+							3908, -- [1]
+							[3] = 2550,
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1527473840,
+					},
+					["Draenoric"] = {
+						["Professions"] = {
+							2575, -- [1]
+							"|cffffd000|Htrade:51311:455:455:FC2E5:8f6VsqMsJyjpuMnAAQQwHAAAg/Bo/vRAAAAAAA+BAAAA6/37v77e+f1eDiaW3gPBXuFZi+5nFAA//D8Pg/BAoGZ01AsQgAC|h[Joyería]|h|r", -- [2]
+							"|cffffd000|Htrade:2550:39:75:FC2E5:HAAAAABAEAAAQAAQAAAAAAAAAAAAMAA|h[Cocina]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1554435433,
+					},
+					["Mejoral"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51313:450:450:733C2:4/77b/b8f/f7vu//v/vvqCCAwBeoDuSa7X/T927/+b//X////vT|h[Encantamiento]|h|r", -- [1]
+							"|cffffd000|Htrade:51311:455:455:733C2:8/7U+qNtNzj9v/XgEEI4HCgAg/R9/vBAAAAAAA+lAAAA6/37v/7e2/9eDj6W31vR3PH5m//nzAK8/D8Pw/////////////D|h[Joyería]|h|r", -- [2]
+							"|cffffd000|Htrade:51296:450:450:733C2:2/am/fz///93X//7vO+//////y/H8/B|h[Cocina]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1542932248,
+					},
+					["Thesickness"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:3908:1:75:E671C:ZIAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA|h[Sastrería]|h|r", -- [1]
+							"|cffffd000|Htrade:51313:405:450:E671C:47Kbb6e8f5Z72s2nvfrPKCAAwHGABsAA7XzC1EysgARNHg/DAAD|h[Encantamiento]|h|r", -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1527473839,
+					},
+					["Elchamaquito"] = {
+						["Professions"] = {
+							2575, -- [1]
+							"|cffffd000|Htrade:51311:431:455:38707:8/7UuqMtJyjpmMHAAAAwHIAAg/Bg/vBAAAAAAA+BAAAA6/37v7re2f1eDjSSgALBSHEYikxGQAC8/D8Pk/BAAAAAAAAAAAA|h[Joyería]|h|r", -- [2]
+							"|cffffd000|Htrade:2550:1:75:38707:HAAAAABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cocina]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1556684171,
+					},
+					["Yaandeel"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51313:407:450:105DA8:47Kbb/e8f5Z7ms2nvbpPAAAAgAGABsAA6XzC9EysgARNHg/DAAD|h[Encantamiento]|h|r", -- [1]
+							"|cffffd000|Htrade:51309:422:450:105DA8:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAA4BA4LAABAAAAABAAAAA+///fCPWjNw9/cwAAA|h[Sastrería]|h|r", -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1540441005,
+					},
+					["Skombrow"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51302:450:450:21D2C:e+331P+/i/d/9s/vv//XeYpmrjMA74xBYAADEAc+//Q8DCAAkBr8//XVAHx+A4/vO5///////3//PA/DAAAEgAAAj37D|h[Peletería]|h|r", -- [1]
+							0, -- [2]
+							"|cffffd000|Htrade:51296:450:450:21D2C:2/bm+dx/+P8XXS3Qgo///7/////D8/B|h[Cocina]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1554435431,
+					},
+					["Liomessi"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51309:443:450:F9A10:4+/+rqoIydiB4/PQ07CRtTBIyV3nNzlLAAAAA4BO4PAEAAAAAABACAAA+///fCPWz//5/fwAAA|h[Sastrería]|h|r", -- [1]
+							"|cffffd000|Htrade:51311:450:450:F9A10:8f6VsqMsJyjpmMHAAAAwHAAAg/Bg/vBAAAAAAA+BAAAA6/37v77e2f1eDiyClgLBSGEYik5nVAA+/D8Pg/BEAWJqBgoUgAB|h[Joyería]|h|r", -- [2]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1544743356,
+					},
+					["Rivothrill"] = {
+						["Professions"] = {
+							"|cffffd000|Htrade:51309:443:450:10151B:4+/+/q7ozfjl9/v50/6RtTlIzV3nN3tLCCAAA49R8PAQBAAAAAFACAAo////fCPWz//9/fwAAA|h[Tailoring]|h|r", -- [1]
+							"|cffffd000|Htrade:51313:442:450:10151B:477fb7a8f7Z72syv/LJPAAAAwBGAhsAA7XzC907v2LVvHk//RAD|h[Enchanting]|h|r", -- [2]
+							"|cffffd000|Htrade:3413:150:225:10151B:GAEAGABAEAgAAAAQAAAAAAAAAAKAUKA|h[Cooking]|h|r", -- [3]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1549674279,
 					},
 				},
 			},

@@ -6,10 +6,13 @@ EQ2DBPC = {
 		},
 	},
 	["profileKeys"] = {
+		["Nightbull - Sin'Dorei"] = "global",
 		["Nightbull - WoWArg"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
+			["zoneid"] = 4395,
+			["zonegroup"] = "Northrend",
 		},
 	},
 }

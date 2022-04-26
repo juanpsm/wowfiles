@@ -3,6 +3,7 @@ DataStore_SkillsDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,6 +12,38 @@ DataStore_SkillsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["lastUpdate"] = 1618962691,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "19|75",
+						["First Aid"] = "1|75",
+					},
+					["Class Skills"] = {
+						["Demonology"] = "1|1",
+						["Affliction"] = "1|1",
+						["Destruction"] = "1|1",
+					},
+					["Professions"] = {
+						["Alchemy"] = "1|75",
+						["Herbalism"] = "3|75",
+					},
+					["Languages"] = {
+						["Language: Gnomish"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Staves"] = "47|60",
+						["Unarmed"] = "1|60",
+						["Daggers"] = "1|60",
+						["Wands"] = "1|60",
+						["Defense"] = "58|60",
+					},
+				},
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["lastUpdate"] = 1528838082,
 				["Skills"] = {
@@ -18,27 +51,27 @@ DataStore_SkillsDB = {
 						["Hachas de dos manos"] = "33|50",
 						["Arcos"] = "48|50",
 						["Espadas"] = "1|50",
-						["Dagas"] = "1|50",
-						["Defensa"] = "42|50",
-						["Hachas"] = "1|50",
 						["Sin armas"] = "1|50",
+						["Dagas"] = "1|50",
+						["Hachas"] = "1|50",
+						["Defensa"] = "42|50",
 					},
 					["Idiomas"] = {
 						["Idioma: común"] = "300|300",
 						["Idioma: darnassiano"] = "300|300",
 					},
-					["Habilidades secundarias"] = {
-						["Cocina"] = "1|75",
-						["Primeros auxilios"] = "1|75",
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
+						["Cuero"] = "1|1",
 					},
 					["Habilidades de clase"] = {
 						["Supervivencia"] = "1|1",
 						["Dominio de bestias"] = "1|1",
 						["Puntería"] = "1|1",
 					},
-					["Armaduras disponibles"] = {
-						["Cuero"] = "1|1",
-						["Tela"] = "1|1",
+					["Habilidades secundarias"] = {
+						["Cocina"] = "1|75",
+						["Primeros auxilios"] = "1|75",
 					},
 				},
 			},
@@ -59,17 +92,17 @@ DataStore_SkillsDB = {
 						["Idioma: común"] = "300|300",
 						["Idioma: draenei"] = "300|300",
 					},
-					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
+					["Habilidades secundarias"] = {
+						["Pesca"] = "1|75",
+						["Primeros auxilios"] = "1|75",
 					},
 					["Habilidades de clase"] = {
 						["Magia sombría"] = "1|1",
-						["Sagrado"] = "1|1",
 						["Disciplina"] = "1|1",
+						["Sagrado"] = "1|1",
 					},
-					["Habilidades secundarias"] = {
-						["Primeros auxilios"] = "1|75",
-						["Pesca"] = "1|75",
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
 					},
 				},
 			},
@@ -88,8 +121,8 @@ DataStore_SkillsDB = {
 					["Habilidades con armas"] = {
 						["Bastones"] = "2|5",
 						["Defensa"] = "5|5",
-						["Varitas"] = "1|5",
 						["Sin armas"] = "1|5",
+						["Varitas"] = "1|5",
 					},
 					["Armaduras disponibles"] = {
 						["Tela"] = "1|1",
@@ -115,8 +148,8 @@ DataStore_SkillsDB = {
 						["Armas arrojadizas"] = "1|5",
 					},
 					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
 						["Cuero"] = "1|1",
+						["Tela"] = "1|1",
 					},
 				},
 			},
@@ -136,10 +169,9 @@ DataStore_SkillsDB = {
 						["Idioma: común"] = "300|300",
 						["Idioma: darnassiano"] = "300|300",
 					},
-					["Habilidades secundarias"] = {
-						["Pesca"] = "66|75",
-						["Equitación"] = "75|75",
-						["Primeros auxilios"] = "71|150",
+					["Armaduras disponibles"] = {
+						["Cuero"] = "1|1",
+						["Tela"] = "1|1",
 					},
 					["Habilidades con armas"] = {
 						["Sin armas"] = "45|175",
@@ -153,12 +185,13 @@ DataStore_SkillsDB = {
 						["Espadas"] = "90|175",
 						["Bastones"] = "1|175",
 						["Defensa"] = "162|175",
-						["Hachas"] = "6|175",
 						["Armas arrojadizas"] = "1|175",
+						["Hachas"] = "6|175",
 					},
-					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
-						["Cuero"] = "1|1",
+					["Habilidades secundarias"] = {
+						["Pesca"] = "66|75",
+						["Equitación"] = "75|75",
+						["Primeros auxilios"] = "71|150",
 					},
 				},
 			},
@@ -182,8 +215,8 @@ DataStore_SkillsDB = {
 					},
 					["Armaduras disponibles"] = {
 						["Cuero"] = "1|1",
-						["Tela"] = "1|1",
 						["Escudo"] = "1|1",
+						["Tela"] = "1|1",
 					},
 				},
 			},
@@ -198,24 +231,24 @@ DataStore_SkillsDB = {
 						["Sin armas"] = "1|50",
 						["Bastones"] = "36|50",
 						["Defensa"] = "45|50",
-						["Dagas"] = "1|50",
 						["Varitas"] = "1|50",
+						["Dagas"] = "1|50",
 					},
 					["Idiomas"] = {
 						["Idioma: común"] = "300|300",
 						["Idioma: gnomótico"] = "300|300",
 					},
-					["Habilidades secundarias"] = {
-						["Cocina"] = "19|75",
-						["Primeros auxilios"] = "1|75",
+					["Armaduras disponibles"] = {
+						["Tela"] = "1|1",
 					},
 					["Habilidades de clase"] = {
 						["Aflicción"] = "1|1",
 						["Demonología"] = "1|1",
 						["Destrucción"] = "1|1",
 					},
-					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
+					["Habilidades secundarias"] = {
+						["Cocina"] = "19|75",
+						["Primeros auxilios"] = "1|75",
 					},
 				},
 			},

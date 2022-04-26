@@ -1,2 +1,5 @@
-SET flaggedTutorials "v"
-SET cameraDistanceMaxFactor "1"
+SET flaggedTutorials "v##A##B##,##4##Y"
+SET guildShowOffline "0"
+SET showTimestamps "%H:%M "
+SET cameraDistanceMaxFactor "2"
+SET talentFrameShown "1"

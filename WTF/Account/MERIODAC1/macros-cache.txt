@@ -1,0 +1,21 @@
+MACRO 3 "/way #1451 23.6 " INV_Misc_QuestionMark
+END
+MACRO 5 "Arcano" Spell_Frost_ChillingBolt
+#showtooltip Poder arcano
+/cast Poder Arcano
+/cast Reflejo exacto
+/cast Venas Heladas
+/use Poción de velocidad
+/use Guantes
+END
+MACRO 4 "bola de fuego" INV_Misc_QuestionMark
+#showtooltip Bola de Fuego(Rango 13)
+/cast Presencia mental
+/cast Bola de Fuego(Rango 13)
+END
+MACRO 2 "MOD OFF" INV_Misc_QuestionMark
+/s .modrates off
+END
+MACRO 1 "MOD ON" INV_Misc_QuestionMark
+/s .modrates on
+END

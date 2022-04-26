@@ -1,4 +1,30 @@
 
-OmniCCGlobalSettings = {
-	["version"] = "3.0.2",
+OmniCC4Config = {
+	["version"] = "7.2.0",
+	["groupSettings"] = {
+		["base"] = {
+			["minDuration"] = 2.000000029802322,
+			["styles"] = {
+				["seconds"] = {
+				},
+				["minutes"] = {
+				},
+				["soon"] = {
+				},
+				["hours"] = {
+				},
+				["charging"] = {
+				},
+				["controlled"] = {
+				},
+			},
+			["tenthsDuration"] = 0,
+			["minSize"] = 0.5,
+			["minEffectDuration"] = 30.00000044703484,
+			["mmSSDuration"] = 0,
+			["spiralOpacity"] = 1.009999977424741,
+		},
+	},
+	["groups"] = {
+	},
 }

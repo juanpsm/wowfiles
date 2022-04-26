@@ -3,7 +3,19 @@ GS_Data = {
 	["WoWArg"] = {
 		["Players"] = {
 			["Luismaster"] = {
+				["PVP"] = 1,
+				["Guild"] = "LCTRE",
+				["Spec"] = 1,
+				["Date"] = 201910040305,
 				["Class"] = "WA",
+				["Average"] = 276,
+				["Scanned"] = "Sadrih",
+				["GearScore"] = 6500,
+				["Race"] = "NE",
+				["Name"] = "Luismaster",
+				["Sex"] = 1,
+				["Location"] = "XXX",
+				["Level"] = 80,
 				["Equip"] = {
 					"50640:3818", -- [1]
 					"50627:0", -- [2]
@@ -24,58 +36,22 @@ GS_Data = {
 					"50729:1952", -- [17]
 					"51834:0", -- [18]
 				},
-				["Guild"] = "LCTRE",
-				["Scanned"] = "Sadrih",
-				["Date"] = 201910040305,
-				["PVP"] = 1,
-				["Average"] = 276,
-				["Spec"] = 1,
-				["GearScore"] = 6500,
-				["Race"] = "NE",
-				["Name"] = "Luismaster",
 				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 1,
-			},
-			["Yamilaa"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 3,
-				["Date"] = 201806272321,
-				["Class"] = "DR",
-				["Average"] = 261,
-				["Level"] = 80,
-				["GearScore"] = 5984,
-				["Race"] = "NE",
-				["Name"] = "Yamilaa",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51149:3820", -- [1]
-					"50182:0", -- [2]
-					"51147:3810", -- [3]
-					nil, -- [4]
-					"50649:3832", -- [5]
-					"51908:0", -- [6]
-					"51146:3719", -- [7]
-					"50009:3826", -- [8]
-					"49994:2332", -- [9]
-					"51148:0", -- [10]
-					"50008:0", -- [11]
-					"50398:0", -- [12]
-					"40682:0", -- [13]
-					"50340:0", -- [14]
-					"50014:3831", -- [15]
-					"51898:3854", -- [16]
-					"0:0", -- [17]
-					"50457:0", -- [18]
-				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
 			},
 			["Sadrih"] = {
+				["PVP"] = 1,
+				["Guild"] = "Azeroth Fighters",
+				["Spec"] = 1,
+				["Date"] = 201910040305,
 				["Class"] = "PR",
+				["Average"] = 260,
+				["Scanned"] = "Sadrih",
+				["GearScore"] = 5953,
+				["Race"] = "DR",
+				["Name"] = "Sadrih",
+				["Sex"] = 1,
+				["Location"] = "XXX",
+				["Level"] = 80,
 				["Equip"] = {
 					"51184:3820", -- [1]
 					"51894:0", -- [2]
@@ -96,32 +72,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"50631:0", -- [18]
 				},
-				["Guild"] = "Azeroth Fighters",
-				["Scanned"] = "Sadrih",
-				["Date"] = 201910040305,
-				["PVP"] = 1,
-				["Average"] = 260,
-				["Spec"] = 1,
-				["GearScore"] = 5953,
-				["Race"] = "DR",
-				["Name"] = "Sadrih",
 				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 1,
 			},
 			["Akumayoru"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 3,
-				["Date"] = 201806272250,
 				["Class"] = "MA",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272250,
+				["PVP"] = 1,
 				["Average"] = 259,
 				["Level"] = 80,
 				["GearScore"] = 5916,
 				["Race"] = "DR",
 				["Name"] = "Akumayoru",
-				["Faction"] = "A",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"51158:3820", -- [1]
 					"50182:0", -- [2]
@@ -142,130 +108,22 @@ GS_Data = {
 					"50173:0", -- [17]
 					"50472:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
-			},
-			["Lucer"] = {
 				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 2,
-				["Date"] = 201806272157,
-				["Class"] = "HU",
-				["Average"] = 253,
-				["Level"] = 80,
-				["GearScore"] = 5643,
-				["Race"] = "DW",
-				["Name"] = "Lucer",
-				["Faction"] = "A",
-				["Equip"] = {
-					"50115:3817", -- [1]
-					"50452:0", -- [2]
-					"51151:3808", -- [3]
-					nil, -- [4]
-					"51150:3832", -- [5]
-					"50413:0", -- [6]
-					"49988:3823", -- [7]
-					"51891:1597", -- [8]
-					"50333:3845", -- [9]
-					"50114:1603", -- [10]
-					"51900:0", -- [11]
-					"50402:0", -- [12]
-					"47214:0", -- [13]
-					"40684:0", -- [14]
-					"50470:1099", -- [15]
-					"51857:3827", -- [16]
-					"0:0", -- [17]
-					"50262:3608", -- [18]
-				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
-			},
-			["Ragnarohk"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 2,
-				["Date"] = 201806272312,
-				["Class"] = "WA",
-				["Average"] = 259,
-				["Level"] = 80,
-				["GearScore"] = 5872,
-				["Race"] = "DR",
-				["Name"] = "Ragnarohk",
-				["Faction"] = "A",
-				["Equip"] = {
-					"51212:3817", -- [1]
-					"49989:0", -- [2]
-					"51210:3808", -- [3]
-					nil, -- [4]
-					"51214:3832", -- [5]
-					"51000:0", -- [6]
-					"50081:3823", -- [7]
-					"49983:1597", -- [8]
-					"50333:3845", -- [9]
-					"50021:1603", -- [10]
-					"50414:0", -- [11]
-					"50402:0", -- [12]
-					"40684:0", -- [13]
-					"50362:0", -- [14]
-					"50470:0", -- [15]
-					"49888:3789", -- [16]
-					"50798:3789", -- [17]
-					"49981:0", -- [18]
-				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
-			},
-			["Mae"] = {
-				["Spec"] = 1,
-				["Guild"] = "Duck Commander",
-				["Class"] = "HU",
-				["Date"] = 201904290055,
-				["PVP"] = 1,
-				["Average"] = 190,
-				["Scanned"] = "Testiculina",
-				["GearScore"] = 3253,
-				["Race"] = "DR",
-				["Name"] = "Mae",
-				["Faction"] = "A",
-				["Equip"] = {
-					"29081:3817", -- [1]
-					"27792:0", -- [2]
-					"29084:3808", -- [3]
-					nil, -- [4]
-					"29082:3832", -- [5]
-					"33280:0", -- [6]
-					"29083:3823", -- [7]
-					"45183:1597", -- [8]
-					"50000:3845", -- [9]
-					"29085:3604", -- [10]
-					"51900:0", -- [11]
-					"50402:0", -- [12]
-					"50363:0", -- [13]
-					"54569:0", -- [14]
-					"50470:3730", -- [15]
-					"49302:3827", -- [16]
-					"0:0", -- [17]
-					"32336:3608", -- [18]
-				},
-				["Level"] = 80,
-				["Location"] = "DAL",
-				["Sex"] = 1,
 			},
 			["Paaker"] = {
-				["Spec"] = 1,
-				["Guild"] = "Duck Commander",
 				["Class"] = "WK",
-				["Date"] = 201904290055,
+				["Guild"] = "Duck Commander",
 				["PVP"] = 1,
+				["Date"] = 201904290055,
+				["Spec"] = 1,
 				["Average"] = 267,
 				["Scanned"] = "Testiculina",
 				["GearScore"] = 6156,
 				["Race"] = "HU",
 				["Name"] = "Paaker",
-				["Faction"] = "A",
+				["Sex"] = 1,
+				["Location"] = "DAL",
+				["Level"] = 80,
 				["Equip"] = {
 					"51538:3797", -- [1]
 					"51335:0", -- [2]
@@ -286,22 +144,166 @@ GS_Data = {
 					"51407:0", -- [17]
 					"51451:0", -- [18]
 				},
+				["Faction"] = "A",
+			},
+			["Lucer"] = {
+				["Class"] = "HU",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272157,
+				["PVP"] = 1,
+				["Average"] = 253,
 				["Level"] = 80,
-				["Location"] = "DAL",
+				["GearScore"] = 5643,
+				["Race"] = "DW",
+				["Name"] = "Lucer",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
+				["Equip"] = {
+					"50115:3817", -- [1]
+					"50452:0", -- [2]
+					"51151:3808", -- [3]
+					nil, -- [4]
+					"51150:3832", -- [5]
+					"50413:0", -- [6]
+					"49988:3823", -- [7]
+					"51891:1597", -- [8]
+					"50333:3845", -- [9]
+					"50114:1603", -- [10]
+					"51900:0", -- [11]
+					"50402:0", -- [12]
+					"47214:0", -- [13]
+					"40684:0", -- [14]
+					"50470:1099", -- [15]
+					"51857:3827", -- [16]
+					"0:0", -- [17]
+					"50262:3608", -- [18]
+				},
+				["Spec"] = 1,
+			},
+			["Ragnarohk"] = {
+				["Class"] = "WA",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272312,
+				["PVP"] = 1,
+				["Average"] = 259,
+				["Level"] = 80,
+				["GearScore"] = 5872,
+				["Race"] = "DR",
+				["Name"] = "Ragnarohk",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
+				["Equip"] = {
+					"51212:3817", -- [1]
+					"49989:0", -- [2]
+					"51210:3808", -- [3]
+					nil, -- [4]
+					"51214:3832", -- [5]
+					"51000:0", -- [6]
+					"50081:3823", -- [7]
+					"49983:1597", -- [8]
+					"50333:3845", -- [9]
+					"50021:1603", -- [10]
+					"50414:0", -- [11]
+					"50402:0", -- [12]
+					"40684:0", -- [13]
+					"50362:0", -- [14]
+					"50470:0", -- [15]
+					"49888:3789", -- [16]
+					"50798:3789", -- [17]
+					"49981:0", -- [18]
+				},
+				["Spec"] = 1,
+			},
+			["Mae"] = {
+				["Class"] = "HU",
+				["Guild"] = "Duck Commander",
+				["PVP"] = 1,
+				["Date"] = 201904290055,
+				["Spec"] = 1,
+				["Average"] = 190,
+				["Scanned"] = "Testiculina",
+				["GearScore"] = 3253,
+				["Race"] = "DR",
+				["Name"] = "Mae",
 				["Sex"] = 1,
+				["Location"] = "DAL",
+				["Level"] = 80,
+				["Equip"] = {
+					"29081:3817", -- [1]
+					"27792:0", -- [2]
+					"29084:3808", -- [3]
+					nil, -- [4]
+					"29082:3832", -- [5]
+					"33280:0", -- [6]
+					"29083:3823", -- [7]
+					"45183:1597", -- [8]
+					"50000:3845", -- [9]
+					"29085:3604", -- [10]
+					"51900:0", -- [11]
+					"50402:0", -- [12]
+					"50363:0", -- [13]
+					"54569:0", -- [14]
+					"50470:3730", -- [15]
+					"49302:3827", -- [16]
+					"0:0", -- [17]
+					"32336:3608", -- [18]
+				},
+				["Faction"] = "A",
+			},
+			["Yamilaa"] = {
+				["Class"] = "DR",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272321,
+				["PVP"] = 1,
+				["Average"] = 261,
+				["Level"] = 80,
+				["GearScore"] = 5984,
+				["Race"] = "NE",
+				["Name"] = "Yamilaa",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
+				["Equip"] = {
+					"51149:3820", -- [1]
+					"50182:0", -- [2]
+					"51147:3810", -- [3]
+					nil, -- [4]
+					"50649:3832", -- [5]
+					"51908:0", -- [6]
+					"51146:3719", -- [7]
+					"50009:3826", -- [8]
+					"49994:2332", -- [9]
+					"51148:0", -- [10]
+					"50008:0", -- [11]
+					"50398:0", -- [12]
+					"40682:0", -- [13]
+					"50340:0", -- [14]
+					"50014:3831", -- [15]
+					"51898:3854", -- [16]
+					"0:0", -- [17]
+					"50457:0", -- [18]
+				},
+				["Spec"] = 1,
 			},
 			["Stormtotem"] = {
-				["Spec"] = 1,
-				["Guild"] = "Duck Commander",
-				["Sex"] = 3,
-				["Date"] = 201806272322,
 				["Class"] = "SH",
+				["Guild"] = "Duck Commander",
+				["Faction"] = "A",
+				["Date"] = 201806272322,
+				["PVP"] = 1,
 				["Average"] = 258,
 				["Level"] = 80,
 				["GearScore"] = 5852,
 				["Race"] = "DR",
 				["Name"] = "Stormtotem",
-				["Faction"] = "A",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"50837:0", -- [1]
 					"50182:0", -- [2]
@@ -322,22 +324,22 @@ GS_Data = {
 					"49976:0", -- [17]
 					"47665:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 			["Draeneiris"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 3,
-				["Date"] = 201806272328,
 				["Class"] = "DK",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272328,
+				["PVP"] = 1,
 				["Average"] = 262,
 				["Level"] = 80,
 				["GearScore"] = 5986,
 				["Race"] = "DR",
 				["Name"] = "Draeneiris",
-				["Faction"] = "A",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"51133:0", -- [1]
 					"50195:0", -- [2]
@@ -358,22 +360,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"50462:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 			["Chotasauron"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 2,
-				["Date"] = 201806272251,
 				["Class"] = "PR",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272251,
+				["PVP"] = 1,
 				["Average"] = 243,
 				["Level"] = 80,
 				["GearScore"] = 5098,
 				["Race"] = "HU",
 				["Name"] = "Chotasauron",
-				["Faction"] = "A",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"30161:3820", -- [1]
 					"50182:0", -- [2]
@@ -394,22 +396,22 @@ GS_Data = {
 					"50173:0", -- [17]
 					"51852:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 			["Snops"] = {
-				["Spec"] = 1,
-				["Guild"] = "HaWeeWee",
-				["Sex"] = 2,
-				["Date"] = 201806272250,
 				["Class"] = "PA",
+				["Guild"] = "HaWeeWee",
+				["Faction"] = "A",
+				["Date"] = 201806272250,
+				["PVP"] = 1,
 				["Average"] = 261,
 				["Level"] = 80,
 				["GearScore"] = 5986,
 				["Race"] = "HU",
 				["Name"] = "Snops",
-				["Faction"] = "A",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"51173:3818", -- [1]
 					"51934:0", -- [2]
@@ -430,12 +432,22 @@ GS_Data = {
 					"51909:1952", -- [17]
 					"47664:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 			["Lithium"] = {
+				["PVP"] = 1,
+				["Guild"] = "Shadowmourne",
+				["Spec"] = 1,
+				["Date"] = 201910040305,
 				["Class"] = "PA",
+				["Average"] = 269,
+				["Scanned"] = "Sadrih",
+				["GearScore"] = 6269,
+				["Race"] = "DR",
+				["Name"] = "Lithium",
+				["Sex"] = 1,
+				["Location"] = "XXX",
+				["Level"] = 80,
 				["Equip"] = {
 					"51167:3820", -- [1]
 					"51894:0", -- [2]
@@ -456,32 +468,22 @@ GS_Data = {
 					"50616:1128", -- [17]
 					"47662:0", -- [18]
 				},
-				["Guild"] = "Shadowmourne",
-				["Scanned"] = "Sadrih",
-				["Date"] = 201910040305,
-				["PVP"] = 1,
-				["Average"] = 269,
-				["Spec"] = 1,
-				["GearScore"] = 6269,
-				["Race"] = "DR",
-				["Name"] = "Lithium",
 				["Faction"] = "A",
-				["Location"] = "XXX",
-				["Level"] = 80,
-				["Sex"] = 1,
 			},
 			["Banjhe"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 3,
-				["Date"] = 201806272327,
 				["Class"] = "WK",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272327,
+				["PVP"] = 1,
 				["Average"] = 257,
 				["Level"] = 80,
 				["GearScore"] = 5805,
 				["Race"] = "HU",
 				["Name"] = "Banjhe",
-				["Faction"] = "A",
+				["Sex"] = 3,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"51208:3820", -- [1]
 					"50182:0", -- [2]
@@ -502,22 +504,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"51326:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 			["Liomessi"] = {
-				["Spec"] = 1,
-				["Guild"] = "Los Exiliados",
-				["Sex"] = 2,
-				["Date"] = 201806272331,
 				["Class"] = "DK",
+				["Guild"] = "Los Exiliados",
+				["Faction"] = "A",
+				["Date"] = 201806272331,
+				["PVP"] = 1,
 				["Average"] = 266,
 				["Level"] = 80,
 				["GearScore"] = 6140,
 				["Race"] = "HU",
 				["Name"] = "Liomessi",
-				["Faction"] = "A",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"51133:3818", -- [1]
 					"50195:0", -- [2]
@@ -538,22 +540,22 @@ GS_Data = {
 					"0:0", -- [17]
 					"50462:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 			["Zelphar"] = {
-				["Spec"] = 1,
-				["Guild"] = "Shadowblades",
-				["Sex"] = 2,
-				["Date"] = 201806272314,
 				["Class"] = "DR",
+				["Guild"] = "Shadowblades",
+				["Faction"] = "A",
+				["Date"] = 201806272314,
+				["PVP"] = 1,
 				["Average"] = 255,
 				["Level"] = 80,
 				["GearScore"] = 5658,
 				["Race"] = "NE",
 				["Name"] = "Zelphar",
-				["Faction"] = "A",
+				["Sex"] = 2,
+				["Location"] = "XXX",
+				["Scanned"] = "Zelphar",
 				["Equip"] = {
 					"50108:3820", -- [1]
 					"49975:0", -- [2]
@@ -574,9 +576,7 @@ GS_Data = {
 					"40699:0", -- [17]
 					"50454:0", -- [18]
 				},
-				["Scanned"] = "Zelphar",
-				["Location"] = "XXX",
-				["PVP"] = 1,
+				["Spec"] = 1,
 			},
 		},
 		["CurrentPlayer"] = {
@@ -615,14 +615,14 @@ GS_Settings = {
 	["Crusade"] = 4100,
 	["HEmalon"] = 3750,
 	["Heroics"] = 2600,
-	["HSarth"] = 3450,
+	["Compare"] = -1,
 	["ShowHelp"] = 1,
 	["CHAT"] = -1,
 	["HArchavon"] = 3350,
 	["Player"] = 1,
-	["Compare"] = -1,
-	["Date2"] = 1,
 	["MinLevel"] = 80,
+	["Date2"] = 1,
+	["HSarth"] = 3450,
 	["HMaly"] = 3800,
 	["ML"] = -1,
 	["Slider"] = 10,

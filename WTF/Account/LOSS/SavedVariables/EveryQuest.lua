@@ -2,11 +2,11 @@
 EveryQuestDB = nil
 EQ2DB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "global",
+		["Lossana - WoWArg"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
-			["querytime"] = 1635032185,
+			["querytime"] = 1648611423,
 		},
 	},
 }

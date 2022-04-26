@@ -50,7 +50,7 @@ N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][
 END
 MACRO 16777220 "WS+F" INV_Misc_QuestionMark
 #showtooltip
-/cast [target=focus] Arma Viento Furioso(Rango 8)
+/cast [target=focus] Riptide(Rank 4)
 END
 MACRO 16777223 "WSF" INV_Misc_QuestionMark
 #showtooltip

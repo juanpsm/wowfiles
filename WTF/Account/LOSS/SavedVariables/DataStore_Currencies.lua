@@ -1,20 +1,18 @@
 
 DataStore_CurrenciesDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Sin'Dorei.Lossena"] = {
-				["lastUpdate"] = 1635032250,
-			},
-			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646109283,
+			["Default.WoWArg.Lossana"] = {
 				["Currencies"] = {
-					"0|Player vs. Player", -- [1]
-					"1|Honor Points|62|43308", -- [2]
+					"0|Dungeon and Raid", -- [1]
+					"1|Emblem of Frost|15|49426", -- [2]
+					"0|Player vs. Player", -- [3]
+					"1|Honor Points|62|43308", -- [4]
 				},
+				["lastUpdate"] = 1648611500,
 			},
 		},
 	},

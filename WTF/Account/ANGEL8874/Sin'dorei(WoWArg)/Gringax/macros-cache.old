@@ -1,0 +1,40 @@
+MACRO 16777219 "BUFF" Ability_Druid_NaturalPerfection
+/castsequence [target=Gringax] Frost Armor, Arcane intellect, Dampen Magic, Conjure Refreshment, Conjure Refreshment
+END
+MACRO 16777220 "BUFF MInc" Ability_Druid_Nourish
+/castsequence [target=Zenos] Arcane Intellect, Dampen Magic, Focus Magic
+/castsequence [target=Heyling] Arcane Intellect, Dampen Magic, Focus Magic
+/castsequence [target=ertac] Arcane Intellect, Dampen Magic, Focus Magic
+END
+MACRO 16777226 "FocusCurse" INV_Misc_QuestionMark
+/cast [target=Heyling] Remove Curse
+/cast [target=Zenos] Remove Curse
+END
+MACRO 16777225 "FocusDeepFreeze" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=Focus] Deep Freeze
+END
+MACRO 16777221 "FocusPoli" INV_Misc_QuestionMark
+#showtooltip Polymorph
+/cast [target=Focus] Polymorph(Rabbit)
+END
+MACRO 16777224 "FocusSilence" INV_Misc_QuestionMark
+#showtooltip Counterspell
+/cast [target=Focus] Counterspell
+END
+MACRO 16777223 "FocusSS" INV_Misc_QuestionMark
+#showtooltip Spellsteal
+/cast [target=Focus] Spellsteal
+END
+MACRO 16777222 "Freeze" INV_Misc_QuestionMark
+#Showtooltip
+/cast Freeze
+END
+MACRO 16777227 "HeylingMacro" INV_Misc_QuestionMark
+/castsequence [target=Heyling] Arcane Intellect, Dampen Magic, Focus Magic
+END
+MACRO 16777217 "Quitar" Ability_Creature_Cursed_04
+/cast Infused Coldstone Rune
+/use Infused Coldstone Rune
+/use Vial of Renewal
+END

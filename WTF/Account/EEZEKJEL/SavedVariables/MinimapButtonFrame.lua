@@ -2,7 +2,9 @@
 MBFDB = {
 	["profileKeys"] = {
 		["Elchamaquito - WoWArg"] = "Default",
+		["Elchamaquito - Sin'Dorei"] = "Default",
 		["Trank - WoWArg"] = "Default",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Default",
 		["Perruco - WoWArg"] = "Default",
 	},
 	["profiles"] = {
@@ -27,6 +29,8 @@ MBFDB = {
 				"CurrencyMinimap", -- [11]
 				"LibDBIcon10_Skada", -- [12]
 				"FishingBuddyMinimapFrame", -- [13]
+				"Gatherer_MinimapOptionsButton", -- [14]
+				"LibDBIcon10_Omen", -- [15]
 			},
 		},
 	},

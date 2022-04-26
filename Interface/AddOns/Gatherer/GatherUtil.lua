@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherUtil.lua 783 2008-12-05 08:13:41Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherUtil.lua 880 2010-10-12 07:49:21Z Esamynn $
 
 	License:
 	This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Utility functions
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherUtil.lua $", "$Rev: 783 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherUtil.lua $", "$Rev: 880 $")
 
 -- reference to the Astrolabe mapping library
 local Astrolabe = DongleStub(Gatherer.AstrolabeVersion)
@@ -195,6 +195,26 @@ function Gatherer.Util.MakeName(frameID)
 end
 ]]
 
+local _, _, _, tocVersion = GetBuildInfo();
+
+if ( tocVersion >= 40000 ) then
+
+
+function Gatherer.Util.GetSkills()
+	local ProfessionTextures = Gatherer.Constants.ProfessionTextures;
+	
+	for _, profId in pairs({GetProfessions()}) do
+		local name, texture, skillRank, maxRank = GetProfessionInfo(profId);
+		if ( ProfessionTextures[texture] ) then
+			Gatherer.Var.Skills[ProfessionTextures[texture]] = skillRank;
+		end
+	end
+end
+
+
+else
+
+
 local checkingSkills = false
 
 function Gatherer.Util.GetSkills()
@@ -246,26 +266,38 @@ function Gatherer.Util.GetSkills()
 	checkingSkills = false
 end
 
-local function GetTrackingMode()
-	return Gatherer.Constants.TrackingTextures[GetTrackingTexture()]
+
 end
-Gatherer.Util.GetTrackingMode = GetTrackingMode
+
+--******************************************************
+-- Current Tracking State Tracker System
+--******************************************************
+
+local currentTracks = {};
+
+function Gatherer.Util.UpdateTrackingState()
+	local TrackingTextures = Gatherer.Constants.TrackingTextures;
+	for id = 1, GetNumTrackingTypes() do
+		local name, texture, active, category  = GetTrackingInfo(id);
+		if ( TrackingTextures[texture] ) then
+			currentTracks[TrackingTextures[texture]] = active and true or false
+		end
+	end
+end
 
 function Gatherer.Util.IsNodeTracked( nodeId )
-	local trackingMode = GetTrackingMode()
-	if not ( trackingMode ) then
-		return false
-	end
-	
 	local trackType = Gatherer.Nodes.Objects[nodeId]
 	
 	-- check for a tracking type override
 	local category = Gatherer.Categories.ObjectCategories[nodeId]
 	trackType = Gatherer.Constants.TrackingOverrides[category] or trackType
 	
-	return (trackingMode == trackType)
+	return currentTracks[trackType]
 end
 
+--******************************************************
+-- END Current Tracking State Tracker System
+--******************************************************
 
 local nodeNames = {}
 for name, objid in pairs(Gatherer.Nodes.Names) do

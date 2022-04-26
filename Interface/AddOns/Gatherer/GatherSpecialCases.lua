@@ -1,6 +1,6 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
+	Version: 3.1.16 (<%codename%>)
 	Revision: $Id: GatherSpecialCases.lua 754 2008-10-14 04:43:39Z Esamynn $
 
 	License:
@@ -34,7 +34,7 @@
 	THIS FILE SHOULD ALWAYS BE HEAVILY COMMENTED SO THAT IT IS EASY TO UNDERSTAND
 	EXACTLY WHAT IS BEING DONE AND WHY!!!
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherSpecialCases.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherSpecialCases.lua $", "$Rev: 754 $")
 
 --[[
 	A list of object categories for which all nodes in that category are treated 

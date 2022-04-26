@@ -3,80 +3,84 @@ Bartender4DB = {
 	["namespaces"] = {
 		["BagBar"] = {
 			["profiles"] = {
-				["Lossena - Sin'Dorei"] = {
+				["Lossana - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = 58.5001226039409,
-						["point"] = "CENTER",
-						["y"] = 1.500045335422669,
+						["x"] = -388.1180008421984,
+						["point"] = "BOTTOMRIGHT",
+						["y"] = 36.00000590424537,
 					},
 				},
 			},
 		},
 		["Vehicle"] = {
 			["profiles"] = {
-				["Lossena - Sin'Dorei"] = {
+				["Lossana - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = 53.50000649602578,
-						["point"] = "CENTER",
-						["y"] = 51.49999856403645,
+						["x"] = -129.9999579673959,
+						["point"] = "RIGHT",
+						["y"] = 48.31521585183043,
 					},
 				},
 			},
 		},
 		["XPBar"] = {
+			["profiles"] = {
+				["Lossana - Sin'Dorei"] = {
+				},
+			},
 		},
 		["ActionBars"] = {
 			["profiles"] = {
-				["Lossena - Sin'Dorei"] = {
+				["Lossana - Sin'Dorei"] = {
 					["actionbars"] = {
 						{
 							["version"] = 3,
 							["position"] = {
-								["x"] = -231.4999947348001,
-								["point"] = "CENTER",
-								["y"] = -227.4999526132007,
+								["x"] = -231.5000043227511,
+								["point"] = "BOTTOM",
+								["y"] = 127.055005847663,
 							},
 						}, -- [1]
 						{
 							["version"] = 3,
 							["position"] = {
-								["x"] = -231.4999947348001,
-								["point"] = "CENTER",
-								["y"] = -189.4999857087431,
+								["x"] = -231.5000043227511,
+								["point"] = "BOTTOM",
+								["y"] = 92.13908462126129,
 							},
 						}, -- [2]
 						{
 							["version"] = 3,
 							["position"] = {
-								["x"] = -231.4999947348001,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
-								["y"] = -151.4999575365046,
+								["y"] = -151.5000481828596,
 							},
 						}, -- [3]
 						{
 							["version"] = 3,
 							["position"] = {
-								["x"] = -231.4999947348001,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
-								["y"] = -113.4999293642661,
+								["y"] = -113.5000460742005,
 							},
 						}, -- [4]
 						{
 							["version"] = 3,
 							["position"] = {
-								["x"] = -231.4999947348001,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
-								["y"] = -75.49998871742866,
+								["y"] = -75.50000797776011,
 							},
 						}, -- [5]
 						{
 							["version"] = 3,
 							["position"] = {
-								["x"] = -231.4999947348001,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
-								["y"] = -37.49999555535067,
+								["y"] = -37.49996988131977,
 							},
 						}, -- [6]
 						{
@@ -90,50 +94,55 @@ Bartender4DB = {
 			},
 		},
 		["RepBar"] = {
+			["profiles"] = {
+				["Lossana - Sin'Dorei"] = {
+				},
+			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
-				["Lossena - Sin'Dorei"] = {
+				["Lossana - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = -82.49995521161111,
+						["x"] = -82.49997332546298,
 						["point"] = "CENTER",
-						["y"] = -14.99998946960011,
+						["y"] = -15.00002214092012,
 					},
 				},
 			},
 		},
 		["PetBar"] = {
 			["profiles"] = {
-				["Lossena - Sin'Dorei"] = {
+				["Lossana - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = -163.4997600573182,
-						["point"] = "CENTER",
-						["y"] = 89.50000923119467,
+						["x"] = -229.9704156539539,
+						["point"] = "BOTTOM",
+						["y"] = 161.0549840581861,
 					},
 				},
 			},
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["Lossena - Sin'Dorei"] = {
+				["Lossana - Sin'Dorei"] = {
 					["version"] = 3,
 					["position"] = {
-						["x"] = -188.7999396081185,
-						["point"] = "CENTER",
+						["x"] = -205.1999159318884,
+						["point"] = "BOTTOMRIGHT",
 						["scale"] = 0.800000011920929,
-						["y"] = 42.40000847370993,
+						["y"] = 32.39999432551307,
 					},
 				},
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
 	},
 	["profiles"] = {
-		["Lossena - Sin'Dorei"] = {
+		["Lossana - Sin'Dorei"] = {
+			["buttonlock"] = true,
 		},
 	},
 }

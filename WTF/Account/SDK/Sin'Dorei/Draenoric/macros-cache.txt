@@ -1,3 +1,7 @@
+MACRO 16777234 "agro mo" INV_Misc_QuestionMark
+#showtooltip Hand of Salvation
+/cast [target=mouseover,help,exists] Hand of Salvation
+END
 MACRO 16777220 "assd" INV_Misc_QuestionMark
 #showtooltip Crusader Strike
 /startattack
@@ -14,6 +18,10 @@ MACRO 16777227 "defensivo" INV_Misc_QuestionMark
 /cast Divine Protection
 /cast Gift of the Naaru(Racial)
 END
+MACRO 16777236 "heal" INV_Misc_QuestionMark
+#show
+/castsequence Sacred Shield(Rank 1), Flash of Light(Rank 9)
+END
 MACRO 16777232 "HoR MO" INV_Misc_QuestionMark
 #show
 /cast [target=mouseover] Hand of Reckoning
@@ -26,13 +34,17 @@ MACRO 16777221 "inmune" INV_Misc_QuestionMark
 /cast Divine Shield
 /in 0.5 /script CancelUnitBuff("Draenoric","Divine Shield")
 END
+MACRO 16777230 "kings MO" INV_Misc_QuestionMark
+#show
+/cast [target=mouseover] Greater Blessing of Kings
+END
 MACRO 16777233 "mana" INV_Misc_QuestionMark
 /cast Divine Plea
 /cast Gift of the Naaru(Racial)
 END
-MACRO 16777230 "reyes MO" INV_Misc_QuestionMark
+MACRO 16777235 "poderio MO" INV_Misc_QuestionMark
 #show
-/cast [target=mouseover] Greater Blessing of Kings
+/cast [target=mouseover] Greater Blessing of Might
 END
 MACRO 16777225 "rotacion 6 sec" INV_Misc_QuestionMark
 /castsequence Hammer of the Righteous, Shield of Righteousness(Rank 2)

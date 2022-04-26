@@ -1,6 +1,6 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
+	Version: 3.1.16 (<%codename%>)
 	Revision: $Id: GatherNotifications.lua 754 2008-10-14 04:43:39Z Esamynn $
 
 	License:
@@ -30,7 +30,7 @@
 		such as warnings about Gatherer not recognizing all of the client's maps
 
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherNotifications.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherNotifications.lua $", "$Rev: 754 $")
 
 local _tr = Gatherer.Locale.Tr
 local _trC = Gatherer.Locale.TrClient

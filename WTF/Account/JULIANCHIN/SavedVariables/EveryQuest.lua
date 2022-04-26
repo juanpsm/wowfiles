@@ -2,9 +2,11 @@
 EveryQuestDB = nil
 EQ2DB = {
 	["profileKeys"] = {
-		["Skombrow - Queldorei PVP- PVE"] = "global",
+		["Skom - Sin'Dorei"] = "global",
+		["Crobar - Sin'dorei(WoWArg)"] = "global",
 		["Rivothrill - WoWArg"] = "global",
 		["Julianchin - Queldorei PVP- PVE"] = "global",
+		["Skombrow - Queldorei PVP- PVE"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {

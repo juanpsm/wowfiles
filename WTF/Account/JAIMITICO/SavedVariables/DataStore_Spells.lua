@@ -3,6 +3,7 @@ DataStore_SpellsDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,6 +12,41 @@ DataStore_SpellsDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["lastUpdate"] = 1618962691,
+				["Spells"] = {
+					["Demonology"] = {
+						"687|Rank 1", -- [1]
+						"688|Summon", -- [2]
+					},
+					["Destruction"] = {
+						"348|Rank 1", -- [1]
+						"695|Rank 1", -- [2]
+						"695|Rank 2", -- [3]
+					},
+					["Affliction"] = {
+						"172|Rank 1", -- [1]
+						"980|Rank 1", -- [2]
+						"702|Rank 1", -- [3]
+						"5782|Rank 1", -- [4]
+						"1454|Rank 1", -- [5]
+					},
+					["General"] = {
+						"2259|Apprentice", -- [1]
+						"20592|Racial Passive", -- [2]
+						"6603|", -- [3]
+						"818|", -- [4]
+						"2550|Apprentice", -- [5]
+						"81|Passive", -- [6]
+						"20593|Racial Passive", -- [7]
+						"20589|Racial", -- [8]
+						"20591|Racial Passive", -- [9]
+						"2383|", -- [10]
+						"3273|Apprentice", -- [11]
+						"5019|", -- [12]
+					},
+				},
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["lastUpdate"] = 1528838082,
 				["Spells"] = {
@@ -54,11 +90,8 @@ DataStore_SpellsDB = {
 						"1243|Rango 1", -- [1]
 						"17|Rango 1", -- [2]
 					},
-					["Sagrado"] = {
-						"591|Rango 1", -- [1]
-						"591|Rango 2", -- [2]
-						"2052|Rango 1", -- [3]
-						"2052|Rango 2", -- [4]
+					["Magia sombría"] = {
+						"589|Rango 1", -- [1]
 					},
 					["General"] = {
 						"6603|", -- [1]
@@ -72,8 +105,11 @@ DataStore_SpellsDB = {
 						"59538|Pasivo racial", -- [9]
 						"28875|Pasivo racial", -- [10]
 					},
-					["Magia sombría"] = {
-						"589|Rango 1", -- [1]
+					["Sagrado"] = {
+						"591|Rango 1", -- [1]
+						"591|Rango 2", -- [2]
+						"2052|Rango 1", -- [3]
+						"2052|Rango 2", -- [4]
 					},
 				},
 			},

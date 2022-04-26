@@ -15,21 +15,22 @@ FishingBuddy_Info = {
 	["enUS"] = {
 		["FishTotals"] = {
 		},
-		["FishingHoles"] = {
+		["FishingSkill"] = {
 		},
 		["SubZones"] = {
-			[1000] = 1,
-			[1001] = "The Eventide",
+			[1000] = 2,
+			[1002] = "The Eventide",
+			[1001] = "Krasus' Landing",
 		},
-		["FishingSkill"] = {
+		["FishingHoles"] = {
 		},
 	},
 	["FishInfo2"] = 0,
-	["Version"] = 9817,
-	["ImppDBLoaded"] = 0,
-	["Fishies"] = {
-	},
 	["ZoneIndex"] = {
 		"Dalaran", -- [1]
 	},
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+	},
+	["Version"] = 9817,
 }

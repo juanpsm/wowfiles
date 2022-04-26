@@ -1,0 +1,10 @@
+Bagnon: disabled
+Bagnon_AccountSearch: disabled
+BagBrother: disabled
+Ace3: enabled
+Bagnon_Config: disabled
+Bagnon_Forever: disabled
+Bagnon_GuildBank: disabled
+Bagnon_Tooltips: disabled
+Bagnon_VoidStorage: disabled
+Bartender4: disabled

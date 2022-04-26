@@ -1,6 +1,21 @@
 CHANGELOG (- done, = to test, + todo):
 ---------------------------------------
 
+3.1.16
+========
+Version Issue List: http://jira.norganna.org/browse/GATH/fixforversion/10433
+- GATH-121: Druid Flight Forms now count as a mount for the purposes of the HUD's "Hide while ..." options 
+- GATH-150: fixed that nodes were not displaying in the report view when no search string was entered
+- GATH-149: HUD was using it's own icon set to display nodes, changed it to use the icons from Gatherer itself 
+- GATH-143: added a slash command to enable/disable all Gatherer plugins (ie. for the HUD use: /gather plugin hud toggle)
+
+3.1.15
+========
+Version Issue List: http://jira.norganna.org/browse/GATH/fixforversion/10432
+- GATH-68, GATH-148: support for WoW 4.X..Includes support for multi-profession tracking (ie. tracking Herbs and Ore at the same time).
+- GATH-147: World Map note tooltips work once again
+- GATH-139: Gatherer will no longer prevent the "World Map Ping" from being displayed
+
 3.1.14
 ========
 Version Issue List: http://jira.norganna.org/browse/GATH/fixforversion/10352
@@ -472,4 +487,4 @@ Deleted a rogue print2 statement.
 - Added giant clam treasure
 
 --------------
-Revision: $Id: ChangeLog.txt 870 2009-08-05 19:57:19Z Esamynn $
+Revision: $Id: ChangeLog.txt 893 2010-10-18 06:39:14Z Esamynn $

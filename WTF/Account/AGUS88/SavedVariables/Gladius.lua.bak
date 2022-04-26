@@ -1,0 +1,11 @@
+
+GladiusDB = {
+	["profileKeys"] = {
+		["Sttriker - WoWArg"] = "Sttriker - WoWArg",
+	},
+	["profiles"] = {
+		["Sttriker - WoWArg"] = {
+			["locked"] = true,
+		},
+	},
+}

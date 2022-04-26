@@ -76,9 +76,11 @@ DBMOutlands_SavedStats = {
 		["heroicPulls"] = 0,
 	},
 	["Gruul"] = {
-		["pulls"] = 0,
-		["kills"] = 0,
+		["kills"] = 1,
 		["heroicKills"] = 0,
+		["pulls"] = 1,
+		["lastTime"] = 119.3999999999978,
+		["bestTime"] = 119.3999999999978,
 		["heroicPulls"] = 0,
 	},
 	["Doomwalker"] = {

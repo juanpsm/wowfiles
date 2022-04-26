@@ -23,13 +23,6 @@ MACRO 94 "guantes" INV_Misc_QuestionMark
 /cast Heroic Throw
 /use 10
 END
-MACRO 95 "Hamstring" INV_Misc_QuestionMark
-#showtooltip Hamstring
-/startattack
-/cast Battle Stance
-/cast Hamstring
-/cancelaura chaos bane
-END
 MACRO 111 "histeria" INV_Misc_QuestionMark
 /w Nairoby ESTOY PARA EL HISTERIKEO
 END
@@ -77,6 +70,7 @@ MACRO 89 "Slam" INV_Misc_QuestionMark
 /startattack 
 /cast Slam(Rank 8)
 /cast Heroic Strike(Rank 13)
+/script UIErrorsFrame:Clear()
 END
 MACRO 86 "suf" INV_Misc_QuestionMark
 /suf
@@ -104,9 +98,4 @@ MACRO 92 "UNItarget" INV_Misc_QuestionMark
 /castsequence reset=8 Bloodthirst, Whirlwind, Bloodthirst
 /cast Heroic Strike(Rank 13)
 /script UIErrorsFrame:Clear()
-END
-MACRO 106 "vida tank" INV_Misc_QuestionMark
-#show Last stand
-/cast Last stand
-/use Ick's Rotting Thumb
 END

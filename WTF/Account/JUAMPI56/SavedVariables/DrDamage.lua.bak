@@ -1,10 +1,10 @@
 
 DrDamageDB = {
 	["profileKeys"] = {
-		["Nightbull - WoWArg"] = "Nightbull - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
 	},
 	["profiles"] = {
-		["Nightbull - WoWArg"] = {
+		["Skombrow - WoWArg"] = {
 		},
 	},
 }

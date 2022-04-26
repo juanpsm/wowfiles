@@ -1,0 +1,51 @@
+
+DataStore_SkillsDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["lastUpdate"] = 1592435358,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "132|225",
+						["Riding"] = "300|300",
+						["First Aid"] = "300|375",
+						["Fishing"] = "164|225",
+					},
+					["Class Skills"] = {
+						["Protection"] = "1|1",
+						["Holy"] = "1|1",
+						["Retribution"] = "1|1",
+					},
+					["Professions"] = {
+						["Mining"] = "450|450",
+						["Blacksmithing"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Cloth"] = "1|1",
+						["Shield"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Mail"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "400|400",
+						["Defense"] = "400|400",
+						["Maces"] = "400|400",
+						["Two-Handed Swords"] = "395|400",
+						["Swords"] = "400|400",
+						["Unarmed"] = "382|400",
+						["Axes"] = "397|400",
+						["Polearms"] = "400|400",
+						["Two-Handed Axes"] = "400|400",
+					},
+				},
+			},
+		},
+	},
+}

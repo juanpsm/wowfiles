@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherPlugins.lua 754 2008-10-14 04:43:39Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherPlugins.lua 891 2010-10-18 05:06:32Z Esamynn $
 
 	License:
 	This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Plugin Registration
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherPlugins.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherPlugins.lua $", "$Rev: 891 $")
 
 local metatable = { __index = getfenv(0) }
 setmetatable( Gatherer.Plugins, metatable )
@@ -36,6 +36,7 @@ setfenv(1, Gatherer.Plugins)
 Data = {}
 Registrations = {}
 ConfigUpdateFunctions = {}
+Commands = {}
 
 local setting = Gatherer.Config.GetSetting
 
@@ -43,6 +44,7 @@ function LoadPluginData()
 	for i = 1, GetNumAddOns() do
 		local tabName = GetAddOnMetadata(i, "X-Gatherer-Plugin-Name")
 		if ( tabName ) then
+			local cmdName = (GetAddOnMetadata(i, "X-Gatherer-Command-Name") or tabName):lower():gsub("%s+", "")
 			local name, title, notes, enabled, loadable, reason, security = GetAddOnInfo(i)
 			name = name:lower()
 			Data[name] = {
@@ -50,6 +52,9 @@ function LoadPluginData()
 				name = name,
 				title = title,
 				notes = notes,
+			}
+			Commands[cmdName] = {
+				name = name;
 			}
 			local enabled = setting("plugin."..name..".enable")
 			if ( enabled ) then
@@ -82,5 +87,50 @@ function LoadPlugin( name )
 	if ( Data[name] and not Registrations[name] ) then
 		EnableAddOn(name)
 		LoadAddOn(name)
+	end
+end
+
+local Print = Gatherer.Util.ChatPrint
+local function PrintUsageLine( plugin, cmd, ... )
+	Gatherer.Command.PrintUsageLine("plugin " .. plugin .. " " .. cmd, ...)
+end
+
+function ProcessCommands( pluginCmdName, cmd, ... )
+	local GetSetting = Gatherer.Config.GetSetting
+	local SetSetting = Gatherer.Config.SetSetting
+	if ( pluginCmdName == "help" or pluginCmdName == "" or pluginCmdName == nil ) then
+		Print("Usage:")
+		for cmd, details in pairs(Commands) do
+			local pluginStatus = GetSetting("plugin."..details.name..".enable") and "on" or "off"
+			PrintUsageLine(cmd, "on||off||toggle", pluginStatus, "turns the " .. Data[details.name].tabName .. " on and off")
+		end
+	
+	elseif ( Commands[pluginCmdName] ) then
+		local details = Commands[pluginCmdName]
+		local p1, p2 = ...
+		local enabled = Gatherer.Command.parseOnOff(cmd)
+		if ( enabled ~= nil ) then
+			if ( enabled == true ) then
+				SetSetting("plugin."..details.name..".enable", true)
+				Print("Turned " .. Data[details.name].tabName .. " on")
+			
+			elseif ( enabled == false ) then
+				SetSetting("plugin."..details.name..".enable", false)
+				Print("Turned " .. Data[details.name].tabName .. " off")
+			
+			end
+		
+		elseif ( cmd == "toggle" ) then
+			if ( GetSetting("plugin."..details.name..".enable") ) then
+				ProcessCommands(pluginCmdName, "off")
+			else
+				ProcessCommands(pluginCmdName, "on")
+			end
+		
+		else
+			
+		
+		end
+	
 	end
 end

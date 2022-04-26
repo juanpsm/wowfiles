@@ -1,11 +1,25 @@
 
 LoremasterDB = {
 	["profileKeys"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = "char",
+		["Subjected - Sin'Dorei"] = "char",
 		["Skombrow - Bennu"] = "char",
 		["Skombrow - WoWArg"] = "char",
-		["Draenoric - Sin'Dorei"] = "char",
+		["Skombrow - Kel'Thuzad"] = "char",
 	},
 	["char"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
+		["Subjected - Sin'Dorei"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
 		["Skombrow - Bennu"] = {
 			["settings"] = {
 				["version"] = "v2.033 20100226",
@@ -18,7 +32,7 @@ LoremasterDB = {
 				["faction"] = "Alliance",
 			},
 		},
-		["Draenoric - Sin'Dorei"] = {
+		["Skombrow - Kel'Thuzad"] = {
 			["settings"] = {
 				["version"] = "v2.033 20100226",
 				["faction"] = "Alliance",

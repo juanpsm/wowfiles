@@ -1,7 +1,7 @@
 --[[
 	ScrollSheet
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: ScrollSheet.lua 211 2009-05-09 20:34:57Z kandoko $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: ScrollSheet.lua 271 2010-09-04 15:49:38Z kandoko $
 	URL: http://auctioneeraddon.com/dl/
 
 	License:
@@ -26,7 +26,7 @@
 --]]
 
 local LIBRARY_VERSION_MAJOR = "ScrollSheet"
-local LIBRARY_VERSION_MINOR = 14
+local LIBRARY_VERSION_MINOR = 18
 
 --[[-----------------------------------------------------------------
 
@@ -72,7 +72,7 @@ end
 local lib = LibStub:NewLibrary(LIBRARY_VERSION_MAJOR, LIBRARY_VERSION_MINOR)
 if not lib then return end
 
-LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/ScrollSheet.lua $","$Rev: 211 $","5.1.DEV.", 'auctioneer', 'libs')
+LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/ScrollSheet.lua $","$Rev: 271 $","5.1.DEV.", 'auctioneer', 'libs')
 
 local GSC_GOLD="ffd100"
 local GSC_SILVER="e6e6e6"
@@ -279,9 +279,7 @@ function kit:RowSelect(row, mouseButton)
 	end
 
 	for i = 1, #self.rows do
-		for j = 1, #self.rows[i] do
-			self.rows[i][j]["highlight"]:SetAlpha(0)
-		end
+		self.rows[i]["highlight"]:SetAlpha(0)
 	end
 	if self.enableselect and self.selected then
 		if not row then
@@ -295,15 +293,13 @@ function kit:RowSelect(row, mouseButton)
 			end
 		end
 		if row and (row > 0) and (row <= #self.rows) then
-			for j = 1, #self.rows[row] do
-				self.rows[row][j]["highlight"]:SetAlpha(0.2)
-			end
+			self.rows[row]["highlight"]:SetAlpha(.5)
 		end
 	end
 end
 
 function kit:ButtonClick(column, mouseButton)
-	if mouseButton == "RightButton" then lib.moveColumn(self, column, mouseButton) return end
+	if mouseButton == "RightButton" then lib.moveColumn(self, column) return end
 
 	if (self.curSort == column) then
 		self.curDir = self.curDir * -1
@@ -366,7 +362,13 @@ function kit:PerformSort()
 		self.labels[self.curSort].sortTexture:Show()
 	end
 
-	sortDataSet(self.data, self.sort, self.hSize, self.curSort, self.curDir)
+	-- Allow modules to use their own custom sorter 
+	-- The module can create a self.CustomSort() function that will provide any special needs. ie proper itemlink sorting
+	if self.CustomSort then
+		self.CustomSort(self.data, self.sort, self.hSize, self.curSort, self.curDir)
+	else
+		sortDataSet(self.data, self.sort, self.hSize, self.curSort, self.curDir)
+	end
 	lib.Processor("ColumnSort", self, nil, self.curSort, nil, nil, self.curDir )
 	
 	self.panel:Update()
@@ -379,16 +381,43 @@ function kit:EnableVerticalScrollReset(enable)
 		self.vScrollReset = false
 	end
 end
+--is stored order table valid
+local function checkValidOrder(text, saved)
+	for i,v in ipairs(saved) do
+		if v == text then
+			return true
+		end
+	end
+	return false
+end
 --use stored order table if provided or create new order table
 function kit:SetOrder(saved)
 	if saved and type(saved) == "table" then
-		self.order = saved[1]
-		self.lastOrder = saved[2]
-		for i, name in ipairs(self.order) do
-			self.labels[i]:SetText(name)
-			self.labels[i].button:SetWidth(self.order[name][4])
+		local passed = false
+		--check if # of entries match, fail immediately if they do not. Otherwise check each value
+		if #saved[1] == #self.labels then
+			for i,v in pairs(self.labels) do
+				local text = v:GetText()
+				--if unnamed column, create the null fake name
+				if text == nil then text = "null "..v.button:GetID() end
+				passed = checkValidOrder(text, saved[1])
+				if not passed then
+					break
+				end
+			end
 		end
-		self:ChangeOrder() --apply saved order changes
+		--check that the stored data is valid for use and no changes to the original scrollsheet has occured due to upgrades
+		if passed then
+			self.order = saved[1]
+			self.lastOrder = saved[2]
+			for i, name in ipairs(self.order) do
+				self.labels[i]:SetText(name)
+				self.labels[i].button:SetWidth(self.order[name][4])
+			end
+			self:ChangeOrder() --apply saved order changes
+		else
+			self.order = nil --trash the saved table and start fresh
+		end
 	end
 	if not self.order then
 		self.order ={}
@@ -518,11 +547,15 @@ function lib:Create(frame, layout, onEnter, onLeave, onClick, onResize, onSelect
 
 		local label = content:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
 		label:SetText(layout[i][1])
-		local colWidth = layout[i][3] or 0
+		local colWidth = layout[i][3] or 30 --Never us a nil width, causes issues with overlay highlight
 
 		totalWidth = totalWidth + colWidth
 		button:SetWidth(colWidth)
 		button:SetHeight(16)
+		button:SetResizable(true)
+		button:SetMaxResize(400, 16)
+		button:SetMinResize(13, 16) --Makes the nice ... elipsies line up
+		
 		button:SetID(i)
 		button:SetHighlightTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
 		button:SetScript("OnMouseDown", function(self, ...) sheet:ButtonClick(self:GetID(), ...) end)
@@ -548,7 +581,22 @@ function lib:Create(frame, layout, onEnter, onLeave, onClick, onResize, onSelect
 		background:SetPoint("TOPRIGHT", button, "BOTTOMRIGHT", 0,0)
 		background:SetPoint("BOTTOM", content, "BOTTOM", 0,0)
 		background:SetAlpha(0.2)
-
+		
+		--small button in the gap between lables allows resizing the button its anchored too
+		--we use very small columns to store extra data thats not used in rendering. We dont want the player to be able to resize em
+		if colWidth > 1 then
+			local nub = CreateFrame("Button", nil, content)
+			nub:SetPoint("TOPLEFT", button, "TOPRIGHT", 0,0)
+			nub:SetHighlightTexture("Interface\\BUTTONS\\YELLOWORANGE64")
+			nub:SetAlpha(0.5)
+			nub:SetWidth(3)
+			nub:SetHeight(content:GetHeight())
+			nub:SetScript("OnEnter", function(self) self:LockHighlight() end)
+			nub:SetScript("OnLeave", function(self) self:UnlockHighlight() end)
+			--buttons lose the proper anchor when resized, havnt figured out why. So store and then reattach
+			nub:SetScript("OnMouseDown", function() nub.point, nub.relativeTo, nub.relativePoint, nub.xOfs, nub.yOfs = button:GetPoint()  button:StartSizing() end )
+			nub:SetScript("OnMouseUp", function() button:StopMovingOrSizing() button:SetPoint(nub.point, nub.relativeTo, nub.relativePoint, nub.xOfs, nub.yOfs) lib.Processor("ColumnWidthSet", sheet, button, i) end )
+		end
 		label:SetPoint("TOPLEFT", button, "TOPLEFT", 0,0)
 		label:SetPoint("BOTTOMRIGHT", button, "BOTTOMRIGHT", 0,0)
 		label:SetJustifyH("CENTER")
@@ -557,6 +605,7 @@ function lib:Create(frame, layout, onEnter, onLeave, onClick, onResize, onSelect
 
 		label.button = button
 		label.texture = texture
+		label.nub = nub
 		label.sortTexture = sortTexture
 		label.background = background
 		label.sort = layout[i][4]
@@ -608,13 +657,7 @@ function lib:Create(frame, layout, onEnter, onLeave, onClick, onResize, onSelect
 				end
 				cell.button = button
 			end
-			local highlight = cell.button:CreateTexture(nil, "ARTWORK")
-			highlight:SetTexture("Interface\\QuestFrame\\UI-QuestTitleHighlight")
-			highlight:SetTexCoord(0.2, 0.9, 0, 0.9)
-			highlight:SetPoint("TOPLEFT", cell.button, "TOPLEFT", 0, 0)
-			highlight:SetPoint("BOTTOMRIGHT", cell.button, "BOTTOMRIGHT", 0, 0)
-			highlight:SetAlpha(0)
-			cell.highlight = highlight
+		
 			cell:SetHeight(14)
 			cell:SetJustifyV("TOP")
 			if (layout[i][2] == "TEXT") then
@@ -630,12 +673,19 @@ function lib:Create(frame, layout, onEnter, onLeave, onClick, onResize, onSelect
 			cell:SetTextColor(0.9, 0.9, 0.9)
 			row[i] = cell
 		end
+		--create a color texture for row color gradiants
 		local colorTex = content:CreateTexture()
 		colorTex:SetPoint("TOPLEFT", row[1], "TOPLEFT", 0,0)
 		colorTex:SetPoint("BOTTOMRIGHT", row[#layout], "BOTTOMRIGHT", 0, 1)
-		colorTex:Show()
-		colorTex:SetTexture(1 ,1 , 1)
+		colorTex:SetTexture(1, 1, 1)
 		row.colorTex = colorTex
+		--create a highlight texture for row selection, replaces the per cell highlight system
+		local highlight = content:CreateTexture()
+		highlight:SetPoint("TOPLEFT", row[1], "TOPLEFT", 0,0)
+		highlight:SetPoint("BOTTOMRIGHT", row[#layout], "BOTTOMRIGHT", 0, 1)
+		highlight:SetAlpha(0)
+		highlight:SetTexture(.8, .6, 0)
+		row.highlight = highlight
 
 		rows[rowNum] = row
 		rowNum = rowNum + 1
@@ -701,34 +751,6 @@ function  lib.moveColumn(self, column)
 	if self and column then
 		if IsControlKeyDown() then --reset column to default
 			lib.Processor("ColumnWidthReset", self, self.labels[column].button, column)
-						
-		elseif IsAltKeyDown() then
-			local originalScript = self.labels[column].button:GetScript("OnMouseDown") --store the original Sort onclick script will reset it when we are done resizing
-
-			local point, relativeTo, relativePoint, xOfs, yOfs = self.labels[column].button:GetPoint() --Store the anchor point since its niled when resized
-			--limit the size we will allow buttons to get
-			local height = self.labels[column].button:GetHeight()
-			self.labels[column].button:SetResizable(true)
-			self.labels[column].button:SetMaxResize(400, height)
-			self.labels[column].button:SetMinResize(13, height) --Makes the nice ... elipsies line up
-			--set the resize script
-			self.labels[column].button:SetScript("OnMouseDown", function() self.labels[column].button:StartSizing(self.labels[column].button) end)
-			--resets the original onclick as well as setting new anchor points for our buttons
-			self.labels[column].button:SetScript("OnMouseUp", function()
-										self.labels[column].button:StopMovingOrSizing()
-										self.labels[column].button:SetScript("OnMouseDown", originalScript)
-										self.labels[column].button:ClearAllPoints()
-										self.labels[column].button:SetPoint(point, relativeTo, relativePoint, xOfs,yOfs)
-										--store changed width on the order table, so we apply it when switching columns
-										if self.order then 
-											local width, name = self.labels[column].button:GetWidth(), self.labels[column]:GetText()
-											self.order[name][4] =  width or 80
-										end
-										--sends new width info to the module
-										lib.Processor("ColumnWidthSet", self, self.labels[column].button, column)
-						end)
-			--start resizing self
-			self.labels[column].button:StartSizing(self.labels[column].button)
 		else
 			local fakeButton = lib.fakeButton
 			local width, height, text = self.labels[column]:GetWidth(), self.labels[column]:GetHeight(), self.labels[column]:GetText()

@@ -1,19 +1,21 @@
 
 DrDamageDB = {
 	["profileKeys"] = {
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
-		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
+		["Skom - Sin'Dorei"] = "Skom - Sin'Dorei",
+		["Crobar - Sin'dorei(WoWArg)"] = "Crobar - Sin'dorei(WoWArg)",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Julianchin - Queldorei PVP- PVE"] = "Julianchin - Queldorei PVP- PVE",
 		["Pamflin - WoWArg"] = "Pamflin - WoWArg",
 		["Anetha - WoWArg"] = "Anetha - WoWArg",
-		["Skom - WoWArg"] = "Skom - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Skombrow - Queldorei PVP- PVE"] = "Skombrow - Queldorei PVP- PVE",
+		["Skom - WoWArg"] = "Skom - WoWArg",
 	},
 	["profiles"] = {
-		["Subjected - WoWArg"] = {
+		["Skom - Sin'Dorei"] = {
 		},
-		["Skombrow - Queldorei PVP- PVE"] = {
+		["Crobar - Sin'dorei(WoWArg)"] = {
 		},
 		["Rivothrill - WoWArg"] = {
 		},
@@ -23,9 +25,13 @@ DrDamageDB = {
 		},
 		["Anetha - WoWArg"] = {
 		},
-		["Skom - WoWArg"] = {
-		},
 		["Perruco - WoWArg"] = {
+		},
+		["Subjected - WoWArg"] = {
+		},
+		["Skombrow - Queldorei PVP- PVE"] = {
+		},
+		["Skom - WoWArg"] = {
 		},
 	},
 }

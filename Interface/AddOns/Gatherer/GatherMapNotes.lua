@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherMapNotes.lua 754 2008-10-14 04:43:39Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherMapNotes.lua 876 2010-09-18 23:41:23Z Esamynn $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	World Map Drawing Functions
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherMapNotes.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherMapNotes.lua $", "$Rev: 876 $")
 
 local _tr = Gatherer.Locale.Tr
 local _trC = Gatherer.Locale.TrClient
@@ -65,7 +65,7 @@ function Gatherer.MapNotes.Update()
 end
 
 function Gatherer.MapNotes.GetNoteObject( noteNumber )
-	local button = getglobal("GatherMain"..noteNumber)
+	local button = _G["GatherMain"..noteNumber]
 	if not ( button ) then
 		local overlayFrameNumber = math.ceil(noteNumber / 100)
 		local overlayFrame = GathererMapOverlayParent[overlayFrameNumber]
@@ -108,7 +108,7 @@ function Gatherer.MapNotes.MapDraw()
 						mainNote:SetAlpha(setting("mainmap.opacity", 80) / 100)
 						
 						local texture = Gatherer.Util.GetNodeTexture(nodeId)
-						getglobal(mainNote:GetName().."Texture"):SetTexture(texture)
+						_G[mainNote:GetName().."Texture"]:SetTexture(texture)
 						
 						local iconsize = setting("mainmap.iconsize", 16)
 						mainNote:SetWidth(iconsize)
@@ -163,7 +163,7 @@ end
 
 function Gatherer.MapNotes.MapNoteOnEnter(frame)
 	local setting = Gatherer.Config.GetSetting
-	local tooltip = WorldMapTooltip
+	local tooltip = Gatherer_WorldMapTooltip
 
 	local enabled = setting("mainmap.tooltip.enable")
 	if (not enabled) then 
@@ -175,7 +175,7 @@ function Gatherer.MapNotes.MapNoteOnEnter(frame)
 	local showseen = setting("mainmap.tooltip.seen")
 	local showrate = setting("mainmap.tooltip.rate")
 
-	tooltip:SetOwner(this, "ANCHOR_BOTTOMLEFT")
+	tooltip:SetOwner(frame, "ANCHOR_BOTTOMLEFT")
 	
 	local id = frame.id
 	local name = Gatherer.Util.GetNodeName(id)

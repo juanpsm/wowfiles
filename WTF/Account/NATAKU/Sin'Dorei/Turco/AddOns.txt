@@ -184,7 +184,7 @@ MinimapButtonFrame: enabled
 MinimapButtonFrame_SkinPack: enabled
 LibDataBroker-1.1: enabled
 LibAboutPanel: enabled
-NeedToKnow: enabled
+NeedToKnow: disabled
 SavedInstances: disabled
 Scrap: enabled
 Scrap_Merchant: enabled
@@ -245,3 +245,5 @@ DBM-ZG: enabled
 DBM-Party-BC: enabled
 DBM-AQ20: enabled
 DBM-AQ40: enabled
+DBM-Karazhan: enabled
+GMGenie: disabled

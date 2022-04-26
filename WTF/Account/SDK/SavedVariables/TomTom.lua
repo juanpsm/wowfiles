@@ -1,9 +1,11 @@
 
 TomTomDB = {
 	["profileKeys"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = "Default",
+		["Subjected - Sin'Dorei"] = "Default",
 		["Skombrow - Bennu"] = "Default",
 		["Skombrow - WoWArg"] = "Default",
-		["Draenoric - Sin'Dorei"] = "Default",
+		["Skombrow - Kel'Thuzad"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -12,16 +14,22 @@ TomTomDB = {
 }
 TomTomWaypoints = {
 	["profileKeys"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
 		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
 	},
 	["profiles"] = {
+		["Skombrow - Sin'dorei(WoWArg)"] = {
+		},
+		["Subjected - Sin'Dorei"] = {
+		},
 		["Skombrow - Bennu"] = {
 		},
 		["Skombrow - WoWArg"] = {
 		},
-		["Draenoric - Sin'Dorei"] = {
+		["Skombrow - Kel'Thuzad"] = {
 		},
 	},
 }

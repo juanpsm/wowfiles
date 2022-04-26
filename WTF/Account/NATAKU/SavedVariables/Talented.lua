@@ -8,35 +8,36 @@ TalentedDB = {
 			["Vacío (1)"] = "0",
 			["Empty (1)"] = "m",
 			["prote pvp"] = "M3Cm0DZmZF31CvABFAp1doa",
+			["Fury Turco (poner estos)"] = "Mo0D0DmZmtw052n0wc51ra",
 			["Empty"] = "3",
-			["Fury Turco"] = "Mq0B0DmZmtw052n0wc51ra",
+			["Empty (3)"] = "d",
 			["prote pve"] = "Mr0A0DZmZ5puCt0BFB31doa",
 		},
 	},
 	["profileKeys"] = {
-		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Turco - Sin'dorei(WoWArg)"] = "Turco - Sin'dorei(WoWArg)",
 		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Gaara - WoWArg"] = "Gaara - WoWArg",
-		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Epyon - Sin'Dorei"] = "Epyon - Sin'Dorei",
+		["Neruneya - Sin'dorei(WoWArg)"] = "Neruneya - Sin'dorei(WoWArg)",
+		["Epyon - Sin'dorei(WoWArg)"] = "Epyon - Sin'dorei(WoWArg)",
+		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Turco - Sin'Dorei"] = "Turco - Sin'Dorei",
 		["Misumi - WoWArg"] = "Misumi - WoWArg",
 	},
 	["profiles"] = {
-		["Turco - WoWArg"] = {
-			["last_template"] = "Arms Turco",
+		["Epyon - WoWArg"] = {
 			["framepos"] = {
-				["TalentedGlyphs"] = {
-					["y"] = -58.44157416946926,
-					["x"] = -54.75319000759883,
-					["anchor"] = "RIGHT",
-					["anchorTo"] = "RIGHT",
-				},
 				["TalentedFrame"] = {
-					["y"] = -74.49477477799159,
-					["x"] = -74.11912082131427,
-					["anchor"] = "TOP",
-					["anchorTo"] = "TOP",
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
 				},
 			},
+		},
+		["Turco - Sin'dorei(WoWArg)"] = {
 		},
 		["Neruneya - WoWArg"] = {
 			["framepos"] = {
@@ -50,8 +51,38 @@ TalentedDB = {
 		},
 		["Gaara - WoWArg"] = {
 		},
-		["Epyon - WoWArg"] = {
+		["Epyon - Sin'Dorei"] = {
+		},
+		["Neruneya - Sin'dorei(WoWArg)"] = {
+		},
+		["Epyon - Sin'dorei(WoWArg)"] = {
+		},
+		["Turco - WoWArg"] = {
+			["last_template"] = "prote pvp",
 			["framepos"] = {
+				["TalentedGlyphs"] = {
+					["y"] = -58.44157416946926,
+					["x"] = -54.75319000759883,
+					["anchor"] = "RIGHT",
+					["anchorTo"] = "RIGHT",
+				},
+				["TalentedFrame"] = {
+					["y"] = -70.50525931199657,
+					["x"] = -79.06597424863382,
+					["anchor"] = "TOP",
+					["anchorTo"] = "TOP",
+				},
+			},
+		},
+		["Turco - Sin'Dorei"] = {
+			["last_template"] = "Arms Turco",
+			["framepos"] = {
+				["TalentedGlyphs"] = {
+					["y"] = 0,
+					["x"] = 0,
+					["anchor"] = "CENTER",
+					["anchorTo"] = "CENTER",
+				},
 				["TalentedFrame"] = {
 					["y"] = 0,
 					["x"] = 0,

@@ -1,6 +1,5 @@
 
 koordinatorSettings = {
-	["miniMap"] = 1,
 	["miniWindow"] = 1,
 	["divider"] = 1,
 	["worldMap"] = 1,

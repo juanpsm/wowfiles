@@ -1,0 +1,16 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Shamyy - WoWArg"] = "Shamyy - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Shamyy"] = {
+				["Friends"] = {
+					"Buny", -- [1]
+					"Derec", -- [2]
+				},
+			},
+		},
+	},
+}

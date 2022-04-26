@@ -2,19 +2,31 @@
 SpellFlashAddonConfig = {
 	["LastVersion"] = 56,
 	["SERVER"] = {
-		["server.wowarg.com.ar"] = {
+		["www.wowarg.com.ar"] = {
 			["ImmuneIgnore"] = {
 			},
 			["REALM"] = {
 				["WoWArg"] = {
 					["PLAYER"] = {
-						["Arbull"] = {
+						["Doroteo"] = {
+							["selected_class_module"] = "SpellFlash_Hunter",
+						},
+						["Skombrow"] = {
+						},
+						["Deadly"] = {
+							["selected_class_module"] = "SpellFlash_Warlock",
 						},
 					},
+					["debuff_owner_checking"] = true,
+					["debuff_owner_found"] = true,
 				},
 			},
 			["Immune"] = {
+				["HUNTER"] = {
+				},
 				["DRUID"] = {
+				},
+				["WARLOCK"] = {
 				},
 			},
 		},

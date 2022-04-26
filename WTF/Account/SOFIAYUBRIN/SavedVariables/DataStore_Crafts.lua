@@ -8,22 +8,31 @@ DataStore_CraftsDB = {
 		["Characters"] = {
 			["Default.WoWArg.Zelphar"] = {
 				["Professions"] = {
-					["Cocina"] = {
-						["FullLink"] = "|cffffd000|Htrade:2550:1:75:EAE47:HAAAwABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cocina]|h|r",
-						["isSecondary"] = true,
+					["Inscription"] = {
+						["isPrimary"] = true,
 					},
-					["Primeros auxilios"] = {
-						["FullLink"] = "|cffffd000|Htrade:3273:15:75:EAE47:FAAAAA|h[Primeros auxilios]|h|r",
+					["Herbalism"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
 						["isSecondary"] = true,
 					},
 					["Equitación"] = {
 						["isSecondary"] = true,
 					},
-					["Pesca"] = {
+					["Cocina"] = {
+						["FullLink"] = "|cffffd000|Htrade:2550:1:75:EAE47:HAAAwABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cocina]|h|r",
 						["isSecondary"] = true,
 					},
 					["Herboristería"] = {
 						["isPrimary"] = true,
+					},
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["FullLink"] = "|cffffd000|Htrade:3273:15:75:EAE47:FAAAAA|h[Primeros auxilios]|h|r",
+						["isSecondary"] = true,
 					},
 					["Inscripción"] = {
 						["FullLink"] = "|cffffd000|Htrade:45363:450:450:EAE47:g////73tv93////b8/X5/f9//f+/vz/fl+//x/PW/////////q//7//////vTPeRQ+XsLhAOKgf|h[Inscripción]|h|r",
@@ -405,6 +414,15 @@ DataStore_CraftsDB = {
 						},
 						["NumCrafts"] = 355,
 					},
+					["Pesca"] = {
+						["isSecondary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
 				},
 				["lastUpdate"] = 1530151848,
 			},
@@ -437,6 +455,20 @@ DataStore_CraftsDB = {
 			},
 		},
 		["Guilds"] = {
+			["Default.WoWArg.Azeroth Fighters"] = {
+				["Members"] = {
+					["Zelphar"] = {
+						["Professions"] = {
+							13614, -- [1]
+							"|cffffd000|Htrade:45363:450:450:EAE47:g////73tv93////b8/X5/f9//f+/vz/fl+//x/PW/////////q//7//////vTPeRQ+XsLhAOKgf|h[Inscripción]|h|r", -- [2]
+							"|cffffd000|Htrade:45363:450:450:EAE47:g////73tv93////b8/X5/f9//f+/vz/fl+//x/PW/////////q//7//////vTPeRQ+XsLhAOKgf|h[Inscripción]|h|r", -- [3]
+							0, -- [4]
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1578983096,
+					},
+				},
+			},
 			["Default.WoWArg.Shadowblades"] = {
 				["Members"] = {
 					["Zelphar"] = {
@@ -458,16 +490,17 @@ DataStore_CraftsDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Azeroth Fighters"] = {
+			["Default.WoWArg.Azote de Rasganorte"] = {
 				["Members"] = {
 					["Zelphar"] = {
 						["Professions"] = {
-							13614, -- [1]
-							"|cffffd000|Htrade:45363:450:450:EAE47:g////73tv93////b8/X5/f9//f+/vz/fl+//x/PW/////////q//7//////vTPeRQ+XsLhAOKgf|h[Inscripción]|h|r", -- [2]
-							"|cffffd000|Htrade:2550:1:75:EAE47:HAAAwABAEAAAAAAQAAAAAAAAAAAAAAA|h[Cocina]|h|r", -- [3]
+							45357, -- [1]
+							13614, -- [2]
+							0, -- [3]
+							"|cffffd000|Htrade:45363:450:450:EAE47:g////73tv93////b8/X5/f9//f+/vz/fl+//x/PW/////////q//7//////vTPeRQ+XsLhAOKgf|h[Inscripción]|h|r", -- [4]
 						},
 						["Version"] = 12340,
-						["lastUpdate"] = 1570170038,
+						["lastUpdate"] = 1589604476,
 					},
 				},
 			},

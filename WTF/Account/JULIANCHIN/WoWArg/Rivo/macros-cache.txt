@@ -1,0 +1,15 @@
+MACRO 16777226 "buffs" INV_Misc_QuestionMark
+/castsequence reset=5 Prayer of Fortitude(Rank 4), Prayer of Spirit(Rank 3), Prayer of Shadow Protection(Rank 3)
+END
+MACRO 16777227 "burst" INV_Misc_QuestionMark
+/use Nevermelting Ice Crystal
+/cast Inner Focus
+END
+MACRO 16777224 "Mind Flaw" INV_Misc_QuestionMark
+#showtooltip Mind Flay(Rank 9)
+/cast [nochanneling:Mind Flay] Mind Flay
+END
+MACRO 16777225 "Mind Sear" INV_Misc_QuestionMark
+#showtooltip Mind Sear(Rank 2)
+/cast [nochanneling:Mind Sear(Rank 2)] Mind Sear(Rank 2)
+END

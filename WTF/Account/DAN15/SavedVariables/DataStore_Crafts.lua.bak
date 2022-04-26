@@ -1,0 +1,41 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["isSecondary"] = true,
+					},
+					["Blacksmithing"] = {
+						["isPrimary"] = true,
+					},
+					["Fishing"] = {
+						["isSecondary"] = true,
+					},
+					["Mining"] = {
+						["isPrimary"] = true,
+					},
+					["First Aid"] = {
+						["isSecondary"] = true,
+					},
+					["Riding"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Land Of The Fire"] = {
+				["Members"] = {
+					["Nataku"] = {
+						["Version"] = 12340,
+					},
+				},
+			},
+		},
+	},
+}

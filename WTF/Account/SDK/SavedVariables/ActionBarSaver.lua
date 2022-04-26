@@ -808,14 +808,14 @@ ActionBarSaverDB = {
 				"spell|81||Desvanecerse||586", -- [62]
 				"item|33448||Poción de maná rúnica", -- [63]
 				"item|36892||Piedra de salud vil", -- [64]
-				[83] = "spell|16||Disipar magia|Rango 2|988",
+				[76] = "spell|74||Abrasamiento mental|Rango 2|53023",
 				[72] = "spell|143||Himno de esperanza||64901",
 				[74] = "spell|94||Explosión mental|Rango 13|48127",
-				[76] = "spell|74||Abrasamiento mental|Rango 2|53023",
+				[69] = "spell|63||Quemadura de maná||8129",
 				[71] = "spell|144||Himno divino|Rango 1|64843",
 				[66] = "spell|74||Abrasamiento mental|Rango 2|53023",
 				[68] = "spell|12||Sálvese quien pueda|Racial|59752",
-				[69] = "spell|63||Quemadura de maná||8129",
+				[83] = "spell|16||Disipar magia|Rango 2|988",
 			},
 			["shadow pvp"] = {
 				"spell|241||Vampiric Touch|Rank 5|48160", -- [1]
@@ -1065,12 +1065,64 @@ ActionBarSaverDB = {
 			},
 		},
 		["WARLOCK"] = {
+			["solo"] = {
+				"spell|86||Haunt|Rank 4|59164", -- [1]
+				"spell|38||Curse of Agony|Rank 9|47864", -- [2]
+				"spell|29||Corruption|Rank 10|47813", -- [3]
+				"spell|72||Drain Life|Rank 9|47857", -- [4]
+				"spell|73||Drain Mana||5138", -- [5]
+				"spell|96||Life Tap|Rank 8|57946", -- [6]
+				nil, -- [7]
+				"spell|218||Searing Pain|Rank 10|47815", -- [8]
+				"spell|231||Shadow Bolt|Rank 13|47809", -- [9]
+				"spell|233||Shadowflame|Rank 2|61290", -- [10]
+				"spell|88||Howl of Terror|Rank 2|17928", -- [11]
+				"spell|82||Fear|Rank 3|6215", -- [12]
+				"spell|104||Unstable Affliction|Rank 5|47843", -- [13]
+				[74] = "spell|180||Summon Voidwalker|Summon|697",
+				[61] = "item|36892||Fel Healthstone",
+				[76] = "spell|121||Create Healthstone|Rank 8|47878",
+				[46] = "item|41196||Grand Spellstone",
+				[23] = "spell|106||Banish|Rank 2|18647",
+				[109] = "macro|109||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll",
+				[39] = "item|6948||Hearthstone",
+				[47] = "item|35953||Mead Basted Caribou",
+				[63] = "item|33448||Runic Mana Potion",
+				[79] = "spell|178||Summon Imp|Summon|688",
+				[111] = "macro|111||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
+				[64] = "item|33447||Runic Healing Potion",
+				[80] = "spell|179||Summon Succubus|Summon|712",
+				[112] = "macro|112||ntk|Interface\\Icons\\INV_Misc_QuestionMark|/ntk",
+				[65] = "item|40211||Potion of Speed",
+				[20] = "spell|79||Drain Soul|Rank 6|47855",
+				[24] = "spell|63||Death Coil|Rank 6|47860",
+				[113] = "macro|113||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
+				[33] = "item|36895||Demonic Soulstone",
+				[82] = "spell|128||Create Soulstone|Rank 7|47884",
+				[114] = "macro|114||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
+				[115] = "macro|115||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
+				[34] = "item|41173||Fel Firestone",
+				[69] = "spell|165||Health Funnel|Rank 9|47856",
+				[25] = "companion|4||solo|MOUNT|5784",
+				[117] = "macro|117||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
+				[35] = "item|33445||Honeymint Tea",
+				[118] = "macro|118||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
+				[71] = "spell|156||Fel Armor|Rank 4|47893",
+				[119] = "macro|119||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
+				[72] = "spell|144||Demon Skin|Rank 2|696",
+				[66] = "spell|208||Rain of Fire|Rank 7|47820",
+				[37] = "companion|2||solo|MOUNT|39316",
+				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
+				[73] = "spell|177||Summon Felhunter|Summon|691",
+				[68] = "spell|175||Shadow Ward|Rank 6|47891",
+				[36] = "item|20388||Lollipop",
+			},
 			["afly pve"] = {
 				"spell|86||Haunt|Rank 4|59164", -- [1]
 				"spell|104||Unstable Affliction|Rank 5|47843", -- [2]
 				"spell|38||Curse of Agony|Rank 9|47864", -- [3]
 				"spell|29||Corruption|Rank 10|47813", -- [4]
-				"spell|176||Soulshatter||29858", -- [5]
+				"spell|48||Curse of Tongues|Rank 2|11719", -- [5]
 				"spell|208||Rain of Fire|Rank 7|47820", -- [6]
 				"macro|7||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus", -- [7]
 				"spell|79||Drain Soul|Rank 6|47855", -- [8]
@@ -1078,14 +1130,14 @@ ActionBarSaverDB = {
 				"spell|146||Demonic Circle: Teleport||48020", -- [10]
 				"spell|99||Seed of Corruption|Rank 3|47836", -- [11]
 				"spell|96||Life Tap|Rank 8|57946", -- [12]
-				"spell|218||Searing Pain|Rank 10|47815", -- [13]
+				"spell|176||Soulshatter||29858", -- [13]
 				"spell|46||Curse of the Elements|Rank 5|47865", -- [14]
-				"spell|48||Curse of Tongues|Rank 2|11719", -- [15]
-				"macro|16||corrupcion|Interface\\Icons\\Spell_Shadow_AbominationExplosion|#showtooltip Corruption/n/use [@mouseover, exists] Corruption; Corruption", -- [16]
+				"spell|218||Searing Pain|Rank 10|47815", -- [15]
+				"macro|16||corrupcion|Interface\\Icons\\Spell_Shadow_AbominationExplosion|#showtooltip Corruption/n/cast [target=mouseover] Corruption", -- [16]
 				"spell|6||Disenchant||13262", -- [17]
 				"spell|72||Drain Life|Rank 9|47857", -- [18]
 				"spell|73||Drain Mana||5138", -- [19]
-				"spell|16||Shoot||5019", -- [20]
+				"spell|88||Howl of Terror|Rank 2|17928", -- [20]
 				"spell|63||Death Coil|Rank 6|47860", -- [21]
 				"spell|145||Demonic Circle: Summon||48018", -- [22]
 				"spell|88||Howl of Terror|Rank 2|17928", -- [23]
@@ -1093,51 +1145,173 @@ ActionBarSaverDB = {
 				"companion|5||afly pve|MOUNT|32240", -- [25]
 				"spell|18||Tailoring|Grand Master|51309", -- [26]
 				"companion|3||afly pve|CRITTER|49964", -- [27]
-				nil, -- [28]
-				nil, -- [29]
-				"spell|96||Life Tap|Rank 8|57946", -- [30]
-				nil, -- [31]
-				nil, -- [32]
-				"item|46376||Flask of the Frost Wyrm", -- [33]
-				"item|41173||Fel Firestone", -- [34]
-				"item|33445||Honeymint Tea", -- [35]
-				"item|20388||Lollipop", -- [36]
-				"companion|3||afly pve|MOUNT|23161", -- [37]
-				"spell|8||Enchanting|Grand Master|51313", -- [38]
-				"item|6948||Hearthstone", -- [39]
+				[37] = "companion|3||afly pve|MOUNT|23161",
 				[45] = "item|36895||Demonic Soulstone",
 				[61] = "item|36892||Fel Healthstone",
 				[75] = "spell|177||Summon Felhunter|Summon|691",
-				[76] = "spell|168||Ritual of Summoning||698",
+				[38] = "spell|8||Enchanting|Grand Master|51313",
 				[46] = "item|41196||Grand Spellstone",
 				[62] = "item|33448||Runic Mana Potion",
 				[77] = "spell|167||Ritual of Souls|Rank 2|58887",
 				[109] = "macro|109||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll",
-				[78] = "spell|134||Create Spellstone|Rank 6|47888",
+				[31] = "spell|106||Banish|Rank 2|18647",
+				[39] = "item|6948||Hearthstone",
 				[47] = "item|35953||Mead Basted Caribou",
 				[63] = "item|40212||Potion of Wild Magic",
+				[79] = "spell|180||Summon Voidwalker|Summon|697",
 				[111] = "macro|111||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
 				[64] = "item|40211||Potion of Speed",
-				[48] = "item|43523||Conjured Mana Strudel",
+				[48] = "item|20388||Lollipop",
 				[112] = "macro|112||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
+				[65] = "macro|65||corte|Interface\\Icons\\INV_Misc_QuestionMark|#showtooltip Spell lock/n/cast Spell lock",
 				[81] = "spell|178||Summon Imp|Summon|688",
-				[113] = "macro|113||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
-				[66] = "spell|208||Rain of Fire|Rank 7|47820",
+				[113] = "macro|113||ntk|Interface\\Icons\\INV_Misc_QuestionMark|/ntk",
+				[33] = "item|46376||Flask of the Frost Wyrm",
 				[82] = "spell|128||Create Soulstone|Rank 7|47884",
 				[114] = "macro|114||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
 				[67] = "spell|233||Shadowflame|Rank 2|61290",
 				[83] = "spell|121||Create Healthstone|Rank 8|47878",
 				[115] = "macro|115||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
-				[68] = "spell|9||Every Man for Himself|Racial|59752",
+				[34] = "item|41173||Fel Firestone",
 				[84] = "spell|113||Create Firestone|Rank 7|60220",
 				[69] = "spell|175||Shadow Ward|Rank 6|47891",
-				[117] = "macro|117||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
-				[70] = "item|33447||Runic Healing Potion",
+				[117] = "macro|117||MSBT|Interface\\Icons\\INV_Misc_QuestionMark|/msbt",
+				[35] = "item|33445||Honeymint Tea",
+				[43] = "spell|16||Shoot||5019",
 				[118] = "macro|118||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
 				[71] = "spell|142||Demon Armor|Rank 8|47889",
-				[119] = "macro|119||ntk|Interface\\Icons\\INV_Misc_QuestionMark|/ntk",
+				[66] = "item|2459||Swiftness Potion",
+				[68] = "spell|9||Every Man for Himself|Racial|59752",
+				[119] = "macro|119||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
 				[72] = "spell|156||Fel Armor|Rank 4|47893",
+				[76] = "spell|168||Ritual of Summoning||698",
+				[70] = "spell|165||Health Funnel|Rank 9|47856",
 				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
+				[73] = "spell|186||Hellfire|Rank 5|47823",
+				[36] = "item|43523||Conjured Mana Strudel",
+				[78] = "spell|134||Create Spellstone|Rank 6|47888",
+			},
+			["demon pve"] = {
+				"macro|1||inmo+pet|Interface\\Icons\\Spell_Fire_Immolation|#showtooltip Immolate(Rank 11)/n/cast Immolate(Rank 11)/n/petattack", -- [1]
+				"spell|201||Incinerate|Rank 4|47838", -- [2]
+				"macro|3||demonic|Interface\\Icons\\Spell_Fire_Fireball02|#showtooltip/n/cast [@pettarget,exists]Demonic Empowerment/n/cast Soul Fire(Rank 6)", -- [3]
+				"spell|29||Corruption|Rank 10|47813", -- [4]
+				"spell|41||Curse of Doom|Rank 3|47867", -- [5]
+				"spell|208||Rain of Fire|Rank 7|47820", -- [6]
+				"macro|7||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus", -- [7]
+				"spell|79||Drain Soul|Rank 6|47855", -- [8]
+				"macro|9||demonic|Interface\\Icons\\Spell_Shadow_ShadowBolt|#showtooltip /n/cast [@pettarget,exists]Demonic Empowerment/n/cast Shadow Bolt(Rank 13)", -- [9]
+				"spell|139||Demonic Circle: Teleport||48020", -- [10]
+				"spell|95||Seed of Corruption|Rank 3|47836", -- [11]
+				"spell|92||Life Tap|Rank 8|57946", -- [12]
+				"spell|48||Curse of Tongues|Rank 2|11719", -- [13]
+				nil, -- [14]
+				"spell|175||Soulshatter||29858", -- [15]
+				"macro|16||corrupcion|Interface\\Icons\\Spell_Shadow_AbominationExplosion|#showtooltip Corruption/n/cast [target=mouseover] Corruption", -- [16]
+				"spell|46||Curse of the Elements|Rank 5|47865", -- [17]
+				"spell|72||Drain Life|Rank 9|47857", -- [18]
+				"spell|73||Drain Mana||5138", -- [19]
+				"spell|84||Howl of Terror|Rank 2|17928", -- [20]
+				"spell|63||Death Coil|Rank 6|47860", -- [21]
+				"spell|138||Demonic Circle: Summon||48018", -- [22]
+				"spell|84||Howl of Terror|Rank 2|17928", -- [23]
+				"spell|82||Fear|Rank 3|6215", -- [24]
+				"companion|5||demon pve|MOUNT|32240", -- [25]
+				"spell|18||Tailoring|Grand Master|51309", -- [26]
+				"companion|3||demon pve|CRITTER|49964", -- [27]
+				nil, -- [28]
+				nil, -- [29]
+				"spell|146||Eye of Kilrogg|Summon|126", -- [30]
+				"spell|97||Banish|Rank 2|18647", -- [31]
+				nil, -- [32]
+				"item|46376||Flask of the Frost Wyrm", -- [33]
+				"item|41173||Fel Firestone", -- [34]
+				"item|33445||Honeymint Tea", -- [35]
+				"item|43523||Conjured Mana Strudel", -- [36]
+				"companion|3||demon pve|MOUNT|23161", -- [37]
+				"spell|8||Enchanting|Grand Master|51313", -- [38]
+				"item|6948||Hearthstone", -- [39]
+				nil, -- [40]
+				"spell|6||Disenchant||13262", -- [41]
+				"spell|141||Detect Invisibility||132", -- [42]
+				"spell|16||Shoot||5019", -- [43]
+				nil, -- [44]
+				"item|36895||Demonic Soulstone", -- [45]
+				"item|41196||Grand Spellstone", -- [46]
+				"item|35953||Mead Basted Caribou", -- [47]
+				"item|20388||Lollipop", -- [48]
+				nil, -- [49]
+				nil, -- [50]
+				nil, -- [51]
+				nil, -- [52]
+				nil, -- [53]
+				nil, -- [54]
+				"spell|218||Searing Pain|Rank 10|47815", -- [55]
+				"spell|186||Hellfire|Rank 5|47823", -- [56]
+				"spell|145||Enslave Demon|Rank 4|61191", -- [57]
+				"spell|38||Curse of Agony|Rank 9|47864", -- [58]
+				nil, -- [59]
+				"spell|98||Challenging Howl|Demon|59671", -- [60]
+				"spell|162||Metamorphosis||47241", -- [61]
+				"spell|140||Demonic Empowerment||47193", -- [62]
+				"spell|174||Soul Link||19028", -- [63]
+				"item|40211||Potion of Speed", -- [64]
+				"item|33448||Runic Mana Potion", -- [65]
+				"item|2459||Swiftness Potion", -- [66]
+				"spell|233||Shadowflame|Rank 2|61290", -- [67]
+				"spell|9||Every Man for Himself|Racial|59752", -- [68]
+				"spell|173||Shadow Ward|Rank 6|47891", -- [69]
+				"spell|160||Health Funnel|Rank 9|47856", -- [70]
+				"spell|134||Demon Armor|Rank 8|47889", -- [71]
+				"spell|150||Fel Armor|Rank 4|47893", -- [72]
+				"spell|151||Fel Domination||18708", -- [73]
+				"spell|176||Summon Felguard|Summon|30146", -- [74]
+				"spell|177||Summon Felhunter|Summon|691", -- [75]
+				"spell|165||Ritual of Summoning||698", -- [76]
+				"spell|164||Ritual of Souls|Rank 2|58887", -- [77]
+				"spell|126||Create Spellstone|Rank 6|47888", -- [78]
+				nil, -- [79]
+				"spell|178||Summon Imp|Summon|688", -- [80]
+				"spell|180||Summon Voidwalker|Summon|697", -- [81]
+				"spell|120||Create Soulstone|Rank 7|47884", -- [82]
+				"spell|113||Create Healthstone|Rank 8|47878", -- [83]
+				"spell|105||Create Firestone|Rank 7|60220", -- [84]
+				"macro|85||inmo+pet|Interface\\Icons\\Spell_Fire_Immolation|#showtooltip Immolate(Rank 11)/n/cast Immolate(Rank 11)/n/petattack", -- [85]
+				"spell|201||Incinerate|Rank 4|47838", -- [86]
+				"macro|87||demonic|Interface\\Icons\\Spell_Fire_Fireball02|#showtooltip/n/cast [@pettarget,exists]Demonic Empowerment/n/cast Soul Fire(Rank 6)", -- [87]
+				"spell|29||Corruption|Rank 10|47813", -- [88]
+				"spell|41||Curse of Doom|Rank 3|47867", -- [89]
+				"spell|135||Demon Charge|Demon|54785", -- [90]
+				"spell|161||Immolation Aura|Demon|50589", -- [91]
+				"spell|167||Shadow Cleave|Demon|50581", -- [92]
+				"macro|93||demonic|Interface\\Icons\\Spell_Shadow_ShadowBolt|#showtooltip /n/cast [@pettarget,exists]Demonic Empowerment/n/cast Shadow Bolt(Rank 13)", -- [93]
+				"spell|139||Demonic Circle: Teleport||48020", -- [94]
+				"spell|95||Seed of Corruption|Rank 3|47836", -- [95]
+				"spell|92||Life Tap|Rank 8|57946", -- [96]
+				nil, -- [97]
+				nil, -- [98]
+				nil, -- [99]
+				nil, -- [100]
+				nil, -- [101]
+				nil, -- [102]
+				nil, -- [103]
+				nil, -- [104]
+				nil, -- [105]
+				nil, -- [106]
+				nil, -- [107]
+				nil, -- [108]
+				"macro|109||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll", -- [109]
+				nil, -- [110]
+				"macro|111||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss", -- [111]
+				"macro|112||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz", -- [112]
+				"macro|113||ntk|Interface\\Icons\\INV_Misc_QuestionMark|/ntk", -- [113]
+				"macro|114||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro", -- [114]
+				"macro|115||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade", -- [115]
+				nil, -- [116]
+				"macro|117||MSBT|Interface\\Icons\\INV_Misc_QuestionMark|/msbt", -- [117]
+				"macro|118||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf", -- [118]
+				"macro|119||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw", -- [119]
+				"macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100", -- [120]
 			},
 			["destro pvp"] = {
 				"spell|195||Immolate|Rank 11|47811", -- [1]
@@ -1223,58 +1397,6 @@ ActionBarSaverDB = {
 				[76] = "spell|173||Summon Voidwalker|Summon|697",
 				[78] = "spell|171||Summon Imp|Summon|688",
 				[83] = "spell|142||Enslave Demon|Rank 4|61191",
-			},
-			["solo"] = {
-				"spell|86||Haunt|Rank 4|59164", -- [1]
-				"spell|38||Curse of Agony|Rank 9|47864", -- [2]
-				"spell|29||Corruption|Rank 10|47813", -- [3]
-				"spell|72||Drain Life|Rank 9|47857", -- [4]
-				"spell|73||Drain Mana||5138", -- [5]
-				"spell|96||Life Tap|Rank 8|57946", -- [6]
-				nil, -- [7]
-				"spell|218||Searing Pain|Rank 10|47815", -- [8]
-				"spell|231||Shadow Bolt|Rank 13|47809", -- [9]
-				"spell|233||Shadowflame|Rank 2|61290", -- [10]
-				"spell|88||Howl of Terror|Rank 2|17928", -- [11]
-				"spell|82||Fear|Rank 3|6215", -- [12]
-				"spell|104||Unstable Affliction|Rank 5|47843", -- [13]
-				[74] = "spell|180||Summon Voidwalker|Summon|697",
-				[61] = "item|36892||Fel Healthstone",
-				[76] = "spell|121||Create Healthstone|Rank 8|47878",
-				[46] = "item|41196||Grand Spellstone",
-				[23] = "spell|106||Banish|Rank 2|18647",
-				[109] = "macro|109||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll",
-				[39] = "item|6948||Hearthstone",
-				[47] = "item|35953||Mead Basted Caribou",
-				[63] = "item|33448||Runic Mana Potion",
-				[79] = "spell|178||Summon Imp|Summon|688",
-				[111] = "macro|111||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
-				[64] = "item|33447||Runic Healing Potion",
-				[80] = "spell|179||Summon Succubus|Summon|712",
-				[112] = "macro|112||ntk|Interface\\Icons\\INV_Misc_QuestionMark|/ntk",
-				[65] = "item|40211||Potion of Speed",
-				[20] = "spell|79||Drain Soul|Rank 6|47855",
-				[24] = "spell|63||Death Coil|Rank 6|47860",
-				[113] = "macro|113||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
-				[33] = "item|36895||Demonic Soulstone",
-				[82] = "spell|128||Create Soulstone|Rank 7|47884",
-				[114] = "macro|114||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
-				[115] = "macro|115||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
-				[34] = "item|41173||Fel Firestone",
-				[69] = "spell|165||Health Funnel|Rank 9|47856",
-				[25] = "companion|4||solo|MOUNT|5784",
-				[117] = "macro|117||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
-				[35] = "item|33445||Honeymint Tea",
-				[118] = "macro|118||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
-				[71] = "spell|156||Fel Armor|Rank 4|47893",
-				[119] = "macro|119||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
-				[72] = "spell|144||Demon Skin|Rank 2|696",
-				[66] = "spell|208||Rain of Fire|Rank 7|47820",
-				[37] = "companion|2||solo|MOUNT|39316",
-				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
-				[73] = "spell|177||Summon Felhunter|Summon|691",
-				[68] = "spell|175||Shadow Ward|Rank 6|47891",
-				[36] = "item|20388||Lollipop",
 			},
 		},
 		["ROGUE"] = {
@@ -1602,8 +1724,8 @@ ActionBarSaverDB = {
 				nil, -- [34]
 				nil, -- [35]
 				"item|33445||Honeymint Tea", -- [36]
-				"companion|27||arbol pvp|MOUNT|17450", -- [37]
-				"companion|6||arbol pvp|MOUNT|26656", -- [38]
+				"companion|6||arbol pvp|MOUNT|26656", -- [37]
+				"companion|27||arbol pvp|MOUNT|17450", -- [38]
 				"companion|45||arbol pvp|MOUNT|23219", -- [39]
 				"item|54452||Ethereal Portal", -- [40]
 				nil, -- [41]
@@ -1642,19 +1764,19 @@ ActionBarSaverDB = {
 				[117] = "macro|117||BAILONGO|Interface\\Icons\\Ability_Rogue_Disguise|/dance",
 				[70] = "spell|17||Barkskin||22812",
 				[86] = "spell|194||Rejuvenation|Rank 15|48441",
+				[92] = "item|54573||Glowing Twilight Scale",
 				[118] = "macro|118||TIPTAC|Interface\\Icons\\INV_Misc_QuestionMark|/tiptac",
-				[59] = "spell|100||Dash|Rank 3|33357",
 				[94] = "spell|211||Tree of Life|Shapeshift|33891",
 				[87] = "spell|215||Wild Growth|Rank 4|53251",
 				[96] = "spell|26||Entangling Roots|Rank 8|53308",
 				[119] = "macro|119||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
 				[72] = "spell|210||Tranquility|Rank 7|48447",
 				[88] = "spell|179||Regrowth|Rank 12|48443",
-				[60] = "spell|113||Prowl||5215",
 				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
+				[60] = "spell|113||Prowl||5215",
 				[73] = "spell|112||Pounce|Rank 5|49803",
 				[89] = "spell|203||Swiftmend||18562",
-				[92] = "item|54573||Glowing Twilight Scale",
+				[59] = "spell|100||Dash|Rank 3|33357",
 			},
 			["oso pve"] = {
 				"spell|165||Nourish|Rank 1|50464", -- [1]
@@ -1884,15 +2006,15 @@ ActionBarSaverDB = {
 				"spell|26||Entangling Roots|Rank 8|53308", -- [12]
 				"spell|36||Innervate||29166", -- [13]
 				"spell|13||Shadowmeld|Racial|58984", -- [14]
-				"spell|214||Revive|Rank 7|50763", -- [15]
-				"spell|179||Rebirth|Rank 7|48477", -- [16]
-				nil, -- [17]
+				"spell|97||Cat Form|Shapeshift|768", -- [15]
+				"spell|103||Dire Bear Form|Shapeshift|9634", -- [16]
+				"spell|133||Swift Flight Form|Shapeshift|40120", -- [17]
 				"spell|207||Remove Curse||2782", -- [18]
 				"spell|139||Abolish Poison||2893", -- [19]
 				"spell|18||Cyclone||33786", -- [20]
 				"spell|26||Entangling Roots|Rank 8|53308", -- [21]
 				"spell|138||Travel Form|Shapeshift|783", -- [22]
-				"spell|105||Faerie Fire (Feral)||16857", -- [23]
+				"spell|108||Feral Charge - Cat||49376", -- [23]
 				"spell|126||Prowl||5215", -- [24]
 				"companion|4||feral dps pve|MOUNT|59650", -- [25]
 				"companion|14||feral dps pve|MOUNT|43927", -- [26]
@@ -1903,6 +2025,7 @@ ActionBarSaverDB = {
 				"spell|81||Thorns|Rank 8|53307", -- [31]
 				"companion|17||feral dps pve|CRITTER|49964", -- [32]
 				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
+				[34] = "spell|179||Rebirth|Rank 7|48477",
 				[36] = "item|33445||Honeymint Tea",
 				[37] = "companion|46||feral dps pve|MOUNT|65638",
 				[38] = "companion|27||feral dps pve|MOUNT|17450",
@@ -1910,15 +2033,18 @@ ActionBarSaverDB = {
 				[41] = "item|54452||Ethereal Portal",
 				[42] = "spell|144||Gift of the Wild|Rank 4|48470",
 				[43] = "spell|171||Mark of the Wild|Rank 9|48469",
+				[44] = "macro|44||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
+				[46] = "spell|214||Revive|Rank 7|50763",
 				[48] = "item|35948||Savory Snowplum",
 				[49] = "spell|128||Ravage|Rank 7|48579",
 				[50] = "spell|125||Pounce|Rank 5|49803",
 				[54] = "spell|101||Dash|Rank 3|33357",
 				[59] = "spell|108||Feral Charge - Cat||49376",
 				[60] = "spell|126||Prowl||5215",
-				[61] = "spell|191||Regrowth|Rank 12|48443",
-				[62] = "spell|206||Rejuvenation|Rank 15|48441",
+				[61] = "spell|206||Rejuvenation|Rank 15|48441",
+				[62] = "spell|191||Regrowth|Rank 12|48443",
 				[63] = "item|33447||Runic Healing Potion",
+				[65] = "item|40211||Potion of Speed",
 				[66] = "spell|30||Hibernate|Rank 3|18658",
 				[67] = "spell|62||Soothe Animal|Rank 4|26995",
 				[68] = "macro|68||piel y raices|Interface\\Icons\\Spell_Nature_StoneClawTotem|/use Barkskin/n/use Nature's Grasp(Rank 8)",
@@ -1926,22 +2052,22 @@ ActionBarSaverDB = {
 				[70] = "spell|133||Swift Flight Form|Shapeshift|40120",
 				[71] = "spell|17||Barkskin||22812",
 				[72] = "spell|221||Tranquility|Rank 7|48447",
-				[73] = "spell|132||Shred|Rank 9|48572",
+				[73] = "spell|123||Mangle (Cat)|Rank 5|48566",
 				[74] = "spell|127||Rake|Rank 7|48574",
 				[75] = "spell|129||Rip|Rank 9|49800",
 				[76] = "spell|131||Savage Roar|Rank 1|52610",
-				[77] = "spell|123||Mangle (Cat)|Rank 5|48566",
+				[77] = "spell|132||Shred|Rank 9|48572",
 				[78] = "spell|101||Dash|Rank 3|33357",
-				[79] = "spell|109||Ferocious Bite|Rank 8|48577",
+				[79] = "spell|105||Faerie Fire (Feral)||16857",
 				[80] = "spell|96||Berserk||50334",
 				[81] = "spell|136||Tiger's Fury|Rank 6|50213",
 				[82] = "spell|113||Maim|Rank 2|49802",
-				[83] = "spell|108||Feral Charge - Cat||49376",
+				[83] = "spell|109||Ferocious Bite|Rank 8|48577",
 				[84] = "spell|135||Swipe (Cat)|Rank 1|62078",
 				[85] = "spell|50||Moonfire|Rank 14|48463",
 				[87] = "spell|93||Wrath|Rank 12|48461",
 				[88] = "spell|72||Starfire|Rank 10|48465",
-				[89] = "macro|89||alivio|Interface\\Icons\\INV_Misc_QuestionMark|#showtooltip Swiftmend/n/cast [target=mouseover,exists] Swiftmend",
+				[89] = "macro|89||alivio|Interface\\Icons\\INV_Relics_IdolofRejuvenation|#showtooltip Swiftmend/n/cast [target=mouseover,exists] Swiftmend",
 				[90] = "spell|35||Hurricane|Rank 5|48467",
 				[92] = "spell|27||Faerie Fire||770",
 				[93] = "spell|50||Moonfire|Rank 14|48463",
@@ -2118,9 +2244,9 @@ ActionBarSaverDB = {
 				"spell|142||Travel Form|Shapeshift|783", -- [22]
 				"spell|218||Revive|Rank 7|50763", -- [23]
 				"spell|183||Rebirth|Rank 7|48477", -- [24]
-				"companion|3||lechu pve|MOUNT|59650", -- [25]
+				"companion|4||lechu pve|MOUNT|59650", -- [25]
 				"companion|1||lechu pve|MOUNT|60025", -- [26]
-				"companion|13||lechu pve|MOUNT|43927", -- [27]
+				"companion|14||lechu pve|MOUNT|43927", -- [27]
 				nil, -- [28]
 				"spell|85||Teleport: Moonglade||18960", -- [29]
 				"spell|93||Thorns|Rank 8|53307", -- [30]
@@ -2130,9 +2256,9 @@ ActionBarSaverDB = {
 				nil, -- [34]
 				nil, -- [35]
 				"item|33445||Honeymint Tea", -- [36]
-				"companion|5||lechu pve|MOUNT|26656", -- [37]
-				"companion|44||lechu pve|MOUNT|23219", -- [38]
-				"companion|26||lechu pve|MOUNT|17450", -- [39]
+				"companion|46||lechu pve|MOUNT|65638", -- [37]
+				"companion|27||lechu pve|MOUNT|17450", -- [38]
+				"companion|6||lechu pve|MOUNT|26656", -- [39]
 				nil, -- [40]
 				"item|54452||Ethereal Portal", -- [41]
 				"spell|175||Mark of the Wild|Rank 9|48469", -- [42]
@@ -2216,12 +2342,12 @@ ActionBarSaverDB = {
 				"macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100", -- [120]
 			},
 			["feral dps farm"] = {
-				"spell|172||Nourish|Rank 1|50464", -- [1]
-				"spell|206||Rejuvenation|Rank 15|48441", -- [2]
-				"spell|162||Lifebloom|Rank 3|48451", -- [3]
-				"spell|191||Regrowth|Rank 12|48443", -- [4]
-				"spell|159||Healing Touch|Rank 15|48378", -- [5]
-				"spell|207||Remove Curse||2782", -- [6]
+				"spell|164||Nourish|Rank 1|50464", -- [1]
+				"spell|198||Rejuvenation|Rank 15|48441", -- [2]
+				"spell|154||Lifebloom|Rank 3|48451", -- [3]
+				"spell|183||Regrowth|Rank 12|48443", -- [4]
+				"spell|151||Healing Touch|Rank 15|48378", -- [5]
+				"spell|199||Remove Curse||2782", -- [6]
 				"macro|7||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus", -- [7]
 				"spell|93||Wrath|Rank 12|48461", -- [8]
 				"spell|50||Moonfire|Rank 14|48463", -- [9]
@@ -2233,58 +2359,59 @@ ActionBarSaverDB = {
 				"spell|13||Shadowmeld|Racial|58984", -- [15]
 				nil, -- [16]
 				nil, -- [17]
-				"spell|207||Remove Curse||2782", -- [18]
-				"spell|139||Abolish Poison||2893", -- [19]
+				"spell|199||Remove Curse||2782", -- [18]
+				"spell|131||Abolish Poison||2893", -- [19]
 				"spell|105||Faerie Fire (Feral)||16857", -- [20]
-				nil, -- [21]
-				"spell|133||Swift Flight Form|Shapeshift|40120", -- [22]
+				"spell|103||Dire Bear Form|Shapeshift|9634", -- [21]
+				"spell|125||Swift Flight Form|Shapeshift|40120", -- [22]
 				"spell|18||Cyclone||33786", -- [23]
 				"spell|26||Entangling Roots|Rank 8|53308", -- [24]
-				"companion|1||feral dps farm|MOUNT|60025", -- [25]
-				nil, -- [26]
-				nil, -- [27]
+				"companion|4||feral dps farm|MOUNT|59650", -- [25]
+				"companion|1||feral dps farm|MOUNT|60025", -- [26]
+				"companion|14||feral dps farm|MOUNT|43927", -- [27]
 				nil, -- [28]
 				"spell|73||Teleport: Moonglade||18960", -- [29]
 				"spell|9||Leatherworking|Grand Master|51302", -- [30]
 				"spell|81||Thorns|Rank 8|53307", -- [31]
 				"companion|17||feral dps farm|CRITTER|49964", -- [32]
 				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
-				[34] = "spell|179||Rebirth|Rank 7|48477",
+				[34] = "spell|171||Rebirth|Rank 7|48477",
 				[36] = "item|33445||Honeymint Tea",
-				[37] = "companion|45||feral dps farm|MOUNT|23219",
-				[38] = "companion|5||feral dps farm|MOUNT|59572",
+				[37] = "companion|6||feral dps farm|MOUNT|26656",
+				[38] = "companion|27||feral dps farm|MOUNT|17450",
+				[39] = "companion|8||feral dps farm|MOUNT|22723",
 				[41] = "item|54452||Ethereal Portal",
-				[42] = "spell|144||Gift of the Wild|Rank 4|48470",
-				[43] = "spell|171||Mark of the Wild|Rank 9|48469",
-				[46] = "spell|214||Revive|Rank 7|50763",
+				[42] = "spell|136||Gift of the Wild|Rank 4|48470",
+				[43] = "spell|163||Mark of the Wild|Rank 9|48469",
+				[46] = "spell|206||Revive|Rank 7|50763",
 				[48] = "item|35948||Savory Snowplum",
-				[49] = "spell|128||Ravage|Rank 7|48579",
-				[50] = "spell|125||Pounce|Rank 5|49803",
+				[49] = "spell|120||Ravage|Rank 7|48579",
+				[50] = "spell|117||Pounce|Rank 5|49803",
 				[54] = "spell|101||Dash|Rank 3|33357",
 				[59] = "spell|108||Feral Charge - Cat||49376",
-				[60] = "spell|126||Prowl||5215",
-				[61] = "spell|191||Regrowth|Rank 12|48443",
-				[62] = "spell|206||Rejuvenation|Rank 15|48441",
-				[63] = "item|33447||Runic Healing Potion",
+				[60] = "spell|118||Prowl||5215",
+				[61] = "spell|183||Regrowth|Rank 12|48443",
+				[62] = "spell|198||Rejuvenation|Rank 15|48441",
+				[64] = "spell|183||Regrowth|Rank 12|48443",
 				[66] = "spell|30||Hibernate|Rank 3|18658",
 				[67] = "spell|62||Soothe Animal|Rank 4|26995",
 				[68] = "macro|68||piel y raices|Interface\\Icons\\Spell_Nature_StoneClawTotem|/use Barkskin/n/use Nature's Grasp(Rank 8)",
 				[69] = "spell|96||Berserk||50334",
-				[70] = "spell|138||Travel Form|Shapeshift|783",
+				[70] = "spell|130||Travel Form|Shapeshift|783",
 				[71] = "spell|17||Barkskin||22812",
-				[72] = "spell|221||Tranquility|Rank 7|48447",
-				[73] = "spell|123||Mangle (Cat)|Rank 5|48566",
-				[74] = "spell|127||Rake|Rank 7|48574",
-				[75] = "spell|129||Rip|Rank 9|49800",
+				[72] = "spell|213||Tranquility|Rank 7|48447",
+				[73] = "spell|115||Mangle (Cat)|Rank 5|48566",
+				[74] = "spell|119||Rake|Rank 7|48574",
+				[75] = "spell|121||Rip|Rank 9|49800",
 				[76] = "spell|109||Ferocious Bite|Rank 8|48577",
-				[77] = "spell|135||Swipe (Cat)|Rank 1|62078",
+				[77] = "spell|127||Swipe (Cat)|Rank 1|62078",
 				[78] = "spell|101||Dash|Rank 3|33357",
-				[79] = "spell|132||Shred|Rank 9|48572",
-				[80] = "spell|136||Tiger's Fury|Rank 6|50213",
-				[81] = "spell|131||Savage Roar|Rank 1|52610",
+				[79] = "spell|124||Shred|Rank 9|48572",
+				[80] = "spell|128||Tiger's Fury|Rank 6|50213",
+				[81] = "spell|123||Savage Roar|Rank 1|52610",
 				[82] = "spell|113||Maim|Rank 2|49802",
 				[83] = "spell|108||Feral Charge - Cat||49376",
-				[84] = "spell|126||Prowl||5215",
+				[84] = "spell|118||Prowl||5215",
 				[85] = "spell|50||Moonfire|Rank 14|48463",
 				[87] = "spell|93||Wrath|Rank 12|48461",
 				[88] = "spell|72||Starfire|Rank 10|48465",
@@ -2294,10 +2421,10 @@ ActionBarSaverDB = {
 				[93] = "spell|50||Moonfire|Rank 14|48463",
 				[95] = "spell|18||Cyclone||33786",
 				[96] = "spell|26||Entangling Roots|Rank 8|53308",
-				[97] = "spell|124||Maul|Rank 10|48480",
+				[97] = "spell|116||Maul|Rank 10|48480",
 				[98] = "spell|112||Lacerate|Rank 3|48568",
-				[99] = "spell|118||Mangle (Bear)|Rank 5|48564",
-				[100] = "spell|134||Swipe (Bear)|Rank 8|48562",
+				[99] = "spell|114||Mangle (Bear)|Rank 5|48564",
+				[100] = "spell|126||Swipe (Bear)|Rank 8|48562",
 				[101] = "spell|95||Bash|Rank 3|8983",
 				[102] = "spell|104||Enrage||5229",
 				[103] = "spell|110||Frenzied Regeneration||22842",
@@ -2307,13 +2434,13 @@ ActionBarSaverDB = {
 				[107] = "spell|107||Feral Charge - Bear||16979",
 				[108] = "spell|102||Demoralizing Roar|Rank 8|48560",
 				[109] = "macro|109||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll",
-				[110] = "macro|110||BAILONGO|Interface\\Icons\\Ability_Rogue_Disguise|/dance",
+				[110] = "macro|110||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
 				[111] = "macro|111||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
 				[112] = "macro|112||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
 				[113] = "macro|113||ntk|Interface\\Icons\\INV_Misc_QuestionMark|/ntk",
 				[114] = "macro|114||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
 				[115] = "macro|115||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
-				[116] = "macro|116||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
+				[116] = "macro|116||BAILONGO|Interface\\Icons\\Ability_Rogue_Disguise|/dance",
 				[117] = "macro|117||MSBT|Interface\\Icons\\INV_Misc_QuestionMark|/msbt",
 				[118] = "macro|118||TIPTAC|Interface\\Icons\\INV_Misc_QuestionMark|/tiptac",
 				[119] = "macro|119||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
@@ -2336,24 +2463,24 @@ ActionBarSaverDB = {
 				"spell|13||Shadowmeld|Racial|58984", -- [15]
 				"macro|16||Salva|Interface\\Icons\\Spell_Nature_HealingTouch|#showtooltip Nature's Swiftness/n/use Nature's Swiftness/n/cast [target=mouseover,exists] Healing Touch(Rank 15)", -- [16]
 				nil, -- [17]
-				"macro|18||Supr veneno|Interface\\Icons\\Spell_Nature_NullifyPoison_02|#showtooltip Abolish Poison/n/cast [target=mouseover,exists] Abolish Poison", -- [18]
-				"spell|13||Shadowmeld|Racial|58984", -- [19]
+				"macro|18||Dispel|Interface\\Icons\\Spell_Holy_RemoveCurse|#showtooltip Remove Curse/n/cast [target=mouseover,exists] Remove Curse/n/script UIErrorsFrame:Clear()", -- [18]
+				"macro|19||Supr veneno|Interface\\Icons\\Spell_Nature_NullifyPoison_02|#showtooltip Abolish Poison/n/cast [target=mouseover,exists] Abolish Poison", -- [19]
 				"spell|27||Faerie Fire||770", -- [20]
 				"spell|50||Moonfire|Rank 14|48463", -- [21]
 				"spell|125||Travel Form|Shapeshift|783", -- [22]
 				"spell|202||Revive|Rank 7|50763", -- [23]
 				"macro|24||Renacer|Interface\\Icons\\Spell_Nature_Reincarnation|#showtooltip/n/s REVIVIENDO A %t/n/cast Rebirth(Rank 7)", -- [24]
-				"companion|4||arbol pve|MOUNT|59650", -- [25]
+				"companion|9||arbol pve|MOUNT|72808", -- [25]
 				"companion|1||arbol pve|MOUNT|60025", -- [26]
 				"spell|73||Teleport: Moonglade||18960", -- [27]
 				"companion|17||arbol pve|CRITTER|49964", -- [28]
-				[37] = "companion|37||arbol pve|MOUNT|68057",
+				[37] = "companion|18||arbol pve|MOUNT|63637",
 				[90] = "macro|90||Dispel|Interface\\Icons\\Spell_Holy_RemoveCurse|#showtooltip Remove Curse/n/cast [target=mouseover,exists] Remove Curse/n/script UIErrorsFrame:Clear()",
 				[106] = "spell|211||Tree of Life|Shapeshift|33891",
 				[61] = "macro|61||piel y raices|Interface\\Icons\\Spell_Nature_StoneClawTotem|/use Barkskin/n/use Nature's Grasp(Rank 8)",
 				[75] = "spell|123||Tiger's Fury|Rank 6|50213",
 				[91] = "macro|91||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
-				[38] = "companion|14||arbol pve|MOUNT|43927",
+				[38] = "companion|4||arbol pve|MOUNT|59650",
 				[46] = "spell|36||Innervate||29166",
 				[62] = "item|36892||Fel Healthstone",
 				[93] = "macro|93||Flor de vida|Interface\\Icons\\INV_Misc_Herb_Felblossom|#showtooltip Lifebloom(Rank 3)/n/cast [target=mouseover,exists] Lifebloom(Rank 3)/n/script UIErrorsFrame:Clear()",
@@ -2361,49 +2488,50 @@ ActionBarSaverDB = {
 				[31] = "spell|81||Thorns|Rank 8|53307",
 				[39] = "item|54452||Ethereal Portal",
 				[47] = "item|43523||Conjured Mana Strudel",
-				[63] = "item|33447||Runic Healing Potion",
 				[74] = "spell|110||Maim|Rank 2|49802",
+				[63] = "item|33447||Runic Healing Potion",
+				[96] = "spell|26||Entangling Roots|Rank 8|53308",
 				[95] = "spell|18||Cyclone||33786",
 				[111] = "macro|111||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
-				[49] = "spell|112||Pounce|Rank 5|49803",
+				[98] = "spell|95||Bash|Rank 3|8983",
 				[40] = "spell|9||Leatherworking|Grand Master|51302",
 				[48] = "item|35948||Savory Snowplum",
 				[112] = "macro|112||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
 				[65] = "spell|35||Hurricane|Rank 5|48467",
-				[42] = "spell|131||Gift of the Wild|Rank 4|48470",
+				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
 				[97] = "spell|103||Enrage||5229",
 				[113] = "macro|113||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
 				[66] = "spell|102||Dire Bear Form|Shapeshift|9634",
 				[82] = "spell|211||Tree of Life|Shapeshift|33891",
-				[98] = "spell|95||Bash|Rank 3|8983",
+				[49] = "spell|112||Pounce|Rank 5|49803",
 				[114] = "macro|114||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
 				[67] = "spell|96||Cat Form|Shapeshift|768",
 				[83] = "spell|100||Dash|Rank 3|33357",
-				[60] = "spell|113||Prowl||5215",
+				[42] = "spell|131||Gift of the Wild|Rank 4|48470",
 				[115] = "macro|115||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
 				[68] = "spell|17||Barkskin||22812",
 				[84] = "spell|113||Prowl||5215",
-				[70] = "spell|96||Cat Form|Shapeshift|768",
-				[44] = "item|43015||Fish Feast",
+				[88] = "macro|88||Recrecimiento|Interface\\Icons\\Spell_Nature_ResistNature|#showtooltip Regrowth(Rank 12)/n/cast [target=mouseover,exists] Regrowth(Rank 12)/n/script UIErrorsFrame:Clear()",
+				[72] = "spell|210||Tranquility|Rank 7|48447",
 				[69] = "spell|58||Nature's Grasp|Rank 8|53312",
 				[85] = "macro|85||Nutrir|Interface\\Icons\\Ability_Druid_Nourish|#showtooltip Nourish(Rank 1)/n/cast [target=mouseover,exists] Nourish(Rank 1)/n/script UIErrorsFrame:Clear()",
-				[36] = "item|33445||Honeymint Tea",
-				[117] = "macro|117||BAILONGO|Interface\\Icons\\Ability_Rogue_Disguise|/dance",
 				[35] = "item|46376||Flask of the Frost Wyrm",
+				[117] = "macro|117||BAILONGO|Interface\\Icons\\Ability_Rogue_Disguise|/dance",
+				[70] = "spell|96||Cat Form|Shapeshift|768",
 				[43] = "spell|158||Mark of the Wild|Rank 9|48469",
-				[59] = "spell|100||Dash|Rank 3|33357",
 				[118] = "macro|118||TIPTAC|Interface\\Icons\\INV_Misc_QuestionMark|/tiptac",
-				[86] = "macro|86||Reju sin error|Interface\\Icons\\Spell_Nature_Rejuvenation|#showtooltip Rejuvenation(Rank 15)/n/cast [target=mouseover,exists] Rejuvenation(Rank 15)/n/script UIErrorsFrame:Clear()",
+				[59] = "spell|100||Dash|Rank 3|33357",
+				[71] = "spell|13||Shadowmeld|Racial|58984",
 				[87] = "macro|87||Crecimiento salv|Interface\\Icons\\Ability_Druid_Flourish|#showtooltip Wild Growth(Rank 4)/n/cast [target=mouseover,exists] Wild Growth(Rank 4)/n/script UIErrorsFrame:Clear()",
-				[94] = "spell|211||Tree of Life|Shapeshift|33891",
+				[86] = "macro|86||Reju sin error|Interface\\Icons\\Spell_Nature_Rejuvenation|#showtooltip Rejuvenation(Rank 15)/n/cast [target=mouseover,exists] Rejuvenation(Rank 15)/n/script UIErrorsFrame:Clear()",
 				[119] = "macro|119||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
-				[72] = "spell|210||Tranquility|Rank 7|48447",
-				[88] = "macro|88||Recrecimiento|Interface\\Icons\\Spell_Nature_ResistNature|#showtooltip Regrowth(Rank 12)/n/cast [target=mouseover,exists] Regrowth(Rank 12)/n/script UIErrorsFrame:Clear()",
-				[96] = "spell|26||Entangling Roots|Rank 8|53308",
-				[120] = "macro|120||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
+				[36] = "item|33445||Honeymint Tea",
+				[44] = "item|43015||Fish Feast",
+				[92] = "macro|92||asrasr|Interface\\Icons\\inv_misc_rubysanctum1|#showtooltip Glowing Twilight Scale/n/use Glowing Twilight Scale/n/cast [target=mouseover,exists] Nourish(Rank 1)/n/script UIErrorsFrame:Clear()",
+				[60] = "spell|113||Prowl||5215",
 				[73] = "spell|98||Claw|Rank 8|48570",
 				[89] = "macro|89||alivio|Interface\\Icons\\INV_Relics_IdolofRejuvenation|#showtooltip Swiftmend/n/cast [target=mouseover,exists] Swiftmend",
-				[92] = "macro|92||asrasr|Interface\\Icons\\inv_misc_rubysanctum1|#showtooltip Glowing Twilight Scale/n/cast [target=mouseover,exists] Nourish(Rank 1)/n/script UIErrorsFrame:Clear()/n/use Glowing Twilight Scale",
+				[94] = "spell|211||Tree of Life|Shapeshift|33891",
 			},
 			["arbol leveo"] = {
 				"spell|35||Hurricane|Rank 5|48467", -- [1]
@@ -2532,12 +2660,12 @@ ActionBarSaverDB = {
 		},
 		["HUNTER"] = {
 			["mm pvp"] = {
-				"macro|1||Quimera|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip  Chimera Shot(Rank 1)/n/startattack/n/cast Chimera Shot(Rank 1)/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/use 10", -- [1]
+				"macro|1||Chimera s/ Silen|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip  Chimera Shot(Rank 1)/n/startattack/n/cast Chimera Shot(Rank 1)/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/use 10/n/cast Kill Command", -- [1]
 				"spell|72||Aimed Shot|Rank 9|49050", -- [2]
 				"spell|83||Arcane Shot|Rank 11|49045", -- [3]
 				"spell|96||Kill Shot|Rank 3|61006", -- [4]
 				"spell|124||Steady Shot|Rank 4|49052", -- [5]
-				"spell|143||Freezing Arrow|Rank 1|60192", -- [6]
+				"spell|141||Explosive Trap|Rank 6|49067", -- [6]
 				"spell|175||Snake Trap||34600", -- [7]
 				"spell|93||Hunter's Mark|Rank 5|53338", -- [8]
 				"macro|9||picadura y ataqu|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/cast Serpent Sting(Rank 12)/n/petattack/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/startattack", -- [9]
@@ -2546,31 +2674,31 @@ ActionBarSaverDB = {
 				"spell|86||Concussive Shot||5116", -- [12]
 				"macro|13||disarm|Interface\\Icons\\Ability_Hunter_CriticalShot|/castsequence Scorpid Sting, Chimera Shot(Rank 1)", -- [13]
 				"spell|125||Tranquilizing Shot||19801", -- [14]
-				"item|51350||Wrathful Gladiator's Waistguard of Triumph", -- [15]
+				"spell|127||Viper Sting||3034", -- [15]
 				"spell|88||Flare||1543", -- [16]
-				"spell|126||Trueshot Aura||19506", -- [17]
-				"spell|147||Frost Trap||13809", -- [18]
-				"spell|141||Explosive Trap|Rank 6|49067", -- [19]
-				"macro|20||Redirección|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip Misdirection/n/cast [target=focus] Misdirection", -- [20]
-				"spell|127||Viper Sting||3034", -- [21]
+				"item|51350||Wrathful Gladiator's Waistguard of Triumph", -- [17]
+				"spell|142||Feign Death||5384", -- [18]
+				"spell|18||Stoneform|Racial|20594", -- [19]
+				"macro|20||RoS|Interface\\Icons\\Ability_Druid_DemoralizingRoar|/cast [target=Doroteo] Roar of Sacrifice", -- [20]
+				"macro|21||intervenir|Interface\\Icons\\Ability_Hunter_Pet_Turtle|/cast [target=Doroteo] Intervene", -- [21]
 				"macro|22||aspectos|Interface\\Icons\\Spell_Nature_WispSplode|/cast Aspect of the Dragonhawk(Rank 2)/n/cast Aspect of the Viper", -- [22]
-				"spell|106||Readiness||23989", -- [23]
+				"spell|143||Freezing Arrow|Rank 1|60192", -- [23]
 				"spell|174||Scatter Shot||19503", -- [24]
-				"companion|8||mm pvp|MOUNT|32292", -- [25]
+				"companion|9||mm pvp|MOUNT|59570", -- [25]
 				"spell|19||Tailoring|Grand Master|51309", -- [26]
-				"spell|12||Gnomish Engineer||20219", -- [27]
+				"item|40772||Gnomish Army Knife", -- [27]
 				"spell|183||Track Undead||19884", -- [28]
 				"spell|176||Track Beasts||1494", -- [29]
 				"companion|4||mm pvp|CRITTER|49964", -- [30]
 				"spell|43||Dismiss Pet||2641", -- [31]
 				"spell|63||Tame Beast||1515", -- [32]
 				"macro|33||mo on|Interface\\Icons\\INV_Misc_QuestionMark|/say .modrates on", -- [33]
-				nil, -- [34]
+				"item|46377||Flask of Endless Rage", -- [34]
 				"item|33445||Honeymint Tea", -- [35]
 				"item|20388||Lollipop", -- [36]
-				"companion|6||mm pvp|MOUNT|49379", -- [37]
+				"companion|7||mm pvp|MOUNT|49379", -- [37]
 				"item|6948||Hearthstone", -- [38]
-				"item|40772||Gnomish Army Knife", -- [39]
+				"spell|12||Gnomish Engineer||20219", -- [39]
 				"spell|182||Track Humanoids||19883", -- [40]
 				"spell|181||Track Hidden||19885", -- [41]
 				"spell|42||Call Stabled Pet||62757", -- [42]
@@ -2583,22 +2711,22 @@ ActionBarSaverDB = {
 				"spell|58||Mend Pet|Rank 10|48990", -- [49]
 				"macro|50||comidita cangrej|Interface\\Icons\\Ability_Hunter_BeastTraining|/cast Feed Pet/n/use Sweet Potato Bread", -- [50]
 				"item|36892||Fel Healthstone", -- [51]
-				"macro|52||RoS|Interface\\Icons\\Ability_Druid_DemoralizingRoar|/cast [target=Doroteo] Roar of Sacrifice", -- [52]
-				"macro|53||intervenir|Interface\\Icons\\Ability_Hunter_Pet_Turtle|/cast [target=Doroteo] Intervene", -- [53]
+				nil, -- [52]
+				nil, -- [53]
 				nil, -- [54]
-				nil, -- [55]
-				nil, -- [56]
+				"macro|55||Redirección|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip Misdirection/n/cast [target=focus] Misdirection", -- [55]
+				"spell|126||Trueshot Aura||19506", -- [56]
 				nil, -- [57]
 				"spell|133||Volley|Rank 6|58434", -- [58]
 				"macro|59||Melee|Interface\\Icons\\Ability_Rogue_Trip|#show/n/castsequence reset=3 Wing Clip, Mongoose Bite(Rank 6),  Raptor Strike(Rank 11)", -- [59]
 				nil, -- [60]
-				"macro|61||BURST|Interface\\Icons\\Ability_Hunter_RunningShot|/cast Rapid fire/n/cast Kill command/n/cast Call of the wild/n/use 10", -- [61]
+				"macro|61||BURST|Interface\\Icons\\Ability_Hunter_RunningShot|/cast Rapid fire/n/cast Kill command/n/cast Call of the wild/n/cast Rabid/n/use 10", -- [61]
 				"spell|106||Readiness||23989", -- [62]
 				"macro|63||pet back|Interface\\Icons\\Ability_Druid_Cower|/petfollow/n/cast cower/n/cast master's call/n/cast mend pet", -- [63]
 				"item|33447||Runic Healing Potion", -- [64]
 				"item|51351||Wrathful Gladiator's Sabatons of Triumph", -- [65]
-				"spell|142||Feign Death||5384", -- [66]
-				"spell|18||Stoneform|Racial|20594", -- [67]
+				"spell|147||Frost Trap||13809", -- [66]
+				"spell|106||Readiness||23989", -- [67]
 				"item|51377||Medallion of the Alliance", -- [68]
 				"spell|134||Deterrence||19263", -- [69]
 				"macro|70||pet doroteo|Interface\\Icons\\Ability_Hunter_MendPet|#showtooltip/n/cast [nopet] Call Pet/n/cast [target=pet,dead] Revive Pet/n/cast [target=pet,exists] Mend Pet(Rank 10)", -- [70]
@@ -2616,107 +2744,20 @@ ActionBarSaverDB = {
 				"macro|82||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz", -- [82]
 				"macro|83||TIPTAC|Interface\\Icons\\INV_Misc_QuestionMark|/tiptac", -- [83]
 				"macro|84||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss", -- [84]
-				"item|51351||Wrathful Gladiator's Sabatons of Triumph", -- [85]
-				"item|51350||Wrathful Gladiator's Waistguard of Triumph", -- [86]
+				"item|18606||Alliance Battle Standard", -- [85]
+				"item|51356||Wrathful Gladiator's Cloak of Victory", -- [86]
 				nil, -- [87]
 				"spell|40||Beast Lore||1462", -- [88]
-				[91] = "item|51356||Wrathful Gladiator's Cloak of Victory",
+				[91] = "item|51351||Wrathful Gladiator's Sabatons of Triumph",
+				[99] = "item|2459||Swiftness Potion",
+				[92] = "item|51350||Wrathful Gladiator's Waistguard of Triumph",
 				[100] = "item|2459||Swiftness Potion",
 				[97] = "spell|146||Freezing Trap|Rank 3|14311",
-				[99] = "item|2459||Swiftness Potion",
+				[116] = "spell|8||Find Treasure|Racial|2481",
+				[112] = "equipmentset|pve|",
 				[94] = "spell|44||Eagle Eye||6197",
+				[113] = "equipmentset|pvp off pve|",
 				[98] = "spell|155||Immolation Trap|Rank 8|49056",
-			},
-			["mm pve"] = {
-				"macro|1||Quimera|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip  Chimera Shot(Rank 1)/n/startattack/n/cast Chimera Shot(Rank 1)/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/use 10", -- [1]
-				"spell|72||Aimed Shot|Rank 9|49050", -- [2]
-				"spell|124||Steady Shot|Rank 4|49052", -- [3]
-				"spell|96||Kill Shot|Rank 3|61006", -- [4]
-				"spell|104||Multi-Shot|Rank 8|49048", -- [5]
-				"spell|147||Frost Trap||13809", -- [6]
-				"spell|141||Explosive Trap|Rank 6|49067", -- [7]
-				"spell|93||Hunter's Mark|Rank 5|53338", -- [8]
-				"macro|9||picadura y ataqu|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/cast Serpent Sting(Rank 12)/n/petattack/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/startattack", -- [9]
-				"spell|120||Silencing Shot||34490", -- [10]
-				"spell|135||Disengage||781", -- [11]
-				"macro|12||Redirección|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip Misdirection/n/cast [target=focus] Misdirection", -- [12]
-				"spell|127||Viper Sting||3034", -- [13]
-				"macro|14||disarm|Interface\\Icons\\Ability_Hunter_CriticalShot|/castsequence Scorpid Sting, Chimera Shot(Rank 1)", -- [14]
-				nil, -- [15]
-				"spell|83||Arcane Shot|Rank 11|49045", -- [16]
-				"spell|126||Trueshot Aura||19506", -- [17]
-				"spell|133||Volley|Rank 6|58434", -- [18]
-				"spell|174||Snake Trap||34600", -- [19]
-				"spell|125||Tranquilizing Shot||19801", -- [20]
-				"spell|87||Distracting Shot|Rank 1|20736", -- [21]
-				"macro|22||aspectos|Interface\\Icons\\Spell_Nature_WispSplode|/cast Aspect of the Dragonhawk(Rank 2)/n/cast Aspect of the Viper", -- [22]
-				"spell|143||Freezing Arrow|Rank 1|60192", -- [23]
-				"spell|86||Concussive Shot||5116", -- [24]
-				"companion|8||mm pve|MOUNT|32292", -- [25]
-				"spell|19||Tailoring|Grand Master|51309", -- [26]
-				"macro|27||mo on|Interface\\Icons\\INV_Misc_QuestionMark|/say .modrates on", -- [27]
-				"spell|63||Tame Beast||1515", -- [28]
-				"spell|59||Revive Pet||982", -- [29]
-				"spell|40||Beast Lore||1462", -- [30]
-				"spell|44||Eagle Eye||6197", -- [31]
-				"companion|4||mm pve|CRITTER|49964", -- [32]
-				"item|46377||Flask of Endless Rage", -- [33]
-				"item|33445||Honeymint Tea", -- [34]
-				[37] = "companion|2||mm pve|MOUNT|22720",
-				[45] = "item|43523||Conjured Mana Strudel",
-				[61] = "macro|61||BURST|Interface\\Icons\\Ability_Hunter_RunningShot|/cast Rapid fire/n/cast Kill command/n/cast Call of the wild/n/use 10",
-				[75] = "macro|75||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
-				[38] = "spell|12||Gnomish Engineer||20219",
-				[46] = "item|35950||Sweet Potato Bread",
-				[62] = "spell|106||Readiness||23989",
-				[77] = "macro|77||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
-				[93] = "item|43005||Spiced Mammoth Treats",
-				[109] = "spell|181||Track Humanoids||19883",
-				[39] = "item|6948||Hearthstone",
-				[110] = "spell|180||Track Hidden||19885",
-				[63] = "item|51154||Sanctified Ahn'Kahar Blood Hunter's Handguards",
-				[79] = "macro|79||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
-				[98] = "item|33447||Runic Healing Potion",
-				[111] = "spell|175||Track Beasts||1494",
-				[64] = "spell|47||Kill Command||34026",
-				[40] = "spell|43||Dismiss Pet||2641",
-				[96] = "equipmentset|SIN ARMAS|",
-				[112] = "spell|182||Track Undead||19884",
-				[65] = "item|50607||Frostbitten Fur Boots",
-				[81] = "macro|81||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
-				[97] = "item|42545||Runic Mana Injector",
-				[113] = "spell|177||Track Dragonkin||19879",
-				[66] = "macro|66||arma lady|Interface\\Icons\\inv_weapon_bow_55|/equip Njorndar Bone Bow/n/run PickupInventoryItem(18)PutItemInBackpack()",
-				[41] = "spell|41||Call Pet||883",
-				[49] = "item|40211||Potion of Speed",
-				[114] = "spell|178||Track Elementals||19880",
-				[67] = "spell|142||Feign Death||5384",
-				[83] = "macro|83||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
-				[99] = "item|36892||Fel Healthstone",
-				[115] = "spell|39||Aspect of the Wild|Rank 4|49071",
-				[68] = "spell|134||Deterrence||19263",
-				[42] = "spell|42||Call Stabled Pet||62757",
-				[100] = "spell|146||Freezing Trap|Rank 3|14311",
-				[58] = "item|49278||Goblin Rocket Pack",
-				[69] = "spell|18||Stoneform|Racial|20594",
-				[85] = "macro|85||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
-				[76] = "macro|76||POWERAURAS|Interface\\Icons\\INV_Misc_QuestionMark|/powa",
-				[117] = "spell|179||Track Giants||19882",
-				[70] = "macro|70||pet doroteo|Interface\\Icons\\Ability_Hunter_BeastCall|#showtooltip/n/cast [nopet] Call Pet/n/cast [target=pet,dead] Revive Pet/n/cast [target=pet,exists] Mend Pet(Rank 10)",
-				[43] = "spell|45||Eyes of the Beast||1002",
-				[92] = "item|42995||Hearty Rhino",
-				[116] = "spell|176||Track Demons||19878",
-				[71] = "spell|22||Aspect of the Cheetah||5118",
-				[87] = "macro|87||comidita perro|Interface\\Icons\\Ability_Hunter_BeastTraining|/cast Feed Pet/n/use Mead Basted Caribou/n/use Savory Snowplum",
-				[84] = "macro|84||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
-				[86] = "spell|58||Mend Pet|Rank 10|48990",
-				[72] = "spell|34||Aspect of the Pack||13159",
-				[44] = "item|40772||Gnomish Army Knife",
-				[82] = "macro|82||MSBT|Interface\\Icons\\INV_Misc_QuestionMark|/msbt",
-				[78] = "macro|78||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
-				[73] = "macro|73||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll",
-				[89] = "equipmentset|pvp|",
-				[90] = "equipmentset|pve|",
 			},
 			["solo"] = {
 				"spell|85||Chimera Shot|Rank 1|53209", -- [1]
@@ -2916,6 +2957,97 @@ ActionBarSaverDB = {
 				[97] = "item|33447||Runic Healing Potion",
 				[98] = "item|42545||Runic Mana Injector",
 				[99] = "item|22103||Master Healthstone",
+			},
+			["mm pve"] = {
+				"macro|1||Quimera|Interface\\Icons\\Ability_Hunter_ChimeraShot2|#showtooltip  Chimera Shot(Rank 1)/n/startattack/n/cast Chimera Shot(Rank 1)/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/use 10", -- [1]
+				"spell|72||Aimed Shot|Rank 9|49050", -- [2]
+				"spell|124||Steady Shot|Rank 4|49052", -- [3]
+				"spell|96||Kill Shot|Rank 3|61006", -- [4]
+				"spell|104||Multi-Shot|Rank 8|49048", -- [5]
+				"spell|147||Frost Trap||13809", -- [6]
+				"spell|141||Explosive Trap|Rank 6|49067", -- [7]
+				"spell|93||Hunter's Mark|Rank 5|53338", -- [8]
+				"macro|9||picadura y ataqu|Interface\\Icons\\Ability_Hunter_Quickshot|#showtooltip serpent sting/n/cast Serpent Sting(Rank 12)/n/petattack/n/script UIErrorsFrame:Clear()/n/cast !auto shoot/n/startattack", -- [9]
+				"spell|120||Silencing Shot||34490", -- [10]
+				"spell|135||Disengage||781", -- [11]
+				"macro|12||Redirección|Interface\\Icons\\Ability_Hunter_Misdirection|#showtooltip Misdirection/n/cast [target=focus] Misdirection", -- [12]
+				"spell|127||Viper Sting||3034", -- [13]
+				"macro|14||disarm|Interface\\Icons\\Ability_Hunter_CriticalShot|/castsequence Scorpid Sting, Chimera Shot(Rank 1)", -- [14]
+				nil, -- [15]
+				"spell|83||Arcane Shot|Rank 11|49045", -- [16]
+				"spell|126||Trueshot Aura||19506", -- [17]
+				"spell|133||Volley|Rank 6|58434", -- [18]
+				"spell|174||Snake Trap||34600", -- [19]
+				"spell|125||Tranquilizing Shot||19801", -- [20]
+				"spell|87||Distracting Shot|Rank 1|20736", -- [21]
+				"macro|22||aspectos|Interface\\Icons\\Spell_Nature_WispSplode|/cast Aspect of the Dragonhawk(Rank 2)/n/cast Aspect of the Viper", -- [22]
+				"spell|143||Freezing Arrow|Rank 1|60192", -- [23]
+				"spell|86||Concussive Shot||5116", -- [24]
+				"companion|8||mm pve|MOUNT|32292", -- [25]
+				"spell|19||Tailoring|Grand Master|51309", -- [26]
+				"macro|27||mo on|Interface\\Icons\\INV_Misc_QuestionMark|/say .modrates on", -- [27]
+				"spell|63||Tame Beast||1515", -- [28]
+				"spell|59||Revive Pet||982", -- [29]
+				"spell|40||Beast Lore||1462", -- [30]
+				"spell|44||Eagle Eye||6197", -- [31]
+				"companion|4||mm pve|CRITTER|49964", -- [32]
+				"item|46377||Flask of Endless Rage", -- [33]
+				"item|33445||Honeymint Tea", -- [34]
+				[37] = "companion|2||mm pve|MOUNT|22720",
+				[45] = "item|43523||Conjured Mana Strudel",
+				[61] = "macro|61||BURST|Interface\\Icons\\Ability_Hunter_RunningShot|/cast Rapid fire/n/cast Kill command/n/cast Call of the wild/n/use 10",
+				[75] = "macro|75||KISS|Interface\\Icons\\Spell_BrokenHeart|/kiss",
+				[38] = "spell|12||Gnomish Engineer||20219",
+				[46] = "item|35950||Sweet Potato Bread",
+				[62] = "spell|106||Readiness||23989",
+				[77] = "macro|77||SUF|Interface\\Icons\\INV_Misc_QuestionMark|/suf",
+				[93] = "item|43005||Spiced Mammoth Treats",
+				[109] = "spell|181||Track Humanoids||19883",
+				[39] = "item|6948||Hearthstone",
+				[110] = "spell|180||Track Hidden||19885",
+				[63] = "item|51154||Sanctified Ahn'Kahar Blood Hunter's Handguards",
+				[79] = "macro|79||trade|Interface\\Icons\\INV_Misc_QuestionMark|/trade",
+				[98] = "item|33447||Runic Healing Potion",
+				[111] = "spell|175||Track Beasts||1494",
+				[64] = "spell|47||Kill Command||34026",
+				[40] = "spell|43||Dismiss Pet||2641",
+				[96] = "equipmentset|SIN ARMAS|",
+				[112] = "spell|182||Track Undead||19884",
+				[65] = "item|50607||Frostbitten Fur Boots",
+				[81] = "macro|81||QUARTZ|Interface\\Icons\\INV_Misc_QuestionMark|/quartz",
+				[97] = "item|42545||Runic Mana Injector",
+				[113] = "spell|177||Track Dragonkin||19879",
+				[66] = "macro|66||arma lady|Interface\\Icons\\inv_weapon_bow_55|/equip Njorndar Bone Bow/n/run PickupInventoryItem(18)PutItemInBackpack()",
+				[41] = "spell|41||Call Pet||883",
+				[49] = "item|40211||Potion of Speed",
+				[114] = "spell|178||Track Elementals||19880",
+				[67] = "spell|142||Feign Death||5384",
+				[83] = "macro|83||TMW|Interface\\Icons\\INV_Misc_QuestionMark|/tmw",
+				[99] = "item|36892||Fel Healthstone",
+				[115] = "spell|39||Aspect of the Wild|Rank 4|49071",
+				[68] = "spell|134||Deterrence||19263",
+				[42] = "spell|42||Call Stabled Pet||62757",
+				[100] = "spell|146||Freezing Trap|Rank 3|14311",
+				[58] = "item|49278||Goblin Rocket Pack",
+				[69] = "spell|18||Stoneform|Racial|20594",
+				[85] = "macro|85||follow|Interface\\Icons\\Ability_Creature_Cursed_01|/follow target/n/follow focus",
+				[76] = "macro|76||POWERAURAS|Interface\\Icons\\INV_Misc_QuestionMark|/powa",
+				[117] = "spell|179||Track Giants||19882",
+				[70] = "macro|70||pet doroteo|Interface\\Icons\\Ability_Hunter_BeastCall|#showtooltip/n/cast [nopet] Call Pet/n/cast [target=pet,dead] Revive Pet/n/cast [target=pet,exists] Mend Pet(Rank 10)",
+				[43] = "spell|45||Eyes of the Beast||1002",
+				[92] = "item|42995||Hearty Rhino",
+				[116] = "spell|176||Track Demons||19878",
+				[71] = "spell|22||Aspect of the Cheetah||5118",
+				[87] = "macro|87||comidita perro|Interface\\Icons\\Ability_Hunter_BeastTraining|/cast Feed Pet/n/use Mead Basted Caribou/n/use Savory Snowplum",
+				[84] = "macro|84||CAMERA|Interface\\Icons\\Spell_ChargeNegative|/console CameraDistanceMaxFactor 100",
+				[86] = "spell|58||Mend Pet|Rank 10|48990",
+				[72] = "spell|34||Aspect of the Pack||13159",
+				[44] = "item|40772||Gnomish Army Knife",
+				[82] = "macro|82||MSBT|Interface\\Icons\\INV_Misc_QuestionMark|/msbt",
+				[78] = "macro|78||MACRO|Interface\\Icons\\Spell_ChargePositive|/macro",
+				[73] = "macro|73||dados|Interface\\Icons\\INV_Misc_QuestionMark|/roll",
+				[89] = "equipmentset|pvp|",
+				[90] = "equipmentset|pve|",
 			},
 		},
 	},

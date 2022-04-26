@@ -1,0 +1,8 @@
+Version: 1
+Frame: PallyPowerFrame
+FrameLevel: 1
+Anchor: TOPLEFT
+X: 101
+Y: -198
+W: 1
+H: 1

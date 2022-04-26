@@ -194,17 +194,17 @@ GridDB = {
 			["profiles"] = {
 				["Default"] = {
 					["buff_Crecimientosalvaje"] = {
-						["priority"] = 90,
-						["missing"] = false,
-						["text"] = "Crecimiento salvaje",
-						["enable"] = true,
+						["duration"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["duration"] = false,
+						["priority"] = 90,
+						["missing"] = false,
+						["enable"] = true,
+						["text"] = "Crecimiento salvaje",
 						["range"] = false,
 						["desc"] = "Bufo: Crecimiento salvaje",
 					},
@@ -216,10 +216,10 @@ GridDB = {
 				["Default"] = {
 					["anchorRel"] = "TOPLEFT",
 					["Spacing"] = 0,
-					["PosY"] = -241.0005012724846,
-					["layout"] = "Grupo de 5",
+					["PosY"] = -241.0004975384529,
+					["layout"] = "By Group 5",
 					["Padding"] = 0,
-					["PosX"] = 86.9999143668062,
+					["PosX"] = 86.9999162847772,
 				},
 			},
 		},

@@ -1,2 +1,6 @@
 
-HHConfig = nil
+HHConfig = {
+	["profileKeys"] = {
+		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
+	},
+}

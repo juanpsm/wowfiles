@@ -1,0 +1,12 @@
+
+EveryQuestDB = nil
+EQ2DB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "global",
+	},
+	["profiles"] = {
+		["global"] = {
+			["querytime"] = 1553378750,
+		},
+	},
+}

@@ -1,0 +1,43 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["Inventory"] = {
+					"|cffa335ee|Hitem:40934:3797:3641:3561:0:0:0:0:80|h[Relentless Gladiator's Ornamented Headcover]|h|r", -- [1]
+					51331, -- [2]
+					"|cffa335ee|Hitem:40964:3794:3530:0:0:0:0:0:80|h[Relentless Gladiator's Ornamented Spaulders]|h|r", -- [3]
+					nil, -- [4]
+					51468, -- [5]
+					"|cffa335ee|Hitem:51359:0:3527:3527:0:0:0:0:80|h[Wrathful Gladiator's Girdle of Salvation]|h|r", -- [6]
+					"|cffa335ee|Hitem:51471:3721:3527:3527:0:0:0:0:80|h[Wrathful Gladiator's Ornamented Legplates]|h|r", -- [7]
+					"|cffa335ee|Hitem:51360:3826:3527:0:0:0:0:0:80|h[Wrathful Gladiator's Greaves of Salvation]|h|r", -- [8]
+					"|cffa335ee|Hitem:51361:2332:3527:0:0:0:0:0:80|h[Wrathful Gladiator's Bracers of Salvation]|h|r", -- [9]
+					"|cffa335ee|Hitem:51469:3246:3527:3527:0:0:0:0:80|h[Wrathful Gladiator's Ornamented Gloves]|h|r", -- [10]
+					51336, -- [11]
+					42116, -- [12]
+					44255, -- [13]
+					47215, -- [14]
+					42076, -- [15]
+					"|cffa335ee|Hitem:51453:3830:3527:0:0:0:0:0:80|h[Wrathful Gladiator's Gavel]|h|r", -- [16]
+					"|cffa335ee|Hitem:42566:1128:0:0:0:0:0:0:80|h[Relentless Gladiator's Barrier]|h|r", -- [17]
+					42616, -- [18]
+				},
+				["averageItemLvl"] = 251.1176470588235,
+				["lastUpdate"] = 1592435359,
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.Land Of The Fire"] = {
+				["Members"] = {
+					["Nataku"] = {
+						["averageItemLvl"] = 251,
+					},
+				},
+			},
+		},
+	},
+}

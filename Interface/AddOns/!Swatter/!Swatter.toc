@@ -1,11 +1,11 @@
 ## Title: Swatter
 ## Notes: Debugging tool for handling and displaying of error messages in a useful way.
 ##
-## Interface: 30200
+## Interface: 40000
 ## SavedVariables: SwatterData
 ##
-## Version: 3.1.14 (<%codename%>)
-## Revision: $Id: !Swatter.toc 223 2009-08-06 15:23:01Z Nechckn $
+## Version: 3.1.16 (<%codename%>)
+## Revision: $Id: !Swatter.toc 280 2010-10-12 19:52:29Z Esamynn $
 ## URL: http://auctioneeraddon.com/dl/Swatter/
 ## Author: Norganna's AddOns
 ##

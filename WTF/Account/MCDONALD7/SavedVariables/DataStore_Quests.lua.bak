@@ -1,0 +1,23 @@
+
+DataStore_QuestsDB = {
+	["profileKeys"] = {
+		["Mcdonald - WoWArg"] = "Mcdonald - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Mcdonald"] = {
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:24588:80|h[XT-002 Deconstructor Must Die!]|h|r",
+				},
+				["lastUpdate"] = 1599871671,
+				["Rewards"] = {
+					[2] = "r|49426|5|1,r|47241|5|1",
+				},
+				["Quests"] = {
+					"0|Ulduar", -- [1]
+					"1|Raid|0|296000|0", -- [2]
+				},
+			},
+		},
+	},
+}

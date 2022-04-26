@@ -2,7 +2,9 @@
 TalentedDB = {
 	["profileKeys"] = {
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
@@ -42,7 +44,11 @@ TalentedDB = {
 				},
 			},
 		},
+		["Elchamaquito - Sin'Dorei"] = {
+		},
 		["Trank - WoWArg"] = {
+		},
+		["Elchamaquito - Sin'dorei(WoWArg)"] = {
 		},
 		["Perruco - WoWArg"] = {
 		},

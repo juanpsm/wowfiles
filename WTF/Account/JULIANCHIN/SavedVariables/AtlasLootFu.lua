@@ -2,7 +2,7 @@
 AtlasLootFuDB = {
 	["profiles"] = {
 		["Default"] = {
-			["minimapPosition"] = 140.2047848770298,
+			["minimapPosition"] = 149.1763097535845,
 			["detachedTooltip"] = {
 				["fontSizePercent"] = 1,
 			},

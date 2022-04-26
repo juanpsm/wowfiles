@@ -2,71 +2,992 @@
 DataStore_QuestsDB = {
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Perruco"] = {
-				["lastUpdate"] = 1597360602,
-			},
-			["Default.WoWArg.Rochallor"] = {
+			["Default.Sin'Dorei.Elchamaquito"] = {
+				["HistoryLastUpdate"] = 1630724752,
 				["History"] = {
-					[12641] = true,
-					[12848] = true,
-					[12842] = true,
-					[12619] = true,
-					[12636] = true,
-					[12593] = true,
-					[12670] = true,
-					[12657] = true,
-					[12850] = true,
+					[10141] = true,
+					[2040] = true,
+					[10173] = true,
+					[1021] = true,
+					[127] = true,
+					[10205] = true,
+					[10221] = true,
+					[13298] = true,
+					[10237] = true,
+					[10245] = true,
+					[11276] = true,
+					[10261] = true,
+					[13338] = true,
+					[1031] = true,
+					[10293] = true,
+					[64] = true,
+					[24711] = true,
+					[8279] = true,
+					[10333] = true,
+					[10349] = true,
+					[130] = true,
+					[12443] = true,
+					[9390] = true,
+					[9398] = true,
+					[12483] = true,
+					[131] = true,
+					[9430] = true,
+					[1054] = true,
+					[6261] = true,
+					[10485] = true,
+					[6281] = true,
+					[10517] = true,
+					[9518] = true,
+					[9526] = true,
+					[66] = true,
+					[133] = true,
+					[9558] = true,
+					[11612] = true,
+					[11620] = true,
+					[268] = true,
+					[134] = true,
+					[269] = true,
+					[10661] = true,
+					[11692] = true,
+					[10677] = true,
+					[11708] = true,
+					[67] = true,
+					[135] = true,
+					[9702] = true,
+					[9718] = true,
+					[12819] = true,
+					[12843] = true,
+					[9782] = true,
+					[9790] = true,
+					[68] = true,
+					[12883] = true,
+					[11868] = true,
+					[11876] = true,
+					[12907] = true,
+					[10869] = true,
+					[9854] = true,
+					[11908] = true,
+					[9878] = true,
+					[24872] = true,
+					[9894] = true,
+					[12971] = true,
+					[11956] = true,
+					[9918] = true,
+					[69] = true,
+					[13011] = true,
+					[50001] = true,
+					[9982] = true,
+					[9990] = true,
+					[9998] = true,
+					[12052] = true,
+					[12060] = true,
+					[10038] = true,
+					[12092] = true,
+					[141] = true,
+					[12116] = true,
+					[10078] = true,
+					[13179] = true,
+					[13195] = true,
+					[10134] = true,
+					[10142] = true,
+					[12212] = true,
+					[10174] = true,
+					[10190] = true,
+					[10206] = true,
+					[10222] = true,
+					[12292] = true,
+					[10254] = true,
+					[10262] = true,
+					[9279] = true,
+					[11349] = true,
+					[583] = true,
+					[10342] = true,
+					[3362] = true,
+					[9351] = true,
+					[24873] = true,
+					[10422] = true,
+					[10430] = true,
+					[9415] = true,
+					[9423] = true,
+					[10454] = true,
+					[12508] = true,
+					[50003] = true,
+					[11509] = true,
+					[10502] = true,
+					[148] = true,
+					[9503] = true,
+					[9519] = true,
+					[11573] = true,
+					[9543] = true,
+					[149] = true,
+					[11605] = true,
+					[11613] = true,
+					[8552] = true,
+					[10622] = true,
+					[11693] = true,
+					[10678] = true,
+					[37] = true,
+					[12740] = true,
+					[151] = true,
+					[11733] = true,
+					[50004] = true,
+					[11789] = true,
+					[11797] = true,
+					[10782] = true,
+					[9783] = true,
+					[9791] = true,
+					[9799] = true,
+					[153] = true,
+					[9815] = true,
+					[11869] = true,
+					[12900] = true,
+					[9839] = true,
+					[9855] = true,
+					[154] = true,
+					[12956] = true,
+					[12972] = true,
+					[38] = true,
+					[12996] = true,
+					[155] = true,
+					[11989] = true,
+					[9951] = true,
+					[9967] = true,
+					[9991] = true,
+					[9999] = true,
+					[10007] = true,
+					[10047] = true,
+					[10055] = true,
+					[157] = true,
+					[10079] = true,
+					[13156] = true,
+					[12141] = true,
+					[10111] = true,
+					[10119] = true,
+					[158] = true,
+					[10143] = true,
+					[9] = true,
+					[11190] = true,
+					[10183] = true,
+					[159] = true,
+					[10199] = true,
+					[10223] = true,
+					[10239] = true,
+					[10247] = true,
+					[10255] = true,
+					[10263] = true,
+					[9280] = true,
+					[10311] = true,
+					[10319] = true,
+					[323] = true,
+					[10335] = true,
+					[10343] = true,
+					[10351] = true,
+					[10367] = true,
+					[24875] = true,
+					[2605] = true,
+					[10423] = true,
+					[40] = true,
+					[9424] = true,
+					[10455] = true,
+					[9464] = true,
+					[164] = true,
+					[12565] = true,
+					[9504] = true,
+					[11566] = true,
+					[12597] = true,
+					[11582] = true,
+					[82] = true,
+					[10575] = true,
+					[663] = true,
+					[332] = true,
+					[11646] = true,
+					[166] = true,
+					[333] = true,
+					[11694] = true,
+					[20] = true,
+					[11710] = true,
+					[83] = true,
+					[10703] = true,
+					[9720] = true,
+					[9728] = true,
+					[10759] = true,
+					[9752] = true,
+					[12845] = true,
+					[12861] = true,
+					[84] = true,
+					[169] = true,
+					[10847] = true,
+					[11878] = true,
+					[10863] = true,
+					[9848] = true,
+					[9856] = true,
+					[11910] = true,
+					[10895] = true,
+					[10903] = true,
+					[24876] = true,
+					[9896] = true,
+					[11950] = true,
+					[9912] = true,
+					[12989] = true,
+					[12997] = true,
+					[9936] = true,
+					[11990] = true,
+					[11998] = true,
+					[12006] = true,
+					[9968] = true,
+					[12030] = true,
+					[13061] = true,
+					[12046] = true,
+					[12078] = true,
+					[12086] = true,
+					[86] = true,
+					[173] = true,
+					[12118] = true,
+					[2781] = true,
+					[12142] = true,
+					[10112] = true,
+					[12166] = true,
+					[12174] = true,
+					[10144] = true,
+					[10160] = true,
+					[12222] = true,
+					[10184] = true,
+					[10192] = true,
+					[12262] = true,
+					[10224] = true,
+					[11255] = true,
+					[10240] = true,
+					[12294] = true,
+					[24589] = true,
+					[10288] = true,
+					[10304] = true,
+					[10312] = true,
+					[10320] = true,
+					[8282] = true,
+					[10336] = true,
+					[156] = true,
+					[12302] = true,
+					[36] = true,
+					[10368] = true,
+					[10109] = true,
+					[10384] = true,
+					[24683] = true,
+					[10093] = true,
+					[9385] = true,
+					[10269] = true,
+					[10424] = true,
+					[9409] = true,
+					[89] = true,
+					[13667] = true,
+					[10456] = true,
+					[12510] = true,
+					[9449] = true,
+					[13051] = true,
+					[9465] = true,
+					[11519] = true,
+					[10504] = true,
+					[13197] = true,
+					[9776] = true,
+					[11981] = true,
+					[11559] = true,
+					[9521] = true,
+					[11575] = true,
+					[142] = true,
+					[10568] = true,
+					[9553] = true,
+					[24809] = true,
+					[1011] = true,
+					[11623] = true,
+					[12924] = true,
+					[9462] = true,
+					[10437] = true,
+					[10648] = true,
+					[11663] = true,
+					[11671] = true,
+					[11679] = true,
+					[10096] = true,
+					[5863] = true,
+					[2929] = true,
+					[45] = true,
+					[91] = true,
+					[11727] = true,
+					[11949] = true,
+					[9957] = true,
+					[24510] = true,
+					[10232] = true,
+					[12790] = true,
+					[251] = true,
+					[12915] = true,
+					[11791] = true,
+					[9817] = true,
+					[9917] = true,
+					[11871] = true,
+					[9777] = true,
+					[9785] = true,
+					[9793] = true,
+					[92] = true,
+					[185] = true,
+					[12886] = true,
+					[12894] = true,
+					[11879] = true,
+					[9901] = true,
+					[9849] = true,
+					[9857] = true,
+					[11911] = true,
+					[186] = true,
+					[373] = true,
+					[24878] = true,
+					[9897] = true,
+					[12974] = true,
+					[9913] = true,
+					[9921] = true,
+					[93] = true,
+					[187] = true,
+					[13418] = true,
+					[11988] = true,
+					[11932] = true,
+					[10001] = true,
+					[9977] = true,
+					[12031] = true,
+					[13062] = true,
+					[188] = true,
+					[377] = true,
+					[65] = true,
+					[13094] = true,
+					[10033] = true,
+					[10574] = true,
+					[334] = true,
+					[10057] = true,
+					[12862] = true,
+					[24583] = true,
+					[12846] = true,
+					[13158] = true,
+					[12143] = true,
+					[165] = true,
+					[10113] = true,
+					[12167] = true,
+					[13198] = true,
+					[12183] = true,
+					[124] = true,
+					[5] = true,
+					[11] = true,
+					[12215] = true,
+					[47] = true,
+					[10185] = true,
+					[191] = true,
+					[13294] = true,
+					[12255] = true,
+					[50014] = true,
+					[10225] = true,
+					[12279] = true,
+					[12004] = true,
+					[12295] = true,
+					[192] = true,
+					[10265] = true,
+					[26012] = true,
+					[10511] = true,
+					[9294] = true,
+					[10780] = true,
+					[24825] = true,
+					[6285] = true,
+					[10321] = true,
+					[387] = true,
+					[9314] = true,
+					[266] = true,
+					[12851] = true,
+					[24815] = true,
+					[10369] = true,
+					[24831] = true,
+					[194] = true,
+					[389] = true,
+					[12447] = true,
+					[11884] = true,
+					[10417] = true,
+					[12471] = true,
+					[10433] = true,
+					[12902] = true,
+					[9426] = true,
+					[10457] = true,
+					[12511] = true,
+					[9450] = true,
+					[11504] = true,
+					[11512] = true,
+					[9992] = true,
+					[11244] = true,
+					[9490] = true,
+					[12503] = true,
+					[9417] = true,
+					[11560] = true,
+					[197] = true,
+					[12599] = true,
+					[9538] = true,
+					[10569] = true,
+					[9554] = true,
+					[3161] = true,
+					[391] = true,
+					[11870] = true,
+					[9361] = true,
+					[12267] = true,
+					[11648] = true,
+					[10644] = true,
+					[190] = true,
+					[11672] = true,
+					[11680] = true,
+					[9542] = true,
+					[163] = true,
+					[12454] = true,
+					[12190] = true,
+					[10753] = true,
+					[11872] = true,
+					[399] = true,
+					[245] = true,
+					[10516] = true,
+					[9541] = true,
+					[9533] = true,
+					[9730] = true,
+					[11936] = true,
+					[11792] = true,
+					[401] = true,
+					[9517] = true,
+					[12967] = true,
+					[9778] = true,
+					[9786] = true,
+					[9914] = true,
+					[9802] = true,
+					[9810] = true,
+					[9818] = true,
+					[10849] = true,
+					[12562] = true,
+					[101] = true,
+					[9850] = true,
+					[9858] = true,
+					[11912] = true,
+					[11920] = true,
+					[9882] = true,
+					[24880] = true,
+					[11944] = true,
+					[12975] = true,
+					[12983] = true,
+					[9922] = true,
+					[14022] = true,
+					[9938] = true,
+					[265] = true,
+					[12000] = true,
+					[9962] = true,
+					[9970] = true,
+					[9978] = true,
+					[9986] = true,
+					[13063] = true,
+					[10002] = true,
+					[11903] = true,
+					[10484] = true,
+					[10026] = true,
+					[12080] = true,
+					[12088] = true,
+					[10050] = true,
+					[10058] = true,
+					[12112] = true,
+					[12120] = true,
+					[9453] = true,
+					[13159] = true,
+					[2876] = true,
+					[11182] = true,
+					[10444] = true,
+					[12168] = true,
+					[9421] = true,
+					[12184] = true,
+					[60] = true,
+					[10816] = true,
+					[12] = true,
+					[12216] = true,
+					[4581] = true,
+					[10186] = true,
+					[12235] = true,
+					[12079] = true,
+					[13196] = true,
+					[12264] = true,
+					[9373] = true,
+					[10234] = true,
+					[9805] = true,
+					[11273] = true,
+					[12109] = true,
+					[10266] = true,
+					[10334] = true,
+					[12045] = true,
+					[10290] = true,
+					[12044] = true,
+					[9283] = true,
+					[10314] = true,
+					[10510] = true,
+					[8284] = true,
+					[12055] = true,
+					[129] = true,
+					[10316] = true,
+					[120] = true,
+					[1690] = true,
+					[9355] = true,
+					[52] = true,
+					[9371] = true,
+					[9427] = true,
+					[12456] = true,
+					[10418] = true,
+					[10426] = true,
+					[10434] = true,
+					[1691] = true,
+					[11473] = true,
+					[160] = true,
+					[9467] = true,
+					[9451] = true,
+					[10482] = true,
+					[10490] = true,
+					[7810] = true,
+					[11984] = true,
+					[12016] = true,
+					[12987] = true,
+					[10878] = true,
+					[11561] = true,
+					[11569] = true,
+					[106] = true,
+					[10562] = true,
+					[1707] = true,
+					[9555] = true,
+					[10880] = true,
+					[11617] = true,
+					[11625] = true,
+					[11243] = true,
+					[102] = true,
+					[11982] = true,
+					[10634] = true,
+					[214] = true,
+					[11673] = true,
+					[11681] = true,
+					[11959] = true,
+					[11697] = true,
+					[12728] = true,
+					[10690] = true,
+					[107] = true,
+					[215] = true,
+					[10188] = true,
+					[24498] = true,
+					[12300] = true,
+					[11958] = true,
+					[14] = true,
+					[13036] = true,
+					[10440] = true,
+					[9747] = true,
+					[10778] = true,
+					[11316] = true,
+					[10132] = true,
+					[11927] = true,
+					[12856] = true,
+					[9552] = true,
+					[11918] = true,
+					[11901] = true,
+					[9819] = true,
+					[11897] = true,
+					[9835] = true,
+					[11889] = true,
+					[9851] = true,
+					[9859] = true,
+					[11913] = true,
+					[11902] = true,
+					[10770] = true,
+					[11793] = true,
+					[5545] = true,
+					[12976] = true,
+					[11961] = true,
+					[9923] = true,
+					[109] = true,
+					[11864] = true,
+					[11993] = true,
+					[9971] = true,
+					[12009] = true,
+					[13040] = true,
+					[9979] = true,
+					[11284] = true,
+					[13064] = true,
+					[11700] = true,
+					[10642] = true,
+					[14111] = true,
+					[9305] = true,
+					[10035] = true,
+					[11729] = true,
+					[12113] = true,
+					[12105] = true,
+					[221] = true,
+					[11701] = true,
+					[8287] = true,
+					[9972] = true,
+					[10099] = true,
+					[195] = true,
+					[10115] = true,
+					[12169] = true,
+					[222] = true,
+					[9956] = true,
+					[11986] = true,
+					[9940] = true,
+					[13] = true,
+					[12217] = true,
+					[12225] = true,
+					[111] = true,
+					[223] = true,
+					[10203] = true,
+					[24499] = true,
+					[12265] = true,
+					[10227] = true,
+					[10235] = true,
+					[10243] = true,
+					[11274] = true,
+					[10701] = true,
+					[10267] = true,
+					[11604] = true,
+					[11962] = true,
+					[11314] = true,
+					[10299] = true,
+					[8277] = true,
+					[112] = true,
+					[11346] = true,
+					[10331] = true,
+					[10339] = true,
+					[9900] = true,
+					[11455] = true,
+					[11599] = true,
+					[12507] = true,
+					[9356] = true,
+					[226] = true,
+					[453] = true,
+					[10403] = true,
+					[2606] = true,
+					[11601] = true,
+					[11457] = true,
+					[56] = true,
+					[9852] = true,
+					[11530] = true,
+					[12505] = true,
+					[26034] = true,
+					[9452] = true,
+					[10483] = true,
+					[10491] = true,
+					[3741] = true,
+					[12553] = true,
+					[9516] = true,
+					[114] = true,
+					[9508] = true,
+					[11562] = true,
+					[11570] = true,
+					[10555] = true,
+					[9540] = true,
+					[10571] = true,
+					[11458] = true,
+					[10587] = true,
+					[11565] = true,
+					[230] = true,
+					[9788] = true,
+					[10619] = true,
+					[5401] = true,
+					[10635] = true,
+					[10643] = true,
+					[10795] = true,
+					[11682] = true,
+					[11459] = true,
+					[11698] = true,
+					[11469] = true,
+					[57] = true,
+					[115] = true,
+					[11730] = true,
+					[10771] = true,
+					[24500] = true,
+					[9708] = true,
+					[9716] = true,
+					[11508] = true,
+					[11507] = true,
+					[24580] = true,
+					[11794] = true,
+					[11511] = true,
+					[12469] = true,
+					[12841] = true,
+					[9780] = true,
+					[12857] = true,
+					[11576] = true,
+					[9804] = true,
+					[11590] = true,
+					[11866] = true,
+					[11600] = true,
+					[12905] = true,
+					[9468] = true,
+					[12921] = true,
+					[10435] = true,
+					[11914] = true,
+					[11434] = true,
+					[9372] = true,
+					[11938] = true,
+					[12969] = true,
+					[8285] = true,
+					[12985] = true,
+					[58] = true,
+					[13001] = true,
+					[13009] = true,
+					[13288] = true,
+					[12002] = true,
+					[12010] = true,
+					[13041] = true,
+					[11645] = true,
+					[13057] = true,
+					[9996] = true,
+					[236] = true,
+					[10012] = true,
+					[11564] = true,
+					[10028] = true,
+					[2768] = true,
+					[12017] = true,
+					[35] = true,
+					[118] = true,
+					[12114] = true,
+					[11865] = true,
+					[13153] = true,
+					[11904] = true,
+					[11456] = true,
+					[13177] = true,
+					[10116] = true,
+					[11900] = true,
+					[11155] = true,
+					[10140] = true,
+					[11358] = true,
+					[11965] = true,
+					[12210] = true,
+					[12859] = true,
+					[12226] = true,
+					[119] = true,
+					[239] = true,
+					[10896] = true,
+					[12258] = true,
+					[12266] = true,
+					[95] = true,
+					[9539] = true,
+					[12013] = true,
+					[24581] = true,
+					[240] = true,
+					[10268] = true,
+					[13345] = true,
+					[22] = true,
+					[11315] = true,
+					[10300] = true,
+					[8262] = true,
+					[9293] = true,
+					[8278] = true,
+					[11355] = true,
+					[6181] = true,
+					[10348] = true,
+					[12028] = true,
+					[11313] = true,
+					[9349] = true,
+					[12223] = true,
+					[11892] = true,
+					[24869] = true,
+					[12227] = true,
+					[12458] = true,
+					[11443] = true,
+					[11928] = true,
+					[10436] = true,
+					[121] = true,
+					[12293] = true,
+					[12299] = true,
+					[12514] = true,
+					[10476] = true,
+					[9461] = true,
+					[12307] = true,
+					[9994] = true,
+					[13039] = true,
+					[244] = true,
+					[9501] = true,
+					[9509] = true,
+					[11563] = true,
+					[11571] = true,
+					[10556] = true,
+					[11587] = true,
+					[122] = true,
+					[11603] = true,
+					[10777] = true,
+					[11619] = true,
+					[7863] = true,
+					[262] = true,
+					[8283] = true,
+					[10628] = true,
+					[10636] = true,
+					[246] = true,
+					[24830] = true,
+					[10159] = true,
+					[132] = true,
+					[11699] = true,
+					[11707] = true,
+					[61] = true,
+					[12820] = true,
+					[196] = true,
+					[24590] = true,
+					[12770] = true,
+					[9709] = true,
+					[992] = true,
+					[19] = true,
+					[13181] = true,
+					[12966] = true,
+					[12818] = true,
+					[12826] = true,
+					[9920] = true,
+					[10796] = true,
+					[9781] = true,
+					[9789] = true,
+					[10302] = true,
+					[24710] = true,
+					[10161] = true,
+					[9821] = true,
+					[12884] = true,
+					[12906] = true,
+					[9800] = true,
+					[12922] = true,
+					[12901] = true,
+					[9869] = true,
+					[337] = true,
+					[12908] = true,
+					[10916] = true,
+					[12970] = true,
+					[46] = true,
+					[11963] = true,
+					[9925] = true,
+					[125] = true,
+					[13010] = true,
+					[11995] = true,
+					[12003] = true,
+					[12011] = true,
+					[9973] = true,
+					[13050] = true,
+					[12035] = true,
+					[12043] = true,
+					[252] = true,
+					[34] = true,
+					[12067] = true,
+					[3022] = true,
+					[11292] = true,
+					[24874] = true,
+					[9399] = true,
+					[126] = true,
+					[253] = true,
+					[14409] = true,
+					[13154] = true,
+					[13162] = true,
+					[11510] = true,
+					[3042] = true,
+					[24871] = true,
+					[12171] = true,
+					[85] = true,
 				},
 				["QuestLinks"] = {
 					nil, -- [1]
-					"|cffffff00|Hquest:12678:55|h[Cuando llegue el caos, deja que el sufrimiento tome las riendas]|h|r", -- [2]
-					"|cffffff00|Hquest:12733:55|h[Desafío de la Muerte]|h|r", -- [3]
-					"|cffffff00|Hquest:12680:55|h[El gran robo de Palomino]|h|r", -- [4]
-					"|cffffff00|Hquest:12679:55|h[Esta noche cenamos en Villa Refugio]|h|r", -- [5]
+					"|cff808080|Hquest:8115:60|h[Control Five Bases]|h|r", -- [2]
+					"|cff808080|Hquest:8114:60|h[Control Four Bases]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffff00|Hquest:50021:80|h[Una amenaza latente]|h|r", -- [5]
+					nil, -- [6]
+					"|cffffff00|Hquest:13244:80|h[Timear Foresees Titanium Vanguards in your Future!]|h|r", -- [7]
+					nil, -- [8]
+					"|cffffff00|Hquest:13207:78|h[Halls of Stone]|h|r", -- [9]
+					nil, -- [10]
+					"|cffffff00|Hquest:24879:80|h[Blood Quickening]|h|r", -- [11]
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [12]
+					"|cffffff00|Hquest:24873:80|h[Residue Rendezvous]|h|r", -- [13]
+					"|cffffff00|Hquest:24876:80|h[Securing the Ramparts]|h|r", -- [14]
+					nil, -- [15]
+					"|cff808080|Hquest:7848:60|h[Attunement to the Core]|h|r", -- [16]
+					nil, -- [17]
+					"|cffffff00|Hquest:14064:-1|h[Sharing a Bountiful Feast]|h|r", -- [18]
+					"|cffffff00|Hquest:14055:-1|h[She Says Potato]|h|r", -- [19]
+					"|cffffff00|Hquest:14023:-1|h[Spice Bread Stuffing]|h|r", -- [20]
+					"|cffffff00|Hquest:14053:-1|h[We're Out of Cranberry Chutney Again?]|h|r", -- [21]
+					nil, -- [22]
+					"|cff808080|Hquest:392:29|h[The Curious Visitor]|h|r", -- [23]
+					nil, -- [24]
+					"|cffffff00|Hquest:12930:80|h[Rare Earth]|h|r", -- [25]
+					nil, -- [26]
+					"|cffffff00|Hquest:13828:80|h[Mastery Of Melee]|h|r", -- [27]
+					"|cffffff00|Hquest:13837:80|h[Mastery Of The Charge]|h|r", -- [28]
+					"|cffffff00|Hquest:13835:80|h[Mastery Of The Shield-Breaker]|h|r", -- [29]
+					"|cffffff00|Hquest:13633:80|h[The Black Knight of Westfall?]|h|r", -- [30]
+					[33] = "|cffffff00|Hquest:13538:80|h[Southern Sabotage]|h|r",
+					[32] = "|cffffff00|Hquest:13177:80|h[No Mercy for the Merciless]|h|r",
+					[34] = "|cffffff00|Hquest:13186:80|h[Stop the Siege]|h|r",
+					[35] = "|cffffff00|Hquest:13181:80|h[Victory in Wintergrasp]|h|r",
 				},
-				["lastUpdate"] = 1527836957,
 				["Rewards"] = {
-					[2] = "r|38671|1|1",
-					[5] = "c|39320|1|1,c|38664|1|1,c|39322|1|1",
-					[3] = "r|40483|1|1",
+					[12] = "r|49426|5|1,r|47241|5|1",
+					[34] = "r|43228|10|1",
+					[13] = "r|52006|1|1",
+					[14] = "r|52006|1|1",
+					[7] = "c|43950|1|1,c|44711|1|1,c|44713|1|1,c|44710|1|1,c|49702|1|1,r|47241|3|1",
+					[32] = "r|43228|10|1",
+					[5] = "r|49426|10|1,r|47241|10|1,r|299985|1|1",
+					[33] = "r|43228|10|1",
+					[35] = "r|43228|10|1",
+					[19] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
+					[2] = "r|20132|1|1",
+					[21] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
+					[11] = "r|52006|1|1",
+					[9] = "c|44370|1|1,c|44371|1|1,c|44372|1|1,c|44373|1|0",
 				},
+				["HistoryBuild"] = "12340",
+				["HistorySize"] = 874,
 				["Quests"] = {
-					"0|Caballero de la Muerte", -- [1]
-					"1||0|8500|0", -- [2]
-					"1||0|25000|0", -- [3]
-					"1||0|8500|0", -- [4]
-					"1||0|8500|0", -- [5]
+					"0|Arathi Basin", -- [1]
+					"1|PvP|0|27000|1", -- [2]
+					"1|PvP|0|27000|1", -- [3]
+					"0|Dalaran", -- [4]
+					"1|Raid|0|1500000|0", -- [5]
+					"0|Halls of Lightning", -- [6]
+					"1|Dungeon|0|198600|0", -- [7]
+					"0|Halls of Stone", -- [8]
+					"1|Dungeon|0|272000|0", -- [9]
+					"0|Icecrown Citadel", -- [10]
+					"1|Raid (25)|0|296000|0", -- [11]
+					"1|Raid|0|296000|0", -- [12]
+					"1|Raid (10)|0|296000|0", -- [13]
+					"1|Raid (25)|0|296000|0", -- [14]
+					"0|Molten Core", -- [15]
+					"1|Dungeon|0|5700|0", -- [16]
+					"0|Pilgrim's Bounty", -- [17]
+					"1||0|66300|0", -- [18]
+					"1||0|99300|0", -- [19]
+					"1||0|66300|0", -- [20]
+					"1||0|66300|0", -- [21]
+					"0|Stormwind City", -- [22]
+					"1||0|360|1", -- [23]
+					"0|The Storm Peaks", -- [24]
+					"1||0|132300|0", -- [25]
+					"0|Tournament", -- [26]
+					"1||0|66300|0", -- [27]
+					"1||0|66300|0", -- [28]
+					"1||0|66300|0", -- [29]
+					"1||0|132300|0", -- [30]
+					"0|Wintergrasp", -- [31]
+					"1|PvP|0|132300|0", -- [32]
+					"1|PvP|0|132300|0", -- [33]
+					"1|PvP|0|132300|0", -- [34]
+					"1|PvP|0|132300|0", -- [35]
 				},
+				["lastUpdate"] = 1630729940,
 			},
-			["Default.WoWArg.Buyvip"] = {
-				["lastUpdate"] = 1527117378,
-			},
-			["Default.WoWArg.Meparto"] = {
-				["History"] = {
-					[12593] = true,
-					[12619] = true,
-					[12842] = true,
-					[12848] = true,
-				},
-				["QuestLinks"] = {
-					[2] = "|cffffff00|Hquest:12636:55|h[El ojo de Acherus]|h|r",
-				},
-				["lastUpdate"] = 1527835149,
-				["Quests"] = {
-					"0|Caballero de la Muerte", -- [1]
-					"1||0|0|0", -- [2]
-				},
+			["Default.WoWArg.Perruco"] = {
+				["lastUpdate"] = 1597360602,
 			},
 			["Default.WoWArg.Elchamaquito"] = {
-				["HistoryLastUpdate"] = 1614970644,
+				["HistoryLastUpdate"] = 1618718105,
 				["History"] = {
 					[10141] = true,
 					[2040] = true,
@@ -517,7 +1438,7 @@ DataStore_QuestsDB = {
 					[11792] = true,
 					[401] = true,
 					[10753] = true,
-					[12959] = true,
+					[11936] = true,
 					[9778] = true,
 					[9786] = true,
 					[9914] = true,
@@ -532,7 +1453,7 @@ DataStore_QuestsDB = {
 					[11912] = true,
 					[11920] = true,
 					[9882] = true,
-					[11936] = true,
+					[24880] = true,
 					[12967] = true,
 					[12975] = true,
 					[12983] = true,
@@ -864,7 +1785,7 @@ DataStore_QuestsDB = {
 					[10476] = true,
 					[11507] = true,
 					[12016] = true,
-					[24880] = true,
+					[12959] = true,
 					[10701] = true,
 					[12562] = true,
 					[9501] = true,
@@ -960,44 +1881,45 @@ DataStore_QuestsDB = {
 					"|cffffff00|Hquest:13207:78|h[Halls of Stone]|h|r", -- [9]
 					nil, -- [10]
 					"|cffffff00|Hquest:24879:80|h[Blood Quickening]|h|r", -- [11]
-					"|cffffff00|Hquest:24873:80|h[Residue Rendezvous]|h|r", -- [12]
-					"|cffffff00|Hquest:24876:80|h[Securing the Ramparts]|h|r", -- [13]
-					nil, -- [14]
-					"|cff808080|Hquest:7848:60|h[Attunement to the Core]|h|r", -- [15]
-					nil, -- [16]
-					"|cffffff00|Hquest:14064:-1|h[Sharing a Bountiful Feast]|h|r", -- [17]
-					"|cffffff00|Hquest:14055:-1|h[She Says Potato]|h|r", -- [18]
-					"|cffffff00|Hquest:14023:-1|h[Spice Bread Stuffing]|h|r", -- [19]
-					"|cffffff00|Hquest:14053:-1|h[We're Out of Cranberry Chutney Again?]|h|r", -- [20]
-					nil, -- [21]
-					"|cff808080|Hquest:392:29|h[The Curious Visitor]|h|r", -- [22]
-					nil, -- [23]
-					"|cffffff00|Hquest:12930:80|h[Rare Earth]|h|r", -- [24]
-					nil, -- [25]
-					"|cffffff00|Hquest:13828:80|h[Mastery Of Melee]|h|r", -- [26]
-					"|cffffff00|Hquest:13837:80|h[Mastery Of The Charge]|h|r", -- [27]
-					"|cffffff00|Hquest:13835:80|h[Mastery Of The Shield-Breaker]|h|r", -- [28]
-					"|cffffff00|Hquest:13633:80|h[The Black Knight of Westfall?]|h|r", -- [29]
-					nil, -- [30]
-					"|cffffff00|Hquest:13177:80|h[No Mercy for the Merciless]|h|r", -- [31]
-					"|cffffff00|Hquest:13538:80|h[Southern Sabotage]|h|r", -- [32]
-					"|cffffff00|Hquest:13186:80|h[Stop the Siege]|h|r", -- [33]
-					"|cffffff00|Hquest:13181:80|h[Victory in Wintergrasp]|h|r", -- [34]
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [12]
+					"|cffffff00|Hquest:24873:80|h[Residue Rendezvous]|h|r", -- [13]
+					"|cffffff00|Hquest:24876:80|h[Securing the Ramparts]|h|r", -- [14]
+					nil, -- [15]
+					"|cff808080|Hquest:7848:60|h[Attunement to the Core]|h|r", -- [16]
+					nil, -- [17]
+					"|cffffff00|Hquest:14064:-1|h[Sharing a Bountiful Feast]|h|r", -- [18]
+					"|cffffff00|Hquest:14055:-1|h[She Says Potato]|h|r", -- [19]
+					"|cffffff00|Hquest:14023:-1|h[Spice Bread Stuffing]|h|r", -- [20]
+					"|cffffff00|Hquest:14053:-1|h[We're Out of Cranberry Chutney Again?]|h|r", -- [21]
+					nil, -- [22]
+					"|cff808080|Hquest:392:29|h[The Curious Visitor]|h|r", -- [23]
+					nil, -- [24]
+					"|cffffff00|Hquest:12930:80|h[Rare Earth]|h|r", -- [25]
+					nil, -- [26]
+					"|cffffff00|Hquest:13828:80|h[Mastery Of Melee]|h|r", -- [27]
+					"|cffffff00|Hquest:13837:80|h[Mastery Of The Charge]|h|r", -- [28]
+					"|cffffff00|Hquest:13835:80|h[Mastery Of The Shield-Breaker]|h|r", -- [29]
+					"|cffffff00|Hquest:13633:80|h[The Black Knight of Westfall?]|h|r", -- [30]
+					[33] = "|cffffff00|Hquest:13538:80|h[Southern Sabotage]|h|r",
+					[32] = "|cffffff00|Hquest:13177:80|h[No Mercy for the Merciless]|h|r",
+					[34] = "|cffffff00|Hquest:13186:80|h[Stop the Siege]|h|r",
+					[35] = "|cffffff00|Hquest:13181:80|h[Victory in Wintergrasp]|h|r",
 				},
 				["Rewards"] = {
-					[32] = "r|43228|10|1",
+					[12] = "r|49426|5|1,r|47241|5|1",
 					[34] = "r|43228|10|1",
 					[13] = "r|52006|1|1",
+					[14] = "r|52006|1|1",
 					[7] = "c|43950|1|1,c|44711|1|1,c|44713|1|1,c|44710|1|1,c|49702|1|1,r|47241|3|1",
-					[12] = "r|52006|1|1",
-					[31] = "r|43228|10|1",
+					[35] = "r|43228|10|1",
+					[21] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
 					[33] = "r|43228|10|1",
 					[9] = "c|44370|1|1,c|44371|1|1,c|44372|1|1,c|44373|1|0",
+					[19] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
 					[2] = "r|20132|1|1",
-					[20] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
 					[5] = "r|49426|10|1,r|47241|10|1,r|299985|1|1",
 					[11] = "r|52006|1|1",
-					[18] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
+					[32] = "r|43228|10|1",
 				},
 				["HistoryBuild"] = "12340",
 				["HistorySize"] = 874,
@@ -1013,31 +1935,173 @@ DataStore_QuestsDB = {
 					"1|Dungeon|0|272000|0", -- [9]
 					"0|Icecrown Citadel", -- [10]
 					"1|Raid (25)|0|296000|0", -- [11]
-					"1|Raid (10)|0|296000|0", -- [12]
-					"1|Raid (25)|0|296000|0", -- [13]
-					"0|Molten Core", -- [14]
-					"1|Dungeon|0|5700|0", -- [15]
-					"0|Pilgrim's Bounty", -- [16]
-					"1||0|66300|0", -- [17]
-					"1||0|99300|0", -- [18]
-					"1||0|66300|0", -- [19]
+					"1|Raid|0|296000|0", -- [12]
+					"1|Raid (10)|0|296000|0", -- [13]
+					"1|Raid (25)|0|296000|0", -- [14]
+					"0|Molten Core", -- [15]
+					"1|Dungeon|0|5700|0", -- [16]
+					"0|Pilgrim's Bounty", -- [17]
+					"1||0|66300|0", -- [18]
+					"1||0|99300|0", -- [19]
 					"1||0|66300|0", -- [20]
-					"0|Stormwind City", -- [21]
-					"1||0|360|1", -- [22]
-					"0|The Storm Peaks", -- [23]
-					"1||0|132300|0", -- [24]
-					"0|Tournament", -- [25]
-					"1||0|66300|0", -- [26]
+					"1||0|66300|0", -- [21]
+					"0|Stormwind City", -- [22]
+					"1||0|360|1", -- [23]
+					"0|The Storm Peaks", -- [24]
+					"1||0|132300|0", -- [25]
+					"0|Tournament", -- [26]
 					"1||0|66300|0", -- [27]
 					"1||0|66300|0", -- [28]
-					"1||0|132300|0", -- [29]
-					"0|Wintergrasp", -- [30]
-					"1|PvP|0|132300|0", -- [31]
+					"1||0|66300|0", -- [29]
+					"1||0|132300|0", -- [30]
+					"0|Wintergrasp", -- [31]
 					"1|PvP|0|132300|0", -- [32]
 					"1|PvP|0|132300|0", -- [33]
 					"1|PvP|0|132300|0", -- [34]
+					"1|PvP|0|132300|0", -- [35]
 				},
-				["lastUpdate"] = 1614970640,
+				["lastUpdate"] = 1618718101,
+			},
+			["Default.WoWArg.Rochallor"] = {
+				["History"] = {
+					[12641] = true,
+					[12848] = true,
+					[12842] = true,
+					[12619] = true,
+					[12636] = true,
+					[12593] = true,
+					[12670] = true,
+					[12657] = true,
+					[12850] = true,
+				},
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cffffff00|Hquest:12678:55|h[Cuando llegue el caos, deja que el sufrimiento tome las riendas]|h|r", -- [2]
+					"|cffffff00|Hquest:12733:55|h[Desafío de la Muerte]|h|r", -- [3]
+					"|cffffff00|Hquest:12680:55|h[El gran robo de Palomino]|h|r", -- [4]
+					"|cffffff00|Hquest:12679:55|h[Esta noche cenamos en Villa Refugio]|h|r", -- [5]
+				},
+				["lastUpdate"] = 1527836957,
+				["Rewards"] = {
+					[2] = "r|38671|1|1",
+					[5] = "c|39320|1|1,c|38664|1|1,c|39322|1|1",
+					[3] = "r|40483|1|1",
+				},
+				["Quests"] = {
+					"0|Caballero de la Muerte", -- [1]
+					"1||0|8500|0", -- [2]
+					"1||0|25000|0", -- [3]
+					"1||0|8500|0", -- [4]
+					"1||0|8500|0", -- [5]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Elchamaquito"] = {
+				["QuestLinks"] = {
+					nil, -- [1]
+					"|cff808080|Hquest:8115:60|h[Control Five Bases]|h|r", -- [2]
+					"|cff808080|Hquest:8114:60|h[Control Four Bases]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffff00|Hquest:50021:80|h[Una amenaza latente]|h|r", -- [5]
+					nil, -- [6]
+					"|cffffff00|Hquest:13244:80|h[Timear Foresees Titanium Vanguards in your Future!]|h|r", -- [7]
+					nil, -- [8]
+					"|cffffff00|Hquest:13207:78|h[Halls of Stone]|h|r", -- [9]
+					nil, -- [10]
+					"|cffffff00|Hquest:24879:80|h[Blood Quickening]|h|r", -- [11]
+					"|cffffff00|Hquest:24590:80|h[Lord Marrowgar Must Die!]|h|r", -- [12]
+					"|cffffff00|Hquest:24873:80|h[Residue Rendezvous]|h|r", -- [13]
+					"|cffffff00|Hquest:24876:80|h[Securing the Ramparts]|h|r", -- [14]
+					nil, -- [15]
+					"|cff808080|Hquest:7848:60|h[Attunement to the Core]|h|r", -- [16]
+					nil, -- [17]
+					"|cffffff00|Hquest:14064:-1|h[Sharing a Bountiful Feast]|h|r", -- [18]
+					"|cffffff00|Hquest:14055:-1|h[She Says Potato]|h|r", -- [19]
+					"|cffffff00|Hquest:14023:-1|h[Spice Bread Stuffing]|h|r", -- [20]
+					"|cffffff00|Hquest:14053:-1|h[We're Out of Cranberry Chutney Again?]|h|r", -- [21]
+					nil, -- [22]
+					"|cff808080|Hquest:392:29|h[The Curious Visitor]|h|r", -- [23]
+					nil, -- [24]
+					"|cffffff00|Hquest:12930:80|h[Rare Earth]|h|r", -- [25]
+					nil, -- [26]
+					"|cffffff00|Hquest:13828:80|h[Mastery Of Melee]|h|r", -- [27]
+					"|cffffff00|Hquest:13837:80|h[Mastery Of The Charge]|h|r", -- [28]
+					"|cffffff00|Hquest:13835:80|h[Mastery Of The Shield-Breaker]|h|r", -- [29]
+					"|cffffff00|Hquest:13633:80|h[The Black Knight of Westfall?]|h|r", -- [30]
+					[33] = "|cffffff00|Hquest:13538:80|h[Southern Sabotage]|h|r",
+					[32] = "|cffffff00|Hquest:13177:80|h[No Mercy for the Merciless]|h|r",
+					[34] = "|cffffff00|Hquest:13186:80|h[Stop the Siege]|h|r",
+					[35] = "|cffffff00|Hquest:13181:80|h[Victory in Wintergrasp]|h|r",
+				},
+				["lastUpdate"] = 1619112007,
+				["Rewards"] = {
+					[12] = "r|49426|5|1,r|47241|5|1",
+					[34] = "r|43228|10|1",
+					[13] = "r|52006|1|1",
+					[14] = "r|52006|1|1",
+					[7] = "c|43950|1|1,c|44711|1|1,c|44713|1|1,c|44710|1|1,c|49702|1|1,r|47241|3|1",
+					[32] = "r|43228|10|1",
+					[5] = "r|49426|10|1,r|47241|10|1,r|299985|1|1",
+					[33] = "r|43228|10|1",
+					[35] = "r|43228|10|1",
+					[19] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
+					[2] = "r|20132|1|1",
+					[21] = "c|46723|1|1,c|46800|1|1,c|44785|1|1,c|46824|1|1,c|44788|1|1,c|44812|1|1",
+					[11] = "r|52006|1|1",
+					[9] = "c|44370|1|1,c|44371|1|1,c|44372|1|1,c|44373|1|0",
+				},
+				["Quests"] = {
+					"0|Arathi Basin", -- [1]
+					"1|PvP|0|27000|1", -- [2]
+					"1|PvP|0|27000|1", -- [3]
+					"0|Dalaran", -- [4]
+					"1|Raid|0|1500000|0", -- [5]
+					"0|Halls of Lightning", -- [6]
+					"1|Dungeon|0|198600|0", -- [7]
+					"0|Halls of Stone", -- [8]
+					"1|Dungeon|0|272000|0", -- [9]
+					"0|Icecrown Citadel", -- [10]
+					"1|Raid (25)|0|296000|0", -- [11]
+					"1|Raid|0|296000|0", -- [12]
+					"1|Raid (10)|0|296000|0", -- [13]
+					"1|Raid (25)|0|296000|0", -- [14]
+					"0|Molten Core", -- [15]
+					"1|Dungeon|0|5700|0", -- [16]
+					"0|Pilgrim's Bounty", -- [17]
+					"1||0|66300|0", -- [18]
+					"1||0|99300|0", -- [19]
+					"1||0|66300|0", -- [20]
+					"1||0|66300|0", -- [21]
+					"0|Stormwind City", -- [22]
+					"1||0|360|1", -- [23]
+					"0|The Storm Peaks", -- [24]
+					"1||0|132300|0", -- [25]
+					"0|Tournament", -- [26]
+					"1||0|66300|0", -- [27]
+					"1||0|66300|0", -- [28]
+					"1||0|66300|0", -- [29]
+					"1||0|132300|0", -- [30]
+					"0|Wintergrasp", -- [31]
+					"1|PvP|0|132300|0", -- [32]
+					"1|PvP|0|132300|0", -- [33]
+					"1|PvP|0|132300|0", -- [34]
+					"1|PvP|0|132300|0", -- [35]
+				},
+			},
+			["Default.WoWArg.Meparto"] = {
+				["History"] = {
+					[12593] = true,
+					[12619] = true,
+					[12842] = true,
+					[12848] = true,
+				},
+				["QuestLinks"] = {
+					[2] = "|cffffff00|Hquest:12636:55|h[El ojo de Acherus]|h|r",
+				},
+				["lastUpdate"] = 1527835149,
+				["Quests"] = {
+					"0|Caballero de la Muerte", -- [1]
+					"1||0|0|0", -- [2]
+				},
 			},
 			["Default.WoWArg.Trank"] = {
 				["QuestLinks"] = {
@@ -1058,6 +2122,9 @@ DataStore_QuestsDB = {
 					"1||0|0|0", -- [4]
 					"1||0|0|0", -- [5]
 				},
+			},
+			["Default.WoWArg.Buyvip"] = {
+				["lastUpdate"] = 1527117378,
 			},
 		},
 	},

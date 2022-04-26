@@ -1,0 +1,40 @@
+MACRO 16777218 "affliction" INV_Misc_QuestionMark
+#showtooltip Unstable Affliction(Rank 5)
+/cast Unstable Affliction(Rank 5)
+/petattack
+END
+MACRO 16777220 "corrupcion MO" INV_Misc_QuestionMark
+#showtooltip Corruption
+/cast [target=mouseover] Corruption
+END
+MACRO 16777222 "corte" INV_Misc_QuestionMark
+#showtooltip Spell lock
+/cast Spell lock
+END
+MACRO 16777226 "demonic" INV_Misc_QuestionMark
+#showtooltip Soul Fire(Rank 6)
+/cast [@pettarget,exists]Demonic Empowerment
+/cast Soul Fire(Rank 6)
+END
+MACRO 16777225 "demonic" INV_Misc_QuestionMark
+#showtooltip 
+/cast [@pettarget,exists]Demonic Empowerment
+/cast Shadow Bolt(Rank 13)
+END
+MACRO 16777219 "haunt" INV_Misc_QuestionMark
+#showtooltip Haunt(Rank 4)
+/cast Haunt(Rank 4)
+/petattack
+END
+MACRO 16777217 "inmo+pet" INV_Misc_QuestionMark
+#showtooltip Immolate(Rank 11)
+/cast Immolate(Rank 11)
+/petattack
+END
+MACRO 16777224 "pet atack" INV_Misc_QuestionMark
+/petattack
+END
+MACRO 16777221 "seduction" INV_Misc_QuestionMark
+#showtooltip Seduction
+/cast Seduction
+END

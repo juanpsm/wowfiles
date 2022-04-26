@@ -1,10 +1,10 @@
 
 Postal3DB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["profiles"] = {
-		["Lossena - Sin'Dorei"] = {
+		["Lossana - WoWArg"] = {
 		},
 	},
 }

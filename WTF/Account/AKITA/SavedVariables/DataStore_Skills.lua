@@ -3,8 +3,10 @@ DataStore_SkillsDB = {
 	["profileKeys"] = {
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Kraftwork - WoWArg"] = "Kraftwork - WoWArg",
-		["Demetriuz - WoWArg"] = "Demetriuz - WoWArg",
 		["Guthrakk - WoWArg"] = "Guthrakk - WoWArg",
+		["Guthrakk - Sin'dorei(WoWArg)"] = "Guthrakk - Sin'dorei(WoWArg)",
+		["Guthrakk - Sin'Dorei"] = "Guthrakk - Sin'Dorei",
+		["Demetriuz - WoWArg"] = "Demetriuz - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
@@ -40,69 +42,33 @@ DataStore_SkillsDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Guthrakk"] = {
-				["lastUpdate"] = 1568495884,
-				["Skills"] = {
-					["Profesiones"] = {
-						["Herboristería"] = "450|450",
-						["Alquimia"] = "183|225",
-					},
-					["Habilidades con armas"] = {
-						["Hachas de dos manos"] = "1|400",
-						["Hachas"] = "1|400",
-						["Sin armas"] = "400|400",
-						["Bastones"] = "51|400",
-						["Defensa"] = "400|400",
-						["Mazas"] = "400|400",
-						["Dagas"] = "400|400",
-					},
-					["Idiomas"] = {
-						["Idioma: orco"] = "300|300",
-					},
-					["Armaduras disponibles"] = {
-						["Malla"] = "1|1",
-						["Cuero"] = "1|1",
-						["Tela"] = "1|1",
-						["Escudo"] = "1|1",
-					},
-					["Habilidades de clase"] = {
-						["Combate elemental"] = "1|1",
-						["Restauración"] = "1|1",
-						["Mejora"] = "1|1",
-					},
-					["Habilidades secundarias"] = {
-						["Equitación"] = "225|225",
-						["Primeros auxilios"] = "1|75",
-					},
-				},
-			},
 			["Default.WoWArg.Demetriuz"] = {
-				["lastUpdate"] = 1545102714,
+				["lastUpdate"] = 1611191089,
 				["Skills"] = {
-					["Profesiones"] = {
-						["Encantamiento"] = "1|75",
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
 					},
-					["Habilidades con armas"] = {
-						["Sin armas"] = "1|65",
-						["Bastones"] = "9|65",
-						["Defensa"] = "65|65",
-						["Varitas"] = "1|65",
-						["Dagas"] = "1|65",
+					["Class Skills"] = {
+						["Demonology"] = "1|1",
+						["Affliction"] = "1|1",
+						["Destruction"] = "1|1",
 					},
-					["Idiomas"] = {
-						["Idioma: viscerálico"] = "300|300",
-						["Idioma: orco"] = "300|300",
+					["Professions"] = {
+						["Enchanting"] = "1|75",
 					},
-					["Armaduras disponibles"] = {
-						["Tela"] = "1|1",
+					["Languages"] = {
+						["Language: Gutterspeak"] = "300|300",
+						["Language: Orcish"] = "300|300",
 					},
-					["Habilidades de clase"] = {
-						["Aflicción"] = "1|1",
-						["Demonología"] = "1|1",
-						["Destrucción"] = "1|1",
+					["Secondary Skills"] = {
+						["First Aid"] = "66|150",
 					},
-					["Habilidades secundarias"] = {
-						["Primeros auxilios"] = "66|150",
+					["Weapon Skills"] = {
+						["Staves"] = "9|65",
+						["Unarmed"] = "1|65",
+						["Daggers"] = "1|65",
+						["Defense"] = "65|65",
+						["Wands"] = "1|65",
 					},
 				},
 			},
@@ -136,6 +102,114 @@ DataStore_SkillsDB = {
 						["Cuero"] = "1|1",
 						["Malla de placas"] = "1|1",
 						["Tela"] = "1|1",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Guthrakk"] = {
+				["lastUpdate"] = 1618883192,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["First Aid"] = "1|75",
+						["Riding"] = "225|225",
+					},
+					["Class Skills"] = {
+						["Enhancement"] = "1|1",
+						["Elemental Combat"] = "1|1",
+						["Restoration"] = "1|1",
+					},
+					["Professions"] = {
+						["Alchemy"] = "183|225",
+						["Herbalism"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Shield"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Staves"] = "51|400",
+						["Unarmed"] = "400|400",
+						["Maces"] = "400|400",
+						["Axes"] = "1|400",
+						["Daggers"] = "400|400",
+						["Two-Handed Axes"] = "1|400",
+					},
+				},
+			},
+			["Default.WoWArg.Guthrakk"] = {
+				["lastUpdate"] = 1615832372,
+				["Skills"] = {
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Shield"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Class Skills"] = {
+						["Enhancement"] = "1|1",
+						["Elemental Combat"] = "1|1",
+						["Restoration"] = "1|1",
+					},
+					["Professions"] = {
+						["Alchemy"] = "183|225",
+						["Herbalism"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+					},
+					["Secondary Skills"] = {
+						["First Aid"] = "1|75",
+						["Riding"] = "225|225",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Staves"] = "51|400",
+						["Unarmed"] = "400|400",
+						["Daggers"] = "400|400",
+						["Maces"] = "400|400",
+						["Axes"] = "1|400",
+						["Two-Handed Axes"] = "1|400",
+					},
+				},
+			},
+			["Default.Sin'Dorei.Guthrakk"] = {
+				["lastUpdate"] = 1619482698,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["First Aid"] = "1|75",
+						["Riding"] = "225|225",
+					},
+					["Class Skills"] = {
+						["Enhancement"] = "1|1",
+						["Elemental Combat"] = "1|1",
+						["Restoration"] = "1|1",
+					},
+					["Professions"] = {
+						["Alchemy"] = "183|225",
+						["Herbalism"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Orcish"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Shield"] = "1|1",
+						["Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Axes"] = "1|400",
+						["Unarmed"] = "400|400",
+						["Staves"] = "51|400",
+						["Daggers"] = "400|400",
+						["Maces"] = "400|400",
+						["Two-Handed Axes"] = "1|400",
 					},
 				},
 			},

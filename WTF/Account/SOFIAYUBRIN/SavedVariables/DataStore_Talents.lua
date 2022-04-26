@@ -22,40 +22,16 @@ DataStore_TalentsDB = {
 					"1|1|54831|Interface\\Spellbook\\UI-Glyph-Rune-17|177", -- [12]
 				},
 				["ActiveTalents"] = 1,
-				["lastUpdate"] = 1570170031,
+				["lastUpdate"] = 1589604468,
 				["Class"] = "DRUID",
 				["TalentTrees"] = {
-					["Equilibrio|2"] = {
-						5, -- [1]
-						1, -- [2]
-						nil, -- [3]
-						2, -- [4]
-						2, -- [5]
-						nil, -- [6]
-						3, -- [7]
-						1, -- [8]
-						2, -- [9]
-						5, -- [10]
-						3, -- [11]
-						3, -- [12]
-						1, -- [13]
-						3, -- [14]
-						nil, -- [15]
-						3, -- [16]
-						2, -- [17]
-						1, -- [18]
-						3, -- [19]
-						3, -- [20]
-						nil, -- [21]
-						5, -- [22]
-						3, -- [23]
-						1, -- [24]
-						1, -- [25]
-						2, -- [26]
-						3, -- [27]
-						1, -- [28]
+					["Restoration|2"] = {
+						2, -- [1]
+						[3] = 5,
+						[6] = 3,
+						[9] = 2,
 					},
-					["Equilibrio|1"] = {
+					["Balance|1"] = {
 						nil, -- [1]
 						5, -- [2]
 						3, -- [3]
@@ -66,7 +42,7 @@ DataStore_TalentsDB = {
 						1, -- [8]
 						[11] = 3,
 					},
-					["Restauración|1"] = {
+					["Restoration|1"] = {
 						2, -- [1]
 						3, -- [2]
 						nil, -- [3]
@@ -95,11 +71,35 @@ DataStore_TalentsDB = {
 						5, -- [26]
 						1, -- [27]
 					},
-					["Restauración|2"] = {
-						2, -- [1]
-						[3] = 5,
-						[6] = 3,
-						[9] = 2,
+					["Balance|2"] = {
+						5, -- [1]
+						1, -- [2]
+						nil, -- [3]
+						2, -- [4]
+						2, -- [5]
+						nil, -- [6]
+						3, -- [7]
+						1, -- [8]
+						2, -- [9]
+						5, -- [10]
+						3, -- [11]
+						3, -- [12]
+						1, -- [13]
+						3, -- [14]
+						nil, -- [15]
+						3, -- [16]
+						2, -- [17]
+						1, -- [18]
+						3, -- [19]
+						3, -- [20]
+						nil, -- [21]
+						5, -- [22]
+						3, -- [23]
+						1, -- [24]
+						1, -- [25]
+						2, -- [26]
+						3, -- [27]
+						1, -- [28]
 					},
 				},
 				["PointsSpent"] = "18,0,53,59,0,12",
@@ -173,7 +173,6 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Sangre"] = {
-					["background"] = "DeathKnightBlood",
 					["talents"] = {
 						"1939|Carnicería|INV_Axe_68|1|1|2", -- [1]
 						"1945|Subversión|Spell_DeathKnight_Subversion|1|2|3", -- [2]
@@ -204,14 +203,14 @@ DataStore_TalentsRefDB = {
 						"2034|Atracarse de sangre|Spell_Nature_Reincarnation|10|2|5", -- [27]
 						"1961|Arma de runa danzante|INV_Sword_07|11|2|1", -- [28]
 					},
-					["icon"] = "Spell_Deathknight_BloodPresence",
 					["prereqs"] = {
 						[10] = "3|1",
 						[16] = "3|2",
 					},
+					["icon"] = "Spell_Deathknight_BloodPresence",
+					["background"] = "DeathKnightBlood",
 				},
 				["Escarcha"] = {
-					["background"] = "DeathKnightFrost",
 					["talents"] = {
 						"2031|Toque helado mejorado|Spell_DeathKnight_IceTouch|1|1|3", -- [1]
 						"2020|Maestría en poder rúnico|Spell_Arcane_Arcane01|1|2|2", -- [2]
@@ -243,14 +242,14 @@ DataStore_TalentsRefDB = {
 						"1998|Acechador de tundra|Spell_Nature_Tranquility|10|2|5", -- [28]
 						"1989|Explosión aullante|Spell_Frost_ArcticWinds|11|2|1", -- [29]
 					},
-					["icon"] = "Spell_Deathknight_FrostPresence",
 					["prereqs"] = {
 						[7] = "1|1",
 						[16] = "3|1",
 					},
+					["icon"] = "Spell_Deathknight_FrostPresence",
+					["background"] = "DeathKnightFrost",
 				},
 				["Profano"] = {
-					["background"] = "DeathKnightUnholy",
 					["talents"] = {
 						"2082|Golpes feroces|Spell_Deathknight_PlagueStrike|1|1|2", -- [1]
 						"1932|Virulencia|Spell_Shadow_BurningSpirit|1|2|3", -- [2]
@@ -284,13 +283,14 @@ DataStore_TalentsRefDB = {
 						"2036|Ira de Osahendido|INV_Weapon_Halberd14|10|2|5", -- [30]
 						"2000|Invocar gárgola|Ability_Hunter_Pet_Bat|11|2|1", -- [31]
 					},
-					["icon"] = "Spell_Deathknight_UnholyPresence",
 					["prereqs"] = {
 						[20] = "4|4",
 						[24] = "6|4",
 						[22] = "6|2",
 						[28] = "8|2",
 					},
+					["icon"] = "Spell_Deathknight_UnholyPresence",
+					["background"] = "DeathKnightUnholy",
 				},
 			},
 			["Version"] = 12340,
@@ -300,7 +300,6 @@ DataStore_TalentsRefDB = {
 			["Locale"] = "esES",
 			["Trees"] = {
 				["Combate feral"] = {
-					["background"] = "DruidFeralCombat",
 					["talents"] = {
 						"796|Ferocidad|Ability_Hunter_Pet_Hyena|1|2|5", -- [1]
 						"795|Agresión feral|Ability_Druid_DemoralizingRoar|1|3|5", -- [2]
@@ -333,20 +332,20 @@ DataStore_TalentsRefDB = {
 						"2266|Sangre primigenia|Ability_Druid_Rake|10|3|1", -- [29]
 						"1927|Rabia|Ability_Druid_Berserk|11|2|1", -- [30]
 					},
-					["icon"] = "Ability_Racial_BearForm",
 					["prereqs"] = {
 						[26] = "7|2",
 						[12] = "3|3",
 						[20] = "7|2",
 						[17] = "4|2",
 						[11] = "3|3",
-						[22] = "7|2",
 						[29] = "10|2",
+						[22] = "7|2",
 						[27] = "9|2",
 					},
+					["icon"] = "Ability_Racial_BearForm",
+					["background"] = "DruidFeralCombat",
 				},
 				["Equilibrio"] = {
-					["background"] = "DruidBalance",
 					["talents"] = {
 						"762|Cólera de luz estelar|Spell_Nature_AbolishMagic|1|2|5", -- [1]
 						"2238|Génesis|Spell_Arcane_Arcane03|1|3|5", -- [2]
@@ -377,7 +376,6 @@ DataStore_TalentsRefDB = {
 						"1928|Tierra y Luna|Ability_Druid_EarthandSky|10|2|3", -- [27]
 						"1926|Lluvia de estrellas|Ability_Druid_Starfall|11|2|1", -- [28]
 					},
-					["icon"] = "Spell_Nature_StarFall",
 					["prereqs"] = {
 						[19] = "7|2",
 						[14] = "5|2",
@@ -386,9 +384,10 @@ DataStore_TalentsRefDB = {
 						[8] = "2|2",
 						[7] = "2|2",
 					},
+					["icon"] = "Spell_Nature_StarFall",
+					["background"] = "DruidBalance",
 				},
 				["Restauración"] = {
-					["background"] = "DruidRestoration",
 					["talents"] = {
 						"821|Marca de lo Salvaje mejorada|Spell_Nature_Regeneration|1|1|2", -- [1]
 						"823|Enfoque de la Naturaleza|Spell_Nature_HealingWaveGreater|1|2|3", -- [2]
@@ -418,7 +417,6 @@ DataStore_TalentsRefDB = {
 						"1916|Don de la Madre Tierra|Ability_Druid_ManaTree|10|3|5", -- [26]
 						"1917|Crecimiento salvaje|Ability_Druid_Flourish|11|2|1", -- [27]
 					},
-					["icon"] = "Spell_Nature_HealingTouch",
 					["prereqs"] = {
 						[16] = "4|3",
 						[27] = "9|2",
@@ -428,6 +426,8 @@ DataStore_TalentsRefDB = {
 						[23] = "8|2",
 						[12] = "3|1",
 					},
+					["icon"] = "Spell_Nature_HealingTouch",
+					["background"] = "DruidRestoration",
 				},
 			},
 			["Version"] = 12340,

@@ -1,5 +1,12 @@
 MACRO 1 "Decursive" INV_Misc_QuestionMark
-/script Dcr:Println('No spell available')
+/stopcasting
+/cast [target=mouseover,nomod,exists] Eliminar maldición;  [target=mouseover,exists,mod:ctrl] Suprimir veneno; [target=mouseover,exists,mod:shift] Ciclón
+END
+MACRO 7 "Love" Spell_Holy_TestOfFaith
+/love
+END
+MACRO 5 "Miau!" Ability_Druid_PredatoryInstincts
+/d Full Miau!!! :3
 END
 MACRO 3 "Odio" Ability_Druid_Lacerate
 /escupir
@@ -13,4 +20,7 @@ MACRO 2 "Oso" Ability_Druid_FerociousBite
 END
 MACRO 4 "Risa" Ability_Hunter_Assassinate
 /risa
+END
+MACRO 6 "Toxico" Ability_Creature_Disease_02
+/e piensa que Focus es un come piso y rancio de 1ra
 END

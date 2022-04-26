@@ -2,20 +2,19 @@
 SpellFlashAddonConfig = {
 	["LastVersion"] = 56,
 	["SERVER"] = {
-		["server.wowarg.com.ar"] = {
+		["www.wowarg.com.ar"] = {
 			["ImmuneIgnore"] = {
 			},
 			["REALM"] = {
-				["Sin'Dorei"] = {
+				["WoWArg"] = {
 					["PLAYER"] = {
-						["Muelapicada"] = {
-							["selected_class_module"] = "SpellFlash_Hunter",
+						["Delatierra"] = {
 						},
 					},
 				},
 			},
 			["Immune"] = {
-				["HUNTER"] = {
+				["DRUID"] = {
 				},
 			},
 		},

@@ -1,0 +1,3 @@
+MACRO 16777217 "mod" Ability_Ambush
+.modrates on
+END

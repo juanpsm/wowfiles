@@ -10,19 +10,17 @@ FIZ_Data = {
 			["phase2b"] = 2,
 			["phase4b"] = 2,
 		},
-		["Sin'Dorei"] = {
-		},
 	},
-	["WriteChatMessage"] = true,
-	["ShowMissing"] = true,
-	["ChatFrame"] = 0,
-	["ShowItems"] = true,
-	["ShowMobs"] = true,
-	["OriginalCollapsed"] = {
-	},
-	["Version"] = 201031,
 	["needsTip"] = {
 		["FIZ_OrderByStandingCheckBox"] = true,
 		["FIZ_OptionsButton"] = true,
 	},
+	["ShowMissing"] = true,
+	["ChatFrame"] = 0,
+	["ShowItems"] = true,
+	["Version"] = 201031,
+	["OriginalCollapsed"] = {
+	},
+	["ShowMobs"] = true,
+	["WriteChatMessage"] = true,
 }

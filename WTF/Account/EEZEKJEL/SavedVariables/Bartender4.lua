@@ -61,6 +61,64 @@ Bartender4DB = {
 						},
 					},
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
 				["Trank - WoWArg"] = {
 					["actionbars"] = {
 						{
@@ -166,6 +224,64 @@ Bartender4DB = {
 							["position"] = {
 								["y"] = -37.49999555535078,
 								["x"] = -231.5000122398803,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.5000524001777,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000143037373,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000481828596,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000460742005,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000797776011,
+								["x"] = -231.5000043227511,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49996988131977,
+								["x"] = -231.5000043227511,
 								["point"] = "CENTER",
 							},
 						}, -- [6]
@@ -370,6 +486,15 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.39995634872992,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
 				["Trank - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -386,6 +511,15 @@ Bartender4DB = {
 						["x"] = -188.8000814286088,
 						["point"] = "CENTER",
 						["y"] = 42.39990244255216,
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.39995634872992,
+						["x"] = -188.7998795571683,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
 					},
 				},
 				["Rochallor - WoWArg"] = {
@@ -429,6 +563,22 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 19.50005127555949,
+						["x"] = -114.4999485838631,
+						["point"] = "CENTER",
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 19.50005127555949,
+						["x"] = -114.4999485838631,
+						["point"] = "CENTER",
+					},
+				},
 				["Perruco - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -449,6 +599,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
+						["point"] = "CENTER",
+					},
+				},
 				["Trank - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -462,6 +620,14 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 1.499957810021442,
 						["x"] = 58.50005258361989,
+						["point"] = "CENTER",
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499970724783339,
+						["x"] = 58.50015382667846,
 						["point"] = "CENTER",
 					},
 				},
@@ -502,6 +668,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
+						["point"] = "CENTER",
+					},
+				},
 				["Trank - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -515,6 +689,14 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 51.49996355387589,
 						["x"] = 53.50004150618634,
+						["point"] = "CENTER",
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49991857061593,
+						["x"] = 53.5000114921919,
 						["point"] = "CENTER",
 					},
 				},
@@ -554,6 +736,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00002214092012,
+						["x"] = -82.49997332546298,
+						["point"] = "CENTER",
+					},
+				},
 				["Trank - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -567,6 +757,14 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = -15.00002447976067,
 						["x"] = -82.500016479392,
+						["point"] = "CENTER",
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -15.00002214092012,
+						["x"] = -82.49997332546298,
 						["point"] = "CENTER",
 					},
 				},
@@ -606,6 +804,14 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
+				["Elchamaquito - Sin'Dorei"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
+						["point"] = "CENTER",
+					},
+				},
 				["Trank - WoWArg"] = {
 					["version"] = 3,
 					["position"] = {
@@ -619,6 +825,14 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = 89.49995671595389,
 						["x"] = -163.5000751487625,
+						["point"] = "CENTER",
+					},
+				},
+				["Elchamaquito - Sin'dorei(WoWArg)"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.49999265483768,
+						["x"] = -163.500047901705,
 						["point"] = "CENTER",
 					},
 				},
@@ -664,8 +878,10 @@ Bartender4DB = {
 	},
 	["profileKeys"] = {
 		["Meparto - WoWArg"] = "Meparto - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - WoWArg",
 		["Trank - WoWArg"] = "Trank - WoWArg",
 		["Buyvip - WoWArg"] = "Buyvip - WoWArg",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - WoWArg",
 		["Rochallor - WoWArg"] = "Rochallor - WoWArg",
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
@@ -673,9 +889,13 @@ Bartender4DB = {
 	["profiles"] = {
 		["Meparto - WoWArg"] = {
 		},
+		["Elchamaquito - Sin'Dorei"] = {
+		},
 		["Trank - WoWArg"] = {
 		},
 		["Buyvip - WoWArg"] = {
+		},
+		["Elchamaquito - Sin'dorei(WoWArg)"] = {
 		},
 		["Rochallor - WoWArg"] = {
 		},

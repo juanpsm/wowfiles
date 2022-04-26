@@ -1,10 +1,16 @@
 
 ARLDB2 = {
 	["profileKeys"] = {
-		["Ijaa - Sin'Dorei"] = "Ijaa - Sin'Dorei",
+		["Spawm - Sin'dorei(WoWArg)"] = "Spawm - Sin'dorei(WoWArg)",
+		["Morenasso - WoWArg"] = "Morenasso - WoWArg",
+		["Ijaa - WoWArg"] = "Ijaa - WoWArg",
 	},
 	["profiles"] = {
-		["Ijaa - Sin'Dorei"] = {
+		["Spawm - Sin'dorei(WoWArg)"] = {
+		},
+		["Morenasso - WoWArg"] = {
+		},
+		["Ijaa - WoWArg"] = {
 		},
 	},
 }

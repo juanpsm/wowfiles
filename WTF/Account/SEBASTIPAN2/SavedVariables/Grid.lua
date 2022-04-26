@@ -7,23 +7,26 @@ GridDB = {
 					["statusmap"] = {
 						["baricon5"] = {
 						},
-						["baricon8"] = {
-						},
 						["baricon9"] = {
-						},
-						["baricon6"] = {
-						},
-						["baricon7"] = {
-						},
-						["baricon3"] = {
 						},
 						["baricon4"] = {
 						},
-						["baricon2"] = {
+						["baricon8"] = {
+						},
+						["baricon7"] = {
+						},
+						["baricon6"] = {
 						},
 						["baricon1"] = {
 						},
+						["baricon3"] = {
+						},
+						["baricon2"] = {
+						},
 					},
+					["frameHeight"] = 53,
+					["cornerSize"] = 5,
+					["frameWidth"] = 86,
 				},
 			},
 		},
@@ -43,18 +46,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 10 metros",
 					},
-					["alert_range_100"] = {
+					["alert_range_38"] = {
 						["color"] = {
-							["a"] = 0.1090909090909091,
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 0,
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
 						},
-						["priority"] = 90,
+						["priority"] = 84,
 						["enable"] = false,
-						["text"] = "100 metros",
+						["text"] = "38 metros",
 						["range"] = false,
-						["desc"] = "Más de 100 metros",
+						["desc"] = "Más de 38 metros",
 					},
 					["alert_range_28"] = {
 						["color"] = {
@@ -69,18 +72,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 28 metros",
 					},
-					["alert_range_38"] = {
-						["color"] = {
-							["a"] = 0.3090909090909091,
-							["b"] = 0.14,
-							["g"] = 0.76,
-							["r"] = 0.38,
-						},
-						["priority"] = 84,
+					["alert_range_30"] = {
 						["enable"] = false,
-						["text"] = "38 metros",
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
 						["range"] = false,
-						["desc"] = "Más de 38 metros",
+						["desc"] = "More than 30 yards away",
 					},
 					["alert_range_40"] = {
 						["color"] = {
@@ -95,6 +98,19 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 40 metros",
 					},
+					["alert_range_100"] = {
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["enable"] = false,
+						["text"] = "100 metros",
+						["range"] = false,
+						["desc"] = "Más de 100 metros",
+					},
 				},
 			},
 		},
@@ -102,11 +118,6 @@ GridDB = {
 			["profiles"] = {
 				["Default"] = {
 					["colors"] = {
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
 						["PALADIN"] = {
 							["b"] = 0.73,
 							["g"] = 0.55,
@@ -142,6 +153,11 @@ GridDB = {
 							["g"] = 0.83,
 							["r"] = 0.67,
 						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
 						["SHAMAN"] = {
 							["b"] = 0.87,
 							["g"] = 0.44,
@@ -160,9 +176,13 @@ GridDB = {
 			["profiles"] = {
 				["Default"] = {
 					["anchorRel"] = "TOPLEFT",
-					["layout"] = "Grupo de 5",
-					["PosX"] = 500.0000157291393,
-					["PosY"] = -399.9999748023032,
+					["ScaleSize"] = 1.2,
+					["PosX"] = 42.65168068233341,
+					["PosY"] = -403.8350619357266,
+					["layout"] = "By Group 5",
+					["horizontal"] = true,
+					["Spacing"] = 0,
+					["Padding"] = 0,
 				},
 			},
 		},

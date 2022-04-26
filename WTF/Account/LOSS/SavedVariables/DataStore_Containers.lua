@@ -1,40 +1,17 @@
 
 DataStore_ContainersDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Sin'Dorei.Lossena"] = {
-				["lastUpdate"] = 1635032250,
-				["numFreeBagSlots"] = 13,
-				["Containers"] = {
-					["Bag0"] = {
-						["ids"] = {
-							6948, -- [1]
-							nil, -- [2]
-							51, -- [3]
-							6144, -- [4]
-						},
-						["freeslots"] = 13,
-						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-						["size"] = 16,
-					},
-					["Bag-2"] = {
-						["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-						["size"] = 32,
-					},
-				},
-				["numBagSlots"] = 16,
-			},
-			["Default.Sin'Dorei.Lossana"] = {
-				["lastUpdate"] = 1646109283,
+			["Default.WoWArg.Lossana"] = {
+				["lastUpdate"] = 1648611501,
 				["Containers"] = {
 					["Bag4"] = {
 						["link"] = "|cffffffff|Hitem:23162:0:0:0:0:0:0:0:80|h[Foror's Crate of Endless Resist Gear Storage]|h|r",
-						["size"] = 36,
 						["icon"] = "Interface\\Icons\\INV_Crate_04",
+						["size"] = 36,
 						["freeslots"] = 36,
 					},
 					["Bag0"] = {
@@ -45,13 +22,19 @@ DataStore_ContainersDB = {
 							33447, -- [4]
 							33448, -- [5]
 							40211, -- [6]
-							6256, -- [7]
+							12282, -- [7]
 							22823, -- [8]
-							7096, -- [9]
-							7097, -- [10]
+							36912, -- [9]
+							36912, -- [10]
+							33470, -- [11]
+							33470, -- [12]
+							34054, -- [13]
+							34054, -- [14]
+							36905, -- [15]
+							36905, -- [16]
 						},
-						["size"] = 16,
 						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
 						["counts"] = {
 							nil, -- [1]
 							120, -- [2]
@@ -60,26 +43,51 @@ DataStore_ContainersDB = {
 							5, -- [5]
 							5, -- [6]
 							nil, -- [7]
-							19, -- [8]
+							17, -- [8]
+							20, -- [9]
+							20, -- [10]
+							20, -- [11]
+							20, -- [12]
+							20, -- [13]
+							20, -- [14]
+							20, -- [15]
+							20, -- [16]
 						},
-						["freeslots"] = 6,
 					},
 					["Bag1"] = {
+						["ids"] = {
+							38425, -- [1]
+							38425, -- [2]
+							43007, -- [3]
+							6291, -- [4]
+							6289, -- [5]
+							6308, -- [6]
+							6303, -- [7]
+						},
 						["link"] = "|cffffffff|Hitem:23162:0:0:0:0:0:0:0:80|h[Foror's Crate of Endless Resist Gear Storage]|h|r",
-						["size"] = 36,
 						["icon"] = "Interface\\Icons\\INV_Crate_04",
-						["freeslots"] = 36,
+						["size"] = 36,
+						["counts"] = {
+							20, -- [1]
+							20, -- [2]
+							5, -- [3]
+							9, -- [4]
+							4, -- [5]
+							4, -- [6]
+							3, -- [7]
+						},
+						["freeslots"] = 29,
 					},
 					["Bag2"] = {
 						["link"] = "|cffffffff|Hitem:23162:0:0:0:0:0:0:0:80|h[Foror's Crate of Endless Resist Gear Storage]|h|r",
-						["size"] = 36,
 						["icon"] = "Interface\\Icons\\INV_Crate_04",
+						["size"] = 36,
 						["freeslots"] = 36,
 					},
 					["Bag3"] = {
 						["link"] = "|cffffffff|Hitem:23162:0:0:0:0:0:0:0:80|h[Foror's Crate of Endless Resist Gear Storage]|h|r",
-						["size"] = 36,
 						["icon"] = "Interface\\Icons\\INV_Crate_04",
+						["size"] = 36,
 						["freeslots"] = 36,
 					},
 					["Bag-2"] = {
@@ -87,7 +95,7 @@ DataStore_ContainersDB = {
 						["size"] = 32,
 					},
 				},
-				["numFreeBagSlots"] = 150,
+				["numFreeBagSlots"] = 137,
 				["numBagSlots"] = 160,
 			},
 		},

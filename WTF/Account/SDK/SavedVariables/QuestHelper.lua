@@ -6,13 +6,13 @@ QuestHelper_Pref = {
 	["track_minimized"] = false,
 	["travel_time"] = false,
 	["tooltip"] = true,
-	["submit_nag_next_time"] = 1604763671.325999,
+	["submit_nag_next_time"] = 1619392903,
 	["show_ants"] = true,
-	["submit_nag_type"] = "OFF",
+	["submit_nag_type"] = "ON",
 	["track_scale"] = 1.1,
 }
 QuestHelper_UID = "ZA9lOFIvC9DGTgvw2YZg5Ws3UqXOhO7T"
-QuestHelper_SaveDate = 1619322506
+QuestHelper_SaveDate = 1619310385
 QuestHelper_Errors = {
 	["version"] = 1,
 	["crash"] = {
@@ -232,226 +232,6 @@ QuestHelper_Errors = {
 			["local_version"] = "1.4.0",
 			["silent"] = true,
 		}, -- [18]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "Interface\\AddOns\\QuestHelper\\error.lua:202: C stack overflow",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "(tail call): ?\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `SaveBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:175: in function `ReassignBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:83: in function <Interface\\AddOns\\Bartender4\\ActionBars.lua:65>\n(tail call): ?\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n(tail call): ?\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:543: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:556: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:636: in function <...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:621>\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:258: in function `CombatLog_LoadUI'\nInterface\\FrameXML\\UIParent.lua:482: in function <Interface\\FrameXML\\UIParent.lua:454>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [19]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `SaveBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:175: in function `ReassignBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:83: in function <Interface\\AddOns\\Bartender4\\ActionBars.lua:65>\n(tail call): ?\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n(tail call): ?\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:543: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:556: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:636: in function <...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:621>\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:258: in function `CombatLog_LoadUI'\nInterface\\FrameXML\\UIParent.lua:482: in function <Interface\\FrameXML\\UIParent.lua:454>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [20]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `SaveBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:175: in function `ReassignBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:83: in function <Interface\\AddOns\\Bartender4\\ActionBars.lua:65>\n(tail call): ?\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n(tail call): ?\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:543: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:556: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:636: in function <...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:621>\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:258: in function `CombatLog_LoadUI'\nInterface\\FrameXML\\UIParent.lua:482: in function <Interface\\FrameXML\\UIParent.lua:454>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [21]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n(tail call): ?\n[C]: in function `SaveBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:175: in function `ReassignBindings'\nInterface\\AddOns\\Bartender4\\ActionBars.lua:83: in function <Interface\\AddOns\\Bartender4\\ActionBars.lua:65>\n(tail call): ?\n[C]: ?\n[string \"safecall Dispatcher[1]\"]:9: in function <[string \"safecall Dispatcher[1]\"]:5>\n(tail call): ?\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:543: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:556: in function `EnableAddon'\n...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:636: in function <...non_AccountSearch\\libs\\AceAddon-3.0\\AceAddon-3.0.lua:621>\n[C]: in function `LoadAddOn'\nInterface\\FrameXML\\UIParent.lua:235: in function `UIParentLoadAddOn'\nInterface\\FrameXML\\UIParent.lua:258: in function `CombatLog_LoadUI'\nInterface\\FrameXML\\UIParent.lua:482: in function <Interface\\FrameXML\\UIParent.lua:454>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [22]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "Interface\\AddOns\\QuestHelper\\error.lua:202: C stack overflow",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:83: in function `GupPet_AutoCompanionResumonSetEnable'\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:29: in function `GupPet_AutoCompanionBoot'\nInterface\\AddOns\\GupPet\\GupPet.lua:117: in function `GupPet_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [23]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:83: in function `GupPet_AutoCompanionResumonSetEnable'\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:29: in function `GupPet_AutoCompanionBoot'\nInterface\\AddOns\\GupPet\\GupPet.lua:117: in function `GupPet_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [24]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:83: in function `GupPet_AutoCompanionResumonSetEnable'\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:29: in function `GupPet_AutoCompanionBoot'\nInterface\\AddOns\\GupPet\\GupPet.lua:117: in function `GupPet_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [25]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:83: in function `GupPet_AutoCompanionResumonSetEnable'\nInterface\\AddOns\\GupPet\\GupPet_AutoCompanion.lua:29: in function `GupPet_AutoCompanionBoot'\nInterface\\AddOns\\GupPet\\GupPet.lua:117: in function `GupPet_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:29",
-		}, -- [26]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "Interface\\AddOns\\QuestHelper\\error.lua:202: C stack overflow",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:373: in function `XPerl_MTRosterChanged'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:724: in function `XPerl_EnableDisable'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:687: in function <...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:685>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [27]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:373: in function `XPerl_MTRosterChanged'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:724: in function `XPerl_EnableDisable'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:687: in function <...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:685>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [28]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:373: in function `XPerl_MTRosterChanged'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:724: in function `XPerl_EnableDisable'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:687: in function <...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:685>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [29]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:373: in function `XPerl_MTRosterChanged'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:724: in function `XPerl_EnableDisable'\n...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:687: in function <...terface\\AddOns\\XPerl_RaidHelper\\XPerl_RaidHelper.lua:685>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [30]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "Interface\\AddOns\\QuestHelper\\error.lua:202: C stack overflow",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:442: in function `XPerl_UpdateAssists'\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:350: in function <...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:344>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [31]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:442: in function `XPerl_UpdateAssists'\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:350: in function <...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:344>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [32]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:442: in function `XPerl_UpdateAssists'\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:350: in function <...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:344>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [33]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n...\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:442: in function `XPerl_UpdateAssists'\n...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:350: in function <...erface\\AddOns\\XPerl_RaidHelper\\XPerl_AssistFrame.lua:344>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [34]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "Interface\\AddOns\\QuestHelper\\error.lua:202: C stack overflow",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:98: in function `EasyCopy_OnLoad'\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:138: in function `EasyCopy_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [35]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:98: in function `EasyCopy_OnLoad'\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:138: in function `EasyCopy_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [36]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:98: in function `EasyCopy_OnLoad'\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:138: in function `EasyCopy_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [37]
-		{
-			["game_version"] = "3.3.5",
-			["toc_version"] = "1.4.0",
-			["message"] = "...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: bad argument #6 to 'format' (string expected, got nil)",
-			["silent"] = true,
-			["locale"] = "enUS",
-			["addons"] = "  NPCScan, v3.3.5.5\n  NPCScanOverlay, v3.3.5.1\n  AckisRecipeList, vDevel\n  ActionBarSaver\n  ACP, v3.3.4 \n  Altoholic, vv3.3.002\n  Atlas, v1.16.1\n  AtlasBattlegrounds, v1.16.1\n  AtlasDungeonLocs, v1.16.1\n  AtlasOutdoorRaids, v1.16.1\n  AtlasTransportation, v1.16.1\n  AtlasLoot, v|cffFF8400AtlasLoot Enhanced v5.11.02|r\n  AtlasLootFu, v5.11.02\n  BagBrother\n  Bagnon, v4.1.1\n  BagnonForever, v1.1.2\n  BagnonTooltips\n  BagnonAccountSearch, v1.7.0\n  Bartender4, v4.4.2\n  BonusScanner, v5.3\n  BrokerBonusScanner, v1.2\n  BunnyHunter, v1.6\n  ClassLoot, vv1.7.2\n  CollectMe, v1.1.14\n  CookingHelper, v2.03\n  Currency, v3.0\n  DataStore\n  DataStoreAchievements, v3.3.001\n  DataStoreAuctions, v3.3.001\n  DataStoreCharacters, v3.3.001\n  DataStoreContainers, v3.3.001\n  DataStoreCrafts, v3.3.001\n  DataStoreCurrencies, v3.3.001\n  DataStoreInventory, v3.3.001\n  DataStoreMails, v3.3.001\n  DataStorePets, v3.3.001\n  DataStoreQuests, v3.3.001\n  DataStoreReputations, v3.3.001\n  DataStoreSkills, v3.3.001\n  DataStoreSpells, v3.3.001\n  DataStoreStats, v3.3.001\n  DataStoreTalents, v3.3.001\n  EasyCopy, v2.5\n  EveryQuest, v2.3r162\n  EveryQuestQuestGivers, v29\n  Factionizer, v30300.4\n  FarmIt\n  FishingBuddy, v0.9.8p1\n  Gatherer, v3.1.14\n  GearScore, v3.1.17 - Release\n  GupPet, v1.241\n  GupPetCollectMe\n  HandyNotes, v1.1.5\n  HandyNotesQuestGivers, v0.2.0\n  HunterHelper, v1.64\n  ItemRack, v2.243\n  KHunterTimers, v3.2.5\n  Ace2\n  LightHeaded, v304\n  loremaster, vv2.033 20100226\n  Nauticus, v3.2.0\n  OmniCC, v3.0.2\n  Overachiever, v0.54\n  PlateBuffs, v1.5.4beta (r176)\n  Postal, v3.3.2\n  PowerAuras, v3.0.0J\n  Quartz, v3.0.3.1\n  QuestCompletist, v0.1\n  QuestHelper, v1.4.0\n  RaidRoll\n  RaidRollEPGP\n  RaidRollLootTracker\n  RangeDisplay, vRangeDisplay-r290\n  RecipeRadar, v1.33\n  Recount, v1111\n  ShadowedUnitFrames, vv3.2.12\n  SpellFlash, v4.0.1\n  Talented, vv2.4.6c-release\n  TalentedSpecTabs, vv2.4.6c-release\n  TidyPlates, v5.13.3 (R39)\n  TidyPlatesGrey\n  TidyPlatesNeon\n  TipTac, v10.05.01\n  TipTacItemRef, v10.02.27\n  TipTacTalents, v10.02.27\n  TomTom, vSVN\n  TrackoMatique, v3.4.7\n  ViperNotify, v1.3.9\n  XPerl, v3.0.8\n  XPerlArcaneBar\n  XPerlCustomHighlight\n  XPerlPartyPet\n  XPerlParty\n  XPerlPlayerBuffs\n  XPerlPlayerPet\n  XPerlPlayer\n  XPerlRaidAdmin\n  XPerlRaidHelper\n  XPerlRaidPets\n  XPerlRaidFrames\n  XPerlTargetTarget\n  XPerlTarget\n  ZHunterMod\n  Koordinator, v3.32\n  DBMCore\n  DBMSpellTimers\n  DBMBurningCrusade\n",
-			["stack"] = "[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: in function `(for generator)'\nInterface\\AddOns\\QuestHelper\\error.lua:202: in function <Interface\\AddOns\\QuestHelper\\error.lua:197>\n...\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\n[C]: in function `format'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:432: in function `ScriptErrorsFrame_Update'\n...e\\AddOns\\Blizzard_DebugTools\\Blizzard_DebugTools.lua:413: in function `ScriptErrorsFrame_OnError'\n[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:22: in function <[string \"Interface\\FrameXML\\BasicControls.xml:<Scrip...\"]:4>\n(tail call): ?\n[C]: ?\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:98: in function `EasyCopy_OnLoad'\nInterface\\AddOns\\EasyCopy\\EasyCopy.lua:138: in function `EasyCopy_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
-			["local_version"] = "1.4.0",
-			["timestamp"] = "2021-04-25 00:48:35",
-		}, -- [38]
 	},
 }
 QuestHelper_Collector = {
@@ -473,13 +253,7 @@ QuestHelper_Collector = {
 				["eng_no"] = 1,
 				["reaction_7"] = 2,
 				["name_Spiked Ghoul"] = 34,
-				["loot_loot"] = {
-					[43465] = 1,
-					[43852] = 1,
-					[43527] = 1,
-					[33470] = 3,
-					[43851] = 2,
-				},
+				["herb_no"] = 1,
 				["name_Skeletal Constructor"] = 17,
 				["chat_talk"] = 15,
 				["name_Corpulent Horror"] = 18,
@@ -488,7 +262,13 @@ QuestHelper_Collector = {
 				["loot_count"] = 4,
 				["name_Ebon Blade Champion"] = 2,
 				["skin_no"] = 1,
-				["herb_no"] = 1,
+				["loot_loot"] = {
+					[43465] = 1,
+					[43852] = 1,
+					[43527] = 1,
+					[33470] = 3,
+					[43851] = 2,
+				},
 				["name_Chained Abomination"] = 6,
 				["name_Morbidus"] = 1,
 			},
@@ -552,9 +332,9 @@ QuestHelper_Collector = {
 				["level_80"] = 1,
 			},
 			[8] = {
-				"\000lü•\000q§r\000\000\n", -- [1]
-				["name_Conservator Ilthalaine"] = 1,
-				["reaction_5"] = 1,
+				"\000lü•\000q§r\000\000\n\000lü•\000q§r\000\000\n", -- [1]
+				["name_Conservator Ilthalaine"] = 2,
+				["reaction_5"] = 2,
 			},
 		},
 		["warp"] = {
@@ -562,12 +342,11 @@ QuestHelper_Collector = {
 		},
 		["flight_times"] = {
 		},
-		["modified"] = 1619322516,
+		["modified"] = 1619310405,
 		["flight_master"] = {
 		},
 		["achievement"] = {
 		},
-		["version"] = 8,
 		["item"] = {
 			[51900] = {
 				["equiplocation"] = "FINGER",
@@ -908,6 +687,15 @@ QuestHelper_Collector = {
 				["minlevel"] = 0,
 				["quality"] = 1,
 			},
+			[49295] = {
+				["equiplocation"] = "BAG",
+				["type"] = "Container/Bag",
+				["name"] = "Enlarged Onyxia Hide Backpack",
+				["ilevel"] = 55,
+				["minlevel"] = 0,
+				["open_no"] = 6,
+				["quality"] = 4,
+			},
 			[33428] = {
 				["equiplocation"] = "WEAPON",
 				["type"] = "Weapon/Daggers",
@@ -1065,13 +853,13 @@ QuestHelper_Collector = {
 				["open_no"] = 2,
 				["quality"] = 2,
 			},
-			[50685] = {
-				["equiplocation"] = "WEAPONMAINHAND",
-				["type"] = "Weapon/One-Handed Maces",
-				["name"] = "Trauma",
+			[50727] = {
+				["equiplocation"] = "2HWEAPON",
+				["type"] = "Weapon/Polearms",
+				["name"] = "Bloodfall",
 				["ilevel"] = 277,
 				["minlevel"] = 80,
-				["open_no"] = 8,
+				["open_no"] = 2,
 				["quality"] = 4,
 			},
 			[38739] = {
@@ -1083,13 +871,13 @@ QuestHelper_Collector = {
 				["open_no"] = 6,
 				["quality"] = 2,
 			},
-			[50727] = {
-				["equiplocation"] = "2HWEAPON",
-				["type"] = "Weapon/Polearms",
-				["name"] = "Bloodfall",
+			[50685] = {
+				["equiplocation"] = "WEAPONMAINHAND",
+				["type"] = "Weapon/One-Handed Maces",
+				["name"] = "Trauma",
 				["ilevel"] = 277,
 				["minlevel"] = 80,
-				["open_no"] = 2,
+				["open_no"] = 8,
 				["quality"] = 4,
 			},
 			[35953] = {
@@ -1257,10 +1045,13 @@ QuestHelper_Collector = {
 				["quality"] = 4,
 			},
 		},
+		["version"] = 8,
 		["realms"] = {
-			["Bennu"] = 1,
-			["WoWArg"] = 4,
+			["Kel'Thuzad"] = 1,
+			["Sin'dorei(WoWArg)"] = 1,
 			["Sin'Dorei"] = 1,
+			["WoWArg"] = 4,
+			["Bennu"] = 1,
 		},
 		["worldloot"] = {
 			["\000VôV\000‘V±\000"] = {
@@ -1450,9 +1241,9 @@ QuestHelper_Collector = {
 				["loot_loot"] = {
 					[43089] = 1,
 					[33445] = 1,
-					[33470] = 1,
 					[33428] = 1,
 					[43851] = 1,
+					[33470] = 1,
 				},
 			},
 			["\000§_R\000ÝÒ²\000"] = {
@@ -1462,10 +1253,16 @@ QuestHelper_Collector = {
 					[33470] = 1,
 				},
 			},
-			["\000Í=P\000ÆÍ³\000"] = {
-				["loot_count"] = 1,
+			["\000h\n—\000>^¼\000"] = {
+				["loot_count"] = 12,
 				["loot_loot"] = {
-					[33470] = 3,
+					[43291] = 4,
+					[43851] = 2,
+					[33429] = 1,
+					[33431] = 1,
+					[43089] = 3,
+					[33470] = 13,
+					[43852] = 2,
 				},
 			},
 			["\000nÅP\000ò·±\000"] = {
@@ -1498,16 +1295,10 @@ QuestHelper_Collector = {
 					[39525] = 1,
 				},
 			},
-			["\000h\n—\000>^¼\000"] = {
-				["loot_count"] = 12,
+			["\000Í=P\000ÆÍ³\000"] = {
+				["loot_count"] = 1,
 				["loot_loot"] = {
-					[43851] = 2,
-					[43291] = 4,
-					[43852] = 2,
-					[33431] = 1,
-					[43089] = 3,
-					[33470] = 13,
-					[33429] = 1,
+					[33470] = 3,
 				},
 			},
 			["\0004ÐW\000Í£±\000"] = {
@@ -1560,30 +1351,20 @@ QuestHelper_Collector = {
 			},
 		},
 		["quest"] = {
-			[7848] = {
-				["groupcount"] = 0,
-				["daily"] = false,
-				["name"] = "Attunement to the Core",
-				["criteria_1_text"] = "Core Fragment: 0/1",
-				["special_item"] = false,
-				["level"] = 60,
-				["criteria_1_type"] = "item",
-				["tag"] = "Dungeon",
-			},
 			[13144] = {
 				["groupcount"] = 0,
 				["items_choice"] = {
-					[39104] = 1,
-					[38739] = 1,
 					[39038] = 1,
+					[38739] = 1,
 					[39068] = 1,
+					[39104] = 1,
 				},
 				["criteria_1_text"] = "Chained Abominations burned: 0/3",
+				["name"] = "Killing Two Scourge With One Skeleton",
+				["special_item"] = false,
+				["start_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
 				["criteria_1_monster_true"] = {
 				},
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Killing Two Scourge With One Skeleton",
 				["level"] = 80,
 				["start"] = "M119m\000ïçY\000áª\000",
 				["criteria_1_type"] = "monster",
@@ -1591,7 +1372,14 @@ QuestHelper_Collector = {
 					[119] = 504,
 					[121] = 111,
 				},
-				["start_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
+				["daily"] = false,
+			},
+			[10279] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "To The Master's Lair",
+				["level"] = 66,
+				["special_item"] = false,
 			},
 			[8926] = {
 				["groupcount"] = 0,
@@ -1627,28 +1415,18 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "Dungeon",
 			},
-			[13211] = {
+			[11132] = {
 				["groupcount"] = 0,
-				["items_choice"] = {
-					[43900] = 1,
-					[43893] = 1,
-					[43880] = 1,
-				},
-				["criteria_1_text"] = "Festering Corpse burned: 0/7",
+				["criteria_1_text"] = "Budd's Map of Zul'Aman: 0/1",
+				["special_item"] = false,
 				["daily"] = false,
-				["criteria_1_monster_true"] = {
+				["name"] = "Promises, Promises...",
+				["items_reward"] = {
+					[34067] = 1,
 				},
-				["special_item"] = 43524,
-				["start_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
-				["name"] = "By Fire Be Purged",
-				["criteria_1_type"] = "monster",
-				["start"] = "M119m\000Ÿ–Z\000Ûß©\000",
-				["level"] = 80,
-				["criteria_1_monster_false"] = {
-					[119] = 65,
-					[121] = 197,
-				},
-				["criteria_1_satisfied"] = "L\000|ºY\000ìï¬\000lL\000_µY\000v¡ª\000lL\000ËüX\000­'©\000lL\000=„[\000—î¨\000l",
+				["criteria_1_type"] = "item",
+				["level"] = 70,
+				["tag"] = "Raid",
 			},
 			[10471] = {
 				["groupcount"] = 0,
@@ -1671,76 +1449,24 @@ QuestHelper_Collector = {
 				["criteria_1_monster_true"] = {
 				},
 			},
-			[13212] = {
-				["criteria_2_text"] = "Olakin's Legs: 0/1",
-				["criteria_4_monster_true"] = {
-				},
-				["criteria_1_text"] = "Olakin's Torso: 0/1",
-				["criteria_4_monster_false"] = {
-					[128] = 52,
-					[121] = 30,
-					[119] = 693,
-					[122] = 14,
-				},
-				["criteria_4_type"] = "item",
+			[13716] = {
+				["groupcount"] = 0,
 				["daily"] = false,
-				["criteria_1_monster_true"] = {
-				},
-				["end"] = "M119m\000C•Z\000+Í©\000",
+				["name"] = "The Valiant's Charge",
+				["criteria_1_text"] = "Valiant's Seal: 7/25",
+				["level"] = 80,
+				["special_item"] = false,
 				["criteria_1_type"] = "item",
-				["groupcount"] = 0,
-				["criteria_3_satisfied"] = "I43528iL\000Î,W\000øp±\000l",
-				["criteria_1_monster_false"] = {
-					[128] = 52,
-					[121] = 30,
-					[119] = 693,
-					[122] = 14,
-				},
-				["special_item"] = false,
-				["level"] = 80,
-				["criteria_4_text"] = "Olakin's Right Arm: 0/1",
-				["criteria_2_monster_true"] = {
-				},
-				["criteria_3_monster_true"] = {
-				},
-				["criteria_3_text"] = "Olakin's Left Arm: 0/1",
-				["criteria_3_monster_false"] = {
-					[128] = 52,
-					[121] = 30,
-					[119] = 693,
-					[122] = 14,
-				},
-				["name"] = "He's Gone to Pieces",
-				["criteria_1_satisfied"] = "M119mI43527iL\000F¶]\000	™¶\000l",
-				["criteria_3_type"] = "item",
-				["criteria_2_monster_false"] = {
-					[128] = 52,
-					[121] = 30,
-					[119] = 693,
-					[122] = 14,
-				},
-				["end_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
-				["criteria_2_type"] = "item",
 			},
-			[13244] = {
-				["groupcount"] = 0,
-				["items_choice"] = {
-					[44711] = 1,
-					[43950] = 1,
-					[44710] = 1,
-					[49702] = 1,
-					[44713] = 1,
-				},
-				["criteria_1_text"] = "Titanium Vanguard slain: 0/7",
+			[10976] = {
+				["groupcount"] = 5,
+				["daily"] = false,
+				["name"] = "The Mark of the Nexus-King",
+				["criteria_1_text"] = "Mark of the Nexus-King: 0/1",
 				["special_item"] = false,
-				["items_reward"] = {
-					[47241] = 3,
-				},
-				["name"] = "Timear Foresees Titanium Vanguards in your Future!",
-				["daily"] = true,
-				["level"] = 80,
-				["criteria_1_type"] = "monster",
-				["tag"] = "Dungeon",
+				["level"] = 70,
+				["criteria_1_type"] = "item",
+				["tag"] = "Group",
 			},
 			[10882] = {
 				["groupcount"] = 0,
@@ -1766,18 +1492,21 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "Dungeon",
 			},
-			[50010] = {
+			[13151] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Criatura rara: 0/1",
-				["special_item"] = false,
-				["daily"] = true,
-				["name"] = "Buscando Raros",
-				["items_reward"] = {
-					[47241] = 2,
+				["items_choice"] = {
+					[44398] = 1,
+					[44397] = 1,
+					[44396] = 1,
+					[44399] = 1,
 				},
+				["criteria_1_text"] = "Mal'Ganis Defeated: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "A Royal Escort",
+				["level"] = 80,
 				["criteria_1_type"] = "monster",
-				["level"] = 77,
-				["tag"] = "World Event",
+				["tag"] = "Dungeon",
 			},
 			[13152] = {
 				["criteria_2_text"] = "Help Patches kill Doctor Sabnok: 0/1",
@@ -1795,38 +1524,44 @@ QuestHelper_Collector = {
 				["criteria_2_monster_true"] = {
 				},
 				["criteria_1_satisfied"] = "L\000j½[\000gd«\000l",
-				["end_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
-				["name"] = "A Visit to the Doctor",
-				["criteria_2_satisfied"] = "M121mL\000Cç[\000\r´«\000l",
-				["daily"] = false,
-				["level"] = 80,
 				["criteria_1_monster_false"] = {
 					[119] = 77,
 					[121] = 197,
 				},
-				["criteria_2_type"] = "monster",
-			},
-			[50014] = {
-				["criteria_2_text"] = "Avatar of Hakkar slain: 0/1",
-				["criteria_1_text"] = "0",
-				["criteria_4_type"] = "monster",
+				["name"] = "A Visit to the Doctor",
+				["end_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
 				["daily"] = false,
 				["level"] = 80,
-				["criteria_5_type"] = "monster",
+				["criteria_2_satisfied"] = "M121mL\000Cç[\000\r´«\000l",
+				["criteria_2_type"] = "monster",
+			},
+			[50016] = {
 				["groupcount"] = 0,
-				["criteria_5_text"] = "Leotheras the Blind slain: 0/1",
-				["criteria_4_text"] = "Doomwalker slain: 0/1",
-				["criteria_3_text"] = "Moam slain: 0/1",
-				["items_reward"] = {
-					[49426] = 10,
-					[47241] = 10,
-					[299985] = 1,
-				},
-				["name"] = "Una amenaza latente",
+				["criteria_1_text"] = "Players slain: 1/40",
 				["special_item"] = false,
-				["criteria_3_type"] = "monster",
-				["tag"] = "Raid",
-				["criteria_1_type"] = "event",
+				["daily"] = false,
+				["name"] = "Muestra de ValentÃ­a",
+				["items_reward"] = {
+					[20558] = 1,
+					[299984] = 1,
+				},
+				["criteria_1_type"] = "player",
+				["level"] = 80,
+				["tag"] = "PvP",
+			},
+			[50018] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Cairne Bloodhoof slain: 0/1",
+				["criteria_1_text"] = "Thrall slain: 0/1",
+				["special_item"] = false,
+				["items_reward"] = {
+					[42425] = 5,
+					[299984] = 1,
+				},
+				["name"] = "Muestra de Honor",
+				["daily"] = false,
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
 				["criteria_2_type"] = "monster",
 			},
 			[8240] = {
@@ -1839,19 +1574,6 @@ QuestHelper_Collector = {
 				["daily"] = false,
 				["special_item"] = false,
 			},
-			[13249] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Prophet's Enchanted Tiki: 0/1",
-				["special_item"] = false,
-				["daily"] = true,
-				["name"] = "Proof of Demise: The Prophet Tharon'ja",
-				["items_reward"] = {
-					[47241] = 4,
-				},
-				["criteria_1_type"] = "item",
-				["level"] = 80,
-				["tag"] = "Heroic",
-			},
 			[13220] = {
 				["groupcount"] = 0,
 				["criteria_1_text"] = "Crusader Olakin Sainrith revived: 1/1",
@@ -1859,8 +1581,8 @@ QuestHelper_Collector = {
 				["daily"] = false,
 				["criteria_1_monster_true"] = {
 				},
-				["level"] = 80,
 				["criteria_1_type"] = "monster",
+				["level"] = 80,
 				["criteria_1_monster_false"] = {
 					[121] = 11,
 					[122] = 4,
@@ -1868,60 +1590,32 @@ QuestHelper_Collector = {
 				},
 				["name"] = "Putting Olakin Back Together Again",
 			},
-			[5068] = {
-				["criteria_2_text"] = "Frayed Abomination Stitching: 0/10",
-				["criteria_4_monster_true"] = {
-				},
-				["criteria_1_text"] = "Pristine Hide of the Beast: 0/1",
-				["criteria_4_monster_false"] = {
-					[119] = 1479,
-					[121] = 480,
-					[120] = 321,
-					[122] = 132,
-					[128] = 52,
-				},
-				["criteria_4_type"] = "item",
-				["daily"] = false,
-				["criteria_1_monster_true"] = {
-				},
-				["level"] = 60,
+			[13253] = {
 				["groupcount"] = 0,
-				["criteria_2_type"] = "item",
-				["criteria_3_monster_false"] = {
-					[119] = 1479,
-					[121] = 480,
-					[120] = 321,
-					[122] = 132,
-					[128] = 52,
-				},
-				["criteria_3_monster_true"] = {
-				},
-				["criteria_4_text"] = "Skin of Shadow: 5/5",
-				["criteria_2_monster_true"] = {
-				},
-				["criteria_2_monster_false"] = {
-					[119] = 1479,
-					[121] = 480,
-					[120] = 321,
-					[122] = 132,
-					[128] = 52,
-				},
-				["criteria_3_text"] = "Arcanite Bar: 0/5",
-				["items_reward"] = {
-					[12757] = 1,
-				},
-				["name"] = "Breastplate of Bloodthirst",
-				["criteria_1_type"] = "item",
-				["criteria_3_type"] = "item",
+				["criteria_1_text"] = "Celestial Ruby Ring: 0/1",
 				["special_item"] = false,
-				["criteria_1_monster_false"] = {
-					[119] = 1479,
-					[121] = 480,
-					[120] = 321,
-					[122] = 132,
-					[128] = 52,
+				["daily"] = true,
+				["name"] = "Proof of Demise: Loken",
+				["items_reward"] = {
+					[47241] = 4,
 				},
-				["tag"] = "Group",
+				["criteria_1_type"] = "item",
+				["level"] = 80,
+				["tag"] = "Heroic",
+			},
+			[50040] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Players slain: 0/100",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Cazador de Almas(AB)",
+				["items_reward"] = {
+					[20558] = 5,
+					[299977] = 1,
+				},
+				["criteria_1_type"] = "player",
+				["level"] = 80,
+				["tag"] = "PvP",
 			},
 			[13380] = {
 				["criteria_2_text"] = "Bombardment Captain slain: 0/8",
@@ -1953,19 +1647,6 @@ QuestHelper_Collector = {
 					[121] = 197,
 				},
 				["criteria_2_type"] = "monster",
-			},
-			[13538] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Destroy one of the three southern towers: 0/1",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Southern Sabotage",
-				["items_reward"] = {
-					[43228] = 10,
-				},
-				["criteria_1_type"] = "monster",
-				["level"] = 80,
-				["tag"] = "PvP",
 			},
 			[13381] = {
 				["criteria_2_text"] = "Gargoyle Ambusher slain: 0/20",
@@ -2006,57 +1687,18 @@ QuestHelper_Collector = {
 				},
 				["criteria_2_type"] = "monster",
 			},
-			[24872] = {
+			[13181] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Crystalline Essence of Sindragosa: 0/1",
+				["criteria_1_text"] = "Victory in Lake Wintergrasp",
 				["special_item"] = false,
 				["daily"] = false,
-				["name"] = "Respite for a Tormented Soul",
+				["name"] = "Victory in Wintergrasp",
 				["items_reward"] = {
-					[52006] = 1,
-				},
-				["criteria_1_type"] = "item",
-				["level"] = 80,
-				["tag"] = "Raid (10)",
-			},
-			[24875] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Rescue Darnavan: 0/1",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Deprogramming",
-				["items_reward"] = {
-					[52006] = 1,
-				},
-				["criteria_1_type"] = "monster",
-				["level"] = 80,
-				["tag"] = "Raid (25)",
-			},
-			[24876] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Rotting Frost Giant slain: 0/1",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Securing the Ramparts",
-				["items_reward"] = {
-					[52006] = 1,
-				},
-				["criteria_1_type"] = "monster",
-				["level"] = 80,
-				["tag"] = "Raid (25)",
-			},
-			[24878] = {
-				["groupcount"] = 0,
-				["criteria_1_text"] = "Return with two strains of Blight.",
-				["special_item"] = false,
-				["daily"] = false,
-				["name"] = "Residue Rendezvous",
-				["items_reward"] = {
-					[52006] = 1,
+					[43228] = 10,
 				},
 				["criteria_1_type"] = "event",
 				["level"] = 80,
-				["tag"] = "Raid (25)",
+				["tag"] = "PvP",
 			},
 			[26013] = {
 				["groupcount"] = 0,
@@ -2067,6 +1709,102 @@ QuestHelper_Collector = {
 				["level"] = 82,
 				["criteria_1_type"] = "log",
 				["tag"] = "Raid",
+			},
+			[11405] = {
+				["groupcount"] = 5,
+				["daily"] = true,
+				["name"] = "Call the Headless Horseman",
+				["criteria_1_text"] = "Take a Dreary Candle to the Loosely Turned Soil.",
+				["special_item"] = false,
+				["level"] = -1,
+				["criteria_1_type"] = "log",
+				["tag"] = "Dungeon",
+			},
+			[24873] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Return with two strains of Blight.",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Residue Rendezvous",
+				["items_reward"] = {
+					[52006] = 1,
+				},
+				["criteria_1_type"] = "event",
+				["level"] = 80,
+				["tag"] = "Raid (10)",
+			},
+			[2359] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Defias Tower Key: 0/1",
+				["criteria_1_text"] = "Klaven Mortwake's Journal: 0/1",
+				["special_item"] = false,
+				["items_reward"] = {
+					[18160] = 1,
+				},
+				["name"] = "Klaven's Tower",
+				["daily"] = false,
+				["level"] = -1,
+				["criteria_1_type"] = "item",
+				["criteria_2_type"] = "item",
+			},
+			[8233] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "A Simple Request",
+				["level"] = 52,
+				["special_item"] = false,
+			},
+			[6681] = {
+				["groupcount"] = 0,
+				["daily"] = false,
+				["name"] = "The Manor, Ravenholdt",
+				["criteria_1_text"] = "Rite of Cunning: 0/1",
+				["special_item"] = false,
+				["level"] = 24,
+				["criteria_1_type"] = "monster",
+			},
+			[24590] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Lord Marrowgar slain: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Lord Marrowgar Must Die!",
+				["items_reward"] = {
+					[49426] = 5,
+					[47241] = 5,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["tag"] = "Raid",
+			},
+			[13207] = {
+				["groupcount"] = 0,
+				["items_choice"] = {
+					[44371] = 1,
+					[44370] = 1,
+					[44372] = 1,
+					[44373] = 1,
+				},
+				["criteria_1_text"] = "Brann's Exploration complete: 1/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Halls of Stone",
+				["level"] = 78,
+				["criteria_1_type"] = "monster",
+				["tag"] = "Dungeon",
+			},
+			[24879] = {
+				["groupcount"] = 0,
+				["criteria_1_text"] = "Minchar Rescued: 0/1",
+				["special_item"] = false,
+				["daily"] = false,
+				["name"] = "Blood Quickening",
+				["items_reward"] = {
+					[52006] = 1,
+				},
+				["criteria_1_type"] = "monster",
+				["level"] = 80,
+				["tag"] = "Raid (25)",
 			},
 			[5166] = {
 				["criteria_2_text"] = "Brilliant Chromatic Scale: 0/10",
@@ -2123,22 +1861,86 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "Group",
 			},
-			[13482] = {
+			[13244] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Escort Father Kamaros to safety",
+				["items_choice"] = {
+					[44711] = 1,
+					[43950] = 1,
+					[44710] = 1,
+					[49702] = 1,
+					[44713] = 1,
+				},
+				["criteria_1_text"] = "Titanium Vanguard slain: 0/7",
 				["special_item"] = false,
-				["daily"] = false,
+				["items_reward"] = {
+					[47241] = 3,
+				},
+				["name"] = "Timear Foresees Titanium Vanguards in your Future!",
+				["daily"] = true,
+				["level"] = 80,
+				["criteria_1_type"] = "monster",
+				["tag"] = "Dungeon",
+			},
+			[50009] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Gema peculiar: 0/4",
+				["criteria_1_text"] = "Hueso de dragÃ³n: 0/4",
+				["special_item"] = false,
+				["items_reward"] = {
+					[47241] = 2,
+				},
+				["name"] = "InvestigaciÃ³n: VrTbra2",
+				["daily"] = true,
+				["tag"] = "World Event",
+				["level"] = 76,
+				["criteria_1_type"] = "item",
+				["criteria_2_type"] = "item",
+			},
+			[13404] = {
+				["criteria_2_text"] = "Bombardment Captain slain: 0/10",
+				["criteria_1_text"] = "Bombardment Infantry slain: 0/50",
+				["special_item"] = false,
+				["daily"] = true,
 				["criteria_1_monster_true"] = {
 				},
-				["level"] = 80,
-				["criteria_1_type"] = "event",
-				["criteria_1_monster_false"] = {
-					[120] = 321,
-					[121] = 158,
-					[119] = 369,
-					[122] = 106,
+				["criteria_1_type"] = "monster",
+				["groupcount"] = 0,
+				["criteria_2_monster_true"] = {
 				},
-				["name"] = "Let's Get Out of Here",
+				["level"] = 80,
+				["criteria_3_text"] = "Gargoyle Ambusher slain: 0/20",
+				["criteria_3_monster_false"] = {
+					[119] = 99,
+					[121] = 197,
+				},
+				["name"] = "Static Shock Troops: the Bombardment",
+				["criteria_3_monster_true"] = {
+				},
+				["criteria_3_type"] = "monster",
+				["criteria_2_monster_false"] = {
+					[119] = 99,
+					[121] = 197,
+				},
+				["criteria_1_monster_false"] = {
+					[119] = 99,
+					[121] = 197,
+				},
+				["criteria_2_type"] = "monster",
+			},
+			[8947] = {
+				["groupcount"] = 0,
+				["criteria_2_text"] = "Enchanted Leather: 0/20",
+				["criteria_1_text"] = "Dark Iron Bar: 0/3",
+				["criteria_4_text"] = "Cured Rugged Hide: 0/4",
+				["special_item"] = false,
+				["criteria_3_text"] = "Mooncloth: 0/3",
+				["daily"] = false,
+				["name"] = "Anthion's Strange Request",
+				["criteria_4_type"] = "item",
+				["criteria_3_type"] = "item",
+				["criteria_1_type"] = "item",
+				["level"] = 60,
+				["criteria_2_type"] = "item",
 			},
 			[5167] = {
 				["criteria_2_text"] = "Brilliant Chromatic Scale: 0/10",
@@ -2196,34 +1998,31 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "Group",
 			},
-			[13181] = {
+			[10649] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Victory in Lake Wintergrasp",
-				["special_item"] = false,
 				["daily"] = false,
-				["name"] = "Victory in Wintergrasp",
-				["items_reward"] = {
-					[43228] = 10,
-				},
-				["criteria_1_type"] = "event",
-				["level"] = 80,
-				["tag"] = "PvP",
+				["name"] = "The Book of Fel Names",
+				["criteria_1_text"] = "Book of Fel Names: 0/1",
+				["special_item"] = false,
+				["level"] = 70,
+				["criteria_1_type"] = "item",
+				["tag"] = "Dungeon",
 			},
 			[13138] = {
 				["groupcount"] = 0,
 				["criteria_1_text"] = "Smelted Metal Bar: 1/1",
-				["criteria_1_monster_true"] = {
-				},
+				["name"] = "I'm Smelting... Smelting!",
 				["special_item"] = false,
 				["daily"] = false,
-				["name"] = "I'm Smelting... Smelting!",
+				["criteria_1_monster_true"] = {
+				},
 				["end"] = "M119m\000ÞZ\000ª\000",
 				["end_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
-				["criteria_1_type"] = "item",
+				["level"] = 80,
 				["criteria_1_monster_false"] = {
 					[119] = 4,
 				},
-				["level"] = 80,
+				["criteria_1_type"] = "item",
 			},
 			[13233] = {
 				["groupcount"] = 0,
@@ -2241,18 +2040,22 @@ QuestHelper_Collector = {
 				},
 				["tag"] = "PvP",
 			},
-			[13186] = {
+			[13482] = {
 				["groupcount"] = 0,
-				["criteria_1_text"] = "Horde Siege Devices destroyed: 0/3",
+				["criteria_1_text"] = "Escort Father Kamaros to safety",
 				["special_item"] = false,
 				["daily"] = false,
-				["name"] = "Stop the Siege",
-				["items_reward"] = {
-					[43228] = 10,
+				["criteria_1_monster_true"] = {
 				},
-				["criteria_1_type"] = "monster",
+				["criteria_1_type"] = "event",
 				["level"] = 80,
-				["tag"] = "PvP",
+				["criteria_1_monster_false"] = {
+					[120] = 321,
+					[121] = 158,
+					[119] = 369,
+					[122] = 106,
+				},
+				["name"] = "Let's Get Out of Here",
 			},
 			[13297] = {
 				["groupcount"] = 5,
@@ -2276,10 +2079,10 @@ QuestHelper_Collector = {
 			[13140] = {
 				["groupcount"] = 0,
 				["criteria_1_text"] = "Runed Saronite Plate: 0/5",
-				["start_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
-				["name"] = "The Runesmiths of Malykriss",
-				["special_item"] = false,
 				["daily"] = false,
+				["name"] = "The Runesmiths of Malykriss",
+				["criteria_1_satisfied"] = "C2cI43851iI33470iI43851iI43291iL\000h\n—\000>^¼\000lI43089iI33470iI33470iI43852iI43291iL\000h\n—\000>^¼\000lI33470iI43852iI33429iI33470iI43291iL\000h\n—\000>^¼\000lI33445iI43851iI43852iI43291iL\000÷û–\000…3¼\000l",
+				["start_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
 				["criteria_1_monster_true"] = {
 				},
 				["criteria_1_type"] = "item",
@@ -2292,7 +2095,7 @@ QuestHelper_Collector = {
 					[122] = 132,
 					[128] = 52,
 				},
-				["criteria_1_satisfied"] = "C2cI43851iI33470iI43851iI43291iL\000h\n—\000>^¼\000lI43089iI33470iI33470iI43852iI43291iL\000h\n—\000>^¼\000lI33470iI43852iI33429iI33470iI43291iL\000h\n—\000>^¼\000lI33445iI43851iI43852iI43291iL\000÷û–\000…3¼\000l",
+				["special_item"] = false,
 			},
 			[13235] = {
 				["groupcount"] = 0,
@@ -2306,8 +2109,8 @@ QuestHelper_Collector = {
 				["special_item"] = false,
 				["daily"] = false,
 				["name"] = "The Flesh Giant Champion",
-				["criteria_1_type"] = "monster",
 				["level"] = 80,
+				["criteria_1_type"] = "monster",
 				["criteria_1_monster_false"] = {
 					[119] = 22,
 					[122] = 22,
@@ -2315,55 +2118,28 @@ QuestHelper_Collector = {
 				["criteria_1_monster_true"] = {
 				},
 			},
-			[13672] = {
+			[13211] = {
 				["groupcount"] = 0,
-				["daily"] = false,
-				["name"] = "Up To The Challenge",
-				["criteria_1_text"] = "Aspirant's Seal: 8/15",
-				["special_item"] = false,
-				["level"] = 80,
-				["criteria_1_type"] = "item",
-			},
-			[24749] = {
-				["groupcount"] = 0,
-				["daily"] = false,
-				["name"] = "Unholy Infusion",
-				["criteria_1_text"] = "Infuse Shadow's Edge with Unholy power then slay Putricide.",
-				["special_item"] = false,
-				["level"] = 80,
-				["criteria_1_type"] = "event",
-				["tag"] = "Raid (25)",
-			},
-			[13404] = {
-				["criteria_2_text"] = "Bombardment Captain slain: 0/10",
-				["criteria_1_text"] = "Bombardment Infantry slain: 0/50",
-				["special_item"] = false,
-				["daily"] = true,
+				["items_choice"] = {
+					[43900] = 1,
+					[43893] = 1,
+					[43880] = 1,
+				},
+				["criteria_1_text"] = "Festering Corpse burned: 0/7",
+				["start_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
 				["criteria_1_monster_true"] = {
 				},
+				["criteria_1_satisfied"] = "L\000|ºY\000ìï¬\000lL\000_µY\000v¡ª\000lL\000ËüX\000­'©\000lL\000=„[\000—î¨\000l",
+				["daily"] = false,
+				["name"] = "By Fire Be Purged",
 				["criteria_1_type"] = "monster",
-				["groupcount"] = 0,
-				["criteria_2_monster_true"] = {
-				},
+				["start"] = "M119m\000Ÿ–Z\000Ûß©\000",
 				["level"] = 80,
-				["criteria_3_text"] = "Gargoyle Ambusher slain: 0/20",
-				["criteria_3_monster_false"] = {
-					[119] = 99,
-					[121] = 197,
-				},
-				["name"] = "Static Shock Troops: the Bombardment",
-				["criteria_3_monster_true"] = {
-				},
-				["criteria_3_type"] = "monster",
-				["criteria_2_monster_false"] = {
-					[119] = 99,
-					[121] = 197,
-				},
 				["criteria_1_monster_false"] = {
-					[119] = 99,
+					[119] = 65,
 					[121] = 197,
 				},
-				["criteria_2_type"] = "monster",
+				["special_item"] = 43524,
 			},
 			[5063] = {
 				["criteria_2_text"] = "Frayed Abomination Stitching: 0/5",
@@ -2466,6 +2242,112 @@ QuestHelper_Collector = {
 				["special_item"] = false,
 				["criteria_3_type"] = "item",
 				["criteria_1_type"] = "item",
+				["criteria_1_monster_false"] = {
+					[119] = 1479,
+					[121] = 480,
+					[120] = 321,
+					[122] = 132,
+					[128] = 52,
+				},
+				["tag"] = "Group",
+			},
+			[13212] = {
+				["criteria_2_text"] = "Olakin's Legs: 0/1",
+				["criteria_4_monster_true"] = {
+				},
+				["criteria_1_text"] = "Olakin's Torso: 0/1",
+				["criteria_4_monster_false"] = {
+					[128] = 52,
+					[121] = 30,
+					[119] = 693,
+					[122] = 14,
+				},
+				["criteria_4_type"] = "item",
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["end"] = "M119m\000C•Z\000+Í©\000",
+				["criteria_1_type"] = "item",
+				["groupcount"] = 0,
+				["criteria_3_satisfied"] = "I43528iL\000Î,W\000øp±\000l",
+				["criteria_1_monster_false"] = {
+					[128] = 52,
+					[121] = 30,
+					[119] = 693,
+					[122] = 14,
+				},
+				["special_item"] = false,
+				["level"] = 80,
+				["criteria_4_text"] = "Olakin's Right Arm: 0/1",
+				["criteria_2_monster_true"] = {
+				},
+				["criteria_3_monster_true"] = {
+				},
+				["criteria_1_satisfied"] = "M119mI43527iL\000F¶]\000	™¶\000l",
+				["criteria_3_monster_false"] = {
+					[128] = 52,
+					[121] = 30,
+					[119] = 693,
+					[122] = 14,
+				},
+				["name"] = "He's Gone to Pieces",
+				["criteria_3_text"] = "Olakin's Left Arm: 0/1",
+				["criteria_3_type"] = "item",
+				["criteria_2_monster_false"] = {
+					[128] = 52,
+					[121] = 30,
+					[119] = 693,
+					[122] = 14,
+				},
+				["end_spec"] = "2DE80¤$U²ÃE±Y	œ\000\000\000\000\000\000\000\000\000\000\000d(\000\000\000\000\000\000à",
+				["criteria_2_type"] = "item",
+			},
+			[5068] = {
+				["criteria_2_text"] = "Frayed Abomination Stitching: 0/10",
+				["criteria_4_monster_true"] = {
+				},
+				["criteria_1_text"] = "Pristine Hide of the Beast: 0/1",
+				["criteria_4_monster_false"] = {
+					[119] = 1479,
+					[121] = 480,
+					[120] = 321,
+					[122] = 132,
+					[128] = 52,
+				},
+				["criteria_4_type"] = "item",
+				["daily"] = false,
+				["criteria_1_monster_true"] = {
+				},
+				["level"] = 60,
+				["groupcount"] = 0,
+				["criteria_2_type"] = "item",
+				["criteria_3_monster_false"] = {
+					[119] = 1479,
+					[121] = 480,
+					[120] = 321,
+					[122] = 132,
+					[128] = 52,
+				},
+				["criteria_3_monster_true"] = {
+				},
+				["criteria_4_text"] = "Skin of Shadow: 5/5",
+				["criteria_2_monster_true"] = {
+				},
+				["criteria_2_monster_false"] = {
+					[119] = 1479,
+					[121] = 480,
+					[120] = 321,
+					[122] = 132,
+					[128] = 52,
+				},
+				["criteria_3_text"] = "Arcanite Bar: 0/5",
+				["items_reward"] = {
+					[12757] = 1,
+				},
+				["name"] = "Breastplate of Bloodthirst",
+				["criteria_1_type"] = "item",
+				["criteria_3_type"] = "item",
+				["special_item"] = false,
 				["criteria_1_monster_false"] = {
 					[119] = 1479,
 					[121] = 480,

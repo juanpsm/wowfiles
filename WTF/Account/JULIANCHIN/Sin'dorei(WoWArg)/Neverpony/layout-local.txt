@@ -1,0 +1,15 @@
+Version: 1
+Frame: Recount_MainWindow
+FrameLevel: 19
+Anchor: CENTER
+X: -58
+Y: 16
+W: 140
+H: 200
+Frame: KoordinatorMiniWindowFrame
+FrameLevel: 21
+Anchor: TOPRIGHT
+X: -63
+Y: -176
+W: 46
+H: 24

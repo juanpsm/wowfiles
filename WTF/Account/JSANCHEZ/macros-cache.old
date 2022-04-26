@@ -1,0 +1,71 @@
+MACRO 19 "," Ability_Druid_EclipseOrange
+END
+MACRO 18 "." Ability_Druid_Eclipse
+END
+MACRO 2 "Alguien" Ability_Ambush
+/y Hay alguien ahi??
+END
+MACRO 24 "asd" INV_Misc_QuestionMark
+END
+MACRO 5 "bobber" Ability_Creature_Poison_01
+/console Sound_EnableSFX 0 
+/script UIErrorsFrame:Hide() 
+/cast Fishing 
+/cast Fishing 
+/cast Fishing 
+/cast Fishing 
+/script UIErrorsFrame:Clear() 
+/script UIErrorsFrame:Show() 
+/console Sound_EnableSFX 1
+END
+MACRO 7 "By fire Purged!!" Ability_Mage_FieryPayback
+/script PlaySoundFile("Sound\\Creature\\Ragnaros\\RagnarosSpecialAttack01.wav")
+/cast Olakin's Torch
+END
+MACRO 23 "DELETE" Ability_Creature_Cursed_02
+/run for bag=0,4,1 do for slot=1,36,1 do local name=GetContainerItemLink(bag,slot);if (name and string.find(name,"Unadorned Seal of Ascension")) or (name and string.find(name,"Item2")) then PickupContainerItem(bag,slot);DeleteCursorItem();end;end;end
+END
+MACRO 15 "Fishing" Ability_Hunter_Pet_Worm
+#showtooltip Fishing
+/script UIErrorsFrame:UnregisterEvent("UI_ERROR_MESSAGE");
+/equip Arcanite Fishing Pole
+/equip Weather-Beaten Fishing Hat
+/script UIErrorsFrame:RegisterEvent("UI_ERROR_MESSAGE");
+/use Fishing
+END
+MACRO 4 "Fishmount" Ability_Creature_Poison_04
+/cast [nomodifier, nomounted]fishing 
+/use [modifier:alt, flyable]Tawny Windrider; [modifier:alt, noflyable]Black War Bear 
+/dismount [mounted] 
+/use [modifier:shift] Weather-Beaten Fishing Hat
+/use [modifier:shift] 16
+END
+MACRO 13 "Focus" Ability_CheapShot
+/focus target
+END
+MACRO 14 "Follow" Ability_Creature_Cursed_01
+/follow
+END
+MACRO 17 "Macro" Spell_Shadow_GhostKey
+/macro
+END
+MACRO 10 "parrot" Ability_Creature_Poison_05
+/target overseer
+END
+MACRO 11 "RecountClear" Ability_DualWield
+/run CombatLogClearEntries()
+/recount reset
+/recount show
+END
+MACRO 6 "SET" Ability_Creature_Disease_02
+/run local k,s=1,{"Belt","Boots","Bracers","Gauntlets","Hauberk","Helm","Leggings","Shoulderguards"}for i=43442,43449 do print("\124cff0070dd\124Hitem:"..i..":0:0:0:0:0:0:0:0\124h[Swiftarrow "..s[k].."]\124h\124r")k=k+1 end
+END
+MACRO 16 "SVC" Ability_Creature_Poison_05
+#showtooltip Speckled Tastyfish
+END
+MACRO 22 "tournament" Ability_Mount_Charger
+/cast Thrust
+/cast Shield-Breaker
+/cast Charge
+/cast Defend
+END

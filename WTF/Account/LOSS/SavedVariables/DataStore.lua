@@ -1,22 +1,17 @@
 
 DataStoreDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Sin'Dorei.Lossena"] = {
-				["faction"] = "Horde",
+			["Default.WoWArg.Lossana"] = {
 				["guildName"] = "Staff",
-			},
-			["Default.Sin'Dorei.Lossana"] = {
 				["faction"] = "Alliance",
-				["guildName"] = "Staff",
 			},
 		},
 		["Guilds"] = {
-			["Default.Sin'Dorei.Staff"] = {
+			["Default.WoWArg.Staff"] = {
 				["faction"] = "Alliance",
 			},
 		},

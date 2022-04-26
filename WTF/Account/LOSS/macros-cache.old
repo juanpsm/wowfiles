@@ -1,18 +1,49 @@
+MACRO 15 "appear" Ability_Vanish
+.appear
+END
+MACRO 11 "fenix" Spell_Shadow_ShadowWordPain
+.montar 17890
+END
 MACRO 5 "fly" Ability_Hunter_Pet_Wasp
 .volar on
+END
+MACRO 13 "follow" Ability_CheapShot
+/focus
+/follow
 END
 MACRO 2 "freeze" Spell_Deathknight_FrostPresence
 .freeze
 END
+MACRO 14 "gmis" Ability_TownWatch
+.tel gmis
+END
+MACRO 16 "macro" Spell_Shadow_GhostKey
+/macro
+END
 MACRO 3 "mount" Ability_Mount_Dreadsteed
-.montar 32345
+.montar 15289
+END
+MACRO 12 "Mount ID" Spell_Shadow_Teleport
+/run local mount = "Grand Armored Gryphon";for i,v in pairs(C_MountJournal.GetMountIDs()) do local n = C_MountJournal.GetMountInfoByID(v);if(n == mount) then print(mount.." ID is "..v);return; end end
 END
 MACRO 7 "npc info" Ability_Hunter_SilentHunter
 .npc info
+END
+MACRO 10 "pollo" Spell_Magic_PolymorphChicken
+.montar 29344
+END
+MACRO 18 "quest" Ability_Hunter_Invigeration
+.loo q Cleansing Drak'Tharon
+END
+MACRO 8 "s" INV_Misc_QuestionMark
+Hola! Buenas noches. Lo que tenes que hacer es asegurarte de haber abandonado la quest que te dan ahi en la arena, luego deslogueas, cerras el juego, borras cache. Eso debería solucionarte el problema.
 END
 MACRO 6 "speed" Ability_Druid_Dash
 .velo 10
 END
 MACRO 1 "Spy" Ability_Hunter_AspectoftheViper
 /spy
+END
+MACRO 17 "target" Ability_Hunter_MasterTactitian
+/target Straydog
 END

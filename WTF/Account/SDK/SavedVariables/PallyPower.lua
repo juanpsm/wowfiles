@@ -6,8 +6,8 @@ PallyPowerDB = {
 			["display"] = {
 				["frameLocked"] = true,
 			},
-			["rf"] = false,
 			["disable"] = false,
+			["rf"] = false,
 		},
 	},
 }

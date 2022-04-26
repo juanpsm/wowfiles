@@ -1,197 +1,304 @@
 
 AltoholicDB = {
-	["profileKeys"] = {
-		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
-		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
-		["Miratros - WoWArg"] = "Miratros - WoWArg",
-		["Bloodpurge - WoWArg"] = "Bloodpurge - WoWArg",
-		["Operator - WoWArg"] = "Operator - WoWArg",
-		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
-		["Deadly - WoWArg"] = "Deadly - WoWArg",
-		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
-		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
-		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
-		["Skombrow - Bennu"] = "Skombrow - Bennu",
-		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
-		["Microwave - WoWArg"] = "Microwave - WoWArg",
-		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
-		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
-		["Rivo - WoWArg"] = "Rivo - WoWArg",
-		["Snts - WoWArg"] = "Snts - WoWArg",
-		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
-		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
-		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
-		["Mithrandil - WoWArg"] = "Mithrandil - WoWArg",
-		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
-	},
 	["global"] = {
 		["Sharing"] = {
 			["SharedContent"] = {
-				["Default.WoWArg.Chamdoc.DataStore_Quests"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Containers"] = true,
 				["Default.WoWArg.Microwave.DataStore_Crafts"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Mails"] = true,
+				["Default.WoWArg.The Knights Of The Death"] = 1,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Talents"] = true,
+				["Default.WoWArg.Firecracker"] = 1,
 				["Default.WoWArg.Orden Fenix"] = true,
 				["Default.WoWArg.Draenoric"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Reputations"] = true,
-				["Default.WoWArg.Dioses de la Alianza.3"] = true,
-				["Default.WoWArg.Microwave.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Crafts"] = true,
+				["Default.WoWArg.Snts.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Talents"] = true,
 				["Default.WoWArg.Eldorath.DataStore_Mails"] = true,
-				["Default.WoWArg.LaPatrullaRoja"] = true,
-				["Default.WoWArg.Microwave.DataStore_Mails"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Crafts"] = true,
 				["Default.WoWArg.Eldorath.DataStore_Inventory"] = true,
 				["Default.WoWArg.Fjaak.DataStore_Talents"] = true,
-				["Default.WoWArg.Deadly.DataStore_Pets"] = true,
+				["Default.WoWArg.LaPatrullaRoja.5"] = true,
 				["Default.WoWArg.Draenoric.DataStore_Mails"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Auctions"] = true,
+				["Default.WoWArg.Subjected"] = 1,
 				["Default.WoWArg.Los Exiliados.1"] = true,
 				["Default.WoWArg.The Wild Hunt.2"] = true,
-				["Default.WoWArg.Los Exiliados.2"] = true,
-				["Default.WoWArg.Orden Fenix.2"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Pets"] = true,
+				["Default.WoWArg.Snts.DataStore_Pets"] = true,
 				["Default.WoWArg.Draenoric.DataStore_Talents"] = true,
-				["Default.WoWArg.LaPatrullaRoja.4"] = true,
-				["Default.WoWArg.Deadly.DataStore_Talents"] = true,
-				["Default.WoWArg.Orden Fenix.3"] = true,
-				["Default.WoWArg.Microwave.DataStore_Talents"] = true,
+				["Default.WoWArg.Deadly.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Quests"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Quests"] = true,
 				["Default.WoWArg.Los Exiliados.3"] = true,
-				["Default.WoWArg.Orden Fenix.5"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Currencies"] = true,
 				["Default.WoWArg.Los Exiliados.4"] = true,
 				["Default.WoWArg.The Wild Hunt.3"] = true,
-				["Default.WoWArg.The Burning Crusade"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Skills"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Reputations"] = true,
 				["Default.WoWArg.Microwave.DataStore_Skills"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Orden Fenix.3"] = true,
 				["Default.WoWArg.Skombrow.DataStore_Spells"] = true,
-				["Default.WoWArg.LaPatrullaRoja.3"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Achievements"] = true,
 				["Default.WoWArg.Skombrow.DataStore_Auctions"] = true,
 				["Default.WoWArg.Draenoric.DataStore_Auctions"] = true,
-				["Default.WoWArg.Snts.DataStore_Crafts"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Spells"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Crafts"] = true,
-				["Default.WoWArg.Deadly"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Inventory"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Inventory"] = true,
-				["Default.WoWArg.Microwave.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak"] = true,
+				["Default.WoWArg.Snts.DataStore_Inventory"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Quests"] = true,
+				["Default.WoWArg.Snts.DataStore_Quests"] = true,
 				["Default.WoWArg.Doroteo"] = true,
 				["Default.WoWArg.Skombrow.DataStore_Pets"] = true,
 				["Default.WoWArg.Microwave.DataStore_Pets"] = true,
 				["Default.WoWArg.Microwave.DataStore_Inventory"] = true,
 				["Default.WoWArg.Los Exiliados.5"] = true,
-				["Default.WoWArg.LaPatrullaRoja.1"] = true,
-				["Default.WoWArg.The Wild Hunt.4"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Spells"] = true,
+				["Default.WoWArg.Snts"] = true,
 				["Default.WoWArg.Microwave.DataStore_Auctions"] = true,
 				["Default.WoWArg.Orden Fenix.1"] = true,
 				["Default.WoWArg.Los Exiliados"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Pets"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).The Knights Of The Death"] = true,
 				["Default.WoWArg.Snts.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Mails"] = true,
 				["Default.WoWArg.Chamdoc.DataStore_Auctions"] = true,
-				["Default.WoWArg.The Burning Crusade.1"] = true,
-				["Default.WoWArg.Skombrow"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Achievements"] = true,
 				["Default.WoWArg.Snts.DataStore_Skills"] = true,
 				["Default.WoWArg.Microwave.DataStore_Currencies"] = true,
-				["Default.WoWArg.The Burning Crusade.3"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub"] = true,
 				["Default.WoWArg.Eldorath"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Inventory"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Crafts"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Mails"] = true,
 				["Default.WoWArg.Snts.DataStore_Mails"] = true,
-				["Default.WoWArg.Illidaris"] = true,
+				["Default.WoWArg.Dioses de la Alianza.1"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Spells"] = true,
 				["Default.WoWArg.Deadly.DataStore_Skills"] = true,
-				["Default.WoWArg.Deadly.DataStore_Mails"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Skills"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Quests"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Talents"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Reputations"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Quests"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Pets"] = true,
+				["Default.WoWArg.Underclub"] = 1,
 				["Default.WoWArg.Skombrow.DataStore_Reputations"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Currencies"] = true,
-				["Default.WoWArg.Deadly.DataStore_Achievements"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Spells"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Reputations"] = true,
+				["Default.WoWArg.Facheritos"] = 1,
+				["Default.WoWArg.Doroteo.DataStore_Achievements"] = true,
 				["Default.WoWArg.Orden Fenix.4"] = true,
 				["Default.WoWArg.Snts.DataStore_Auctions"] = true,
 				["Default.WoWArg.Eldorath.DataStore_Pets"] = true,
-				["Default.WoWArg.Snts.DataStore_Spells"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Currencies"] = true,
 				["Default.WoWArg.Skombrow.DataStore_Containers"] = true,
-				["Default.WoWArg.Snts.DataStore_Reputations"] = true,
-				["Default.WoWArg.Snts.DataStore_Quests"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Quests"] = true,
+				["Default.WoWArg.Alianza WoWArg"] = 1,
 				["Default.WoWArg.Skombrow.DataStore_Quests"] = true,
-				["Default.WoWArg.Snts.DataStore_Pets"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Crafts"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Skills"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Inventory"] = true,
 				["Default.WoWArg.Deadly.DataStore_Currencies"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Skills"] = true,
-				["Default.WoWArg.Snts.DataStore_Inventory"] = true,
 				["Default.WoWArg.Deadly.DataStore_Auctions"] = true,
-				["Default.WoWArg.Microwave.DataStore_Containers"] = true,
-				["Default.WoWArg.Snts"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Quests"] = true,
 				["Default.WoWArg.The Wild Hunt.1"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Quests"] = true,
+				["Default.Sin'dorei(WoWArg).Mare Magnum"] = true,
 				["Default.WoWArg.Microwave.DataStore_Achievements"] = true,
-				["Default.WoWArg.Best in Slot"] = true,
-				["Default.WoWArg.Microwave.DataStore_Quests"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Crafts"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Crafts"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Skills"] = true,
+				["Default.WoWArg.Rivo"] = 1,
 				["Default.WoWArg.Doroteo.DataStore_Containers"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Containers"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Mails"] = true,
 				["Default.WoWArg.Deadly.DataStore_Crafts"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Mails"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Quests"] = true,
 				["Default.WoWArg.Draenoric.DataStore_Currencies"] = true,
-				["Default.WoWArg.The Wild Hunt.5"] = true,
 				["Default.WoWArg.Draenoric.DataStore_Achievements"] = true,
-				["Default.WoWArg.Snts.DataStore_Achievements"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Pets"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Quests"] = true,
 				["Default.WoWArg.Los Exiliados.6"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Spells"] = true,
-				["Default.WoWArg.Deadly.DataStore_Reputations"] = true,
-				["Default.WoWArg.Deadly.DataStore_Spells"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Containers"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Achievements"] = true,
 				["Default.WoWArg.Fjaak.DataStore_Crafts"] = true,
 				["Default.WoWArg.Snts.DataStore_Containers"] = true,
-				["Default.WoWArg.Fjaak"] = true,
 				["Default.WoWArg.Snts.DataStore_Talents"] = true,
-				["Default.WoWArg.The Wild Hunt"] = true,
 				["Default.WoWArg.Doroteo.DataStore_Auctions"] = true,
-				["Default.WoWArg.Draenoric.DataStore_Inventory"] = true,
-				["Default.WoWArg.The Burning Crusade.2"] = true,
-				["Default.WoWArg.Dioses de la Alianza.1"] = true,
+				["Default.WoWArg.The Wild Hunt"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Spells"] = true,
+				["Default.WoWArg.Chamdoc"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Skills"] = true,
+				["Default.WoWArg.Microwave"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Currencies"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Crafts"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Quests"] = true,
+				["Default.Sin'dorei(WoWArg).Orden Fenix.6"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Skills"] = true,
+				["Default.Sin'dorei(WoWArg).Facheritos"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Currencies"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Reputations"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Quests"] = true,
+				["Default.WoWArg.Microwave.DataStore_Mails"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Orden Fenix"] = true,
+				["Default.Sin'dorei(WoWArg).The Knights Of The Death.3"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Reputations"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Currencies"] = true,
 				["Default.WoWArg.Deadly.DataStore_Inventory"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Containers"] = true,
-				["Default.WoWArg.Dioses de la Alianza"] = true,
+				["Default.WoWArg.Los Exiliados.2"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Containers"] = true,
+				["Default.WoWArg.LaPatrullaRoja.4"] = true,
+				["Default.WoWArg.Orden Fenix.3"] = true,
+				["Default.WoWArg.Microwave.DataStore_Talents"] = true,
+				["Default.WoWArg.Deadly.DataStore_Spells"] = true,
+				["Default.WoWArg.Orden Fenix.5"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Mails"] = true,
+				["Default.WoWArg.The Burning Crusade.2"] = true,
+				["Default.WoWArg.The Burning Crusade"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Skills"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Containers"] = true,
+				["Default.WoWArg.Die Verbannten"] = 1,
+				["Default.WoWArg.LaPatrullaRoja.3"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Pets"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Mails"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Pets"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Orden Fenix.5"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Achievements"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Inventory"] = true,
+				["Default.WoWArg.Microwave.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Pets"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Skills"] = true,
+				["Default.WoWArg.LaPatrullaRoja.1"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Quests"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Reputations"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Crafts"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Reputations"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Inventory"] = true,
 				["Default.WoWArg.Chamdoc.DataStore_Pets"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Spells"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Crafts"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Inventory"] = true,
+				["Default.WoWArg.Skombrow"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Inventory"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Skills"] = true,
+				["Default.Sin'dorei(WoWArg).The Knights Of The Death.1"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).The Knights Of The Death.2"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Containers"] = true,
+				["Default.WoWArg.The Burning Crusade.3"] = true,
+				["Default.Sin'dorei(WoWArg).Snts"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Crafts"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Inventory"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Talents"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Spells"] = true,
+				["Default.WoWArg.The Burning Crusade.1"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Achievements"] = true,
+				["Default.WoWArg.Illidaris"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Die Verbannten"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Quests"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Talents"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Inventory"] = true,
+				["Default.WoWArg.Dioses de la Alianza.3"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Quests"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Skills"] = true,
+				["Default.WoWArg.LaPatrullaRoja"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Quests"] = true,
+				["Default.WoWArg.Deadly.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Currencies"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Skills"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Achievements"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Spells"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Crafts"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Pets"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Crafts"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Auctions"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Crafts"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Mails"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Crafts"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Skills"] = true,
+				["Default.WoWArg.Snts.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Inventory"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Skills"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Skills"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Pets"] = true,
+				["Default.WoWArg.Microwave.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Reputations"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Skills"] = true,
+				["Default.WoWArg.Orden Fenix.2"] = true,
+				["Default.Sin'dorei(WoWArg).Draenoric.DataStore_Inventory"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Auctions"] = true,
+				["Default.WoWArg.Best in Slot"] = true,
+				["Default.WoWArg.Microwave.DataStore_Quests"] = true,
+				["Default.WoWArg.Deadly.DataStore_Talents"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Inventory"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Containers"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Auctions"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Containers"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo"] = true,
+				["Default.WoWArg.Doroteo.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Talents"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Currencies"] = true,
+				["Default.WoWArg.The Wild Hunt.5"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Crafts"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Skills"] = true,
+				["Default.Sin'dorei(WoWArg).Skombrow.DataStore_Reputations"] = true,
+				["Default.WoWArg.Snts.DataStore_Crafts"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Spells"] = true,
+				["Default.WoWArg.Deadly.DataStore_Reputations"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Skills"] = true,
+				["Default.WoWArg.Deadly.DataStore_Pets"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Talents"] = true,
+				["Default.WoWArg.Deadly"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Achievements"] = true,
+				["Default.WoWArg.Fjaak"] = true,
+				["Default.Sin'dorei(WoWArg).Orden Fenix.4"] = true,
+				["Default.WoWArg.LaPatrullaRoja.2"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Inventory"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Inventory"] = true,
+				["Default.Sin'dorei(WoWArg).Orden Fenix.1"] = true,
+				["Default.WoWArg.Eldorath.DataStore_Currencies"] = true,
+				["Default.WoWArg.The Wild Hunt.4"] = true,
+				["Default.WoWArg.Deadly.DataStore_Mails"] = true,
+				["Default.WoWArg.Dioses de la Alianza"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Pets"] = true,
+				["Default.Sin'dorei(WoWArg).Underclub.DataStore_Crafts"] = true,
 				["Default.WoWArg.Deadly.DataStore_Quests"] = true,
 				["Default.WoWArg.Chamdoc.DataStore_Talents"] = true,
-				["Default.WoWArg.Chamdoc.DataStore_Spells"] = true,
-				["Default.WoWArg.Chamdoc"] = true,
-				["Default.WoWArg.Deadly.DataStore_Containers"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Pets"] = true,
-				["Default.WoWArg.LaPatrullaRoja.5"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Reputations"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Mails"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Inventory"] = true,
+				["Default.WoWArg.Microwave.DataStore_Reputations"] = true,
+				["Default.WoWArg.Snts.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Fjaak.DataStore_Skills"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Crafts"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Subjected.DataStore_Inventory"] = true,
 				["Default.WoWArg.The Burning Crusade.4"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Containers"] = true,
+				["Default.WoWArg.Skombrow.DataStore_Achievements"] = true,
 				["Default.WoWArg.Dioses de la Alianza.2"] = true,
 				["Default.WoWArg.Doroteo.DataStore_Spells"] = true,
-				["Default.WoWArg.Microwave"] = true,
-				["Default.WoWArg.LaPatrullaRoja.2"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Talents"] = true,
-				["Default.WoWArg.Doroteo.DataStore_Achievements"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Pets"] = true,
+				["Default.Sin'dorei(WoWArg).Snts.DataStore_Quests"] = true,
+				["Default.WoWArg.Chamdoc.DataStore_Spells"] = true,
+				["Default.Sin'dorei(WoWArg).Rivo.DataStore_Mails"] = true,
 				["Default.WoWArg.Orden Fenix.6"] = true,
-				["Default.WoWArg.Fjaak.DataStore_Skills"] = true,
-				["Default.WoWArg.Skombrow.DataStore_Achievements"] = true,
-				["Default.WoWArg.Eldorath.DataStore_Currencies"] = true,
+				["Default.Sin'dorei(WoWArg).Doroteo.DataStore_Pets"] = true,
+				["Default.WoWArg.Fjaak.DataStore_Pets"] = true,
+				["Default.WoWArg.Draenoric.DataStore_Containers"] = true,
 			},
 			["Clients"] = {
 				"Gilraenloss|1", -- [1]
@@ -204,111 +311,105 @@ AltoholicDB = {
 			},
 			["Domains"] = {
 				["julianchin.WoWArg"] = {
-					["lastSharingTimestamp"] = 1555398603,
 					["lastUpdatedWith"] = "Rivothrill",
+					["lastSharingTimestamp"] = 1555398603,
 				},
 				["eezekjel.WoWArg"] = {
-					["lastUpdatedWith"] = "Elchamaquito",
 					["lastSharingTimestamp"] = 1527480896,
+					["lastUpdatedWith"] = "Elchamaquito",
 				},
 			},
 		},
 		["options"] = {
-			["MinimapIconAngle"] = 293,
+			["MinimapIconAngle"] = 213,
 			["GuildBankAutoUpdate"] = 1,
 			["CraftDBConversionDone"] = true,
 			["AccSharingHandlerEnabled"] = 1,
-			["Lola"] = "D27WFKE46YAK18CVYDUF",
+			["Lola"] = "M54KPDZ31ULF22BDIMVP",
 			["TooltipItemID"] = 1,
+			["GuildMailWarning"] = 0,
 			["TooltipGuildBankCountPerTab"] = 1,
+			["TabSummaryMode"] = 4,
 		},
 		["Characters"] = {
-			["Default.WoWArg.Deadly"] = {
-				["Friends"] = {
-					"Crazyfear", -- [1]
-					"Crobar", -- [2]
-					"Delatierra", -- [3]
-					"Jesed", -- [4]
-					"Liomessi", -- [5]
-					"Mcdonald", -- [6]
-					"Reideer", -- [7]
-					"Zorman", -- [8]
-					"Zulux", -- [9]
-				},
-			},
 			["Default.Sin'Dorei.Rivo"] = {
 				["Friends"] = {
-					"Gilraenloss", -- [1]
-					"Delatierra", -- [2]
-					"Elevenhour", -- [3]
+					"Delatierra", -- [1]
+					"Elevenhour", -- [2]
+					"Gilraenloss", -- [3]
 					"Liomessi", -- [4]
 					"Turco", -- [5]
 				},
 			},
+			["Default.Sin'Dorei.Fjaak"] = {
+				["Friends"] = {
+					"Barrio", -- [1]
+					"Crobar", -- [2]
+					"Druidalote", -- [3]
+					"Elchamaquito", -- [4]
+					"Enzoski", -- [5]
+					"Gilraenloss", -- [6]
+					"Liomessi", -- [7]
+					"Missmoon", -- [8]
+					"Skom", -- [9]
+					"Turco", -- [10]
+					"Yeiale", -- [11]
+				},
+			},
 			["Default.WoWArg.Skombrow"] = {
 				["Friends"] = {
-					"Elchamaquito", -- [1]
-					"Gilraenloss", -- [2]
-					"Turco", -- [3]
-					"Anabell", -- [4]
-					"Anetha", -- [5]
-					"Bommbi", -- [6]
-					"Bufardoll", -- [7]
-					"Chavito", -- [8]
-					"Crazyfear", -- [9]
-					"Crobar", -- [10]
-					"Delatierra", -- [11]
-					"Droopy", -- [12]
-					"Druidalote", -- [13]
+					"Anabell", -- [1]
+					"Anetha", -- [2]
+					"Asttarod", -- [3]
+					"Bommbi", -- [4]
+					"Bufardoll", -- [5]
+					"Camyzama", -- [6]
+					"Chavito", -- [7]
+					"Crobar", -- [8]
+					"Delatierra", -- [9]
+					"Droopy", -- [10]
+					"Druidalote", -- [11]
+					"Drujnassu", -- [12]
+					"Elchamaquito", -- [13]
 					"Elevenhour", -- [14]
 					"Epyon", -- [15]
 					"Firstaid", -- [16]
-					"Husoc", -- [17]
-					"Ijaa", -- [18]
-					"Izanagi", -- [19]
-					"Jesed", -- [20]
-					"Leuriona", -- [21]
+					"Gilraenloss", -- [17]
+					"Husoc", -- [18]
+					"Ijaa", -- [19]
+					"Izanagi", -- [20]
+					"Jesed", -- [21]
 					"Liomessi", -- [22]
 					"Mcdonald", -- [23]
-					"Missmoon", -- [24]
-					"Nataku", -- [25]
-					"Neruneya", -- [26]
-					"Nuttyness", -- [27]
-					"Reideer", -- [28]
-					"Skom", -- [29]
-					"Spawm", -- [30]
-					"Sttriker", -- [31]
-					"Tebans", -- [32]
-					"Togucci", -- [33]
-					"Tukkm", -- [34]
-					"Unaseca", -- [35]
-					"Ursark", -- [36]
-					"Vulpurion", -- [37]
-					"Wishful", -- [38]
-					"Zulux", -- [39]
-				},
-			},
-			["Default.WoWArg.Miratros"] = {
-				["Friends"] = {
-					"Indico", -- [1]
-					"Crisisocial", -- [2]
-					"Elnegrofeo", -- [3]
-					"Muelapicada", -- [4]
-					"Taudri", -- [5]
-				},
-			},
-			["Default.WoWArg.Operator"] = {
-				["Friends"] = {
-					"Mcdonald", -- [1]
+					"Mhael", -- [24]
+					"Miedo", -- [25]
+					"Missmoon", -- [26]
+					"Nataku", -- [27]
+					"Neruneya", -- [28]
+					"Nuttyness", -- [29]
+					"Reideer", -- [30]
+					"Roguent", -- [31]
+					"Skom", -- [32]
+					"Spawm", -- [33]
+					"Sttriker", -- [34]
+					"Tebans", -- [35]
+					"Tukkm", -- [36]
+					"Turco", -- [37]
+					"Unaseca", -- [38]
+					"Ursark", -- [39]
+					"Vulpurion", -- [40]
+					"Wishful", -- [41]
+					"Wolverinnex", -- [42]
+					"Zulux", -- [43]
 				},
 			},
 			["Default.WoWArg.Rivo"] = {
 				["Friends"] = {
-					"Liomessi", -- [1]
-					"Turco", -- [2]
-					"Delatierra", -- [3]
-					"Elevenhour", -- [4]
-					"Gilraenloss", -- [5]
+					"Turco", -- [1]
+					"Delatierra", -- [2]
+					"Elevenhour", -- [3]
+					"Gilraenloss", -- [4]
+					"Liomessi", -- [5]
 				},
 			},
 			["Default.Sin'Dorei.Snts"] = {
@@ -324,118 +425,51 @@ AltoholicDB = {
 					"Zaephyr", -- [9]
 				},
 			},
-			["Default.WoWArg.Doroteo"] = {
+			["Default.Sin'dorei(WoWArg).Underclub"] = {
 				["Friends"] = {
-					"Liomessi", -- [1]
-					"Airanosse", -- [2]
-					"Allurarose", -- [3]
-					"Bufardoll", -- [4]
-					"Ciclos", -- [5]
-					"Crazyfear", -- [6]
-					"Crobar", -- [7]
-					"Diegors", -- [8]
-					"Dofu", -- [9]
-					"Elchamaquito", -- [10]
-					"Elevenhour", -- [11]
-					"Elfhelm", -- [12]
-					"Gilraenloss", -- [13]
+					"Gilraenloss", -- [1]
+					"Crazyfear", -- [2]
+					"Crobar", -- [3]
+					"Delatierra", -- [4]
+					"Elchamaquito", -- [5]
+					"Jesed", -- [6]
+					"Liomessi", -- [7]
+					"Mcdonald", -- [8]
+					"Nataku", -- [9]
+					"Reideer", -- [10]
+					"Turco", -- [11]
+					"Zorman", -- [12]
+					"Zulux", -- [13]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Doroteo"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Turco", -- [2]
+					"Airanosse", -- [3]
+					"Allurarose", -- [4]
+					"Bufardoll", -- [5]
+					"Ciclos", -- [6]
+					"Crazyfear", -- [7]
+					"Crobar", -- [8]
+					"Diegors", -- [9]
+					"Dofu", -- [10]
+					"Elchamaquito", -- [11]
+					"Elevenhour", -- [12]
+					"Elfhelm", -- [13]
 					"Jaimitico", -- [14]
 					"Kholorado", -- [15]
-					"Mcdonald", -- [16]
-					"Missmoon", -- [17]
-					"Nightwalker", -- [18]
-					"Nostrade", -- [19]
-					"Pick", -- [20]
-					"Spawm", -- [21]
-					"Sttriker", -- [22]
-					"Tenebrys", -- [23]
-					"Togucci", -- [24]
-					"Turco", -- [25]
+					"Liomessi", -- [16]
+					"Mcdonald", -- [17]
+					"Missmoon", -- [18]
+					"Nightwalker", -- [19]
+					"Nostrade", -- [20]
+					"Pick", -- [21]
+					"Spawm", -- [22]
+					"Sttriker", -- [23]
+					"Tenebrys", -- [24]
+					"Togucci", -- [25]
 					"Wilfred", -- [26]
-				},
-			},
-			["Default.WoWArg.Subjected"] = {
-				["Friends"] = {
-					"Elchamaquito", -- [1]
-					"Gilraenloss", -- [2]
-					"Turco", -- [3]
-					"Akumayoru", -- [4]
-					"Anetha", -- [5]
-					"Crazyfear", -- [6]
-					"Jesed", -- [7]
-					"Mcdonald", -- [8]
-					"Presagista", -- [9]
-					"Redsun", -- [10]
-					"Reideer", -- [11]
-					"Skom", -- [12]
-					"Wardiiola", -- [13]
-					"Zulux", -- [14]
-				},
-			},
-			["Default.WoWArg.Draenoric"] = {
-				["Friends"] = {
-					"Elchamaquito", -- [1]
-					"Turco", -- [2]
-					"Asessyn", -- [3]
-					"Astranar", -- [4]
-					"Bufardoll", -- [5]
-					"Crobar", -- [6]
-					"Dmge", -- [7]
-					"Elevenhour", -- [8]
-					"Fanto", -- [9]
-					"Finweloss", -- [10]
-					"Gilraenloss", -- [11]
-					"Goal", -- [12]
-					"Husoc", -- [13]
-					"Konagi", -- [14]
-					"Lenalee", -- [15]
-					"Ludanita", -- [16]
-					"Malfa", -- [17]
-					"Marianaa", -- [18]
-					"Mcdonald", -- [19]
-					"Missmoon", -- [20]
-					"Nightendd", -- [21]
-					"Nuria", -- [22]
-					"Onilgo", -- [23]
-					"Raaiidd", -- [24]
-					"Reideer", -- [25]
-					"Renecrow", -- [26]
-					"Rivaidia", -- [27]
-					"Skom", -- [28]
-					"Smiuk", -- [29]
-					"Sttriker", -- [30]
-					"Thiccsapx", -- [31]
-					"Winter", -- [32]
-					"Zorman", -- [33]
-				},
-			},
-			["Default.Sin'Dorei.Doroteo"] = {
-				["Friends"] = {
-					"Airanosse", -- [1]
-					"Allurarose", -- [2]
-					"Bufardoll", -- [3]
-					"Ciclos", -- [4]
-					"Crobar", -- [5]
-					"Diegors", -- [6]
-					"Dofu", -- [7]
-					"Elchamaquito", -- [8]
-					"Elevenhour", -- [9]
-					"Elfhelm", -- [10]
-					"Gilraenloss", -- [11]
-					"Jaimitico", -- [12]
-					"Latuza", -- [13]
-					"Liomessi", -- [14]
-					"Mcdonald", -- [15]
-					"Missmoon", -- [16]
-					"Nightwalker", -- [17]
-					"Nostrade", -- [18]
-					"Nuttyness", -- [19]
-					"Pick", -- [20]
-					"Spawm", -- [21]
-					"Sttriker", -- [22]
-					"Tenebrys", -- [23]
-					"Turco", -- [24]
-					"Wilfred", -- [25]
 				},
 			},
 			["Default.WoWArg.Eldorath"] = {
@@ -444,41 +478,21 @@ AltoholicDB = {
 					"Stormtotems", -- [2]
 				},
 			},
-			["Default.WoWArg.Bloodpurge"] = {
+			["Default.Sin'dorei(WoWArg).Subjected"] = {
 				["Friends"] = {
-					"Alkornoke", -- [1]
-					"Flemitax", -- [2]
-					"Guthrakk", -- [3]
-					"Indico", -- [4]
-					"Muelapicada", -- [5]
-					"Nightbull", -- [6]
-					"Oloroso", -- [7]
-					"Tory", -- [8]
-				},
-			},
-			["Default.WoWArg.Microwave"] = {
-				["Friends"] = {
-					"Crazyfear", -- [1]
-					"Liomessi", -- [2]
-					"Lurtz", -- [3]
-					"Missmoon", -- [4]
-					"Tenebrys", -- [5]
-					"Tenebryta", -- [6]
-					"Wwarr", -- [7]
-					"Yaandeel", -- [8]
-				},
-			},
-			["Default.WoWArg.Snts"] = {
-				["Friends"] = {
-					"Turco", -- [1]
-					"Calian", -- [2]
+					"Akumayoru", -- [1]
+					"Anetha", -- [2]
 					"Crazyfear", -- [3]
-					"Gilraenloss", -- [4]
-					"Liomessi", -- [5]
-					"Mcdonald", -- [6]
-					"Skom", -- [7]
-					"Taladan", -- [8]
-					"Zaephyr", -- [9]
+					"Elchamaquito", -- [4]
+					"Gilraenloss", -- [5]
+					"Jesed", -- [6]
+					"Mcdonald", -- [7]
+					"Presagista", -- [8]
+					"Reideer", -- [9]
+					"Skom", -- [10]
+					"Turco", -- [11]
+					"Wardiiola", -- [12]
+					"Zulux", -- [13]
 				},
 			},
 			["Default.Sin'Dorei.Skombrow"] = {
@@ -527,8 +541,421 @@ AltoholicDB = {
 					"Zagazama", -- [42]
 					"Zulux", -- [43]
 				},
+			},
+			["Default.Sin'dorei(WoWArg).Fjaak"] = {
+				["Friends"] = {
+					"Barrio", -- [1]
+					"Crazyfear", -- [2]
+					"Crobar", -- [3]
+					"Druidalote", -- [4]
+					"Elchamaquito", -- [5]
+					"Enzoski", -- [6]
+					"Gilraenloss", -- [7]
+					"Liomessi", -- [8]
+					"Missmoon", -- [9]
+					"Skom", -- [10]
+					"Togucci", -- [11]
+					"Turco", -- [12]
+					"Yeiale", -- [13]
+				},
+			},
+			["Default.WoWArg.Fjaak"] = {
+				["Friends"] = {
+					"Barrio", -- [1]
+					"Crobar", -- [2]
+					"Druidalote", -- [3]
+					"Elchamaquito", -- [4]
+					"Enzoski", -- [5]
+					"Gilraenloss", -- [6]
+					"Liomessi", -- [7]
+					"Missmoon", -- [8]
+					"Skom", -- [9]
+					"Turco", -- [10]
+					"Yeiale", -- [11]
+				},
+			},
+			["Default.WoWArg.Deadly"] = {
+				["Friends"] = {
+					"Crazyfear", -- [1]
+					"Crobar", -- [2]
+					"Delatierra", -- [3]
+					"Elchamaquito", -- [4]
+					"Gilraenloss", -- [5]
+					"Jesed", -- [6]
+					"Liomessi", -- [7]
+					"Mcdonald", -- [8]
+					"Nataku", -- [9]
+					"Reideer", -- [10]
+					"Turco", -- [11]
+					"Zorman", -- [12]
+					"Zulux", -- [13]
+				},
 				["SavedInstance"] = {
-					["Auchindoun: Sethekk Halls 5 Player (Heroic)|799"] = "18898|1637286302|1|1",
+					["The Ruby Sanctum 25 Player|575"] = "436099|1618033903|1|0",
+				},
+			},
+			["Default.Sin'Dorei.Subjected"] = {
+				["Friends"] = {
+					"Akumayoru", -- [1]
+					"Anetha", -- [2]
+					"Blackpower", -- [3]
+					"Elchamaquito", -- [4]
+					"Gilraenloss", -- [5]
+					"Jesed", -- [6]
+					"Mcdonald", -- [7]
+					"Presagista", -- [8]
+					"Reideer", -- [9]
+					"Skom", -- [10]
+					"Turco", -- [11]
+					"Zulux", -- [12]
+				},
+			},
+			["Default.WoWArg.Underclub"] = {
+				["Friends"] = {
+					"Crobar", -- [1]
+					"Delatierra", -- [2]
+					"Elchamaquito", -- [3]
+					"Gilraenloss", -- [4]
+					"Jesed", -- [5]
+					"Liomessi", -- [6]
+					"Mcdonald", -- [7]
+					"Nataku", -- [8]
+					"Reideer", -- [9]
+					"Turco", -- [10]
+					"Zorman", -- [11]
+					"Zulux", -- [12]
+				},
+			},
+			["Default.WoWArg.Miratros"] = {
+				["Friends"] = {
+					"Indico", -- [1]
+					"Crisisocial", -- [2]
+					"Elnegrofeo", -- [3]
+					"Muelapicada", -- [4]
+					"Taudri", -- [5]
+				},
+			},
+			["Default.WoWArg.Operator"] = {
+				["Friends"] = {
+					"Mcdonald", -- [1]
+				},
+			},
+			["Default.Sin'Dorei.Draenoric"] = {
+				["Friends"] = {
+					"Asessyn", -- [1]
+					"Astranar", -- [2]
+					"Bufardoll", -- [3]
+					"Crobar", -- [4]
+					"Dmge", -- [5]
+					"Elchamaquito", -- [6]
+					"Elevenhour", -- [7]
+					"Fanto", -- [8]
+					"Finweloss", -- [9]
+					"Gilraenloss", -- [10]
+					"Goal", -- [11]
+					"Husoc", -- [12]
+					"Konagi", -- [13]
+					"Lenalee", -- [14]
+					"Ludanita", -- [15]
+					"Malfa", -- [16]
+					"Marianaa", -- [17]
+					"Mcdonald", -- [18]
+					"Missmoon", -- [19]
+					"Nightendd", -- [20]
+					"Nuria", -- [21]
+					"Onilgo", -- [22]
+					"Raaiidd", -- [23]
+					"Reideer", -- [24]
+					"Renecrow", -- [25]
+					"Rivaidia", -- [26]
+					"Skom", -- [27]
+					"Smiuk", -- [28]
+					"Sttriker", -- [29]
+					"Thiccsapx", -- [30]
+					"Turco", -- [31]
+					"Winter", -- [32]
+					"Zorman", -- [33]
+				},
+			},
+			["Default.WoWArg.Subjected"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Akumayoru", -- [2]
+					"Anetha", -- [3]
+					"Crazyfear", -- [4]
+					"Elchamaquito", -- [5]
+					"Jesed", -- [6]
+					"Mcdonald", -- [7]
+					"Presagista", -- [8]
+					"Reideer", -- [9]
+					"Skom", -- [10]
+					"Turco", -- [11]
+					"Wardiiola", -- [12]
+					"Zulux", -- [13]
+				},
+			},
+			["Default.WoWArg.Chamdoc"] = {
+				["Friends"] = {
+					"Gldnsurprise", -- [1]
+					"Muelapicada", -- [2]
+				},
+			},
+			["Default.Sin'Dorei.Doroteo"] = {
+				["Friends"] = {
+					"Airanosse", -- [1]
+					"Allurarose", -- [2]
+					"Bufardoll", -- [3]
+					"Ciclos", -- [4]
+					"Crobar", -- [5]
+					"Diegors", -- [6]
+					"Dofu", -- [7]
+					"Elchamaquito", -- [8]
+					"Elevenhour", -- [9]
+					"Elfhelm", -- [10]
+					"Gilraenloss", -- [11]
+					"Jaimitico", -- [12]
+					"Latuza", -- [13]
+					"Liomessi", -- [14]
+					"Mcdonald", -- [15]
+					"Missmoon", -- [16]
+					"Nightwalker", -- [17]
+					"Nostrade", -- [18]
+					"Nuttyness", -- [19]
+					"Pick", -- [20]
+					"Spawm", -- [21]
+					"Sttriker", -- [22]
+					"Tenebrys", -- [23]
+					"Turco", -- [24]
+					"Wilfred", -- [25]
+				},
+			},
+			["Default.WoWArg.Bloodpurge"] = {
+				["Friends"] = {
+					"Alkornoke", -- [1]
+					"Flemitax", -- [2]
+					"Guthrakk", -- [3]
+					"Indico", -- [4]
+					"Muelapicada", -- [5]
+					"Nightbull", -- [6]
+					"Oloroso", -- [7]
+					"Tory", -- [8]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Draenoric"] = {
+				["Friends"] = {
+					"Elchamaquito", -- [1]
+					"Gilraenloss", -- [2]
+					"Turco", -- [3]
+					"Asessyn", -- [4]
+					"Astranar", -- [5]
+					"Bufardoll", -- [6]
+					"Crobar", -- [7]
+					"Dmge", -- [8]
+					"Elevenhour", -- [9]
+					"Fanto", -- [10]
+					"Finweloss", -- [11]
+					"Goal", -- [12]
+					"Husoc", -- [13]
+					"Konagi", -- [14]
+					"Lenalee", -- [15]
+					"Ludanita", -- [16]
+					"Malfa", -- [17]
+					"Marianaa", -- [18]
+					"Mcdonald", -- [19]
+					"Missmoon", -- [20]
+					"Nightendd", -- [21]
+					"Nuria", -- [22]
+					"Onilgo", -- [23]
+					"Raaiidd", -- [24]
+					"Reideer", -- [25]
+					"Renecrow", -- [26]
+					"Rivaidia", -- [27]
+					"Skom", -- [28]
+					"Smiuk", -- [29]
+					"Sttriker", -- [30]
+					"Thiccsapx", -- [31]
+					"Winter", -- [32]
+					"Zorman", -- [33]
+				},
+			},
+			["Default.WoWArg.Draenoric"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Asessyn", -- [2]
+					"Astranar", -- [3]
+					"Bufardoll", -- [4]
+					"Crobar", -- [5]
+					"Dmge", -- [6]
+					"Elchamaquito", -- [7]
+					"Elevenhour", -- [8]
+					"Fanto", -- [9]
+					"Finweloss", -- [10]
+					"Goal", -- [11]
+					"Husoc", -- [12]
+					"Konagi", -- [13]
+					"Lenalee", -- [14]
+					"Ludanita", -- [15]
+					"Malfa", -- [16]
+					"Marianaa", -- [17]
+					"Mcdonald", -- [18]
+					"Missmoon", -- [19]
+					"Nightendd", -- [20]
+					"Nuria", -- [21]
+					"Onilgo", -- [22]
+					"Raaiidd", -- [23]
+					"Reideer", -- [24]
+					"Renecrow", -- [25]
+					"Rivaidia", -- [26]
+					"Skom", -- [27]
+					"Smiuk", -- [28]
+					"Sttriker", -- [29]
+					"Thiccsapx", -- [30]
+					"Turco", -- [31]
+					"Winter", -- [32]
+					"Zorman", -- [33]
+				},
+			},
+			["Default.WoWArg.Microwave"] = {
+				["Friends"] = {
+					"Crazyfear", -- [1]
+					"Liomessi", -- [2]
+					"Lurtz", -- [3]
+					"Missmoon", -- [4]
+					"Tenebrys", -- [5]
+					"Tenebryta", -- [6]
+					"Wwarr", -- [7]
+					"Yaandeel", -- [8]
+				},
+			},
+			["Default.WoWArg.Snts"] = {
+				["Friends"] = {
+					"Calian", -- [1]
+					"Gilraenloss", -- [2]
+					"Liomessi", -- [3]
+					"Mcdonald", -- [4]
+					"Nigthcrow", -- [5]
+					"Skom", -- [6]
+					"Taladan", -- [7]
+					"Turco", -- [8]
+					"Zaephyr", -- [9]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Skombrow"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Anabell", -- [2]
+					"Anetha", -- [3]
+					"Asttarod", -- [4]
+					"Bommbi", -- [5]
+					"Bufardoll", -- [6]
+					"Chavito", -- [7]
+					"Crazyfear", -- [8]
+					"Crobar", -- [9]
+					"Delatierra", -- [10]
+					"Droopy", -- [11]
+					"Druidalote", -- [12]
+					"Drujnassu", -- [13]
+					"Elchamaquito", -- [14]
+					"Elevenhour", -- [15]
+					"Epyon", -- [16]
+					"Firstaid", -- [17]
+					"Husoc", -- [18]
+					"Ijaa", -- [19]
+					"Izanagi", -- [20]
+					"Jesed", -- [21]
+					"Leuriona", -- [22]
+					"Liomessi", -- [23]
+					"Mcdonald", -- [24]
+					"Mhael", -- [25]
+					"Missmoon", -- [26]
+					"Nataku", -- [27]
+					"Neruneya", -- [28]
+					"Nuttyness", -- [29]
+					"Reideer", -- [30]
+					"Roguent", -- [31]
+					"Skom", -- [32]
+					"Spawm", -- [33]
+					"Sttriker", -- [34]
+					"Tebans", -- [35]
+					"Togucci", -- [36]
+					"Tukkm", -- [37]
+					"Turco", -- [38]
+					"Unaseca", -- [39]
+					"Ursark", -- [40]
+					"Vulpurion", -- [41]
+					"Wishful", -- [42]
+					"Wolverinnex", -- [43]
+					"Zagazama", -- [44]
+					"Zulux", -- [45]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Snts"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Calian", -- [2]
+					"Crazyfear", -- [3]
+					"Liomessi", -- [4]
+					"Mcdonald", -- [5]
+					"Nigthcrow", -- [6]
+					"Skom", -- [7]
+					"Taladan", -- [8]
+					"Turco", -- [9]
+					"Zaephyr", -- [10]
+				},
+			},
+			["Default.WoWArg.Doroteo"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Turco", -- [2]
+					"Airanosse", -- [3]
+					"Allurarose", -- [4]
+					"Bufardoll", -- [5]
+					"Ciclos", -- [6]
+					"Crazyfear", -- [7]
+					"Crobar", -- [8]
+					"Diegors", -- [9]
+					"Dofu", -- [10]
+					"Elchamaquito", -- [11]
+					"Elevenhour", -- [12]
+					"Elfhelm", -- [13]
+					"Jaimitico", -- [14]
+					"Kholorado", -- [15]
+					"Liomessi", -- [16]
+					"Mcdonald", -- [17]
+					"Missmoon", -- [18]
+					"Nightwalker", -- [19]
+					"Nostrade", -- [20]
+					"Pick", -- [21]
+					"Spawm", -- [22]
+					"Sttriker", -- [23]
+					"Tenebrys", -- [24]
+					"Togucci", -- [25]
+					"Wilfred", -- [26]
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Rivo"] = {
+				["Friends"] = {
+					"Gilraenloss", -- [1]
+					"Delatierra", -- [2]
+					"Elevenhour", -- [3]
+					"Liomessi", -- [4]
+					"Turco", -- [5]
+				},
+			},
+			["Default.Sin'Dorei.Underclub"] = {
+				["Friends"] = {
+					"Crobar", -- [1]
+					"Delatierra", -- [2]
+					"Elchamaquito", -- [3]
+					"Gilraenloss", -- [4]
+					"Jesed", -- [5]
+					"Liomessi", -- [6]
+					"Mcdonald", -- [7]
+					"Nataku", -- [8]
+					"Reideer", -- [9]
+					"Turco", -- [10]
+					"Zorman", -- [11]
+					"Zulux", -- [12]
 				},
 			},
 			["Default.WoWArg.Rivothrill"] = {
@@ -557,82 +984,6 @@ AltoholicDB = {
 				},
 				["Calendar"] = {
 					"2018-08-02|20:15|icc 25n|1|8", -- [1]
-				},
-			},
-			["Default.Sin'Dorei.Draenoric"] = {
-				["Friends"] = {
-					"Fanto", -- [1]
-					"Gilraenloss", -- [2]
-					"Asessyn", -- [3]
-					"Astranar", -- [4]
-					"Bufardoll", -- [5]
-					"Crobar", -- [6]
-					"Dmge", -- [7]
-					"Elchamaquito", -- [8]
-					"Elevenhour", -- [9]
-					"Finweloss", -- [10]
-					"Goal", -- [11]
-					"Husoc", -- [12]
-					"Konagi", -- [13]
-					"Lenalee", -- [14]
-					"Ludanita", -- [15]
-					"Malfa", -- [16]
-					"Marianaa", -- [17]
-					"Mcdonald", -- [18]
-					"Missmoon", -- [19]
-					"Nightendd", -- [20]
-					"Nuria", -- [21]
-					"Onilgo", -- [22]
-					"Raaiidd", -- [23]
-					"Reideer", -- [24]
-					"Renecrow", -- [25]
-					"Rivaidia", -- [26]
-					"Skom", -- [27]
-					"Smiuk", -- [28]
-					"Sttriker", -- [29]
-					"Thiccsapx", -- [30]
-					"Turco", -- [31]
-					"Winter", -- [32]
-					"Zorman", -- [33]
-				},
-			},
-			["Default.WoWArg.Chamdoc"] = {
-				["Friends"] = {
-					"Gldnsurprise", -- [1]
-					"Muelapicada", -- [2]
-				},
-			},
-			["Default.Sin'Dorei.Underclub"] = {
-				["Friends"] = {
-					"Crobar", -- [1]
-					"Delatierra", -- [2]
-					"Elchamaquito", -- [3]
-					"Gilraenloss", -- [4]
-					"Jesed", -- [5]
-					"Liomessi", -- [6]
-					"Mcdonald", -- [7]
-					"Nataku", -- [8]
-					"Reideer", -- [9]
-					"Turco", -- [10]
-					"Zorman", -- [11]
-					"Zulux", -- [12]
-				},
-			},
-			["Default.WoWArg.Fjaak"] = {
-				["Friends"] = {
-					"Skom", -- [1]
-					"Turco", -- [2]
-					"Barrio", -- [3]
-					"Crazyfear", -- [4]
-					"Crobar", -- [5]
-					"Druidalote", -- [6]
-					"Enzoski", -- [7]
-					"Gilraenloss", -- [8]
-					"Liomessi", -- [9]
-					"Missmoon", -- [10]
-					"Nalguita", -- [11]
-					"Togucci", -- [12]
-					"Yeiale", -- [13]
 				},
 			},
 		},
@@ -725,9 +1076,9 @@ AltoholicDB = {
 							[16] = "3|3",
 							[14] = "3|1",
 							[28] = "9|2",
-							[20] = "5|2",
-							[23] = "7|2",
 							[27] = "7|3",
+							[23] = "7|2",
+							[20] = "5|2",
 						},
 						["name"] = "Supervivencia",
 						["list"] = {
@@ -817,9 +1168,9 @@ AltoholicDB = {
 							[20] = "7|2",
 							[17] = "4|2",
 							[11] = "3|3",
-							[29] = "10|2",
-							[22] = "7|2",
 							[27] = "9|2",
+							[22] = "7|2",
+							[29] = "10|2",
 						},
 						["name"] = "Combate feral",
 						["list"] = {
@@ -862,10 +1213,10 @@ AltoholicDB = {
 							[16] = "4|3",
 							[27] = "9|2",
 							[9] = "2|3",
-							[24] = "9|2",
+							[12] = "3|1",
 							[18] = "5|2",
 							[23] = "8|2",
-							[12] = "3|1",
+							[24] = "9|2",
 						},
 						["name"] = "Restauración",
 						["list"] = {
@@ -930,23 +1281,32 @@ AltoholicDB = {
 									["Idioma: común"] = "300|300",
 									["Idioma: darnassiano"] = "300|300",
 								},
-								["Armaduras disponibles"] = {
-									["Tela"] = "1|1",
-									["Cuero"] = "1|1",
-								},
-								["Habilidades de clase"] = {
-									["Combate feral"] = "1|1",
-									["Equilibrio"] = "1|1",
-									["Restauración"] = "1|1",
-								},
 								["Habilidades secundarias"] = {
 									["Cocina"] = "307|375",
 									["Pesca"] = "16|75",
 									["Equitación"] = "225|225",
 									["Primeros auxilios"] = "375|375",
 								},
+								["Habilidades de clase"] = {
+									["Combate feral"] = "1|1",
+									["Equilibrio"] = "1|1",
+									["Restauración"] = "1|1",
+								},
+								["Armaduras disponibles"] = {
+									["Cuero"] = "1|1",
+									["Tela"] = "1|1",
+								},
 							},
 							["pets"] = {
+								["CRITTER"] = {
+									"Búho común|10707|Ability_EyeOfTheOwl|7553", -- [1]
+									"Carolina|10680|INV_Feather_08|7390", -- [2]
+									"Conejo Pataneve|10711|INV_Crate_02|7560", -- [3]
+									"Lechuza gavilana|10706|Ability_EyeOfTheOwl|7555", -- [4]
+									"Pollo de los Páramos de Poniente|13548|Spell_Magic_PolymorphChicken|30379", -- [5]
+									"Prole flechada|67413|Ability_Hunter_Pet_Raptor|35396", -- [6]
+									"Senegal|10684|INV_Feather_11|7389", -- [7]
+								},
 								["MOUNT"] = {
 									"Caballo marrón|458|Ability_Mount_RidingHorse|284", -- [1]
 									"Carnero blanco|6898|Ability_Mount_MountainRam|4777", -- [2]
@@ -974,15 +1334,6 @@ AltoholicDB = {
 									"Sable de la Tempestad presto|23338|Ability_Mount_BlackPanther|14602", -- [24]
 									"Sable del Alba rayado|66847|Ability_Mount_WhiteTiger|35168", -- [25]
 									"Yegua zaina|6648|Ability_Mount_RidingHorse|4269", -- [26]
-								},
-								["CRITTER"] = {
-									"Búho común|10707|Ability_EyeOfTheOwl|7553", -- [1]
-									"Carolina|10680|INV_Feather_08|7390", -- [2]
-									"Conejo Pataneve|10711|INV_Crate_02|7560", -- [3]
-									"Lechuza gavilana|10706|Ability_EyeOfTheOwl|7555", -- [4]
-									"Pollo de los Páramos de Poniente|13548|Spell_Magic_PolymorphChicken|30379", -- [5]
-									"Prole flechada|67413|Ability_Hunter_Pet_Raptor|35396", -- [6]
-									"Senegal|10684|INV_Feather_11|7389", -- [7]
 								},
 							},
 							["xpmax"] = 527000,
@@ -1026,10 +1377,10 @@ AltoholicDB = {
 								[16] = 4,
 								[20] = 5,
 								[17] = 3,
-								[27] = 1,
+								[23] = 1,
 								[18] = 1,
 								[24] = 3,
-								[23] = 1,
+								[27] = 1,
 							},
 							["averageItemLvl"] = 82.125,
 							["Stats"] = {
@@ -1072,7 +1423,7 @@ AltoholicDB = {
 								[778] = true,
 								[1872] = "1:0",
 								[842] = true,
-								[3855] = "1:0",
+								[3852] = "1:0",
 								[3850] = "1:0,2:0",
 								[779] = true,
 								[556] = "3,4,5,6,7,8,9,10,14,15",
@@ -1080,101 +1431,101 @@ AltoholicDB = {
 								[3848] = "1:0",
 								[1556] = "1:12",
 								[1800] = "6",
-								[523] = "1:4",
-								[3098] = "1:0",
+								[3097] = "1:0",
+								[966] = "9,11",
 								[780] = true,
 								[557] = "3,4,5,6,7,8,9,10,14,15",
 								[844] = true,
 								[621] = true,
 								[908] = "4",
-								[773] = true,
+								[1798] = "1:75",
 								[1176] = "1:948379",
-								[972] = true,
+								[36] = "1:0",
 								[781] = true,
 								[522] = true,
 								[845] = true,
 								[1751] = "1:0",
-								[2085] = "1:0",
-								[782] = true,
+								[1038] = "5",
+								[132] = true,
 								[973] = "1:3",
 								[750] = true,
-								[132] = true,
-								[2193] = "1:0",
+								[782] = true,
+								[1035] = "1,2",
 								[846] = true,
 								[156] = "1:0",
 								[910] = "3",
 								[942] = "1:5045,2:0,3:0",
-								[260] = "1:0",
+								[503] = true,
 								[1244] = "6,11,22,33",
-								[2191] = "1:0",
+								[505] = true,
 								[408] = "1:0",
 								[847] = true,
-								[1796] = true,
+								[772] = true,
 								[911] = "7",
-								[252] = "1:0",
+								[644] = true,
 								[1182] = "1:6113294",
 								[504] = true,
 								[784] = "1:0",
-								[1284] = "2",
+								[771] = "1,7,8,10,11,23",
 								[848] = true,
-								[1696] = "1:0",
+								[7] = true,
 								[912] = "6",
-								[1030] = "2,7",
-								[1187] = "2,6,10",
-								[221] = "1:0",
+								[1795] = true,
+								[627] = true,
+								[851] = true,
 								[1312] = "20",
-								[1764] = "1:0",
+								[1763] = "1:0",
 								[849] = true,
 								[6] = true,
-								[1029] = true,
+								[1284] = "2",
 								[3002] = "1:0",
 								[122] = true,
-								[505] = true,
+								[3003] = "1:0",
 								[133] = true,
 								[8] = true,
 								[850] = true,
-								[627] = true,
-								[3014] = "1:0",
+								[9] = true,
+								[4476] = "1:0",
 								[10] = true,
 								[1188] = "1:0",
 								[11] = true,
-								[1012] = "1:0",
-								[1193] = "1:1",
-								[851] = true,
-								[1763] = "1:0",
-								[915] = "1,3",
-								[1283] = "1,5,6,7,9,12,13,17",
-								[4476] = "1:0",
 								[15] = "1:7",
-								[16] = "1:94",
-								[866] = "19",
 								[852] = true,
+								[1189] = "1:71",
+								[628] = true,
+								[915] = "1,3",
+								[1028] = true,
+								[1190] = "1:30",
+								[506] = true,
+								[16] = "1:94",
+								[153] = true,
+								[1191] = "1:0",
 								[1765] = "1:0",
-								[981] = true,
+								[1761] = "1:0",
 								[948] = "1,2,3,4:36881,5",
 								[1192] = "1:0",
 								[1766] = "1:0",
-								[137] = "1:0",
-								[31] = "1:0",
+								[802] = true,
+								[507] = true,
 								[853] = true,
 								[3017] = "1:0",
-								[37] = "1:0",
-								[158] = "1:0",
-								[1194] = "1:0",
-								[507] = true,
-								[1832] = true,
-								[35] = "1:0",
 								[854] = true,
 								[39] = "1:0",
+								[1194] = "1:0",
+								[31] = "1:0",
+								[1832] = true,
+								[35] = "1:0",
+								[37] = "1:0",
+								[158] = "1:0",
 								[1833] = "1:14",
 								[43] = true,
+								[1261] = "1:0",
 								[222] = "1:0",
 								[632] = true,
-								[1516] = "2",
 								[206] = "1:0",
 								[855] = true,
-								[1261] = "1:0",
-								[760] = true,
+								[1516] = "2",
+								[1195] = "1:0",
 								[238] = true,
 								[728] = true,
 								[508] = "1:975",
@@ -1184,454 +1535,116 @@ AltoholicDB = {
 								[633] = true,
 								[131] = true,
 								[213] = "1:0",
-								[634] = true,
+								[203] = "1:0",
 								[761] = true,
-								[1024] = "2,7",
-								[1017] = true,
+								[1789] = "1:1",
+								[3800] = "1:0",
 								[857] = true,
 								[889] = true,
 								[2141] = true,
 								[953] = "1:10164,2:6775",
 								[2142] = true,
-								[3800] = "1:0",
+								[1017] = true,
 								[2143] = "1:26",
 								[134] = true,
 								[858] = "1,9,11,12,15",
 								[890] = true,
 								[388] = "1:0",
-								[1023] = true,
+								[768] = "1,5,6,7,12,13,14,15,16",
 								[731] = true,
 								[1311] = true,
-								[246] = true,
-								[636] = true,
+								[513] = "1:28",
 								[604] = "1:1,2,3,4",
+								[859] = "10,14",
 								[891] = true,
 								[231] = "1:0",
-								[764] = "1:8991,2:0,3:6775,4:0,5:0",
-								[732] = true,
 								[255] = true,
-								[1723] = "1:0",
-								[860] = true,
+								[732] = true,
+								[764] = "1:8991,2:0,3:6775,4:0,5:0",
+								[863] = true,
+								[123] = true,
 								[605] = true,
 								[637] = "1,3",
-								[1020] = "1:1",
+								[765] = true,
 								[701] = true,
 								[733] = true,
-								[765] = true,
-								[606] = true,
-								[1145] = true,
+								[1020] = "1:1",
 								[861] = true,
+								[1145] = true,
+								[606] = true,
 								[33] = "1:0",
-								[766] = true,
+								[2924] = "1:0",
 								[1656] = "1,3,5",
 								[2923] = "1:0",
 								[3816] = "1:0",
-								[2924] = "1:0",
-								[862] = true,
+								[272] = "1:0",
+								[157] = "1:0",
 								[607] = "1:6",
 								[639] = true,
-								[157] = "1:0",
-								[272] = "1:0",
+								[862] = true,
+								[766] = true,
 								[2417] = "1:0",
 								[1022] = true,
 								[200] = "1:0",
-								[123] = true,
-								[863] = true,
+								[860] = true,
+								[1723] = "1:0",
 								[640] = true,
-								[859] = "10,14",
-								[513] = "1:28",
+								[636] = true,
+								[246] = true,
 								[736] = true,
-								[768] = "1,5,6,7,12,13,14,15,16",
+								[1023] = true,
 								[545] = true,
 								[1151] = "1:0",
 								[2933] = "1:0",
-								[1789] = "1:1",
-								[203] = "1:0",
+								[1024] = "2,7",
+								[634] = true,
 								[705] = "1:0,2:0,3:0,4:39,5:0,6:45,7:88,8:138,9:0,10:0,11:0,12:80,13:94,14:0,15:0",
 								[2935] = "1:0",
 								[769] = "2,6,7,8,11,12,13",
 								[546] = true,
-								[1195] = "1:0",
+								[760] = true,
 								[865] = "20,23,26",
 								[1281] = "1:0",
 								[116] = true,
 								[2556] = "2,12,13,15",
 								[124] = true,
 								[770] = "1,2,3,4,5,8,11,13",
-								[802] = true,
-								[1761] = "1:0",
-								[153] = true,
-								[1028] = true,
-								[1191] = "1:0",
-								[506] = true,
-								[1190] = "1:30",
-								[771] = "1,7,8,10,11,23",
-								[628] = true,
-								[1189] = "1:71",
-								[9] = true,
-								[644] = true,
-								[3003] = "1:0",
+								[137] = "1:0",
+								[981] = true,
+								[866] = "19",
+								[1283] = "1,5,6,7,9,12,13,17",
+								[1193] = "1:1",
+								[1012] = "1:0",
+								[3014] = "1:0",
+								[1029] = true,
+								[1764] = "1:0",
+								[221] = "1:0",
+								[1187] = "2,6,10",
+								[1030] = "2,7",
+								[1696] = "1:0",
 								[963] = "1,4",
-								[1795] = true,
-								[772] = true,
-								[7] = true,
-								[503] = true,
-								[1035] = "1,2",
+								[252] = "1:0",
+								[1796] = true,
+								[2191] = "1:0",
+								[260] = "1:0",
+								[2193] = "1:0",
 								[1797] = true,
-								[1038] = "5",
+								[2085] = "1:0",
 								[964] = true,
-								[36] = "1:0",
-								[1798] = "1:75",
-								[966] = "9,11",
-								[3097] = "1:0",
+								[972] = true,
+								[773] = true,
+								[3098] = "1:0",
+								[523] = "1:4",
 								[2188] = "1:0",
 								[1034] = "1,2",
 								[2189] = "1:0",
 								[1162] = "1:0",
-								[3852] = "1:0",
+								[3855] = "1:0",
 							},
 							["race"] = "Elfo de la noche",
 							["activeTalents"] = 1,
 							["lastlogout"] = 1496355743,
 							["glyphInfo"] = "1:1:::0|1:2:::0|1:2:::0|1:1:::0|0:2:::0|0:1:::0|0:0:::0|0:0:::0|0:0:::0|0:0:::0|0:0:::0|0:0:::0|",
-							["isResting"] = 1,
-							["talent"] = "Equilibrio:3|Combate feral:0|Restauración:53|Equilibrio:0|Combate feral:0|Restauración:0",
-							["numFreeBagSlots"] = 16,
-							["numBagSlots"] = 16,
-							["restxp"] = 790500,
-							["inventory"] = {
-								29940, -- [1]
-								24385, -- [2]
-								"|cff0070dd|Hitem:24398:2483:0:0:0:0:0:0:66|h[Manto del morador Crepuscular]|h|r", -- [3]
-								nil, -- [4]
-								"|cff0070dd|Hitem:28051:1843:0:0:0:0:0:0:66|h[Chaleco del espíritu salvaje]|h|r", -- [5]
-								"|cff1eff00|Hitem:24725:0:0:0:0:0:-7:32:66|h[Cordón de demencia del oso]|h|r", -- [6]
-								"|cff1eff00|Hitem:25507:18:0:0:0:0:0:0:66|h[Leotardos de Telhamat]|h|r", -- [7]
-								25515, -- [8]
-								"|cff1eff00|Hitem:24732:0:0:0:0:0:-41:24:66|h[Guardabrazos de demencia de la bestia]|h|r", -- [9]
-								"|cff0070dd|Hitem:31126:18:0:0:0:0:0:0:66|h[Guantes de ferocidad]|h|r", -- [10]
-								"|cff1eff00|Hitem:25046:0:0:0:0:0:-40:22:66|h[Anillo con púas del bandido]|h|r", -- [11]
-								942, -- [12]
-								34423, -- [13]
-								28042, -- [14]
-								13122, -- [15]
-								"|cff1eff00|Hitem:25228:0:0:0:0:0:-8:40:66|h[Alabarda de la ballena]|h|r", -- [16]
-								[18] = 28064,
-								[19] = 5976,
-							},
-							["CompletedAchievements"] = 102,
-							["guildName"] = "Orden Fenix",
-							["bag"] = {
-								["Bag4"] = {
-									["links"] = {
-										[10] = "|cff1eff00|Hitem:25035:0:0:0:0:0:-27:25:66|h[Capa forrada con plata de defensa]|h|r",
-										[12] = "|cff1eff00|Hitem:25131:0:0:0:0:0:-5:41:66|h[Cachiporra odiosa del mono]|h|r",
-										[11] = "|cff1eff00|Hitem:25311:0:0:0:0:0:-9:16:66|h[Martillo revitalizante del búho]|h|r",
-									},
-									["ids"] = {
-										6948, -- [1]
-										7005, -- [2]
-										29451, -- [3]
-										27860, -- [4]
-										40476, -- [5]
-										17026, -- [6]
-										17038, -- [7]
-										21991, -- [8]
-										31148, -- [9]
-										25035, -- [10]
-										25311, -- [11]
-										25131, -- [12]
-										25539, -- [13]
-										24540, -- [14]
-										33460, -- [15]
-										27502, -- [16]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
-									["counts"] = {
-										nil, -- [1]
-										nil, -- [2]
-										15, -- [3]
-										11, -- [4]
-										nil, -- [5]
-										20, -- [6]
-										20, -- [7]
-										19, -- [8]
-										[15] = 2,
-										[14] = 8,
-										[16] = 5,
-									},
-									["size"] = 16,
-								},
-								["Bag-2"] = {
-									["ids"] = {
-										6893, -- [1]
-										11000, -- [2]
-										11078, -- [3]
-										18249, -- [4]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-									["counts"] = {
-										[3] = 3,
-									},
-									["size"] = 32,
-								},
-								["Bag1"] = {
-									["links"] = {
-										[10] = "|cff1eff00|Hitem:25115:0:0:0:0:0:-41:16:66|h[Maza de Riosona de la bestia]|h|r",
-										[6] = "|cff1eff00|Hitem:25188:0:0:0:0:0:-7:18:66|h[Garras desgarrabazo del oso]|h|r",
-										[14] = "|cff1eff00|Hitem:25175:0:0:0:0:0:-10:44:66|h[Bastón largo demoníaco del gorila]|h|r",
-										[5] = "|cff1eff00|Hitem:25299:0:0:0:0:0:-44:17:66|h[Daga de succión del anciano]|h|r",
-										[13] = "|cff1eff00|Hitem:25327:0:0:0:0:0:-41:41:66|h[Bastón demente de la bestia]|h|r",
-										[8] = "|cff1eff00|Hitem:24719:0:0:0:0:0:-39:41:66|h[Pechera Zarrapucha del invocador]|h|r",
-										[15] = "|cff1eff00|Hitem:25174:0:0:0:0:0:-14:43:66|h[Hanbo del tigre]|h|r",
-									},
-									["ids"] = {
-										28399, -- [1]
-										31178, -- [2]
-										13446, -- [3]
-										13444, -- [4]
-										25299, -- [5]
-										25188, -- [6]
-										30857, -- [7]
-										24719, -- [8]
-										13030, -- [9]
-										25115, -- [10]
-										14686, -- [11]
-										8345, -- [12]
-										25327, -- [13]
-										25175, -- [14]
-										25174, -- [15]
-										13047, -- [16]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
-									["counts"] = {
-										[4] = 20,
-										[3] = 13,
-									},
-									["size"] = 16,
-								},
-								["Bag2"] = {
-									["ids"] = {
-										24713, -- [1]
-										1443, -- [2]
-										18528, -- [3]
-										940, -- [4]
-										5266, -- [5]
-										14553, -- [6]
-										25518, -- [7]
-										18322, -- [8]
-										25489, -- [9]
-										25599, -- [10]
-										24390, -- [11]
-										1607, -- [12]
-										2243, -- [13]
-										25480, -- [14]
-										31657, -- [15]
-										25985, -- [16]
-									},
-									["links"] = {
-										"|cff1eff00|Hitem:24713:0:0:0:0:0:-39:40:66|h[Yelmo de venganza del invocador]|h|r", -- [1]
-										[4] = "|cffa335ee|Hitem:940:1843:0:0:0:0:0:0:66|h[Togas de Perspicacia]|h|r",
-										[8] = "|cff0070dd|Hitem:18322:1843:0:0:0:0:0:0:66|h[Botas del canalón]|h|r",
-									},
-									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-									["size"] = 16,
-								},
-								["Bag3"] = {
-									["links"] = {
-										[4] = "|cffa335ee|Hitem:867:18:0:0:0:0:0:0:66|h[Guantes de Poderío Sagrado]|h|r",
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
-									["ids"] = {
-										4235, -- [1]
-										24479, -- [2]
-										17058, -- [3]
-										867, -- [4]
-										8170, -- [5]
-										24426, -- [6]
-										[9] = 4304,
-									},
-									["size"] = 16,
-									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
-									["counts"] = {
-										2, -- [1]
-										[9] = 4,
-										[3] = 11,
-										[5] = 2,
-									},
-									["freeslots"] = 9,
-								},
-								["Bag0"] = {
-									["size"] = 16,
-									["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-									["freeslots"] = 16,
-								},
-							},
-							["faction"] = "Alliance",
-							["questlog"] = {
-								{
-									["name"] = "Bosque de Terokkar",
-									["isHeader"] = true,
-								}, -- [1]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cff40c040|Hquest:9957:63|h[¿Qué pasa en el Matorral Cenarion?]|h|r",
-								}, -- [2]
-								{
-									["name"] = "Cráter de Un'Goro",
-									["isHeader"] = true,
-								}, -- [3]
-								{
-									["link"] = "|cff808080|Hquest:4143:52|h[Bruma del mal]|h|r",
-									["money"] = 7500,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [4]
-								{
-									["name"] = "Druida",
-									["isHeader"] = true,
-								}, -- [5]
-								{
-									["link"] = "|cff808080|Hquest:9053:52|h[Un ingrediente mejor]|h|r",
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [6]
-								{
-									["name"] = "Forjaz",
-									["isHeader"] = true,
-								}, -- [7]
-								{
-									["link"] = "|cff40c040|Hquest:8905:60|h[Una propuesta seria]|h|r",
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [8]
-								{
-									["name"] = "Legendaria",
-									["isHeader"] = true,
-								}, -- [9]
-								{
-									["link"] = "|cff40c040|Hquest:7786:60|h[Thunderaan, el Hijo del Viento]|h|r",
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["tag"] = "Banda",
-								}, -- [10]
-								{
-									["name"] = "Marisma de Zangar",
-									["isHeader"] = true,
-								}, -- [11]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cff40c040|Hquest:10104:62|h[Preocupaciones sobre Tuurem]|h|r",
-								}, -- [12]
-								{
-									["money"] = 27000,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cff40c040|Hquest:9801:62|h[Recogiendo componentes]|h|r",
-								}, -- [13]
-								{
-									["link"] = "|cff40c040|Hquest:9817:63|h[Líder de los Escamas de Sangre]|h|r",
-									["money"] = 58000,
-									["rewards"] = "c|27724|1|1",
-									["groupsize"] = 2,
-									["tag"] = "Élite",
-								}, -- [14]
-								{
-									["link"] = "|cffffff00|Hquest:9730:64|h[El líder de los Cumbre Oscura]|h|r",
-									["money"] = 62000,
-									["rewards"] = "c|27728|1|1^c|27727|1|1^c|27726|1|",
-									["groupsize"] = 2,
-									["tag"] = "Élite",
-								}, -- [15]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:9776:64|h[El Puerto Orebor]|h|r",
-								}, -- [16]
-								{
-									["money"] = 31000,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:9835:64|h[Invasión de los Ango'rosh]|h|r",
-								}, -- [17]
-								{
-									["money"] = 31000,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:10115:64|h[La perversión Dagapantano]|h|r",
-								}, -- [18]
-								{
-									["money"] = 31000,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:9848:64|h[Secretos de los Dagapantano]|h|r",
-								}, -- [19]
-								{
-									["name"] = "Silithus",
-									["isHeader"] = true,
-								}, -- [20]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cff40c040|Hquest:8332:60|h[Duques del Consejo]|h|r",
-								}, -- [21]
-								{
-									["name"] = "Templo Sumergido",
-									["isHeader"] = true,
-								}, -- [22]
-								{
-									["link"] = "|cff808080|Hquest:1446:53|h[El profeta Jammal'an]|h|r",
-									["money"] = 0,
-									["rewards"] = "c|11123|1|1^c|11124|1|",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [23]
-								{
-									["name"] = "Uldaman",
-									["isHeader"] = true,
-								}, -- [24]
-								{
-									["link"] = "|cff808080|Hquest:2240:40|h[La cámara oculta]|h|r",
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [25]
-								{
-									["name"] = "Verano",
-									["isHeader"] = true,
-								}, -- [26]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:11886:-1|h[Actividad sospechosa]|h|r",
-								}, -- [27]
-								{
-									["isComplete"] = -1,
-									["money"] = 1300,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:11731:-1|h[Lanzamiento de antorchas]|h|r",
-								}, -- [28]
-							},
-							["played"] = 1546239,
-							["TotalAchievementPoints"] = 1035,
 							["Spells"] = {
 								"0|General", -- [1]
 								"6603|", -- [2]
@@ -1807,6 +1820,344 @@ AltoholicDB = {
 								"9863|Rango 3", -- [172]
 								"9863|Rango 4", -- [173]
 							},
+							["talent"] = "Equilibrio:3|Combate feral:0|Restauración:53|Equilibrio:0|Combate feral:0|Restauración:0",
+							["TotalAchievementPoints"] = 1035,
+							["numBagSlots"] = 16,
+							["restxp"] = 790500,
+							["played"] = 1546239,
+							["questlog"] = {
+								{
+									["name"] = "Bosque de Terokkar",
+									["isHeader"] = true,
+								}, -- [1]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cff40c040|Hquest:9957:63|h[¿Qué pasa en el Matorral Cenarion?]|h|r",
+								}, -- [2]
+								{
+									["name"] = "Cráter de Un'Goro",
+									["isHeader"] = true,
+								}, -- [3]
+								{
+									["link"] = "|cff808080|Hquest:4143:52|h[Bruma del mal]|h|r",
+									["money"] = 7500,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [4]
+								{
+									["name"] = "Druida",
+									["isHeader"] = true,
+								}, -- [5]
+								{
+									["link"] = "|cff808080|Hquest:9053:52|h[Un ingrediente mejor]|h|r",
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [6]
+								{
+									["name"] = "Forjaz",
+									["isHeader"] = true,
+								}, -- [7]
+								{
+									["link"] = "|cff40c040|Hquest:8905:60|h[Una propuesta seria]|h|r",
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [8]
+								{
+									["name"] = "Legendaria",
+									["isHeader"] = true,
+								}, -- [9]
+								{
+									["link"] = "|cff40c040|Hquest:7786:60|h[Thunderaan, el Hijo del Viento]|h|r",
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["tag"] = "Banda",
+								}, -- [10]
+								{
+									["name"] = "Marisma de Zangar",
+									["isHeader"] = true,
+								}, -- [11]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cff40c040|Hquest:10104:62|h[Preocupaciones sobre Tuurem]|h|r",
+								}, -- [12]
+								{
+									["money"] = 27000,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cff40c040|Hquest:9801:62|h[Recogiendo componentes]|h|r",
+								}, -- [13]
+								{
+									["link"] = "|cff40c040|Hquest:9817:63|h[Líder de los Escamas de Sangre]|h|r",
+									["money"] = 58000,
+									["rewards"] = "c|27724|1|1",
+									["groupsize"] = 2,
+									["tag"] = "Élite",
+								}, -- [14]
+								{
+									["link"] = "|cffffff00|Hquest:9730:64|h[El líder de los Cumbre Oscura]|h|r",
+									["money"] = 62000,
+									["rewards"] = "c|27728|1|1^c|27727|1|1^c|27726|1|",
+									["groupsize"] = 2,
+									["tag"] = "Élite",
+								}, -- [15]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:9776:64|h[El Puerto Orebor]|h|r",
+								}, -- [16]
+								{
+									["money"] = 31000,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:9835:64|h[Invasión de los Ango'rosh]|h|r",
+								}, -- [17]
+								{
+									["money"] = 31000,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:10115:64|h[La perversión Dagapantano]|h|r",
+								}, -- [18]
+								{
+									["money"] = 31000,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:9848:64|h[Secretos de los Dagapantano]|h|r",
+								}, -- [19]
+								{
+									["name"] = "Silithus",
+									["isHeader"] = true,
+								}, -- [20]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cff40c040|Hquest:8332:60|h[Duques del Consejo]|h|r",
+								}, -- [21]
+								{
+									["name"] = "Templo Sumergido",
+									["isHeader"] = true,
+								}, -- [22]
+								{
+									["link"] = "|cff808080|Hquest:1446:53|h[El profeta Jammal'an]|h|r",
+									["money"] = 0,
+									["rewards"] = "c|11123|1|1^c|11124|1|",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [23]
+								{
+									["name"] = "Uldaman",
+									["isHeader"] = true,
+								}, -- [24]
+								{
+									["link"] = "|cff808080|Hquest:2240:40|h[La cámara oculta]|h|r",
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [25]
+								{
+									["name"] = "Verano",
+									["isHeader"] = true,
+								}, -- [26]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:11886:-1|h[Actividad sospechosa]|h|r",
+								}, -- [27]
+								{
+									["isComplete"] = -1,
+									["money"] = 1300,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:11731:-1|h[Lanzamiento de antorchas]|h|r",
+								}, -- [28]
+							},
+							["faction"] = "Alliance",
+							["bag"] = {
+								["Bag4"] = {
+									["size"] = 16,
+									["ids"] = {
+										6948, -- [1]
+										7005, -- [2]
+										29451, -- [3]
+										27860, -- [4]
+										40476, -- [5]
+										17026, -- [6]
+										17038, -- [7]
+										21991, -- [8]
+										31148, -- [9]
+										25035, -- [10]
+										25311, -- [11]
+										25131, -- [12]
+										25539, -- [13]
+										24540, -- [14]
+										33460, -- [15]
+										27502, -- [16]
+									},
+									["counts"] = {
+										nil, -- [1]
+										nil, -- [2]
+										15, -- [3]
+										11, -- [4]
+										nil, -- [5]
+										20, -- [6]
+										20, -- [7]
+										19, -- [8]
+										[15] = 2,
+										[14] = 8,
+										[16] = 5,
+									},
+									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+									["links"] = {
+										[10] = "|cff1eff00|Hitem:25035:0:0:0:0:0:-27:25:66|h[Capa forrada con plata de defensa]|h|r",
+										[12] = "|cff1eff00|Hitem:25131:0:0:0:0:0:-5:41:66|h[Cachiporra odiosa del mono]|h|r",
+										[11] = "|cff1eff00|Hitem:25311:0:0:0:0:0:-9:16:66|h[Martillo revitalizante del búho]|h|r",
+									},
+								},
+								["Bag-2"] = {
+									["size"] = 32,
+									["counts"] = {
+										[3] = 3,
+									},
+									["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+									["ids"] = {
+										6893, -- [1]
+										11000, -- [2]
+										11078, -- [3]
+										18249, -- [4]
+									},
+								},
+								["Bag1"] = {
+									["size"] = 16,
+									["ids"] = {
+										28399, -- [1]
+										31178, -- [2]
+										13446, -- [3]
+										13444, -- [4]
+										25299, -- [5]
+										25188, -- [6]
+										30857, -- [7]
+										24719, -- [8]
+										13030, -- [9]
+										25115, -- [10]
+										14686, -- [11]
+										8345, -- [12]
+										25327, -- [13]
+										25175, -- [14]
+										25174, -- [15]
+										13047, -- [16]
+									},
+									["counts"] = {
+										[4] = 20,
+										[3] = 13,
+									},
+									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+									["links"] = {
+										[10] = "|cff1eff00|Hitem:25115:0:0:0:0:0:-41:16:66|h[Maza de Riosona de la bestia]|h|r",
+										[6] = "|cff1eff00|Hitem:25188:0:0:0:0:0:-7:18:66|h[Garras desgarrabazo del oso]|h|r",
+										[14] = "|cff1eff00|Hitem:25175:0:0:0:0:0:-10:44:66|h[Bastón largo demoníaco del gorila]|h|r",
+										[8] = "|cff1eff00|Hitem:24719:0:0:0:0:0:-39:41:66|h[Pechera Zarrapucha del invocador]|h|r",
+										[13] = "|cff1eff00|Hitem:25327:0:0:0:0:0:-41:41:66|h[Bastón demente de la bestia]|h|r",
+										[15] = "|cff1eff00|Hitem:25174:0:0:0:0:0:-14:43:66|h[Hanbo del tigre]|h|r",
+										[5] = "|cff1eff00|Hitem:25299:0:0:0:0:0:-44:17:66|h[Daga de succión del anciano]|h|r",
+									},
+								},
+								["Bag2"] = {
+									["ids"] = {
+										24713, -- [1]
+										1443, -- [2]
+										18528, -- [3]
+										940, -- [4]
+										5266, -- [5]
+										14553, -- [6]
+										25518, -- [7]
+										18322, -- [8]
+										25489, -- [9]
+										25599, -- [10]
+										24390, -- [11]
+										1607, -- [12]
+										2243, -- [13]
+										25480, -- [14]
+										31657, -- [15]
+										25985, -- [16]
+									},
+									["size"] = 16,
+									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+									["links"] = {
+										"|cff1eff00|Hitem:24713:0:0:0:0:0:-39:40:66|h[Yelmo de venganza del invocador]|h|r", -- [1]
+										[4] = "|cffa335ee|Hitem:940:1843:0:0:0:0:0:0:66|h[Togas de Perspicacia]|h|r",
+										[8] = "|cff0070dd|Hitem:18322:1843:0:0:0:0:0:0:66|h[Botas del canalón]|h|r",
+									},
+								},
+								["Bag3"] = {
+									["freeslots"] = 9,
+									["counts"] = {
+										2, -- [1]
+										[9] = 4,
+										[3] = 11,
+										[5] = 2,
+									},
+									["ids"] = {
+										4235, -- [1]
+										24479, -- [2]
+										17058, -- [3]
+										867, -- [4]
+										8170, -- [5]
+										24426, -- [6]
+										[9] = 4304,
+									},
+									["link"] = "|cff1eff00|Hitem:21841:0:0:0:0:0:0:0:66|h[Bolsa de tejido abisal]|h|r",
+									["size"] = 16,
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_23_Netherweave",
+									["links"] = {
+										[4] = "|cffa335ee|Hitem:867:18:0:0:0:0:0:0:66|h[Guantes de Poderío Sagrado]|h|r",
+									},
+								},
+								["Bag0"] = {
+									["freeslots"] = 16,
+									["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+									["size"] = 16,
+								},
+							},
+							["guildName"] = "Orden Fenix",
+							["CompletedAchievements"] = 102,
+							["inventory"] = {
+								29940, -- [1]
+								24385, -- [2]
+								"|cff0070dd|Hitem:24398:2483:0:0:0:0:0:0:66|h[Manto del morador Crepuscular]|h|r", -- [3]
+								nil, -- [4]
+								"|cff0070dd|Hitem:28051:1843:0:0:0:0:0:0:66|h[Chaleco del espíritu salvaje]|h|r", -- [5]
+								"|cff1eff00|Hitem:24725:0:0:0:0:0:-7:32:66|h[Cordón de demencia del oso]|h|r", -- [6]
+								"|cff1eff00|Hitem:25507:18:0:0:0:0:0:0:66|h[Leotardos de Telhamat]|h|r", -- [7]
+								25515, -- [8]
+								"|cff1eff00|Hitem:24732:0:0:0:0:0:-41:24:66|h[Guardabrazos de demencia de la bestia]|h|r", -- [9]
+								"|cff0070dd|Hitem:31126:18:0:0:0:0:0:0:66|h[Guantes de ferocidad]|h|r", -- [10]
+								"|cff1eff00|Hitem:25046:0:0:0:0:0:-40:22:66|h[Anillo con púas del bandido]|h|r", -- [11]
+								942, -- [12]
+								34423, -- [13]
+								28042, -- [14]
+								13122, -- [15]
+								"|cff1eff00|Hitem:25228:0:0:0:0:0:-8:40:66|h[Alabarda de la ballena]|h|r", -- [16]
+								[18] = 28064,
+								[19] = 5976,
+							},
+							["numFreeBagSlots"] = 16,
+							["isResting"] = 1,
 						},
 						["Doroteo"] = {
 							["inventory"] = {
@@ -1847,12 +2198,21 @@ AltoholicDB = {
 									["Espadas"] = "44|100",
 									["Bastones"] = "43|100",
 									["Defensa"] = "99|100",
-									["Armas arrojadizas"] = "1|100",
 									["Hachas"] = "2|100",
+									["Armas arrojadizas"] = "1|100",
 								},
 								["Idiomas"] = {
 									["Idioma: común"] = "300|300",
 									["Idioma: enánico"] = "300|300",
+								},
+								["Armaduras disponibles"] = {
+									["Tela"] = "1|1",
+									["Cuero"] = "1|1",
+								},
+								["Habilidades de clase"] = {
+									["Supervivencia"] = "1|1",
+									["Dominio de bestias"] = "1|1",
+									["Puntería"] = "1|1",
 								},
 								["Habilidades secundarias"] = {
 									["Cocina"] = "94|150",
@@ -1860,24 +2220,15 @@ AltoholicDB = {
 									["Equitación"] = "75|75",
 									["Primeros auxilios"] = "100|150",
 								},
-								["Habilidades de clase"] = {
-									["Supervivencia"] = "1|1",
-									["Dominio de bestias"] = "1|1",
-									["Puntería"] = "1|1",
-								},
-								["Armaduras disponibles"] = {
-									["Cuero"] = "1|1",
-									["Tela"] = "1|1",
-								},
 							},
 							["pets"] = {
+								["MOUNT"] = {
+									"Carnero marrón|6899|Ability_Mount_MountainRam|4779", -- [1]
+								},
 								["CRITTER"] = {
 									"Conejo Pataneve|10711|INV_Crate_02|7560", -- [1]
 									"Gatito blanco|10679|INV_Box_PetCarrier_01|7386", -- [2]
 									"Prole de estornino|61348|Ability_Hunter_Pet_Owl|32589", -- [3]
-								},
-								["MOUNT"] = {
-									"Carnero marrón|6899|Ability_Mount_MountainRam|4779", -- [1]
 								},
 							},
 							["xpmax"] = 20800,
@@ -1907,19 +2258,17 @@ AltoholicDB = {
 								["Cocina"] = {
 									["FullLink"] = "|cffffd000|Htrade:3102:94:150:F61C8:+BAA1IDAEAAABAAQAAAAAAAAAAAA8PA|h[Cocina]|h|r",
 								},
-								["Primeros auxilios"] = {
+								["Minería"] = {
 									["ScanFailed"] = false,
-									["FullLink"] = "|cffffd000|Htrade:3274:100:150:F61C8:eIAAAA|h[Primeros auxilios]|h|r",
-									["list"] = {
-										"0^Otros", -- [1]
-										"2^6452^7934^1475:1", -- [2]
-										"0^Venda", -- [3]
-										"2^3530^3277^2592:1", -- [4]
-										"4^2581^3276^2589:2", -- [5]
-										"4^1251^3275^2589:1", -- [6]
-									},
 									["TotalCount"] = 4,
-									["YellowCount"] = 2,
+									["YellowCount"] = 1,
+									["list"] = {
+										"0^Metal y piedra", -- [1]
+										"2^2842^2658^2775:1", -- [2]
+										"4^2841^2659^2840:1|3576:1", -- [3]
+										"4^3576^3304^2771:1", -- [4]
+										"4^2840^2657^2770:1", -- [5]
+									},
 								},
 								["Ingeniería"] = {
 									["ScanFailed"] = false,
@@ -1961,22 +2310,24 @@ AltoholicDB = {
 										"0^Chatarra", -- [34]
 										"4^6712^8334^2841:1|4359:2|2880:1", -- [35]
 									},
-									["OrangeCount"] = 2,
 									["TotalCount"] = 27,
+									["OrangeCount"] = 2,
 									["YellowCount"] = 7,
 									["GreenCount"] = 4,
 								},
-								["Minería"] = {
+								["Primeros auxilios"] = {
 									["ScanFailed"] = false,
-									["TotalCount"] = 4,
-									["YellowCount"] = 1,
+									["FullLink"] = "|cffffd000|Htrade:3274:100:150:F61C8:eIAAAA|h[Primeros auxilios]|h|r",
 									["list"] = {
-										"0^Metal y piedra", -- [1]
-										"2^2842^2658^2775:1", -- [2]
-										"4^2841^2659^2840:1|3576:1", -- [3]
-										"4^3576^3304^2771:1", -- [4]
-										"4^2840^2657^2770:1", -- [5]
+										"0^Otros", -- [1]
+										"2^6452^7934^1475:1", -- [2]
+										"0^Venda", -- [3]
+										"2^3530^3277^2592:1", -- [4]
+										"4^2581^3276^2589:2", -- [5]
+										"4^1251^3275^2589:1", -- [6]
 									},
+									["TotalCount"] = 4,
+									["YellowCount"] = 2,
 								},
 							},
 							["achievements"] = {
@@ -2007,15 +2358,15 @@ AltoholicDB = {
 								[1192] = "1:0",
 								[42] = "1,7,10,20",
 								[1764] = "1:0",
-								[584] = "1:0,2:0,3:0,4:0,5:0",
+								[252] = "1:0",
 								[1796] = "1:25",
 								[973] = "1:0",
 								[1193] = "1:0",
 								[3800] = "1:0",
-								[2935] = "1:0",
+								[3002] = "1:0",
 								[504] = true,
 								[1765] = "1:0",
-								[3098] = "1:0",
+								[2085] = "1:0",
 								[1162] = "1:0",
 								[3003] = "1:0",
 								[1194] = "1:0",
@@ -2024,13 +2375,13 @@ AltoholicDB = {
 								[942] = "1:0,2:0,3:0",
 								[1766] = "1:0",
 								[31] = "1:0",
-								[1188] = "1:0",
+								[1696] = "1:0",
 								[213] = "1:0",
 								[1195] = "1:0",
 								[3097] = "1:0",
-								[1751] = "1:0",
+								[34] = "1:0",
 								[221] = "1:0",
-								[891] = true,
+								[764] = "1:0,2:0,3:0,4:0,5:0",
 								[39] = "1:0",
 								[776] = true,
 								[784] = "1:0",
@@ -2041,73 +2392,353 @@ AltoholicDB = {
 								[1763] = "1:0",
 								[705] = "1:2,2:0,3:1,4:1,5:100,6:0,7:1,8:43,9:44,10:70,11:65,12:0,13:2,14:0,15:1",
 								[2188] = "1:0",
-								[3014] = "1:0",
+								[388] = "1:0",
 								[1832] = "1:14",
-								[4476] = "1:0",
 								[15] = "1:3",
+								[2189] = "1:0",
 								[505] = "1:123",
 								[1261] = "1:0",
-								[16] = "1:2",
 								[2190] = "1:0",
+								[16] = "1:2",
 								[1182] = "1:15639",
 								[1833] = "1:2",
-								[587] = "1:0,2:0,3:0,4:0",
+								[1723] = "1:0",
 								[2191] = "1:0",
-								[2193] = "1:0",
+								[158] = "1:0",
 								[3017] = "1:0",
 								[1151] = "1:0",
 								[841] = "10",
-								[1295] = "1:0",
-								[2199] = "1:0,2:0,3:0,4:0,5:0,6:0,7:0,8:0,9:0,10:0",
-								[1723] = "1:0",
-								[156] = "1:0",
-								[158] = "1:0",
-								[1678] = "1:0",
-								[2924] = "1:0",
 								[778] = "3,13",
-								[272] = "1:0",
-								[260] = "1:0",
+								[3850] = "1:0,2:0",
+								[2923] = "1:0",
+								[156] = "1:0",
+								[627] = true,
+								[1295] = "1:0",
+								[2924] = "1:0",
+								[1676] = "1:116",
+								[200] = "1:0",
+								[37] = "1:0",
 								[2417] = "1:0",
-								[779] = true,
-								[1281] = "1:0",
+								[3849] = "1:0",
+								[1789] = "1:0",
 								[953] = "1:0,2:0",
 								[872] = "1:0",
-								[1872] = "1:0",
-								[604] = "1:0,2:0,3:0,4:0",
+								[802] = true,
 								[731] = true,
+								[604] = "1:0,2:0,3:0,4:0",
 								[3816] = "1:0",
 								[3848] = "1:0",
-								[802] = true,
+								[1872] = "1:0",
 								[1017] = true,
-								[1789] = "1:0",
-								[3849] = "1:0",
-								[37] = "1:0",
-								[200] = "1:0",
-								[1676] = "1:116",
-								[3850] = "1:0,2:0",
+								[1281] = "1:0",
+								[779] = true,
+								[260] = "1:0",
+								[272] = "1:0",
+								[1678] = "1:0",
+								[2199] = "1:0,2:0,3:0,4:0,5:0,6:0,7:0,8:0,9:0,10:0",
 								[206] = "1:0",
-								[627] = true,
-								[2923] = "1:0",
+								[2193] = "1:0",
+								[587] = "1:0,2:0,3:0,4:0",
 								[1552] = "1:0",
-								[2189] = "1:0",
-								[388] = "1:0",
+								[4476] = "1:0",
+								[3014] = "1:0",
 								[6] = true,
 								[3852] = "1:0",
 								[222] = "1:0",
-								[764] = "1:0,2:0,3:0,4:0,5:0",
-								[34] = "1:0",
+								[891] = true,
+								[1751] = "1:0",
 								[780] = "1,2,3,4",
-								[1696] = "1:0",
+								[1188] = "1:0",
 								[116] = true,
 								[2933] = "1:0",
-								[2085] = "1:0",
-								[3002] = "1:0",
-								[252] = "1:0",
+								[3098] = "1:0",
+								[2935] = "1:0",
+								[584] = "1:0,2:0,3:0,4:0,5:0",
 							},
 							["race"] = "Enano",
 							["activeTalents"] = 1,
 							["lastlogout"] = 1496357090,
 							["glyphInfo"] = "1:1:::0|1:2:::0|0:2:::0|0:1:::0|0:2:::0|0:1:::0|0:0:::0|0:0:::0|0:0:::0|0:0:::0|0:0:::0|0:0:::0|",
+							["englishClass"] = "HUNTER",
+							["talent"] = "Bestias:0|Puntería:0|Supervivencia:0|Bestias:0|Puntería:0|Supervivencia:0",
+							["numFreeBankSlots"] = 18,
+							["numBagSlots"] = 16,
+							["restxp"] = 17158,
+							["TotalAchievementPoints"] = 160,
+							["bag"] = {
+								["Bag3"] = {
+									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
+									["ids"] = {
+										2287, -- [1]
+										1179, -- [2]
+										8068, -- [3]
+										8068, -- [4]
+										8068, -- [5]
+										8069, -- [6]
+										1205, -- [7]
+										1205, -- [8]
+										4542, -- [9]
+										2581, -- [10]
+									},
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+									["counts"] = {
+										3, -- [1]
+										5, -- [2]
+										184, -- [3]
+										1000, -- [4]
+										1000, -- [5]
+										200, -- [6]
+										12, -- [7]
+										20, -- [8]
+										17, -- [9]
+										18, -- [10]
+									},
+									["size"] = 10,
+								},
+								["Bag5"] = {
+									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
+									["size"] = 10,
+									["ids"] = {
+										[7] = 4406,
+									},
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+									["freeslots"] = 9,
+								},
+								["Bag4"] = {
+									["link"] = "|cffffffff|Hitem:3914:0:0:0:0:0:0:0:20|h[Mochila de oficial]|h|r",
+									["size"] = 14,
+									["ids"] = {
+										2267, -- [1]
+									},
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
+									["freeslots"] = 13,
+								},
+								["Bag0"] = {
+									["ids"] = {
+										9283, -- [1]
+										nil, -- [2]
+										2589, -- [3]
+										2589, -- [4]
+										nil, -- [5]
+										2589, -- [6]
+										[10] = 2589,
+										[12] = 2589,
+										[14] = 5109,
+										[9] = 2589,
+										[11] = 2589,
+										[13] = 1504,
+										[15] = 6348,
+									},
+									["size"] = 16,
+									["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+									["counts"] = {
+										[10] = 20,
+										[6] = 20,
+										[9] = 20,
+										[11] = 20,
+										[3] = 20,
+										[4] = 20,
+										[12] = 18,
+									},
+									["freeslots"] = 5,
+								},
+								["Bag1"] = {
+									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
+									["ids"] = {
+										1819, -- [1]
+										6948, -- [2]
+										5114, -- [3]
+										2684, -- [4]
+										955, -- [5]
+										3385, -- [6]
+										3388, -- [7]
+										2455, -- [8]
+										2454, -- [9]
+										858, -- [10]
+									},
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+									["counts"] = {
+										nil, -- [1]
+										nil, -- [2]
+										nil, -- [3]
+										2, -- [4]
+										3, -- [5]
+										nil, -- [6]
+										19, -- [7]
+										5, -- [8]
+										2, -- [9]
+										10, -- [10]
+									},
+									["size"] = 10,
+								},
+								["Bag2"] = {
+									["size"] = 10,
+									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
+									["ids"] = {
+										2863, -- [1]
+										2592, -- [2]
+										5956, -- [3]
+										6219, -- [4]
+										nil, -- [5]
+										nil, -- [6]
+										4371, -- [7]
+										4399, -- [8]
+										4359, -- [9]
+										4363, -- [10]
+									},
+									["counts"] = {
+										3, -- [1]
+										20, -- [2]
+										nil, -- [3]
+										nil, -- [4]
+										nil, -- [5]
+										nil, -- [6]
+										17, -- [7]
+										10, -- [8]
+										8, -- [9]
+										13, -- [10]
+									},
+									["freeslots"] = 2,
+								},
+								["Bag100"] = {
+									["size"] = 28,
+									["freeslots"] = 1,
+									["counts"] = {
+										20, -- [1]
+										20, -- [2]
+										20, -- [3]
+										11, -- [4]
+										20, -- [5]
+										5, -- [6]
+										20, -- [7]
+										20, -- [8]
+										20, -- [9]
+										20, -- [10]
+										17, -- [11]
+										20, -- [12]
+										2, -- [13]
+										nil, -- [14]
+										16, -- [15]
+										20, -- [16]
+										20, -- [17]
+										20, -- [18]
+										nil, -- [19]
+										8, -- [20]
+										6, -- [21]
+										nil, -- [22]
+										nil, -- [23]
+										4, -- [24]
+										nil, -- [25]
+										6, -- [26]
+										20, -- [27]
+										3, -- [28]
+									},
+									["ids"] = {
+										4404, -- [1]
+										4404, -- [2]
+										4404, -- [3]
+										4404, -- [4]
+										2840, -- [5]
+										2840, -- [6]
+										2840, -- [7]
+										2840, -- [8]
+										2840, -- [9]
+										2841, -- [10]
+										2841, -- [11]
+										2841, -- [12]
+										2842, -- [13]
+										nil, -- [14]
+										4234, -- [15]
+										4234, -- [16]
+										2319, -- [17]
+										2319, -- [18]
+										2318, -- [19]
+										1210, -- [20]
+										818, -- [21]
+										20955, -- [22]
+										30420, -- [23]
+										4611, -- [24]
+										5500, -- [25]
+										4364, -- [26]
+										4364, -- [27]
+										774, -- [28]
+									},
+								},
+								["Bag-2"] = {
+									["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
+									["size"] = 32,
+								},
+								["Bag6"] = {
+									["size"] = 10,
+									["link"] = "|cffffffff|Hitem:933:0:0:0:0:0:0:0:20|h[Mochila grande]|h|r",
+									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
+									["ids"] = {
+										2592, -- [1]
+										[3] = 2996,
+									},
+									["counts"] = {
+										11, -- [1]
+									},
+									["freeslots"] = 8,
+								},
+							},
+							["guildName"] = "Orden Fenix",
+							["questlog"] = {
+								{
+									["name"] = "Gnomeregan",
+									["isHeader"] = true,
+								}, -- [1]
+								{
+									["link"] = "|cffff2020|Hquest:2926:27|h[Gnogaine]|h|r",
+									["money"] = 2200,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [2]
+								{
+									["name"] = "Las Minas de la Muerte",
+									["isHeader"] = true,
+								}, -- [3]
+								{
+									["link"] = "|cffffff00|Hquest:2040:20|h[Asalto subterráneo]|h|r",
+									["money"] = 0,
+									["rewards"] = "c|7606|1|^c|7607|1|",
+									["groupsize"] = 0,
+									["tag"] = "Mazmorra",
+								}, -- [4]
+								{
+									["name"] = "Loch Modan",
+									["isHeader"] = true,
+								}, -- [5]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cff40c040|Hquest:302:15|h[Pólvora para Vetaferro]|h|r",
+								}, -- [6]
+								{
+									["link"] = "|cffffff00|Hquest:256:22|h[SE BUSCAN: Chok'sul]|h|r",
+									["money"] = 0,
+									["rewards"] = "c|6189|1|^c|6191|1|1^r|1449|1|1",
+									["groupsize"] = 0,
+									["tag"] = "Élite",
+								}, -- [7]
+								{
+									["name"] = "Los Humedales",
+									["isHeader"] = true,
+								}, -- [8]
+								{
+									["money"] = 0,
+									["rewards"] = "",
+									["groupsize"] = 0,
+									["link"] = "|cffffff00|Hquest:468:21|h[Preséntate ante el montaraz Rockgar]|h|r",
+								}, -- [9]
+							},
+							["numBankSlots"] = 48,
+							["faction"] = "Alliance",
+							["played"] = 94013,
+							["CompletedAchievements"] = 16,
 							["Spells"] = {
 								"0|General", -- [1]
 								"6603|", -- [2]
@@ -2169,286 +2800,6 @@ AltoholicDB = {
 								"1499|Rango 1", -- [58]
 								"13795|Rango 1", -- [59]
 							},
-							["talent"] = "Bestias:0|Puntería:0|Supervivencia:0|Bestias:0|Puntería:0|Supervivencia:0",
-							["CompletedAchievements"] = 16,
-							["numBagSlots"] = 16,
-							["restxp"] = 17158,
-							["played"] = 94013,
-							["faction"] = "Alliance",
-							["numBankSlots"] = 48,
-							["questlog"] = {
-								{
-									["name"] = "Gnomeregan",
-									["isHeader"] = true,
-								}, -- [1]
-								{
-									["link"] = "|cffff2020|Hquest:2926:27|h[Gnogaine]|h|r",
-									["money"] = 2200,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [2]
-								{
-									["name"] = "Las Minas de la Muerte",
-									["isHeader"] = true,
-								}, -- [3]
-								{
-									["link"] = "|cffffff00|Hquest:2040:20|h[Asalto subterráneo]|h|r",
-									["money"] = 0,
-									["rewards"] = "c|7606|1|^c|7607|1|",
-									["groupsize"] = 0,
-									["tag"] = "Mazmorra",
-								}, -- [4]
-								{
-									["name"] = "Loch Modan",
-									["isHeader"] = true,
-								}, -- [5]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cff40c040|Hquest:302:15|h[Pólvora para Vetaferro]|h|r",
-								}, -- [6]
-								{
-									["link"] = "|cffffff00|Hquest:256:22|h[SE BUSCAN: Chok'sul]|h|r",
-									["money"] = 0,
-									["rewards"] = "c|6189|1|^c|6191|1|1^r|1449|1|1",
-									["groupsize"] = 0,
-									["tag"] = "Élite",
-								}, -- [7]
-								{
-									["name"] = "Los Humedales",
-									["isHeader"] = true,
-								}, -- [8]
-								{
-									["money"] = 0,
-									["rewards"] = "",
-									["groupsize"] = 0,
-									["link"] = "|cffffff00|Hquest:468:21|h[Preséntate ante el montaraz Rockgar]|h|r",
-								}, -- [9]
-							},
-							["guildName"] = "Orden Fenix",
-							["bag"] = {
-								["Bag3"] = {
-									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
-									["ids"] = {
-										2287, -- [1]
-										1179, -- [2]
-										8068, -- [3]
-										8068, -- [4]
-										8068, -- [5]
-										8069, -- [6]
-										1205, -- [7]
-										1205, -- [8]
-										4542, -- [9]
-										2581, -- [10]
-									},
-									["counts"] = {
-										3, -- [1]
-										5, -- [2]
-										184, -- [3]
-										1000, -- [4]
-										1000, -- [5]
-										200, -- [6]
-										12, -- [7]
-										20, -- [8]
-										17, -- [9]
-										18, -- [10]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-									["size"] = 10,
-								},
-								["Bag5"] = {
-									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
-									["freeslots"] = 9,
-									["ids"] = {
-										[7] = 4406,
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-									["size"] = 10,
-								},
-								["Bag4"] = {
-									["link"] = "|cffffffff|Hitem:3914:0:0:0:0:0:0:0:20|h[Mochila de oficial]|h|r",
-									["freeslots"] = 13,
-									["ids"] = {
-										2267, -- [1]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_07_Black",
-									["size"] = 14,
-								},
-								["Bag0"] = {
-									["ids"] = {
-										9283, -- [1]
-										nil, -- [2]
-										2589, -- [3]
-										2589, -- [4]
-										nil, -- [5]
-										2589, -- [6]
-										[10] = 2589,
-										[12] = 2589,
-										[14] = 5109,
-										[9] = 2589,
-										[11] = 2589,
-										[13] = 1504,
-										[15] = 6348,
-									},
-									["freeslots"] = 5,
-									["counts"] = {
-										[10] = 20,
-										[6] = 20,
-										[9] = 20,
-										[11] = 20,
-										[3] = 20,
-										[4] = 20,
-										[12] = 18,
-									},
-									["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
-									["size"] = 16,
-								},
-								["Bag1"] = {
-									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
-									["ids"] = {
-										1819, -- [1]
-										6948, -- [2]
-										5114, -- [3]
-										2684, -- [4]
-										955, -- [5]
-										3385, -- [6]
-										3388, -- [7]
-										2455, -- [8]
-										2454, -- [9]
-										858, -- [10]
-									},
-									["counts"] = {
-										nil, -- [1]
-										nil, -- [2]
-										nil, -- [3]
-										2, -- [4]
-										3, -- [5]
-										nil, -- [6]
-										19, -- [7]
-										5, -- [8]
-										2, -- [9]
-										10, -- [10]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-									["size"] = 10,
-								},
-								["Bag2"] = {
-									["freeslots"] = 2,
-									["link"] = "|cffffffff|Hitem:4497:0:0:0:0:0:0:0:20|h[Bolsa marrón pesada]|h|r",
-									["counts"] = {
-										3, -- [1]
-										20, -- [2]
-										nil, -- [3]
-										nil, -- [4]
-										nil, -- [5]
-										nil, -- [6]
-										17, -- [7]
-										10, -- [8]
-										8, -- [9]
-										13, -- [10]
-									},
-									["ids"] = {
-										2863, -- [1]
-										2592, -- [2]
-										5956, -- [3]
-										6219, -- [4]
-										nil, -- [5]
-										nil, -- [6]
-										4371, -- [7]
-										4399, -- [8]
-										4359, -- [9]
-										4363, -- [10]
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10",
-									["size"] = 10,
-								},
-								["Bag100"] = {
-									["ids"] = {
-										4404, -- [1]
-										4404, -- [2]
-										4404, -- [3]
-										4404, -- [4]
-										2840, -- [5]
-										2840, -- [6]
-										2840, -- [7]
-										2840, -- [8]
-										2840, -- [9]
-										2841, -- [10]
-										2841, -- [11]
-										2841, -- [12]
-										2842, -- [13]
-										nil, -- [14]
-										4234, -- [15]
-										4234, -- [16]
-										2319, -- [17]
-										2319, -- [18]
-										2318, -- [19]
-										1210, -- [20]
-										818, -- [21]
-										20955, -- [22]
-										30420, -- [23]
-										4611, -- [24]
-										5500, -- [25]
-										4364, -- [26]
-										4364, -- [27]
-										774, -- [28]
-									},
-									["freeslots"] = 1,
-									["counts"] = {
-										20, -- [1]
-										20, -- [2]
-										20, -- [3]
-										11, -- [4]
-										20, -- [5]
-										5, -- [6]
-										20, -- [7]
-										20, -- [8]
-										20, -- [9]
-										20, -- [10]
-										17, -- [11]
-										20, -- [12]
-										2, -- [13]
-										nil, -- [14]
-										16, -- [15]
-										20, -- [16]
-										20, -- [17]
-										20, -- [18]
-										nil, -- [19]
-										8, -- [20]
-										6, -- [21]
-										nil, -- [22]
-										nil, -- [23]
-										4, -- [24]
-										nil, -- [25]
-										6, -- [26]
-										20, -- [27]
-										3, -- [28]
-									},
-									["size"] = 28,
-								},
-								["Bag-2"] = {
-									["icon"] = "Interface\\Icons\\INV_Misc_Key_14",
-									["size"] = 32,
-								},
-								["Bag6"] = {
-									["freeslots"] = 8,
-									["link"] = "|cffffffff|Hitem:933:0:0:0:0:0:0:0:20|h[Mochila grande]|h|r",
-									["counts"] = {
-										11, -- [1]
-									},
-									["ids"] = {
-										2592, -- [1]
-										[3] = 2996,
-									},
-									["icon"] = "Interface\\Icons\\INV_Misc_Bag_10_Black",
-									["size"] = 10,
-								},
-							},
-							["TotalAchievementPoints"] = 160,
-							["numFreeBankSlots"] = 18,
-							["englishClass"] = "HUNTER",
 						},
 					},
 					["tokens"] = {
@@ -2550,12 +2901,12 @@ AltoholicDB = {
 							["Skombrow"] = "0|3000|0",
 							["Doroteo"] = "0|3000|0",
 						},
-						["El Pacto de Plata"] = {
-							["Skombrow"] = "0|3000|0",
-							["Doroteo"] = "0|3000|0",
+						["El Exodar"] = {
+							["Skombrow"] = "42000|43000|42999",
+							["Doroteo"] = "9000|21000|9488",
 						},
-						["Guardia Pico Tormenta"] = {
-							["Skombrow"] = "0|3000|250",
+						["Shen'dralar"] = {
+							["Skombrow"] = "0|3000|500",
 						},
 						["Expedición Cenarion"] = {
 							["Skombrow"] = "3000|9000|6775",
@@ -2563,12 +2914,12 @@ AltoholicDB = {
 						["Ravenholdt"] = {
 							["Skombrow"] = "0|3000|470",
 						},
-						["Shen'dralar"] = {
-							["Skombrow"] = "0|3000|500",
+						["Guardia Pico Tormenta"] = {
+							["Skombrow"] = "0|3000|250",
 						},
-						["El Exodar"] = {
-							["Skombrow"] = "42000|43000|42999",
-							["Doroteo"] = "9000|21000|9488",
+						["El Pacto de Plata"] = {
+							["Skombrow"] = "0|3000|0",
+							["Doroteo"] = "0|3000|0",
 						},
 						["Feria de la Luna Negra"] = {
 							["Doroteo"] = "0|3000|0",
@@ -2577,6 +2928,45 @@ AltoholicDB = {
 				},
 			},
 		},
+	},
+	["profileKeys"] = {
+		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
+		["Miratros - WoWArg"] = "Miratros - WoWArg",
+		["Underclub - WoWArg"] = "Underclub - WoWArg",
+		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
+		["Fjaak - Sin'dorei(WoWArg)"] = "Fjaak - Sin'dorei(WoWArg)",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+		["Draenoric - Sin'dorei(WoWArg)"] = "Draenoric - Sin'dorei(WoWArg)",
+		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Microwave - WoWArg"] = "Microwave - WoWArg",
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
+		["Mithrandil - WoWArg"] = "Mithrandil - WoWArg",
+		["Skombrow - Bennu"] = "Skombrow - Bennu",
+		["Operator - WoWArg"] = "Operator - WoWArg",
+		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
+		["Deadly - WoWArg"] = "Deadly - WoWArg",
+		["Acidstorm - WoWArg"] = "Acidstorm - WoWArg",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
+		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
+		["Underclub - Sin'dorei(WoWArg)"] = "Underclub - Sin'dorei(WoWArg)",
+		["Rivo - Sin'dorei(WoWArg)"] = "Rivo - Sin'dorei(WoWArg)",
+		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
+		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
+		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
+		["Snts - Sin'dorei(WoWArg)"] = "Snts - Sin'dorei(WoWArg)",
+		["Fjaak - Sin'Dorei"] = "Fjaak - Sin'Dorei",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Doroteo - Sin'dorei(WoWArg)"] = "Doroteo - Sin'dorei(WoWArg)",
+		["Subjected - Sin'dorei(WoWArg)"] = "Subjected - Sin'dorei(WoWArg)",
+		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
+		["Snts - WoWArg"] = "Snts - WoWArg",
+		["Rivo - WoWArg"] = "Rivo - WoWArg",
+		["Bloodpurge - WoWArg"] = "Bloodpurge - WoWArg",
+		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
 	},
 	["profiles"] = {
 		["Doroteo - WoWArg"] = {

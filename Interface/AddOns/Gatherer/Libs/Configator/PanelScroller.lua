@@ -1,7 +1,7 @@
 --[[
 	PanelScroller
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: PanelScroller.lua 130 2008-10-11 12:38:07Z Norganna $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: PanelScroller.lua 275 2010-10-03 14:00:39Z kandoko $
 	URL: http://auctioneeraddon.com/dl/
 
 	License:
@@ -26,7 +26,7 @@
 --]]
 
 local LIBRARY_VERSION_MAJOR = "PanelScroller"
-local LIBRARY_VERSION_MINOR = 2
+local LIBRARY_VERSION_MINOR = 3
 
 do -- LibStub
 	-- LibStub is a simple versioning stub meant for use in Libraries.  http://www.wowace.com/wiki/LibStub for more info
@@ -84,7 +84,7 @@ end -- LibStub
 local lib = LibStub:NewLibrary(LIBRARY_VERSION_MAJOR, LIBRARY_VERSION_MINOR)
 if not lib then return end
 
-LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/PanelScroller.lua $","$Rev: 130 $","5.1.DEV.", 'auctioneer', 'libs')
+LibStub("LibRevision"):Set("$URL: http://svn.norganna.org/libs/trunk/Configator/PanelScroller.lua $","$Rev: 275 $","5.1.DEV.", 'auctioneer', 'libs')
 
 local kit = {
 	hPos = 0, hSize = 0, hWin = 0, hType = "AUTO",
@@ -200,7 +200,7 @@ end
 
 function kit:ScrollSync()
 	if (self.hType ~= "FAUX") then
-		self:SetHorizontalScroll(self.hScroll:GetValue() * -1)
+		self:SetHorizontalScroll(self.hScroll:GetValue()) --removed the * -1  inversion. Scrolling >right> now uses a positive integer as of wow patch 3.3.3
 	end
 	if (self.vType ~= "FAUX") then
 		self:SetVerticalScroll(self.vScroll:GetValue())
@@ -287,8 +287,8 @@ end
 
 function lib:Create(name, parent)
 	local scroller = CreateFrame("ScrollFrame", name, parent, "PanelScrollerTemplate_v1")
-	scroller.hScroll = getglobal(name.."HorizontalScrollBar");
-	scroller.vScroll = getglobal(name.."VerticalScrollBar");
+	scroller.hScroll = _G[name.."HorizontalScrollBar"];
+	scroller.vScroll = _G[name.."VerticalScrollBar"];
 	for k,v in pairs(kit) do
 		scroller[k] = v
 	end

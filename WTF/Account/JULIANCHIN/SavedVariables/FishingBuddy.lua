@@ -17,14 +17,14 @@ FishingBuddy_Info = {
 		},
 		["FishingHoles"] = {
 		},
-		["FishingSkill"] = {
-		},
 		["SubZones"] = {
 			[1000] = 2,
 			[1002] = "The Eventide",
 			[2000] = 1,
 			[1001] = "Dalaran Merchant's Bank",
 			[2001] = "Shadowglen",
+		},
+		["FishingSkill"] = {
 		},
 	},
 	["FishInfo2"] = 0,

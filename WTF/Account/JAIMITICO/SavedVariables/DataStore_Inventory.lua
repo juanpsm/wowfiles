@@ -3,6 +3,7 @@ DataStore_InventoryDB = {
 	["profileKeys"] = {
 		["Asasasdasda - WoWArg"] = "Asasasdasda - WoWArg",
 		["Irupe - WoWArg"] = "Irupe - WoWArg",
+		["Jaimitico - Sin'dorei(WoWArg)"] = "Jaimitico - Sin'dorei(WoWArg)",
 		["Garkunkel - WoWArg"] = "Garkunkel - WoWArg",
 		["Elfhelm - WoWArg"] = "Elfhelm - WoWArg",
 		["Ampina - WoWArg"] = "Ampina - WoWArg",
@@ -11,6 +12,24 @@ DataStore_InventoryDB = {
 	},
 	["global"] = {
 		["Characters"] = {
+			["Default.Sin'dorei(WoWArg).Jaimitico"] = {
+				["Inventory"] = {
+					nil, -- [1]
+					nil, -- [2]
+					nil, -- [3]
+					6097, -- [4]
+					3216, -- [5]
+					3370, -- [6]
+					"|cff1eff00|Hitem:14090:0:0:0:0:0:839:0:12|h[Beaded Britches of the Eagle]|h|r", -- [7]
+					6173, -- [8]
+					3373, -- [9]
+					719, -- [10]
+					[16] = 1010,
+					[15] = 3153,
+				},
+				["averageItemLvl"] = 8.125,
+				["lastUpdate"] = 1618962692,
+			},
 			["Default.WoWArg.Garkunkel"] = {
 				["Inventory"] = {
 					nil, -- [1]

@@ -2,14 +2,12 @@
 EveryQuestDB = nil
 EQ2DB = {
 	["profileKeys"] = {
-		["Ijaa - Sin'Dorei"] = "global",
+		["Ijaa - WoWArg"] = "global",
+		["Spawm - Sin'dorei(WoWArg)"] = "global",
 	},
 	["profiles"] = {
 		["global"] = {
-			["unknowns"] = {
-				[236] = "162||11/18/21||Fueling the Demolishers||Wintergrasp",
-			},
-			["querytime"] = 1637290079,
+			["querytime"] = 1539810248,
 		},
 	},
 }

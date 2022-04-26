@@ -1,6 +1,16 @@
 
 ARLDB2 = {
 	["profileKeys"] = {
-		["Arbull - WoWArg"] = "Arbull - WoWArg",
+		["Skombrow - Bennu"] = "Skombrow - Bennu",
+		["Nightbull - Sin'dorei(WoWArg)"] = "Nightbull - Sin'dorei(WoWArg)",
+		["Nightbull - Sin'Dorei"] = "Nightbull - Sin'Dorei",
+	},
+	["profiles"] = {
+		["Skombrow - Bennu"] = {
+		},
+		["Nightbull - Sin'dorei(WoWArg)"] = {
+		},
+		["Nightbull - Sin'Dorei"] = {
+		},
 	},
 }

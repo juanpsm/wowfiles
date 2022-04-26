@@ -1,0 +1,47 @@
+MACRO 16777225 "AFK" INV_Misc_QuestionMark
+/afk
+END
+MACRO 16777235 "asd" INV_Misc_QuestionMark
+END
+MACRO 16777232 "Blind" INV_Misc_QuestionMark
+#showtooltip
+/cast [target=focus] Blind
+END
+MACRO 16777226 "comida" Ability_Druid_Flourish
+/use Lifeblood
+/use Endless Healing Potion
+/use Sangre de vida
+END
+MACRO 16777220 "FASO" Spell_Holy_SealOfSacrifice
+/TARGET IJAA
+/USE Frostweave Bandage
+/cleartarget 
+END
+MACRO 16777233 "focus" Ability_CheapShot
+/use premeditation
+/use shadowstep
+END
+MACRO 16777227 "heal" Ability_Creature_Poison_04
+/use Endless Healing Potion
+/use Endless Healing Potion
+/useEndless Healing Potion
+/use Endless Healing Potion
+/use Endless Healing Potion
+END
+MACRO 16777229 "heal" Spell_Shaman_GiftEarthmother
+/use Endless Healing Potion
+/use Lifeblood(Rank 6)
+END
+MACRO 16777234 "ja" INV_Misc_QuestionMark
+/use cold blood
+/use envenom
+END
+MACRO 16777222 "jaja" ABILITY_SEAL
+/6 si alguien tiene Primal Earth tiardo se los compro
+END
+MACRO 16777228 "kiss" Ability_Ambush
+/5 soy DPS y busco HERO
+END
+MACRO 16777230 "ROLL" Ability_Hunter_BeastCall
+/roll
+END

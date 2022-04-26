@@ -2,15 +2,23 @@
 AtlasLootOptions = nil
 AtlasLootDB = {
 	["profileKeys"] = {
-		["Turco - WoWArg"] = "Turco - WoWArg",
-		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
-		["Gaara - WoWArg"] = "Gaara - WoWArg",
 		["Epyon - WoWArg"] = "Epyon - WoWArg",
+		["Turco - Sin'dorei(WoWArg)"] = "Turco - Sin'dorei(WoWArg)",
+		["Neruneya - WoWArg"] = "Neruneya - WoWArg",
 		["Misumi - WoWArg"] = "Misumi - WoWArg",
+		["Epyon - Sin'Dorei"] = "Epyon - Sin'Dorei",
+		["Neruneya - Sin'dorei(WoWArg)"] = "Neruneya - Sin'dorei(WoWArg)",
+		["Epyon - Sin'dorei(WoWArg)"] = "Epyon - Sin'dorei(WoWArg)",
+		["Turco - WoWArg"] = "Turco - WoWArg",
+		["Turco - Sin'Dorei"] = "Turco - Sin'Dorei",
+		["Gaara - WoWArg"] = "Gaara - WoWArg",
 	},
 	["profiles"] = {
-		["Turco - WoWArg"] = {
-			["HidePanel"] = true,
+		["Epyon - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Turco - Sin'dorei(WoWArg)"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
@@ -18,58 +26,38 @@ AtlasLootDB = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
-		["Gaara - WoWArg"] = {
-			["AtlasLootVersion"] = "51102",
-			["AllLinks"] = false,
-		},
-		["Epyon - WoWArg"] = {
-			["AllLinks"] = false,
-			["AtlasLootVersion"] = "51102",
-		},
 		["Misumi - WoWArg"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Epyon - Sin'Dorei"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Neruneya - Sin'dorei(WoWArg)"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Epyon - Sin'dorei(WoWArg)"] = {
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Turco - WoWArg"] = {
+			["HidePanel"] = true,
+			["AllLinks"] = false,
+			["AtlasLootVersion"] = "51102",
+		},
+		["Turco - Sin'Dorei"] = {
+			["AtlasLootVersion"] = "51102",
+			["AllLinks"] = false,
+		},
+		["Gaara - WoWArg"] = {
 			["AllLinks"] = false,
 			["AtlasLootVersion"] = "51102",
 		},
 	},
 }
 AtlasLootWishList = {
-	["Options"] = {
-		["Neruneya"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Epyon"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Misumi"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["AllowShareWishlist"] = true,
-			["markInTable"] = "own",
-		},
-		["Gaara"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-		["Turco"] = {
-			["AllowShareWishlistInCombat"] = true,
-			["UseDefaultWishlist"] = false,
-			["Mark"] = true,
-			["markInTable"] = "own",
-			["AllowShareWishlist"] = true,
-		},
-	},
 	["Shared"] = {
 		["Draenoric"] = {
 			{
@@ -242,14 +230,49 @@ AtlasLootWishList = {
 			}, -- [2]
 		},
 	},
+	["Options"] = {
+		["Neruneya"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Epyon"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Misumi"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["markInTable"] = "own",
+			["AllowShareWishlist"] = true,
+		},
+		["Turco"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+		["Gaara"] = {
+			["AllowShareWishlistInCombat"] = true,
+			["UseDefaultWishlist"] = false,
+			["Mark"] = true,
+			["AllowShareWishlist"] = true,
+			["markInTable"] = "own",
+		},
+	},
 	["Own"] = {
 		["Neruneya"] = {
 		},
 		["Epyon"] = {
 		},
 		["Misumi"] = {
-		},
-		["Gaara"] = {
 		},
 		["Turco"] = {
 			{
@@ -432,7 +455,7 @@ AtlasLootWishList = {
 			}, -- [2]
 			{
 				{
-					2, -- [1]
+					17, -- [1]
 					12528, -- [2]
 					"", -- [3]
 					"=q3=The Judge's Gavel", -- [4]
@@ -442,7 +465,7 @@ AtlasLootWishList = {
 					"BRDTrash|\"\"", -- [8]
 				}, -- [1]
 				{
-					5, -- [1]
+					8, -- [1]
 					9372, -- [2]
 					"", -- [3]
 					"|TInterface\\Icons\\INV_Misc_QuestionMark:0|t |cffa335eeSul'thraze the Lasher", -- [4]
@@ -452,7 +475,7 @@ AtlasLootWishList = {
 					"ZFChiefUkorzSandscalp|\"\"", -- [8]
 				}, -- [2]
 				{
-					9, -- [1]
+					21, -- [1]
 					22736, -- [2]
 					"", -- [3]
 					"|cffff8000Andonisus, Reaper of Souls", -- [4]
@@ -462,7 +485,7 @@ AtlasLootWishList = {
 					"STRATAtiesh|AtlasLootOriginalWoW", -- [8]
 				}, -- [3]
 				{
-					8, -- [1]
+					20, -- [1]
 					13505, -- [2]
 					"", -- [3]
 					"|cffa335eeRuneblade of Baron Rivendare", -- [4]
@@ -472,7 +495,7 @@ AtlasLootWishList = {
 					"STRATBaronRivendare|AtlasLootOriginalWoW", -- [8]
 				}, -- [4]
 				{
-					0, -- [1]
+					11, -- [1]
 					21679, -- [2]
 					"", -- [3]
 					"|cffa335eeKalimdor's Revenge", -- [4]
@@ -482,7 +505,7 @@ AtlasLootWishList = {
 					"AQ40Emperors|\"\"", -- [8]
 				}, -- [5]
 				{
-					0, -- [1]
+					14, -- [1]
 					24094, -- [2]
 					"", -- [3]
 					"=q3=Heart Fire Warhammer", -- [4]
@@ -492,7 +515,7 @@ AtlasLootWishList = {
 					"HCRampOmor|\"\"", -- [8]
 				}, -- [6]
 				{
-					0, -- [1]
+					24, -- [1]
 					27769, -- [2]
 					"", -- [3]
 					"=q3=Endbringer", -- [4]
@@ -502,7 +525,7 @@ AtlasLootWishList = {
 					"CFRUnderStalkerHEROIC|\"\"", -- [8]
 				}, -- [7]
 				{
-					0, -- [1]
+					5, -- [1]
 					37653, -- [2]
 					"", -- [3]
 					"=q3=Sword of Justice", -- [4]
@@ -511,6 +534,16 @@ AtlasLootWishList = {
 					"", -- [7]
 					"HallsofStoneTribunal|\"\"", -- [8]
 				}, -- [8]
+				{
+					2, -- [1]
+					28166, -- [2]
+					"", -- [3]
+					"=q3=Shield of the Void", -- [4]
+					"Pandemonius", -- [5]
+					"", -- [6]
+					"", -- [7]
+					"AuchManaPandemonius|\"\"", -- [8]
+				}, -- [9]
 				["info"] = {
 					"ARMAS", -- [1]
 					{
@@ -1221,6 +1254,8 @@ AtlasLootWishList = {
 					"Interface\\Icons\\INV_Misc_QuestionMark", -- [3]
 				},
 			}, -- [11]
+		},
+		["Gaara"] = {
 		},
 	},
 }

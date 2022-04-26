@@ -1,0 +1,42 @@
+
+DataStore_ReputationsDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["lastUpdate"] = 1553378843,
+				["Factions"] = {
+					["Liga de Arathor"] = "0|3000|10",
+					["Bajo Arrabal"] = "0|3000|0",
+					["Bastión del Honor"] = "9000|21000|10232",
+					["Los Aldor"] = "0|3000|0",
+					["Los Sha'tar"] = "0|3000|1110",
+					["Los Natoescarcha"] = "0|3000|2733",
+					["Círculo Cenarion"] = "3000|9000|3215",
+					["El Alba Argenta"] = "3000|9000|4905",
+					["Liga de Expedicionarios"] = "0|3000|2733",
+					["Trinquete"] = "0|3000|2068",
+					["Expedición de Denuedo"] = "3000|9000|5475",
+					["El Exodar"] = "9000|21000|13281",
+					["Centinelas Ala de Plata"] = "0|3000|20",
+					["Gadgetzan"] = "3000|9000|3637",
+					["El Pacto de Plata"] = "0|3000|2733",
+					["Los Kalu'ak"] = "0|3000|910",
+					["Vanguardia de la Alianza"] = "0|3000|2733",
+					["Guardia del cielo Sha'tari"] = "0|3000|260",
+					["Exiliados de Gnomeregan"] = "9000|21000|12308",
+					["Ofensiva Sol Devastado"] = "0|3000|120",
+					["Kirin Tor"] = "0|3000|0",
+					["Bahía del Botín"] = "0|3000|2068",
+					["Vista Eterna"] = "0|3000|2068",
+					["Expedición Cenarion"] = "3000|9000|3170",
+					["Ventormenta"] = "9000|21000|13681",
+					["Forjaz"] = "9000|21000|13830",
+					["Darnassus"] = "21000|42000|27855",
+				},
+			},
+		},
+	},
+}

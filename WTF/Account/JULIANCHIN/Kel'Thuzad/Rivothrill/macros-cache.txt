@@ -1,0 +1,8 @@
+MACRO 16777217 "power" INV_Misc_QuestionMark
+/use Venas heladas
+/use Combustión
+END
+MACRO 16777218 "power in inglish" INV_Misc_QuestionMark
+/cast Combustion
+/cast Icy Veins
+END

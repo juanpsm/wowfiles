@@ -10,29 +10,30 @@ GridDB = {
 						["baricon9"] = {
 						},
 						["baricon4"] = {
+							["buff_Riptide"] = true,
 						},
 						["baricon8"] = {
+						},
+						["text"] = {
+							["alert_feignDeath"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_heals"] = false,
 						},
 						["baricon7"] = {
 						},
 						["baricon6"] = {
 						},
 						["baricon1"] = {
+							["buff_EarthShield"] = true,
 						},
 						["baricon3"] = {
 						},
 						["baricon2"] = {
 						},
 					},
-					["frameHeight"] = 50,
-					["frameWidth"] = 87,
-				},
-			},
-		},
-		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "heroic_raid",
+					["textlength"] = 19,
+					["frameHeight"] = 55,
+					["frameWidth"] = 76,
 				},
 			},
 		},
@@ -184,10 +185,10 @@ GridDB = {
 					["anchorRel"] = "TOPLEFT",
 					["ScaleSize"] = 1.1,
 					["Spacing"] = 0,
-					["PosY"] = -290.0003309228597,
-					["layout"] = "Grupo de 25",
+					["PosY"] = -373.1806886398798,
+					["layout"] = "By Group 5",
 					["horizontal"] = true,
-					["PosX"] = 12.99999964246064,
+					["PosX"] = 0,
 				},
 			},
 		},

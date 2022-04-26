@@ -31,6 +31,10 @@ END
 MACRO 50 "debug DBM" INV_Misc_QuestionMark
 /run local f = CreateFrame("frame",nil, UIParent); f:SetScript("OnUpdate", CombatLogClearEntries);
 END
+MACRO 76 "Decursive" INV_Misc_QuestionMark
+/stopcasting
+/cast [target=mouseover,nomod,exists] Remove Curse;  [target=mouseover,exists,mod:ctrl] Abolish Poison; [target=mouseover,exists,mod:shift] Cyclone
+END
 MACRO 53 "disarm" INV_Misc_QuestionMark
 /castsequence Scorpid Sting, Chimera Shot(Rank 1)
 END

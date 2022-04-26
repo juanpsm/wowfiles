@@ -1,12 +1,11 @@
 
 DataStore_CraftsDB = {
 	["profileKeys"] = {
-		["Lossena - Sin'Dorei"] = "Lossena - Sin'Dorei",
-		["Lossana - Sin'Dorei"] = "Lossana - Sin'Dorei",
+		["Lossana - WoWArg"] = "Lossana - WoWArg",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.Sin'Dorei.Lossana"] = {
+			["Default.WoWArg.Lossana"] = {
 				["Professions"] = {
 					["Fishing"] = {
 						["isSecondary"] = true,
@@ -15,12 +14,9 @@ DataStore_CraftsDB = {
 			},
 		},
 		["Guilds"] = {
-			["Default.Sin'Dorei.Staff"] = {
+			["Default.WoWArg.Staff"] = {
 				["Members"] = {
 					["Lossana"] = {
-						["Version"] = 12340,
-					},
-					["Lossena"] = {
 						["Version"] = 12340,
 					},
 				},

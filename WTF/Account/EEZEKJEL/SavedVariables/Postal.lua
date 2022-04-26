@@ -2,12 +2,16 @@
 Postal3DB = {
 	["profileKeys"] = {
 		["Elchamaquito - WoWArg"] = "Elchamaquito - WoWArg",
+		["Elchamaquito - Sin'Dorei"] = "Elchamaquito - Sin'Dorei",
+		["Elchamaquito - Sin'dorei(WoWArg)"] = "Elchamaquito - Sin'dorei(WoWArg)",
 		["Perruco - WoWArg"] = "Perruco - WoWArg",
 	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
-				"Elchamaquito|WoWArg|Alliance", -- [1]
+				"Elchamaquito|Sin'Dorei|Alliance", -- [1]
+				"Elchamaquito|Sin'dorei(WoWArg)|Alliance", -- [2]
+				"Elchamaquito|WoWArg|Alliance", -- [3]
 			},
 		},
 	},
@@ -20,6 +24,21 @@ Postal3DB = {
 					"Skombrow", -- [3]
 					"Snts", -- [4]
 					"Rivo", -- [5]
+				},
+			},
+		},
+		["Elchamaquito - Sin'Dorei"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Rivo", -- [1]
+				},
+			},
+		},
+		["Elchamaquito - Sin'dorei(WoWArg)"] = {
+			["BlackBook"] = {
+				["recent"] = {
+					"Skombrow", -- [1]
+					"Snts", -- [2]
 				},
 			},
 		},

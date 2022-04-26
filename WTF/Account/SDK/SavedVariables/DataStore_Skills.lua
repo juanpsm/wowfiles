@@ -1,128 +1,86 @@
 
 DataStore_SkillsDB = {
 	["profileKeys"] = {
-		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Subjected - Sin'Dorei"] = "Subjected - Sin'Dorei",
 		["Rivothrill - WoWArg"] = "Rivothrill - WoWArg",
 		["Miratros - WoWArg"] = "Miratros - WoWArg",
+		["Underclub - WoWArg"] = "Underclub - WoWArg",
+		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
+		["Fjaak - Sin'dorei(WoWArg)"] = "Fjaak - Sin'dorei(WoWArg)",
+		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
+		["Draenoric - Sin'dorei(WoWArg)"] = "Draenoric - Sin'dorei(WoWArg)",
+		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
+		["Skombrow - Sin'dorei(WoWArg)"] = "Skombrow - Sin'dorei(WoWArg)",
+		["Microwave - WoWArg"] = "Microwave - WoWArg",
+		["Doroteo - Sin'dorei(WoWArg)"] = "Doroteo - Sin'dorei(WoWArg)",
+		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
 		["Skombrow - Bennu"] = "Skombrow - Bennu",
+		["Subjected - Sin'dorei(WoWArg)"] = "Subjected - Sin'dorei(WoWArg)",
 		["Draenoric - Sin'Dorei"] = "Draenoric - Sin'Dorei",
 		["Deadly - WoWArg"] = "Deadly - WoWArg",
-		["Underclub - Sin'Dorei"] = "Underclub - Sin'Dorei",
-		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
-		["Rivo - Sin'Dorei"] = "Rivo - Sin'Dorei",
-		["Eldorath - WoWArg"] = "Eldorath - WoWArg",
-		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
-		["Microwave - WoWArg"] = "Microwave - WoWArg",
-		["Skombrow - Sin'Dorei"] = "Skombrow - Sin'Dorei",
-		["Subjected - WoWArg"] = "Subjected - WoWArg",
-		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
-		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
-		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
-		["Snts - WoWArg"] = "Snts - WoWArg",
+		["Acidstorm - WoWArg"] = "Acidstorm - WoWArg",
+		["Firecracker - WoWArg"] = "Firecracker - WoWArg",
+		["Rivo - Sin'dorei(WoWArg)"] = "Rivo - Sin'dorei(WoWArg)",
 		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+		["Chamdoc - WoWArg"] = "Chamdoc - WoWArg",
+		["Draenoric - WoWArg"] = "Draenoric - WoWArg",
+		["Snts - WoWArg"] = "Snts - WoWArg",
+		["Fjaak - Sin'Dorei"] = "Fjaak - Sin'Dorei",
+		["Snts - Sin'dorei(WoWArg)"] = "Snts - Sin'dorei(WoWArg)",
+		["Subjected - WoWArg"] = "Subjected - WoWArg",
+		["Fjaak - WoWArg"] = "Fjaak - WoWArg",
+		["Skombrow - Kel'Thuzad"] = "Skombrow - Kel'Thuzad",
+		["Doroteo - Sin'Dorei"] = "Doroteo - Sin'Dorei",
+		["Doroteo - WoWArg"] = "Doroteo - WoWArg",
+		["Underclub - Sin'dorei(WoWArg)"] = "Underclub - Sin'dorei(WoWArg)",
 		["Rivo - WoWArg"] = "Rivo - WoWArg",
 		["Snts - Sin'Dorei"] = "Snts - Sin'Dorei",
 	},
 	["global"] = {
 		["Characters"] = {
-			["Default.WoWArg.Deadly"] = {
-				["lastUpdate"] = 1614970705,
+			["Default.Sin'Dorei.Subjected"] = {
+				["lastUpdate"] = 1645978169,
 				["Skills"] = {
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
+					["Secondary Skills"] = {
+						["Cooking"] = "1|75",
+						["First Aid"] = "210|300",
+						["Riding"] = "225|225",
 					},
 					["Class Skills"] = {
-						["Demonology"] = "1|1",
-						["Affliction"] = "1|1",
-						["Destruction"] = "1|1",
+						["Assassination"] = "1|1",
+						["Combat"] = "1|1",
+						["Subtlety"] = "1|1",
+						["Lockpicking"] = "60|400",
 					},
 					["Professions"] = {
-						["Tailoring"] = "421|450",
-						["Enchanting"] = "406|450",
+						["Engineering"] = "405|450",
+						["Tailoring"] = "420|450",
 					},
 					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
 						["Language: Common"] = "300|300",
 					},
-					["Secondary Skills"] = {
-						["Cooking"] = "40|75",
-						["Riding"] = "225|225",
-						["First Aid"] = "36|75",
-						["Fishing"] = "1|75",
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Staves"] = "292|400",
-						["Swords"] = "1|400",
-						["Wands"] = "218|400",
-						["Daggers"] = "99|400",
-						["Unarmed"] = "3|400",
 						["Defense"] = "400|400",
+						["Daggers"] = "400|400",
+						["Thrown"] = "77|400",
+						["Bows"] = "1|400",
+						["Guns"] = "1|400",
+						["Swords"] = "400|400",
+						["Crossbows"] = "1|400",
+						["Axes"] = "400|400",
+						["Maces"] = "216|400",
+						["Unarmed"] = "400|400",
 					},
 				},
 			},
 			["julianchin.WoWArg.Microwave"] = {
 				["lastUpdate"] = 1555398433,
 				["Spells"] = {
-					["Frost"] = {
-						"42940|Rank 1", -- [1]
-						"42940|Rank 2", -- [2]
-						"42940|Rank 3", -- [3]
-						"42940|Rank 4", -- [4]
-						"42940|Rank 5", -- [5]
-						"42940|Rank 6", -- [6]
-						"42940|Rank 7", -- [7]
-						"42940|Rank 8", -- [8]
-						"42940|Rank 9", -- [9]
-						"42931|Rank 1", -- [10]
-						"42931|Rank 2", -- [11]
-						"42931|Rank 3", -- [12]
-						"42931|Rank 4", -- [13]
-						"42931|Rank 5", -- [14]
-						"42931|Rank 6", -- [15]
-						"42931|Rank 7", -- [16]
-						"42931|Rank 8", -- [17]
-						"7301|Rank 1", -- [18]
-						"7301|Rank 2", -- [19]
-						"7301|Rank 3", -- [20]
-						"42917|Rank 1", -- [21]
-						"42917|Rank 2", -- [22]
-						"42917|Rank 3", -- [23]
-						"42917|Rank 4", -- [24]
-						"42917|Rank 5", -- [25]
-						"42917|Rank 6", -- [26]
-						"43012|Rank 1", -- [27]
-						"43012|Rank 2", -- [28]
-						"43012|Rank 3", -- [29]
-						"43012|Rank 4", -- [30]
-						"43012|Rank 5", -- [31]
-						"43012|Rank 6", -- [32]
-						"43012|Rank 7", -- [33]
-						"42842|Rank 1", -- [34]
-						"42842|Rank 2", -- [35]
-						"42842|Rank 3", -- [36]
-						"42842|Rank 4", -- [37]
-						"42842|Rank 5", -- [38]
-						"42842|Rank 6", -- [39]
-						"42842|Rank 7", -- [40]
-						"42842|Rank 8", -- [41]
-						"42842|Rank 9", -- [42]
-						"42842|Rank 10", -- [43]
-						"42842|Rank 11", -- [44]
-						"42842|Rank 12", -- [45]
-						"42842|Rank 13", -- [46]
-						"42842|Rank 14", -- [47]
-						"42842|Rank 15", -- [48]
-						"42842|Rank 16", -- [49]
-						"43008|Rank 1", -- [50]
-						"43008|Rank 2", -- [51]
-						"43008|Rank 3", -- [52]
-						"43008|Rank 4", -- [53]
-						"43008|Rank 5", -- [54]
-						"43008|Rank 6", -- [55]
-						"45438|", -- [56]
-						"42914|Rank 1", -- [57]
-						"42914|Rank 2", -- [58]
-						"42914|Rank 3", -- [59]
-					},
 					["Fire"] = {
 						"42945|Rank 1", -- [1]
 						"42945|Rank 2", -- [2]
@@ -208,6 +166,67 @@ DataStore_SkillsDB = {
 						"42859|Rank 9", -- [82]
 						"42859|Rank 10", -- [83]
 						"42859|Rank 11", -- [84]
+					},
+					["Frost"] = {
+						"42940|Rank 1", -- [1]
+						"42940|Rank 2", -- [2]
+						"42940|Rank 3", -- [3]
+						"42940|Rank 4", -- [4]
+						"42940|Rank 5", -- [5]
+						"42940|Rank 6", -- [6]
+						"42940|Rank 7", -- [7]
+						"42940|Rank 8", -- [8]
+						"42940|Rank 9", -- [9]
+						"42931|Rank 1", -- [10]
+						"42931|Rank 2", -- [11]
+						"42931|Rank 3", -- [12]
+						"42931|Rank 4", -- [13]
+						"42931|Rank 5", -- [14]
+						"42931|Rank 6", -- [15]
+						"42931|Rank 7", -- [16]
+						"42931|Rank 8", -- [17]
+						"7301|Rank 1", -- [18]
+						"7301|Rank 2", -- [19]
+						"7301|Rank 3", -- [20]
+						"42917|Rank 1", -- [21]
+						"42917|Rank 2", -- [22]
+						"42917|Rank 3", -- [23]
+						"42917|Rank 4", -- [24]
+						"42917|Rank 5", -- [25]
+						"42917|Rank 6", -- [26]
+						"43012|Rank 1", -- [27]
+						"43012|Rank 2", -- [28]
+						"43012|Rank 3", -- [29]
+						"43012|Rank 4", -- [30]
+						"43012|Rank 5", -- [31]
+						"43012|Rank 6", -- [32]
+						"43012|Rank 7", -- [33]
+						"42842|Rank 1", -- [34]
+						"42842|Rank 2", -- [35]
+						"42842|Rank 3", -- [36]
+						"42842|Rank 4", -- [37]
+						"42842|Rank 5", -- [38]
+						"42842|Rank 6", -- [39]
+						"42842|Rank 7", -- [40]
+						"42842|Rank 8", -- [41]
+						"42842|Rank 9", -- [42]
+						"42842|Rank 10", -- [43]
+						"42842|Rank 11", -- [44]
+						"42842|Rank 12", -- [45]
+						"42842|Rank 13", -- [46]
+						"42842|Rank 14", -- [47]
+						"42842|Rank 15", -- [48]
+						"42842|Rank 16", -- [49]
+						"43008|Rank 1", -- [50]
+						"43008|Rank 2", -- [51]
+						"43008|Rank 3", -- [52]
+						"43008|Rank 4", -- [53]
+						"43008|Rank 5", -- [54]
+						"43008|Rank 6", -- [55]
+						"45438|", -- [56]
+						"42914|Rank 1", -- [57]
+						"42914|Rank 2", -- [58]
+						"42914|Rank 3", -- [59]
 					},
 					["General"] = {
 						"6603|", -- [1]
@@ -355,7 +374,7 @@ DataStore_SkillsDB = {
 				},
 			},
 			["Default.Sin'Dorei.Rivo"] = {
-				["lastUpdate"] = 1625353440,
+				["lastUpdate"] = 1630728887,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Riding"] = "225|225",
@@ -378,89 +397,109 @@ DataStore_SkillsDB = {
 					["Weapon Skills"] = {
 						["Defense"] = "400|400",
 						["Unarmed"] = "1|400",
-						["Wands"] = "1|400",
 						["Maces"] = "348|400",
-						["Staves"] = "135|400",
 						["Daggers"] = "317|400",
+						["Staves"] = "135|400",
+						["Wands"] = "1|400",
 					},
 				},
 			},
-			["Default.WoWArg.Skombrow"] = {
-				["lastUpdate"] = 1614960753,
+			["Default.Sin'Dorei.Fjaak"] = {
+				["lastUpdate"] = 1638921734,
 				["Skills"] = {
 					["Secondary Skills"] = {
-						["Cooking"] = "450|450",
-						["Riding"] = "300|300",
-						["First Aid"] = "450|450",
-						["Fishing"] = "323|375",
+						["Fishing"] = "1|75",
+						["Riding"] = "225|225",
+						["Cooking"] = "1|75",
 					},
 					["Class Skills"] = {
-						["Balance"] = "1|1",
-						["Restoration"] = "1|1",
-						["Feral Combat"] = "1|1",
+						["Fury"] = "1|1",
+						["Arms"] = "1|1",
+						["Protection"] = "1|1",
+					},
+					["Professions"] = {
+						["Blacksmithing"] = "58|150",
+						["Mining"] = "59|150",
 					},
 					["Languages"] = {
-						["Language: Darnassian"] = "300|300",
+						["Language: Dwarven"] = "300|300",
 						["Language: Common"] = "300|300",
 					},
 					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
 						["Leather"] = "1|1",
-					},
-					["Professions"] = {
-						["Skinning"] = "450|450",
-						["Leatherworking"] = "450|450",
+						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Shield"] = "1|1",
 					},
 					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "97|400",
+						["Two-Handed Maces"] = "400|400",
 						["Defense"] = "400|400",
-						["Unarmed"] = "195|400",
-						["Staves"] = "400|400",
-						["Maces"] = "400|400",
-						["Polearms"] = "110|400",
-						["Daggers"] = "139|400",
+						["Daggers"] = "140|400",
+						["Maces"] = "255|400",
+						["Bows"] = "1|400",
+						["Two-Handed Swords"] = "400|400",
+						["Thrown"] = "77|400",
+						["Axes"] = "400|400",
+						["Staves"] = "1|400",
+						["Guns"] = "2|400",
+						["Unarmed"] = "100|400",
+						["Crossbows"] = "1|400",
+						["Polearms"] = "1|400",
+						["Swords"] = "400|400",
+						["Two-Handed Axes"] = "400|400",
 					},
 				},
 			},
-			["Default.WoWArg.Rivo"] = {
-				["lastUpdate"] = 1614970022,
+			["Default.Sin'dorei(WoWArg).Snts"] = {
+				["lastUpdate"] = 1619151139,
 				["Skills"] = {
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
+					["Secondary Skills"] = {
+						["Cooking"] = "39|75",
+						["Riding"] = "225|225",
+						["First Aid"] = "447|450",
+						["Fishing"] = "1|75",
 					},
 					["Class Skills"] = {
-						["Shadow Magic"] = "1|1",
-						["Discipline"] = "1|1",
-						["Holy"] = "1|1",
+						["Unholy"] = "1|1",
+						["Frost"] = "1|1",
+						["Runeforging"] = "1|1",
+						["Blood"] = "1|1",
 					},
 					["Professions"] = {
-						["Inscription"] = "439|450",
-						["Blacksmithing"] = "450|450",
+						["Herbalism"] = "64|75",
+						["Mining"] = "450|450",
 					},
 					["Languages"] = {
 						["Language: Common"] = "300|300",
 					},
-					["Secondary Skills"] = {
-						["Riding"] = "225|225",
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Cloth"] = "1|1",
 					},
 					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "400|400",
 						["Defense"] = "400|400",
-						["Unarmed"] = "1|400",
-						["Wands"] = "1|400",
-						["Maces"] = "348|400",
-						["Staves"] = "135|400",
-						["Daggers"] = "317|400",
+						["Maces"] = "400|400",
+						["Two-Handed Swords"] = "400|400",
+						["Swords"] = "400|400",
+						["Unarmed"] = "299|400",
+						["Axes"] = "400|400",
+						["Polearms"] = "294|400",
+						["Two-Handed Axes"] = "376|400",
 					},
 				},
 			},
 			["Default.Sin'Dorei.Snts"] = {
-				["lastUpdate"] = 1636001278,
+				["lastUpdate"] = 1636222945,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "39|75",
 						["Fishing"] = "1|75",
-						["Riding"] = "225|225",
 						["First Aid"] = "447|450",
+						["Riding"] = "225|225",
 					},
 					["Class Skills"] = {
 						["Unholy"] = "1|1",
@@ -494,71 +533,28 @@ DataStore_SkillsDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Firecracker"] = {
-				["lastUpdate"] = 1583107409,
-				["Skills"] = {
-					["Languages"] = {
-						["Language: Common"] = "300|300",
-						["Language: Gnomish"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Defense"] = "1|5",
-						["Wands"] = "1|5",
-						["Staves"] = "1|5",
-						["Unarmed"] = "1|5",
-					},
-					["Class Skills"] = {
-						["Fire"] = "1|1",
-						["Frost"] = "1|1",
-						["Arcane"] = "1|1",
-					},
-				},
-			},
-			["Default.WoWArg.Subjected"] = {
-				["lastUpdate"] = 1614962545,
+			["Default.Sin'Dorei.Draenoric"] = {
+				["lastUpdate"] = 1631322442,
 				["Skills"] = {
 					["Secondary Skills"] = {
-						["Cooking"] = "1|75",
-						["First Aid"] = "210|300",
-						["Riding"] = "225|225",
+						["Cooking"] = "39|75",
+						["Fishing"] = "1|75",
+						["Riding"] = "300|300",
+						["First Aid"] = "123|150",
 					},
 					["Class Skills"] = {
-						["Lockpicking"] = "60|400",
-						["Subtlety"] = "1|1",
-						["Combat"] = "1|1",
-						["Assassination"] = "1|1",
+						["Protection"] = "1|1",
+						["Holy"] = "1|1",
+						["Retribution"] = "1|1",
 					},
 					["Professions"] = {
-						["Engineering"] = "405|450",
+						["Jewelcrafting"] = "455|455",
+						["Mining"] = "450|450",
 					},
 					["Languages"] = {
-						["Language: Darnassian"] = "300|300",
 						["Language: Common"] = "300|300",
+						["Language: Draenei"] = "300|300",
 					},
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
-						["Leather"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Defense"] = "400|400",
-						["Daggers"] = "400|400",
-						["Thrown"] = "62|400",
-						["Swords"] = "400|400",
-						["Guns"] = "1|400",
-						["Unarmed"] = "400|400",
-						["Maces"] = "216|400",
-						["Axes"] = "1|400",
-						["Crossbows"] = "1|400",
-						["Bows"] = "1|400",
-					},
-				},
-			},
-			["Default.WoWArg.Draenoric"] = {
-				["lastUpdate"] = 1614970655,
-				["Skills"] = {
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
 						["Cloth"] = "1|1",
@@ -566,35 +562,94 @@ DataStore_SkillsDB = {
 						["Plate Mail"] = "1|1",
 						["Shield"] = "1|1",
 					},
-					["Class Skills"] = {
-						["Protection"] = "1|1",
-						["Holy"] = "1|1",
-						["Retribution"] = "1|1",
-					},
-					["Languages"] = {
-						["Language: Common"] = "300|300",
-						["Language: Draenei"] = "300|300",
-					},
-					["Professions"] = {
-						["Jewelcrafting"] = "455|455",
-						["Mining"] = "450|450",
-					},
-					["Secondary Skills"] = {
-						["Cooking"] = "39|75",
-						["Fishing"] = "1|75",
-						["Riding"] = "300|300",
-						["First Aid"] = "123|150",
-					},
 					["Weapon Skills"] = {
 						["Two-Handed Maces"] = "400|400",
 						["Defense"] = "400|400",
 						["Maces"] = "400|400",
 						["Two-Handed Swords"] = "400|400",
 						["Swords"] = "400|400",
-						["Unarmed"] = "235|400",
+						["Unarmed"] = "279|400",
 						["Axes"] = "26|400",
 						["Polearms"] = "1|400",
 						["Two-Handed Axes"] = "400|400",
+					},
+				},
+			},
+			["Default.Sin'Dorei.Doroteo"] = {
+				["lastUpdate"] = 1636153534,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "149|225",
+						["Fishing"] = "51|150",
+						["Riding"] = "300|300",
+						["First Aid"] = "209|300",
+					},
+					["Class Skills"] = {
+						["Marksmanship"] = "1|1",
+						["Beast Mastery"] = "1|1",
+						["Survival"] = "1|1",
+					},
+					["Professions"] = {
+						["Engineering"] = "450|450",
+						["Tailoring"] = "422|450",
+					},
+					["Languages"] = {
+						["Language: Dwarven"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Bows"] = "400|400",
+						["Daggers"] = "241|400",
+						["Two-Handed Swords"] = "312|400",
+						["Thrown"] = "1|400",
+						["Guns"] = "400|400",
+						["Staves"] = "313|400",
+						["Crossbows"] = "400|400",
+						["Unarmed"] = "140|400",
+						["Polearms"] = "400|400",
+						["Axes"] = "127|400",
+						["Swords"] = "113|400",
+						["Two-Handed Axes"] = "299|400",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Underclub"] = {
+				["lastUpdate"] = 1619150931,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "40|75",
+						["First Aid"] = "36|75",
+						["Riding"] = "225|225",
+						["Fishing"] = "1|75",
+					},
+					["Class Skills"] = {
+						["Demonology"] = "1|1",
+						["Affliction"] = "1|1",
+						["Destruction"] = "1|1",
+					},
+					["Professions"] = {
+						["Tailoring"] = "421|450",
+						["Enchanting"] = "408|450",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Staves"] = "298|400",
+						["Swords"] = "1|400",
+						["Daggers"] = "99|400",
+						["Wands"] = "218|400",
+						["Unarmed"] = "3|400",
+						["Defense"] = "400|400",
 					},
 				},
 			},
@@ -621,95 +676,14 @@ DataStore_SkillsDB = {
 				["averageItemLvl"] = 28.3125,
 				["lastUpdate"] = 1553834742,
 			},
-			["Default.WoWArg.Eldorath"] = {
-				["lastUpdate"] = 1597444389,
-				["Skills"] = {
-					["Secondary Skills"] = {
-						["Cooking"] = "1|75",
-						["Riding"] = "150|150",
-						["First Aid"] = "1|75",
-						["Fishing"] = "1|75",
-					},
-					["Class Skills"] = {
-						["Shadow Magic"] = "1|1",
-						["Discipline"] = "1|1",
-						["Holy"] = "1|1",
-					},
-					["Languages"] = {
-						["Language: Darnassian"] = "300|300",
-						["Language: Common"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Defense"] = "213|215",
-						["Unarmed"] = "2|215",
-						["Wands"] = "167|215",
-						["Maces"] = "1|215",
-						["Staves"] = "55|215",
-						["Daggers"] = "1|215",
-					},
-				},
-			},
-			["julianchin.WoWArg.Draenoric"] = {
-				["lastUpdate"] = 1555176554,
-				["Skills"] = {
-					["Profesiones"] = {
-						["Joyería"] = "455|455",
-						["Minería"] = "450|450",
-					},
-					["Habilidades con armas"] = {
-						["Sin armas"] = "75|400",
-						["Hachas"] = "26|400",
-						["Espadas de dos manos"] = "400|400",
-						["Hachas de dos manos"] = "386|400",
-						["Espadas"] = "400|400",
-						["Mazas de dos manos"] = "400|400",
-						["Defensa"] = "400|400",
-						["Mazas"] = "400|400",
-						["Armas de asta"] = "1|400",
-					},
-					["Idiomas"] = {
-						["Idioma: común"] = "300|300",
-						["Idioma: draenei"] = "300|300",
-					},
-					["Armaduras disponibles"] = {
-						["Cuero"] = "1|1",
-						["Escudo"] = "1|1",
-						["Malla"] = "1|1",
-						["Malla de placas"] = "1|1",
-						["Tela"] = "1|1",
-					},
-					["Habilidades de clase"] = {
-						["Protección"] = "1|1",
-						["Sagrado"] = "1|1",
-						["Reprensión"] = "1|1",
-					},
-					["Habilidades secundarias"] = {
-						["Cocina"] = "39|75",
-						["Pesca"] = "1|75",
-						["Equitación"] = "300|300",
-						["Primeros auxilios"] = "123|150",
-					},
-				},
-			},
-			["julianchin.WoWArg.Doroteo"] = {
-				["lastVisitDate"] = "2019/04/13 13:01",
-				["lastUpdate"] = 1555171316,
-				["Mails"] = {
-				},
-				["MailCache"] = {
-				},
-			},
-			["Default.Sin'Dorei.Doroteo"] = {
-				["lastUpdate"] = 1635906310,
+			["Default.Sin'dorei(WoWArg).Doroteo"] = {
+				["lastUpdate"] = 1619112004,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "149|225",
+						["Fishing"] = "51|150",
 						["First Aid"] = "209|300",
 						["Riding"] = "300|300",
-						["Fishing"] = "51|150",
 					},
 					["Class Skills"] = {
 						["Marksmanship"] = "1|1",
@@ -726,260 +700,8 @@ DataStore_SkillsDB = {
 					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
-						["Mail"] = "1|1",
-						["Cloth"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Defense"] = "400|400",
-						["Daggers"] = "241|400",
-						["Bows"] = "400|400",
-						["Two-Handed Swords"] = "312|400",
-						["Thrown"] = "1|400",
-						["Swords"] = "111|400",
-						["Staves"] = "313|400",
-						["Guns"] = "400|400",
-						["Unarmed"] = "140|400",
-						["Axes"] = "127|400",
-						["Polearms"] = "400|400",
-						["Crossbows"] = "400|400",
-						["Two-Handed Axes"] = "299|400",
-					},
-				},
-			},
-			["Default.Sin'Dorei.Draenoric"] = {
-				["lastUpdate"] = 1625361038,
-				["Skills"] = {
-					["Secondary Skills"] = {
-						["Cooking"] = "39|75",
-						["Riding"] = "300|300",
-						["First Aid"] = "123|150",
-						["Fishing"] = "1|75",
-					},
-					["Class Skills"] = {
-						["Protection"] = "1|1",
-						["Holy"] = "1|1",
-						["Retribution"] = "1|1",
-					},
-					["Professions"] = {
-						["Jewelcrafting"] = "455|455",
-						["Mining"] = "450|450",
-					},
-					["Languages"] = {
-						["Language: Draenei"] = "300|300",
-						["Language: Common"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Leather"] = "1|1",
-						["Cloth"] = "1|1",
-						["Shield"] = "1|1",
-						["Plate Mail"] = "1|1",
-						["Mail"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "400|400",
-						["Defense"] = "400|400",
-						["Maces"] = "400|400",
-						["Two-Handed Swords"] = "400|400",
-						["Swords"] = "400|400",
-						["Unarmed"] = "255|400",
-						["Axes"] = "26|400",
-						["Polearms"] = "1|400",
-						["Two-Handed Axes"] = "400|400",
-					},
-				},
-			},
-			["Default.WoWArg.Microwave"] = {
-				["lastUpdate"] = 1573337471,
-				["Skills"] = {
-					["Idiomas"] = {
-						["Idioma: común"] = "300|300",
-					},
-					["Habilidades de clase"] = {
-						["Combate"] = "1|1",
-						["Asesinato"] = "1|1",
-						["Sutileza"] = "1|1",
-					},
-					["Habilidades con armas"] = {
-						["Sin armas"] = "1|60",
-						["Espadas"] = "1|60",
-						["Armas arrojadizas"] = "8|60",
-						["Dagas"] = "58|60",
-						["Ballestas"] = "1|60",
-						["Defensa"] = "58|60",
-					},
-					["Armaduras disponibles"] = {
-						["Cuero"] = "1|1",
-						["Tela"] = "1|1",
-					},
-				},
-			},
-			["Default.WoWArg.Snts"] = {
-				["lastUpdate"] = 1614970580,
-				["Skills"] = {
-					["Armor Proficiencies"] = {
-						["Leather"] = "1|1",
-						["Mail"] = "1|1",
-						["Plate Mail"] = "1|1",
-						["Cloth"] = "1|1",
-					},
-					["Class Skills"] = {
-						["Unholy"] = "1|1",
-						["Frost"] = "1|1",
-						["Runeforging"] = "1|1",
-						["Blood"] = "1|1",
-					},
-					["Professions"] = {
-						["Herbalism"] = "64|75",
-						["Mining"] = "450|450",
-					},
-					["Languages"] = {
-						["Language: Common"] = "300|300",
-					},
-					["Secondary Skills"] = {
-						["Cooking"] = "39|75",
-						["First Aid"] = "447|450",
-						["Riding"] = "225|225",
-						["Fishing"] = "1|75",
-					},
-					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "400|400",
-						["Defense"] = "400|400",
-						["Maces"] = "400|400",
-						["Two-Handed Swords"] = "400|400",
-						["Swords"] = "400|400",
-						["Unarmed"] = "299|400",
-						["Axes"] = "400|400",
-						["Polearms"] = "294|400",
-						["Two-Handed Axes"] = "376|400",
-					},
-				},
-			},
-			["Default.Sin'Dorei.Skombrow"] = {
-				["lastUpdate"] = 1637286301,
-				["Skills"] = {
-					["Secondary Skills"] = {
-						["Cooking"] = "450|450",
-						["Riding"] = "300|300",
-						["First Aid"] = "450|450",
-						["Fishing"] = "325|375",
-					},
-					["Class Skills"] = {
-						["Balance"] = "1|1",
-						["Restoration"] = "1|1",
-						["Feral Combat"] = "1|1",
-					},
-					["Professions"] = {
-						["Skinning"] = "450|450",
-						["Leatherworking"] = "450|450",
-					},
-					["Languages"] = {
-						["Language: Darnassian"] = "300|300",
-						["Language: Common"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
-						["Leather"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Two-Handed Maces"] = "97|400",
-						["Defense"] = "400|400",
-						["Unarmed"] = "400|400",
-						["Staves"] = "400|400",
-						["Maces"] = "400|400",
-						["Polearms"] = "400|400",
-						["Daggers"] = "139|400",
-					},
-				},
-			},
-			["Default.Bennu.Skombrow"] = {
-				["lastUpdate"] = 1603671510,
-				["Skills"] = {
-					["Languages"] = {
-						["Language: Darnassian"] = "300|300",
-						["Language: Common"] = "300|300",
-					},
-					["Armor Proficiencies"] = {
-						["Cloth"] = "1|1",
-						["Leather"] = "1|1",
-					},
-					["Weapon Skills"] = {
-						["Defense"] = "1|5",
-						["Unarmed"] = "1|5",
-						["Maces"] = "1|5",
-						["Staves"] = "1|5",
-						["Daggers"] = "1|5",
-					},
-					["Class Skills"] = {
-						["Balance"] = "1|1",
-						["Restoration"] = "1|1",
-						["Feral Combat"] = "1|1",
-					},
-				},
-			},
-			["Default.WoWArg.Chamdoc"] = {
-				["lastUpdate"] = 1556857225,
-				["Skills"] = {
-					["Profesiones"] = {
-						["Herboristería"] = "108|150",
-						["Alquimia"] = "84|150",
-					},
-					["Habilidades con armas"] = {
-						["Hachas de dos manos"] = "1|110",
-						["Hachas"] = "68|110",
-						["Dagas"] = "1|110",
-						["Bastones"] = "3|110",
-						["Defensa"] = "110|110",
-						["Mazas"] = "110|110",
-						["Sin armas"] = "1|110",
-					},
-					["Idiomas"] = {
-						["Idioma: trol"] = "300|300",
-						["Idioma: orco"] = "300|300",
-					},
-					["Habilidades secundarias"] = {
-						["Cocina"] = "1|75",
-						["Pesca"] = "1|75",
-						["Equitación"] = "75|75",
-						["Primeros auxilios"] = "86|150",
-					},
-					["Habilidades de clase"] = {
-						["Combate elemental"] = "1|1",
-						["Restauración"] = "1|1",
-						["Mejora"] = "1|1",
-					},
-					["Armaduras disponibles"] = {
-						["Cuero"] = "1|1",
-						["Escudo"] = "1|1",
-						["Tela"] = "1|1",
-					},
-				},
-			},
-			["Default.WoWArg.Doroteo"] = {
-				["lastUpdate"] = 1614977939,
-				["Skills"] = {
-					["Armor Proficiencies"] = {
-						["Leather"] = "1|1",
 						["Cloth"] = "1|1",
 						["Mail"] = "1|1",
-					},
-					["Class Skills"] = {
-						["Marksmanship"] = "1|1",
-						["Beast Mastery"] = "1|1",
-						["Survival"] = "1|1",
-					},
-					["Professions"] = {
-						["Engineering"] = "450|450",
-						["Tailoring"] = "422|450",
-					},
-					["Languages"] = {
-						["Language: Dwarven"] = "300|300",
-						["Language: Common"] = "300|300",
-					},
-					["Secondary Skills"] = {
-						["Cooking"] = "149|225",
-						["Fishing"] = "51|150",
-						["First Aid"] = "209|300",
-						["Riding"] = "300|300",
 					},
 					["Weapon Skills"] = {
 						["Defense"] = "400|400",
@@ -990,16 +712,16 @@ DataStore_SkillsDB = {
 						["Crossbows"] = "400|400",
 						["Staves"] = "313|400",
 						["Guns"] = "400|400",
-						["Swords"] = "48|400",
+						["Swords"] = "74|400",
 						["Polearms"] = "400|400",
-						["Axes"] = "111|400",
+						["Axes"] = "119|400",
 						["Unarmed"] = "140|400",
 						["Two-Handed Axes"] = "299|400",
 					},
 				},
 			},
-			["Default.Sin'Dorei.Underclub"] = {
-				["lastUpdate"] = 1635914369,
+			["Default.WoWArg.Underclub"] = {
+				["lastUpdate"] = 1650612573,
 				["Skills"] = {
 					["Secondary Skills"] = {
 						["Cooking"] = "40|75",
@@ -1032,50 +754,496 @@ DataStore_SkillsDB = {
 					},
 				},
 			},
-			["Default.WoWArg.Fjaak"] = {
-				["lastUpdate"] = 1617837681,
+			["julianchin.WoWArg.Draenoric"] = {
+				["lastUpdate"] = 1555176554,
 				["Skills"] = {
+					["Profesiones"] = {
+						["Joyería"] = "455|455",
+						["Minería"] = "450|450",
+					},
+					["Habilidades con armas"] = {
+						["Sin armas"] = "75|400",
+						["Hachas"] = "26|400",
+						["Espadas de dos manos"] = "400|400",
+						["Hachas de dos manos"] = "386|400",
+						["Espadas"] = "400|400",
+						["Mazas de dos manos"] = "400|400",
+						["Defensa"] = "400|400",
+						["Mazas"] = "400|400",
+						["Armas de asta"] = "1|400",
+					},
+					["Idiomas"] = {
+						["Idioma: común"] = "300|300",
+						["Idioma: draenei"] = "300|300",
+					},
+					["Habilidades secundarias"] = {
+						["Cocina"] = "39|75",
+						["Pesca"] = "1|75",
+						["Equitación"] = "300|300",
+						["Primeros auxilios"] = "123|150",
+					},
+					["Habilidades de clase"] = {
+						["Protección"] = "1|1",
+						["Reprensión"] = "1|1",
+						["Sagrado"] = "1|1",
+					},
+					["Armaduras disponibles"] = {
+						["Cuero"] = "1|1",
+						["Escudo"] = "1|1",
+						["Malla"] = "1|1",
+						["Tela"] = "1|1",
+						["Malla de placas"] = "1|1",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Subjected"] = {
+				["lastUpdate"] = 1619197272,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "1|75",
+						["First Aid"] = "210|300",
+						["Riding"] = "225|225",
+					},
+					["Class Skills"] = {
+						["Assassination"] = "1|1",
+						["Combat"] = "1|1",
+						["Subtlety"] = "1|1",
+						["Lockpicking"] = "60|400",
+					},
+					["Professions"] = {
+						["Engineering"] = "405|450",
+						["Tailoring"] = "420|450",
+					},
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Daggers"] = "400|400",
+						["Thrown"] = "70|400",
+						["Bows"] = "1|400",
+						["Guns"] = "1|400",
+						["Swords"] = "400|400",
+						["Crossbows"] = "1|400",
+						["Axes"] = "400|400",
+						["Maces"] = "216|400",
+						["Unarmed"] = "400|400",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Draenoric"] = {
+				["lastUpdate"] = 1619111108,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "39|75",
+						["Fishing"] = "1|75",
+						["First Aid"] = "123|150",
+						["Riding"] = "300|300",
+					},
+					["Class Skills"] = {
+						["Protection"] = "1|1",
+						["Holy"] = "1|1",
+						["Retribution"] = "1|1",
+					},
+					["Professions"] = {
+						["Jewelcrafting"] = "455|455",
+						["Mining"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
+						["Language: Draenei"] = "300|300",
+					},
 					["Armor Proficiencies"] = {
 						["Leather"] = "1|1",
 						["Cloth"] = "1|1",
-						["Shield"] = "1|1",
-						["Plate Mail"] = "1|1",
 						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Shield"] = "1|1",
 					},
-					["Class Skills"] = {
-						["Fury"] = "1|1",
-						["Protection"] = "1|1",
-						["Arms"] = "1|1",
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "400|400",
+						["Defense"] = "400|400",
+						["Maces"] = "400|400",
+						["Two-Handed Swords"] = "400|400",
+						["Swords"] = "400|400",
+						["Unarmed"] = "255|400",
+						["Axes"] = "26|400",
+						["Polearms"] = "1|400",
+						["Two-Handed Axes"] = "400|400",
 					},
-					["Professions"] = {
-						["Mining"] = "59|150",
-						["Blacksmithing"] = "58|150",
-					},
+				},
+			},
+			["Default.Kel'Thuzad.Skombrow"] = {
+				["lastUpdate"] = 1619377780,
+				["Skills"] = {
 					["Languages"] = {
-						["Language: Dwarven"] = "300|300",
+						["Language: Darnassian"] = "300|300",
 						["Language: Common"] = "300|300",
 					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
+					},
+					["Class Skills"] = {
+						["Balance"] = "1|1",
+						["Restoration"] = "1|1",
+						["Feral Combat"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "33|35",
+						["Unarmed"] = "1|35",
+						["Maces"] = "1|35",
+						["Staves"] = "1|35",
+						["Daggers"] = "1|35",
+					},
+				},
+			},
+			["Default.WoWArg.Skombrow"] = {
+				["lastUpdate"] = 1650612494,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "450|450",
+						["First Aid"] = "450|450",
+						["Riding"] = "300|300",
+						["Fishing"] = "325|375",
+					},
+					["Class Skills"] = {
+						["Balance"] = "1|1",
+						["Restoration"] = "1|1",
+						["Feral Combat"] = "1|1",
+					},
+					["Professions"] = {
+						["Skinning"] = "450|450",
+						["Leatherworking"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "97|400",
+						["Defense"] = "400|400",
+						["Unarmed"] = "400|400",
+						["Staves"] = "400|400",
+						["Daggers"] = "139|400",
+						["Polearms"] = "400|400",
+						["Maces"] = "400|400",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Skombrow"] = {
+				["lastUpdate"] = 1619123987,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "450|450",
+						["Fishing"] = "323|375",
+						["Riding"] = "300|300",
+						["First Aid"] = "450|450",
+					},
+					["Class Skills"] = {
+						["Balance"] = "1|1",
+						["Restoration"] = "1|1",
+						["Feral Combat"] = "1|1",
+					},
+					["Professions"] = {
+						["Skinning"] = "450|450",
+						["Leatherworking"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "97|400",
+						["Defense"] = "400|400",
+						["Unarmed"] = "195|400",
+						["Daggers"] = "139|400",
+						["Maces"] = "400|400",
+						["Polearms"] = "110|400",
+						["Staves"] = "400|400",
+					},
+				},
+			},
+			["julianchin.WoWArg.Doroteo"] = {
+				["lastVisitDate"] = "2019/04/13 13:01",
+				["lastUpdate"] = 1555171316,
+				["Mails"] = {
+				},
+				["MailCache"] = {
+				},
+			},
+			["Default.WoWArg.Snts"] = {
+				["lastUpdate"] = 1648174074,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "39|75",
+						["First Aid"] = "447|450",
+						["Riding"] = "225|225",
+						["Fishing"] = "1|75",
+					},
+					["Class Skills"] = {
+						["Unholy"] = "1|1",
+						["Frost"] = "1|1",
+						["Runeforging"] = "1|1",
+						["Blood"] = "1|1",
+					},
+					["Professions"] = {
+						["Herbalism"] = "64|75",
+						["Mining"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "400|400",
+						["Defense"] = "400|400",
+						["Maces"] = "400|400",
+						["Two-Handed Swords"] = "400|400",
+						["Swords"] = "400|400",
+						["Unarmed"] = "299|400",
+						["Axes"] = "400|400",
+						["Polearms"] = "294|400",
+						["Two-Handed Axes"] = "376|400",
+					},
+				},
+			},
+			["Default.Sin'Dorei.Skombrow"] = {
+				["lastUpdate"] = 1646613217,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "450|450",
+						["Fishing"] = "325|375",
+						["Riding"] = "300|300",
+						["First Aid"] = "450|450",
+					},
+					["Class Skills"] = {
+						["Balance"] = "1|1",
+						["Restoration"] = "1|1",
+						["Feral Combat"] = "1|1",
+					},
+					["Professions"] = {
+						["Skinning"] = "450|450",
+						["Leatherworking"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Darnassian"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+						["Leather"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "97|400",
+						["Defense"] = "400|400",
+						["Unarmed"] = "400|400",
+						["Daggers"] = "139|400",
+						["Maces"] = "400|400",
+						["Polearms"] = "400|400",
+						["Staves"] = "400|400",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Fjaak"] = {
+				["lastUpdate"] = 1619041330,
+				["Skills"] = {
 					["Secondary Skills"] = {
 						["Fishing"] = "1|75",
 						["Riding"] = "225|225",
 						["Cooking"] = "1|75",
 					},
+					["Class Skills"] = {
+						["Fury"] = "1|1",
+						["Arms"] = "1|1",
+						["Protection"] = "1|1",
+					},
+					["Professions"] = {
+						["Blacksmithing"] = "58|150",
+						["Mining"] = "59|150",
+					},
+					["Languages"] = {
+						["Language: Dwarven"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Shield"] = "1|1",
+					},
 					["Weapon Skills"] = {
 						["Two-Handed Maces"] = "400|400",
 						["Defense"] = "400|400",
+						["Daggers"] = "140|400",
+						["Bows"] = "1|400",
 						["Maces"] = "255|400",
-						["Swords"] = "305|400",
-						["Daggers"] = "102|400",
-						["Two-Handed Swords"] = "104|400",
-						["Thrown"] = "72|400",
-						["Polearms"] = "1|400",
+						["Two-Handed Swords"] = "400|400",
+						["Thrown"] = "77|400",
+						["Axes"] = "400|400",
 						["Staves"] = "1|400",
 						["Guns"] = "2|400",
-						["Unarmed"] = "95|400",
+						["Swords"] = "400|400",
 						["Crossbows"] = "1|400",
-						["Axes"] = "309|400",
+						["Polearms"] = "1|400",
+						["Unarmed"] = "100|400",
+						["Two-Handed Axes"] = "400|400",
+					},
+				},
+			},
+			["Default.WoWArg.Acidstorm"] = {
+				["lastUpdate"] = 1650612706,
+				["Skills"] = {
+					["Languages"] = {
+						["Language: Draenei"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Shield"] = "1|1",
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Maces"] = "1|5",
+						["Defense"] = "1|5",
+						["Staves"] = "1|5",
+						["Unarmed"] = "1|5",
+					},
+					["Class Skills"] = {
+						["Enhancement"] = "1|1",
+						["Elemental Combat"] = "1|1",
+						["Restoration"] = "1|1",
+					},
+				},
+			},
+			["Default.Sin'dorei(WoWArg).Rivo"] = {
+				["lastUpdate"] = 1619157786,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Riding"] = "225|225",
+					},
+					["Class Skills"] = {
+						["Shadow Magic"] = "1|1",
+						["Discipline"] = "1|1",
+						["Holy"] = "1|1",
+					},
+					["Professions"] = {
+						["Inscription"] = "439|450",
+						["Blacksmithing"] = "450|450",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Defense"] = "400|400",
+						["Unarmed"] = "1|400",
+						["Daggers"] = "317|400",
+						["Wands"] = "1|400",
+						["Staves"] = "135|400",
+						["Maces"] = "348|400",
+					},
+				},
+			},
+			["Default.Sin'Dorei.Underclub"] = {
+				["lastUpdate"] = 1636223002,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Cooking"] = "40|75",
+						["First Aid"] = "36|75",
+						["Riding"] = "225|225",
+						["Fishing"] = "1|75",
+					},
+					["Class Skills"] = {
+						["Demonology"] = "1|1",
+						["Affliction"] = "1|1",
+						["Destruction"] = "1|1",
+					},
+					["Professions"] = {
+						["Tailoring"] = "421|450",
+						["Enchanting"] = "408|450",
+					},
+					["Languages"] = {
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Cloth"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Staves"] = "306|400",
+						["Swords"] = "1|400",
+						["Daggers"] = "99|400",
+						["Wands"] = "218|400",
+						["Unarmed"] = "3|400",
+						["Defense"] = "400|400",
+					},
+				},
+			},
+			["Default.WoWArg.Fjaak"] = {
+				["lastUpdate"] = 1648173711,
+				["Skills"] = {
+					["Secondary Skills"] = {
+						["Fishing"] = "1|75",
+						["Riding"] = "225|225",
+						["Cooking"] = "1|75",
+					},
+					["Class Skills"] = {
+						["Fury"] = "1|1",
+						["Arms"] = "1|1",
+						["Protection"] = "1|1",
+					},
+					["Professions"] = {
+						["Blacksmithing"] = "58|150",
+						["Mining"] = "59|150",
+					},
+					["Languages"] = {
+						["Language: Dwarven"] = "300|300",
+						["Language: Common"] = "300|300",
+					},
+					["Armor Proficiencies"] = {
+						["Leather"] = "1|1",
+						["Cloth"] = "1|1",
+						["Mail"] = "1|1",
+						["Plate Mail"] = "1|1",
+						["Shield"] = "1|1",
+					},
+					["Weapon Skills"] = {
+						["Two-Handed Maces"] = "400|400",
+						["Defense"] = "400|400",
+						["Daggers"] = "140|400",
 						["Bows"] = "1|400",
-						["Two-Handed Axes"] = "31|400",
+						["Maces"] = "255|400",
+						["Two-Handed Swords"] = "400|400",
+						["Thrown"] = "77|400",
+						["Axes"] = "400|400",
+						["Staves"] = "1|400",
+						["Guns"] = "2|400",
+						["Swords"] = "400|400",
+						["Crossbows"] = "1|400",
+						["Polearms"] = "1|400",
+						["Unarmed"] = "100|400",
+						["Two-Handed Axes"] = "400|400",
 					},
 				},
 			},

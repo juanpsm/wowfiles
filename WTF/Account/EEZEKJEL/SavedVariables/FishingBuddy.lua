@@ -15,21 +15,24 @@ FishingBuddy_Info = {
 	["enUS"] = {
 		["FishTotals"] = {
 		},
-		["FishingHoles"] = {
+		["FishingSkill"] = {
 		},
 		["SubZones"] = {
 			[1000] = 1,
+			[2001] = "Dalaran Merchant's Bank",
 			[1001] = "Sandsorrow Watch",
+			[2000] = 1,
 		},
-		["FishingSkill"] = {
+		["FishingHoles"] = {
 		},
 	},
 	["FishInfo2"] = 0,
-	["Version"] = 9817,
+	["ZoneIndex"] = {
+		"Tanaris", -- [1]
+		"Dalaran", -- [2]
+	},
 	["ImppDBLoaded"] = 0,
 	["Fishies"] = {
 	},
-	["ZoneIndex"] = {
-		"Tanaris", -- [1]
-	},
+	["Version"] = 9817,
 }

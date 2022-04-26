@@ -1,19 +1,25 @@
 
 HandyNotesDB = {
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "Muelapicada - Sin'Dorei",
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+		["Indico - Sin'Dorei"] = "Indico - Sin'Dorei",
 	},
 	["profiles"] = {
-		["Muelapicada - Sin'Dorei"] = {
+		["Delatierra - WoWArg"] = {
+		},
+		["Indico - Sin'Dorei"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
-		["Muelapicada - Sin'Dorei"] = "Muelapicada - Sin'Dorei",
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+		["Indico - Sin'Dorei"] = "Indico - Sin'Dorei",
 	},
 	["profiles"] = {
-		["Muelapicada - Sin'Dorei"] = {
+		["Delatierra - WoWArg"] = {
+		},
+		["Indico - Sin'Dorei"] = {
 		},
 	},
 }

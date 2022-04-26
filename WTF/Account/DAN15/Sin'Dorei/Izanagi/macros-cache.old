@@ -1,0 +1,10 @@
+MACRO 16777218 " " INV_Misc_QuestionMark
+#showtooltip
+/castsequence Holy Fire, Devouring Plague, Shadow Word: Pain, Smite
+END
+MACRO 16777217 " " INV_Misc_QuestionMark
+#showtooltip Divine Hymn
+/cast [target=player] Power Infusion
+/cast Inner Focus
+/cast Divine Hymn
+END

@@ -1,0 +1,7 @@
+SET flaggedTutorials "v##M##%##&##$##7##N##(##*##:##6##E##+##Z##[##)##;##\##8##^##,##?##1##-##4##K##.##/##5##A##B##<##9##I##D##="
+SET lockActionBars "0"
+SET UnitNameOwn "1"
+SET UnitNameNPC "1"
+SET fctDodgeParryMiss "1"
+SET fctDamageReduction "1"
+SET cameraDistanceMaxFactor "1"

@@ -25,9 +25,9 @@ DBMZG_SavedVars = {
 	},
 	["Arlokk"] = {
 		["Enabled"] = true,
-		["HealthFrame"] = false,
-		["Mark of Arlokk on >%s<"] = true,
 		["Shadow Word: Pain on >%s<"] = true,
+		["Mark of Arlokk on >%s<"] = true,
+		["HealthFrame"] = false,
 		["Timer24212Arlokk0"] = true,
 		["Announce"] = false,
 		["Mark of Arlokk on you"] = true,
@@ -41,8 +41,8 @@ DBMZG_SavedVars = {
 		["TimerSimulKill"] = true,
 		["WarnSimulKill"] = true,
 		["Phase 2"] = true,
-		["Announce"] = false,
 		["Casting Great Heal: 4.0 sec"] = true,
+		["Announce"] = false,
 		["Blind on >%s<"] = true,
 		["Summon Zulian Guardians"] = true,
 		["Timer21060Thekal2"] = true,
@@ -68,8 +68,8 @@ DBMZG_SavedVars = {
 		["Holy Fire on >%s<"] = true,
 		["Timer23895Venoxis1"] = true,
 		["RangeFrame"] = true,
-		["warnPhase2Soon"] = true,
 		["Announce"] = false,
+		["warnPhase2Soon"] = true,
 		["Timer23861Venoxis0"] = true,
 	},
 	["Jeklik"] = {
@@ -124,11 +124,11 @@ DBMZG_SavedVars = {
 }
 DBMZG_SavedStats = {
 	["Bloodlord"] = {
-		["kills"] = 7,
+		["kills"] = 12,
 		["heroicKills"] = 0,
-		["pulls"] = 9,
-		["lastTime"] = 52.48200000000361,
-		["bestTime"] = 44.34299999999348,
+		["pulls"] = 14,
+		["lastTime"] = 73.04699999999139,
+		["bestTime"] = 29.43400000000838,
 		["heroicPulls"] = 0,
 	},
 	["EdgeOfMadness"] = {
@@ -144,17 +144,19 @@ DBMZG_SavedStats = {
 		["heroicPulls"] = 0,
 	},
 	["Thekal"] = {
-		["kills"] = 7,
+		["kills"] = 12,
 		["heroicKills"] = 0,
-		["pulls"] = 7,
-		["lastTime"] = 32.45999999999185,
+		["pulls"] = 12,
+		["lastTime"] = 37.24000000000524,
 		["bestTime"] = 16.43499999999767,
 		["heroicPulls"] = 0,
 	},
 	["Marli"] = {
-		["pulls"] = 0,
-		["kills"] = 0,
+		["kills"] = 1,
 		["heroicKills"] = 0,
+		["pulls"] = 1,
+		["lastTime"] = 66.34899999998743,
+		["bestTime"] = 66.34899999998743,
 		["heroicPulls"] = 0,
 	},
 	["Venoxis"] = {
@@ -176,9 +178,11 @@ DBMZG_SavedStats = {
 		["heroicPulls"] = 0,
 	},
 	["Gahzranka"] = {
-		["pulls"] = 0,
-		["kills"] = 0,
+		["kills"] = 2,
 		["heroicKills"] = 0,
+		["pulls"] = 2,
+		["lastTime"] = 44.47599999999511,
+		["bestTime"] = 30.63500000000931,
 		["heroicPulls"] = 0,
 	},
 	["Jindo"] = {

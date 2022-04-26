@@ -10,10 +10,7 @@ GridDB = {
 						},
 						["baricon5"] = {
 						},
-						["border"] = {
-							["alert_lowMana"] = false,
-							["alert_lowHealth"] = false,
-							["alert_aggro"] = true,
+						["baricon9"] = {
 						},
 						["baricon4"] = {
 						},
@@ -31,7 +28,10 @@ GridDB = {
 						},
 						["baricon3"] = {
 						},
-						["baricon9"] = {
+						["border"] = {
+							["alert_lowMana"] = false,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
 						},
 						["icon"] = {
 							["debuff_curse"] = false,
@@ -46,13 +46,6 @@ GridDB = {
 					["textlength"] = 17,
 					["cornerSize"] = 8,
 					["frameWidth"] = 75,
-				},
-			},
-		},
-		["GridRoster"] = {
-			["profiles"] = {
-				["Default"] = {
-					["party_state"] = "party",
 				},
 			},
 		},
@@ -216,13 +209,12 @@ GridDB = {
 				["Default"] = {
 					["anchorRel"] = "TOPLEFT",
 					["layouts"] = {
-						["raid"] = "By Group 25",
-						["bg"] = "By Group 25",
 						["arena"] = "By Group 25",
+						["bg"] = "By Group 25",
 					},
 					["ScaleSize"] = 1.15,
-					["PosX"] = 0,
-					["PosY"] = -451.7049882083426,
+					["PosX"] = -0,
+					["PosY"] = -543.4618297221136,
 					["layout"] = "By Group 5",
 					["horizontal"] = true,
 					["Spacing"] = 0,

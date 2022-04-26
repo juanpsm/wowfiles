@@ -3,15 +3,15 @@ Blizzard_CombatLog_Filters = {
 	["currentFilter"] = 1,
 	["filters"] = {
 		{
-			["quickButtonName"] = "Self",
+			["quickButtonName"] = "Propio",
 			["onQuickBar"] = true,
 			["quickButtonDisplay"] = {
 				["party"] = true,
 				["solo"] = true,
 				["raid"] = true,
 			},
-			["tooltip"] = "Show messages of actions done by you and done to you.",
-			["name"] = "Self",
+			["tooltip"] = "Mostrar mensajes de tus acciones y de las que te afectan.",
+			["name"] = "Propio",
 			["colors"] = {
 				["schoolColoring"] = {
 					{
@@ -153,10 +153,10 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = false,
-				["schoolNameHighlighting"] = true,
-				["unitBraces"] = true,
 				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = false,
 				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
@@ -245,15 +245,15 @@ Blizzard_CombatLog_Filters = {
 			},
 		}, -- [1]
 		{
-			["quickButtonName"] = "Everything",
+			["quickButtonName"] = "Todo",
 			["onQuickBar"] = true,
 			["quickButtonDisplay"] = {
 				["party"] = true,
 				["solo"] = true,
 				["raid"] = true,
 			},
-			["tooltip"] = "Show all combat messages.",
-			["name"] = "Everything",
+			["tooltip"] = "Mostrar todos los mensajes de combate.",
+			["name"] = "Todo",
 			["colors"] = {
 				["schoolColoring"] = {
 					{
@@ -395,10 +395,10 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = false,
-				["schoolNameHighlighting"] = true,
-				["unitBraces"] = true,
 				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = false,
 				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
@@ -537,15 +537,15 @@ Blizzard_CombatLog_Filters = {
 			},
 		}, -- [2]
 		{
-			["quickButtonName"] = "What happened to me?",
+			["quickButtonName"] = "Me afecta",
 			["onQuickBar"] = true,
 			["quickButtonDisplay"] = {
 				["party"] = true,
 				["solo"] = true,
 				["raid"] = true,
 			},
-			["tooltip"] = "Show everything done to me.",
-			["name"] = "What happened to me?",
+			["tooltip"] = "Mostrar todo lo que me afecta.",
+			["name"] = "Me afecta",
 			["colors"] = {
 				["schoolColoring"] = {
 					{
@@ -687,10 +687,10 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = false,
-				["schoolNameHighlighting"] = true,
-				["unitBraces"] = true,
 				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = false,
 				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,
@@ -824,15 +824,15 @@ Blizzard_CombatLog_Filters = {
 			},
 		}, -- [3]
 		{
-			["quickButtonName"] = "Kills",
+			["quickButtonName"] = "Muertes",
 			["onQuickBar"] = false,
 			["quickButtonDisplay"] = {
 				["party"] = true,
 				["solo"] = true,
 				["raid"] = true,
 			},
-			["tooltip"] = "Show all deaths and kills.",
-			["name"] = "Kills",
+			["tooltip"] = "Mostrar todas las muertes aliadas y enemigas.",
+			["name"] = "Muertes",
 			["colors"] = {
 				["schoolColoring"] = {
 					{
@@ -974,10 +974,10 @@ Blizzard_CombatLog_Filters = {
 				["lineHighlighting"] = true,
 				["abilityActorColoring"] = false,
 				["actionHighlighting"] = false,
-				["hideBuffs"] = false,
-				["schoolNameHighlighting"] = true,
-				["unitBraces"] = true,
 				["braces"] = false,
+				["unitBraces"] = true,
+				["schoolNameHighlighting"] = true,
+				["hideBuffs"] = false,
 				["unitIcons"] = true,
 				["unitColoring"] = false,
 				["amountSchoolColoring"] = false,

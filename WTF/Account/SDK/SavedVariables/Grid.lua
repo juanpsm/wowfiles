@@ -35,10 +35,10 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["debuff_Ghost"] = true,
-							["alert_feignDeath"] = true,
-							["alert_death"] = true,
 							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -142,10 +142,10 @@ GridDB = {
 							["debuff_poison"] = true,
 						},
 						["text2"] = {
-							["alert_offline"] = true,
-							["debuff_Ghost"] = true,
-							["alert_death"] = true,
 							["alert_feignDeath"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["debuff_Ghost"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -233,32 +233,75 @@ GridDB = {
 				["Sacer"] = {
 					["fontSize"] = 12,
 					["cornerSize"] = 8,
-					["enableText2"] = true,
-					["frameHeight"] = 54,
-					["textlength"] = 20,
+					["borderSize"] = 1,
 					["iconBorderSize"] = 0,
 					["iconSize"] = 13,
-					["orientation"] = "HORIZONTAL",
-					["frameWidth"] = 77,
+					["enableBarColor"] = false,
+					["textlength"] = 20,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 54,
+					["fontOutline"] = "NONE",
+					["enableMouseoverHighlight"] = true,
+					["enableText2"] = true,
 					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
 						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["baricon9"] = {
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["baricon4"] = {
+							["ready_check"] = false,
+							["player_target"] = false,
+							["debuff_magic"] = false,
+							["buff_Crecimientosalvaje"] = false,
+							["debuff_poison"] = false,
+							["alert_heals"] = false,
+							["buff_Recrecimiento"] = false,
+							["unit_health"] = false,
+						},
+						["text2"] = {
+							["debuff_Ghost"] = true,
+							["alert_feignDeath"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon2"] = {
+							["buff_Renovar"] = false,
+							["debuff_Almadebilitada"] = true,
+							["buff_Rejuvenecimiento"] = false,
+							["debuff_WeakenedSoul"] = true,
+							["buff_Palabradepoder:escudo"] = false,
 						},
 						["text"] = {
 							["alert_offline"] = false,
-							["alert_feignDeath"] = false,
-							["alert_lowMana"] = false,
-							["unit_healthDeficit"] = false,
-							["debuff_Ghost"] = false,
 							["alert_heals"] = false,
+							["alert_lowMana"] = false,
+							["alert_feignDeath"] = false,
+							["unit_healthDeficit"] = false,
+							["unit_name"] = true,
+							["debuff_Ghost"] = false,
 							["alert_death"] = false,
 							["alert_vehicleui"] = false,
 						},
-						["border"] = {
-							["alert_lowMana"] = false,
-							["alert_lowHealth"] = false,
-							["alert_aggro"] = true,
+						["baricon6"] = {
 						},
-						["baricon8"] = {
+						["baricon7"] = {
 						},
 						["baricon1"] = {
 							["buff_PowerWord:Shield"] = true,
@@ -272,33 +315,117 @@ GridDB = {
 							["buff_Recrecimiento"] = false,
 							["buff_Renew"] = true,
 						},
+						["border"] = {
+							["alert_lowMana"] = false,
+							["player_target"] = true,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
 						["icon"] = {
 							["debuff_curse"] = false,
 							["debuff_poison"] = false,
 							["debuff_disease"] = false,
+							["ready_check"] = true,
 							["debuff_magic"] = false,
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+					},
+					["invertBarColor"] = false,
+					["textorientation"] = "VERTICAL",
+					["font"] = "Friz Quadrata TT",
+					["healingBar_intensity"] = 0.5,
+					["showTooltip"] = "OOC",
+					["orientation"] = "HORIZONTAL",
+					["debug"] = false,
+					["frameWidth"] = 77,
+					["enableIconCooldown"] = true,
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+					["cornerSize"] = 9,
+					["fontSize"] = 10,
+					["frameHeight"] = 60,
+					["iconBorderSize"] = 0,
+					["frameWidth"] = 86,
+					["enableText2"] = true,
+					["textlength"] = 20,
+					["statusmap"] = {
+						["baricon5"] = {
+						},
+						["text"] = {
+							["alert_feignDeath"] = false,
+							["debuff_Ghost"] = false,
+							["alert_death"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_offline"] = false,
+							["alert_heals"] = false,
+							["alert_lowMana"] = false,
+							["alert_vehicleui"] = false,
+						},
+						["border"] = {
+							["alert_lowMana"] = false,
+							["alert_lowHealth"] = false,
+							["alert_aggro"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon1"] = {
+							["buff_Palabradepoder:escudo"] = false,
+							["buff_Flordevida"] = true,
+							["buff_Lifebloom"] = true,
+							["buff_Renovar"] = false,
+						},
+						["baricon3"] = {
+							["buff_Recrecimiento"] = false,
+							["buff_WildGrowth"] = true,
+							["buff_Crecimientosalvaje"] = false,
+						},
+						["baricon4"] = {
+							["buff_Recrecimiento"] = true,
+							["buff_Regrowth"] = true,
+							["buff_Crecimientosalvaje"] = false,
+						},
+						["baricon9"] = {
 						},
 						["baricon7"] = {
 						},
 						["baricon6"] = {
 						},
-						["baricon9"] = {
-						},
-						["baricon4"] = {
-							["ready_check"] = false,
-							["player_target"] = false,
-							["debuff_magic"] = false,
-							["buff_Crecimientosalvaje"] = false,
+						["icon"] = {
+							["debuff_NecroticPlague"] = true,
 							["debuff_poison"] = false,
-							["alert_heals"] = false,
-							["buff_Recrecimiento"] = false,
-							["unit_health"] = false,
+							["debuff_disease"] = false,
+							["debuff_curse"] = false,
+							["ready_check"] = false,
+							["debuff_Infest"] = true,
+							["debuff_magic"] = false,
 						},
 						["baricon2"] = {
+							["buff_Rejuvenation"] = true,
+							["buff_Rejuvenecimiento"] = true,
 							["buff_Renovar"] = false,
-							["debuff_Almadebilitada"] = true,
-							["buff_Rejuvenecimiento"] = false,
-							["debuff_WeakenedSoul"] = true,
 							["buff_Palabradepoder:escudo"] = false,
 						},
 					},
@@ -335,10 +462,10 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["debuff_Ghost"] = true,
-							["alert_feignDeath"] = true,
-							["alert_death"] = true,
 							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -412,21 +539,181 @@ GridDB = {
 					["frameWidth"] = 36,
 					["iconBorderSize"] = 1,
 				},
+				["class/Brujo"] = {
+					["fontSize"] = 11,
+					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
+						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["text2"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon2"] = {
+						},
+						["text"] = {
+							["unit_name"] = true,
+							["alert_offline"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
+						["baricon3"] = {
+						},
+						["baricon4"] = {
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["baricon9"] = {
+						},
+						["baricon1"] = {
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_magic"] = true,
+						},
+						["bar"] = {
+							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+					},
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["iconBorderSize"] = 1,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["enableIconCooldown"] = true,
+					["font"] = "Friz Quadrata TT",
+					["textorientation"] = "VERTICAL",
+					["invertBarColor"] = false,
+					["enableMouseoverHighlight"] = true,
+					["debug"] = false,
+					["orientation"] = "VERTICAL",
+					["cornerSize"] = 6,
+					["frameWidth"] = 36,
+					["healingBar_intensity"] = 0.5,
+				},
 				["Deadly"] = {
+					["fontSize"] = 11,
+					["cornerSize"] = 7,
+					["borderSize"] = 1,
+					["iconBorderSize"] = 2,
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 18,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 38,
+					["fontOutline"] = "NONE",
 					["statusmap"] = {
 						["corner2"] = {
 							["alert_lowMana"] = true,
 						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
 						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["border"] = {
+							["alert_lowHealth"] = false,
+							["player_target"] = true,
+							["alert_lowMana"] = false,
+							["alert_aggro"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["debuff_curse"] = false,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["ready_check"] = true,
+							["debuff_magic"] = false,
+						},
+						["text2"] = {
+							["debuff_Ghost"] = true,
+							["alert_feignDeath"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon2"] = {
+							["debuff_magic"] = true,
 						},
 						["text"] = {
 							["alert_feignDeath"] = false,
-							["alert_heals"] = false,
+							["debuff_Ghost"] = false,
 							["unit_healthDeficit"] = false,
+							["alert_offline"] = false,
+							["alert_heals"] = false,
+							["alert_death"] = false,
+							["unit_name"] = true,
 						},
-						["baricon9"] = {
+						["baricon6"] = {
 						},
-						["baricon8"] = {
+						["baricon7"] = {
 						},
 						["baricon1"] = {
 							["debuff_disease"] = true,
@@ -434,49 +721,67 @@ GridDB = {
 						["baricon3"] = {
 							["debuff_curse"] = true,
 						},
+						["baricon9"] = {
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
 						["baricon4"] = {
 							["debuff_poison"] = true,
 						},
-						["border"] = {
-							["alert_lowHealth"] = false,
-							["alert_lowMana"] = false,
-							["alert_aggro"] = true,
-						},
-						["baricon7"] = {
-						},
-						["baricon6"] = {
-						},
-						["icon"] = {
-							["debuff_curse"] = false,
-							["debuff_poison"] = false,
-							["debuff_magic"] = false,
-							["debuff_disease"] = false,
-						},
-						["baricon2"] = {
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
 							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
 						},
 					},
-					["iconBorderSize"] = 2,
-					["cornerSize"] = 7,
+					["enableText2"] = true,
+					["healingBar_intensity"] = 0.5,
+					["debug"] = false,
+					["textorientation"] = "VERTICAL",
+					["invertBarColor"] = false,
+					["showTooltip"] = "OOC",
+					["font"] = "Friz Quadrata TT",
+					["orientation"] = "VERTICAL",
+					["enableMouseoverHighlight"] = true,
 					["frameWidth"] = 73,
-					["textlength"] = 18,
-					["frameHeight"] = 38,
+					["enableIconCooldown"] = true,
 				},
 				["char/Skombrow - WoWArg"] = {
+					["frameHeight"] = 60,
 					["fontSize"] = 10,
 					["cornerSize"] = 9,
+					["iconBorderSize"] = 0,
+					["textlength"] = 20,
 					["enableText2"] = true,
+					["frameWidth"] = 86,
 					["statusmap"] = {
 						["baricon5"] = {
 						},
 						["text"] = {
-							["alert_feignDeath"] = false,
 							["debuff_Ghost"] = false,
-							["alert_death"] = false,
+							["alert_feignDeath"] = false,
+							["alert_lowMana"] = false,
 							["unit_healthDeficit"] = false,
 							["alert_offline"] = false,
 							["alert_heals"] = false,
-							["alert_lowMana"] = false,
+							["alert_death"] = false,
 							["alert_vehicleui"] = false,
 						},
 						["baricon9"] = {
@@ -498,18 +803,19 @@ GridDB = {
 							["debuff_curse"] = false,
 							["debuff_poison"] = false,
 							["debuff_disease"] = false,
+							["debuff_NecroticPlague"] = true,
 							["ready_check"] = false,
 							["debuff_Infest"] = true,
 							["debuff_magic"] = false,
+						},
+						["baricon7"] = {
+						},
+						["baricon6"] = {
 						},
 						["border"] = {
 							["alert_lowMana"] = false,
 							["alert_lowHealth"] = false,
 							["alert_aggro"] = true,
-						},
-						["baricon7"] = {
-						},
-						["baricon6"] = {
 						},
 						["baricon4"] = {
 							["buff_Recrecimiento"] = true,
@@ -523,13 +829,8 @@ GridDB = {
 							["buff_Renovar"] = false,
 						},
 					},
-					["iconBorderSize"] = 0,
-					["orientation"] = "HORIZONTAL",
-					["frameWidth"] = 86,
-					["textlength"] = 20,
-					["frameHeight"] = 60,
 				},
-				["char/Rivo - WoWArg"] = {
+				["class/Cazador"] = {
 					["fontSize"] = 11,
 					["statusmap"] = {
 						["corner2"] = {
@@ -561,10 +862,10 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["alert_feignDeath"] = true,
 							["alert_offline"] = true,
-							["alert_death"] = true,
 							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -641,30 +942,37 @@ GridDB = {
 				["Default"] = {
 					["cornerSize"] = 7,
 					["iconBorderSize"] = 2,
-					["frameHeight"] = 38,
 					["textlength"] = 18,
-					["frameWidth"] = 73,
+					["frameHeight"] = 38,
 					["statusmap"] = {
 						["corner2"] = {
 							["alert_lowMana"] = true,
 						},
 						["baricon5"] = {
 						},
-						["text"] = {
-							["alert_feignDeath"] = false,
-							["alert_heals"] = false,
-							["unit_healthDeficit"] = false,
-						},
 						["border"] = {
 							["alert_lowHealth"] = false,
 							["alert_lowMana"] = false,
 							["alert_aggro"] = true,
 						},
+						["baricon4"] = {
+						},
 						["baricon8"] = {
+						},
+						["text"] = {
+							["alert_feignDeath"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_heals"] = false,
+						},
+						["baricon7"] = {
+						},
+						["baricon6"] = {
 						},
 						["baricon1"] = {
 						},
 						["baricon3"] = {
+						},
+						["baricon9"] = {
 						},
 						["icon"] = {
 							["debuff_curse"] = false,
@@ -672,17 +980,10 @@ GridDB = {
 							["debuff_disease"] = false,
 							["debuff_magic"] = false,
 						},
-						["baricon6"] = {
-						},
-						["baricon7"] = {
-						},
-						["baricon9"] = {
-						},
-						["baricon4"] = {
-						},
 						["baricon2"] = {
 						},
 					},
+					["frameWidth"] = 73,
 				},
 				["char/Deadly - WoWArg"] = {
 					["fontSize"] = 11,
@@ -716,10 +1017,10 @@ GridDB = {
 							["debuff_magic"] = true,
 						},
 						["text2"] = {
-							["debuff_Ghost"] = true,
-							["alert_feignDeath"] = true,
-							["alert_death"] = true,
 							["alert_offline"] = true,
+							["debuff_Ghost"] = true,
+							["alert_death"] = true,
+							["alert_feignDeath"] = true,
 						},
 						["baricon8"] = {
 						},
@@ -792,224 +1093,6 @@ GridDB = {
 					["cornerSize"] = 6,
 					["frameWidth"] = 36,
 					["healingBar_intensity"] = 0.5,
-				},
-				["class/Brujo"] = {
-					["fontSize"] = 11,
-					["statusmap"] = {
-						["corner2"] = {
-						},
-						["healingBar"] = {
-							["alert_heals"] = true,
-						},
-						["baricon5"] = {
-						},
-						["barcolor"] = {
-							["alert_offline"] = true,
-							["debuff_Ghost"] = true,
-							["alert_death"] = true,
-							["unit_health"] = true,
-						},
-						["border"] = {
-							["player_target"] = true,
-							["alert_lowHealth"] = true,
-							["alert_lowMana"] = true,
-						},
-						["corner1"] = {
-							["alert_heals"] = true,
-						},
-						["icon"] = {
-							["ready_check"] = true,
-							["debuff_poison"] = true,
-							["debuff_disease"] = true,
-							["debuff_curse"] = true,
-							["debuff_magic"] = true,
-						},
-						["text2"] = {
-							["debuff_Ghost"] = true,
-							["alert_feignDeath"] = true,
-							["alert_death"] = true,
-							["alert_offline"] = true,
-						},
-						["baricon8"] = {
-						},
-						["baricon2"] = {
-						},
-						["text"] = {
-							["unit_name"] = true,
-							["alert_offline"] = true,
-							["unit_healthDeficit"] = true,
-							["debuff_Ghost"] = true,
-							["alert_heals"] = true,
-							["alert_death"] = true,
-							["alert_feignDeath"] = true,
-						},
-						["baricon6"] = {
-						},
-						["baricon7"] = {
-						},
-						["corner4"] = {
-							["alert_aggro"] = true,
-						},
-						["baricon3"] = {
-						},
-						["baricon4"] = {
-						},
-						["frameAlpha"] = {
-							["alert_range_10"] = true,
-							["alert_range_40"] = true,
-							["alert_offline"] = true,
-							["alert_range_28"] = true,
-							["alert_range_30"] = true,
-							["alert_death"] = true,
-							["alert_range_100"] = true,
-						},
-						["baricon9"] = {
-						},
-						["baricon1"] = {
-						},
-						["corner3"] = {
-							["debuff_curse"] = true,
-							["debuff_poison"] = true,
-							["debuff_disease"] = true,
-							["debuff_magic"] = true,
-						},
-						["bar"] = {
-							["alert_offline"] = true,
-							["debuff_Ghost"] = true,
-							["alert_death"] = true,
-							["unit_health"] = true,
-						},
-					},
-					["borderSize"] = 1,
-					["fontOutline"] = "NONE",
-					["iconSize"] = 16,
-					["enableBarColor"] = false,
-					["textlength"] = 4,
-					["texture"] = "Gradient",
-					["enableIconStackText"] = true,
-					["frameHeight"] = 36,
-					["iconBorderSize"] = 1,
-					["showTooltip"] = "OOC",
-					["enableText2"] = false,
-					["enableIconCooldown"] = true,
-					["font"] = "Friz Quadrata TT",
-					["textorientation"] = "VERTICAL",
-					["invertBarColor"] = false,
-					["enableMouseoverHighlight"] = true,
-					["debug"] = false,
-					["orientation"] = "VERTICAL",
-					["cornerSize"] = 6,
-					["frameWidth"] = 36,
-					["healingBar_intensity"] = 0.5,
-				},
-				["class/Cazador"] = {
-					["fontSize"] = 11,
-					["statusmap"] = {
-						["corner2"] = {
-						},
-						["healingBar"] = {
-							["alert_heals"] = true,
-						},
-						["baricon5"] = {
-						},
-						["barcolor"] = {
-							["debuff_Ghost"] = true,
-							["alert_offline"] = true,
-							["alert_death"] = true,
-							["unit_health"] = true,
-						},
-						["border"] = {
-							["player_target"] = true,
-							["alert_lowHealth"] = true,
-							["alert_lowMana"] = true,
-						},
-						["corner1"] = {
-							["alert_heals"] = true,
-						},
-						["icon"] = {
-							["ready_check"] = true,
-							["debuff_poison"] = true,
-							["debuff_disease"] = true,
-							["debuff_curse"] = true,
-							["debuff_magic"] = true,
-						},
-						["text2"] = {
-							["debuff_Ghost"] = true,
-							["alert_feignDeath"] = true,
-							["alert_death"] = true,
-							["alert_offline"] = true,
-						},
-						["baricon8"] = {
-						},
-						["bar"] = {
-							["debuff_Ghost"] = true,
-							["alert_offline"] = true,
-							["alert_death"] = true,
-							["unit_health"] = true,
-						},
-						["text"] = {
-							["unit_name"] = true,
-							["alert_feignDeath"] = true,
-							["unit_healthDeficit"] = true,
-							["debuff_Ghost"] = true,
-							["alert_heals"] = true,
-							["alert_death"] = true,
-							["alert_offline"] = true,
-						},
-						["baricon6"] = {
-						},
-						["baricon7"] = {
-						},
-						["corner4"] = {
-							["alert_aggro"] = true,
-						},
-						["baricon3"] = {
-						},
-						["baricon1"] = {
-						},
-						["frameAlpha"] = {
-							["alert_range_10"] = true,
-							["alert_range_40"] = true,
-							["alert_offline"] = true,
-							["alert_range_28"] = true,
-							["alert_range_30"] = true,
-							["alert_death"] = true,
-							["alert_range_100"] = true,
-						},
-						["baricon9"] = {
-						},
-						["baricon4"] = {
-						},
-						["corner3"] = {
-							["debuff_curse"] = true,
-							["debuff_poison"] = true,
-							["debuff_magic"] = true,
-							["debuff_disease"] = true,
-						},
-						["baricon2"] = {
-						},
-					},
-					["borderSize"] = 1,
-					["fontOutline"] = "NONE",
-					["iconSize"] = 16,
-					["enableBarColor"] = false,
-					["textlength"] = 4,
-					["texture"] = "Gradient",
-					["enableIconStackText"] = true,
-					["frameHeight"] = 36,
-					["healingBar_intensity"] = 0.5,
-					["showTooltip"] = "OOC",
-					["enableText2"] = false,
-					["cornerSize"] = 6,
-					["invertBarColor"] = false,
-					["textorientation"] = "VERTICAL",
-					["font"] = "Friz Quadrata TT",
-					["debug"] = false,
-					["enableMouseoverHighlight"] = true,
-					["orientation"] = "VERTICAL",
-					["enableIconCooldown"] = true,
-					["frameWidth"] = 36,
-					["iconBorderSize"] = 1,
 				},
 				["DPS"] = {
 					["statusmap"] = {
@@ -1023,20 +1106,20 @@ GridDB = {
 							["alert_heals"] = false,
 							["unit_healthDeficit"] = false,
 						},
-						["baricon9"] = {
-						},
-						["baricon8"] = {
-						},
-						["baricon1"] = {
-						},
-						["baricon3"] = {
-						},
 						["border"] = {
 							["alert_lowMana"] = false,
 							["alert_lowHealth"] = false,
 							["alert_aggro"] = true,
 						},
+						["baricon9"] = {
+						},
+						["baricon1"] = {
+						},
+						["baricon3"] = {
+						},
 						["baricon4"] = {
+						},
+						["baricon8"] = {
 						},
 						["baricon6"] = {
 						},
@@ -1045,17 +1128,184 @@ GridDB = {
 						["icon"] = {
 							["debuff_curse"] = false,
 							["debuff_poison"] = false,
-							["debuff_magic"] = false,
 							["debuff_disease"] = false,
+							["debuff_magic"] = false,
 						},
 						["baricon2"] = {
 						},
 					},
 					["iconBorderSize"] = 2,
+					["frameHeight"] = 38,
+					["textlength"] = 18,
 					["frameWidth"] = 73,
 					["cornerSize"] = 7,
-					["textlength"] = 18,
-					["frameHeight"] = 38,
+				},
+				["char/Rivo - WoWArg"] = {
+					["fontSize"] = 11,
+					["statusmap"] = {
+						["corner2"] = {
+						},
+						["healingBar"] = {
+							["alert_heals"] = true,
+						},
+						["baricon5"] = {
+						},
+						["barcolor"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["border"] = {
+							["player_target"] = true,
+							["alert_lowHealth"] = true,
+							["alert_lowMana"] = true,
+						},
+						["corner1"] = {
+							["alert_heals"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = true,
+							["debuff_poison"] = true,
+							["debuff_disease"] = true,
+							["debuff_curse"] = true,
+							["debuff_magic"] = true,
+						},
+						["text2"] = {
+							["debuff_Ghost"] = true,
+							["alert_feignDeath"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon8"] = {
+						},
+						["bar"] = {
+							["debuff_Ghost"] = true,
+							["alert_offline"] = true,
+							["alert_death"] = true,
+							["unit_health"] = true,
+						},
+						["text"] = {
+							["unit_name"] = true,
+							["alert_feignDeath"] = true,
+							["unit_healthDeficit"] = true,
+							["debuff_Ghost"] = true,
+							["alert_heals"] = true,
+							["alert_death"] = true,
+							["alert_offline"] = true,
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["corner4"] = {
+							["alert_aggro"] = true,
+						},
+						["baricon3"] = {
+						},
+						["baricon1"] = {
+						},
+						["frameAlpha"] = {
+							["alert_range_10"] = true,
+							["alert_range_40"] = true,
+							["alert_offline"] = true,
+							["alert_range_28"] = true,
+							["alert_range_30"] = true,
+							["alert_death"] = true,
+							["alert_range_100"] = true,
+						},
+						["baricon9"] = {
+						},
+						["baricon4"] = {
+						},
+						["corner3"] = {
+							["debuff_curse"] = true,
+							["debuff_poison"] = true,
+							["debuff_magic"] = true,
+							["debuff_disease"] = true,
+						},
+						["baricon2"] = {
+						},
+					},
+					["borderSize"] = 1,
+					["fontOutline"] = "NONE",
+					["iconSize"] = 16,
+					["enableBarColor"] = false,
+					["textlength"] = 4,
+					["texture"] = "Gradient",
+					["enableIconStackText"] = true,
+					["frameHeight"] = 36,
+					["healingBar_intensity"] = 0.5,
+					["showTooltip"] = "OOC",
+					["enableText2"] = false,
+					["cornerSize"] = 6,
+					["invertBarColor"] = false,
+					["textorientation"] = "VERTICAL",
+					["font"] = "Friz Quadrata TT",
+					["debug"] = false,
+					["enableMouseoverHighlight"] = true,
+					["orientation"] = "VERTICAL",
+					["enableIconCooldown"] = true,
+					["frameWidth"] = 36,
+					["iconBorderSize"] = 1,
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
+					["frameHeight"] = 51,
+					["healingBar_intensity"] = 0.45,
+					["frameWidth"] = 76,
+					["enableText2"] = true,
+					["textlength"] = 20,
+					["statusmap"] = {
+						["corner2"] = {
+							["alert_lowMana"] = true,
+						},
+						["text2"] = {
+							["alert_feignDeath"] = false,
+						},
+						["baricon5"] = {
+						},
+						["text"] = {
+							["alert_offline"] = false,
+							["unit_healthDeficit"] = false,
+							["alert_feignDeath"] = false,
+							["alert_heals"] = false,
+							["alert_death"] = false,
+							["debuff_Ghost"] = false,
+						},
+						["border"] = {
+							["alert_lowHealth"] = false,
+							["alert_lowMana"] = false,
+							["alert_aggro"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon1"] = {
+							["buff_Lifebloom"] = true,
+						},
+						["baricon3"] = {
+							["buff_Regrowth"] = false,
+							["buff_WildGrowth"] = true,
+						},
+						["icon"] = {
+							["ready_check"] = false,
+							["debuff_poison"] = false,
+							["debuff_disease"] = false,
+							["debuff_curse"] = false,
+							["debuff_magic"] = false,
+						},
+						["baricon9"] = {
+						},
+						["baricon6"] = {
+						},
+						["baricon7"] = {
+						},
+						["baricon4"] = {
+							["buff_Regrowth"] = true,
+						},
+						["baricon2"] = {
+							["buff_Rejuvenation"] = true,
+						},
+					},
 				},
 				["char/Doroteo - WoWArg"] = {
 					["statusmap"] = {
@@ -1064,10 +1314,21 @@ GridDB = {
 						},
 						["baricon5"] = {
 						},
+						["text"] = {
+							["alert_feignDeath"] = false,
+							["alert_heals"] = false,
+							["unit_healthDeficit"] = false,
+						},
 						["border"] = {
 							["alert_lowHealth"] = false,
 							["alert_lowMana"] = false,
 							["alert_aggro"] = true,
+						},
+						["baricon8"] = {
+						},
+						["baricon1"] = {
+						},
+						["baricon3"] = {
 						},
 						["icon"] = {
 							["debuff_curse"] = false,
@@ -1076,33 +1337,22 @@ GridDB = {
 							["debuff_magic"] = false,
 							["debuff_Combustion"] = true,
 						},
-						["baricon8"] = {
-						},
-						["text"] = {
-							["alert_feignDeath"] = false,
-							["unit_healthDeficit"] = false,
-							["alert_heals"] = false,
+						["baricon9"] = {
 						},
 						["baricon6"] = {
 						},
 						["baricon7"] = {
 						},
-						["baricon1"] = {
-						},
-						["baricon3"] = {
-						},
 						["baricon4"] = {
-						},
-						["baricon9"] = {
 						},
 						["baricon2"] = {
 						},
 					},
 					["iconBorderSize"] = 2,
-					["textlength"] = 18,
-					["frameHeight"] = 38,
 					["cornerSize"] = 7,
 					["frameWidth"] = 73,
+					["textlength"] = 18,
+					["frameHeight"] = 38,
 				},
 			},
 		},
@@ -1111,88 +1361,98 @@ GridDB = {
 				[""] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
+						["text"] = "Conduciendo",
+						["enable"] = false,
 						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.7,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["text"] = "Conduciendo",
-						["range"] = false,
-						["enable"] = false,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
+						["priority"] = 50,
+						["enable"] = false,
 						["text"] = "Conduciendo",
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.7,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["priority"] = 50,
-						["range"] = false,
-						["enable"] = false,
 					},
 				},
 				["class/Cazador"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
+						["text"] = "Conduciendo",
+						["enable"] = false,
 						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.7,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["text"] = "Conduciendo",
-						["range"] = false,
-						["enable"] = false,
 					},
 				},
 				["class/Druid"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
-						["priority"] = 50,
-						["color"] = {
-							["a"] = 0.7,
-							["b"] = 0.8,
-							["g"] = 0.8,
-							["r"] = 0.8,
-						},
 						["text"] = "Driving",
-						["range"] = false,
 						["enable"] = false,
-					},
-				},
-				["Deadly"] = {
-					["alert_vehicleui"] = {
-						["text"] = "Conduciendo",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["alert_vehicleui"] = {
+						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.7,
-							["r"] = 0.8,
-							["g"] = 0.8,
 							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
 						},
-						["enable"] = false,
-						["text"] = "Conduciendo",
-						["range"] = false,
-						["priority"] = 50,
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
+						["text"] = "Driving",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.7,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["text"] = "Conduciendo",
+						["color"] = {
+							["a"] = 0.7,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["enable"] = false,
+					},
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
 						["priority"] = 50,
 						["color"] = {
 							["a"] = 0.7,
@@ -1205,20 +1465,39 @@ GridDB = {
 						["enable"] = false,
 					},
 				},
-				["class/Brujo"] = {
+				["char/Deadly - WoWArg"] = {
 					["debug"] = false,
 					["alert_vehicleui"] = {
+						["enable"] = false,
 						["color"] = {
 							["a"] = 0.7,
 							["r"] = 0.8,
 							["g"] = 0.8,
 							["b"] = 0.8,
 						},
-						["enable"] = false,
-						["text"] = "Conduciendo",
-						["range"] = false,
 						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Conduciendo",
 					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+				},
+				["class/Brujo"] = {
+					["debug"] = false,
+					["alert_vehicleui"] = {
+						["enable"] = false,
+						["color"] = {
+							["a"] = 0.7,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Conduciendo",
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -1232,26 +1511,32 @@ GridDB = {
 				["Doroteo"] = {
 					["party_state"] = "party",
 				},
+				["Sacer"] = {
+					["party_state"] = "solo",
+				},
+				["char/Rivo - WoWArg"] = {
+					["party_state"] = "heroic_raid",
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+				},
+				["Deadly"] = {
+					["party_state"] = "solo",
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
 				["class/Cazador"] = {
+					["party_state"] = "solo",
+				},
+				["char/Deadly - WoWArg"] = {
 					["party_state"] = "solo",
 				},
 				["class/Druid"] = {
 					["party_state"] = "solo",
 				},
-				["Deadly"] = {
-					["party_state"] = "raid",
-				},
-				["char/Skombrow - WoWArg"] = {
-					["party_state"] = "heroic_raid",
-				},
-				["char/Deadly - WoWArg"] = {
-					["party_state"] = "solo",
-				},
 				["class/Brujo"] = {
 					["party_state"] = "solo",
 				},
-				["char/Rivo - WoWArg"] = {
-					["party_state"] = "heroic_raid",
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -1340,44 +1625,44 @@ GridDB = {
 						["desc"] = "Bufo: Recrecimiento",
 					},
 					["debuff_curse"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Maldición",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.6,
 							["g"] = 0,
 							["b"] = 1,
 						},
+						["text"] = "Maldición",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Maldición",
 					},
 					["debuff_poison"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Veneno",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0,
 							["g"] = 0.6,
 							["b"] = 0,
 						},
+						["text"] = "Veneno",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Veneno",
 					},
 					["debug"] = false,
 					["debuff_disease"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Enfermedad",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.6,
 							["g"] = 0.4,
 							["b"] = 0,
 						},
+						["text"] = "Enfermedad",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Enfermedad",
@@ -1409,15 +1694,15 @@ GridDB = {
 						["desc"] = "Bufo: Renovar",
 					},
 					["debuff_magic"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Magia",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.2,
 							["g"] = 0.6,
 							["b"] = 1,
 						},
+						["text"] = "Magia",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Magia",
@@ -1464,17 +1749,17 @@ GridDB = {
 				},
 				["Doroteo"] = {
 					["debuff_EssenceoftheBloodQueen"] = {
-						["duration"] = true,
+						["priority"] = 90,
+						["missing"] = false,
+						["text"] = "Essence of the Blood Queen",
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
-						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Essence of the Blood Queen",
+						["duration"] = true,
 						["range"] = false,
 						["desc"] = "Debuff: Essence of the Blood Queen",
 					},
@@ -1492,17 +1777,17 @@ GridDB = {
 						["desc"] = "Buff: Renew",
 					},
 					["debuff_NecroticPlague"] = {
-						["duration"] = false,
+						["priority"] = 90,
+						["missing"] = false,
+						["text"] = "Necrotic Plague",
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
-						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Necrotic Plague",
+						["duration"] = false,
 						["range"] = false,
 						["desc"] = "Debuff: Necrotic Plague",
 					},
@@ -1521,15 +1806,15 @@ GridDB = {
 					},
 					["abolish"] = true,
 					["debuff_curse"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Maldición",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0,
 							["r"] = 0.6,
 						},
+						["text"] = "Maldición",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Maldición",
@@ -1549,15 +1834,15 @@ GridDB = {
 					},
 					["debug"] = false,
 					["debuff_disease"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Enfermedad",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0.4,
 							["r"] = 0.6,
 						},
+						["text"] = "Enfermedad",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Enfermedad",
@@ -1641,15 +1926,15 @@ GridDB = {
 						["desc"] = "Buff: Power Word: Shield",
 					},
 					["debuff_poison"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Veneno",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0.6,
 							["r"] = 0,
 						},
+						["text"] = "Veneno",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Veneno",
@@ -1681,27 +1966,190 @@ GridDB = {
 						["desc"] = "Buff: Lifebloom",
 					},
 					["debuff_magic"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Magia",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.6,
 							["r"] = 0.2,
 						},
+						["text"] = "Magia",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Magia",
 					},
 				},
 				["Sacer"] = {
+					["buff_Rejuvenecimiento"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Renew"] = {
+						["enable"] = true,
+						["text"] = "Renew",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Renew",
+					},
+					["debuff_Almadebilitada"] = {
+						["duration"] = true,
+					},
+					["buff_Riptide"] = {
+						["enable"] = true,
+						["text"] = "Riptide",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Riptide",
+					},
+					["abolish"] = true,
+					["buff_Flordevida"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Recrecimiento"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["debuff_MortalStrike"] = {
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["debuff_curse"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["text"] = "Curse",
+						["range"] = false,
+						["desc"] = "Debuff type: Curse",
+					},
+					["debuff_poison"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["text"] = "Poison",
+						["range"] = false,
+						["desc"] = "Debuff type: Poison",
+					},
+					["debug"] = false,
+					["debuff_disease"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["text"] = "Disease",
+						["range"] = false,
+						["desc"] = "Debuff type: Disease",
+					},
+					["buff_Rejuvenation"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
 					["buff_Palabradepoder:escudo"] = {
 						["duration"] = true,
+					},
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["buff_EarthShield"] = {
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
 					},
 					["buff_Renovar"] = {
 						["mine"] = true,
 						["duration"] = true,
+					},
+					["debuff_Ghost"] = {
+						["enable"] = true,
+						["text"] = "Ghost",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["buff_Regrowth"] = {
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
 					},
 					["buff_Crecimientosalvaje"] = {
 						["enable"] = true,
@@ -1719,20 +2167,58 @@ GridDB = {
 						["duration"] = true,
 						["mine"] = true,
 					},
-					["buff_Rejuvenecimiento"] = {
-						["mine"] = true,
-						["duration"] = true,
+					["buff_PowerWord:Shield"] = {
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
 					},
-					["buff_Flordevida"] = {
-						["mine"] = true,
-						["duration"] = true,
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
 					},
-					["buff_Recrecimiento"] = {
-						["mine"] = true,
-						["duration"] = true,
+					["buff_Lifebloom"] = {
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
 					},
-					["debuff_Almadebilitada"] = {
-						["duration"] = true,
+					["debuff_magic"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["text"] = "Magic",
+						["range"] = false,
+						["desc"] = "Debuff type: Magic",
 					},
 				},
 				["class/Druid"] = {
@@ -1764,15 +2250,15 @@ GridDB = {
 					},
 					["abolish"] = true,
 					["debuff_curse"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0,
 							["r"] = 0.6,
 						},
+						["priority"] = 90,
+						["order"] = 25,
 						["text"] = "Curse",
 						["range"] = false,
 						["desc"] = "Debuff type: Curse",
@@ -1844,15 +2330,15 @@ GridDB = {
 						["desc"] = "Buff: Power Word: Shield",
 					},
 					["debuff_poison"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0.6,
 							["r"] = 0,
 						},
+						["priority"] = 90,
+						["order"] = 25,
 						["text"] = "Poison",
 						["range"] = false,
 						["desc"] = "Debuff type: Poison",
@@ -1897,15 +2383,15 @@ GridDB = {
 						["desc"] = "Buff: Earth Shield",
 					},
 					["debuff_disease"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0.4,
 							["r"] = 0.6,
 						},
+						["priority"] = 90,
+						["order"] = 25,
 						["text"] = "Disease",
 						["range"] = false,
 						["desc"] = "Debuff type: Disease",
@@ -1924,29 +2410,224 @@ GridDB = {
 						["desc"] = "Buff: Lifebloom",
 					},
 					["debuff_magic"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.6,
 							["r"] = 0.2,
 						},
+						["priority"] = 90,
+						["order"] = 25,
 						["text"] = "Magic",
 						["range"] = false,
 						["desc"] = "Debuff type: Magic",
 					},
 				},
-				["Deadly"] = {
+				[""] = {
+					["debuff_Abstinencia"] = {
+						["enable"] = true,
+						["text"] = "Abstinencia",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Abstinencia",
+					},
+					["debuff_Golpemortal"] = {
+						["enable"] = true,
+						["text"] = "Golpe mortal",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Golpe mortal",
+					},
+					["buff_Rejuvenecimiento"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenecimiento",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Rejuvenecimiento",
+					},
+					["buff_Escudodetierra"] = {
+						["enable"] = true,
+						["text"] = "Escudo de tierra",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Escudo de tierra",
+					},
+					["abolish"] = true,
+					["buff_Flordevida"] = {
+						["enable"] = true,
+						["text"] = "Flor de vida",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Flor de vida",
+					},
+					["buff_Recrecimiento"] = {
+						["enable"] = true,
+						["text"] = "Recrecimiento",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Recrecimiento",
+					},
 					["debuff_curse"] = {
-						["desc"] = "Tipo de debuff: Maldición",
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["priority"] = 90,
+						["order"] = 25,
 						["text"] = "Maldición",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Maldición",
 					},
 					["debuff_poison"] = {
-						["desc"] = "Tipo de debuff: Veneno",
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["order"] = 25,
 						["text"] = "Veneno",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Veneno",
 					},
+					["debug"] = false,
+					["debuff_disease"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["priority"] = 90,
+						["order"] = 25,
+						["text"] = "Enfermedad",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Enfermedad",
+					},
+					["buff_Palabradepoder:escudo"] = {
+						["enable"] = true,
+						["text"] = "Palabra de poder: escudo",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Bufo: Palabra de poder: escudo",
+					},
+					["buff_Renovar"] = {
+						["enable"] = true,
+						["text"] = "Renovar",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Renovar",
+					},
+					["debuff_Almadebilitada"] = {
+						["enable"] = true,
+						["text"] = "Alma debilitada",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Alma debilitada",
+					},
+					["buff_MareasVivas"] = {
+						["enable"] = true,
+						["text"] = "Mareas Vivas",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Mareas Vivas",
+					},
+					["debuff_Fantasma"] = {
+						["enable"] = true,
+						["text"] = "Fantasma",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Fantasma",
+					},
+					["debuff_magic"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["priority"] = 90,
+						["order"] = 25,
+						["text"] = "Magia",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Magia",
+					},
+				},
+				["Deadly"] = {
 					["debuff_Abstinencia"] = {
 						["color"] = {
 							["a"] = 1,
@@ -1959,10 +2640,6 @@ GridDB = {
 						["text"] = "Abstinencia",
 						["range"] = false,
 						["desc"] = "Debuff: Abstinencia",
-					},
-					["debuff_disease"] = {
-						["desc"] = "Tipo de debuff: Enfermedad",
-						["text"] = "Enfermedad",
 					},
 					["debuff_Golpemortal"] = {
 						["color"] = {
@@ -2003,62 +2680,60 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Bufo: Escudo de tierra",
 					},
-					["buff_Palabradepoder:escudo"] = {
+					["buff_Renew"] = {
+						["enable"] = true,
+						["text"] = "Renew",
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 0.8,
-							["b"] = 0,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
 						},
-						["priority"] = 91,
-						["enable"] = true,
-						["text"] = "Palabra de poder: escudo",
+						["priority"] = 90,
 						["range"] = false,
-						["desc"] = "Bufo: Palabra de poder: escudo",
+						["desc"] = "Buff: Renew",
 					},
 					["debuff_magic"] = {
-						["desc"] = "Tipo de debuff: Magia",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["order"] = 25,
 						["text"] = "Magia",
+						["enable"] = true,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Magia",
 					},
-					["buff_MareasVivas"] = {
+					["buff_PowerWord:Shield"] = {
+						["enable"] = true,
+						["text"] = "Power Word: Shield",
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.4,
-							["g"] = 0,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Buff: Power Word: Shield",
+					},
+					["buff_Riptide"] = {
+						["enable"] = true,
+						["text"] = "Riptide",
+						["color"] = {
+							["a"] = 1,
 							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
 						},
 						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Mareas Vivas",
 						["range"] = false,
-						["desc"] = "Bufo: Mareas Vivas",
+						["desc"] = "Buff: Riptide",
 					},
-					["buff_Renovar"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0,
-							["g"] = 0.7,
-							["b"] = 0.3,
-						},
-						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Renovar",
-						["range"] = false,
-						["desc"] = "Bufo: Renovar",
-					},
-					["debuff_Fantasma"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
-							["b"] = 0.5,
-						},
-						["priority"] = 90,
-						["enable"] = true,
-						["text"] = "Fantasma",
-						["range"] = false,
-						["desc"] = "Debuff: Fantasma",
-					},
+					["abolish"] = true,
 					["buff_Flordevida"] = {
 						["color"] = {
 							["a"] = 1,
@@ -2084,6 +2759,205 @@ GridDB = {
 						["text"] = "Recrecimiento",
 						["range"] = false,
 						["desc"] = "Bufo: Recrecimiento",
+					},
+					["debuff_WeakenedSoul"] = {
+						["enable"] = true,
+						["text"] = "Weakened Soul",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Weakened Soul",
+					},
+					["debuff_curse"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["text"] = "Maldición",
+						["enable"] = true,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Maldición",
+					},
+					["debuff_poison"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["order"] = 25,
+						["text"] = "Veneno",
+						["enable"] = true,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Veneno",
+					},
+					["debug"] = false,
+					["debuff_disease"] = {
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["order"] = 25,
+						["text"] = "Enfermedad",
+						["enable"] = true,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Enfermedad",
+					},
+					["buff_Rejuvenation"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenation",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Rejuvenation",
+					},
+					["buff_Palabradepoder:escudo"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0,
+						},
+						["priority"] = 91,
+						["enable"] = true,
+						["text"] = "Palabra de poder: escudo",
+						["range"] = false,
+						["desc"] = "Bufo: Palabra de poder: escudo",
+					},
+					["buff_MareasVivas"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.4,
+							["g"] = 0,
+							["b"] = 0.8,
+						},
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Mareas Vivas",
+						["range"] = false,
+						["desc"] = "Bufo: Mareas Vivas",
+					},
+					["debuff_Fantasma"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Fantasma",
+						["range"] = false,
+						["desc"] = "Debuff: Fantasma",
+					},
+					["debuff_Ghost"] = {
+						["enable"] = true,
+						["text"] = "Ghost",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Ghost",
+					},
+					["buff_EarthShield"] = {
+						["enable"] = true,
+						["text"] = "Earth Shield",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Earth Shield",
+					},
+					["buff_Regrowth"] = {
+						["enable"] = true,
+						["text"] = "Regrowth",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Regrowth",
+					},
+					["buff_Renovar"] = {
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 0.7,
+							["b"] = 0.3,
+						},
+						["priority"] = 90,
+						["enable"] = true,
+						["text"] = "Renovar",
+						["range"] = false,
+						["desc"] = "Bufo: Renovar",
+					},
+					["debuff_Forbearance"] = {
+						["enable"] = true,
+						["text"] = "Forbearance",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Forbearance",
+					},
+					["debuff_MortalStrike"] = {
+						["enable"] = true,
+						["text"] = "Mortal Strike",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Mortal Strike",
+					},
+					["buff_Lifebloom"] = {
+						["enable"] = true,
+						["text"] = "Lifebloom",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Buff: Lifebloom",
 					},
 					["debuff_Almadebilitada"] = {
 						["color"] = {
@@ -2109,53 +2983,65 @@ GridDB = {
 						["duration"] = true,
 					},
 					["debuff_Infest"] = {
-						["priority"] = 90,
-						["missing"] = false,
 						["text"] = "Infest",
 						["enable"] = true,
+						["duration"] = true,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["duration"] = false,
+						["missing"] = false,
+						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Infest",
 					},
 					["debuff_NecroticPlague"] = {
-						["duration"] = false,
+						["priority"] = 90,
+						["missing"] = false,
+						["text"] = "Necrotic Plague",
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
-						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Necrotic Plague",
+						["duration"] = false,
 						["range"] = false,
 						["desc"] = "Debuff: Necrotic Plague",
 					},
+					["buff_WildGrowth"] = {
+						["missing"] = false,
+						["duration"] = true,
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["enable"] = true,
+						["priority"] = 90,
+						["text"] = "Wild Growth",
+						["mine"] = true,
+					},
 					["debuff_Defile"] = {
-						["duration"] = false,
+						["priority"] = 90,
+						["missing"] = false,
+						["text"] = "Defile",
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 90,
-						["missing"] = false,
-						["enable"] = true,
-						["text"] = "Defile",
+						["duration"] = false,
 						["range"] = false,
 						["desc"] = "Debuff: Defile",
-					},
-					["buff_Regrowth"] = {
-						["mine"] = true,
-						["duration"] = true,
 					},
 					["buff_Crecimientosalvaje"] = {
 						["enable"] = true,
@@ -2173,7 +3059,7 @@ GridDB = {
 						},
 						["missing"] = false,
 					},
-					["buff_Lifebloom"] = {
+					["buff_Recrecimiento"] = {
 						["mine"] = true,
 						["duration"] = true,
 					},
@@ -2181,25 +3067,216 @@ GridDB = {
 						["mine"] = true,
 						["duration"] = true,
 					},
-					["buff_Recrecimiento"] = {
+					["buff_Lifebloom"] = {
 						["mine"] = true,
 						["duration"] = true,
 					},
-					["buff_WildGrowth"] = {
-						["missing"] = false,
+					["buff_Regrowth"] = {
+						["mine"] = true,
 						["duration"] = true,
-						["range"] = false,
-						["desc"] = "Buff: Wild Growth",
+					},
+				},
+				["class/Cazador"] = {
+					["debuff_Abstinencia"] = {
+						["enable"] = true,
+						["text"] = "Abstinencia",
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
 							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
 						},
-						["enable"] = true,
 						["priority"] = 90,
-						["text"] = "Wild Growth",
-						["mine"] = true,
+						["range"] = false,
+						["desc"] = "Debuff: Abstinencia",
+					},
+					["debuff_Golpemortal"] = {
+						["enable"] = true,
+						["text"] = "Golpe mortal",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.2,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Golpe mortal",
+					},
+					["buff_Rejuvenecimiento"] = {
+						["enable"] = true,
+						["text"] = "Rejuvenecimiento",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.7,
+							["g"] = 0.3,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Rejuvenecimiento",
+					},
+					["buff_Escudodetierra"] = {
+						["enable"] = true,
+						["text"] = "Escudo de tierra",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Escudo de tierra",
+					},
+					["abolish"] = true,
+					["buff_Flordevida"] = {
+						["enable"] = true,
+						["text"] = "Flor de vida",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.7,
+							["r"] = 0.3,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Flor de vida",
+					},
+					["buff_Recrecimiento"] = {
+						["enable"] = true,
+						["text"] = "Recrecimiento",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.1,
+							["g"] = 0.7,
+							["r"] = 1,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Recrecimiento",
+					},
+					["debuff_curse"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6,
+						},
+						["priority"] = 90,
+						["order"] = 25,
+						["text"] = "Maldición",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Maldición",
+					},
+					["debuff_poison"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.6,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["order"] = 25,
+						["text"] = "Veneno",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Veneno",
+					},
+					["debug"] = false,
+					["debuff_disease"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.4,
+							["r"] = 0.6,
+						},
+						["priority"] = 90,
+						["order"] = 25,
+						["text"] = "Enfermedad",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Enfermedad",
+					},
+					["buff_Palabradepoder:escudo"] = {
+						["enable"] = true,
+						["text"] = "Palabra de poder: escudo",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 91,
+						["range"] = false,
+						["desc"] = "Bufo: Palabra de poder: escudo",
+					},
+					["buff_Renovar"] = {
+						["enable"] = true,
+						["text"] = "Renovar",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.3,
+							["g"] = 0.7,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Renovar",
+					},
+					["debuff_Almadebilitada"] = {
+						["enable"] = true,
+						["text"] = "Alma debilitada",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Alma debilitada",
+					},
+					["buff_MareasVivas"] = {
+						["enable"] = true,
+						["text"] = "Mareas Vivas",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0,
+							["r"] = 0.4,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Bufo: Mareas Vivas",
+					},
+					["debuff_Fantasma"] = {
+						["enable"] = true,
+						["text"] = "Fantasma",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Fantasma",
+					},
+					["debuff_magic"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.6,
+							["r"] = 0.2,
+						},
+						["priority"] = 90,
+						["order"] = 25,
+						["text"] = "Magia",
+						["range"] = false,
+						["desc"] = "Tipo de debuff: Magia",
 					},
 				},
 				["char/Deadly - WoWArg"] = {
@@ -2283,44 +3360,44 @@ GridDB = {
 						["desc"] = "Bufo: Recrecimiento",
 					},
 					["debuff_curse"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Maldición",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.6,
 							["g"] = 0,
 							["b"] = 1,
 						},
+						["text"] = "Maldición",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Maldición",
 					},
 					["debuff_poison"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Veneno",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0,
 							["g"] = 0.6,
 							["b"] = 0,
 						},
+						["text"] = "Veneno",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Veneno",
 					},
 					["debug"] = false,
 					["debuff_disease"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Enfermedad",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.6,
 							["g"] = 0.4,
 							["b"] = 0,
 						},
+						["text"] = "Enfermedad",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Enfermedad",
@@ -2352,15 +3429,15 @@ GridDB = {
 						["desc"] = "Bufo: Renovar",
 					},
 					["debuff_magic"] = {
-						["order"] = 25,
 						["enable"] = true,
-						["text"] = "Magia",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.2,
 							["g"] = 0.6,
 							["b"] = 1,
 						},
+						["text"] = "Magia",
+						["order"] = 25,
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Tipo de debuff: Magia",
@@ -2405,6 +3482,109 @@ GridDB = {
 						["desc"] = "Debuff: Alma debilitada",
 					},
 				},
+				["char/Skombrow - Sin'Dorei"] = {
+					["buff_Rejuvenation"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Rejuvenecimiento"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["debuff_Infest"] = {
+						["duration"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["text"] = "Infest",
+						["enable"] = true,
+						["missing"] = false,
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Debuff: Infest",
+					},
+					["debuff_NecroticPlague"] = {
+						["text"] = "Necrotic Plague",
+						["enable"] = true,
+						["priority"] = 90,
+						["missing"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["duration"] = false,
+						["range"] = false,
+						["desc"] = "Debuff: Necrotic Plague",
+					},
+					["buff_Regrowth"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_WildGrowth"] = {
+						["missing"] = false,
+						["duration"] = true,
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+						["mine"] = true,
+						["text"] = "Wild Growth",
+						["priority"] = 90,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["buff_Crecimientosalvaje"] = {
+						["enable"] = true,
+						["text"] = "Crecimiento salvaje",
+						["range"] = false,
+						["desc"] = "Bufo: Crecimiento salvaje",
+						["missing"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 90,
+						["duration"] = true,
+						["mine"] = true,
+					},
+					["buff_Lifebloom"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Flordevida"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Recrecimiento"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["debuff_Defile"] = {
+						["text"] = "Defile",
+						["enable"] = true,
+						["priority"] = 90,
+						["missing"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["duration"] = false,
+						["range"] = false,
+						["desc"] = "Debuff: Defile",
+					},
+				},
 				["char/Rivo - WoWArg"] = {
 					["buff_Renew"] = {
 						["enable"] = true,
@@ -2434,15 +3614,15 @@ GridDB = {
 					},
 					["abolish"] = true,
 					["debuff_curse"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0,
 							["r"] = 0.6,
 						},
-						["order"] = 25,
-						["priority"] = 90,
-						["enable"] = true,
 						["text"] = "Curse",
 						["range"] = false,
 						["desc"] = "Debuff type: Curse",
@@ -2514,15 +3694,15 @@ GridDB = {
 						["desc"] = "Buff: Power Word: Shield",
 					},
 					["debuff_poison"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0.6,
 							["r"] = 0,
 						},
-						["order"] = 25,
-						["priority"] = 90,
-						["enable"] = true,
 						["text"] = "Poison",
 						["range"] = false,
 						["desc"] = "Debuff type: Poison",
@@ -2567,15 +3747,15 @@ GridDB = {
 						["desc"] = "Buff: Earth Shield",
 					},
 					["debuff_disease"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0.4,
 							["r"] = 0.6,
 						},
-						["order"] = 25,
-						["priority"] = 90,
-						["enable"] = true,
 						["text"] = "Disease",
 						["range"] = false,
 						["desc"] = "Debuff type: Disease",
@@ -2594,439 +3774,63 @@ GridDB = {
 						["desc"] = "Buff: Lifebloom",
 					},
 					["debuff_magic"] = {
+						["order"] = 25,
+						["enable"] = true,
+						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.6,
 							["r"] = 0.2,
 						},
-						["order"] = 25,
-						["priority"] = 90,
-						["enable"] = true,
 						["text"] = "Magic",
 						["range"] = false,
 						["desc"] = "Debuff type: Magic",
 					},
 				},
-				["class/Cazador"] = {
-					["debuff_Abstinencia"] = {
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
+					["buff_Rejuvenation"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_Lifebloom"] = {
+						["mine"] = true,
+						["duration"] = true,
+					},
+					["buff_WildGrowth"] = {
 						["enable"] = true,
-						["text"] = "Abstinencia",
+						["text"] = "Wild Growth",
+						["range"] = false,
+						["desc"] = "Buff: Wild Growth",
+						["missing"] = false,
+						["duration"] = true,
+						["priority"] = 90,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
+							["r"] = 0.5,
 							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Abstinencia",
-					},
-					["debuff_Golpemortal"] = {
-						["enable"] = true,
-						["text"] = "Golpe mortal",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.2,
-							["g"] = 0.2,
-							["r"] = 0.8,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Golpe mortal",
-					},
-					["buff_Rejuvenecimiento"] = {
-						["enable"] = true,
-						["text"] = "Rejuvenecimiento",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.7,
-							["g"] = 0.3,
-							["r"] = 0,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Rejuvenecimiento",
-					},
-					["buff_Escudodetierra"] = {
-						["enable"] = true,
-						["text"] = "Escudo de tierra",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.3,
-							["g"] = 0.7,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Escudo de tierra",
-					},
-					["abolish"] = true,
-					["buff_Flordevida"] = {
-						["enable"] = true,
-						["text"] = "Flor de vida",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 0.3,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Flor de vida",
-					},
-					["buff_Recrecimiento"] = {
-						["enable"] = true,
-						["text"] = "Recrecimiento",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.1,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Recrecimiento",
-					},
-					["debuff_curse"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0,
-							["r"] = 0.6,
-						},
-						["text"] = "Maldición",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Maldición",
-					},
-					["debuff_poison"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.6,
-							["r"] = 0,
-						},
-						["text"] = "Veneno",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Veneno",
-					},
-					["debug"] = false,
-					["debuff_disease"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.4,
-							["r"] = 0.6,
-						},
-						["text"] = "Enfermedad",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Enfermedad",
-					},
-					["buff_Palabradepoder:escudo"] = {
-						["enable"] = true,
-						["text"] = "Palabra de poder: escudo",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.8,
-							["r"] = 0.8,
-						},
-						["priority"] = 91,
-						["range"] = false,
-						["desc"] = "Bufo: Palabra de poder: escudo",
-					},
-					["buff_Renovar"] = {
-						["enable"] = true,
-						["text"] = "Renovar",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.3,
-							["g"] = 0.7,
-							["r"] = 0,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Renovar",
-					},
-					["debuff_Almadebilitada"] = {
-						["enable"] = true,
-						["text"] = "Alma debilitada",
-						["color"] = {
-							["a"] = 1,
 							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
 						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Alma debilitada",
+						["mine"] = true,
 					},
-					["buff_MareasVivas"] = {
-						["enable"] = true,
-						["text"] = "Mareas Vivas",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.8,
-							["g"] = 0,
-							["r"] = 0.4,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Mareas Vivas",
-					},
-					["debuff_Fantasma"] = {
-						["enable"] = true,
-						["text"] = "Fantasma",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Fantasma",
-					},
-					["debuff_magic"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0.6,
-							["r"] = 0.2,
-						},
-						["text"] = "Magia",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Magia",
-					},
-				},
-				[""] = {
-					["debuff_Abstinencia"] = {
-						["enable"] = true,
-						["text"] = "Abstinencia",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Abstinencia",
-					},
-					["debuff_Golpemortal"] = {
-						["enable"] = true,
-						["text"] = "Golpe mortal",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.2,
-							["g"] = 0.2,
-							["r"] = 0.8,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Golpe mortal",
-					},
-					["buff_Rejuvenecimiento"] = {
-						["enable"] = true,
-						["text"] = "Rejuvenecimiento",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.7,
-							["g"] = 0.3,
-							["r"] = 0,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Rejuvenecimiento",
-					},
-					["buff_Escudodetierra"] = {
-						["enable"] = true,
-						["text"] = "Escudo de tierra",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.3,
-							["g"] = 0.7,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Escudo de tierra",
-					},
-					["abolish"] = true,
-					["buff_Flordevida"] = {
-						["enable"] = true,
-						["text"] = "Flor de vida",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.7,
-							["r"] = 0.3,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Flor de vida",
-					},
-					["buff_Recrecimiento"] = {
-						["enable"] = true,
-						["text"] = "Recrecimiento",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.1,
-							["g"] = 0.7,
-							["r"] = 1,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Recrecimiento",
-					},
-					["debuff_curse"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0,
-							["r"] = 0.6,
-						},
-						["text"] = "Maldición",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Maldición",
-					},
-					["debuff_poison"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.6,
-							["r"] = 0,
-						},
-						["text"] = "Veneno",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Veneno",
-					},
-					["debug"] = false,
-					["debuff_disease"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.4,
-							["r"] = 0.6,
-						},
-						["text"] = "Enfermedad",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Enfermedad",
-					},
-					["buff_Palabradepoder:escudo"] = {
-						["enable"] = true,
-						["text"] = "Palabra de poder: escudo",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.8,
-							["r"] = 0.8,
-						},
-						["priority"] = 91,
-						["range"] = false,
-						["desc"] = "Bufo: Palabra de poder: escudo",
-					},
-					["buff_Renovar"] = {
-						["enable"] = true,
-						["text"] = "Renovar",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.3,
-							["g"] = 0.7,
-							["r"] = 0,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Renovar",
-					},
-					["debuff_Almadebilitada"] = {
-						["enable"] = true,
-						["text"] = "Alma debilitada",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Alma debilitada",
-					},
-					["buff_MareasVivas"] = {
-						["enable"] = true,
-						["text"] = "Mareas Vivas",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.8,
-							["g"] = 0,
-							["r"] = 0.4,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Bufo: Mareas Vivas",
-					},
-					["debuff_Fantasma"] = {
-						["enable"] = true,
-						["text"] = "Fantasma",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Debuff: Fantasma",
-					},
-					["debuff_magic"] = {
-						["order"] = 25,
-						["enable"] = true,
-						["priority"] = 90,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0.6,
-							["r"] = 0.2,
-						},
-						["text"] = "Magia",
-						["range"] = false,
-						["desc"] = "Tipo de debuff: Magia",
+					["buff_Regrowth"] = {
+						["mine"] = true,
+						["duration"] = true,
 					},
 				},
 				["char/Doroteo - WoWArg"] = {
 					["debuff_Consumption"] = {
-						["priority"] = 90,
-						["missing"] = false,
 						["text"] = "Consumption",
 						["enable"] = true,
+						["duration"] = false,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.5,
 							["g"] = 0.5,
 							["b"] = 0.5,
 						},
-						["duration"] = false,
+						["missing"] = false,
+						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Debuff: Consumption",
 					},
@@ -3038,88 +3842,98 @@ GridDB = {
 				[""] = {
 					["debug"] = false,
 					["player_target"] = {
+						["text"] = "Objetivo",
+						["enable"] = true,
 						["priority"] = 99,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.8,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["text"] = "Objetivo",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
 					["player_target"] = {
+						["priority"] = 99,
+						["enable"] = true,
 						["text"] = "Objetivo",
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.8,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["priority"] = 99,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Cazador"] = {
 					["debug"] = false,
 					["player_target"] = {
+						["text"] = "Objetivo",
+						["enable"] = true,
 						["priority"] = 99,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.8,
 							["b"] = 0.8,
 							["g"] = 0.8,
 							["r"] = 0.8,
 						},
-						["text"] = "Objetivo",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Druid"] = {
 					["debug"] = false,
 					["player_target"] = {
-						["priority"] = 99,
-						["color"] = {
-							["a"] = 0.8,
-							["b"] = 0.8,
-							["g"] = 0.8,
-							["r"] = 0.8,
-						},
 						["text"] = "Target",
-						["range"] = false,
 						["enable"] = true,
-					},
-				},
-				["Deadly"] = {
-					["player_target"] = {
-						["text"] = "Objetivo",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["player_target"] = {
+						["priority"] = 99,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.8,
-							["r"] = 0.8,
-							["g"] = 0.8,
 							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
 						},
-						["enable"] = true,
-						["text"] = "Objetivo",
-						["range"] = false,
-						["priority"] = 99,
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["debug"] = false,
 					["player_target"] = {
+						["text"] = "Target",
+						["enable"] = true,
+						["priority"] = 99,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.8,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["text"] = "Objetivo",
+						["color"] = {
+							["a"] = 0.8,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["priority"] = 99,
+						["range"] = false,
+						["enable"] = true,
+					},
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["player_target"] = {
 						["priority"] = 99,
 						["color"] = {
 							["a"] = 0.8,
@@ -3132,20 +3946,39 @@ GridDB = {
 						["enable"] = true,
 					},
 				},
-				["class/Brujo"] = {
+				["char/Deadly - WoWArg"] = {
 					["debug"] = false,
 					["player_target"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 0.8,
 							["r"] = 0.8,
 							["g"] = 0.8,
 							["b"] = 0.8,
 						},
-						["enable"] = true,
-						["text"] = "Objetivo",
-						["range"] = false,
 						["priority"] = 99,
+						["range"] = false,
+						["text"] = "Objetivo",
 					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+				},
+				["class/Brujo"] = {
+					["debug"] = false,
+					["player_target"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 0.8,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["priority"] = 99,
+						["range"] = false,
+						["text"] = "Objetivo",
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -3169,18 +4002,18 @@ GridDB = {
 						["desc"] = "Más de 10 metros",
 					},
 					["debug"] = false,
-					["alert_range_38"] = {
+					["alert_range_30"] = {
 						["enable"] = false,
-						["text"] = "38 metros",
+						["text"] = "30 metros",
 						["color"] = {
-							["a"] = 0.3090909090909091,
-							["r"] = 0.38,
-							["g"] = 0.76,
-							["b"] = 0.14,
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
 						},
-						["priority"] = 84,
+						["priority"] = 83,
 						["range"] = false,
-						["desc"] = "Más de 38 metros",
+						["desc"] = "Más de 30 metros",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -3195,18 +4028,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 28 metros",
 					},
-					["alert_range_30"] = {
+					["alert_range_38"] = {
 						["enable"] = false,
-						["text"] = "30 metros",
+						["text"] = "38 metros",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
 						},
-						["priority"] = 83,
+						["priority"] = 84,
 						["range"] = false,
-						["desc"] = "Más de 30 metros",
+						["desc"] = "Más de 38 metros",
 					},
 					["alert_range_40"] = {
 						["enable"] = true,
@@ -3357,6 +4190,127 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 33 metros",
 					},
+					["debug"] = false,
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 metros",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "Más de 38 metros",
+					},
+					["alert_range_5"] = {
+						["color"] = {
+							["a"] = 0.9090909090909091,
+							["r"] = 0.05,
+							["g"] = 0.1,
+							["b"] = 0.15,
+						},
+						["priority"] = 80,
+						["enable"] = true,
+						["text"] = "5 metros",
+						["range"] = false,
+						["desc"] = "Más de 5 metros",
+					},
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 metros",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["b"] = 0.2,
+							["g"] = 0.8,
+							["r"] = 0.4,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "Más de 40 metros",
+					},
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 metros",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "Más de 100 metros",
+					},
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 metros",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "Más de 10 metros",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 metros",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "Más de 28 metros",
+					},
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 metros",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "Más de 30 metros",
+					},
+					["alert_range_36"] = {
+						["enable"] = false,
+						["text"] = "36 yards",
+						["color"] = {
+							["a"] = 0.3454545454545455,
+							["r"] = 0.36,
+							["g"] = 0.72,
+							["b"] = 0.08,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 36 yards away",
+					},
+					["frequency"] = 0.5,
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 metros",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "Más de 10 metros",
+					},
 					["alert_range_38"] = {
 						["enable"] = false,
 						["text"] = "38 metros",
@@ -3397,8 +4351,6 @@ GridDB = {
 						["desc"] = "Más de 40 metros",
 					},
 					["alert_range_36"] = {
-						["enable"] = false,
-						["text"] = "36 yards",
 						["color"] = {
 							["a"] = 0.3454545454545455,
 							["r"] = 0.36,
@@ -3406,8 +4358,23 @@ GridDB = {
 							["b"] = 0.08,
 						},
 						["priority"] = 83,
+						["enable"] = false,
+						["text"] = "36 yards",
 						["range"] = false,
 						["desc"] = "More than 36 yards away",
+					},
+					["alert_range_33"] = {
+						["enable"] = false,
+						["text"] = "33 metros",
+						["color"] = {
+							["a"] = 0.4,
+							["b"] = 0.99,
+							["g"] = 0.66,
+							["r"] = 0.33,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "Más de 33 metros",
 					},
 					["alert_range_28"] = {
 						["enable"] = false,
@@ -3435,18 +4402,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 30 metros",
 					},
-					["alert_range_10"] = {
+					["alert_range_25"] = {
 						["enable"] = false,
-						["text"] = "10 metros",
+						["text"] = "25 yards",
 						["color"] = {
-							["a"] = 0.8181818181818181,
-							["b"] = 0.3,
-							["g"] = 0.2,
-							["r"] = 0.1,
+							["a"] = 0.5454545454545454,
+							["b"] = 0.75,
+							["g"] = 0.5,
+							["r"] = 0.25,
 						},
-						["priority"] = 81,
+						["priority"] = 82,
 						["range"] = false,
-						["desc"] = "Más de 10 metros",
+						["desc"] = "More than 25 yards away",
 					},
 					["alert_range_100"] = {
 						["enable"] = false,
@@ -3557,6 +4524,75 @@ GridDB = {
 						["desc"] = "More than 100 yards away",
 					},
 				},
+				["class/Brujo"] = {
+					["alert_range_10"] = {
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["b"] = 0.3,
+							["g"] = 0.2,
+							["r"] = 0.1,
+						},
+						["priority"] = 81,
+						["enable"] = false,
+						["text"] = "10 metros",
+						["range"] = false,
+						["desc"] = "Más de 10 metros",
+					},
+					["debug"] = false,
+					["alert_range_100"] = {
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 0,
+						},
+						["priority"] = 90,
+						["enable"] = false,
+						["text"] = "100 metros",
+						["range"] = false,
+						["desc"] = "Más de 100 metros",
+					},
+					["alert_range_28"] = {
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["b"] = 0.84,
+							["g"] = 0.5600000000000001,
+							["r"] = 0.28,
+						},
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "28 metros",
+						["range"] = false,
+						["desc"] = "Más de 28 metros",
+					},
+					["alert_range_30"] = {
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["b"] = 0.9,
+							["g"] = 0.6,
+							["r"] = 0.3,
+						},
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "30 metros",
+						["range"] = false,
+						["desc"] = "Más de 30 metros",
+					},
+					["alert_range_38"] = {
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["b"] = 0.14,
+							["g"] = 0.76,
+							["r"] = 0.38,
+						},
+						["priority"] = 84,
+						["enable"] = true,
+						["text"] = "38 metros",
+						["range"] = false,
+						["desc"] = "Más de 38 metros",
+					},
+					["frequency"] = 0.5,
+				},
 				["Deadly"] = {
 					["alert_range_10"] = {
 						["enable"] = false,
@@ -3571,6 +4607,7 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 10 metros",
 					},
+					["debug"] = false,
 					["alert_range_38"] = {
 						["enable"] = true,
 						["text"] = "38 metros",
@@ -3623,6 +4660,19 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 100 metros",
 					},
+					["alert_range_36"] = {
+						["enable"] = false,
+						["text"] = "36 yards",
+						["color"] = {
+							["a"] = 0.3454545454545455,
+							["r"] = 0.36,
+							["g"] = 0.72,
+							["b"] = 0.08,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 36 yards away",
+					},
 					["alert_range_28"] = {
 						["enable"] = true,
 						["text"] = "28 metros",
@@ -3649,19 +4699,6 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 30 metros",
 					},
-					["alert_range_36"] = {
-						["enable"] = false,
-						["text"] = "36 yards",
-						["color"] = {
-							["a"] = 0.3454545454545455,
-							["r"] = 0.36,
-							["g"] = 0.72,
-							["b"] = 0.08,
-						},
-						["priority"] = 83,
-						["range"] = false,
-						["desc"] = "More than 36 yards away",
-					},
 					["alert_range_20"] = {
 						["enable"] = true,
 						["text"] = "20 yards",
@@ -3675,6 +4712,7 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 20 yards away",
 					},
+					["frequency"] = 0.5,
 				},
 				["char/Skombrow - WoWArg"] = {
 					["alert_range_33"] = {
@@ -3808,11 +4846,10 @@ GridDB = {
 						["desc"] = "Más de 100 metros",
 					},
 				},
-				["char/Rivo - WoWArg"] = {
-					["frequency"] = 0.5,
+				["class/Cazador"] = {
 					["alert_range_10"] = {
 						["enable"] = false,
-						["text"] = "10 yards",
+						["text"] = "10 metros",
 						["color"] = {
 							["a"] = 0.8181818181818181,
 							["r"] = 0.1,
@@ -3821,25 +4858,12 @@ GridDB = {
 						},
 						["priority"] = 81,
 						["range"] = false,
-						["desc"] = "More than 10 yards away",
+						["desc"] = "Más de 10 metros",
 					},
 					["debug"] = false,
-					["alert_range_38"] = {
-						["enable"] = false,
-						["text"] = "38 yards",
-						["color"] = {
-							["a"] = 0.3090909090909091,
-							["r"] = 0.38,
-							["g"] = 0.76,
-							["b"] = 0.14,
-						},
-						["priority"] = 84,
-						["range"] = false,
-						["desc"] = "More than 38 yards away",
-					},
 					["alert_range_28"] = {
-						["enable"] = false,
-						["text"] = "28 yards",
+						["enable"] = true,
+						["text"] = "28 metros",
 						["color"] = {
 							["a"] = 0.490909090909091,
 							["r"] = 0.28,
@@ -3848,37 +4872,25 @@ GridDB = {
 						},
 						["priority"] = 83,
 						["range"] = false,
-						["desc"] = "More than 28 yards away",
+						["desc"] = "Más de 28 metros",
 					},
-					["alert_range_30"] = {
-						["enable"] = false,
-						["text"] = "30 yards",
-						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
-						},
-						["priority"] = 83,
-						["range"] = false,
-						["desc"] = "More than 30 yards away",
-					},
-					["alert_range_40"] = {
+					["alert_range_38"] = {
 						["enable"] = true,
-						["text"] = "40 yards",
+						["text"] = "38 metros",
 						["color"] = {
-							["a"] = 0.2727272727272727,
-							["r"] = 0.4,
-							["g"] = 0.8,
-							["b"] = 0.2,
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
 						},
 						["priority"] = 84,
 						["range"] = false,
-						["desc"] = "More than 40 yards away",
+						["desc"] = "Más de 38 metros",
 					},
+					["frequency"] = 0.5,
 					["alert_range_100"] = {
 						["enable"] = false,
-						["text"] = "100 yards",
+						["text"] = "100 metros",
 						["color"] = {
 							["a"] = 0.1090909090909091,
 							["r"] = 0,
@@ -3887,7 +4899,7 @@ GridDB = {
 						},
 						["priority"] = 90,
 						["range"] = false,
-						["desc"] = "More than 100 yards away",
+						["desc"] = "Más de 100 metros",
 					},
 				},
 				["Default"] = {
@@ -4078,158 +5090,7 @@ GridDB = {
 					},
 					["frequency"] = 0.5,
 				},
-				["class/Brujo"] = {
-					["alert_range_10"] = {
-						["color"] = {
-							["a"] = 0.8181818181818181,
-							["b"] = 0.3,
-							["g"] = 0.2,
-							["r"] = 0.1,
-						},
-						["priority"] = 81,
-						["enable"] = false,
-						["text"] = "10 metros",
-						["range"] = false,
-						["desc"] = "Más de 10 metros",
-					},
-					["debug"] = false,
-					["alert_range_100"] = {
-						["color"] = {
-							["a"] = 0.1090909090909091,
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 0,
-						},
-						["priority"] = 90,
-						["enable"] = false,
-						["text"] = "100 metros",
-						["range"] = false,
-						["desc"] = "Más de 100 metros",
-					},
-					["alert_range_28"] = {
-						["color"] = {
-							["a"] = 0.490909090909091,
-							["b"] = 0.84,
-							["g"] = 0.5600000000000001,
-							["r"] = 0.28,
-						},
-						["priority"] = 83,
-						["enable"] = true,
-						["text"] = "28 metros",
-						["range"] = false,
-						["desc"] = "Más de 28 metros",
-					},
-					["alert_range_30"] = {
-						["color"] = {
-							["a"] = 0.4545454545454546,
-							["b"] = 0.9,
-							["g"] = 0.6,
-							["r"] = 0.3,
-						},
-						["priority"] = 83,
-						["enable"] = true,
-						["text"] = "30 metros",
-						["range"] = false,
-						["desc"] = "Más de 30 metros",
-					},
-					["alert_range_38"] = {
-						["color"] = {
-							["a"] = 0.3090909090909091,
-							["b"] = 0.14,
-							["g"] = 0.76,
-							["r"] = 0.38,
-						},
-						["priority"] = 84,
-						["enable"] = true,
-						["text"] = "38 metros",
-						["range"] = false,
-						["desc"] = "Más de 38 metros",
-					},
-					["frequency"] = 0.5,
-				},
-				["class/Cazador"] = {
-					["alert_range_10"] = {
-						["enable"] = false,
-						["text"] = "10 metros",
-						["color"] = {
-							["a"] = 0.8181818181818181,
-							["r"] = 0.1,
-							["g"] = 0.2,
-							["b"] = 0.3,
-						},
-						["priority"] = 81,
-						["range"] = false,
-						["desc"] = "Más de 10 metros",
-					},
-					["debug"] = false,
-					["alert_range_28"] = {
-						["enable"] = true,
-						["text"] = "28 metros",
-						["color"] = {
-							["a"] = 0.490909090909091,
-							["r"] = 0.28,
-							["g"] = 0.5600000000000001,
-							["b"] = 0.84,
-						},
-						["priority"] = 83,
-						["range"] = false,
-						["desc"] = "Más de 28 metros",
-					},
-					["alert_range_38"] = {
-						["enable"] = true,
-						["text"] = "38 metros",
-						["color"] = {
-							["a"] = 0.3090909090909091,
-							["r"] = 0.38,
-							["g"] = 0.76,
-							["b"] = 0.14,
-						},
-						["priority"] = 84,
-						["range"] = false,
-						["desc"] = "Más de 38 metros",
-					},
-					["frequency"] = 0.5,
-					["alert_range_100"] = {
-						["enable"] = false,
-						["text"] = "100 metros",
-						["color"] = {
-							["a"] = 0.1090909090909091,
-							["r"] = 0,
-							["g"] = 0,
-							["b"] = 0,
-						},
-						["priority"] = 90,
-						["range"] = false,
-						["desc"] = "Más de 100 metros",
-					},
-				},
 				["DPS"] = {
-					["alert_range_40"] = {
-						["enable"] = true,
-						["text"] = "40 yards",
-						["color"] = {
-							["a"] = 0.2727272727272727,
-							["r"] = 0.4,
-							["g"] = 0.8,
-							["b"] = 0.2,
-						},
-						["priority"] = 84,
-						["range"] = false,
-						["desc"] = "More than 40 yards away",
-					},
-					["alert_range_10"] = {
-						["enable"] = false,
-						["text"] = "10 metros",
-						["color"] = {
-							["a"] = 0.8181818181818181,
-							["r"] = 0.1,
-							["g"] = 0.2,
-							["b"] = 0.3,
-						},
-						["priority"] = 81,
-						["range"] = false,
-						["desc"] = "Más de 10 metros",
-					},
 					["alert_range_36"] = {
 						["enable"] = false,
 						["text"] = "36 yards",
@@ -4243,18 +5104,44 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "More than 36 yards away",
 					},
-					["alert_range_30"] = {
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 metros",
 						["color"] = {
-							["a"] = 0.4545454545454546,
-							["r"] = 0.3,
-							["g"] = 0.6,
-							["b"] = 0.9,
+							["a"] = 0.8181818181818181,
+							["r"] = 0.1,
+							["g"] = 0.2,
+							["b"] = 0.3,
 						},
-						["priority"] = 83,
-						["enable"] = true,
-						["text"] = "30 metros",
+						["priority"] = 81,
 						["range"] = false,
-						["desc"] = "Más de 30 metros",
+						["desc"] = "Más de 10 metros",
+					},
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = true,
+						["text"] = "38 metros",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "Más de 38 metros",
 					},
 					["alert_range_28"] = {
 						["enable"] = true,
@@ -4269,18 +5156,18 @@ GridDB = {
 						["range"] = false,
 						["desc"] = "Más de 28 metros",
 					},
-					["alert_range_38"] = {
-						["enable"] = true,
-						["text"] = "38 metros",
+					["alert_range_30"] = {
 						["color"] = {
-							["a"] = 0.3090909090909091,
-							["r"] = 0.38,
-							["g"] = 0.76,
-							["b"] = 0.14,
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
 						},
-						["priority"] = 84,
+						["priority"] = 83,
+						["enable"] = true,
+						["text"] = "30 metros",
 						["range"] = false,
-						["desc"] = "Más de 38 metros",
+						["desc"] = "Más de 30 metros",
 					},
 					["alert_range_25"] = {
 						["enable"] = true,
@@ -4307,6 +5194,181 @@ GridDB = {
 						["priority"] = 90,
 						["range"] = false,
 						["desc"] = "Más de 100 metros",
+					},
+				},
+				["char/Rivo - WoWArg"] = {
+					["frequency"] = 0.5,
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["r"] = 0.1,
+							["g"] = 0.2,
+							["b"] = 0.3,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["debug"] = false,
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["r"] = 0.28,
+							["g"] = 0.5600000000000001,
+							["b"] = 0.84,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
+					["alert_range_36"] = {
+						["enable"] = false,
+						["text"] = "36 yards",
+						["color"] = {
+							["a"] = 0.3454545454545455,
+							["r"] = 0.36,
+							["g"] = 0.72,
+							["b"] = 0.08,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 36 yards away",
+					},
+					["alert_range_40"] = {
+						["enable"] = true,
+						["text"] = "40 yards",
+						["color"] = {
+							["a"] = 0.2727272727272727,
+							["r"] = 0.4,
+							["g"] = 0.8,
+							["b"] = 0.2,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 40 yards away",
+					},
+					["alert_range_10"] = {
+						["enable"] = false,
+						["text"] = "10 yards",
+						["color"] = {
+							["a"] = 0.8181818181818181,
+							["r"] = 0.1,
+							["g"] = 0.2,
+							["b"] = 0.3,
+						},
+						["priority"] = 81,
+						["range"] = false,
+						["desc"] = "More than 10 yards away",
+					},
+					["alert_range_28"] = {
+						["enable"] = false,
+						["text"] = "28 yards",
+						["color"] = {
+							["a"] = 0.490909090909091,
+							["r"] = 0.28,
+							["g"] = 0.5600000000000001,
+							["b"] = 0.84,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 28 yards away",
+					},
+					["alert_range_38"] = {
+						["enable"] = false,
+						["text"] = "38 yards",
+						["color"] = {
+							["a"] = 0.3090909090909091,
+							["r"] = 0.38,
+							["g"] = 0.76,
+							["b"] = 0.14,
+						},
+						["priority"] = 84,
+						["range"] = false,
+						["desc"] = "More than 38 yards away",
+					},
+					["alert_range_30"] = {
+						["enable"] = false,
+						["text"] = "30 yards",
+						["color"] = {
+							["a"] = 0.4545454545454546,
+							["r"] = 0.3,
+							["g"] = 0.6,
+							["b"] = 0.9,
+						},
+						["priority"] = 83,
+						["range"] = false,
+						["desc"] = "More than 30 yards away",
+					},
+					["alert_range_100"] = {
+						["enable"] = false,
+						["text"] = "100 yards",
+						["color"] = {
+							["a"] = 0.1090909090909091,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 90,
+						["range"] = false,
+						["desc"] = "More than 100 yards away",
 					},
 				},
 				["char/Doroteo - WoWArg"] = {
@@ -4384,31 +5446,31 @@ GridDB = {
 					["debug"] = false,
 					["alert_lowMana"] = {
 						["threshold"] = 10,
+						["text"] = "Poco maná",
+						["enable"] = true,
 						["priority"] = 40,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "Poco maná",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Doroteo"] = {
 					["alert_lowMana"] = {
 						["threshold"] = 10,
+						["priority"] = 40,
+						["enable"] = true,
 						["text"] = "Poco maná",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 40,
-						["range"] = false,
-						["enable"] = true,
 					},
 					["debug"] = false,
 				},
@@ -4416,61 +5478,72 @@ GridDB = {
 					["debug"] = false,
 					["alert_lowMana"] = {
 						["threshold"] = 10,
+						["text"] = "Poco maná",
+						["enable"] = true,
 						["priority"] = 40,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "Poco maná",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Druid"] = {
 					["debug"] = false,
 					["alert_lowMana"] = {
 						["threshold"] = 10,
-						["priority"] = 40,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
 						["text"] = "Low Mana",
-						["range"] = false,
 						["enable"] = true,
-					},
-				},
-				["Deadly"] = {
-					["alert_lowMana"] = {
-						["text"] = "Poco maná",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["alert_lowMana"] = {
-						["threshold"] = 10,
+						["priority"] = 40,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
 							["b"] = 1,
+							["g"] = 0.5,
+							["r"] = 0.5,
 						},
-						["enable"] = true,
-						["text"] = "Poco maná",
-						["range"] = false,
-						["priority"] = 40,
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["debug"] = false,
 					["alert_lowMana"] = {
 						["threshold"] = 10,
+						["text"] = "Low Mana",
+						["enable"] = true,
+						["priority"] = 40,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+				},
+				["Deadly"] = {
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["text"] = "Poco maná",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 40,
+						["range"] = false,
+						["enable"] = true,
+					},
+					["debug"] = false,
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
 						["priority"] = 40,
 						["color"] = {
 							["a"] = 1,
@@ -4483,21 +5556,41 @@ GridDB = {
 						["enable"] = true,
 					},
 				},
-				["class/Brujo"] = {
+				["char/Deadly - WoWArg"] = {
 					["debug"] = false,
 					["alert_lowMana"] = {
 						["threshold"] = 10,
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.5,
 							["g"] = 0.5,
 							["b"] = 1,
 						},
-						["enable"] = true,
-						["text"] = "Poco maná",
-						["range"] = false,
 						["priority"] = 40,
+						["range"] = false,
+						["text"] = "Poco maná",
 					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+				},
+				["class/Brujo"] = {
+					["debug"] = false,
+					["alert_lowMana"] = {
+						["threshold"] = 10,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 1,
+						},
+						["priority"] = 40,
+						["range"] = false,
+						["text"] = "Poco maná",
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -4506,6 +5599,7 @@ GridDB = {
 		["GridStatus"] = {
 			["profiles"] = {
 				[""] = {
+					["range"] = false,
 					["debug"] = false,
 					["colors"] = {
 						["UNKNOWN_UNIT"] = {
@@ -4614,11 +5708,8 @@ GridDB = {
 							["b"] = 0.45,
 						},
 					},
-					["range"] = false,
 				},
 				["Doroteo"] = {
-					["range"] = false,
-					["debug"] = false,
 					["colors"] = {
 						["HUNTER"] = {
 							["b"] = 0.45,
@@ -4762,8 +5853,121 @@ GridDB = {
 							["r"] = 0.91764705882353,
 						},
 					},
+					["range"] = false,
+					["debug"] = false,
 				},
 				["Sacer"] = {
+					["debug"] = false,
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["b"] = 0.4,
+							["g"] = 0.4,
+							["r"] = 0.4,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["b"] = 0.68627450980392,
+							["g"] = 0.25490196078431,
+							["r"] = 0.54509803921569,
+						},
+						["PetColorType"] = "Using Fallback color",
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 0.8,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["Undead"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["b"] = 0.27843137254902,
+							["g"] = 0.75686274509804,
+							["r"] = 0.93725490196078,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["b"] = 0.84705882352941,
+							["g"] = 0.67450980392157,
+							["r"] = 0.91764705882353,
+						},
+					},
+					["range"] = false,
+				},
+				["char/Skombrow - Sin'Dorei"] = {
 					["colors"] = {
 						["DEATHKNIGHT"] = {
 							["b"] = 0.23,
@@ -4775,10 +5979,10 @@ GridDB = {
 							["g"] = 0.61,
 							["r"] = 0.78,
 						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
 						},
 						["MAGE"] = {
 							["b"] = 0.94,
@@ -4795,29 +5999,30 @@ GridDB = {
 							["g"] = 0.51,
 							["r"] = 0.58,
 						},
-						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
 						},
 						["DRUID"] = {
 							["b"] = 0.04,
 							["g"] = 0.49,
 							["r"] = 1,
 						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
-						},
 						["PALADIN"] = {
 							["b"] = 0.73,
 							["g"] = 0.55,
 							["r"] = 0.96,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
 						},
 					},
 				},
 				["class/Druid"] = {
+					["range"] = false,
 					["debug"] = false,
 					["colors"] = {
 						["UNKNOWN_UNIT"] = {
@@ -4926,14 +6131,16 @@ GridDB = {
 							["b"] = 0.45,
 						},
 					},
-					["range"] = false,
 				},
-				["Deadly"] = {
+				["class/Brujo"] = {
+					["range"] = false,
+					["debug"] = false,
 					["colors"] = {
-						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
 						},
 						["WARRIOR"] = {
 							["b"] = 0.43,
@@ -4944,11 +6151,6 @@ GridDB = {
 							["b"] = 0.73,
 							["g"] = 0.55,
 							["r"] = 0.96,
-						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
 						},
 						["MAGE"] = {
 							["b"] = 0.94,
@@ -4967,15 +6169,44 @@ GridDB = {
 							["g"] = 0.75686274509804,
 							["b"] = 0.27843137254902,
 						},
+						["No especificado"] = {
+							["a"] = 1,
+							["r"] = 0.4,
+							["g"] = 0.4,
+							["b"] = 0.4,
+						},
+						["Humanoide"] = {
+							["a"] = 1,
+							["r"] = 0.91764705882353,
+							["g"] = 0.67450980392157,
+							["b"] = 0.84705882352941,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["Dragonante"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 1,
+							["b"] = 1,
+						},
 						["PRIEST"] = {
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
-						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
 						},
 						["No muerto"] = {
 							["a"] = 1,
@@ -4987,6 +6218,71 @@ GridDB = {
 							["b"] = 0.79,
 							["g"] = 0.51,
 							["r"] = 0.58,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["PetColorType"] = "Using Fallback color",
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["colors"] = {
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["Demonio"] = {
+							["a"] = 1,
+							["r"] = 0.54509803921569,
+							["g"] = 0.25490196078431,
+							["b"] = 0.68627450980392,
+						},
+						["Bestia"] = {
+							["a"] = 1,
+							["r"] = 0.93725490196078,
+							["g"] = 0.75686274509804,
+							["b"] = 0.27843137254902,
+						},
+						["Demon"] = {
+							["a"] = 1,
+							["b"] = 0.68627450980392,
+							["g"] = 0.25490196078431,
+							["r"] = 0.54509803921569,
 						},
 						["No especificado"] = {
 							["a"] = 1,
@@ -5005,18 +6301,94 @@ GridDB = {
 							["g"] = 0.49,
 							["r"] = 1,
 						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
 						["Dragonante"] = {
 							["a"] = 1,
 							["r"] = 0.8,
 							["g"] = 0.8,
 							["b"] = 0.8,
 						},
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 0.8,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["Not specified"] = {
+							["a"] = 1,
+							["b"] = 0.4,
+							["g"] = 0.4,
+							["r"] = 0.4,
+						},
+						["No muerto"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.2,
+							["b"] = 0,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["Dragonkin"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["PetColorType"] = "Using Fallback color",
+						["Undead"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["Beast"] = {
+							["a"] = 1,
+							["b"] = 0.27843137254902,
+							["g"] = 0.75686274509804,
+							["r"] = 0.93725490196078,
+						},
+						["Humanoid"] = {
+							["a"] = 1,
+							["b"] = 0.84705882352941,
+							["g"] = 0.67450980392157,
+							["r"] = 0.91764705882353,
 						},
 					},
+					["range"] = false,
 				},
 				["char/Skombrow - WoWArg"] = {
 					["colors"] = {
@@ -5050,29 +6422,360 @@ GridDB = {
 							["g"] = 0.51,
 							["b"] = 0.79,
 						},
-						["ROGUE"] = {
-							["r"] = 1,
-							["g"] = 0.96,
-							["b"] = 0.41,
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
 						},
 						["DRUID"] = {
 							["r"] = 1,
 							["g"] = 0.49,
 							["b"] = 0.04,
 						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
 						["PALADIN"] = {
 							["r"] = 0.96,
 							["g"] = 0.55,
 							["b"] = 0.73,
+						},
+					},
+				},
+				["class/Cazador"] = {
+					["range"] = false,
+					["debug"] = false,
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["MAGE"] = {
+							["r"] = 0.41,
+							["g"] = 0.8,
+							["b"] = 0.94,
+						},
+						["Demonio"] = {
+							["a"] = 1,
+							["b"] = 0.68627450980392,
+							["g"] = 0.25490196078431,
+							["r"] = 0.54509803921569,
+						},
+						["Bestia"] = {
+							["a"] = 1,
+							["b"] = 0.27843137254902,
+							["g"] = 0.75686274509804,
+							["r"] = 0.93725490196078,
+						},
+						["No especificado"] = {
+							["a"] = 1,
+							["b"] = 0.4,
+							["g"] = 0.4,
+							["r"] = 0.4,
+						},
+						["Humanoide"] = {
+							["a"] = 1,
+							["b"] = 0.84705882352941,
+							["g"] = 0.67450980392157,
+							["r"] = 0.91764705882353,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
 						},
 						["DEATHKNIGHT"] = {
 							["r"] = 0.77,
 							["g"] = 0.12,
 							["b"] = 0.23,
 						},
+						["Dragonante"] = {
+							["a"] = 1,
+							["b"] = 0.8,
+							["g"] = 0.8,
+							["r"] = 0.8,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 0.8,
+						},
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["No muerto"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0.2,
+							["r"] = 0.8,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.58,
+							["g"] = 0.51,
+							["b"] = 0.79,
+						},
+						["PetColorType"] = "Using Fallback color",
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
+					},
+				},
+				["Default"] = {
+					["colors"] = {
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+					},
+				},
+				["char/Deadly - WoWArg"] = {
+					["range"] = false,
+					["debug"] = false,
+					["colors"] = {
+						["UNKNOWN_UNIT"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["WARRIOR"] = {
+							["b"] = 0.43,
+							["g"] = 0.61,
+							["r"] = 0.78,
+						},
+						["PALADIN"] = {
+							["b"] = 0.73,
+							["g"] = 0.55,
+							["r"] = 0.96,
+						},
+						["MAGE"] = {
+							["b"] = 0.94,
+							["g"] = 0.8,
+							["r"] = 0.41,
+						},
+						["Demonio"] = {
+							["a"] = 1,
+							["r"] = 0.54509803921569,
+							["g"] = 0.25490196078431,
+							["b"] = 0.68627450980392,
+						},
+						["Bestia"] = {
+							["a"] = 1,
+							["r"] = 0.93725490196078,
+							["g"] = 0.75686274509804,
+							["b"] = 0.27843137254902,
+						},
+						["No especificado"] = {
+							["a"] = 1,
+							["r"] = 0.4,
+							["g"] = 0.4,
+							["b"] = 0.4,
+						},
+						["Humanoide"] = {
+							["a"] = 1,
+							["r"] = 0.91764705882353,
+							["g"] = 0.67450980392157,
+							["b"] = 0.84705882352941,
+						},
+						["DRUID"] = {
+							["b"] = 0.04,
+							["g"] = 0.49,
+							["r"] = 1,
+						},
+						["DEATHKNIGHT"] = {
+							["b"] = 0.23,
+							["g"] = 0.12,
+							["r"] = 0.77,
+						},
+						["Dragonante"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.8,
+							["b"] = 0.8,
+						},
+						["Elemental"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["PRIEST"] = {
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["No muerto"] = {
+							["a"] = 1,
+							["r"] = 0.8,
+							["g"] = 0.2,
+							["b"] = 0,
+						},
+						["WARLOCK"] = {
+							["b"] = 0.79,
+							["g"] = 0.51,
+							["r"] = 0.58,
+						},
+						["HUNTER"] = {
+							["b"] = 0.45,
+							["g"] = 0.83,
+							["r"] = 0.67,
+						},
+						["SHAMAN"] = {
+							["b"] = 0.87,
+							["g"] = 0.44,
+							["r"] = 0,
+						},
+						["ROGUE"] = {
+							["b"] = 0.41,
+							["g"] = 0.96,
+							["r"] = 1,
+						},
+						["UNKNOWN_PET"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["PetColorType"] = "Using Fallback color",
+					},
+				},
+				["DPS"] = {
+					["colors"] = {
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
+						},
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["MAGE"] = {
+							["r"] = 0.41,
+							["g"] = 0.8,
+							["b"] = 0.94,
+						},
+						["PRIEST"] = {
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["WARLOCK"] = {
+							["r"] = 0.58,
+							["g"] = 0.51,
+							["b"] = 0.79,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
+						},
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
+						},
+						["HUNTER"] = {
+							["r"] = 0.67,
+							["g"] = 0.83,
+							["b"] = 0.45,
+						},
 					},
 				},
 				["char/Rivo - WoWArg"] = {
+					["debug"] = false,
 					["colors"] = {
 						["UNKNOWN_UNIT"] = {
 							["a"] = 1,
@@ -5181,292 +6884,13 @@ GridDB = {
 						},
 					},
 					["range"] = false,
-					["debug"] = false,
 				},
-				["Default"] = {
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 					["colors"] = {
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
-						},
-						["MAGE"] = {
-							["b"] = 0.94,
-							["g"] = 0.8,
-							["r"] = 0.41,
-						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["WARLOCK"] = {
-							["b"] = 0.79,
-							["g"] = 0.51,
-							["r"] = 0.58,
-						},
 						["HUNTER"] = {
-							["b"] = 0.45,
-							["g"] = 0.83,
 							["r"] = 0.67,
-						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
-						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
-						},
-					},
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["colors"] = {
-						["UNKNOWN_UNIT"] = {
-							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
-							["b"] = 0.5,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
-						},
-						["MAGE"] = {
-							["b"] = 0.94,
-							["g"] = 0.8,
-							["r"] = 0.41,
-						},
-						["Demonio"] = {
-							["a"] = 1,
-							["r"] = 0.54509803921569,
-							["g"] = 0.25490196078431,
-							["b"] = 0.68627450980392,
-						},
-						["Bestia"] = {
-							["a"] = 1,
-							["r"] = 0.93725490196078,
-							["g"] = 0.75686274509804,
-							["b"] = 0.27843137254902,
-						},
-						["No especificado"] = {
-							["a"] = 1,
-							["r"] = 0.4,
-							["g"] = 0.4,
-							["b"] = 0.4,
-						},
-						["Humanoide"] = {
-							["a"] = 1,
-							["r"] = 0.91764705882353,
-							["g"] = 0.67450980392157,
-							["b"] = 0.84705882352941,
-						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
-						},
-						["Dragonante"] = {
-							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 0.8,
-							["b"] = 0.8,
-						},
-						["Elemental"] = {
-							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 1,
-							["b"] = 1,
-						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["No muerto"] = {
-							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 0.2,
-							["b"] = 0,
-						},
-						["WARLOCK"] = {
-							["b"] = 0.79,
-							["g"] = 0.51,
-							["r"] = 0.58,
-						},
-						["HUNTER"] = {
-							["b"] = 0.45,
 							["g"] = 0.83,
-							["r"] = 0.67,
-						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
-						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
-						},
-						["UNKNOWN_PET"] = {
-							["a"] = 1,
-							["r"] = 0,
-							["g"] = 1,
-							["b"] = 0,
-						},
-						["PetColorType"] = "Using Fallback color",
-					},
-					["range"] = false,
-				},
-				["class/Brujo"] = {
-					["debug"] = false,
-					["colors"] = {
-						["UNKNOWN_UNIT"] = {
-							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
-							["b"] = 0.5,
-						},
-						["WARRIOR"] = {
-							["b"] = 0.43,
-							["g"] = 0.61,
-							["r"] = 0.78,
-						},
-						["PALADIN"] = {
-							["b"] = 0.73,
-							["g"] = 0.55,
-							["r"] = 0.96,
-						},
-						["MAGE"] = {
-							["b"] = 0.94,
-							["g"] = 0.8,
-							["r"] = 0.41,
-						},
-						["Demonio"] = {
-							["a"] = 1,
-							["r"] = 0.54509803921569,
-							["g"] = 0.25490196078431,
-							["b"] = 0.68627450980392,
-						},
-						["Bestia"] = {
-							["a"] = 1,
-							["r"] = 0.93725490196078,
-							["g"] = 0.75686274509804,
-							["b"] = 0.27843137254902,
-						},
-						["No especificado"] = {
-							["a"] = 1,
-							["r"] = 0.4,
-							["g"] = 0.4,
-							["b"] = 0.4,
-						},
-						["Humanoide"] = {
-							["a"] = 1,
-							["r"] = 0.91764705882353,
-							["g"] = 0.67450980392157,
-							["b"] = 0.84705882352941,
-						},
-						["DRUID"] = {
-							["b"] = 0.04,
-							["g"] = 0.49,
-							["r"] = 1,
-						},
-						["DEATHKNIGHT"] = {
-							["b"] = 0.23,
-							["g"] = 0.12,
-							["r"] = 0.77,
-						},
-						["Dragonante"] = {
-							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 0.8,
-							["b"] = 0.8,
-						},
-						["Elemental"] = {
-							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 1,
-							["b"] = 1,
-						},
-						["PRIEST"] = {
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["No muerto"] = {
-							["a"] = 1,
-							["r"] = 0.8,
-							["g"] = 0.2,
-							["b"] = 0,
-						},
-						["WARLOCK"] = {
-							["b"] = 0.79,
-							["g"] = 0.51,
-							["r"] = 0.58,
-						},
-						["HUNTER"] = {
 							["b"] = 0.45,
-							["g"] = 0.83,
-							["r"] = 0.67,
-						},
-						["SHAMAN"] = {
-							["b"] = 0.87,
-							["g"] = 0.44,
-							["r"] = 0,
-						},
-						["ROGUE"] = {
-							["b"] = 0.41,
-							["g"] = 0.96,
-							["r"] = 1,
-						},
-						["UNKNOWN_PET"] = {
-							["a"] = 1,
-							["r"] = 0,
-							["g"] = 1,
-							["b"] = 0,
-						},
-						["PetColorType"] = "Using Fallback color",
-					},
-					["range"] = false,
-				},
-				["class/Cazador"] = {
-					["debug"] = false,
-					["colors"] = {
-						["UNKNOWN_UNIT"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
 						},
 						["WARRIOR"] = {
 							["r"] = 0.78,
@@ -5477,115 +6901,6 @@ GridDB = {
 							["r"] = 0.96,
 							["g"] = 0.55,
 							["b"] = 0.73,
-						},
-						["MAGE"] = {
-							["r"] = 0.41,
-							["g"] = 0.8,
-							["b"] = 0.94,
-						},
-						["Demonio"] = {
-							["a"] = 1,
-							["b"] = 0.68627450980392,
-							["g"] = 0.25490196078431,
-							["r"] = 0.54509803921569,
-						},
-						["Bestia"] = {
-							["a"] = 1,
-							["b"] = 0.27843137254902,
-							["g"] = 0.75686274509804,
-							["r"] = 0.93725490196078,
-						},
-						["No especificado"] = {
-							["a"] = 1,
-							["b"] = 0.4,
-							["g"] = 0.4,
-							["r"] = 0.4,
-						},
-						["Humanoide"] = {
-							["a"] = 1,
-							["b"] = 0.84705882352941,
-							["g"] = 0.67450980392157,
-							["r"] = 0.91764705882353,
-						},
-						["DRUID"] = {
-							["r"] = 1,
-							["g"] = 0.49,
-							["b"] = 0.04,
-						},
-						["DEATHKNIGHT"] = {
-							["r"] = 0.77,
-							["g"] = 0.12,
-							["b"] = 0.23,
-						},
-						["Dragonante"] = {
-							["a"] = 1,
-							["b"] = 0.8,
-							["g"] = 0.8,
-							["r"] = 0.8,
-						},
-						["Elemental"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 0.8,
-						},
-						["PRIEST"] = {
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
-						["No muerto"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0.2,
-							["r"] = 0.8,
-						},
-						["WARLOCK"] = {
-							["r"] = 0.58,
-							["g"] = 0.51,
-							["b"] = 0.79,
-						},
-						["PetColorType"] = "Using Fallback color",
-						["UNKNOWN_PET"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 1,
-							["r"] = 0,
-						},
-						["ROGUE"] = {
-							["r"] = 1,
-							["g"] = 0.96,
-							["b"] = 0.41,
-						},
-						["SHAMAN"] = {
-							["r"] = 0,
-							["g"] = 0.44,
-							["b"] = 0.87,
-						},
-						["HUNTER"] = {
-							["r"] = 0.67,
-							["g"] = 0.83,
-							["b"] = 0.45,
-						},
-					},
-					["range"] = false,
-				},
-				["DPS"] = {
-					["colors"] = {
-						["HUNTER"] = {
-							["r"] = 0.67,
-							["g"] = 0.83,
-							["b"] = 0.45,
-						},
-						["WARRIOR"] = {
-							["r"] = 0.78,
-							["g"] = 0.61,
-							["b"] = 0.43,
-						},
-						["SHAMAN"] = {
-							["r"] = 0,
-							["g"] = 0.44,
-							["b"] = 0.87,
 						},
 						["MAGE"] = {
 							["r"] = 0.41,
@@ -5612,10 +6927,10 @@ GridDB = {
 							["g"] = 0.49,
 							["b"] = 0.04,
 						},
-						["PALADIN"] = {
-							["r"] = 0.96,
-							["g"] = 0.55,
-							["b"] = 0.73,
+						["SHAMAN"] = {
+							["r"] = 0,
+							["g"] = 0.44,
+							["b"] = 0.87,
 						},
 						["DEATHKNIGHT"] = {
 							["r"] = 0.77,
@@ -5631,25 +6946,20 @@ GridDB = {
 							["g"] = 0.83,
 							["b"] = 0.45,
 						},
-						["ROGUE"] = {
-							["r"] = 1,
-							["g"] = 0.96,
-							["b"] = 0.41,
+						["WARRIOR"] = {
+							["r"] = 0.78,
+							["g"] = 0.61,
+							["b"] = 0.43,
+						},
+						["PALADIN"] = {
+							["r"] = 0.96,
+							["g"] = 0.55,
+							["b"] = 0.73,
 						},
 						["MAGE"] = {
 							["r"] = 0.41,
 							["g"] = 0.8,
 							["b"] = 0.94,
-						},
-						["DRUID"] = {
-							["r"] = 1,
-							["g"] = 0.49,
-							["b"] = 0.04,
-						},
-						["DEATHKNIGHT"] = {
-							["r"] = 0.77,
-							["g"] = 0.12,
-							["b"] = 0.23,
 						},
 						["PRIEST"] = {
 							["r"] = 1,
@@ -5661,20 +6971,25 @@ GridDB = {
 							["g"] = 0.51,
 							["b"] = 0.79,
 						},
-						["WARRIOR"] = {
-							["r"] = 0.78,
-							["g"] = 0.61,
-							["b"] = 0.43,
+						["ROGUE"] = {
+							["r"] = 1,
+							["g"] = 0.96,
+							["b"] = 0.41,
+						},
+						["DRUID"] = {
+							["r"] = 1,
+							["g"] = 0.49,
+							["b"] = 0.04,
 						},
 						["SHAMAN"] = {
 							["r"] = 0,
 							["g"] = 0.44,
 							["b"] = 0.87,
 						},
-						["PALADIN"] = {
-							["r"] = 0.96,
-							["g"] = 0.55,
-							["b"] = 0.73,
+						["DEATHKNIGHT"] = {
+							["r"] = 0.77,
+							["g"] = 0.12,
+							["b"] = 0.23,
 						},
 					},
 				},
@@ -5685,8 +7000,6 @@ GridDB = {
 				[""] = {
 					["debug"] = false,
 					["alert_aggro"] = {
-						["priority"] = 99,
-						["threat"] = false,
 						["threatcolors"] = {
 							{
 								["a"] = 1,
@@ -5707,26 +7020,69 @@ GridDB = {
 								["r"] = 0.9999978030100465,
 							}, -- [3]
 						},
+						["threat"] = false,
+						["priority"] = 99,
 						["threattexts"] = {
 							"Alto", -- [1]
 							"Amenaza", -- [2]
 							"Tanque", -- [3]
 						},
+						["enable"] = true,
+						["text"] = "Amenaza",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0,
 							["r"] = 1,
 						},
-						["text"] = "Amenaza",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
 					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["b"] = 0.4666656414046884,
+								["g"] = 0.9999978030100465,
+								["r"] = 0.9999978030100465,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0.5999986818060279,
+								["r"] = 0.9999978030100465,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0.9999978030100465,
+							}, -- [3]
+						},
+						["threat"] = false,
 						["text"] = "Amenaza",
+						["threattexts"] = {
+							"Alto", -- [1]
+							"Amenaza", -- [2]
+							"Tanque", -- [3]
+						},
+						["enable"] = true,
+						["priority"] = 99,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+					},
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["priority"] = 99,
 						["threat"] = false,
 						["threatcolors"] = {
 							{
@@ -5749,9 +7105,9 @@ GridDB = {
 							}, -- [3]
 						},
 						["threattexts"] = {
-							"Alto", -- [1]
-							"Amenaza", -- [2]
-							"Tanque", -- [3]
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
 						},
 						["color"] = {
 							["a"] = 1,
@@ -5759,12 +7115,12 @@ GridDB = {
 							["g"] = 0,
 							["r"] = 1,
 						},
-						["priority"] = 99,
+						["text"] = "Aggro",
 						["range"] = false,
 						["enable"] = true,
 					},
 				},
-				["Sacer"] = {
+				["char/Skombrow - Sin'Dorei"] = {
 					["alert_aggro"] = {
 						["threatcolors"] = {
 							{
@@ -5776,8 +7132,6 @@ GridDB = {
 				["class/Druid"] = {
 					["debug"] = false,
 					["alert_aggro"] = {
-						["priority"] = 99,
-						["threat"] = false,
 						["threatcolors"] = {
 							{
 								["a"] = 1,
@@ -5798,10 +7152,94 @@ GridDB = {
 								["r"] = 0.9999978030100465,
 							}, -- [3]
 						},
+						["threat"] = false,
+						["priority"] = 99,
 						["threattexts"] = {
 							"High", -- [1]
 							"Aggro", -- [2]
 							"Tank", -- [3]
+						},
+						["enable"] = true,
+						["text"] = "Aggro",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+					},
+				},
+				["class/Brujo"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["enable"] = true,
+						["threat"] = false,
+						["text"] = "Amenaza",
+						["threattexts"] = {
+							"Alto", -- [1]
+							"Amenaza", -- [2]
+							"Tanque", -- [3]
+						},
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 99,
+						["range"] = false,
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0.9999978030100465,
+								["b"] = 0.4666656414046884,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0.5999986818060279,
+								["b"] = 0,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["r"] = 0.9999978030100465,
+								["g"] = 0,
+								["b"] = 0,
+							}, -- [3]
+						},
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["b"] = 0.4666656414046884,
+								["g"] = 0.9999978030100465,
+								["r"] = 0.9999978030100465,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0.5999986818060279,
+								["r"] = 0.9999978030100465,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0.9999978030100465,
+							}, -- [3]
+						},
+						["threat"] = false,
+						["text"] = "Amenaza",
+						["threattexts"] = {
+							"Alto", -- [1]
+							"Amenaza", -- [2]
+							"Tanque", -- [3]
 						},
 						["color"] = {
 							["a"] = 1,
@@ -5809,24 +7247,9 @@ GridDB = {
 							["g"] = 0,
 							["r"] = 1,
 						},
-						["text"] = "Aggro",
+						["priority"] = 99,
 						["range"] = false,
 						["enable"] = true,
-					},
-				},
-				["Deadly"] = {
-					["alert_aggro"] = {
-						["text"] = "Amenaza",
-						["threatcolors"] = {
-							{
-								["b"] = 0.4666656414046884,
-							}, -- [1]
-						},
-						["threattexts"] = {
-							"Alto", -- [1]
-							"Amenaza", -- [2]
-							"Tanque", -- [3]
-						},
 					},
 				},
 				["char/Skombrow - WoWArg"] = {
@@ -5838,11 +7261,9 @@ GridDB = {
 						},
 					},
 				},
-				["char/Rivo - WoWArg"] = {
+				["class/Cazador"] = {
 					["debug"] = false,
 					["alert_aggro"] = {
-						["priority"] = 99,
-						["threat"] = false,
 						["threatcolors"] = {
 							{
 								["a"] = 1,
@@ -5863,20 +7284,22 @@ GridDB = {
 								["r"] = 0.9999978030100465,
 							}, -- [3]
 						},
+						["threat"] = false,
+						["priority"] = 99,
 						["threattexts"] = {
-							"High", -- [1]
-							"Aggro", -- [2]
-							"Tank", -- [3]
+							"Alto", -- [1]
+							"Amenaza", -- [2]
+							"Tanque", -- [3]
 						},
+						["enable"] = true,
+						["text"] = "Amenaza",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0,
 							["g"] = 0,
 							["r"] = 1,
 						},
-						["text"] = "Aggro",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Default"] = {
@@ -5891,12 +7314,7 @@ GridDB = {
 				["char/Deadly - WoWArg"] = {
 					["debug"] = false,
 					["alert_aggro"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 0,
-							["b"] = 0,
-						},
+						["enable"] = true,
 						["threat"] = false,
 						["text"] = "Amenaza",
 						["threattexts"] = {
@@ -5904,7 +7322,14 @@ GridDB = {
 							"Amenaza", -- [2]
 							"Tanque", -- [3]
 						},
-						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0,
+						},
+						["priority"] = 99,
+						["range"] = false,
 						["threatcolors"] = {
 							{
 								["a"] = 1,
@@ -5925,90 +7350,6 @@ GridDB = {
 								["b"] = 0,
 							}, -- [3]
 						},
-						["range"] = false,
-						["priority"] = 99,
-					},
-				},
-				["class/Brujo"] = {
-					["debug"] = false,
-					["alert_aggro"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 0,
-							["b"] = 0,
-						},
-						["threat"] = false,
-						["text"] = "Amenaza",
-						["threattexts"] = {
-							"Alto", -- [1]
-							"Amenaza", -- [2]
-							"Tanque", -- [3]
-						},
-						["enable"] = true,
-						["threatcolors"] = {
-							{
-								["a"] = 1,
-								["r"] = 0.9999978030100465,
-								["g"] = 0.9999978030100465,
-								["b"] = 0.4666656414046884,
-							}, -- [1]
-							{
-								["a"] = 1,
-								["r"] = 0.9999978030100465,
-								["g"] = 0.5999986818060279,
-								["b"] = 0,
-							}, -- [2]
-							{
-								["a"] = 1,
-								["r"] = 0.9999978030100465,
-								["g"] = 0,
-								["b"] = 0,
-							}, -- [3]
-						},
-						["range"] = false,
-						["priority"] = 99,
-					},
-				},
-				["class/Cazador"] = {
-					["debug"] = false,
-					["alert_aggro"] = {
-						["priority"] = 99,
-						["threat"] = false,
-						["threatcolors"] = {
-							{
-								["a"] = 1,
-								["b"] = 0.4666656414046884,
-								["g"] = 0.9999978030100465,
-								["r"] = 0.9999978030100465,
-							}, -- [1]
-							{
-								["a"] = 1,
-								["b"] = 0,
-								["g"] = 0.5999986818060279,
-								["r"] = 0.9999978030100465,
-							}, -- [2]
-							{
-								["a"] = 1,
-								["b"] = 0,
-								["g"] = 0,
-								["r"] = 0.9999978030100465,
-							}, -- [3]
-						},
-						["threattexts"] = {
-							"Alto", -- [1]
-							"Amenaza", -- [2]
-							"Tanque", -- [3]
-						},
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 0,
-							["r"] = 1,
-						},
-						["text"] = "Amenaza",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["DPS"] = {
@@ -6020,6 +7361,49 @@ GridDB = {
 						},
 					},
 				},
+				["char/Rivo - WoWArg"] = {
+					["debug"] = false,
+					["alert_aggro"] = {
+						["threatcolors"] = {
+							{
+								["a"] = 1,
+								["b"] = 0.4666656414046884,
+								["g"] = 0.9999978030100465,
+								["r"] = 0.9999978030100465,
+							}, -- [1]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0.5999986818060279,
+								["r"] = 0.9999978030100465,
+							}, -- [2]
+							{
+								["a"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["r"] = 0.9999978030100465,
+							}, -- [3]
+						},
+						["threat"] = false,
+						["priority"] = 99,
+						["threattexts"] = {
+							"High", -- [1]
+							"Aggro", -- [2]
+							"Tank", -- [3]
+						},
+						["enable"] = true,
+						["text"] = "Aggro",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
+				},
 				["char/Doroteo - WoWArg"] = {
 					["alert_aggro"] = {
 						["threatcolors"] = {
@@ -6031,119 +7415,202 @@ GridDB = {
 				},
 			},
 		},
-		["GridStatusVoiceComm"] = {
+		["GridStatusHeals"] = {
 			["profiles"] = {
 				[""] = {
 					["debug"] = false,
-					["alert_voice"] = {
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
 						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Sanaciones entrantes",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
+							["b"] = 0,
 							["g"] = 1,
-							["r"] = 0.5,
+							["r"] = 0,
 						},
-						["text"] = "Hablando",
-						["range"] = false,
-						["enable"] = false,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
-					["alert_voice"] = {
-						["text"] = "Hablando",
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 1,
-							["r"] = 0.5,
+					["alert_heals"] = {
+						["ignore_self"] = false,
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
 						},
+						["text"] = "Sanaciones entrantes",
+						["enable"] = true,
 						["priority"] = 50,
 						["range"] = false,
-						["enable"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
 					},
 				},
 				["class/Cazador"] = {
 					["debug"] = false,
-					["alert_voice"] = {
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
 						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Sanaciones entrantes",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
+							["b"] = 0,
 							["g"] = 1,
-							["r"] = 0.5,
+							["r"] = 0,
 						},
-						["text"] = "Hablando",
-						["range"] = false,
-						["enable"] = false,
 					},
 				},
 				["class/Druid"] = {
 					["debug"] = false,
-					["alert_voice"] = {
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
 						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
+							["b"] = 0,
 							["g"] = 1,
-							["r"] = 0.5,
+							["r"] = 0,
 						},
-						["text"] = "Talking",
-						["range"] = false,
-						["enable"] = false,
-					},
-				},
-				["Deadly"] = {
-					["alert_voice"] = {
-						["text"] = "Hablando",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["alert_voice"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 1,
-							["b"] = 0.5,
-						},
-						["enable"] = false,
-						["text"] = "Hablando",
-						["range"] = false,
-						["priority"] = 50,
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["debug"] = false,
-					["alert_voice"] = {
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
+						["priority"] = 50,
+						["enable"] = true,
+						["text"] = "Incoming heals",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["ignore_self"] = false,
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["text"] = "Sanaciones entrantes",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["enable"] = true,
+					},
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["hot"] = true,
+							["channeled"] = true,
+						},
+						["ignore_self"] = false,
 						["priority"] = 50,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0.5,
+							["b"] = 0,
 							["g"] = 1,
-							["r"] = 0.5,
+							["r"] = 0,
 						},
-						["text"] = "Talking",
+						["text"] = "Incoming heals",
 						["range"] = false,
-						["enable"] = false,
+						["enable"] = true,
 					},
+				},
+				["char/Deadly - WoWArg"] = {
+					["debug"] = false,
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["channeled"] = true,
+							["hot"] = true,
+						},
+						["enable"] = true,
+						["text"] = "Sanaciones entrantes",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0,
+							["g"] = 1,
+							["b"] = 0,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["ignore_self"] = false,
+					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
 				},
 				["class/Brujo"] = {
 					["debug"] = false,
-					["alert_voice"] = {
+					["alert_heals"] = {
+						["heal_filter"] = {
+							["direct"] = true,
+							["channeled"] = true,
+							["hot"] = true,
+						},
+						["enable"] = true,
+						["text"] = "Sanaciones entrantes",
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.5,
+							["r"] = 0,
 							["g"] = 1,
-							["b"] = 0.5,
+							["b"] = 0,
 						},
-						["enable"] = false,
-						["text"] = "Hablando",
-						["range"] = false,
 						["priority"] = 50,
+						["range"] = false,
+						["ignore_self"] = false,
 					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -6154,12 +7621,7 @@ GridDB = {
 				["class/Brujo"] = {
 					["debug"] = false,
 					["ready_check"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
+						["enable"] = true,
 						["colors"] = {
 							["waiting"] = {
 								["a"] = 1,
@@ -6191,16 +7653,21 @@ GridDB = {
 							},
 						},
 						["delay"] = 5,
-						["enable"] = true,
-						["priority"] = 95,
-						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
 						["text"] = "Ready Check",
+						["range"] = false,
+						["priority"] = 95,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
 					["ready_check"] = {
-						["text"] = "Ready Check",
+						["priority"] = 95,
 						["colors"] = {
 							["not_ready"] = {
 								["a"] = 1,
@@ -6232,21 +7699,21 @@ GridDB = {
 							},
 						},
 						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 95,
-						["delay"] = 5,
-						["enable"] = true,
 					},
 				},
 				["class/Cazador"] = {
 					["debug"] = false,
 					["ready_check"] = {
-						["text"] = "Ready Check",
+						["priority"] = 95,
 						["colors"] = {
 							["not_ready"] = {
 								["a"] = 1,
@@ -6278,18 +7745,110 @@ GridDB = {
 							},
 						},
 						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 95,
-						["delay"] = 5,
-						["enable"] = true,
 					},
 				},
 				["char/Rivo - WoWArg"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["priority"] = 95,
+						["colors"] = {
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+						},
+						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				[""] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["priority"] = 95,
+						["colors"] = {
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+						},
+						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["Deadly"] = {
 					["debug"] = false,
 					["ready_check"] = {
 						["text"] = "Ready Check",
@@ -6337,15 +7896,56 @@ GridDB = {
 				},
 				["char/Skombrow - WoWArg"] = {
 				},
+				["Sacer"] = {
+					["debug"] = false,
+					["ready_check"] = {
+						["text"] = "Ready Check",
+						["colors"] = {
+							["not_ready"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["afk"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 0,
+								["ignore"] = true,
+							},
+							["ready"] = {
+								["a"] = 1,
+								["r"] = 0,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+							["waiting"] = {
+								["a"] = 1,
+								["r"] = 1,
+								["b"] = 0,
+								["g"] = 1,
+								["ignore"] = true,
+							},
+						},
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["priority"] = 95,
+						["delay"] = 5,
+						["enable"] = true,
+					},
+				},
 				["char/Deadly - WoWArg"] = {
 					["debug"] = false,
 					["ready_check"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
+						["enable"] = true,
 						["colors"] = {
 							["waiting"] = {
 								["a"] = 1,
@@ -6377,62 +7977,23 @@ GridDB = {
 							},
 						},
 						["delay"] = 5,
-						["enable"] = true,
-						["priority"] = 95,
-						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
 						["text"] = "Ready Check",
+						["range"] = false,
+						["priority"] = 95,
 					},
 				},
-				[""] = {
-					["debug"] = false,
-					["ready_check"] = {
-						["text"] = "Ready Check",
-						["colors"] = {
-							["not_ready"] = {
-								["a"] = 1,
-								["r"] = 1,
-								["b"] = 0,
-								["g"] = 0,
-								["ignore"] = true,
-							},
-							["afk"] = {
-								["a"] = 1,
-								["r"] = 1,
-								["b"] = 0,
-								["g"] = 0,
-								["ignore"] = true,
-							},
-							["ready"] = {
-								["a"] = 1,
-								["r"] = 0,
-								["b"] = 0,
-								["g"] = 1,
-								["ignore"] = true,
-							},
-							["waiting"] = {
-								["a"] = 1,
-								["r"] = 1,
-								["b"] = 0,
-								["g"] = 1,
-								["ignore"] = true,
-							},
-						},
-						["range"] = false,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["priority"] = 95,
-						["delay"] = 5,
-						["enable"] = true,
-					},
+				["char/Skombrow - Sin'Dorei"] = {
 				},
 				["class/Druid"] = {
 					["debug"] = false,
 					["ready_check"] = {
-						["text"] = "Ready Check",
+						["priority"] = 95,
 						["colors"] = {
 							["not_ready"] = {
 								["a"] = 1,
@@ -6464,16 +8025,18 @@ GridDB = {
 							},
 						},
 						["range"] = false,
+						["enable"] = true,
+						["text"] = "Ready Check",
+						["delay"] = 5,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 95,
-						["delay"] = 5,
-						["enable"] = true,
 					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -6537,7 +8100,49 @@ GridDB = {
 					["xOffset"] = 0,
 					["rowSize"] = 9,
 				},
+				[""] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["flash"] = true,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["rowSize"] = 9,
+				},
+				["Deadly"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = -6,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 0,
+					["flash"] = true,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["rowSize"] = 9,
+				},
 				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["attachPoint"] = "CENTER",
+					["scale"] = 1,
+					["opacity"] = 1,
+					["yOffset"] = 0,
+					["anchorPoint"] = "CENTER",
+					["count"] = 4,
+					["spacing"] = 4,
+					["flash"] = true,
+					["borders"] = {
+					},
+					["xOffset"] = 0,
+					["rowSize"] = 9,
 				},
 				["char/Deadly - WoWArg"] = {
 					["attachPoint"] = "CENTER",
@@ -6553,19 +8158,7 @@ GridDB = {
 					["xOffset"] = 0,
 					["flash"] = true,
 				},
-				[""] = {
-					["attachPoint"] = "CENTER",
-					["scale"] = 1,
-					["opacity"] = 1,
-					["yOffset"] = 0,
-					["anchorPoint"] = "CENTER",
-					["count"] = 4,
-					["spacing"] = 4,
-					["flash"] = true,
-					["borders"] = {
-					},
-					["xOffset"] = 0,
-					["rowSize"] = 9,
+				["char/Skombrow - Sin'Dorei"] = {
 				},
 				["class/Druid"] = {
 					["attachPoint"] = "CENTER",
@@ -6580,6 +8173,11 @@ GridDB = {
 					},
 					["xOffset"] = 0,
 					["rowSize"] = 9,
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
+					["scale"] = 0.95,
+					["spacing"] = 2,
+					["yOffset"] = -9,
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -6589,17 +8187,17 @@ GridDB = {
 			["profiles"] = {
 				[""] = {
 					["alert_feignDeath"] = {
-						["priority"] = 55,
+						["text"] = "FM",
 						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "FM",
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
 					},
 					["debug"] = false,
 					["unit_healthDeficit"] = {
@@ -6616,69 +8214,69 @@ GridDB = {
 						},
 					},
 					["alert_offline"] = {
+						["text"] = "Desconectado",
+						["enable"] = true,
 						["priority"] = 60,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.6,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Desconectado",
-						["range"] = false,
-						["enable"] = true,
 					},
 					["alert_death"] = {
-						["priority"] = 50,
+						["text"] = "Muerto",
 						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "Muerto",
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
 					},
 					["alert_lowHealth"] = {
 						["threshold"] = 80,
+						["text"] = "Poca vida",
+						["enable"] = true,
 						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Poca vida",
-						["range"] = false,
-						["enable"] = true,
 					},
 					["unit_health"] = {
 						["useClassColors"] = true,
 						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 30,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Doroteo"] = {
 					["alert_offline"] = {
+						["priority"] = 60,
+						["enable"] = true,
 						["text"] = "Desconectado",
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.6,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 60,
-						["range"] = false,
-						["enable"] = true,
 					},
 					["debug"] = false,
 					["unit_healthDeficit"] = {
@@ -6695,71 +8293,71 @@ GridDB = {
 						},
 					},
 					["alert_feignDeath"] = {
-						["text"] = "FM",
+						["priority"] = 55,
 						["range"] = false,
+						["enable"] = true,
+						["text"] = "FM",
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 55,
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
 					},
 					["alert_lowHealth"] = {
 						["threshold"] = 80,
+						["priority"] = 30,
+						["enable"] = true,
 						["text"] = "Poca vida",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 30,
-						["range"] = false,
-						["enable"] = true,
 					},
 					["alert_death"] = {
-						["text"] = "Muerto",
+						["priority"] = 50,
 						["range"] = false,
+						["enable"] = true,
+						["text"] = "Muerto",
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["priority"] = 50,
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
 					},
 					["unit_health"] = {
 						["useClassColors"] = true,
 						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 30,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Cazador"] = {
 					["alert_feignDeath"] = {
-						["priority"] = 55,
+						["text"] = "FM",
 						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "FM",
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
 					},
 					["debug"] = false,
 					["unit_healthDeficit"] = {
@@ -6776,166 +8374,70 @@ GridDB = {
 						},
 					},
 					["alert_offline"] = {
+						["text"] = "Desconectado",
+						["enable"] = true,
 						["priority"] = 60,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.6,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Desconectado",
-						["range"] = false,
-						["enable"] = true,
 					},
 					["alert_death"] = {
-						["priority"] = 50,
+						["text"] = "Muerto",
 						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
 						["color"] = {
 							["a"] = 1,
 							["b"] = 0.5,
 							["g"] = 0.5,
 							["r"] = 0.5,
 						},
-						["text"] = "Muerto",
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
 					},
 					["alert_lowHealth"] = {
 						["threshold"] = 80,
+						["text"] = "Poca vida",
+						["enable"] = true,
 						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Poca vida",
-						["range"] = false,
-						["enable"] = true,
 					},
 					["unit_health"] = {
 						["useClassColors"] = true,
 						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 30,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Druid"] = {
 					["alert_feignDeath"] = {
-						["priority"] = 55,
-						["range"] = false,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
 						["text"] = "FD",
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
-					},
-					["debug"] = false,
-					["unit_healthDeficit"] = {
-						["threshold"] = 80,
-						["useClassColors"] = true,
-						["enable"] = true,
-						["priority"] = 30,
-						["range"] = false,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-					},
-					["alert_offline"] = {
-						["priority"] = 60,
-						["color"] = {
-							["a"] = 0.6,
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["text"] = "Offline",
 						["range"] = false,
 						["enable"] = true,
-					},
-					["alert_death"] = {
-						["priority"] = 50,
-						["range"] = false,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0.5,
-							["g"] = 0.5,
-							["r"] = 0.5,
-						},
-						["text"] = "DEAD",
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
-					},
-					["alert_lowHealth"] = {
-						["threshold"] = 80,
-						["priority"] = 30,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["text"] = "Low HP",
-						["range"] = false,
-						["enable"] = true,
-					},
-					["unit_health"] = {
-						["useClassColors"] = true,
-						["deadAsFullHealth"] = true,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 1,
-							["g"] = 1,
-							["r"] = 1,
-						},
-						["priority"] = 30,
-						["range"] = false,
-						["enable"] = true,
-					},
-				},
-				["Deadly"] = {
-					["alert_lowHealth"] = {
-						["text"] = "Poca vida",
-					},
-					["alert_offline"] = {
-						["text"] = "Desconectado",
-					},
-					["alert_death"] = {
-						["text"] = "Muerto",
-					},
-					["alert_feignDeath"] = {
-						["text"] = "FM",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["alert_feignDeath"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
-							["b"] = 0.5,
-						},
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
-						["text"] = "FM",
-						["range"] = false,
 						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
 					},
 					["debug"] = false,
 					["unit_healthDeficit"] = {
@@ -6946,65 +8448,227 @@ GridDB = {
 						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["r"] = 1,
-							["g"] = 1,
 							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
 						},
 					},
 					["alert_offline"] = {
+						["text"] = "Offline",
+						["enable"] = true,
+						["priority"] = 60,
+						["range"] = false,
 						["color"] = {
 							["a"] = 0.6,
-							["r"] = 1,
-							["g"] = 1,
 							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
 						},
-						["enable"] = true,
-						["text"] = "Desconectado",
+					},
+					["alert_death"] = {
+						["text"] = "DEAD",
 						["range"] = false,
-						["priority"] = 60,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
 					},
 					["alert_lowHealth"] = {
 						["threshold"] = 80,
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
+						["text"] = "Low HP",
 						["enable"] = true,
-						["text"] = "Poca vida",
-						["range"] = false,
 						["priority"] = 30,
-					},
-					["alert_death"] = {
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0.5,
-							["g"] = 0.5,
-							["b"] = 0.5,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
 						},
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
-						["text"] = "Muerto",
-						["range"] = false,
-						["priority"] = 50,
 					},
 					["unit_health"] = {
 						["useClassColors"] = true,
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
+						["deadAsFullHealth"] = true,
 						["enable"] = true,
 						["priority"] = 30,
 						["range"] = false,
-						["deadAsFullHealth"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["alert_feignDeath"] = {
+						["text"] = "FD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["text"] = "Offline",
+						["enable"] = true,
+						["priority"] = 60,
+						["range"] = false,
+						["color"] = {
+							["a"] = 0.6,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_death"] = {
+						["text"] = "DEAD",
+						["range"] = false,
+						["enable"] = true,
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["text"] = "Low HP",
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["deadAsFullHealth"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["Deadly"] = {
+					["alert_offline"] = {
+						["text"] = "Desconectado",
+						["color"] = {
+							["a"] = 0.6,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["priority"] = 60,
+						["range"] = false,
+						["enable"] = true,
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+					["alert_feignDeath"] = {
+						["text"] = "FM",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 55,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["enable"] = true,
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["text"] = "Poca vida",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["priority"] = 30,
+						["range"] = false,
+						["enable"] = true,
+					},
+					["alert_death"] = {
+						["text"] = "Muerto",
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 0.5,
+							["r"] = 0.5,
+						},
+						["priority"] = 50,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["enable"] = true,
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["deadAsFullHealth"] = true,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["priority"] = 30,
+						["range"] = false,
+						["enable"] = true,
+					},
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["alert_feignDeath"] = {
 						["priority"] = 55,
 						["range"] = false,
 						["color"] = {
@@ -7083,19 +8747,19 @@ GridDB = {
 						["enable"] = true,
 					},
 				},
-				["class/Brujo"] = {
+				["char/Deadly - WoWArg"] = {
 					["alert_feignDeath"] = {
+						["enable"] = true,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.5,
 							["g"] = 0.5,
 							["b"] = 0.5,
 						},
-						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
-						["enable"] = true,
-						["text"] = "FM",
-						["range"] = false,
 						["priority"] = 55,
+						["range"] = false,
+						["text"] = "FM",
 					},
 					["debug"] = false,
 					["unit_healthDeficit"] = {
@@ -7112,56 +8776,140 @@ GridDB = {
 						},
 					},
 					["alert_offline"] = {
+						["enable"] = true,
 						["color"] = {
 							["a"] = 0.6,
 							["r"] = 1,
 							["g"] = 1,
 							["b"] = 1,
 						},
-						["enable"] = true,
-						["text"] = "Desconectado",
-						["range"] = false,
 						["priority"] = 60,
+						["range"] = false,
+						["text"] = "Desconectado",
 					},
 					["alert_lowHealth"] = {
 						["threshold"] = 80,
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 1,
 							["g"] = 1,
 							["b"] = 1,
 						},
-						["enable"] = true,
-						["text"] = "Poca vida",
-						["range"] = false,
 						["priority"] = 30,
+						["range"] = false,
+						["text"] = "Poca vida",
 					},
 					["alert_death"] = {
+						["enable"] = true,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
 						["color"] = {
 							["a"] = 1,
 							["r"] = 0.5,
 							["g"] = 0.5,
 							["b"] = 0.5,
 						},
-						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
-						["enable"] = true,
-						["text"] = "Muerto",
-						["range"] = false,
 						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Muerto",
 					},
 					["unit_health"] = {
 						["useClassColors"] = true,
+						["enable"] = true,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 1,
 							["g"] = 1,
 							["b"] = 1,
 						},
-						["enable"] = true,
 						["priority"] = 30,
 						["range"] = false,
 						["deadAsFullHealth"] = true,
 					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+				},
+				["class/Brujo"] = {
+					["alert_feignDeath"] = {
+						["enable"] = true,
+						["icon"] = "Interface\\Icons\\Ability_Rogue_FeignDeath",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["priority"] = 55,
+						["range"] = false,
+						["text"] = "FM",
+					},
+					["debug"] = false,
+					["unit_healthDeficit"] = {
+						["threshold"] = 80,
+						["useClassColors"] = true,
+						["enable"] = true,
+						["priority"] = 30,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+					},
+					["alert_offline"] = {
+						["enable"] = true,
+						["color"] = {
+							["a"] = 0.6,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 60,
+						["range"] = false,
+						["text"] = "Desconectado",
+					},
+					["alert_lowHealth"] = {
+						["threshold"] = 80,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 30,
+						["range"] = false,
+						["text"] = "Poca vida",
+					},
+					["alert_death"] = {
+						["enable"] = true,
+						["icon"] = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull",
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 0.5,
+							["b"] = 0.5,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Muerto",
+					},
+					["unit_health"] = {
+						["useClassColors"] = true,
+						["enable"] = true,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["priority"] = 30,
+						["range"] = false,
+						["deadAsFullHealth"] = true,
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -7176,10 +8924,10 @@ GridDB = {
 					["layouts"] = {
 						["party"] = "Grupo de 5",
 						["solo"] = "Grupo de 5",
-						["raid"] = "Grupo de 10",
-						["arena"] = "Grupo de 5",
-						["bg"] = "Grupo de 40",
 						["heroic_raid"] = "Grupo de 25",
+						["raid"] = "Grupo de 10",
+						["bg"] = "Grupo de 40",
+						["arena"] = "Grupo de 5",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1,
@@ -7209,10 +8957,10 @@ GridDB = {
 					["layouts"] = {
 						["party"] = "By Group 5",
 						["solo"] = "By Group 5",
-						["heroic_raid"] = "By Group 25",
-						["raid"] = "By Group 10",
-						["bg"] = "By Group 40",
 						["arena"] = "By Group 5",
+						["heroic_raid"] = "By Group 25",
+						["bg"] = "By Group 40",
+						["raid"] = "By Group 10",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1.1,
@@ -7236,67 +8984,39 @@ GridDB = {
 					["borderTexture"] = "Blizzard Tooltip",
 				},
 				["Sacer"] = {
-					["anchorRel"] = "TOPLEFT",
-					["PosY"] = -376.1702605598114,
-					["layouts"] = {
-						["bg"] = "By Group 15",
-						["raid"] = "By Group 15",
-					},
-					["layout"] = "By Group 5",
-					["ScaleSize"] = 1.05,
-					["Spacing"] = 0,
-					["horizontal"] = true,
-					["PosX"] = 0,
-					["Padding"] = 0,
-				},
-				["class/Druid"] = {
 					["hideTab"] = false,
 					["anchorRel"] = "TOPLEFT",
 					["BorderB"] = 0.5,
 					["layouts"] = {
 						["party"] = "By Group 5",
 						["solo"] = "By Group 5",
-						["raid"] = "By Group 10",
+						["raid"] = "By Group 15",
 						["arena"] = "By Group 5",
-						["bg"] = "By Group 40",
+						["bg"] = "By Group 15",
 						["heroic_raid"] = "By Group 25",
 					},
 					["BackgroundR"] = 0.1,
-					["ScaleSize"] = 1,
+					["ScaleSize"] = 1.05,
 					["FrameLock"] = false,
 					["BorderA"] = 1,
 					["BorderR"] = 0.5,
-					["Spacing"] = 10,
+					["Spacing"] = 0,
 					["anchor"] = "TOPLEFT",
 					["clamp"] = true,
 					["groupAnchor"] = "TOPLEFT",
-					["debug"] = false,
+					["PosY"] = -381.67561751221,
 					["layout"] = "By Group 5",
-					["PosY"] = -399.9999838047281,
-					["PosX"] = 499.9999850030646,
-					["BackgroundA"] = 0.65,
-					["horizontal"] = false,
-					["BorderG"] = 0.5,
-					["BackgroundG"] = 0.1,
-					["Padding"] = 1,
+					["PosX"] = 0,
 					["BackgroundB"] = 0.1,
+					["BackgroundA"] = 0.65,
+					["Padding"] = 0,
+					["BorderG"] = 0.5,
+					["debug"] = false,
+					["horizontal"] = true,
+					["BackgroundG"] = 0.1,
 					["borderTexture"] = "Blizzard Tooltip",
 				},
-				["Deadly"] = {
-					["anchorRel"] = "TOPLEFT",
-					["PosY"] = -441.022273397322,
-					["layouts"] = {
-						["bg"] = "By Group 25",
-						["arena"] = "By Group 5 w/Pets",
-					},
-					["layout"] = "By Group 10",
-					["ScaleSize"] = 1.2,
-					["PosX"] = 0,
-					["Padding"] = 0,
-					["horizontal"] = true,
-					["Spacing"] = 0,
-				},
-				["char/Skombrow - WoWArg"] = {
+				["char/Skombrow - Sin'Dorei"] = {
 					["anchorRel"] = "TOPLEFT",
 					["BorderB"] = 0.5019607843137255,
 					["layouts"] = {
@@ -7309,26 +9029,26 @@ GridDB = {
 					["BorderR"] = 0.5019607843137255,
 					["Spacing"] = 0,
 					["BackgroundG"] = 0.0196078431372549,
-					["PosY"] = -366.9445132291475,
-					["layout"] = "By Group 25",
+					["PosY"] = -411.905744002112,
+					["layout"] = "By Group 5",
 					["BackgroundA"] = 0.6500000059604645,
 					["BorderG"] = 0.5019607843137255,
+					["PosX"] = 0,
 					["Padding"] = 0,
 					["horizontal"] = true,
-					["PosX"] = 0,
 					["BackgroundB"] = 0.0196078431372549,
 				},
-				["char/Rivo - WoWArg"] = {
+				["class/Druid"] = {
 					["hideTab"] = false,
 					["anchorRel"] = "TOPLEFT",
 					["BorderB"] = 0.5,
 					["layouts"] = {
 						["party"] = "By Group 5",
 						["solo"] = "By Group 5",
-						["arena"] = "By Group 5",
 						["heroic_raid"] = "By Group 25",
-						["bg"] = "By Group 40",
 						["raid"] = "By Group 10",
+						["bg"] = "By Group 40",
+						["arena"] = "By Group 5",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1,
@@ -7340,63 +9060,16 @@ GridDB = {
 					["clamp"] = true,
 					["groupAnchor"] = "TOPLEFT",
 					["debug"] = false,
-					["layout"] = "By Group 25",
-					["PosY"] = -400.0000137450104,
-					["PosX"] = 500.0000466404907,
-					["BackgroundA"] = 0.65,
-					["horizontal"] = false,
-					["BorderG"] = 0.5,
-					["BackgroundG"] = 0.1,
-					["Padding"] = 1,
-					["BackgroundB"] = 0.1,
-					["borderTexture"] = "Blizzard Tooltip",
-				},
-				["Default"] = {
-					["anchorRel"] = "TOPLEFT",
-					["PosY"] = -442.3381479025384,
-					["layouts"] = {
-						["bg"] = "By Group 25",
-						["raid"] = "By Group 15",
-					},
 					["layout"] = "By Group 5",
-					["ScaleSize"] = 1.1,
-					["Spacing"] = 0,
-					["Padding"] = 0,
-					["PosX"] = 0.8533355112068273,
-					["horizontal"] = true,
-				},
-				["char/Deadly - WoWArg"] = {
-					["hideTab"] = false,
-					["anchorRel"] = "TOPLEFT",
-					["BorderB"] = 0.5,
-					["layouts"] = {
-						["party"] = "Grupo de 5",
-						["solo"] = "Grupo de 5",
-						["raid"] = "Grupo de 10",
-						["arena"] = "Grupo de 5",
-						["bg"] = "Grupo de 40",
-						["heroic_raid"] = "Grupo de 25",
-					},
-					["BackgroundR"] = 0.1,
-					["ScaleSize"] = 1,
-					["FrameLock"] = false,
-					["BorderA"] = 1,
-					["BorderR"] = 0.5,
-					["Spacing"] = 10,
-					["anchor"] = "TOPLEFT",
-					["clamp"] = true,
-					["groupAnchor"] = "TOPLEFT",
-					["debug"] = false,
-					["layout"] = "Grupo de 5",
-					["borderTexture"] = "Blizzard Tooltip",
-					["BackgroundB"] = 0.1,
+					["PosY"] = -400.0000744171275,
+					["PosX"] = 500.0000309424868,
 					["BackgroundA"] = 0.65,
-					["Padding"] = 1,
+					["horizontal"] = false,
 					["BorderG"] = 0.5,
 					["BackgroundG"] = 0.1,
-					["horizontal"] = false,
-					["PosX"] = 499.9999567784078,
-					["PosY"] = -399.9999478447218,
+					["Padding"] = 1,
+					["BackgroundB"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
 				},
 				["class/Brujo"] = {
 					["hideTab"] = false,
@@ -7405,10 +9078,10 @@ GridDB = {
 					["layouts"] = {
 						["party"] = "Grupo de 5",
 						["solo"] = "Grupo de 5",
-						["raid"] = "Grupo de 10",
-						["arena"] = "Grupo de 5",
-						["bg"] = "Grupo de 40",
 						["heroic_raid"] = "Grupo de 25",
+						["raid"] = "Grupo de 10",
+						["bg"] = "Grupo de 40",
+						["arena"] = "Grupo de 5",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1,
@@ -7431,6 +9104,61 @@ GridDB = {
 					["PosX"] = 499.9999909643633,
 					["PosY"] = -399.9999507147086,
 				},
+				["Deadly"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["arena"] = "By Group 5 w/Pets",
+						["raid"] = "By Group 15",
+						["bg"] = "By Group 25",
+						["heroic_raid"] = "By Group 25",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1.2,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["PosX"] = 0,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["PosY"] = -418.0833886567643,
+					["layout"] = "By Group 5",
+					["Spacing"] = 0,
+					["BackgroundB"] = 0.1,
+					["BackgroundA"] = 0.65,
+					["horizontal"] = true,
+					["BorderG"] = 0.5,
+					["debug"] = false,
+					["Padding"] = 0,
+					["BackgroundG"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
+				},
+				["char/Skombrow - WoWArg"] = {
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5019607843137255,
+					["layouts"] = {
+						["bg"] = "By Group 25",
+						["raid"] = "By Group 15",
+					},
+					["BackgroundR"] = 0.0196078431372549,
+					["ScaleSize"] = 1.05,
+					["BorderA"] = 0.6500000059604645,
+					["BorderR"] = 0.5019607843137255,
+					["Spacing"] = 0,
+					["BackgroundG"] = 0.0196078431372549,
+					["PosY"] = -374.2852690006075,
+					["layout"] = "By Group 5",
+					["BackgroundA"] = 0.6500000059604645,
+					["BorderG"] = 0.5019607843137255,
+					["horizontal"] = true,
+					["Padding"] = 0,
+					["PosX"] = 0,
+					["BackgroundB"] = 0.0196078431372549,
+				},
 				["class/Cazador"] = {
 					["hideTab"] = false,
 					["anchorRel"] = "TOPLEFT",
@@ -7438,10 +9166,10 @@ GridDB = {
 					["layouts"] = {
 						["party"] = "Grupo de 5",
 						["solo"] = "Grupo de 5",
-						["raid"] = "Grupo de 10",
-						["arena"] = "Grupo de 5",
-						["bg"] = "Grupo de 40",
 						["heroic_raid"] = "Grupo de 25",
+						["raid"] = "Grupo de 10",
+						["bg"] = "Grupo de 40",
+						["arena"] = "Grupo de 5",
 					},
 					["BackgroundR"] = 0.1,
 					["ScaleSize"] = 1,
@@ -7464,33 +9192,123 @@ GridDB = {
 					["BackgroundB"] = 0.1,
 					["borderTexture"] = "Blizzard Tooltip",
 				},
+				["Default"] = {
+					["anchorRel"] = "TOPLEFT",
+					["layouts"] = {
+						["raid"] = "By Group 15",
+						["bg"] = "By Group 25",
+					},
+					["ScaleSize"] = 1.1,
+					["Spacing"] = 0,
+					["PosY"] = -432.2452325469982,
+					["layout"] = "By Group 5",
+					["horizontal"] = true,
+					["PosX"] = 0,
+					["Padding"] = 0,
+				},
+				["char/Deadly - WoWArg"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "Grupo de 5",
+						["solo"] = "Grupo de 5",
+						["heroic_raid"] = "Grupo de 25",
+						["raid"] = "Grupo de 10",
+						["bg"] = "Grupo de 40",
+						["arena"] = "Grupo de 5",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "Grupo de 5",
+					["borderTexture"] = "Blizzard Tooltip",
+					["BackgroundB"] = 0.1,
+					["BackgroundA"] = 0.65,
+					["Padding"] = 1,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["horizontal"] = false,
+					["PosX"] = 499.9999567784078,
+					["PosY"] = -399.9999478447218,
+				},
 				["DPS"] = {
 					["anchorRel"] = "TOPLEFT",
-					["PosY"] = -435.5168662311174,
+					["PosY"] = -441.0221244079079,
 					["layouts"] = {
 						["bg"] = "By Group 25",
 						["raid"] = "By Group 15",
 					},
 					["layout"] = "By Group 5",
 					["ScaleSize"] = 1.1,
-					["Spacing"] = 0,
-					["Padding"] = 0,
-					["horizontal"] = true,
 					["PosX"] = 0,
+					["Padding"] = 0,
+					["Spacing"] = 0,
+					["horizontal"] = true,
+				},
+				["char/Rivo - WoWArg"] = {
+					["hideTab"] = false,
+					["anchorRel"] = "TOPLEFT",
+					["BorderB"] = 0.5,
+					["layouts"] = {
+						["party"] = "By Group 5",
+						["solo"] = "By Group 5",
+						["raid"] = "By Group 10",
+						["arena"] = "By Group 5",
+						["bg"] = "By Group 40",
+						["heroic_raid"] = "By Group 25",
+					},
+					["BackgroundR"] = 0.1,
+					["ScaleSize"] = 1,
+					["FrameLock"] = false,
+					["BorderA"] = 1,
+					["BorderR"] = 0.5,
+					["Spacing"] = 10,
+					["anchor"] = "TOPLEFT",
+					["clamp"] = true,
+					["groupAnchor"] = "TOPLEFT",
+					["debug"] = false,
+					["layout"] = "By Group 25",
+					["PosY"] = -400.0000137450104,
+					["PosX"] = 500.0000466404907,
+					["BackgroundA"] = 0.65,
+					["horizontal"] = false,
+					["BorderG"] = 0.5,
+					["BackgroundG"] = 0.1,
+					["Padding"] = 1,
+					["BackgroundB"] = 0.1,
+					["borderTexture"] = "Blizzard Tooltip",
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
+					["Spacing"] = 0,
+					["anchorRel"] = "TOPLEFT",
+					["PosY"] = -456.8894473450347,
+					["PosX"] = 0,
+					["horizontal"] = true,
+					["layout"] = "By Group 5",
+					["Padding"] = 0,
+					["ScaleSize"] = 1.2,
 				},
 				["char/Doroteo - WoWArg"] = {
 					["anchorRel"] = "TOPLEFT",
+					["PosY"] = -445.8541739171463,
 					["layouts"] = {
 						["solo"] = "By Group 5 w/Pets",
 						["bg"] = "By Group 25",
 					},
+					["layout"] = "By Group 5 w/Pets",
 					["ScaleSize"] = 1.1,
 					["Spacing"] = 0,
-					["PosY"] = -445.8541739171463,
-					["layout"] = "By Group 5 w/Pets",
 					["Padding"] = 0,
-					["PosX"] = 0,
 					["horizontal"] = true,
+					["PosX"] = 0,
 				},
 			},
 		},
@@ -7504,13 +9322,21 @@ GridDB = {
 				},
 				["char/Rivo - WoWArg"] = {
 				},
+				[""] = {
+				},
+				["Deadly"] = {
+				},
 				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
 				},
 				["char/Deadly - WoWArg"] = {
 				},
-				[""] = {
+				["char/Skombrow - Sin'Dorei"] = {
 				},
 				["class/Druid"] = {
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -7521,93 +9347,104 @@ GridDB = {
 				[""] = {
 					["debug"] = false,
 					["unit_name"] = {
-						["text"] = "Nombre de unidad",
 						["class"] = true,
+						["text"] = "Nombre de unidad",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 1,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
 					["unit_name"] = {
-						["class"] = true,
 						["priority"] = 1,
+						["class"] = true,
+						["enable"] = true,
+						["text"] = "Nombre de unidad",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["text"] = "Nombre de unidad",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Cazador"] = {
 					["debug"] = false,
 					["unit_name"] = {
-						["text"] = "Nombre de unidad",
 						["class"] = true,
+						["text"] = "Nombre de unidad",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 1,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Druid"] = {
 					["debug"] = false,
 					["unit_name"] = {
+						["class"] = true,
 						["text"] = "Unit Name",
-						["class"] = true,
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
 							["b"] = 1,
 							["g"] = 1,
 							["r"] = 1,
 						},
-						["priority"] = 1,
-						["range"] = false,
-						["enable"] = true,
-					},
-				},
-				["Deadly"] = {
-					["unit_name"] = {
-						["text"] = "Nombre de unidad",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["unit_name"] = {
-						["color"] = {
-							["a"] = 1,
-							["r"] = 1,
-							["g"] = 1,
-							["b"] = 1,
-						},
-						["priority"] = 1,
-						["enable"] = true,
-						["class"] = true,
-						["range"] = false,
-						["text"] = "Nombre de unidad",
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["debug"] = false,
 					["unit_name"] = {
+						["class"] = true,
+						["text"] = "Unit Name",
+						["enable"] = true,
+						["priority"] = 1,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["class"] = true,
+						["priority"] = 1,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["text"] = "Nombre de unidad",
+						["range"] = false,
+						["enable"] = true,
+					},
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["unit_name"] = {
 						["text"] = "Unit Name",
 						["class"] = true,
 						["color"] = {
@@ -7621,181 +9458,188 @@ GridDB = {
 						["enable"] = true,
 					},
 				},
-				["class/Brujo"] = {
+				["char/Deadly - WoWArg"] = {
 					["debug"] = false,
 					["unit_name"] = {
+						["enable"] = true,
+						["priority"] = 1,
 						["color"] = {
 							["a"] = 1,
 							["r"] = 1,
 							["g"] = 1,
 							["b"] = 1,
 						},
-						["priority"] = 1,
-						["enable"] = true,
-						["class"] = true,
-						["range"] = false,
 						["text"] = "Nombre de unidad",
+						["range"] = false,
+						["class"] = true,
 					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
+				},
+				["class/Brujo"] = {
+					["debug"] = false,
+					["unit_name"] = {
+						["enable"] = true,
+						["priority"] = 1,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 1,
+							["g"] = 1,
+							["b"] = 1,
+						},
+						["text"] = "Nombre de unidad",
+						["range"] = false,
+						["class"] = true,
+					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
 			},
 		},
-		["GridStatusHeals"] = {
+		["GridStatusVoiceComm"] = {
 			["profiles"] = {
 				[""] = {
 					["debug"] = false,
-					["alert_heals"] = {
-						["heal_filter"] = {
-							["direct"] = true,
-							["hot"] = true,
-							["channeled"] = true,
-						},
-						["ignore_self"] = false,
+					["alert_voice"] = {
+						["text"] = "Hablando",
+						["enable"] = false,
 						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
+							["b"] = 0.5,
 							["g"] = 1,
-							["r"] = 0,
+							["r"] = 0.5,
 						},
-						["text"] = "Sanaciones entrantes",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["Doroteo"] = {
 					["debug"] = false,
-					["alert_heals"] = {
-						["ignore_self"] = false,
-						["heal_filter"] = {
-							["direct"] = true,
-							["hot"] = true,
-							["channeled"] = true,
-						},
-						["text"] = "Sanaciones entrantes",
+					["alert_voice"] = {
+						["priority"] = 50,
+						["enable"] = false,
+						["text"] = "Hablando",
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
+							["b"] = 0.5,
 							["g"] = 1,
-							["r"] = 0,
+							["r"] = 0.5,
 						},
-						["priority"] = 50,
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Cazador"] = {
 					["debug"] = false,
-					["alert_heals"] = {
-						["heal_filter"] = {
-							["direct"] = true,
-							["hot"] = true,
-							["channeled"] = true,
-						},
-						["ignore_self"] = false,
+					["alert_voice"] = {
+						["text"] = "Hablando",
+						["enable"] = false,
 						["priority"] = 50,
+						["range"] = false,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
+							["b"] = 0.5,
 							["g"] = 1,
-							["r"] = 0,
+							["r"] = 0.5,
 						},
-						["text"] = "Sanaciones entrantes",
-						["range"] = false,
-						["enable"] = true,
 					},
 				},
 				["class/Druid"] = {
 					["debug"] = false,
-					["alert_heals"] = {
-						["heal_filter"] = {
-							["direct"] = true,
-							["hot"] = true,
-							["channeled"] = true,
-						},
-						["ignore_self"] = false,
-						["priority"] = 50,
-						["color"] = {
-							["a"] = 1,
-							["b"] = 0,
-							["g"] = 1,
-							["r"] = 0,
-						},
-						["text"] = "Incoming heals",
-						["range"] = false,
-						["enable"] = true,
-					},
-				},
-				["Deadly"] = {
-					["alert_heals"] = {
-						["text"] = "Sanaciones entrantes",
-					},
-				},
-				["char/Skombrow - WoWArg"] = {
-				},
-				["char/Deadly - WoWArg"] = {
-					["debug"] = false,
-					["alert_heals"] = {
-						["heal_filter"] = {
-							["direct"] = true,
-							["channeled"] = true,
-							["hot"] = true,
-						},
-						["color"] = {
-							["a"] = 1,
-							["r"] = 0,
-							["g"] = 1,
-							["b"] = 0,
-						},
-						["text"] = "Sanaciones entrantes",
-						["enable"] = true,
+					["alert_voice"] = {
+						["text"] = "Talking",
+						["enable"] = false,
 						["priority"] = 50,
 						["range"] = false,
-						["ignore_self"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 1,
+							["r"] = 0.5,
+						},
 					},
 				},
 				["char/Rivo - WoWArg"] = {
 					["debug"] = false,
-					["alert_heals"] = {
-						["heal_filter"] = {
-							["direct"] = true,
-							["hot"] = true,
-							["channeled"] = true,
+					["alert_voice"] = {
+						["text"] = "Talking",
+						["enable"] = false,
+						["priority"] = 50,
+						["range"] = false,
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 1,
+							["r"] = 0.5,
 						},
-						["ignore_self"] = false,
+					},
+				},
+				["Deadly"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["text"] = "Hablando",
+						["color"] = {
+							["a"] = 1,
+							["b"] = 0.5,
+							["g"] = 1,
+							["r"] = 0.5,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["enable"] = false,
+					},
+				},
+				["char/Skombrow - WoWArg"] = {
+				},
+				["Sacer"] = {
+					["debug"] = false,
+					["alert_voice"] = {
 						["priority"] = 50,
 						["color"] = {
 							["a"] = 1,
-							["b"] = 0,
+							["b"] = 0.5,
 							["g"] = 1,
-							["r"] = 0,
+							["r"] = 0.5,
 						},
-						["text"] = "Incoming heals",
+						["text"] = "Talking",
 						["range"] = false,
-						["enable"] = true,
+						["enable"] = false,
 					},
+				},
+				["char/Deadly - WoWArg"] = {
+					["debug"] = false,
+					["alert_voice"] = {
+						["enable"] = false,
+						["color"] = {
+							["a"] = 1,
+							["r"] = 0.5,
+							["g"] = 1,
+							["b"] = 0.5,
+						},
+						["priority"] = 50,
+						["range"] = false,
+						["text"] = "Hablando",
+					},
+				},
+				["char/Skombrow - Sin'Dorei"] = {
 				},
 				["class/Brujo"] = {
 					["debug"] = false,
-					["alert_heals"] = {
-						["heal_filter"] = {
-							["direct"] = true,
-							["channeled"] = true,
-							["hot"] = true,
-						},
+					["alert_voice"] = {
+						["enable"] = false,
 						["color"] = {
 							["a"] = 1,
-							["r"] = 0,
+							["r"] = 0.5,
 							["g"] = 1,
-							["b"] = 0,
+							["b"] = 0.5,
 						},
-						["text"] = "Sanaciones entrantes",
-						["enable"] = true,
 						["priority"] = 50,
 						["range"] = false,
-						["ignore_self"] = false,
+						["text"] = "Hablando",
 					},
+				},
+				["char/Skombrow - Sin'dorei(WoWArg)"] = {
 				},
 				["char/Doroteo - WoWArg"] = {
 				},
@@ -7810,12 +9654,14 @@ GridDB = {
 		},
 	},
 	["currentProfile"] = {
-		["Deadly - WoWArg"] = "DPS",
 		["Rivo - WoWArg"] = "Sacer",
-		["Doroteo - WoWArg"] = "char",
-		["Skombrow - WoWArg"] = "char",
-		["Subjected - WoWArg"] = "Deadly",
+		["Skombrow - Sin'Dorei"] = "char",
+		["Skombrow - Sin'dorei(WoWArg)"] = "char",
+		["Deadly - WoWArg"] = "DPS",
 		["Snts - WoWArg"] = "DPS",
+		["Skombrow - WoWArg"] = "char",
+		["Doroteo - WoWArg"] = "char",
+		["Subjected - WoWArg"] = "Deadly",
 	},
 	["profiles"] = {
 		["class/Brujo"] = {
@@ -7829,12 +9675,22 @@ GridDB = {
 		},
 		["class/Druid"] = {
 		},
+		["char/Skombrow - Sin'Dorei"] = {
+			["minimap"] = {
+				["minimapPos"] = 295.7556413830473,
+			},
+		},
 		["Deadly"] = {
 			["minimap"] = {
 				["minimapPos"] = 301.5382529556588,
 			},
 		},
 		["char/Skombrow - WoWArg"] = {
+			["minimap"] = {
+				["minimapPos"] = 295.7556413830473,
+			},
+		},
+		["Sacer"] = {
 			["minimap"] = {
 				["minimapPos"] = 295.7556413830473,
 			},
@@ -7846,17 +9702,14 @@ GridDB = {
 		},
 		["char/Deadly - WoWArg"] = {
 		},
-		["char/Rivo - WoWArg"] = {
-		},
-		["Sacer"] = {
-			["minimap"] = {
-				["minimapPos"] = 295.7556413830473,
-			},
-		},
 		["DPS"] = {
 			["minimap"] = {
 				["minimapPos"] = 301.5382529556588,
 			},
+		},
+		["char/Rivo - WoWArg"] = {
+		},
+		["char/Skombrow - Sin'dorei(WoWArg)"] = {
 		},
 		["char/Doroteo - WoWArg"] = {
 			["minimap"] = {

@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherConfig.lua 754 2008-10-14 04:43:39Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherConfig.lua 891 2010-10-18 05:06:32Z Esamynn $
 
 	License:
 	This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Saved Variables Configuration and management code
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherConfig.lua $", "$Rev: 754 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherConfig.lua $", "$Rev: 891 $")
 
 local _tr = Gatherer.Locale.Tr
 local _trC = Gatherer.Locale.TrClient
@@ -90,6 +90,9 @@ local function getDefault(setting)
 	if (setting == "raid.print.recv")   then return true    end
 	if (setting == "personal.print")    then return false   end
 	if (setting == "about.loaded")      then return false   end
+	if (setting == "track.colour.HERB") then return "0.250,0.750,0.250" end
+	if (setting == "track.colour.MINE") then return "1.000,0.500,0.250" end
+	if (setting == "track.colour.FISH") then return "0.100,0.100,1.000" end
 
 	-- check for a plugin default
 	for _, data in pairs(Gatherer.Plugins.Registrations) do
@@ -397,19 +400,6 @@ local function getter(setting)
 	if (setting == 'profile') then
 		return getUserProfileName()
 	end
-	if (setting == 'track.styles') then
-		return {
-			"Black",
-			"Blue",
-			"Cyan",
-			"Green",
-			"Magenta",
-			"Red",
-			"Test",
-			"White",
-			"Yellow",
-		}
-	end
 	local db = getUserProfile()
 	if ( db[setting] ~= nil ) then
 		return db[setting]
@@ -420,6 +410,11 @@ end
 function GetSetting(setting, default)
 	local option = getter(setting)
 	if ( option ~= nil ) then
+		local a,b,c = strsplit(".", setting)
+		if ( a == "track" and b == "colour" ) then
+			local r, g, b = strsplit(",", tostring(option))
+			return r, g, b
+		end
 		return option
 	else
 		return default
@@ -468,16 +463,23 @@ function DisplayFilter_MiniMap( nodeId )
 	)
 end
 
-function ShowOptions()
+function Show()
 	MakeGuiConfig()
-	Gatherer.Report.Hide()
 	Gui:Show()
 end
 
-function HideOptions()
+function ShowOptions()
+	Show()
+end
+
+function Hide()
 	if ( Gui ) then
 		Gui:Hide()
 	end
+end
+
+function HideOptions()
+	Hide()
 end
 
 function ToggleOptions()
@@ -592,7 +594,12 @@ function MakeGuiConfig()
 	gui:AddControl(id, "Slider",    0.5, 2, "fade.percent", 0, 100, 1, _trL("Distance fading: %d%%"))
 	gui:AddControl(id, "Checkbox",  0.5, 1, "track.enable", _trL("Enable tracking skill feature"));
 	gui:AddControl(id, "Checkbox",  0.5, 2, "track.circle", _trL("Convert to tracking icon when close"));
-	gui:AddControl(id, "Selectbox", 0.5, 3, "track.styles", "track.style", _trL("Tracking icon"));
+	for _, type in pairs(Gatherer.Constants.ProfessionTextures) do
+		if ( type ~= "FISH" ) then
+			local nameKey = { MINE = "TRADE_MINING", HERB = "TRADE_HERBALISM"}
+			gui:AddControl(id, "ColorSelect", 0.5, 3, "track.colour."..type, _trC(nameKey[type]) or type);
+		end
+	end
 	gui:AddControl(id, "Checkbox",  0.5, 2, "track.current", _trL("Only for active tracking skill"));
 	gui:AddControl(id, "Slider",    0.5, 2, "track.distance", 50, 150, 1, _trL("Track at: %d yards"))
 	gui:AddControl(id, "Slider",    0.5, 2, "track.opacity", 0, 100, 1, _trL("Icon opacity: %d%%"))
@@ -780,7 +787,7 @@ function SharingBlacklist_Update()
 	local ignoreIndex;
 	for i=1, numIgnoreButtons, 1 do
 		ignoreIndex = i + ignoreOffset;
-		ignoreButton = getglobal("Gatherer_SharingBlacklist_IgnoreButton"..i);
+		ignoreButton = _G["Gatherer_SharingBlacklist_IgnoreButton"..i];
 		ignoreButton:SetText(SharingBlacklist[ignoreIndex] or "");
 		ignoreButton:SetID(ignoreIndex);
 		-- Update the highlight
@@ -912,26 +919,26 @@ StaticPopupDialogs["GATHERER_ADD_SHARING_IGNORE"] = {
 	button2 = _trL("CANCEL"),
 	hasEditBox = 1,
 	maxLetters = 12,
-	OnAccept = function()
-		local editBox = getglobal(this:GetParent():GetName().."EditBox");
+	OnAccept = function( self )
+		local editBox = _G[self:GetParent():GetName().."EditBox"];
 		SharingBlacklist_Add(editBox:GetText());
 	end,
-	OnShow = function()
-		getglobal(this:GetName().."EditBox"):SetFocus();
+	OnShow = function( self )
+		_G[self:GetName().."EditBox"]:SetFocus();
 	end,
-	OnHide = function()
+	OnHide = function( self )
 		if ( ChatFrameEditBox:IsShown() ) then
 			ChatFrameEditBox:SetFocus();
 		end
-		getglobal(this:GetName().."EditBox"):SetText("");
+		_G[self:GetName().."EditBox"]:SetText("");
 	end,
-	EditBoxOnEnterPressed = function()
-		local name = getglobal(this:GetParent():GetName().."EditBox"):GetText();
-		this:GetParent():Hide();
+	EditBoxOnEnterPressed = function( self )
+		local name = _G[self:GetParent():GetName().."EditBox"]:GetText();
+		self:GetParent():Hide();
 		SharingBlacklist_Add(name);
 	end,
-	EditBoxOnEscapePressed = function()
-		this:GetParent():Hide();
+	EditBoxOnEscapePressed = function( self )
+		self:GetParent():Hide();
 	end,
 	timeout = 0,
 	exclusive = 1,
@@ -943,7 +950,7 @@ StaticPopupDialogs["GATHERER_REMOVE_BLACKLISTED_NODES"] = {
 	text = _trL("Do you wish to remove all nodes that have been shared by this player?"),
 	button1 = _trL("YES"),
 	button2 = _trL("NO"),
-	OnAccept = function()
+	OnAccept = function( self )
 		StaticPopup_Show("GATHERER_CONFIRM_REMOVE_BLACKLISTED_NODES", SharingBlacklist_CountBlacklistedNodes())
 	end,
 	timeout = 0,
@@ -956,7 +963,7 @@ StaticPopupDialogs["GATHERER_CONFIRM_REMOVE_BLACKLISTED_NODES"] = {
 	text = _trL("Are you sure you wish to purge all shares from this player from your database?  This operation CANNOT be undone and will remove %d node(s) from your Gatherer database."),
 	button1 = _trL("YES"),
 	button2 = _trL("NO"),
-	OnAccept = function()
+	OnAccept = function( self )
 		SharingBlacklist_RemoveBlacklistedNodes()
 	end,
 	timeout = 0,

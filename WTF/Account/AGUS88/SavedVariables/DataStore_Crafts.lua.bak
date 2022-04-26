@@ -1,0 +1,39 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["Professions"] = {
+					["Cocina"] = {
+						["isSecondary"] = true,
+					},
+					["Pesca"] = {
+						["isSecondary"] = true,
+					},
+					["Equitación"] = {
+						["isSecondary"] = true,
+					},
+					["Primeros auxilios"] = {
+						["isSecondary"] = true,
+					},
+				},
+			},
+		},
+		["Guilds"] = {
+			["Default.WoWArg.MetalMutans"] = {
+				["Members"] = {
+					["Delatierra"] = {
+						["Professions"] = {
+							[3] = 2550,
+						},
+						["Version"] = 12340,
+						["lastUpdate"] = 1553378854,
+					},
+				},
+			},
+		},
+	},
+}

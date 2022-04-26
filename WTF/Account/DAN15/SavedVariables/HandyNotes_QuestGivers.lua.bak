@@ -1,0 +1,10 @@
+
+HandyNotes_QuestGiversDB = {
+	["profileKeys"] = {
+		["Nataku - Sin'dorei(WoWArg)"] = "Nataku - Sin'dorei(WoWArg)",
+	},
+	["profiles"] = {
+		["Nataku - Sin'dorei(WoWArg)"] = {
+		},
+	},
+}

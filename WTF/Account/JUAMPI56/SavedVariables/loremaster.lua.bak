@@ -1,0 +1,14 @@
+
+LoremasterDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "char",
+	},
+	["char"] = {
+		["Skombrow - WoWArg"] = {
+			["settings"] = {
+				["version"] = "v2.033 20100226",
+				["faction"] = "Alliance",
+			},
+		},
+	},
+}

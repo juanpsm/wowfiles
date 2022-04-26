@@ -1,0 +1,32 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Nataku - WoWArg"] = "Nataku - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Nataku"] = {
+				["XPMax"] = 0,
+				["played"] = 19638418,
+				["guildRankName"] = "Sanin ",
+				["zone"] = "Testing",
+				["lastUpdate"] = 1592435363,
+				["englishClass"] = "PALADIN",
+				["race"] = "Human",
+				["level"] = 80,
+				["XP"] = 390,
+				["RestXP"] = 0,
+				["money"] = 2155369,
+				["gender"] = 2,
+				["subZone"] = "",
+				["guildRankIndex"] = 1,
+				["name"] = "Nataku",
+				["faction"] = "Alliance",
+				["englishRace"] = "Human",
+				["guildName"] = "Land Of The Fire",
+				["lastLogoutTimestamp"] = 1592435363,
+				["class"] = "Paladin",
+			},
+		},
+	},
+}

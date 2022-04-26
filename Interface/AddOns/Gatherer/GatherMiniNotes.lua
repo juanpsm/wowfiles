@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherMiniNotes.lua 764 2008-10-20 18:05:49Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherMiniNotes.lua 880 2010-10-12 07:49:21Z Esamynn $
 
 	License:
 	This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Minimap Drawing Routines
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherMiniNotes.lua $", "$Rev: 764 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherMiniNotes.lua $", "$Rev: 880 $")
 
 local _tr = Gatherer.Locale.Tr
 local _trC = Gatherer.Locale.TrClient
@@ -39,6 +39,8 @@ local Astrolabe = DongleStub(Gatherer.AstrolabeVersion)
 local timeDiff = 0
 local checkDiff = 0
 local numNotesUsed = 0
+
+local SHADED_TEXTURE = "Interface\\AddOns\\Gatherer\\Shaded\\White"
 
 -- table to store current active Minimap Notes objects
 Gatherer.MiniNotes.Notes = {}
@@ -216,7 +218,7 @@ function Gatherer.MiniNotes.UpdateMinimapNotes(timeDelta, force)
 				if ( tracEnab and (nodeDist <= tracDist) ) then
 					if ( (not tracCurr) or Gatherer.Util.IsNodeTracked(nodeID) ) then
 						if (tracCirc) then
-							selectedTexture = "Interface\\AddOns\\Gatherer\\Shaded\\"..tracStyl
+							selectedTexture = SHADED_TEXTURE
 							trimTexture = false
 						end
 						opacity = tracOpac
@@ -283,10 +285,15 @@ function Gatherer.MiniNotes.UpdateMinimapNotes(timeDelta, force)
 					gatherNoteTexture:SetVertexColor(0.9,0.4,0.4)
 				elseif ( iconColor == "green" ) then
 					gatherNoteTexture:SetVertexColor(0.4,0.9,0.4)
-				elseif ( iconColor == "blue" ) then
-					gatherNoteTexture:SetVertexColor(0.4,0.4,0.9)
 				else
-					gatherNoteTexture:SetVertexColor(1,1,1)
+					local r, g, b = 1, 1, 1;
+					if ( selectedTexture == SHADED_TEXTURE ) then
+						local nodeType = tostring(Gatherer.Nodes.Objects[nodeID]) -- in case nil is returned, call tostring
+						if ( setting("track.colour."..nodeType) ) then
+							r, g, b = setting("track.colour."..nodeType)
+						end
+					end
+					gatherNoteTexture:SetVertexColor(r, g, b);
 				end
 				gatherNoteTexture:SetAlpha(opacity)
 			end
@@ -314,7 +321,7 @@ function Gatherer.MiniNotes.MiniNoteOnEnter(frame)
 	local showdist = setting("minimap.tooltip.distance")
 	local showrate = setting("minimap.tooltip.rate")
 	
-	tooltip:SetOwner(this, "ANCHOR_BOTTOMLEFT")
+	tooltip:SetOwner(frame, "ANCHOR_BOTTOMLEFT")
 	
 	local id = frame.id
 	local name = Gatherer.Util.GetNodeName(id)

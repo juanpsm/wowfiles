@@ -101,8 +101,8 @@ NeedToKnow_Settings = {
 							},
 							["blink_enabled"] = false,
 							["usable_duration"] = 0,
-							["show_spark"] = true,
 							["append_cd"] = true,
+							["show_spark"] = true,
 							["vct_extra"] = 0,
 							["vct_spell"] = "",
 						}, -- [2]

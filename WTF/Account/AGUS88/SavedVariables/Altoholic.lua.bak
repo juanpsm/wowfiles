@@ -1,0 +1,30 @@
+
+AltoholicDB = {
+	["profileKeys"] = {
+		["Delatierra - WoWArg"] = "Delatierra - WoWArg",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.WoWArg.Delatierra"] = {
+				["Friends"] = {
+					"Hachikuji", -- [1]
+					"Balbek", -- [2]
+					"Claudiomagno", -- [3]
+					"Darkdilankp", -- [4]
+					"Eithaan", -- [5]
+					"Kaisaa", -- [6]
+					"Kaldalis", -- [7]
+					"Maveris", -- [8]
+					"Mithrill", -- [9]
+					"Olaia", -- [10]
+					"Rema", -- [11]
+					"Rognar", -- [12]
+					"Rvaras", -- [13]
+					"Siamendrica", -- [14]
+					"Ssaruman", -- [15]
+					"Traxxess", -- [16]
+				},
+			},
+		},
+	},
+}

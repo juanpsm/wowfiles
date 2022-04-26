@@ -8,24 +8,24 @@ DataStore_CurrenciesDB = {
 		["Characters"] = {
 			["Default.WoWArg.Zelphar"] = {
 				["Currencies"] = {
-					"0|Jugador contra Jugador", -- [1]
-					"1|Fragmento de vigilante de piedra|165|43228", -- [2]
-					"1|Marca de Honor de Conquista del Invierno|4|43589", -- [3]
-					"1|Marca de Honor de la Cuenca de Arathi|9|20559", -- [4]
-					"1|Marca de Honor de la Playa de los Ancestros|5|42425", -- [5]
-					"1|Puntos de arena|0|43307", -- [6]
-					"1|Puntos de honor|19005|43308", -- [7]
-					"0|Mazmorra y banda", -- [8]
-					"1|Emblema de conquista|0|45624", -- [9]
-					"1|Emblema de escarcha|110|49426", -- [10]
-					"1|Emblema de heroísmo|0|40752", -- [11]
-					"1|Emblema de triunfo|28|47241", -- [12]
-					"1|Emblema de valor|0|40753", -- [13]
-					"0|Miscelánea", -- [14]
-					"1|Distintivo de justicia|11|29434", -- [15]
-					"1|Sello de Campeón|6|44990", -- [16]
+					"0|Dungeon and Raid", -- [1]
+					"1|Emblem of Conquest|0|45624", -- [2]
+					"1|Emblem of Frost|138|49426", -- [3]
+					"1|Emblem of Heroism|0|40752", -- [4]
+					"1|Emblem of Triumph|28|47241", -- [5]
+					"1|Emblem of Valor|0|40753", -- [6]
+					"0|Miscellaneous", -- [7]
+					"1|Badge of Justice|11|29434", -- [8]
+					"1|Champion's Seal|6|44990", -- [9]
+					"0|Player vs. Player", -- [10]
+					"1|Arathi Basin Mark of Honor|9|20559", -- [11]
+					"1|Arena Points|0|43307", -- [12]
+					"1|Honor Points|19005|43308", -- [13]
+					"1|Stone Keeper's Shard|165|43228", -- [14]
+					"1|Strand of the Ancients Mark of Honor|5|42425", -- [15]
+					"1|Wintergrasp Mark of Honor|4|43589", -- [16]
 				},
-				["lastUpdate"] = 1570170031,
+				["lastUpdate"] = 1589604468,
 			},
 			["Default.WoWArg.Gnomeansno"] = {
 				["Currencies"] = {

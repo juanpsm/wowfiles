@@ -1,7 +1,7 @@
 --[[
 	Gatherer Addon for World of Warcraft(tm).
-	Version: 3.1.14 (<%codename%>)
-	Revision: $Id: GatherMiniIcon.lua 788 2009-01-21 23:27:44Z Esamynn $
+	Version: 3.1.16 (<%codename%>)
+	Revision: $Id: GatherMiniIcon.lua 879 2010-09-19 12:08:21Z kandoko $
 
 	License:
 		This program is free software; you can redistribute it and/or
@@ -27,7 +27,7 @@
 
 	Minimap icon
 ]]
-Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/release/Gatherer/GatherMiniIcon.lua $", "$Rev: 788 $")
+Gatherer_RegisterRevision("$URL: http://svn.norganna.org/gatherer/trunk/Gatherer/GatherMiniIcon.lua $", "$Rev: 879 $")
 
 
 local miniIcon = CreateFrame("Button", "Gatherer_MinimapOptionsButton", Minimap);
@@ -134,27 +134,49 @@ miniIcon:SetScript("OnClick", click)
 miniIcon:SetScript("OnUpdate", update)
 
 local sideIcon
-if LibStub then
-	local SlideBar = LibStub:GetLibrary("SlideBar", true)
-	if SlideBar then
-		sideIcon = SlideBar.AddButton("Gatherer", "Interface\\AddOns\\Gatherer\\Skin\\GatherOrb")
-		sideIcon:RegisterForClicks("LeftButtonUp","RightButtonUp")
-		sideIcon:SetScript("OnClick", click)
-		sideIcon.tip = {
-			"Gatherer",
-			"Gatherer is an addon that allows you to remember your gathering locations and view them on either or all of your main map, your minimap, or in an onscreen display HUD. It also allows you to share your finds with your guild, raid or your friends",
-			"{{Click}} to toggle display of nodes.",
-			"{{Shift-Click}} to toggle HUD display.",
-			"{{Right-Click}} to view the gather report.",
-			"{{Shift-Right-Click}} to configure.",
-		}
+--moved into a function so we can delay LDB creation until after saved variables have been loaded.
+function miniIcon.CreateLDB()
+	if LibStub then
+		local LibDataBroker = LibStub:GetLibrary("LibDataBroker-1.1", true)
+		if LibDataBroker then
+			local Desaturated = not Gatherer.Config.GetSetting("minimap.enable") --we want the opposite boolean of the enabled state
+			sideIcon = LibDataBroker:NewDataObject("Gatherer", {
+						type = "launcher",
+						icon = "Interface\\AddOns\\Gatherer\\Skin\\GatherOrb",
+						OnClick = function(self, button)
+							click(self, button)
+						end,
+						--this is a special method for slidebar. Sets the inital button saturation state. true = desaturated
+						iconDesaturated = Desaturated
+					})
+					
+			function sideIcon:OnTooltipShow()
+				self:AddLine("Gatherer",  1,1,0.5, 1)
+				self:AddLine("Gatherer is an addon that allows you to remember your gathering locations and view them on either or all of your main map, your minimap, or in an onscreen display HUD. It also allows you to share your finds with your guild, raid or your friends",  1,1,0.5, 1)
+				self:AddLine("|cff1fb3ff".."Click|r to toggle display of nodes.",  1,1,0.5, 1 )
+				self:AddLine("|cff1fb3ff".."Shift-Click|r to toggle HUD display.", 1,1,0.5, 1 )
+				self:AddLine("|cff1fb3ff".."Right-Click|r to view the gather report.",  1,1,0.5, 1)
+				self:AddLine("|cff1fb3ff".."Shift-Right-Click|r to edit the configuration.",  1,1,0.5, 1)
+			end
+			function sideIcon:OnEnter()
+				GameTooltip:SetOwner(self, "ANCHOR_NONE")
+				GameTooltip:SetPoint("TOPLEFT", self, "BOTTOMLEFT")
+				GameTooltip:ClearLines()
+				sideIcon.OnTooltipShow(GameTooltip)
+				GameTooltip:Show()
+			end
+			function sideIcon:OnLeave()
+				GameTooltip:Hide()
+			end
+		end
 	end
 end
 
 function miniIcon.Update()
 	local enabled = Gatherer.Config.GetSetting("minimap.enable")
 	miniIcon.icon:SetDesaturated(not enabled)
-	if ( sideIcon ) then
-		sideIcon.icon:SetDesaturated(not enabled)
+	--this will allow gatherer to desaturate its icon, only on slidebar.
+	if sideIcon and sideIcon.button and sideIcon.button.icon then
+		sideIcon.button.icon:SetDesaturated(not enabled)
 	end
 end

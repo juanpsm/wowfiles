@@ -1,0 +1,48 @@
+MACRO 16777220 "." Ability_Creature_Poison_02
+showtoo
+/tip
+/cast (target=derec) innervate
+END
+MACRO 16777228 "/catttttttttctct" Ability_Hunter_Pet_DragonHawk
+/use Prowl
+/use Cat Form(Shapeshift)
+END
+MACRO 16777226 "/roll" Ability_Druid_CatForm
+/roll
+END
+MACRO 16777231 "2112" Ability_Creature_Disease_04
+/use Nature's Swiftness
+/use Healing Touch
+END
+MACRO 16777221 "50¡¡¡¡¡¡¡¡¡" Ability_Mount_Charger
+/usar draco albino
+END
+MACRO 16777230 "afk" INV_Misc_QuestionMark
+/afk
+END
+MACRO 16777222 "aractic" Ability_Druid_Maul
+/use High-powered Flashlight
+/use /dance
+END
+MACRO 16777223 "bye" Ability_Mage_IncantersAbsorbtion
+/Logout
+END
+MACRO 16777224 "curar" Ability_Mount_WhiteTiger
+/use |cff71d5ff|Hspell:55480|h[Lifeblood]|h|r
+END
+MACRO 16777229 "dsadf" INV_Misc_QuestionMark
+.miratedebg
+END
+MACRO 16777219 "invite" ABILITY_DRUID_DEMORALIZINGROAR
+/5  compro Tigerseye
+END
+MACRO 16777225 "PARTY " Spell_Arcane_TeleportIronForge
+/5 PARTY PARA WG
+END
+MACRO 16777232 "pollo" INV_Misc_QuestionMark
+/pollo
+END
+MACRO 16777227 "staf" Ability_Creature_Disease_04
+/use Starfall
+/use Barkskin
+END

@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["profiles"] = {
+		["Skombrow - WoWArg"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Skombrow - WoWArg"] = "Skombrow - WoWArg",
+	},
+	["profiles"] = {
+		["Skombrow - WoWArg"] = {
+		},
+	},
+}

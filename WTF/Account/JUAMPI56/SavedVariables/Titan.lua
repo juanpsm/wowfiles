@@ -1,7 +1,1400 @@
 
 TitanSettings = {
 	["Players"] = {
-		["Trolly@WoWArg"] = {
+		["Snts@WoWArg"] = {
+			["Plugins"] = {
+				["LDBT_Grid"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Bag"] = {
+					["CountProfBagSlots"] = false,
+					["ShowColoredText"] = 1,
+					["CountShardBagSlots"] = false,
+					["ShowUsedSlots"] = 1,
+					["CountAmmoPouchSlots"] = false,
+					["ShowIcon"] = 1,
+					["ShowDetailedInfo"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowColoredText"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Bartender4"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+					["ShowSimpleNumOfGains"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_GearScore"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["Ammo"] = {
+					["ShowColoredText"] = 1,
+					["ShowAmmoName"] = false,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LootType"] = {
+					["RandomRoll"] = 100,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+					["DungeonDiffType"] = "AUTO",
+					["ShowDungeonDiff"] = false,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["TitanRegen"] = {
+					["ShowPercentage"] = false,
+					["ShowColoredText"] = false,
+					["ShowHPRegen"] = 1,
+					["ShowMPRegen"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = false,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = 1,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = 1,
+					["NumOfAddons"] = 5,
+					["ShowFPS"] = 1,
+				},
+				["LDBT_Omen"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 1,
+					["VolumeSFX"] = 0.5,
+					["VolumeAmbience"] = 0.5,
+					["VolumeMusic"] = 0.5,
+					["VolumeOutboundChat"] = 1,
+					["OverrideBlizzSettings"] = false,
+				},
+				["HealBot"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["HideTipsInCombat"] = false,
+				["FontSize"] = 10,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["ScreenAdjust"] = false,
+				["ButtonSpacing"] = 20,
+				["MinimapAdjust"] = false,
+				["BothBars"] = false,
+				["VersionShown"] = 1,
+				["Location"] = {
+					"Bar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"Bar", -- [6]
+					"Bar", -- [7]
+					"AuxBar", -- [8]
+					"Bar", -- [9]
+				},
+				["AutoHide"] = false,
+				["TooltipTrans"] = 1,
+				["AuxTransparency"] = 0.7,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["AuxScreenAdjust"] = false,
+				["LockButtons"] = false,
+				["AuxAutoHide"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"Coords", -- [1]
+					"XP", -- [2]
+					"GoldTracker", -- [3]
+					"Clock", -- [4]
+					"Volume", -- [5]
+					"AutoHide", -- [6]
+					"Bag", -- [7]
+					"AuxAutoHide", -- [8]
+					"Repair", -- [9]
+				},
+				["FontName"] = "Friz Quadrata TT",
+				["DoubleBar"] = 1,
+				["FrameStrata"] = "DIALOG",
+				["DisableTooltipFont"] = 1,
+				["ToolTipsShown"] = 1,
+				["Transparency"] = 0.7,
+				["AuxButtonAlign"] = 1,
+				["Position"] = 1,
+				["TicketAdjust"] = 1,
+				["TooltipFont"] = 1,
+				["AuxDoubleBar"] = 1,
+				["LogAdjust"] = false,
+			},
+		},
+		["Eldorath@WoWArg"] = {
+			["Plugins"] = {
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["Bag"] = {
+					["CountProfBagSlots"] = false,
+					["ShowColoredText"] = 1,
+					["CountShardBagSlots"] = false,
+					["ShowUsedSlots"] = 1,
+					["CountAmmoPouchSlots"] = false,
+					["ShowIcon"] = 1,
+					["ShowDetailedInfo"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = false,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = 1,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = 1,
+					["NumOfAddons"] = 5,
+					["ShowFPS"] = 1,
+				},
+				["LDBT_Bartender4"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+					["ShowSimpleNumOfGains"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_GearScore"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowColoredText"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["LootType"] = {
+					["RandomRoll"] = 100,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+					["DungeonDiffType"] = "AUTO",
+					["ShowDungeonDiff"] = false,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 0.1000000238418579,
+					["VolumeSFX"] = 0.6000000238418579,
+					["VolumeAmbience"] = 0.6000000238418579,
+					["VolumeMusic"] = 0.6000000238418579,
+					["VolumeOutboundChat"] = 1.000000033527613,
+					["OverrideBlizzSettings"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Omen"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Ammo"] = {
+					["ShowColoredText"] = 1,
+					["ShowAmmoName"] = false,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["TitanRegen"] = {
+					["ShowPercentage"] = false,
+					["ShowColoredText"] = false,
+					["ShowHPRegen"] = 1,
+					["ShowMPRegen"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Grid"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["HealBot"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["HideTipsInCombat"] = false,
+				["FontSize"] = 10,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["ScreenAdjust"] = false,
+				["ButtonSpacing"] = 20,
+				["MinimapAdjust"] = false,
+				["BothBars"] = false,
+				["VersionShown"] = 1,
+				["Location"] = {
+					"Bar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"Bar", -- [6]
+					"Bar", -- [7]
+					"AuxBar", -- [8]
+					"Bar", -- [9]
+				},
+				["AutoHide"] = false,
+				["TooltipTrans"] = 1,
+				["AuxTransparency"] = 0.7,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["AuxScreenAdjust"] = false,
+				["LockButtons"] = false,
+				["AuxAutoHide"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"Coords", -- [1]
+					"XP", -- [2]
+					"GoldTracker", -- [3]
+					"Clock", -- [4]
+					"Volume", -- [5]
+					"AutoHide", -- [6]
+					"Bag", -- [7]
+					"AuxAutoHide", -- [8]
+					"Repair", -- [9]
+				},
+				["FontName"] = "Friz Quadrata TT",
+				["DoubleBar"] = 1,
+				["FrameStrata"] = "DIALOG",
+				["DisableTooltipFont"] = 1,
+				["ToolTipsShown"] = 1,
+				["Transparency"] = 0.7,
+				["AuxButtonAlign"] = 1,
+				["Position"] = 1,
+				["TicketAdjust"] = 1,
+				["TooltipFont"] = 1,
+				["AuxDoubleBar"] = 1,
+				["LogAdjust"] = false,
+			},
+		},
+		["Deadly@WoWArg"] = {
+			["Plugins"] = {
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["Bag"] = {
+					["CountProfBagSlots"] = false,
+					["ShowColoredText"] = 1,
+					["CountShardBagSlots"] = false,
+					["ShowUsedSlots"] = 1,
+					["CountAmmoPouchSlots"] = false,
+					["ShowIcon"] = 1,
+					["ShowDetailedInfo"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LootType"] = {
+					["RandomRoll"] = 100,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+					["DungeonDiffType"] = "AUTO",
+					["ShowDungeonDiff"] = false,
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowColoredText"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Bartender4"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+					["ShowSimpleNumOfGains"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_GearScore"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = false,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = 1,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = 1,
+					["NumOfAddons"] = 5,
+					["ShowFPS"] = 1,
+				},
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 1,
+					["VolumeSFX"] = 0.5,
+					["VolumeAmbience"] = 0.5,
+					["VolumeMusic"] = 0.5,
+					["VolumeOutboundChat"] = 1,
+					["OverrideBlizzSettings"] = false,
+				},
+				["LDBT_Omen"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["LDBT_Grid"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["HideTipsInCombat"] = false,
+				["TooltipTrans"] = 1,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["ScreenAdjust"] = false,
+				["ButtonSpacing"] = 20,
+				["MinimapAdjust"] = false,
+				["BothBars"] = false,
+				["FontSize"] = 10,
+				["Location"] = {
+					"Bar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"AuxBar", -- [6]
+					"Bar", -- [7]
+				},
+				["AutoHide"] = false,
+				["AuxAutoHide"] = false,
+				["VersionShown"] = 1,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["AuxScreenAdjust"] = false,
+				["LogAdjust"] = false,
+				["LockButtons"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"XP", -- [1]
+					"Clock", -- [2]
+					"Volume", -- [3]
+					"AutoHide", -- [4]
+					"Bag", -- [5]
+					"AuxAutoHide", -- [6]
+					"Repair", -- [7]
+				},
+				["FontName"] = "Friz Quadrata TT",
+				["DoubleBar"] = 1,
+				["AuxButtonAlign"] = 1,
+				["DisableTooltipFont"] = 1,
+				["ToolTipsShown"] = 1,
+				["Transparency"] = 0.7,
+				["FrameStrata"] = "DIALOG",
+				["Position"] = 1,
+				["TicketAdjust"] = 1,
+				["TooltipFont"] = 1,
+				["AuxDoubleBar"] = 1,
+				["AuxTransparency"] = 0.7,
+			},
+		},
+		["Fjaak@WoWArg"] = {
+			["Plugins"] = {
+				["LDBT_Grid"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Bag"] = {
+					["CountProfBagSlots"] = false,
+					["ShowColoredText"] = 1,
+					["CountShardBagSlots"] = false,
+					["ShowUsedSlots"] = 1,
+					["CountAmmoPouchSlots"] = false,
+					["ShowIcon"] = 1,
+					["ShowDetailedInfo"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowColoredText"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Bartender4"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+					["ShowSimpleNumOfGains"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_GearScore"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["Ammo"] = {
+					["ShowColoredText"] = 1,
+					["ShowAmmoName"] = false,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LootType"] = {
+					["RandomRoll"] = 100,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+					["DungeonDiffType"] = "AUTO",
+					["ShowDungeonDiff"] = false,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["TitanRegen"] = {
+					["ShowPercentage"] = false,
+					["ShowColoredText"] = false,
+					["ShowHPRegen"] = 1,
+					["ShowMPRegen"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = false,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = 1,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = 1,
+					["NumOfAddons"] = 5,
+					["ShowFPS"] = 1,
+				},
+				["LDBT_Omen"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 1,
+					["VolumeSFX"] = 0.5,
+					["VolumeAmbience"] = 0.5,
+					["VolumeMusic"] = 0.5,
+					["VolumeOutboundChat"] = 1,
+					["OverrideBlizzSettings"] = false,
+				},
+				["HealBot"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["HideTipsInCombat"] = false,
+				["FontSize"] = 10,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["ScreenAdjust"] = false,
+				["ButtonSpacing"] = 20,
+				["MinimapAdjust"] = false,
+				["BothBars"] = false,
+				["VersionShown"] = 1,
+				["Location"] = {
+					"Bar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"Bar", -- [6]
+					"Bar", -- [7]
+					"AuxBar", -- [8]
+					"Bar", -- [9]
+				},
+				["AutoHide"] = false,
+				["TooltipTrans"] = 1,
+				["AuxTransparency"] = 0.7,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["AuxScreenAdjust"] = false,
+				["LockButtons"] = false,
+				["AuxAutoHide"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"Coords", -- [1]
+					"XP", -- [2]
+					"GoldTracker", -- [3]
+					"Clock", -- [4]
+					"Volume", -- [5]
+					"AutoHide", -- [6]
+					"Bag", -- [7]
+					"AuxAutoHide", -- [8]
+					"Repair", -- [9]
+				},
+				["FontName"] = "Friz Quadrata TT",
+				["DoubleBar"] = 1,
+				["FrameStrata"] = "DIALOG",
+				["DisableTooltipFont"] = 1,
+				["ToolTipsShown"] = 1,
+				["Transparency"] = 0.7,
+				["AuxButtonAlign"] = 1,
+				["Position"] = 1,
+				["TicketAdjust"] = 1,
+				["TooltipFont"] = 1,
+				["AuxDoubleBar"] = 1,
+				["LogAdjust"] = false,
+			},
+		},
+		["Draenoric@WoWArg"] = {
+			["Plugins"] = {
+				["LDBT_Grid"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["Bag"] = {
+					["CountProfBagSlots"] = false,
+					["ShowColoredText"] = 1,
+					["CountShardBagSlots"] = false,
+					["ShowUsedSlots"] = 1,
+					["CountAmmoPouchSlots"] = false,
+					["ShowIcon"] = 1,
+					["ShowDetailedInfo"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["HideGameTimeMinimap"] = false,
+					["DisplayOnRightSide"] = 1,
+					["ShowColoredText"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Bartender4"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+					["ShowSimpleNumOfGains"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_GearScore"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["Ammo"] = {
+					["ShowColoredText"] = 1,
+					["ShowAmmoName"] = false,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LootType"] = {
+					["RandomRoll"] = 100,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = false,
+					["DungeonDiffType"] = "AUTO",
+					["ShowDungeonDiff"] = false,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = false,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["TitanRegen"] = {
+					["ShowPercentage"] = false,
+					["ShowColoredText"] = false,
+					["ShowHPRegen"] = 1,
+					["ShowMPRegen"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = false,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = false,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = false,
+					["NumOfAddons"] = 5,
+					["ShowFPS"] = 1,
+				},
+				["LDBT_Omen"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 1,
+					["VolumeSFX"] = 0.5,
+					["VolumeAmbience"] = 0.5,
+					["VolumeMusic"] = 0.5,
+					["VolumeOutboundChat"] = 1,
+					["OverrideBlizzSettings"] = false,
+				},
+				["HealBot"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["HideTipsInCombat"] = false,
+				["FontSize"] = 10,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["LogAdjust"] = false,
+				["ButtonSpacing"] = 20,
+				["MinimapAdjust"] = false,
+				["BothBars"] = false,
+				["VersionShown"] = 1,
+				["Location"] = {
+					"Bar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"Bar", -- [6]
+				},
+				["AutoHide"] = 1,
+				["TooltipTrans"] = 1,
+				["AuxTransparency"] = 0.7,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["AuxScreenAdjust"] = false,
+				["AuxAutoHide"] = false,
+				["LockButtons"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"AutoHide", -- [1]
+					"LDBT_AtlasLoot", -- [2]
+					"LDBT_Bartender4", -- [3]
+					"LDBT_Grid", -- [4]
+					"LDBT_Atlas", -- [5]
+					"LDBT_Altoholic", -- [6]
+				},
+				["FontName"] = "Friz Quadrata TT",
+				["DoubleBar"] = 1,
+				["AuxButtonAlign"] = 1,
+				["DisableTooltipFont"] = 1,
+				["ToolTipsShown"] = 1,
+				["Transparency"] = 0.7,
+				["FrameStrata"] = "DIALOG",
+				["Position"] = 1,
+				["TicketAdjust"] = 1,
+				["TooltipFont"] = 1,
+				["AuxDoubleBar"] = 1,
+				["ScreenAdjust"] = false,
+			},
+		},
+		["Skombrow@WoWArg"] = {
+			["Plugins"] = {
+				["Repair"] = {
+					["ShowColoredText"] = false,
+					["IgnoreThrown"] = false,
+					["AutoRepair"] = false,
+					["DiscountFriendly"] = false,
+					["ShowIcon"] = 1,
+					["ShowDiscounts"] = true,
+					["ShowDurabilityFrame"] = 1,
+					["ShowUndamaged"] = false,
+					["ShowPercentage"] = false,
+					["DiscountRevered"] = false,
+					["ShowInventory"] = 1,
+					["UseGuildBank"] = false,
+					["ShowRepairCost"] = 1,
+					["ShowLabelText"] = false,
+					["ShowCosts"] = true,
+					["DiscountExalted"] = false,
+					["ShowMostDmgPer"] = 1,
+					["ShowItems"] = true,
+					["AutoRepairReport"] = false,
+					["DiscountHonored"] = false,
+					["ShowPopup"] = false,
+					["ShowMostDamaged"] = false,
+				},
+				["Bag"] = {
+					["CountShardBagSlots"] = false,
+					["CountProfBagSlots"] = false,
+					["ShowIcon"] = 1,
+					["ShowUsedSlots"] = 1,
+					["CountAmmoPouchSlots"] = false,
+					["ShowColoredText"] = 1,
+					["ShowDetailedInfo"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["Ammo"] = {
+					["ShowColoredText"] = 1,
+					["ShowAmmoName"] = false,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LootType"] = {
+					["RandomRoll"] = 100,
+					["ShowIcon"] = 1,
+					["ShowDungeonDiff"] = false,
+					["DungeonDiffType"] = "AUTO",
+					["ShowLabelText"] = false,
+				},
+				["AutoHide_Bar"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["Performance"] = {
+					["ShowAddonMemory"] = false,
+					["ShowMemory"] = 1,
+					["AddonMemoryType"] = 1,
+					["ShowLatency"] = 1,
+					["ShowLabelText"] = false,
+					["ShowIcon"] = false,
+					["ShowAddonIncRate"] = false,
+					["ShowColoredText"] = 1,
+					["NumOfAddons"] = 5,
+					["ShowFPS"] = 1,
+				},
+				["LDBT_DrDamage"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = 1,
+				},
+				["AutoHide_AuxBar"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 0.1000000238418579,
+					["VolumeSFX"] = 0.6000000238418579,
+					["VolumeAmbience"] = 0.6000000238418579,
+					["OverrideBlizzSettings"] = false,
+					["VolumeOutboundChat"] = 1.000000033527613,
+					["VolumeMusic"] = 0.6000000238418579,
+				},
+				["Clock"] = {
+					["OffsetHour"] = 0,
+					["ShowColoredText"] = false,
+					["DisplayOnRightSide"] = 1,
+					["HideGameTimeMinimap"] = false,
+					["Format"] = "12H",
+					["TimeMode"] = "Server",
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Bartender4"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["XP"] = {
+					["ShowSimpleNumOfKills"] = false,
+					["ShowIcon"] = 1,
+					["ShowSimpleRested"] = false,
+					["ShowSimpleToLevel"] = false,
+					["ShowLabelText"] = 1,
+					["ShowSimpleNumOfGains"] = false,
+					["DisplayType"] = "ShowXPPerHourSession",
+				},
+				["TitanRegen"] = {
+					["ShowPercentage"] = false,
+					["ShowColoredText"] = false,
+					["ShowHPRegen"] = 1,
+					["ShowMPRegen"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_GearScore"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["AuxAutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar",
+				},
+				["LDBT_Omen"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Grid"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["AutoHide_Bar2"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar2",
+				},
+				["Coords"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLocOnMiniMap"] = 1,
+					["ShowCoordsOnMap"] = 1,
+					["CoordsFormat2"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat3"] = false,
+				},
+				["LDBT_AtlasLoot"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["LDBT_Atlas"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["AutoHide"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "Bar",
+				},
+				["Gatherer"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = true,
+					["ShowLabelText"] = true,
+				},
+				["AutoHide_AuxBar2"] = {
+					["DisplayOnRightSide"] = 1,
+					["ForceBar"] = "AuxBar2",
+				},
+				["Ovale"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = true,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = true,
+				},
+				["Location"] = {
+					["ShowColoredText"] = 1,
+					["ShowZoneText"] = 1,
+					["ShowCursorOnMap"] = true,
+					["ShowLabelText"] = 1,
+					["CoordsFormat3"] = false,
+					["ShowIcon"] = 1,
+					["UpdateWorldmap"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat2"] = false,
+					["ShowCoordsOnMap"] = true,
+					["ShowLocOnMiniMap"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = false,
+					["ShowLabelText"] = false,
+				},
+				["BagnonLauncher"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = true,
+					["ShowRegularText"] = false,
+					["DisplayOnRightSide"] = true,
+					["ShowLabelText"] = true,
+				},
+				["HealBot"] = {
+					["ShowColoredText"] = 1,
+					["ShowIcon"] = 1,
+					["ShowLabelText"] = 1,
+				},
+			},
+			["Panel"] = {
+				["FontSize"] = 10,
+				["HideTipsInCombat"] = false,
+				["ButtonAlign"] = 1,
+				["Scale"] = 1,
+				["ToolTipsShown"] = 1,
+				["ButtonSpacing"] = 20,
+				["AuxDoubleBar"] = 1,
+				["BothBars"] = false,
+				["AuxTransparency"] = 0.7,
+				["Location"] = {
+					"Bar", -- [1]
+					"Bar", -- [2]
+					"Bar", -- [3]
+					"Bar", -- [4]
+					"Bar", -- [5]
+					"Bar", -- [6]
+					"Bar", -- [7]
+					"Bar", -- [8]
+					"Bar", -- [9]
+					"Bar", -- [10]
+				},
+				["AutoHide"] = false,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["VersionShown"] = 1,
+				["TooltipTrans"] = 1,
+				["AuxScreenAdjust"] = false,
+				["LockButtons"] = false,
+				["AuxAutoHide"] = false,
+				["BagAdjust"] = 1,
+				["Buttons"] = {
+					"Volume", -- [1]
+					"AutoHide", -- [2]
+					"Performance", -- [3]
+					"GoldTracker", -- [4]
+					"LDBT_Grid", -- [5]
+					"LDBT_Bartender4", -- [6]
+					"LDBT_AtlasLoot", -- [7]
+					"TitanRegen", -- [8]
+					"Repair", -- [9]
+					"LootType", -- [10]
+				},
+				["FrameStrata"] = "DIALOG",
+				["DoubleBar"] = 1,
+				["FontName"] = "Friz Quadrata TT",
+				["LogAdjust"] = false,
+				["DisableTooltipFont"] = 1,
+				["Transparency"] = 0.7000000000000001,
+				["AuxButtonAlign"] = 1,
+				["Position"] = 1,
+				["TicketAdjust"] = 1,
+				["TooltipFont"] = 1,
+				["MinimapAdjust"] = false,
+				["ScreenAdjust"] = false,
+			},
+		},
+		["Doroteo@WoWArg"] = {
 			["Plugins"] = {
 				["LDBT_Grid"] = {
 					["ShowColoredText"] = false,
@@ -20,11 +1413,16 @@ TitanSettings = {
 					["ShowDetailedInfo"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Ammo"] = {
-					["ShowAmmoName"] = false,
+				["Coords"] = {
 					["ShowColoredText"] = 1,
-					["ShowIcon"] = 1,
+					["ShowZoneText"] = 1,
 					["ShowLabelText"] = 1,
+					["ShowIcon"] = 1,
+					["CoordsFormat3"] = false,
+					["CoordsFormat1"] = 1,
+					["CoordsFormat2"] = false,
+					["ShowCoordsOnMap"] = 1,
+					["ShowLocOnMiniMap"] = 1,
 				},
 				["LDBT_DrDamage"] = {
 					["ShowColoredText"] = false,
@@ -73,23 +1471,20 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ForceBar"] = "AuxBar",
 				},
-				["LDBT_Broker_Portals"] = {
-					["ShowColoredText"] = false,
+				["Ammo"] = {
+					["ShowAmmoName"] = false,
+					["ShowColoredText"] = 1,
 					["ShowIcon"] = 1,
-					["ShowRegularText"] = 1,
-					["DisplayOnRightSide"] = false,
 					["ShowLabelText"] = 1,
 				},
-				["Coords"] = {
-					["ShowColoredText"] = 1,
-					["ShowZoneText"] = 1,
-					["ShowLabelText"] = 1,
-					["ShowIcon"] = 1,
-					["CoordsFormat3"] = false,
-					["CoordsFormat1"] = 1,
-					["CoordsFormat2"] = false,
-					["ShowCoordsOnMap"] = 1,
-					["ShowLocOnMiniMap"] = 1,
+				["Volume"] = {
+					["VolumeInboundChat"] = 1,
+					["VolumeMaster"] = 1,
+					["VolumeSFX"] = 0.5,
+					["OverrideBlizzSettings"] = false,
+					["VolumeMusic"] = 0.5,
+					["VolumeOutboundChat"] = 1,
+					["VolumeAmbience"] = 0.5,
 				},
 				["LDBT_Atlas"] = {
 					["ShowColoredText"] = false,
@@ -129,27 +1524,11 @@ TitanSettings = {
 					["DisplayOnRightSide"] = 1,
 					["ShowLabelText"] = 1,
 				},
-				["Volume"] = {
-					["VolumeInboundChat"] = 1,
-					["VolumeMaster"] = 1,
-					["VolumeSFX"] = 0.5,
-					["OverrideBlizzSettings"] = false,
-					["VolumeMusic"] = 0.5,
-					["VolumeOutboundChat"] = 1,
-					["VolumeAmbience"] = 0.5,
-				},
 				["LDBT_Omen"] = {
 					["ShowColoredText"] = false,
 					["ShowIcon"] = 1,
 					["ShowRegularText"] = 1,
 					["DisplayOnRightSide"] = 1,
-					["ShowLabelText"] = 1,
-				},
-				["TitanRegen"] = {
-					["ShowPercentage"] = false,
-					["ShowColoredText"] = false,
-					["ShowHPRegen"] = 1,
-					["ShowMPRegen"] = 1,
 					["ShowLabelText"] = 1,
 				},
 				["Performance"] = {
@@ -163,6 +1542,20 @@ TitanSettings = {
 					["ShowColoredText"] = 1,
 					["NumOfAddons"] = 5,
 					["ShowFPS"] = 1,
+				},
+				["TitanRegen"] = {
+					["ShowPercentage"] = false,
+					["ShowColoredText"] = false,
+					["ShowHPRegen"] = 1,
+					["ShowMPRegen"] = 1,
+					["ShowLabelText"] = 1,
+				},
+				["LDBT_Altoholic"] = {
+					["ShowColoredText"] = false,
+					["ShowIcon"] = 1,
+					["ShowRegularText"] = 1,
+					["DisplayOnRightSide"] = 1,
+					["ShowLabelText"] = 1,
 				},
 				["LootType"] = {
 					["RandomRoll"] = 100,
@@ -179,17 +1572,17 @@ TitanSettings = {
 			},
 			["Panel"] = {
 				["HideTipsInCombat"] = false,
-				["AuxTransparency"] = 0.7,
+				["ScreenAdjust"] = false,
 				["ButtonAlign"] = 1,
 				["Scale"] = 1,
-				["ScreenAdjust"] = false,
+				["LogAdjust"] = false,
 				["ButtonSpacing"] = 20,
 				["AuxDoubleBar"] = 1,
 				["BothBars"] = false,
-				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
+				["AuxTransparency"] = 0.7,
 				["TicketAdjust"] = 1,
 				["AutoHide"] = false,
-				["LogAdjust"] = false,
+				["TexturePath"] = "Interface\\AddOns\\Titan\\Artwork\\",
 				["VersionShown"] = 1,
 				["TooltipTrans"] = 1,
 				["AuxScreenAdjust"] = false,
@@ -232,86 +1625,10 @@ TitanSettings = {
 			},
 		},
 	},
-	["Player"] = "Trolly@WoWArg",
+	["Player"] = "Deadly@WoWArg",
 	["Version"] = "4.3.8.30300",
 }
 TitanSkins = {
-	{
-		["name"] = "Titan Default",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\",
-	}, -- [1]
-	{
-		["name"] = "Christmas",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Christmas Skin\\",
-	}, -- [2]
-	{
-		["name"] = "Charcoal Metal",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Charcoal Metal\\",
-	}, -- [3]
-	{
-		["name"] = "Crusader",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Crusader Skin\\",
-	}, -- [4]
-	{
-		["name"] = "Cursed Orange",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Cursed Orange Skin\\",
-	}, -- [5]
-	{
-		["name"] = "Dark Wood",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Dark Wood Skin\\",
-	}, -- [6]
-	{
-		["name"] = "Deep Cave",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Deep Cave Skin\\",
-	}, -- [7]
-	{
-		["name"] = "Elfwood",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Elfwood Skin\\",
-	}, -- [8]
-	{
-		["name"] = "Engineer",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Engineer Skin\\",
-	}, -- [9]
-	{
-		["name"] = "Frozen Metal",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Frozen Metal Skin\\",
-	}, -- [10]
-	{
-		["name"] = "Graphic",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Graphic Skin\\",
-	}, -- [11]
-	{
-		["name"] = "Graveyard",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Graveyard Skin\\",
-	}, -- [12]
-	{
-		["name"] = "Hidden Leaf",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Hidden Leaf Skin\\",
-	}, -- [13]
-	{
-		["name"] = "Holy Warrior",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Holy Warrior Skin\\",
-	}, -- [14]
-	{
-		["name"] = "Nightlife",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Nightlife Skin\\",
-	}, -- [15]
-	{
-		["name"] = "Orgrimmar",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Orgrimmar Skin\\",
-	}, -- [16]
-	{
-		["name"] = "Plate",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Plate Skin\\",
-	}, -- [17]
-	{
-		["name"] = "Tribal",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\Tribal Skin\\",
-	}, -- [18]
-	{
-		["name"] = "X-Perl",
-		["path"] = "Interface\\AddOns\\Titan\\Artwork\\Custom\\X-Perl\\",
-	}, -- [19]
 }
 ServerTimeOffsets = {
 	["WoWArg"] = 0,
